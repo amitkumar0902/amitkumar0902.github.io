@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARP - Amit Kumar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .blog-header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #1772d0;
+            margin-bottom: 40px;
+        }
+        
+        .blog-header h1 {
+            font-size: 32px;
+            color: #1772d0;
+            margin: 0 0 15px 0;
+            line-height: 1.2;
+        }
+        
+        .blog-meta {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .blog-content {
+            padding: 0 20px;
+            line-height: 1.8;
+        }
+        
+        .blog-content h2 {
+            font-size: 24px;
+            color: #1772d0;
+            margin: 40px 0 20px 0;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+        
+        .blog-content h3 {
+            font-size: 20px;
+            color: #333;
+            margin: 30px 0 15px 0;
+        }
+        
+        .blog-content p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .blog-content ul, .blog-content ol {
+            font-size: 16px;
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+        
+        .blog-content li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight-box {
+            background: #e3f2fd;
+            border-left: 4px solid #1772d0;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .key-insight {
+            background: #f3e5f5;
+            border-left: 4px solid #9c27b0;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+        
+        .slides-reference {
+            background: #fff3e0;
+            border: 2px solid #f09228;
+            padding: 20px;
+            margin: 40px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .slides-reference a {
+            color: #f09228;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .slides-reference a:hover {
+            color: #1772d0;
+        }
+        
+        .back-link {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid #e9ecef;
+            margin-top: 40px;
+        }
+        
+        .back-link a {
+            color: #1772d0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link a:hover {
+            color: #f09228;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blog-header">
+            <h1>WARP: Weight Averaged Rewarded Policies for RLHF Alignment</h1>
+            <p class="blog-meta">Insights from my presentation on weight averaging for better AI alignment</p>
+        </div>
+        
+        <div class="blog-content">
+            <div class="highlight-box">
+                <strong>Key Innovation:</strong> WARP improves RLHF alignment by averaging weights of multiple rewarded policies, leading to more robust and better-aligned AI systems while reducing computational overhead.
+            </div>
+
+            <h2>The Challenge of AI Alignment</h2>
+            <p>Reinforcement Learning from Human Feedback (RLHF) has become the standard approach for aligning large language models with human preferences. However, traditional RLHF methods face challenges in stability, computational efficiency, and robustness.</p>
+
+            <p>In my presentation, I explored how WARP addresses these challenges through an innovative weight averaging approach that improves both the efficiency and effectiveness of the alignment process.</p>
+
+            <h2>Understanding RLHF Limitations</h2>
+            <p>Traditional RLHF approaches face several key challenges:</p>
+
+            <h3>Current RLHF Issues:</h3>
+            <ul>
+                <li><strong>Training Instability:</strong> Policy optimization can be unstable and sensitive to hyperparameters</li>
+                <li><strong>Computational Cost:</strong> Requires extensive training with reward models and policy optimization</li>
+                <li><strong>Overfitting:</strong> Policies may overfit to specific reward model biases</li>
+                <li><strong>Sample Efficiency:</strong> Requires large amounts of human feedback data</li>
+            </ul>
+
+            <h2>The WARP Innovation</h2>
+            <p>WARP introduces weight averaging as a solution to improve RLHF alignment:</p>
+
+            <div class="key-insight">
+                By averaging the weights of multiple policies trained with different reward signals or training procedures, WARP creates more robust and better-aligned models that generalize better to diverse scenarios.
+            </div>
+
+            <h3>Core Technical Approach:</h3>
+            <ol>
+                <li><strong>Multiple Policy Training:</strong> Train several policies using different RLHF configurations</li>
+                <li><strong>Weight Extraction:</strong> Extract model weights from each trained policy</li>
+                <li><strong>Averaging Process:</strong> Compute weighted average of policy parameters</li>
+                <li><strong>Final Model:</strong> Create unified model with averaged weights</li>
+            </ol>
+
+            <h2>Technical Implementation</h2>
+            <p>Based on my presentation analysis, WARP works through several key mechanisms:</p>
+
+            <h3>Weight Averaging Strategy:</h3>
+            <ul>
+                <li><strong>Policy Diversity:</strong> Train policies with different reward models or training seeds</li>
+                <li><strong>Performance Weighting:</strong> Weight policies based on their alignment performance</li>
+                <li><strong>Geometric Averaging:</strong> Use sophisticated averaging techniques beyond simple arithmetic means</li>
+                <li><strong>Validation:</strong> Ensure averaged model maintains or improves performance</li>
+            </ul>
+
+            <h2>Advantages of Weight Averaging</h2>
+            <p>The research demonstrates several benefits of the WARP approach:</p>
+
+            <h3>Key Benefits:</h3>
+            <ul>
+                <li><strong>Improved Robustness:</strong> Averaged models are less sensitive to individual policy biases</li>
+                <li><strong>Better Generalization:</strong> Enhanced performance across diverse evaluation scenarios</li>
+                <li><strong>Reduced Overfitting:</strong> Averaging mitigates overfitting to specific reward signals</li>
+                <li><strong>Computational Efficiency:</strong> No additional training required after initial policy training</li>
+            </ul>
+
+            <h2>Performance Results</h2>
+            <p>The results from my presentation showed significant improvements:</p>
+
+            <ul>
+                <li><strong>Alignment Quality:</strong> Better performance on human preference benchmarks</li>
+                <li><strong>Robustness:</strong> More consistent behavior across different evaluation contexts</li>
+                <li><strong>Efficiency:</strong> Reduced computational overhead compared to ensemble methods</li>
+                <li><strong>Scalability:</strong> Approach scales well to larger models and datasets</li>
+            </ul>
+
+            <h2>Comparison with Alternative Approaches</h2>
+            <p>My presentation compared WARP with other alignment techniques:</p>
+
+            <h3>Advantages over Traditional Methods:</h3>
+            <ul>
+                <li><strong>vs. Single Policy RLHF:</strong> More robust and less prone to overfitting</li>
+                <li><strong>vs. Ensemble Methods:</strong> Lower computational cost during inference</li>
+                <li><strong>vs. Multi-objective Training:</strong> Simpler implementation and better stability</li>
+                <li><strong>vs. Constitutional AI:</strong> Complementary approach that can be combined</li>
+            </ul>
+
+            <h2>Applications and Use Cases</h2>
+            <p>WARP has broad applications in AI alignment:</p>
+
+            <h3>Practical Applications:</h3>
+            <ul>
+                <li><strong>Chatbot Alignment:</strong> Creating more helpful and harmless conversational AI</li>
+                <li><strong>Content Generation:</strong> Improving safety and quality of generated content</li>
+                <li><strong>Code Generation:</strong> Aligning code generation models with best practices</li>
+                <li><strong>Instruction Following:</strong> Better adherence to user instructions and preferences</li>
+            </ul>
+
+            <h3>Industry Impact:</h3>
+            <ul>
+                <li><strong>AI Safety:</strong> Reducing risks from misaligned AI systems</li>
+                <li><strong>User Experience:</strong> More predictable and reliable AI behavior</li>
+                <li><strong>Deployment Confidence:</strong> Higher confidence in production AI systems</li>
+                <li><strong>Regulatory Compliance:</strong> Better alignment with safety requirements</li>
+            </ul>
+
+            <h2>Implementation Considerations</h2>
+            <p>Key factors for successful WARP deployment:</p>
+
+            <h3>Technical Requirements:</h3>
+            <ul>
+                <li><strong>Policy Diversity:</strong> Ensuring sufficient diversity in training procedures</li>
+                <li><strong>Weight Compatibility:</strong> Verifying that model architectures are compatible for averaging</li>
+                <li><strong>Performance Validation:</strong> Thorough testing of averaged models</li>
+                <li><strong>Hyperparameter Tuning:</strong> Optimizing averaging weights and procedures</li>
+            </ul>
+
+            <h2>Future Directions</h2>
+            <p>The research opens several promising avenues:</p>
+
+            <ul>
+                <li><strong>Adaptive Averaging:</strong> Dynamic weight adjustment based on performance metrics</li>
+                <li><strong>Multi-modal Extension:</strong> Applying to vision-language and other multi-modal models</li>
+                <li><strong>Online Learning:</strong> Continuous updating of averaged models with new feedback</li>
+                <li><strong>Theoretical Analysis:</strong> Deeper understanding of why weight averaging works for alignment</li>
+            </ul>
+
+            <h2>Broader Implications for AI Safety</h2>
+            <p>WARP contributes to the broader AI safety landscape:</p>
+
+            <h3>Safety Benefits:</h3>
+            <ul>
+                <li><strong>Reduced Risk:</strong> Lower probability of catastrophic misalignment</li>
+                <li><strong>Interpretability:</strong> Better understanding of model behavior through averaging</li>
+                <li><strong>Robustness:</strong> More reliable performance across diverse scenarios</li>
+                <li><strong>Scalability:</strong> Approach that scales with model size and complexity</li>
+            </ul>
+
+            <h2>Conclusion</h2>
+            <p>WARP represents an important advancement in AI alignment methodology. By leveraging weight averaging of multiple rewarded policies, it provides a practical and effective approach to improving RLHF outcomes.</p>
+
+            <div class="key-insight">
+                This technique offers a promising path toward more robust and reliable AI alignment, contributing to the development of safer and more beneficial AI systems that better serve human values and preferences.
+            </div>
+
+            <div class="slides-reference">
+                <p><strong>📄 View My Presentation Slides:</strong></p>
+                <a href="pubs/WARP.pdf" target="_blank">WARP: Weight Averaged Rewarded Policies (PDF)</a>
+            </div>
+        </div>
+        
+        <div class="back-link">
+            <a href="blogs.html">← Back to Blog</a>
+        </div>
+    </div>
+</body>
+</html> 

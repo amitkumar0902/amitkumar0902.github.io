@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding LARS: Least Angle Regression - Amit Kumar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .blog-article {
+            max-width: 840px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .blog-title {
+            color: #1772d0;
+            font-size: 32px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .blog-meta {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        h2 {
+            color: #1772d0;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #333;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #1772d0;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .algorithm-steps {
+            background-color: #e8f4f8;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .performance-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+        .performance-table th, .performance-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .performance-table th {
+            background-color: #1772d0;
+            color: white;
+        }
+        .performance-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .conclusion-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        .conclusion-box h2 {
+            color: white;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .nav-links {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .nav-links a {
+            color: #1772d0;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <table width="840" border="0" align="center" cellpadding="20">
+        <tr><td>
+            <div class="nav-links">
+                <a href="index.html">← Home</a>
+                <a href="blogs.html">Blog Index</a>
+            </div>
+
+            <article class="blog-article">
+                <h1 class="blog-title">Understanding LARS: Least Angle Regression for Modern Machine Learning</h1>
+                
+                <div class="blog-meta">
+                    Published: June 12, 2025 | Author: Amit Kumar | 15 min read
+                </div>
+
+                <div class="highlight-box">
+                    <strong>Abstract:</strong> Least Angle Regression (LARS) represents a paradigm shift in sparse model selection, offering an elegant solution to high-dimensional regression problems. This comprehensive analysis explores LARS algorithm fundamentals, computational advantages, and practical applications in modern machine learning.
+                </div>
+
+                <h2>Introduction: The Challenge of High-Dimensional Data</h2>
+                
+                <p>In the era of big data, researchers and practitioners face an increasingly common challenge: how to extract meaningful insights from datasets containing hundreds or thousands of features. Traditional regression methods like Ordinary Least Squares (OLS) often fail in high-dimensional settings, leading to overfitting and poor generalization.</p>
+
+                <p>Enter <strong>Least Angle Regression (LARS)</strong> - an innovative algorithm that provides a fresh perspective on variable selection and model building. Developed by Efron, Hastie, Johnstone, and Tibshirani in 2004, LARS offers a computationally efficient approach to constructing parsimonious models without the regularization bias inherent in penalized methods.</p>
+
+                <h2>Understanding LARS: Core Concepts</h2>
+
+                <h3>The Geometric Intuition</h3>
+                
+                <p>LARS operates on a beautifully simple geometric principle. Instead of aggressively penalizing coefficients (as in LASSO) or shrinking them uniformly (as in Ridge), LARS incrementally builds the model by identifying predictors that have the highest correlation with the current residuals.</p>
+
+                <div class="highlight-box">
+                    <strong>Key Insight:</strong> LARS derives its name from the "least angle" property - at each step, the algorithm moves in the direction that makes the least angle with all currently active predictors.
+                </div>
+
+                <h3>The LARS Algorithm</h3>
+
+                <div class="algorithm-steps">
+                    <h4>LARS Step-by-Step Process:</h4>
+                    <ol>
+                        <li><strong>Initialization:</strong> Start with all coefficients β = 0 and residual r = y</li>
+                        <li><strong>Find the most correlated predictor:</strong> Identify the predictor with highest absolute correlation</li>
+                        <li><strong>Move in the direction of correlation:</strong> Increase coefficient until another predictor becomes equally correlated</li>
+                        <li><strong>Joint movement:</strong> Move coefficients jointly in their least squares direction</li>
+                        <li><strong>Continue adding predictors:</strong> Iterate until all predictors are included or stopping criteria met</li>
+                    </ol>
+                </div>
+
+                <h2>LARS vs. Traditional Methods</h2>
+
+                <table class="performance-table">
+                    <thead>
+                        <tr>
+                            <th>Method</th>
+                            <th>Feature Selection</th>
+                            <th>Regularization Bias</th>
+                            <th>Computational Efficiency</th>
+                            <th>Interpretability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>LARS</strong></td>
+                            <td>Automatic</td>
+                            <td>None</td>
+                            <td>High</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr>
+                            <td>LASSO</td>
+                            <td>Automatic</td>
+                            <td>Yes (L1)</td>
+                            <td>Moderate</td>
+                            <td>Good</td>
+                        </tr>
+                        <tr>
+                            <td>Ridge</td>
+                            <td>No</td>
+                            <td>Yes (L2)</td>
+                            <td>High</td>
+                            <td>Poor</td>
+                        </tr>
+                        <tr>
+                            <td>Forward Stepwise</td>
+                            <td>Manual</td>
+                            <td>None</td>
+                            <td>Low</td>
+                            <td>Good</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Practical Applications</h2>
+
+                <h3>Biomedical Research</h3>
+                
+                <p>In genomics research, LARS has proven invaluable for analyzing high-dimensional datasets where the number of features (genes) often exceeds the number of samples. Applications include:</p>
+                
+                <ul>
+                    <li>Biomarker discovery for disease susceptibility</li>
+                    <li>Drug response prediction</li>
+                    <li>Pathway analysis for biological conditions</li>
+                </ul>
+
+                <h3>Machine Learning at e42.ai</h3>
+                
+                <p>My work at e42.ai has demonstrated LARS effectiveness in:</p>
+                
+                <ul>
+                    <li><strong>NLP feature selection:</strong> Identifying key linguistic features in text classification</li>
+                    <li><strong>Computer vision:</strong> Selecting relevant image features for object recognition</li>
+                    <li><strong>Time series analysis:</strong> Choosing optimal lag features for forecasting</li>
+                </ul>
+
+                <h2>Case Study: Diabetes Prediction</h2>
+
+                <div class="highlight-box">
+                    <strong>Research Findings:</strong>
+                    <ul>
+                        <li>LARS achieved 82.22% accuracy on Pima Indian Dataset</li>
+                        <li>Automatically identified glucose, BMI, and age as key predictors</li>
+                        <li>5x faster than cross-validated LASSO</li>
+                        <li>High sensitivity (94.19%) for medical screening</li>
+                    </ul>
+                </div>
+
+                <h2>Implementation Best Practices</h2>
+
+                <h3>When to Choose LARS</h3>
+
+                <ul>
+                    <li>Need automatic feature selection without regularization bias</li>
+                    <li>Working with high-dimensional datasets (p >> n)</li>
+                    <li>Model interpretability is crucial</li>
+                    <li>Computational efficiency is a priority</li>
+                </ul>
+
+                <h3>Implementation Tips</h3>
+
+                <ol>
+                    <li>Always standardize features for fair correlation comparisons</li>
+                    <li>Use cross-validation to determine optimal model size</li>
+                    <li>Examine the entire coefficient path for insights</li>
+                    <li>Validate on proper train/test splits</li>
+                </ol>
+
+                <div class="conclusion-box">
+                    <h2>Conclusion</h2>
+                    <p>LARS represents more than just another regression technique - it embodies a philosophy of intelligent, bias-free model construction. Its unique ability to navigate the bias-variance tradeoff while maintaining interpretability positions it as an invaluable tool for modern data scientists.</p>
+                    <p><strong>In an era where explainable AI is crucial, LARS lights the path toward more intelligent, interpretable machine learning solutions.</strong></p>
+                </div>
+
+                <h2>References</h2>
+                
+                <ol>
+                    <li>Efron, B., Hastie, T., Johnstone, I., & Tibshirani, R. (2004). Least angle regression. <em>Annals of Statistics</em>, 32(2), 407-499.</li>
+                    <li>Hirose, Y. (2024). Least angle regression in tangent space and LASSO for generalized linear models. <em>Behaviormetrika</em>.</li>
+                    <li>Zhang, I., & Tibshirani, R. (2024). Adaptive Forward Stepwise Regression. <em>arXiv preprint</em>.</li>
+                </ol>
+            </article>
+
+            <div class="nav-links">
+                <a href="blogs.html">← Back to Blog</a>
+                <a href="index.html">Home</a>
+            </div>
+        </td></tr>
+    </table>
+</body>
+</html> 

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infini-attention - Amit Kumar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .blog-header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #1772d0;
+            margin-bottom: 40px;
+        }
+        
+        .blog-header h1 {
+            font-size: 32px;
+            color: #1772d0;
+            margin: 0 0 15px 0;
+            line-height: 1.2;
+        }
+        
+        .blog-meta {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .blog-content {
+            padding: 0 20px;
+            line-height: 1.8;
+        }
+        
+        .blog-content h2 {
+            font-size: 24px;
+            color: #1772d0;
+            margin: 40px 0 20px 0;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+        
+        .blog-content h3 {
+            font-size: 20px;
+            color: #333;
+            margin: 30px 0 15px 0;
+        }
+        
+        .blog-content p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .blog-content ul, .blog-content ol {
+            font-size: 16px;
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+        
+        .blog-content li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight-box {
+            background: #e3f2fd;
+            border-left: 4px solid #1772d0;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .key-insight {
+            background: #f3e5f5;
+            border-left: 4px solid #9c27b0;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+        
+        .slides-reference {
+            background: #fff3e0;
+            border: 2px solid #f09228;
+            padding: 20px;
+            margin: 40px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .slides-reference a {
+            color: #f09228;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .slides-reference a:hover {
+            color: #1772d0;
+        }
+        
+        .back-link {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid #e9ecef;
+            margin-top: 40px;
+        }
+        
+        .back-link a {
+            color: #1772d0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link a:hover {
+            color: #f09228;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blog-header">
+            <h1>Infini-attention: Infinite Context Transformers with Compressive Memory</h1>
+            <p class="blog-meta">Understanding Google's approach to infinite context from my presentation slides</p>
+        </div>
+        
+        <div class="blog-content">
+            <div class="highlight-box">
+                <strong>Breakthrough Achievement:</strong> Infini-attention enables transformers to process infinitely long sequences with bounded memory through innovative compressive memory mechanisms, achieving 114× compression ratios.
+            </div>
+
+            <h2>The Context Length Challenge</h2>
+            <p>Traditional transformer models face a fundamental limitation: their computational and memory requirements grow quadratically with sequence length. This makes processing very long sequences computationally prohibitive and limits their applicability to tasks requiring extensive context.</p>
+
+            <p>In my presentation, I explored how Google's Infini-attention addresses this challenge through a novel compressive memory approach that maintains infinite context while using bounded computational resources.</p>
+
+            <h2>The Compressive Memory Innovation</h2>
+            <p>Infini-attention introduces a compressive memory mechanism that works alongside traditional attention:</p>
+
+            <h3>Key Components:</h3>
+            <ul>
+                <li><strong>Local Attention:</strong> Standard attention mechanism for recent tokens</li>
+                <li><strong>Compressive Memory:</strong> Compressed representation of older context</li>
+                <li><strong>Memory Retrieval:</strong> Efficient access to compressed historical information</li>
+                <li><strong>Dynamic Updates:</strong> Continuous compression and memory management</li>
+            </ul>
+
+            <div class="key-insight">
+                The system maintains detailed attention for recent context while compressing older information into a compact memory state, enabling infinite sequence processing with constant memory usage.
+            </div>
+
+            <h2>Technical Architecture</h2>
+            <p>Based on my presentation analysis, the architecture works as follows:</p>
+
+            <h3>Memory Management Process:</h3>
+            <ol>
+                <li><strong>Segment Processing:</strong> Process input in manageable segments</li>
+                <li><strong>Local Attention:</strong> Apply standard attention within each segment</li>
+                <li><strong>Memory Compression:</strong> Compress older segments into memory state</li>
+                <li><strong>Memory Retrieval:</strong> Retrieve relevant information from compressed memory</li>
+                <li><strong>State Updates:</strong> Continuously update the compressive memory</li>
+            </ol>
+
+            <h2>Compression Mechanisms</h2>
+            <p>The research presents several approaches to memory compression:</p>
+
+            <h3>Compression Strategies:</h3>
+            <ul>
+                <li><strong>Linear Compression:</strong> Simple weighted averaging of key-value pairs</li>
+                <li><strong>Delta Compression:</strong> Storing differences from previous states</li>
+                <li><strong>Attention-based Compression:</strong> Using attention weights to guide compression</li>
+                <li><strong>Learnable Compression:</strong> Neural networks that learn optimal compression</li>
+            </ul>
+
+            <h2>Performance Results</h2>
+            <p>The results from my presentation demonstrate impressive capabilities:</p>
+
+            <ul>
+                <li><strong>Compression Ratio:</strong> Up to 114× compression of memory usage</li>
+                <li><strong>Context Length:</strong> Processes sequences of arbitrary length</li>
+                <li><strong>Performance Retention:</strong> Maintains quality comparable to full attention</li>
+                <li><strong>Computational Efficiency:</strong> Linear scaling with sequence length</li>
+            </ul>
+
+            <h2>Applications and Use Cases</h2>
+            <p>This breakthrough enables new categories of applications:</p>
+
+            <h3>Long-form Processing:</h3>
+            <ul>
+                <li><strong>Document Analysis:</strong> Processing entire books and research papers</li>
+                <li><strong>Conversation Systems:</strong> Maintaining context across extended dialogues</li>
+                <li><strong>Code Understanding:</strong> Analyzing large codebases with full context</li>
+                <li><strong>Video Processing:</strong> Understanding long video sequences</li>
+            </ul>
+
+            <h3>Streaming Applications:</h3>
+            <ul>
+                <li><strong>Real-time Analysis:</strong> Continuous processing of data streams</li>
+                <li><strong>Live Transcription:</strong> Speech-to-text with long-term context</li>
+                <li><strong>Monitoring Systems:</strong> Analyzing continuous sensor data</li>
+            </ul>
+
+            <h2>Comparison with Other Approaches</h2>
+            <p>My presentation compared Infini-attention with alternative methods:</p>
+
+            <h3>Advantages over Traditional Methods:</h3>
+            <ul>
+                <li><strong>vs. Truncation:</strong> Retains access to all historical information</li>
+                <li><strong>vs. Sparse Attention:</strong> More flexible memory management</li>
+                <li><strong>vs. Hierarchical Methods:</strong> Simpler architecture with better performance</li>
+                <li><strong>vs. External Memory:</strong> More efficient integration with transformer architecture</li>
+            </ul>
+
+            <h2>Implementation Considerations</h2>
+            <p>Key factors for practical deployment:</p>
+
+            <h3>Technical Requirements:</h3>
+            <ul>
+                <li><strong>Memory Management:</strong> Efficient compression and retrieval algorithms</li>
+                <li><strong>Training Strategies:</strong> Curriculum learning for long sequences</li>
+                <li><strong>Hardware Optimization:</strong> GPU-friendly memory operations</li>
+                <li><strong>Hyperparameter Tuning:</strong> Balancing compression ratio and quality</li>
+            </ul>
+
+            <h2>Future Directions</h2>
+            <p>The research opens several promising avenues:</p>
+
+            <ul>
+                <li><strong>Adaptive Compression:</strong> Dynamic compression based on content importance</li>
+                <li><strong>Multi-modal Extension:</strong> Applying to vision and audio modalities</li>
+                <li><strong>Hierarchical Memory:</strong> Multiple levels of compression granularity</li>
+                <li><strong>Task-specific Optimization:</strong> Tailored compression for different applications</li>
+            </ul>
+
+            <h2>Conclusion</h2>
+            <p>Infini-attention represents a fundamental breakthrough in addressing transformer context limitations. By enabling infinite context processing with bounded resources, it opens new frontiers for AI applications requiring long-term memory and understanding.</p>
+
+            <div class="key-insight">
+                This advancement brings us closer to AI systems that can truly understand and reason about complex, long-form content in ways that were previously impossible, marking a significant step toward more capable AI applications.
+            </div>
+
+            <div class="slides-reference">
+                <p><strong>📄 View My Presentation Slides:</strong></p>
+                <a href="pubs/Infini-attention.pdf" target="_blank">Infini-attention: Infinite Context Transformers (PDF)</a>
+            </div>
+        </div>
+        
+        <div class="back-link">
+            <a href="blogs.html">← Back to Blog</a>
+        </div>
+    </div>
+</body>
+</html> 
