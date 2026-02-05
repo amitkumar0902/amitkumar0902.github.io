@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review: Nurturing Quotient - Amit Kumar</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: #2c3e50;
+        }
+        
+        .book-review-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .review-header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 3px solid #6c5ce7;
+            margin-bottom: 40px;
+        }
+        
+        .review-label {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        .book-title {
+            font-size: 36px;
+            color: #6c5ce7;
+            margin: 15px 0;
+            font-weight: bold;
+            font-style: italic;
+        }
+        
+        .review-intro {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        
+        .section-divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            margin: 40px auto;
+            border-radius: 2px;
+        }
+        
+        .content-section {
+            margin: 35px 0;
+        }
+        
+        .content-section h2 {
+            color: #6c5ce7;
+            font-size: 26px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8e4f3;
+        }
+        
+        .content-section h3 {
+            color: #a29bfe;
+            font-size: 22px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .content-section p {
+            text-align: justify;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #f5f3ff 0%, #e8e4f3 100%);
+            border-left: 5px solid #6c5ce7;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 0 4px 15px rgba(108, 92, 231, 0.1);
+        }
+        
+        .highlight-box strong {
+            color: #6c5ce7;
+            font-size: 16px;
+        }
+        
+        .book-sections {
+            background: #fdfbfb;
+            border: 2px solid #e8e4f3;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .book-sections h3 {
+            color: #6c5ce7;
+            font-size: 20px;
+            margin-top: 0;
+        }
+        
+        .book-sections ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        .book-sections li {
+            margin: 10px 0;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+        
+        .framework-highlight {
+            background: linear-gradient(135deg, #fdcb6e 0%, #f39c12 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 0.5px;
+        }
+        
+        .framework-highlight strong {
+            font-size: 18px;
+        }
+        
+        .stonecutter-example {
+            background: #fff9e6;
+            border-left: 5px solid #fdcb6e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .stonecutter-example ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        .stonecutter-example li {
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+        
+        .conclusion-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 35px;
+            border-radius: 12px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .conclusion-section p {
+            color: white;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        .nav-links {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            padding-top: 30px;
+            border-top: 2px solid #e8e4f3;
+        }
+        
+        .nav-links a {
+            display: inline-block;
+            color: #6c5ce7;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 25px;
+            border: 2px solid #6c5ce7;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+        }
+        
+        .nav-links a:hover {
+            background: #6c5ce7;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+        }
+        
+        ul {
+            list-style-type: disc;
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="book-review-container">
+        <div class="review-header">
+            <span class="review-label">📚 BOOK REVIEW</span>
+            <h1 class="book-title">Nurturing Quotient</h1>
+            <p class="review-intro">
+                I attended the Apeejay Literary Festival, where I listened to Nirupama and Rajesh speak. They came across as seasoned corporate professionals. That's when I learned about their book, <strong><em>Nurturing Quotient</em></strong>, which seemed to have all the answers I was looking for — such as how to manage a team, nurture myself across body, soul, heart, and mind, and empower others to create a culture that truly makes a difference.
+            </p>
+        </div>
+
+        <div class="book-sections">
+            <h3>The book is divided into four sections:</h3>
+            <ol>
+                <li>Why Nurturing Leadership</li>
+                <li>Growing the Self</li>
+                <li>Growing Others</li>
+                <li>Nurturing as a Practice</li>
+            </ol>
+            <p style="margin-top: 20px; font-style: italic;">Let's explore each section and my understanding of them.</p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="content-section">
+            <h2>1. Why Nurturing Leadership</h2>
+            <p>This section has two chapters: <em>Day-to-Day Challenges</em> and <em>The Importance of Nurturing</em>.</p>
+            <p>The first chapter discusses challenges across different dimensions — macro-environmental (geopolitical factors, regulations, technology), business-related (stakeholder management, changing industries, evolving business models, governance), people-related (attracting and retaining talent, managing generational perspectives, understanding career drivers), and personal (family, well-being, crises, and adapting to change). It also emphasizes how these challenges are interconnected.</p>
+            <p>The second chapter focuses on tackling these challenges through nurturing — both self and others — and explains why nurturing is essential for overcoming them holistically.</p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="content-section">
+            <h2>2. Growing the Self</h2>
+            <p>This section is one of the book's most significant parts, explaining how to nurture the <em>body, mind, heart,</em> and <em>soul.</em></p>
+            
+            <div class="highlight-box">
+                <p>For the <strong>body</strong>, it recommends regular physical activities — running, walking, or any sport of choice — supported by habit stacking using trackers, adequate sleep, and fostering a wellness culture at home and work.</p>
+            </div>
+
+            <div class="highlight-box">
+                <p>The <strong>mind</strong> chapter emphasizes sharpening mental clarity by setting aside learning time, finding a mentor or coach, minimizing distractions (like phones or notifications), and surrounding yourself with smart people — regardless of age — to learn and grow continuously.</p>
+            </div>
+
+            <div class="highlight-box">
+                <p>The <strong>heart</strong> chapter urges readers to maintain a positive outlook instead of a pessimistic one, build authentic connections, and cultivate an "inner circle." It encourages following personal passions — like running, music, or travel — visualizing positive outcomes, staying close to nature (as seen in campuses like IITs), and seeking professional help when needed.</p>
+            </div>
+
+            <div class="stonecutter-example">
+                <p>The <strong>soul</strong> chapter explains how to identify personal values through the example of three stonecutters asked the same question: "Why are you doing this?"</p>
+                <ol>
+                    <li>"My boss told me to."</li>
+                    <li>"I'm earning a living."</li>
+                    <li>"I'm building the foundation for a school and hospital for my village."</li>
+                </ol>
+                <p>The third perspective is the ideal — finding purpose and meaning in one's work. The chapter then suggests writing a personal purpose statement, practicing meditation, contributing to causes, and following one's faith.</p>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="content-section">
+            <h2>3. Growing Others</h2>
+            <p>This section focuses on how we engage with the external world. The first chapter, <em>Nurturing Others</em>, uses the metaphor of creating a "corporate garden," where leaders prepare the soil, plant seeds, water them, and remove weeds — all representing the steps of developing a team.</p>
+            
+            <div class="framework-highlight">
+                <p><strong>HOPE</strong> — <em>Humility, Openness, Patience,</em> and <em>Empathy</em></p>
+            </div>
+
+            <div class="framework-highlight">
+                <p><strong>MILE</strong> — <em>Mentor, Inspire, Listen,</em> and <em>Empower</em></p>
+            </div>
+
+            <p>The book distinguishes between mentoring and coaching, offering personal examples, and stresses asking powerful questions, setting aside time for team development, and embedding a learning culture within organizations. It highlights the importance of authenticity in these efforts.</p>
+
+            <p>In <em>Inspire to Grow</em>, the authors explain how a leader's mindset sets the tone for the team. They encourage storytelling, role modeling, raising performance standards, promoting a growth mindset, linking individual purpose to collective success, and recognizing nurturing behavior.</p>
+
+            <p>In <em>Listen Actively</em>, the focus is on empathetic listening. Leaders are encouraged to put away screens, suspend assumptions, and create safe spaces for open and honest communication.</p>
+
+            <p>Finally, <em>Empower to Thrive</em> talks about giving team members freedom, authority, and accountability while having their backs. It emphasizes trusting employees, accepting mistakes as learning opportunities, building trust, creating feedback mechanisms, adapting leadership styles, and using empowering language.</p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="content-section">
+            <h2>4. Nurturing as a Practice</h2>
+            <p>The final section brings everything together with real-world examples. It explores how personality, demographics, values, beliefs, and cultural context influence nurturing. The authors discuss striking the right balance between flexibility and discipline, compassion and ambition, and self-orientation versus other-orientation.</p>
+            
+            <div class="framework-highlight">
+                <p><strong>AISH</strong> framework — <em>Awareness, Intention, Start Action,</em> and <em>Habit Creation</em></p>
+            </div>
+
+            <p>The book concludes with habit creation through the AISH framework, which is essential for translating learning into lasting change.</p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="conclusion-section">
+            <p><strong><em>Nurturing Quotient</em></strong> provides a comprehensive roadmap for leaders who aspire to create meaningful impact — both within themselves and in the teams they lead. It's not just about corporate success; it's about holistic growth that encompasses body, mind, heart, and soul.</p>
+        </div>
+
+        <div class="nav-links">
+            <a href="blogs.html">← Back to All Blogs</a>
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+</body>
+</html>
