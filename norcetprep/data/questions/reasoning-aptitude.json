@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "question": "If a nurse administers medication at 8:00 AM and the next dose is due in 6 hours, when should the next dose be given?",
+    "options": [
+      "A. 12:00 PM",
+      "B. 1:00 PM",
+      "C. 2:00 PM",
+      "D. 3:00 PM"
+    ],
+    "correct": 2,
+    "explanation": "• If medication is given at 8:00 AM and next dose is in 6 hours, add 6 hours: 8:00 AM + 6 hours = 2:00 PM.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Time Calculation",
+    "year": "2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "A patient needs 500 ml of IV fluid over 4 hours. What is the drip rate per minute if the drop factor is 15 drops/ml?",
+    "options": [
+      "A. 31 drops/min",
+      "B. 32 drops/min",
+      "C. 33 drops/min",
+      "D. 34 drops/min"
+    ],
+    "correct": 0,
+    "explanation": "• Formula: (Volume × Drop factor) / (Time in minutes) = (500 × 15) / (4 × 60) = 7500 / 240 = 31.25 ≈ 31 drops/min.",
+    "topic": "Medication Calculation",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "question": "Complete the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "A. 40",
+      "B. 42",
+      "C. 44",
+      "D. 46"
+    ],
+    "correct": 1,
+    "explanation": "• Pattern: +4, +6, +8, +10, +12.\n• So 30 + 12 = 42.\n• The differences increase by 2 each time.",
+    "topic": "Number Series",
+    "year": "2024",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "If all nurses are healthcare workers, and some healthcare workers are doctors, which statement is true?",
+    "options": [
+      "A. All nurses are doctors",
+      "B. Some nurses are doctors",
+      "C. No nurses are doctors",
+      "D. Cannot be determined"
+    ],
+    "correct": 3,
+    "explanation": "• From the given statements, we cannot determine if nurses and doctors overlap.\n• The statements don't provide enough information to conclude about the relationship between nurses and doctors.",
+    "topic": "Logical Reasoning",
+    "year": "2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "A patient's temperature is 102°F. Convert to Celsius.",
+    "options": [
+      "A. 38.9°C",
+      "B. 39.0°C",
+      "C. 39.1°C",
+      "D. 39.2°C"
+    ],
+    "correct": 0,
+    "explanation": "• Formula: C = (F - 32) × 5/9 = (102 - 32) × 5/9 = 70 × 5/9 = 350/9 = 38.9°C.",
+    "topic": "Unit Conversion",
+    "year": "2023",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "Find the odd one out: Stethoscope, Thermometer, Scalpel, Blood Pressure Cuff",
+    "options": [
+      "A. Stethoscope",
+      "B. Thermometer",
+      "C. Scalpel",
+      "D. Blood Pressure Cuff"
+    ],
+    "correct": 2,
+    "explanation": "• Scalpel is a surgical instrument used for cutting.\n• All others (stethoscope, thermometer, BP cuff) are diagnostic/assessment tools, not surgical instruments.",
+    "topic": "Classification",
+    "year": "2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "question": "If a medication is ordered as 0.5 mg and available as 250 mcg tablets, how many tablets are needed?",
+    "options": [
+      "A. 1 tablet",
+      "B. 2 tablets",
+      "C. 3 tablets",
+      "D. 4 tablets"
+    ],
+    "correct": 1,
+    "explanation": "• 0.5 mg = 500 mcg.\n• Available: 250 mcg per tablet.\n• Number of tablets = 500 / 250 = 2 tablets.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Medication Calculation",
+    "year": "2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "question": "Arrange in logical order: Diagnosis, Assessment, Planning, Implementation, Evaluation",
+    "options": [
+      "A. Assessment, Diagnosis, Planning, Implementation, Evaluation",
+      "B. Diagnosis, Assessment, Planning, Implementation, Evaluation",
+      "C. Planning, Assessment, Diagnosis, Implementation, Evaluation",
+      "D. Assessment, Planning, Diagnosis, Implementation, Evaluation"
+    ],
+    "correct": 0,
+    "explanation": "• The nursing process follows ADPIE: Assessment (gather data), Diagnosis (identify problems), Planning (set goals), Implementation (interventions), Evaluation (outcomes).",
+    "topic": "Nursing Process",
+    "year": "2023",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9,
+    "question": "A patient weighs 70 kg. The medication order is 5 mg/kg. What is the total dose?",
+    "options": [
+      "A. 300 mg",
+      "B. 350 mg",
+      "C. 400 mg",
+      "D. 450 mg"
+    ],
+    "correct": 1,
+    "explanation": "• Dose = Weight × Dose per kg = 70 kg × 5 mg/kg = 350 mg.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Medication Calculation",
+    "year": "2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "If PATIENT is coded as QBUJFOU, how is NURSE coded?",
+    "options": [
+      "A. OVSTF",
+      "B. OVSGF",
+      "C. PVSTF",
+      "D. OVRTF"
+    ],
+    "correct": 0,
+    "explanation": "• Each letter is shifted by +1: P→Q, A→B, T→U, I→J, E→F, N→O, T→U.\n• So N→O, U→V, R→S, S→T, E→F = OVSTF.",
+    "topic": "Coding",
+    "year": "2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "question": "A solution contains 5% dextrose. How many grams of dextrose are in 500 ml?",
+    "options": [
+      "A. 20 g",
+      "B. 25 g",
+      "C. 30 g",
+      "D. 35 g"
+    ],
+    "correct": 1,
+    "explanation": "• 5% means 5 g per 100 ml.\n• In 500 ml: (5/100) × 500 = 25 g of dextrose.",
+    "topic": "Solution Calculation",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 12,
+    "question": "Complete the analogy: Doctor is to Hospital as Teacher is to ?",
+    "options": [
+      "A. Patient",
+      "B. School",
+      "C. Student",
+      "D. Medicine"
+    ],
+    "correct": 1,
+    "explanation": "• Doctor works in Hospital, similarly Teacher works in School.\n• This is a workplace relationship analogy.",
+    "topic": "Analogy",
+    "year": "2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "question": "If 3 nurses can care for 12 patients in 4 hours, how many nurses are needed for 20 patients in 2 hours?",
+    "options": [
+      "A. 8 nurses",
+      "B. 10 nurses",
+      "C. 12 nurses",
+      "D. 15 nurses"
+    ],
+    "correct": 1,
+    "explanation": "• Work = Nurses × Time.\n• 3 × 4 = 12 patient-hours.\n• For 20 patients in 2 hours: Nurses × 2 = 20, so Nurses = 10.\n• But considering efficiency: (3×4)/12 = 1 patient-hour per nurse.\n• For 20 patients in 2 hours: 20/2 = 10 nurses.",
+    "topic": "Work and Time",
+    "year": "2022",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 14,
+    "question": "Find the missing number: 5, 11, 23, 47, ?",
+    "options": [
+      "A. 89",
+      "B. 91",
+      "C. 93",
+      "D. 95"
+    ],
+    "correct": 3,
+    "explanation": "• Pattern: ×2 +1.\n• 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95.",
+    "topic": "Number Series",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "question": "A patient's pulse is 72 bpm. How many beats in 30 seconds?",
+    "options": [
+      "A. 30",
+      "B. 36",
+      "C. 40",
+      "D. 42"
+    ],
+    "correct": 1,
+    "explanation": "• 72 beats per minute = 72/60 beats per second = 1.2 beats/second.\n• In 30 seconds: 1.2 × 30 = 36 beats.\n• Or simply: 72/2 = 36 beats.",
+    "topic": "Time Calculation",
+    "year": "2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "If HAND is to FINGER as FOOT is to ?",
+    "options": [
+      "A. LEG",
+      "B. TOE",
+      "C. ANKLE",
+      "D. HEEL"
+    ],
+    "correct": 1,
+    "explanation": "• Finger is part of Hand, similarly Toe is part of Foot.\n• This is a part-whole relationship.",
+    "topic": "Analogy",
+    "year": "2022",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 17,
+    "question": "A medication is available as 50 mg/ml. How many ml are needed for 125 mg dose?",
+    "options": [
+      "A. 2.0 ml",
+      "B. 2.5 ml",
+      "C. 3.0 ml",
+      "D. 3.5 ml"
+    ],
+    "correct": 1,
+    "explanation": "• If 50 mg in 1 ml, then 125 mg in: (125/50) = 2.5 ml.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Medication Calculation",
+    "year": "2023",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "Arrange words alphabetically: Stethoscope, Syringe, Scalpel, Sphygmomanometer",
+    "options": [
+      "A. Scalpel, Sphygmomanometer, Stethoscope, Syringe",
+      "B. Scalpel, Stethoscope, Sphygmomanometer, Syringe",
+      "C. Sphygmomanometer, Scalpel, Stethoscope, Syringe",
+      "D. Scalpel, Stethoscope, Syringe, Sphygmomanometer"
+    ],
+    "correct": 0,
+    "explanation": "• Alphabetical order: Scalpel, Sphygmomanometer, Stethoscope, Syringe (comparing 2nd letter: c, p, t, y).",
+    "topic": "Alphabetical Order",
+    "year": "2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "question": "If a patient receives 1000 ml IV fluid in 8 hours, what is the rate per hour?",
+    "options": [
+      "A. 100 ml/hr",
+      "B. 125 ml/hr",
+      "C. 150 ml/hr",
+      "D. 200 ml/hr"
+    ],
+    "correct": 1,
+    "explanation": "• Rate = Volume / Time = 1000 ml / 8 hours = 125 ml/hour.",
+    "topic": "IV Calculation",
+    "year": "2022",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 20,
+    "question": "Complete: If all medications require prescription, and some prescriptions are for antibiotics, then:",
+    "options": [
+      "A. All medications are antibiotics",
+      "B. Some medications are antibiotics",
+      "C. No medications are antibiotics",
+      "D. Cannot be determined"
+    ],
+    "correct": 3,
+    "explanation": "• The statements don't establish a direct relationship between medications and antibiotics.\n• We cannot determine if medications and antibiotics overlap.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Logical Reasoning",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "If a nurse administers medication at 8:00 AM and the next dose is due in 6 hours, when should the next dose be given?",
+    "options": [
+      "A. 12:00 PM",
+      "B. 1:00 PM",
+      "C. 2:00 PM",
+      "D. 3:00 PM"
+    ],
+    "correct": 2,
+    "explanation": "• If medication is given at 8:00 AM and next dose is in 6 hours, add 6 hours: 8:00 AM + 6 hours = 2:00 PM.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Time Calculation",
+    "year": "2015",
+    "difficulty": "Easy",
+    "id": 21
+  },
+  {
+    "question": "A patient needs 500 ml of IV fluid over 4 hours. What is the drip rate per minute if the drop factor is 15 drops/ml?",
+    "options": [
+      "A. 31 drops/min",
+      "B. 32 drops/min",
+      "C. 33 drops/min",
+      "D. 34 drops/min"
+    ],
+    "correct": 0,
+    "explanation": "• Formula: (Volume × Drop factor) / (Time in minutes) = (500 × 15) / (4 × 60) = 7500 / 240 = 31.25 ≈ 31 drops/min.",
+    "topic": "Medication Calculation",
+    "year": "2016",
+    "difficulty": "Medium",
+    "id": 22
+  },
+  {
+    "question": "Complete the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "A. 40",
+      "B. 42",
+      "C. 44",
+      "D. 46"
+    ],
+    "correct": 1,
+    "explanation": "• Pattern: +4, +6, +8, +10, +12.\n• So 30 + 12 = 42.\n• The differences increase by 2 each time.",
+    "topic": "Number Series",
+    "year": "2017",
+    "difficulty": "Medium",
+    "id": 23
+  },
+  {
+    "question": "A patient's temperature is 102°F. Convert to Celsius.",
+    "options": [
+      "A. 38.9°C",
+      "B. 39.0°C",
+      "C. 39.1°C",
+      "D. 39.2°C"
+    ],
+    "correct": 0,
+    "explanation": "• Formula: C = (F - 32) × 5/9 = (102 - 32) × 5/9 = 70 × 5/9 = 350/9 = 38.9°C.",
+    "topic": "Unit Conversion",
+    "year": "2018",
+    "difficulty": "Easy",
+    "id": 24
+  },
+  {
+    "question": "A patient weighs 70 kg. The medication order is 5 mg/kg. What is the total dose?",
+    "options": [
+      "A. 300 mg",
+      "B. 350 mg",
+      "C. 400 mg",
+      "D. 450 mg"
+    ],
+    "correct": 1,
+    "explanation": "• Dose = Weight × Dose per kg = 70 kg × 5 mg/kg = 350 mg.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Medication Calculation",
+    "year": "2019",
+    "difficulty": "Easy",
+    "id": 25
+  },
+  {
+    "question": "A solution contains 5% dextrose. How many grams of dextrose are in 500 ml?",
+    "options": [
+      "A. 20 g",
+      "B. 25 g",
+      "C. 30 g",
+      "D. 35 g"
+    ],
+    "correct": 1,
+    "explanation": "• 5% means 5 g per 100 ml.\n• In 500 ml: (5/100) × 500 = 25 g of dextrose.",
+    "topic": "Solution Calculation",
+    "year": "2020",
+    "difficulty": "Medium",
+    "id": 26
+  },
+  {
+    "question": "Complete the analogy: Doctor is to Hospital as Teacher is to ?",
+    "options": [
+      "A. Patient",
+      "B. School",
+      "C. Student",
+      "D. Medicine"
+    ],
+    "correct": 1,
+    "explanation": "• Doctor works in Hospital, similarly Teacher works in School.\n• This is a workplace relationship analogy.",
+    "topic": "Analogy",
+    "year": "2021",
+    "difficulty": "Easy",
+    "id": 27
+  },
+  {
+    "question": "A medication is available as 50 mg/ml. How many ml are needed for 125 mg dose?",
+    "options": [
+      "A. 2.0 ml",
+      "B. 2.5 ml",
+      "C. 3.0 ml",
+      "D. 3.5 ml"
+    ],
+    "correct": 1,
+    "explanation": "• If 50 mg in 1 ml, then 125 mg in: (125/50) = 2.5 ml.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Medication Calculation",
+    "year": "2022",
+    "difficulty": "Easy",
+    "id": 28
+  },
+  {
+    "question": "A patient receives 1000 ml IV fluid in 8 hours. What is the rate per hour?",
+    "options": [
+      "A. 100 ml/hr",
+      "B. 125 ml/hr",
+      "C. 150 ml/hr",
+      "D. 200 ml/hr"
+    ],
+    "correct": 1,
+    "explanation": "• Rate = Volume / Time = 1000 ml / 8 hours = 125 ml/hour.",
+    "topic": "IV Calculation",
+    "year": "2023",
+    "difficulty": "Easy",
+    "id": 29
+  },
+  {
+    "question": "Find the missing number: 5, 11, 23, 47, ?",
+    "options": [
+      "A. 89",
+      "B. 91",
+      "C. 93",
+      "D. 95"
+    ],
+    "correct": 3,
+    "explanation": "• Pattern: ×2 +1.\n• 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95.",
+    "topic": "Number Series",
+    "year": "2024",
+    "difficulty": "Medium",
+    "id": 30
+  },
+  {
+    "question": "A patient needs 750 ml of IV fluid over 6 hours. If the drop factor is 20 drops/ml, what is the drip rate per minute?",
+    "options": [
+      "A. 40 drops/min",
+      "B. 41 drops/min",
+      "C. 42 drops/min",
+      "D. 43 drops/min"
+    ],
+    "correct": 2,
+    "explanation": "• Formula: (Volume × Drop factor) / (Time in minutes) = (750 × 20) / (6 × 60) = 15000 / 360 = 41.67 ≈ 42 drops/min.\n• Accurate IV rate calculations are essential for safe medication and fluid administration.\n• Understanding these calculations ensures patients receive the correct amount of fluid or medication over the prescribed time period.",
+    "topic": "IV Calculation",
+    "year": "2025",
+    "difficulty": "Medium",
+    "id": 31
+  },
+  {
+    "question": "A patient needs 1000 ml of 5% dextrose solution. How many grams of dextrose are required?",
+    "options": [
+      "A. 40 g",
+      "B. 50 g",
+      "C. 60 g",
+      "D. 70 g"
+    ],
+    "correct": 1,
+    "explanation": "• 5% means 5 g per 100 ml.\n• For 1000 ml: (5/100) × 1000 = 50 g of dextrose.\n• Understanding solution calculations is essential for preparing IV fluids and medications.\n• Accurate calculations ensure patients receive correct concentrations and prevent medication errors.",
+    "topic": "Solution Calculation",
+    "year": "2015",
+    "difficulty": "Medium",
+    "id": 32
+  },
+  {
+    "question": "A medication is ordered as 0.25 mg. Available as 500 mcg tablets. How many tablets are needed?",
+    "options": [
+      "A. 0.5 tablet",
+      "B. 1 tablet",
+      "C. 2 tablets",
+      "D. 4 tablets"
+    ],
+    "correct": 0,
+    "explanation": "• 0.25 mg = 250 mcg.\n• Available: 500 mcg per tablet.\n• Number of tablets = 250 / 500 = 0.5 tablet.\n• Understanding unit conversions and medication calculations is critical for safe medication administration and preventing dosage errors.",
+    "topic": "Medication Calculation",
+    "year": "2016",
+    "difficulty": "Medium",
+    "id": 33
+  }
+]

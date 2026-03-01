@@ -1,0 +1,1285 @@
+[
+  {
+    "id": 1,
+    "question": "A patient with myocardial infarction is admitted to the ICU. What is the priority nursing intervention in the first 24 hours?",
+    "options": [
+      "A. Administering pain medication",
+      "B. Continuous cardiac monitoring",
+      "C. Providing emotional support",
+      "D. Teaching about lifestyle modifications"
+    ],
+    "correct": 1,
+    "explanation": "• Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period.\n• While pain management and other interventions are important, cardiac monitoring takes priority.",
+    "topic": "Cardiovascular System",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 2,
+    "question": "A patient with chronic kidney disease is on hemodialysis. Which electrolyte imbalance is most commonly associated with renal failure?",
+    "options": [
+      "A. Hypokalemia",
+      "B. Hyperkalemia",
+      "C. Hyponatremia",
+      "D. Hypocalcemia"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium.\n• This can lead to life-threatening cardiac arrhythmias.",
+    "topic": "Renal System",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 3,
+    "question": "A patient with diabetes mellitus develops diabetic ketoacidosis (DKA). What is the primary nursing intervention?",
+    "options": [
+      "A. Administering oral glucose",
+      "B. Starting IV insulin infusion",
+      "C. Encouraging fluid intake",
+      "D. Monitoring blood pressure"
+    ],
+    "correct": 1,
+    "explanation": "• IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose.\n• This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
+    "topic": "Endocrine System",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 4,
+    "question": "A patient with stroke (CVA) is unable to swallow. What is the most appropriate initial nursing action?",
+    "options": [
+      "A. Start nasogastric tube feeding",
+      "B. Provide oral care only",
+      "C. NPO status with IV fluids",
+      "D. Encourage small sips of water"
+    ],
+    "correct": 2,
+    "explanation": "• Patients with dysphagia after stroke are at high risk for aspiration.\n• NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.\n• IV fluids maintain hydration.",
+    "topic": "Neurological System",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 5,
+    "question": "A patient with COPD is receiving oxygen therapy. What is the maximum safe oxygen concentration for COPD patients?",
+    "options": [
+      "A. 1-2 L/min via nasal cannula",
+      "B. 4-6 L/min via nasal cannula",
+      "C. 8-10 L/min via face mask",
+      "D. 100% via non-rebreather mask"
+    ],
+    "correct": 0,
+    "explanation": "• COPD patients should receive low-flow oxygen (1-2 L/min) (1-2 L/min) because high oxygen concentrations can suppress their hypoxic drive to breathe, leading to respiratory depression.",
+    "topic": "Respiratory System",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 6,
+    "question": "A patient with peptic ulcer disease is prescribed proton pump inhibitors. What should the nurse teach about administration?",
+    "options": [
+      "A. Take with meals",
+      "B. Take 30 minutes before breakfast",
+      "C. Take at bedtime",
+      "D. Take with antacids"
+    ],
+    "correct": 1,
+    "explanation": "• Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
+    "topic": "Gastrointestinal System",
+    "year": "2024",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "A patient is scheduled for coronary artery bypass graft (CABG) surgery. What is the most important pre-operative teaching?",
+    "options": [
+      "A. Deep breathing exercises",
+      "B. Medication management",
+      "C. Dietary restrictions",
+      "D. Activity limitations"
+    ],
+    "correct": 0,
+    "explanation": "• Deep breathing exercises are critical post-CABG to prevent atelectasis and pneumonia.\n• Teaching should begin pre-operatively so patients can practice.",
+    "topic": "Cardiovascular Surgery",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 8,
+    "question": "A patient with acute pancreatitis has severe abdominal pain. What position should the nurse assist the patient into?",
+    "options": [
+      "A. Supine position",
+      "B. Left lateral position",
+      "C. Sitting position leaning forward",
+      "D. Trendelenburg position"
+    ],
+    "correct": 2,
+    "explanation": "• Sitting position leaning forward helps reduce pressure on the pancreas and provides pain relief in acute pancreatitis.",
+    "topic": "Gastrointestinal System",
+    "year": "2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "A patient with liver cirrhosis develops hepatic encephalopathy. What dietary modification is most important?",
+    "options": [
+      "A. High protein diet",
+      "B. Low protein diet",
+      "C. High sodium diet",
+      "D. High fat diet"
+    ],
+    "correct": 1,
+    "explanation": "• Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy.\n• Protein restriction helps manage symptoms.",
+    "topic": "Hepatic System",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 10,
+    "question": "A patient with deep vein thrombosis (DVT) is receiving heparin therapy. What is the most critical nursing assessment?",
+    "options": [
+      "A. Blood pressure",
+      "B. Bleeding signs",
+      "C. Urine output",
+      "D. Temperature"
+    ],
+    "correct": 1,
+    "explanation": "• Heparin is an anticoagulant that increases bleeding risk.\n• Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
+    "topic": "Hematological System",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 11,
+    "question": "A patient with spinal cord injury at C5 level is at risk for which complication?",
+    "options": [
+      "A. Autonomic dysreflexia",
+      "B. Diabetes insipidus",
+      "C. Syndrome of inappropriate ADH",
+      "D. Cushing's syndrome"
+    ],
+    "correct": 0,
+    "explanation": "• Autonomic dysreflexia occurs in patients with spinal cord injury above T6, causing severe hypertension.\n• It's a medical emergency requiring immediate intervention.",
+    "topic": "Neurological System",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 12,
+    "question": "A patient with acute respiratory distress syndrome (ARDS) requires mechanical ventilation. What is the priority nursing intervention?",
+    "options": [
+      "A. Suctioning every hour",
+      "B. Monitoring ventilator settings",
+      "C. Positioning patient prone",
+      "D. Administering sedatives"
+    ],
+    "correct": 1,
+    "explanation": "• Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
+    "topic": "Critical Care",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 13,
+    "question": "A patient with burns covering 40% of body surface area is in the fluid resuscitation phase. What is the priority assessment?",
+    "options": [
+      "A. Pain level",
+      "B. Urine output",
+      "C. Wound appearance",
+      "D. Temperature"
+    ],
+    "correct": 1,
+    "explanation": "• Urine output is the best indicator of adequate fluid resuscitation in burn patients.\n• Target is 30-50 ml/hour in adults.",
+    "topic": "Emergency Care",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 14,
+    "question": "A patient with cancer is receiving chemotherapy. Which side effect requires immediate medical attention?",
+    "options": [
+      "A. Hair loss",
+      "B. Nausea and vomiting",
+      "C. Fever above 38.5°C",
+      "D. Fatigue"
+    ],
+    "correct": 2,
+    "explanation": "• Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening.\n• Immediate medical attention is required.",
+    "topic": "Oncology",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 15,
+    "question": "A patient with heart failure is prescribed digoxin. What is the most important sign of digoxin toxicity?",
+    "options": [
+      "A. Increased heart rate",
+      "B. Visual disturbances (yellow-green halos)",
+      "C. Hypertension",
+      "D. Increased urine output"
+    ],
+    "correct": 1,
+    "explanation": "• Visual disturbances, particularly yellow-green halos around lights, are classic early signs of digoxin toxicity.\n• Other signs include bradycardia, nausea, and arrhythmias.",
+    "topic": "Cardiovascular System",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 16,
+    "question": "A patient with appendicitis is scheduled for appendectomy. What is the most important pre-operative instruction?",
+    "options": [
+      "A. NPO status",
+      "B. Enema administration",
+      "C. Shower with antibacterial soap",
+      "D. Remove all jewelry"
+    ],
+    "correct": 0,
+    "explanation": "• NPO (nothing by mouth) status is critical before surgery to prevent aspiration during anesthesia.\n• This is the most important pre-operative instruction.",
+    "topic": "Gastrointestinal Surgery",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "A patient with rheumatoid arthritis is taking methotrexate. What is the most important monitoring parameter?",
+    "options": [
+      "A. Blood glucose",
+      "B. Liver function tests",
+      "C. Blood pressure",
+      "D. Temperature"
+    ],
+    "correct": 1,
+    "explanation": "• Methotrexate can cause hepatotoxicity.\n• Regular liver function tests are essential to monitor for liver damage.",
+    "topic": "Musculoskeletal System",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 18,
+    "question": "A patient with sepsis is in septic shock. What is the priority nursing intervention?",
+    "options": [
+      "A. Administering antibiotics",
+      "B. Fluid resuscitation",
+      "C. Oxygen administration",
+      "D. Pain management"
+    ],
+    "correct": 1,
+    "explanation": "• Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion.\n• This should be done immediately.",
+    "topic": "Critical Care",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 19,
+    "question": "A patient with glaucoma is prescribed timolol eye drops. What is the most important teaching point?",
+    "options": [
+      "A. Apply pressure to lacrimal duct after instillation",
+      "B. Use drops only in affected eye",
+      "C. Store in refrigerator",
+      "D. Use before meals"
+    ],
+    "correct": 0,
+    "explanation": "• Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
+    "topic": "Ophthalmology",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "A patient with acute kidney injury is receiving continuous renal replacement therapy (CRRT). What is the priority nursing assessment?",
+    "options": [
+      "A. Blood pressure",
+      "B. Access site patency",
+      "C. Urine output",
+      "D. Weight"
+    ],
+    "correct": 1,
+    "explanation": "• Access site patency is critical for CRRT.\n• Clotting or dislodgement can cause treatment interruption and complications.",
+    "topic": "Renal System",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 21,
+    "question": "A patient with pulmonary embolism is receiving alteplase (tPA). What is the most critical monitoring?",
+    "options": [
+      "A. Blood pressure",
+      "B. Signs of bleeding",
+      "C. Oxygen saturation",
+      "D. Heart rate"
+    ],
+    "correct": 1,
+    "explanation": "• tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk.\n• Continuous monitoring for signs of bleeding is critical.",
+    "topic": "Respiratory System",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 22,
+    "question": "A patient with hypothyroidism is prescribed levothyroxine. What is the best time to take this medication?",
+    "options": [
+      "A. With breakfast",
+      "B. On empty stomach in morning",
+      "C. At bedtime",
+      "D. With evening meal"
+    ],
+    "correct": 1,
+    "explanation": "• Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption.\n• Food can interfere with absorption.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
+    "topic": "Endocrine System",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "A patient with multiple sclerosis is experiencing an exacerbation. What is the priority nursing intervention?",
+    "options": [
+      "A. Encourage activity",
+      "B. Prevent complications of immobility",
+      "C. Administer high-dose steroids",
+      "D. Provide emotional support"
+    ],
+    "correct": 1,
+    "explanation": "• During MS exacerbations, patients may have decreased mobility.\n• Preventing complications like pressure ulcers, contractures, and DVT is the priority.",
+    "topic": "Neurological System",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 24,
+    "question": "A patient with esophageal varices is at risk for which complication?",
+    "options": [
+      "A. Aspiration",
+      "B. Upper GI bleeding",
+      "C. Perforation",
+      "D. Obstruction"
+    ],
+    "correct": 1,
+    "explanation": "• Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+    "topic": "Gastrointestinal System",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 25,
+    "question": "A patient with chest tube drainage has continuous bubbling in the water seal chamber. What does this indicate?",
+    "options": [
+      "A. Normal functioning",
+      "B. Air leak in the system",
+      "C. Clogged tube",
+      "D. Excessive drainage"
+    ],
+    "correct": 1,
+    "explanation": "• Continuous bubbling in the water seal chamber indicates an air leak, which could be from the patient's lung or a leak in the system.\n• This requires investigation.",
+    "topic": "Respiratory System",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 26,
+    "question": "A patient with Addison's disease is experiencing an adrenal crisis. What is the priority medication?",
+    "options": [
+      "A. Insulin",
+      "B. Hydrocortisone",
+      "C. Epinephrine",
+      "D. Vasopressin"
+    ],
+    "correct": 1,
+    "explanation": "• Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.",
+    "topic": "Endocrine System",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 27,
+    "question": "A patient with Parkinson's disease is taking levodopa-carbidopa. What is the most important teaching?",
+    "options": [
+      "A. Take with high-protein meals",
+      "B. Avoid protein with medication",
+      "C. Take only at bedtime",
+      "D. Crush tablets for easier swallowing"
+    ],
+    "correct": 1,
+    "explanation": "• Protein interferes with levodopa absorption.\n• Patients should take medication 30 minutes before meals or 1 hour after meals, avoiding high-protein foods.",
+    "topic": "Neurological System",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 28,
+    "question": "A patient with acute coronary syndrome is receiving dual antiplatelet therapy (aspirin + clopidogrel). What is the priority teaching?",
+    "options": [
+      "A. Report signs of bleeding",
+      "B. Take with food",
+      "C. Avoid sunlight",
+      "D. Increase fluid intake"
+    ],
+    "correct": 0,
+    "explanation": "• Dual antiplatelet therapy significantly increases bleeding risk.\n• Patients must be taught to recognize and report signs of bleeding immediately.",
+    "topic": "Cardiovascular System",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 29,
+    "question": "A patient with end-stage renal disease is on peritoneal dialysis. What is the most critical complication to monitor?",
+    "options": [
+      "A. Peritonitis",
+      "B. Weight gain",
+      "C. Fatigue",
+      "D. Itching"
+    ],
+    "correct": 0,
+    "explanation": "• Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever.\n• It requires immediate treatment.",
+    "topic": "Renal System",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 30,
+    "question": "A patient with Guillain-Barré syndrome is in the acute phase. What is the priority nursing intervention?",
+    "options": [
+      "A. Respiratory monitoring",
+      "B. Physical therapy",
+      "C. Pain management",
+      "D. Nutritional support"
+    ],
+    "correct": 0,
+    "explanation": "• Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
+    "topic": "Neurological System",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 31,
+    "question": "A patient with tension pneumothorax requires immediate intervention. What is the priority action?",
+    "options": [
+      "A. Administer oxygen",
+      "B. Insert chest tube",
+      "C. Needle decompression",
+      "D. Prepare for surgery"
+    ],
+    "correct": 2,
+    "explanation": "• Tension pneumothorax is a medical emergency.\n• Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
+    "topic": "Respiratory System",
+    "year": "2015",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 32,
+    "question": "A patient with abdominal aortic aneurysm (AAA) is at risk for rupture. What is the most important nursing assessment?",
+    "options": [
+      "A. Blood pressure",
+      "B. Abdominal girth",
+      "C. Pain assessment",
+      "D. Peripheral pulses"
+    ],
+    "correct": 2,
+    "explanation": "• Sudden severe abdominal or back pain may indicate AAA rupture, which is life-threatening.\n• Blood pressure monitoring and pain assessment are critical.",
+    "topic": "Cardiovascular System",
+    "year": "2016",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 33,
+    "question": "A patient receiving TPN (Total Parenteral Nutrition) develops hyperglycemia. What is the priority intervention?",
+    "options": [
+      "A. Stop TPN",
+      "B. Add insulin to TPN solution",
+      "C. Increase TPN rate",
+      "D. Monitor only"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperglycemia in TPN patients requires insulin administration, often added directly to the TPN solution or given separately.\n• TPN should not be stopped abruptly.",
+    "topic": "Nutrition",
+    "year": "2017",
+    "difficulty": "High"
+  },
+  {
+    "id": 34,
+    "question": "A patient with pernicious anemia is receiving vitamin B12 injections. What is the expected response?",
+    "options": [
+      "A. Immediate improvement",
+      "B. Improvement in 1-2 weeks",
+      "C. Improvement in 4-6 weeks",
+      "D. No improvement expected"
+    ],
+    "correct": 1,
+    "explanation": "• Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment.\n• Reticulocyte count increases, and neurological symptoms improve gradually.",
+    "topic": "Hematological System",
+    "year": "2018",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "A patient with Crohn's disease is experiencing a flare-up. What dietary modification is most appropriate?",
+    "options": [
+      "A. High fiber diet",
+      "B. Low residue diet",
+      "C. High protein diet",
+      "D. High fat diet"
+    ],
+    "correct": 1,
+    "explanation": "• During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms.\n• High fiber can worsen inflammation.",
+    "topic": "Gastrointestinal System",
+    "year": "2019",
+    "difficulty": "High"
+  },
+  {
+    "id": 36,
+    "question": "A patient requires endotracheal suctioning. What is the maximum suction time per pass?",
+    "options": [
+      "A. 5 seconds",
+      "B. 10 seconds",
+      "C. 15 seconds",
+      "D. 20 seconds"
+    ],
+    "correct": 1,
+    "explanation": "• Endotracheal suctioning should not exceed 10-15 seconds per pass to prevent hypoxia and cardiac arrhythmias.\n• Pre-oxygenate before suctioning.",
+    "topic": "Critical Care",
+    "year": "2020",
+    "difficulty": "High"
+  },
+  {
+    "id": 37,
+    "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
+    "options": [
+      "A. Hyperkalemia",
+      "B. Hypokalemia",
+      "C. Hypercalcemia",
+      "D. Hypocalcemia"
+    ],
+    "correct": 0,
+    "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death.\n• Hyperkalemia is the most dangerous.",
+    "topic": "Oncology",
+    "year": "2021",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 38,
+    "question": "A patient with spinal cord compression from cancer requires immediate treatment. What is the priority?",
+    "options": [
+      "A. Chemotherapy",
+      "B. High-dose steroids",
+      "C. Radiation therapy",
+      "D. Surgery"
+    ],
+    "correct": 1,
+    "explanation": "• High-dose dexamethasone is given immediately for spinal cord compression to reduce edema and preserve neurological function, followed by radiation or surgery.",
+    "topic": "Oncology",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 39,
+    "question": "A patient post-CABG surgery develops atrial fibrillation. What is the priority nursing intervention?",
+    "options": [
+      "A. Administer digoxin",
+      "B. Monitor for stroke risk",
+      "C. Increase activity",
+      "D. Restrict fluids"
+    ],
+    "correct": 1,
+    "explanation": "• Atrial fibrillation post-CABG increases stroke risk due to blood stasis.\n• Anticoagulation and monitoring for embolic events are priorities.",
+    "topic": "Cardiovascular Surgery",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 40,
+    "question": "A patient with acute respiratory failure is on mechanical ventilation. What is the target PaO2?",
+    "options": [
+      "A. 60-80 mmHg",
+      "B. 80-100 mmHg",
+      "C. 100-120 mmHg",
+      "D. 120-140 mmHg"
+    ],
+    "correct": 0,
+    "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
+    "topic": "Critical Care",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 41,
+    "question": "A patient with Cushing's syndrome is at risk for which complication?",
+    "options": [
+      "A. Hypoglycemia",
+      "B. Hyperglycemia",
+      "C. Hypokalemia",
+      "D. Hypercalcemia"
+    ],
+    "correct": 1,
+    "explanation": "• Cushing's syndrome causes hyperglycemia due to cortisol's effect on glucose metabolism.\n• Patients may develop steroid-induced diabetes.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+    "topic": "Endocrine System",
+    "year": "2015",
+    "difficulty": "High"
+  },
+  {
+    "id": 42,
+    "question": "A patient with myasthenia gravis is experiencing a crisis. What is the priority assessment?",
+    "options": [
+      "A. Muscle strength",
+      "B. Respiratory function",
+      "C. Swallowing ability",
+      "D. Vision"
+    ],
+    "correct": 1,
+    "explanation": "• Myasthenic crisis can cause respiratory failure.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
+    "topic": "Neurological System",
+    "year": "2016",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 43,
+    "question": "A patient with acute kidney injury has a serum creatinine of 4.5 mg/dL. What stage of AKI is this?",
+    "options": [
+      "A. Stage 1",
+      "B. Stage 2",
+      "C. Stage 3",
+      "D. Stage 4"
+    ],
+    "correct": 2,
+    "explanation": "• AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
+    "topic": "Renal System",
+    "year": "2017",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "A patient with acute cholecystitis is scheduled for surgery. What is the most important pre-operative assessment?",
+    "options": [
+      "A. Liver function tests",
+      "B. Coagulation studies",
+      "C. Cardiac function",
+      "D. Renal function"
+    ],
+    "correct": 0,
+    "explanation": "• Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
+    "topic": "Gastrointestinal System",
+    "year": "2018",
+    "difficulty": "High"
+  },
+  {
+    "id": 45,
+    "question": "A patient with hemophilia A is bleeding. What factor replacement is needed?",
+    "options": [
+      "A. Factor VII",
+      "B. Factor VIII",
+      "C. Factor IX",
+      "D. Factor X"
+    ],
+    "correct": 1,
+    "explanation": "• Hemophilia A is a deficiency of Factor VIII.\n• Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
+    "topic": "Hematological System",
+    "year": "2019",
+    "difficulty": "High"
+  },
+  {
+    "id": 46,
+    "question": "A patient with acute pancreatitis has elevated serum amylase. What is the normal range?",
+    "options": [
+      "A. 20-100 U/L",
+      "B. 30-110 U/L",
+      "C. 40-140 U/L",
+      "D. 50-150 U/L"
+    ],
+    "correct": 1,
+    "explanation": "• Normal serum amylase is 30-110 U/L.\n• In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
+    "topic": "Gastrointestinal System",
+    "year": "2020",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 47,
+    "question": "A patient with ARDS is receiving prone positioning. What is the primary benefit?",
+    "options": [
+      "A. Improved comfort",
+      "B. Better oxygenation",
+      "C. Reduced pressure ulcers",
+      "D. Easier suctioning"
+    ],
+    "correct": 1,
+    "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+    "topic": "Critical Care",
+    "year": "2021",
+    "difficulty": "High"
+  },
+  {
+    "id": 48,
+    "question": "A patient with pheochromocytoma is at risk for which complication?",
+    "options": [
+      "A. Hypotension",
+      "B. Hypertension crisis",
+      "C. Hypoglycemia",
+      "D. Hypercalcemia"
+    ],
+    "correct": 1,
+    "explanation": "• Pheochromocytoma causes episodic or sustained hypertension due to excessive catecholamine release.\n• Hypertensive crisis can be life-threatening.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+    "topic": "Endocrine System",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 49,
+    "question": "A patient with Bell's palsy is receiving corticosteroids. What is the most important teaching?",
+    "options": [
+      "A. Eye protection",
+      "B. Facial exercises",
+      "C. Medication timing",
+      "D. Diet modification"
+    ],
+    "correct": 0,
+    "explanation": "• Bell's palsy causes inability to close the eye, leading to corneal damage.\n• Eye protection (artificial tears, eye patch) is critical.",
+    "topic": "Neurological System",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 50,
+    "question": "A patient with acute MI receives tPA. What is the most critical monitoring in the first 24 hours?",
+    "options": [
+      "A. Cardiac enzymes",
+      "B. Signs of bleeding",
+      "C. ECG changes",
+      "D. Blood pressure"
+    ],
+    "correct": 1,
+    "explanation": "• tPA is a thrombolytic that significantly increases bleeding risk.\n• Intracranial hemorrhage is the most serious complication requiring immediate monitoring.",
+    "topic": "Cardiovascular System",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 51,
+    "question": "A patient with acute coronary syndrome requires primary PCI. What is the target time from ECG to PCI?",
+    "options": [
+      "A. Within 60 minutes",
+      "B. Within 90 minutes",
+      "C. Within 120 minutes",
+      "D. Within 180 minutes"
+    ],
+    "correct": 1,
+    "explanation": "• For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits.\n• Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.\n• Time to reperfusion is critical - every minute counts in preserving myocardial function.",
+    "topic": "Cardiovascular System",
+    "year": "2015",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 52,
+    "question": "A patient with STEMI receives 300 mg aspirin loading dose. What is the priority after administration?",
+    "options": [
+      "A. Monitor for bleeding",
+      "B. Administer dual antiplatelet therapy",
+      "C. Prepare for PCI",
+      "D. Assess pain level"
+    ],
+    "correct": 1,
+    "explanation": "• After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI.\n• This combination significantly reduces thrombotic events but increases bleeding risk.\n• Monitoring for signs of bleeding is essential, but initiating DAPT is the immediate priority after aspirin in STEMI management.",
+    "topic": "Cardiovascular System",
+    "year": "2016",
+    "difficulty": "High"
+  },
+  {
+    "question": "A patient with acute respiratory distress syndrome (ARDS) requires prone positioning. What is the primary benefit?",
+    "options": [
+      "A. Improved comfort",
+      "B. Better oxygenation",
+      "C. Reduced pressure ulcers",
+      "D. Easier suctioning"
+    ],
+    "correct": 1,
+    "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.\n• This positioning helps recruit collapsed alveoli and improves gas exchange.\n• Prone positioning is an evidence-based intervention for moderate to severe ARDS that can significantly improve patient outcomes.\n• Respiratory assessment is critical as inadequate oxygenation can lead to organ damage.",
+    "topic": "Critical Care",
+    "year": "2025",
+    "difficulty": "High",
+    "id": 53
+  },
+  {
+    "question": "A patient with acute kidney injury has serum potassium of 6.5 mEq/L and peaked T-waves on ECG. What is the immediate treatment?",
+    "options": [
+      "A. Administer potassium supplements",
+      "B. Administer calcium gluconate IV",
+      "C. Encourage potassium-rich foods",
+      "D. Monitor only"
+    ],
+    "correct": 1,
+    "explanation": "• Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias.\n• Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.\n• This is a medical emergency.\n• Understanding electrolyte emergencies is critical for critical care nursing.",
+    "topic": "Electrolyte Imbalance - Hyperkalemia",
+    "year": "2015",
+    "difficulty": "Critical",
+    "id": 54
+  },
+  {
+    "question": "A patient with chronic heart failure is on furosemide. What electrolyte should be monitored?",
+    "options": [
+      "A. Sodium",
+      "B. Potassium",
+      "C. Calcium",
+      "D. Magnesium"
+    ],
+    "correct": 1,
+    "explanation": "• Furosemide (loop diuretic) causes hypokalemia by increasing potassium excretion.\n• Monitor potassium levels regularly and may need supplementation.\n• Hypokalemia increases digoxin toxicity risk and can cause muscle weakness and arrhythmias.\n• Understanding diuretic effects on electrolytes is essential for safe medication management.",
+    "topic": "Pharmacology - Diuretics",
+    "year": "2016",
+    "difficulty": "High",
+    "id": 55
+  },
+  {
+    "question": "A patient with COPD is receiving oxygen at 6 L/min. Develops decreased level of consciousness. What is the most likely cause?",
+    "options": [
+      "A. Hypoxia",
+      "B. Hypercapnia (CO2 retention)",
+      "C. Infection",
+      "D. Medication side effect"
+    ],
+    "correct": 1,
+    "explanation": "• High-flow oxygen in COPD suppresses hypoxic drive, causing CO2 retention and respiratory depression.\n• COPD patients should receive low-flow oxygen (1-2 L/min) (1-2 L/min).\n• This is a critical nursing knowledge point.\n• Respiratory assessment is critical as inadequate oxygenation can lead to organ damage.",
+    "topic": "Respiratory - COPD",
+    "year": "2017",
+    "difficulty": "Critical",
+    "id": 56
+  },
+  {
+    "question": "A patient with liver cirrhosis develops asterixis (flapping tremor). What does this indicate?",
+    "options": [
+      "A. Hepatic encephalopathy",
+      "B. Alcohol withdrawal",
+      "C. Parkinson's disease",
+      "D. Stroke"
+    ],
+    "correct": 0,
+    "explanation": "• Asterixis (flapping tremor) is a classic sign of hepatic encephalopathy, caused by elevated ammonia levels affecting brain function.\n• This indicates worsening liver function and requires immediate intervention including lactulose and protein restriction.\n• Recognizing clinical signs helps in early detection and management.",
+    "topic": "Hepatic System - Encephalopathy",
+    "year": "2018",
+    "difficulty": "High",
+    "id": 57
+  },
+  {
+    "question": "A patient with acute pancreatitis has elevated serum amylase. What is the normal range?",
+    "options": [
+      "A. 20-100 U/L",
+      "B. 30-110 U/L",
+      "C. 40-140 U/L",
+      "D. 50-150 U/L"
+    ],
+    "correct": 1,
+    "explanation": "• Normal serum amylase is 30-110 U/L.\n• In acute pancreatitis, levels are typically 3-10 times the upper limit.\n• Elevated amylase helps diagnose pancreatitis, though lipase is more specific.\n• Understanding lab values is essential for interpreting diagnostic tests and assessing disease severity.",
+    "topic": "Gastrointestinal - Lab Values",
+    "year": "2019",
+    "difficulty": "Medium",
+    "id": 58
+  },
+  {
+    "question": "A patient with myasthenia gravis is experiencing crisis. What is the priority assessment?",
+    "options": [
+      "A. Muscle strength",
+      "B. Respiratory function",
+      "C. Swallowing ability",
+      "D. Vision"
+    ],
+    "correct": 1,
+    "explanation": "• Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.\n• Respiratory failure can occur rapidly and is life-threatening.\n• This knowledge is essential for managing neuromuscular disorders.",
+    "topic": "Neurological - Myasthenia Gravis",
+    "year": "2020",
+    "difficulty": "Critical",
+    "id": 59
+  },
+  {
+    "question": "A patient with Addison's disease is experiencing adrenal crisis. What is the priority medication?",
+    "options": [
+      "A. Insulin",
+      "B. Hydrocortisone",
+      "C. Epinephrine",
+      "D. Vasopressin"
+    ],
+    "correct": 1,
+    "explanation": "• Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.\n• Also need fluid resuscitation for hypotension.\n• Delay in treatment can be fatal.\n• Understanding endocrine emergencies is critical for rapid response and patient survival.",
+    "topic": "Endocrine - Adrenal Crisis",
+    "year": "2021",
+    "difficulty": "Critical",
+    "id": 60
+  },
+  {
+    "question": "A patient with acute MI receives tPA. What is the most critical monitoring in first 24 hours?",
+    "options": [
+      "A. Cardiac enzymes",
+      "B. Signs of bleeding",
+      "C. ECG changes",
+      "D. Blood pressure"
+    ],
+    "correct": 1,
+    "explanation": "• tPA is a thrombolytic that significantly increases bleeding risk.\n• Intracranial hemorrhage is the most serious complication requiring immediate monitoring.\n• Continuous assessment for signs of bleeding (gums, bruising, hematuria, melena) is critical.\n• This is a priority nursing intervention because patient safety depends on timely recognition of complications.",
+    "topic": "Cardiovascular - Thrombolytics",
+    "year": "2022",
+    "difficulty": "Critical",
+    "id": 61
+  },
+  {
+    "question": "A patient with Guillain-Barré syndrome is in acute phase. What is the priority nursing intervention?",
+    "options": [
+      "A. Respiratory monitoring",
+      "B. Physical therapy",
+      "C. Pain management",
+      "D. Nutritional support"
+    ],
+    "correct": 0,
+    "explanation": "• Guillain-Barré syndrome causes ascending paralysis that can affect respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.\n• May require mechanical ventilation.\n• This knowledge is essential for managing autoimmune neurological disorders and preventing complications.",
+    "topic": "Neurological - GBS",
+    "year": "2023",
+    "difficulty": "Critical",
+    "id": 62
+  },
+  {
+    "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
+    "options": [
+      "A. Hyperkalemia",
+      "B. Hypokalemia",
+      "C. Hypercalcemia",
+      "D. Hypocalcemia"
+    ],
+    "correct": 0,
+    "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents.\n• Hyperkalemia is the most dangerous and can cause fatal arrhythmias.\n• Understanding oncologic emergencies is critical for safe chemotherapy administration and monitoring.",
+    "topic": "Oncology - Tumor Lysis Syndrome",
+    "year": "2024",
+    "difficulty": "Critical",
+    "id": 63
+  },
+  {
+    "question": "A patient with chest tube has continuous bubbling in water seal chamber. What does this indicate?",
+    "options": [
+      "A. Normal functioning",
+      "B. Air leak in system",
+      "C. Clogged tube",
+      "D. Excessive drainage"
+    ],
+    "correct": 1,
+    "explanation": "• Continuous bubbling in water seal chamber indicates air leak, which could be from patient's lung (pneumothorax) or leak in system (connections, tubing).\n• Requires investigation - check connections, clamp tube near patient (if bubbling stops, leak is in patient).\n• This knowledge is critical for managing chest drainage systems.",
+    "topic": "Chest Tube Management",
+    "year": "2015",
+    "difficulty": "High",
+    "id": 64
+  },
+  {
+    "question": "A patient with TPN (Total Parenteral Nutrition) develops hyperglycemia. What is the priority intervention?",
+    "options": [
+      "A. Stop TPN",
+      "B. Add insulin to TPN solution",
+      "C. Increase TPN rate",
+      "D. Monitor only"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately.\n• TPN should not be stopped abruptly.\n• Monitor blood glucose frequently.\n• Understanding TPN management prevents complications and ensures adequate nutrition in critically ill patients.",
+    "topic": "Nutrition Support Equipment",
+    "year": "2016",
+    "difficulty": "High",
+    "id": 65
+  },
+  {
+    "question": "A patient with deep vein thrombosis is receiving heparin via IV pump. What is the priority monitoring?",
+    "options": [
+      "A. Pump rate",
+      "B. Signs of bleeding",
+      "C. IV site",
+      "D. Patient comfort"
+    ],
+    "correct": 1,
+    "explanation": "• Heparin increases bleeding risk.\n• Continuous monitoring for signs of bleeding (gums, bruising, hematuria, melena) is critical.\n• Also monitor aPTT levels.\n• Intracranial hemorrhage is most serious complication.\n• This knowledge is essential for safe anticoagulant therapy management.",
+    "topic": "IV Therapy Equipment",
+    "year": "2017",
+    "difficulty": "Critical",
+    "id": 66
+  },
+  {
+    "question": "A patient with ARDS is on mechanical ventilation. What is the target PaO2?",
+    "options": [
+      "A. 60-80 mmHg",
+      "B. 80-100 mmHg",
+      "C. 100-120 mmHg",
+      "D. 120-140 mmHg"
+    ],
+    "correct": 0,
+    "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.\n• Higher levels increase risk of oxygen toxicity and don't significantly improve outcomes.\n• Understanding ventilator management is critical for respiratory care.",
+    "topic": "Ventilator Management",
+    "year": "2018",
+    "difficulty": "High",
+    "id": 67
+  },
+  {
+    "question": "A patient with peritoneal dialysis has cloudy dialysate. What does this indicate?",
+    "options": [
+      "A. Normal",
+      "B. Peritonitis",
+      "C. Dehydration",
+      "D. Overhydration"
+    ],
+    "correct": 1,
+    "explanation": "• Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis.\n• Other signs include abdominal pain, fever, and elevated WBC count.\n• Requires immediate treatment with antibiotics.\n• This knowledge is critical for managing dialysis patients and preventing complications.",
+    "topic": "Dialysis Equipment",
+    "year": "2019",
+    "difficulty": "Critical",
+    "id": 68
+  },
+  {
+    "question": "A patient with pacemaker requires which type of monitoring?",
+    "options": [
+      "A. ECG monitoring",
+      "B. Blood pressure only",
+      "C. No special monitoring",
+      "D. Temperature only"
+    ],
+    "correct": 0,
+    "explanation": "• Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing.\n• Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.\n• Understanding cardiac devices is essential for managing patients with implanted devices.",
+    "topic": "Cardiac Devices",
+    "year": "2020",
+    "difficulty": "High",
+    "id": 69
+  },
+  {
+    "question": "A patient with tracheostomy requires suctioning. What is the correct technique?",
+    "options": [
+      "A. Insert catheter until resistance, then withdraw 1 cm",
+      "B. Insert full length",
+      "C. Insert only 2 cm",
+      "D. No specific technique"
+    ],
+    "correct": 0,
+    "explanation": "• Tracheostomy suctioning: insert catheter until resistance (carina), withdraw 1 cm, then apply suction while rotating and withdrawing.\n• Pre-oxygenate before suctioning.\n• Limit to 10-15 seconds.\n• Proper technique prevents trauma and maintains airway patency.\n• This knowledge is critical for airway management.",
+    "topic": "Tracheostomy Care",
+    "year": "2021",
+    "difficulty": "High",
+    "id": 70
+  },
+  {
+    "question": "A patient with wound VAC (vacuum-assisted closure) therapy. What is the correct pressure setting?",
+    "options": [
+      "A. 50-75 mmHg",
+      "B. 75-125 mmHg",
+      "C. 125-175 mmHg",
+      "D. 175-200 mmHg"
+    ],
+    "correct": 1,
+    "explanation": "• Wound VAC typically uses 75-125 mmHg negative pressure (lower for delicate tissues, higher for robust wounds).\n• Proper pressure promotes wound healing by removing exudate, reducing edema, and promoting granulation tissue formation.\n• Understanding wound care equipment is essential for effective wound management.",
+    "topic": "Wound Care Equipment",
+    "year": "2022",
+    "difficulty": "Medium",
+    "id": 71
+  },
+  {
+    "question": "A patient with ICP monitoring. What is the normal intracranial pressure?",
+    "options": [
+      "A. 0-5 mmHg",
+      "B. 5-15 mmHg",
+      "C. 15-25 mmHg",
+      "D. 25-35 mmHg"
+    ],
+    "correct": 1,
+    "explanation": "• Normal ICP is 5-15 mmHg.\n• Elevated ICP (>20) requires intervention to prevent brain herniation.\n• Monitoring ICP helps guide treatment in head injury, stroke, and other neurological conditions.\n• Understanding neurological monitoring is critical for managing critically ill neurological patients.",
+    "topic": "Neurological Monitoring",
+    "year": "2023",
+    "difficulty": "High",
+    "id": 72
+  },
+  {
+    "question": "A patient with Swan-Ganz catheter. What does it measure?",
+    "options": [
+      "A. Central venous pressure only",
+      "B. Pulmonary artery pressure and cardiac output",
+      "C. Arterial pressure only",
+      "D. Intracranial pressure"
+    ],
+    "correct": 1,
+    "explanation": "• Swan-Ganz (pulmonary artery) catheter measures pulmonary artery pressure, pulmonary capillary wedge pressure (PCWP), cardiac output, and mixed venous oxygen saturation.\n• Helps assess cardiac function and guide fluid management.\n• Understanding advanced monitoring equipment is essential for critical care nursing.",
+    "topic": "Hemodynamic Monitoring",
+    "year": "2024",
+    "difficulty": "High",
+    "id": 73
+  },
+  {
+    "question": "A patient requires blood transfusion. What is the correct administration set?",
+    "options": [
+      "A. Standard IV set",
+      "B. Blood administration set with filter",
+      "C. Syringe pump",
+      "D. Any administration set"
+    ],
+    "correct": 1,
+    "explanation": "• Blood transfusion requires special blood administration set with built-in filter (170-260 micron) to remove clots and aggregates.\n• Use Y-type set for normal saline compatibility.\n• Never use standard IV set.\n• Proper equipment prevents complications and ensures safe transfusion.\n• This knowledge is critical for blood administration.",
+    "topic": "Transfusion Equipment",
+    "year": "2015",
+    "difficulty": "High",
+    "id": 74
+  },
+  {
+    "question": "A patient with PCA (Patient-Controlled Analgesia) pump. What is the most important teaching?",
+    "options": [
+      "A. Press button frequently",
+      "B. Only patient should press button",
+      "C. Family can help",
+      "D. No teaching needed"
+    ],
+    "correct": 1,
+    "explanation": "• PCA button should only be pressed by the patient to prevent overdose.\n• PCA has built-in safety limits (lockout interval, maximum dose).\n• Family members pressing button can cause respiratory depression.\n• Understanding PCA safety is critical for preventing complications.\n• This knowledge is essential for safe pain management.",
+    "topic": "Pain Management Equipment",
+    "year": "2016",
+    "difficulty": "High",
+    "id": 75
+  },
+  {
+    "question": "A patient with continuous bladder irrigation. What is the correct flow rate?",
+    "options": [
+      "A. Slow drip",
+      "B. Fast flow to keep solution clear",
+      "C. Intermittent",
+      "D. No specific rate"
+    ],
+    "correct": 1,
+    "explanation": "• Continuous bladder irrigation requires fast enough flow to keep solution clear (pink-tinged is acceptable, bright red requires faster rate or notify physician).\n• Prevents clot formation and maintains catheter patency.\n• Understanding urological procedures is essential for post-operative care.",
+    "topic": "Urological Equipment",
+    "year": "2017",
+    "difficulty": "Medium",
+    "id": 76
+  },
+  {
+    "question": "A patient with external fixator for fracture. What is the priority nursing care?",
+    "options": [
+      "A. Pin site care",
+      "B. Range of motion exercises",
+      "C. Weight bearing",
+      "D. No special care"
+    ],
+    "correct": 0,
+    "explanation": "• External fixator requires meticulous pin site care to prevent infection: clean daily with saline or antiseptic, assess for signs of infection (redness, drainage, loosening).\n• Pin site infections can lead to osteomyelitis.\n• Understanding orthopedic equipment is essential for fracture management.",
+    "topic": "Orthopedic Equipment",
+    "year": "2018",
+    "difficulty": "High",
+    "id": 77
+  },
+  {
+    "question": "[IMAGE-BASED] The X-ray shows a chest with a visible lung edge and absence of lung markings beyond it. This is most consistent with:",
+    "options": [
+      "A. Consolidation",
+      "B. Pleural effusion",
+      "C. Pneumothorax",
+      "D. Cardiomegaly"
+    ],
+    "correct": 2,
+    "explanation": "• A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax.\n• Image-based CXR interpretation is commonly tested in NORCET.",
+    "topic": "Image-Based - X-ray",
+    "year": "2019",
+    "difficulty": "High",
+    "image_type": "cxr_pneumothorax",
+    "id": 78
+  },
+  {
+    "question": "[IMAGE-BASED] On the chest X-ray image, the tip of the NG tube is visible. Where should it lie to confirm gastric placement?",
+    "options": [
+      "A. In the trachea",
+      "B. Below the diaphragm, in the stomach",
+      "C. In the esophagus above diaphragm",
+      "D. In the lung"
+    ],
+    "correct": 1,
+    "explanation": "• Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach.\n• Esophageal or tracheal placement is incorrect and unsafe.",
+    "topic": "Image-Based - X-ray",
+    "year": "2018",
+    "difficulty": "High",
+    "image_type": "ng_tube_xray",
+    "id": 79
+  },
+  {
+    "question": "[IMAGE-BASED] The image shows a surgical instrument with a curved, tapered tip. It is most likely used for:",
+    "options": [
+      "A. Cutting suture",
+      "B. Clamping vessels",
+      "C. Retracting tissue",
+      "D. Suction"
+    ],
+    "correct": 1,
+    "explanation": "• Curved, tapered-tip instruments are typical of hemostats/artery forceps used for clamping vessels.\n• Instrument identification from images is a recurrent NORCET pattern.",
+    "topic": "Image-Based - Instruments",
+    "year": "2020",
+    "difficulty": "Medium",
+    "image_type": "hemostat",
+    "id": 80
+  },
+  {
+    "question": "[IMAGE-BASED] The abdominal X-ray shows free air under the diaphragm. This suggests:",
+    "options": [
+      "A. Normal finding",
+      "B. Bowel obstruction only",
+      "C. Perforated viscus / pneumoperitoneum",
+      "D. Ascites"
+    ],
+    "correct": 2,
+    "explanation": "• Free air under the diaphragm on erect abdominal or chest X-ray indicates pneumoperitoneum, commonly from perforated ulcer or bowel.\n• Image-based X-ray interpretation is commonly asked.",
+    "topic": "Image-Based - X-ray",
+    "year": "2017",
+    "difficulty": "High",
+    "image_type": "pneumoperitoneum",
+    "id": 81
+  },
+  {
+    "question": "[IMAGE-BASED] In the image, a three-bottle chest drainage system is shown. Which chamber indicates an air leak when it bubbles continuously?",
+    "options": [
+      "A. Collection chamber",
+      "B. Water seal chamber",
+      "C. Suction control chamber",
+      "D. None"
+    ],
+    "correct": 1,
+    "explanation": "• Continuous bubbling in the water seal chamber indicates an air leak (from lung or system).\n• Tidaling may be normal with respiration; continuous bubbling is not.",
+    "topic": "Image-Based - Instruments",
+    "year": "2021",
+    "difficulty": "High",
+    "image_type": "chest_drain_bottle",
+    "id": 82
+  },
+  {
+    "question": "[IMAGE-BASED] The limb X-ray shows a fracture line through the bone with alignment maintained. This is best described as:",
+    "options": [
+      "A. Comminuted fracture",
+      "B. Simple (closed) fracture",
+      "C. Open fracture",
+      "D. Pathological fracture"
+    ],
+    "correct": 1,
+    "explanation": "• A single fracture line with maintained alignment is a simple fracture.\n• Comminuted = multiple fragments; open = skin broken; pathological = through abnormal bone.",
+    "topic": "Image-Based - X-ray",
+    "year": "2020",
+    "difficulty": "Medium",
+    "image_type": "fracture_xray",
+    "id": 83
+  },
+  {
+    "question": "[IMAGE-BASED] The image shows a syringe with a needle. Which gauge is typically used for intramuscular injection in an adult?",
+    "options": [
+      "A. 18 G",
+      "B. 21–23 G",
+      "C. 26 G",
+      "D. 30 G"
+    ],
+    "correct": 1,
+    "explanation": "• IM injection in adults usually uses 21–23 G, 1–1.5 inch.\n• Subcutaneous often 25–27 G; IV varies by site and use.\n• Syringe/needle identification from images is tested in NORCET.",
+    "topic": "Image-Based - Instruments",
+    "year": "2019",
+    "difficulty": "Medium",
+    "image_type": "syringe_needle",
+    "id": 84
+  },
+  {
+    "question": "[IMAGE-BASED] On the chest X-ray, a wedge-shaped opacity in the lung with the apex toward the hilum suggests:",
+    "options": [
+      "A. Pneumonia",
+      "B. Lung mass",
+      "C. Pulmonary infarction",
+      "D. Pneumothorax"
+    ],
+    "correct": 2,
+    "explanation": "• A wedge-shaped opacity with apex toward hilum is classic for pulmonary infarction (e.g.\n• pulmonary embolism).\n• Pneumonia and mass often have different shapes and distribution.",
+    "topic": "Image-Based - X-ray",
+    "year": "2018",
+    "difficulty": "High",
+    "image_type": "cxr_infarct",
+    "id": 85
+  }
+]

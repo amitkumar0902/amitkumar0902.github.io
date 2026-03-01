@@ -1,0 +1,437 @@
+[
+  {
+    "id": 1,
+    "question": "A patient with schizophrenia is experiencing auditory hallucinations. What is the priority nursing intervention?",
+    "options": [
+      "A. Confront the patient about delusions",
+      "B. Acknowledge feelings and focus on reality",
+      "C. Ignore the hallucinations",
+      "D. Agree with the patient"
+    ],
+    "correct": 1,
+    "explanation": "• Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality.\n• Confrontation can increase anxiety.",
+    "topic": "Schizophrenia",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 2,
+    "question": "A patient with major depressive disorder expresses suicidal ideation. What is the priority nursing action?",
+    "options": [
+      "A. Leave patient alone to think",
+      "B. Provide one-to-one supervision",
+      "C. Administer antidepressant",
+      "D. Schedule therapy session"
+    ],
+    "correct": 1,
+    "explanation": "• Patients with suicidal ideation require constant one-to-one supervision to ensure safety.\n• Remove harmful objects and notify the treatment team immediately.",
+    "topic": "Depression",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 3,
+    "question": "What is the primary side effect of typical antipsychotics (haloperidol)?",
+    "options": [
+      "A. Weight gain",
+      "B. Extrapyramidal symptoms",
+      "C. Sedation",
+      "D. Dry mouth"
+    ],
+    "correct": 1,
+    "explanation": "• Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics.\n• Atypical antipsychotics have lower EPS risk.",
+    "topic": "Psychopharmacology",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 4,
+    "question": "A patient with bipolar disorder is in manic phase. What is the priority nursing intervention?",
+    "options": [
+      "A. Encourage activity",
+      "B. Provide quiet environment and limit stimulation",
+      "C. Engage in group activities",
+      "D. Allow unlimited visitors"
+    ],
+    "correct": 1,
+    "explanation": "• Manic patients are overstimulated.\n• Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
+    "topic": "Bipolar Disorder",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 5,
+    "question": "What is the therapeutic communication technique of reflecting?",
+    "options": [
+      "A. Repeating what patient said",
+      "B. Directing conversation",
+      "C. Giving advice",
+      "D. Redirecting patient's statement back for clarification"
+    ],
+    "correct": 3,
+    "explanation": "• Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
+    "topic": "Therapeutic Communication",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "question": "A patient with anxiety disorder is experiencing panic attack. What is the priority intervention?",
+    "options": [
+      "A. Administer benzodiazepine",
+      "B. Stay with patient, speak calmly",
+      "C. Leave patient alone",
+      "D. Encourage physical activity"
+    ],
+    "correct": 1,
+    "explanation": "• During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques.\n• Medication may be needed if severe.",
+    "topic": "Anxiety Disorders",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 7,
+    "question": "What is the primary mechanism of action of SSRIs (Selective Serotonin Reuptake Inhibitors)?",
+    "options": [
+      "A. Block dopamine receptors",
+      "B. Increase serotonin availability",
+      "C. Decrease GABA",
+      "D. Block norepinephrine"
+    ],
+    "correct": 1,
+    "explanation": "• SSRIs block the reuptake of serotonin, increasing its availability in the synaptic cleft, which helps treat depression and anxiety.",
+    "topic": "Psychopharmacology",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 8,
+    "question": "A patient with obsessive-compulsive disorder (OCD) is performing rituals. What is the therapeutic approach?",
+    "options": [
+      "A. Prevent all rituals",
+      "B. Gradually limit rituals with exposure therapy",
+      "C. Allow unlimited rituals",
+      "D. Ignore the behavior"
+    ],
+    "correct": 1,
+    "explanation": "• OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety.\n• Sudden prevention increases distress.",
+    "topic": "Anxiety Disorders",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 9,
+    "question": "What is the priority nursing intervention for a patient with eating disorder (anorexia)?",
+    "options": [
+      "A. Force feeding",
+      "B. Monitor weight and vital signs",
+      "C. Ignore eating behaviors",
+      "D. Focus only on psychological therapy"
+    ],
+    "correct": 1,
+    "explanation": "• Medical stabilization is priority - monitor weight, vital signs, electrolytes.\n• Malnutrition can be life-threatening.\n• Then address psychological aspects.",
+    "topic": "Eating Disorders",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 10,
+    "question": "A patient with PTSD is experiencing flashbacks. What is the appropriate nursing response?",
+    "options": [
+      "A. Touch the patient",
+      "B. Orient to present, safe environment",
+      "C. Ask detailed questions about trauma",
+      "D. Leave patient alone"
+    ],
+    "correct": 1,
+    "explanation": "• During flashbacks, orient patient to present reality and safety.\n• Avoid touching without permission.\n• Don't force discussion of trauma details.",
+    "topic": "Trauma Disorders",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 11,
+    "question": "What is the primary side effect of lithium therapy?",
+    "options": [
+      "A. Weight loss",
+      "B. Lithium toxicity",
+      "C. Hypertension",
+      "D. Hyperthyroidism"
+    ],
+    "correct": 1,
+    "explanation": "• Lithium has a narrow therapeutic range.\n• Toxicity can occur with dehydration, drug interactions, or high doses.\n• Monitor serum levels regularly.",
+    "topic": "Psychopharmacology",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 12,
+    "question": "A patient with dementia is confused and agitated. What is the best approach?",
+    "options": [
+      "A. Correct repeatedly",
+      "B. Use reality orientation",
+      "C. Use validation therapy",
+      "D. Ignore confusion"
+    ],
+    "correct": 2,
+    "explanation": "• Validation therapy accepts the patient's reality rather than correcting, reducing agitation.\n• Reality orientation can increase frustration in advanced dementia.",
+    "topic": "Dementia",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 13,
+    "question": "What is the primary goal of cognitive-behavioral therapy (CBT)?",
+    "options": [
+      "A. Explore childhood experiences",
+      "B. Change maladaptive thoughts and behaviors",
+      "C. Provide medication",
+      "D. Support group therapy"
+    ],
+    "correct": 1,
+    "explanation": "• CBT focuses on identifying and changing negative thought patterns and maladaptive behaviors that contribute to psychological distress.",
+    "topic": "Therapy",
+    "year": "2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "A patient with substance use disorder is in withdrawal. What is the priority?",
+    "options": [
+      "A. Psychological counseling",
+      "B. Medical monitoring and symptom management",
+      "C. Group therapy",
+      "D. Family therapy"
+    ],
+    "correct": 1,
+    "explanation": "• Withdrawal can be life-threatening (especially alcohol, benzodiazepines).\n• Medical monitoring and symptom management take priority over psychological interventions.",
+    "topic": "Substance Use",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 15,
+    "question": "What is the therapeutic use of ECT (Electroconvulsive Therapy)?",
+    "options": [
+      "A. First-line treatment for all depression",
+      "B. Treatment for severe, treatment-resistant depression",
+      "C. Punishment for non-compliance",
+      "D. Treatment for anxiety only"
+    ],
+    "correct": 1,
+    "explanation": "• ECT is used for severe, treatment-resistant depression, especially when rapid response is needed (suicidal risk) or medications are contraindicated.",
+    "topic": "Treatment Modalities",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "question": "A patient with schizophrenia is experiencing auditory hallucinations. What is the priority nursing intervention?",
+    "options": [
+      "A. Confront the patient about delusions",
+      "B. Acknowledge feelings and focus on reality",
+      "C. Ignore the hallucinations",
+      "D. Agree with the patient"
+    ],
+    "correct": 1,
+    "explanation": "• Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality.\n• Confrontation can increase anxiety.",
+    "topic": "Schizophrenia",
+    "year": "2015",
+    "difficulty": "High",
+    "id": 16
+  },
+  {
+    "question": "A patient with major depressive disorder expresses suicidal ideation. What is the priority nursing action?",
+    "options": [
+      "A. Leave patient alone to think",
+      "B. Provide one-to-one supervision",
+      "C. Administer antidepressant",
+      "D. Schedule therapy session"
+    ],
+    "correct": 1,
+    "explanation": "• Patients with suicidal ideation require constant one-to-one supervision to ensure safety.\n• Remove harmful objects and notify the treatment team immediately.",
+    "topic": "Depression",
+    "year": "2016",
+    "difficulty": "Critical",
+    "id": 17
+  },
+  {
+    "question": "What is the primary side effect of typical antipsychotics (haloperidol)?",
+    "options": [
+      "A. Weight gain",
+      "B. Extrapyramidal symptoms",
+      "C. Sedation",
+      "D. Dry mouth"
+    ],
+    "correct": 1,
+    "explanation": "• Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics.\n• Atypical antipsychotics have lower EPS risk.",
+    "topic": "Psychopharmacology",
+    "year": "2017",
+    "difficulty": "High",
+    "id": 18
+  },
+  {
+    "question": "A patient with bipolar disorder is in manic phase. What is the priority nursing intervention?",
+    "options": [
+      "A. Encourage activity",
+      "B. Provide quiet environment and limit stimulation",
+      "C. Engage in group activities",
+      "D. Allow unlimited visitors"
+    ],
+    "correct": 1,
+    "explanation": "• Manic patients are overstimulated.\n• Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
+    "topic": "Bipolar Disorder",
+    "year": "2018",
+    "difficulty": "High",
+    "id": 19
+  },
+  {
+    "question": "What is the therapeutic communication technique of reflecting?",
+    "options": [
+      "A. Repeating what patient said",
+      "B. Directing conversation",
+      "C. Giving advice",
+      "D. Redirecting patient's statement back for clarification"
+    ],
+    "correct": 3,
+    "explanation": "• Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
+    "topic": "Therapeutic Communication",
+    "year": "2019",
+    "difficulty": "Medium",
+    "id": 20
+  },
+  {
+    "question": "A patient with anxiety disorder is experiencing panic attack. What is the priority intervention?",
+    "options": [
+      "A. Administer benzodiazepine",
+      "B. Stay with patient, speak calmly",
+      "C. Leave patient alone",
+      "D. Encourage physical activity"
+    ],
+    "correct": 1,
+    "explanation": "• During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques.\n• Medication may be needed if severe.",
+    "topic": "Anxiety Disorders",
+    "year": "2020",
+    "difficulty": "High",
+    "id": 21
+  },
+  {
+    "question": "What is the primary mechanism of action of SSRIs (Selective Serotonin Reuptake Inhibitors)?",
+    "options": [
+      "A. Block dopamine receptors",
+      "B. Increase serotonin availability",
+      "C. Decrease GABA",
+      "D. Block norepinephrine"
+    ],
+    "correct": 1,
+    "explanation": "• SSRIs block the reuptake of serotonin, increasing its availability in the synaptic cleft, which helps treat depression and anxiety.",
+    "topic": "Psychopharmacology",
+    "year": "2021",
+    "difficulty": "High",
+    "id": 22
+  },
+  {
+    "question": "A patient with obsessive-compulsive disorder (OCD) is performing rituals. What is the therapeutic approach?",
+    "options": [
+      "A. Prevent all rituals",
+      "B. Gradually limit rituals with exposure therapy",
+      "C. Allow unlimited rituals",
+      "D. Ignore the behavior"
+    ],
+    "correct": 1,
+    "explanation": "• OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety.\n• Sudden prevention increases distress.",
+    "topic": "Anxiety Disorders",
+    "year": "2022",
+    "difficulty": "High",
+    "id": 23
+  },
+  {
+    "question": "What is the priority nursing intervention for a patient with eating disorder (anorexia)?",
+    "options": [
+      "A. Force feeding",
+      "B. Monitor weight and vital signs",
+      "C. Ignore eating behaviors",
+      "D. Focus only on psychological therapy"
+    ],
+    "correct": 1,
+    "explanation": "• Medical stabilization is priority - monitor weight, vital signs, electrolytes.\n• Malnutrition can be life-threatening.\n• Then address psychological aspects.",
+    "topic": "Eating Disorders",
+    "year": "2023",
+    "difficulty": "Critical",
+    "id": 24
+  },
+  {
+    "question": "A patient with PTSD is experiencing flashbacks. What is the appropriate nursing response?",
+    "options": [
+      "A. Touch the patient",
+      "B. Orient to present, safe environment",
+      "C. Ask detailed questions about trauma",
+      "D. Leave patient alone"
+    ],
+    "correct": 1,
+    "explanation": "• During flashbacks, orient patient to present reality and safety.\n• Avoid touching without permission.\n• Don't force discussion of trauma details.",
+    "topic": "Trauma Disorders",
+    "year": "2024",
+    "difficulty": "High",
+    "id": 25
+  },
+  {
+    "question": "A patient with major depression is prescribed sertraline (SSRI). What is the most important teaching about this medication?",
+    "options": [
+      "A. Take with food",
+      "B. May take 2-4 weeks to show effect",
+      "C. Can stop anytime",
+      "D. No side effects expected"
+    ],
+    "correct": 1,
+    "explanation": "• SSRIs like sertraline typically take 2-4 weeks to show therapeutic effects.\n• Patients must be educated about this delayed onset to prevent early discontinuation.\n• Common side effects include nausea, headache, and sexual dysfunction.\n• Abrupt discontinuation can cause withdrawal symptoms.\n• Psychiatric nursing requires therapeutic communication skills and understanding of psychopharmacology.",
+    "topic": "Psychopharmacology",
+    "year": "2025",
+    "difficulty": "High",
+    "id": 26
+  },
+  {
+    "question": "A patient with severe depression requires ECT (Electroconvulsive Therapy). What is the priority pre-procedure care?",
+    "options": [
+      "A. NPO status",
+      "B. Remove dentures and jewelry",
+      "C. Administer premedication",
+      "D. All of the above"
+    ],
+    "correct": 3,
+    "explanation": "• ECT pre-procedure: NPO 6-8 hours, remove dentures/jewelry/metal objects, administer premedication (atropine to reduce secretions, anesthetic, muscle relaxant).\n• Proper preparation prevents complications.\n• Understanding psychiatric treatment equipment and procedures is essential for safe ECT administration.",
+    "topic": "Psychiatric Treatment Equipment",
+    "year": "2015",
+    "difficulty": "High",
+    "id": 27
+  },
+  {
+    "question": "A patient with suicidal ideation requires safety measures. What equipment is essential?",
+    "options": [
+      "A. Restraints",
+      "B. One-to-one observation",
+      "C. Locked room",
+      "D. Sedation only"
+    ],
+    "correct": 1,
+    "explanation": "• Suicidal patients require one-to-one observation (constant supervision) and removal of harmful objects.\n• Restraints should be avoided unless absolutely necessary.\n• Safety is priority.\n• Understanding psychiatric safety equipment and protocols is critical for preventing self-harm and ensuring patient safety.",
+    "topic": "Psychiatric Safety Equipment",
+    "year": "2016",
+    "difficulty": "Critical",
+    "id": 28
+  },
+  {
+    "question": "A patient with anxiety disorder is learning relaxation techniques. What equipment can assist?",
+    "options": [
+      "A. Biofeedback machine",
+      "B. Restraints",
+      "C. No equipment needed",
+      "D. Medication only"
+    ],
+    "correct": 0,
+    "explanation": "• Biofeedback equipment can assist with relaxation training by providing visual/auditory feedback on physiological parameters (heart rate, muscle tension).\n• Helps patients learn self-regulation.\n• Understanding therapeutic equipment enhances psychiatric nursing interventions and patient outcomes.",
+    "topic": "Therapeutic Equipment",
+    "year": "2017",
+    "difficulty": "Medium",
+    "id": 29
+  }
+]

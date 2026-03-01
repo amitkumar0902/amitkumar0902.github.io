@@ -1,0 +1,617 @@
+[
+  {
+    "id": 1,
+    "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
+    "options": [
+      "A. Check blood pressure",
+      "B. Administer pain medication",
+      "C. Encourage rest",
+      "D. Schedule routine appointment"
+    ],
+    "correct": 0,
+    "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 2,
+    "question": "What is the normal fetal heart rate range during labor?",
+    "options": [
+      "A. 100-120 bpm",
+      "B. 110-160 bpm",
+      "C. 120-180 bpm",
+      "D. 140-200 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Normal fetal heart rate is 110-160 beats per minute.\n• Rates outside this range may indicate fetal distress and require immediate intervention.",
+    "topic": "Intrapartum Care",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 3,
+    "question": "A woman in active labor has been pushing for 2 hours without progress. What is the most likely cause?",
+    "options": [
+      "A. Cephalopelvic disproportion",
+      "B. Inadequate pain relief",
+      "C. Maternal fatigue",
+      "D. Fetal position"
+    ],
+    "correct": 0,
+    "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
+    "topic": "Labor Complications",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 4,
+    "question": "What is the priority nursing intervention immediately after delivery?",
+    "options": [
+      "A. Cut the umbilical cord",
+      "B. Dry and stimulate the newborn",
+      "C. Administer oxytocin",
+      "D. Deliver the placenta"
+    ],
+    "correct": 1,
+    "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
+    "topic": "Immediate Postpartum",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 5,
+    "question": "A postpartum woman complains of heavy bleeding and passing large clots. What is the priority action?",
+    "options": [
+      "A. Massage the fundus",
+      "B. Check vital signs",
+      "C. Administer oxytocin",
+      "D. Prepare for surgery"
+    ],
+    "correct": 0,
+    "explanation": "• Uterine massage helps contract the uterus and control bleeding.\n• This is the first intervention for postpartum hemorrhage.\n• Then assess for other causes if bleeding continues.",
+    "topic": "Postpartum Complications",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 6,
+    "question": "What is the recommended iron supplementation during pregnancy?",
+    "options": [
+      "A. 30 mg elemental iron daily",
+      "B. 60 mg elemental iron daily",
+      "C. 100 mg elemental iron daily",
+      "D. Iron only if anemic"
+    ],
+    "correct": 1,
+    "explanation": "• WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia.\n• This should start in the second trimester and continue postpartum.",
+    "topic": "Antenatal Care",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 7,
+    "question": "A woman at 28 weeks gestation is diagnosed with gestational diabetes. What is the priority teaching?",
+    "options": [
+      "A. Dietary modifications",
+      "B. Insulin administration",
+      "C. Exercise restrictions",
+      "D. Delivery planning"
+    ],
+    "correct": 0,
+    "explanation": "• Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes.\n• Most cases can be managed with diet alone.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 8,
+    "question": "What is the normal duration of the first stage of labor in primigravida?",
+    "options": [
+      "A. 2-4 hours",
+      "B. 6-12 hours",
+      "C. 12-18 hours",
+      "D. 18-24 hours"
+    ],
+    "correct": 2,
+    "explanation": "• First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
+    "topic": "Labor Stages",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "A newborn has Apgar score of 3 at 1 minute. What is the priority intervention?",
+    "options": [
+      "A. Provide warmth",
+      "B. Suction airway",
+      "C. Administer oxygen",
+      "D. Begin resuscitation"
+    ],
+    "correct": 3,
+    "explanation": "• Apgar score of 3 indicates severe depression requiring immediate resuscitation.\n• Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+    "topic": "Neonatal Resuscitation",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 10,
+    "question": "What is the recommended frequency of antenatal visits in a normal pregnancy?",
+    "options": [
+      "A. Monthly until 28 weeks, then biweekly",
+      "B. Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly",
+      "C. Every 2 weeks throughout",
+      "D. Only when problems occur"
+    ],
+    "correct": 1,
+    "explanation": "• Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery.\n• This allows early detection of complications.",
+    "topic": "Antenatal Care",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 11,
+    "question": "A woman with placenta previa is admitted at 34 weeks. What is the priority nursing intervention?",
+    "options": [
+      "A. Prepare for immediate delivery",
+      "B. Bed rest and monitor for bleeding",
+      "C. Administer tocolytics",
+      "D. Encourage ambulation"
+    ],
+    "correct": 1,
+    "explanation": "• Placenta previa requires bed rest to prevent bleeding.\n• Monitor for signs of hemorrhage.\n• Delivery is planned when fetus is mature or if bleeding is severe.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 12,
+    "question": "What is the normal amount of lochia rubra in the first 3-4 days postpartum?",
+    "options": [
+      "A. Minimal, spotting only",
+      "B. Moderate, like heavy menstrual period",
+      "C. Heavy, saturating pad in 1 hour",
+      "D. No bleeding expected"
+    ],
+    "correct": 1,
+    "explanation": "• Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period.\n• Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
+    "topic": "Postpartum Care",
+    "year": "2024",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "A woman with ectopic pregnancy presents with severe abdominal pain. What is the priority assessment?",
+    "options": [
+      "A. Blood pressure",
+      "B. Abdominal examination",
+      "C. Urine pregnancy test",
+      "D. Ultrasound"
+    ],
+    "correct": 0,
+    "explanation": "• Ectopic pregnancy can cause rupture and hemorrhage.\n• Checking blood pressure assesses for shock.\n• This is a medical emergency requiring immediate intervention.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2022",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 14,
+    "question": "What is the recommended time for initiating breastfeeding after delivery?",
+    "options": [
+      "A. Within 1 hour",
+      "B. Within 2-4 hours",
+      "C. Within 6 hours",
+      "D. Within 24 hours"
+    ],
+    "correct": 0,
+    "explanation": "• WHO recommends initiating breastfeeding within the first hour after birth (golden hour).\n• Early initiation promotes bonding and establishes milk supply.",
+    "topic": "Breastfeeding",
+    "year": "2023",
+    "difficulty": "High"
+  },
+  {
+    "id": 15,
+    "question": "A woman with preeclampsia is receiving magnesium sulfate. What is the priority monitoring?",
+    "options": [
+      "A. Blood pressure",
+      "B. Deep tendon reflexes",
+      "C. Urine output",
+      "D. Respiratory rate"
+    ],
+    "correct": 1,
+    "explanation": "• Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes.\n• Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2024",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 16,
+    "question": "What is the normal weight gain during pregnancy?",
+    "options": [
+      "A. 5-7 kg",
+      "B. 8-12 kg",
+      "C. 11-16 kg",
+      "D. 15-20 kg"
+    ],
+    "correct": 2,
+    "explanation": "• Normal weight gain during pregnancy is 11-16 kg (25-35 pounds).\n• This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
+    "topic": "Antenatal Care",
+    "year": "2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "A woman with abruptio placentae presents with painful, rigid abdomen. What is the priority intervention?",
+    "options": [
+      "A. Administer pain medication",
+      "B. Prepare for emergency cesarean",
+      "C. Monitor fetal heart rate",
+      "D. Start IV fluids"
+    ],
+    "correct": 1,
+    "explanation": "• Abruptio placentae is a medical emergency.\n• The rigid, painful abdomen suggests concealed hemorrhage.\n• Emergency delivery is required to save mother and baby.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 18,
+    "question": "What is the recommended folic acid supplementation before and during early pregnancy?",
+    "options": [
+      "A. 200 mcg daily",
+      "B. 400 mcg daily",
+      "C. 600 mcg daily",
+      "D. 1000 mcg daily"
+    ],
+    "correct": 1,
+    "explanation": "• 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects.\n• Higher doses (4-5 mg) are needed if previous child had NTD.",
+    "topic": "Antenatal Care",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 19,
+    "question": "A postpartum woman develops mastitis. What is the priority nursing intervention?",
+    "options": [
+      "A. Stop breastfeeding",
+      "B. Continue breastfeeding and apply warm compress",
+      "C. Administer antibiotics only",
+      "D. Apply cold compress"
+    ],
+    "correct": 1,
+    "explanation": "• Mastitis treatment includes continuing breastfeeding (to empty breast), warm compresses, rest, and antibiotics.\n• Stopping breastfeeding can worsen the condition.",
+    "topic": "Postpartum Complications",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 20,
+    "question": "What is the normal duration of the third stage of labor?",
+    "options": [
+      "A. 5-10 minutes",
+      "B. 10-30 minutes",
+      "C. 30-60 minutes",
+      "D. 1-2 hours"
+    ],
+    "correct": 1,
+    "explanation": "• Third stage of labor (placental delivery) normally occurs within 10-30 minutes after birth.\n• If longer than 30 minutes, it's considered retained placenta.",
+    "topic": "Labor Stages",
+    "year": "2023",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "question": "A woman with polyhydramnios is at risk for which complication?",
+    "options": [
+      "A. Preterm labor",
+      "B. Post-term pregnancy",
+      "C. Fetal growth restriction",
+      "D. Gestational hypertension"
+    ],
+    "correct": 0,
+    "explanation": "• Polyhydramnios (excess amniotic fluid) can cause preterm labor due to uterine overdistension.\n• It's also associated with fetal anomalies and diabetes.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2024",
+    "difficulty": "High"
+  },
+  {
+    "id": 22,
+    "question": "What is the priority nursing care for a woman with hyperemesis gravidarum?",
+    "options": [
+      "A. Encourage oral fluids",
+      "B. IV fluid replacement",
+      "C. Administer antiemetics",
+      "D. Dietary counseling"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperemesis gravidarum causes severe dehydration and electrolyte imbalance.\n• IV fluid replacement is the priority to restore fluid and electrolyte balance.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "id": 23,
+    "question": "A newborn has jaundice at 24 hours of age. What does this indicate?",
+    "options": [
+      "A. Physiological jaundice",
+      "B. Pathological jaundice",
+      "C. Breastfeeding jaundice",
+      "D. Normal finding"
+    ],
+    "correct": 1,
+    "explanation": "• Jaundice appearing within 24 hours is pathological and requires investigation.\n• Physiological jaundice appears after 48-72 hours.\n• Early jaundice may indicate hemolytic disease or infection.",
+    "topic": "Neonatal Conditions",
+    "year": "2023",
+    "difficulty": "Critical"
+  },
+  {
+    "id": 24,
+    "question": "What is the recommended calcium supplementation during pregnancy?",
+    "options": [
+      "A. 500 mg daily",
+      "B. 1000 mg daily",
+      "C. 1500 mg daily",
+      "D. No supplementation needed"
+    ],
+    "correct": 1,
+    "explanation": "• Pregnant and lactating women need 1000-1200 mg calcium daily.\n• This can usually be met through diet, but supplementation may be needed if intake is inadequate.",
+    "topic": "Antenatal Care",
+    "year": "2024",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "A woman with cervical incompetence is at risk for which complication?",
+    "options": [
+      "A. Preterm labor",
+      "B. Post-term pregnancy",
+      "C. Placenta previa",
+      "D. Gestational diabetes"
+    ],
+    "correct": 0,
+    "explanation": "• Cervical incompetence (weak cervix) causes painless cervical dilation leading to preterm labor and delivery, usually in second trimester.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2022",
+    "difficulty": "High"
+  },
+  {
+    "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
+    "options": [
+      "A. Check blood pressure",
+      "B. Administer pain medication",
+      "C. Encourage rest",
+      "D. Schedule routine appointment"
+    ],
+    "correct": 0,
+    "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2015",
+    "difficulty": "Critical",
+    "id": 26
+  },
+  {
+    "question": "What is the normal fetal heart rate range during labor?",
+    "options": [
+      "A. 100-120 bpm",
+      "B. 110-160 bpm",
+      "C. 120-180 bpm",
+      "D. 140-200 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Normal fetal heart rate is 110-160 beats per minute.\n• Rates outside this range may indicate fetal distress and require immediate intervention.",
+    "topic": "Intrapartum Care",
+    "year": "2016",
+    "difficulty": "High",
+    "id": 27
+  },
+  {
+    "question": "A woman in active labor has been pushing for 2 hours without progress. What is the most likely cause?",
+    "options": [
+      "A. Cephalopelvic disproportion",
+      "B. Inadequate pain relief",
+      "C. Maternal fatigue",
+      "D. Fetal position"
+    ],
+    "correct": 0,
+    "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
+    "topic": "Labor Complications",
+    "year": "2017",
+    "difficulty": "High",
+    "id": 28
+  },
+  {
+    "question": "What is the priority nursing intervention immediately after delivery?",
+    "options": [
+      "A. Cut the umbilical cord",
+      "B. Dry and stimulate the newborn",
+      "C. Administer oxytocin",
+      "D. Deliver the placenta"
+    ],
+    "correct": 1,
+    "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
+    "topic": "Immediate Postpartum",
+    "year": "2018",
+    "difficulty": "Critical",
+    "id": 29
+  },
+  {
+    "question": "A postpartum woman complains of heavy bleeding and passing large clots. What is the priority action?",
+    "options": [
+      "A. Massage the fundus",
+      "B. Check vital signs",
+      "C. Administer oxytocin",
+      "D. Prepare for surgery"
+    ],
+    "correct": 0,
+    "explanation": "• Uterine massage helps contract the uterus and control bleeding.\n• This is the first intervention for postpartum hemorrhage.\n• Then assess for other causes if bleeding continues.",
+    "topic": "Postpartum Complications",
+    "year": "2019",
+    "difficulty": "Critical",
+    "id": 30
+  },
+  {
+    "question": "What is the recommended iron supplementation during pregnancy?",
+    "options": [
+      "A. 30 mg elemental iron daily",
+      "B. 60 mg elemental iron daily",
+      "C. 100 mg elemental iron daily",
+      "D. Iron only if anemic"
+    ],
+    "correct": 1,
+    "explanation": "• WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia.\n• This should start in the second trimester and continue postpartum.",
+    "topic": "Antenatal Care",
+    "year": "2020",
+    "difficulty": "High",
+    "id": 31
+  },
+  {
+    "question": "A woman at 28 weeks gestation is diagnosed with gestational diabetes. What is the priority teaching?",
+    "options": [
+      "A. Dietary modifications",
+      "B. Insulin administration",
+      "C. Exercise restrictions",
+      "D. Delivery planning"
+    ],
+    "correct": 0,
+    "explanation": "• Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes.\n• Most cases can be managed with diet alone.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "topic": "Pregnancy Complications",
+    "year": "2021",
+    "difficulty": "High",
+    "id": 32
+  },
+  {
+    "question": "What is the normal duration of the first stage of labor in primigravida?",
+    "options": [
+      "A. 2-4 hours",
+      "B. 6-12 hours",
+      "C. 12-18 hours",
+      "D. 18-24 hours"
+    ],
+    "correct": 2,
+    "explanation": "• First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
+    "topic": "Labor Stages",
+    "year": "2022",
+    "difficulty": "Medium",
+    "id": 33
+  },
+  {
+    "question": "A newborn has Apgar score of 3 at 1 minute. What is the priority intervention?",
+    "options": [
+      "A. Provide warmth",
+      "B. Suction airway",
+      "C. Administer oxygen",
+      "D. Begin resuscitation"
+    ],
+    "correct": 3,
+    "explanation": "• Apgar score of 3 indicates severe depression requiring immediate resuscitation.\n• Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+    "topic": "Neonatal Resuscitation",
+    "year": "2023",
+    "difficulty": "Critical",
+    "id": 34
+  },
+  {
+    "question": "What is the recommended frequency of antenatal care visits in a normal pregnancy?",
+    "options": [
+      "A. Monthly until 28 weeks, then biweekly",
+      "B. Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly",
+      "C. Every 2 weeks throughout",
+      "D. Only when problems occur"
+    ],
+    "correct": 1,
+    "explanation": "• Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery.\n• This allows early detection of complications.",
+    "topic": "Antenatal Care",
+    "year": "2024",
+    "difficulty": "High",
+    "id": 35
+  },
+  {
+    "question": "A woman at 36 weeks gestation is diagnosed with preeclampsia with severe features. What is the priority medication?",
+    "options": [
+      "A. Antihypertensive",
+      "B. Magnesium sulfate",
+      "C. Diuretics",
+      "D. Anticoagulants"
+    ],
+    "correct": 1,
+    "explanation": "• Magnesium sulfate is the priority medication for preeclampsia with severe features to prevent and treat seizures (eclampsia).\n• It also has mild antihypertensive effects.\n• Continuous monitoring of deep tendon reflexes, respiratory rate, and urine output is critical to detect magnesium toxicity.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.",
+    "topic": "Pregnancy Complications",
+    "year": "2025",
+    "difficulty": "Critical",
+    "id": 36
+  },
+  {
+    "question": "A woman in labor has external fetal monitor applied. What does the tocodynamometer measure?",
+    "options": [
+      "A. Fetal heart rate",
+      "B. Uterine contractions",
+      "C. Fetal movement",
+      "D. Amniotic fluid"
+    ],
+    "correct": 1,
+    "explanation": "• Tocodynamometer (toco) measures uterine contractions externally.\n• Internal uterine pressure catheter (IUPC) provides more accurate measurement.\n• Fetal heart rate is measured separately.\n• Understanding fetal monitoring equipment is essential for intrapartum care and detecting complications.",
+    "topic": "Fetal Monitoring Equipment",
+    "year": "2015",
+    "difficulty": "High",
+    "id": 37
+  },
+  {
+    "question": "A postpartum woman requires perineal care. What is the correct solution?",
+    "options": [
+      "A. Soap and water",
+      "B. Betadine solution",
+      "C. Warm water with mild soap, front to back",
+      "D. Alcohol"
+    ],
+    "correct": 2,
+    "explanation": "• Perineal care requires warm water with mild soap, cleaning front to back to prevent contamination.\n• Avoid harsh chemicals.\n• Proper technique promotes healing and prevents infection.\n• Understanding postpartum care equipment and techniques is essential for maternal recovery.",
+    "topic": "Postpartum Care",
+    "year": "2016",
+    "difficulty": "Medium",
+    "id": 38
+  },
+  {
+    "question": "A woman requires cervical dilation measurement. What instrument is used?",
+    "options": [
+      "A. Speculum",
+      "B. Fetoscope",
+      "C. Dilation gauge or fingers",
+      "D. Ultrasound"
+    ],
+    "correct": 2,
+    "explanation": "• Cervical dilation is measured using dilation gauge or by digital examination (fingers).\n• One finger width = approximately 1 cm.\n• Full dilation is 10 cm.\n• Understanding labor assessment equipment is essential for monitoring labor progress and detecting complications.",
+    "topic": "Labor Assessment Equipment",
+    "year": "2017",
+    "difficulty": "Medium",
+    "id": 39
+  },
+  {
+    "question": "A newborn requires Apgar assessment. What equipment is needed?",
+    "options": [
+      "A. Stethoscope and observation",
+      "B. Blood pressure cuff",
+      "C. Thermometer only",
+      "D. No equipment needed"
+    ],
+    "correct": 0,
+    "explanation": "• Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort.\n• Assessed at 1 and 5 minutes after birth.\n• Understanding neonatal assessment equipment is critical for immediate newborn evaluation and identifying need for resuscitation.",
+    "topic": "Neonatal Assessment Equipment",
+    "year": "2018",
+    "difficulty": "High",
+    "id": 40
+  },
+  {
+    "question": "A woman with preeclampsia requires magnesium sulfate infusion. What is the priority monitoring equipment?",
+    "options": [
+      "A. Blood pressure monitor",
+      "B. Deep tendon reflex assessment",
+      "C. Respiratory rate monitor",
+      "D. All of the above"
+    ],
+    "correct": 3,
+    "explanation": "• Magnesium sulfate requires monitoring: deep tendon reflexes (loss indicates toxicity), respiratory rate (depression is sign of toxicity), urine output (decreased indicates toxicity).\n• Also monitor serum magnesium levels.\n• Understanding medication monitoring equipment is critical for safe magnesium administration.",
+    "topic": "OB Medication Monitoring",
+    "year": "2019",
+    "difficulty": "Critical",
+    "id": 41
+  }
+]
