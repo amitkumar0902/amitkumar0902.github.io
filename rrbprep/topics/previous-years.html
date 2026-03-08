@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previous Year Papers - RRB Nursing Excellence Hub</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="topic-header">
+            <div class="header-nav">
+                <a href="../index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Hub</a>
+                <div class="topic-progress"><span class="current">19</span>/<span class="total">21</span> Topics</div>
+            </div>
+            <div class="topic-title">
+                <div class="topic-icon-large"><i class="fas fa-history"></i></div>
+                <h1>Previous Year Papers</h1>
+                <p class="topic-subtitle">Year-wise Questions 2019–2025</p>
+            </div>
+        </header>
+
+        <div class="motivation-quote">
+            <blockquote>"40-50% questions repeat from previous years. Solve 2019-2025 papers thoroughly!" <cite>— RRB Strategy</cite></blockquote>
+        </div>
+
+        <section class="topic-summary">
+            <h2 class="section-title"><i class="fas fa-filter"></i> Filter by Year</h2>
+            <div class="year-tabs" id="year-tabs" style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem;">
+                <button class="nav-btn primary year-tab active" data-year="all">All Years</button>
+                <button class="nav-btn secondary year-tab" data-year="2019">2019</button>
+                <button class="nav-btn secondary year-tab" data-year="2022">2022</button>
+                <button class="nav-btn secondary year-tab" data-year="2024">2024</button>
+                <button class="nav-btn secondary year-tab" data-year="2025">2025</button>
+                <button class="nav-btn secondary year-tab" data-year="2023">2023</button>
+                <button class="nav-btn secondary year-tab" data-year="Expected">Expected</button>
+            </div>
+            <p id="year-count" style="margin-bottom:1rem; font-weight:600;"></p>
+        </section>
+
+        <section class="question-section">
+            <div id="questions-container"></div>
+        </section>
+
+        <div class="navigation-buttons">
+            <a href="mock-test.html" class="nav-btn secondary"><i class="fas fa-arrow-right"></i> Next: Mock Test</a>
+            <a href="../index.html" class="nav-btn primary"><i class="fas fa-home"></i> Back to Hub</a>
+        </div>
+    </div>
+    <script src="../js/app.js"></script>
+    <script>
+(function() {
+    var allTopics = [
+        'anatomy-physiology', 'nutrition-biochemistry', 'nursing-foundations', 'medical-surgical',
+        'community-health', 'pediatric', 'psychiatric', 'obstetric-midwifery', 'microbiology', 'pharmacology',
+        'pathology-genetics', 'psychology-sociology', 'environmental-health', 'research-management',
+        'general-awareness', 'arithmetic-reasoning', 'general-science'
+    ];
+    var allQuestions = [];
+    var letters = ['a','b','c','d'];
+
+    function escapeHtml(s) {
+        if (!s) return '';
+        var div = document.createElement('div');
+        div.textContent = s;
+        return div.innerHTML;
+    }
+
+    function renderQuestions(list) {
+        var container = document.getElementById('questions-container');
+        if (!container) return;
+        var html = '';
+        list.forEach(function(q, idx) {
+            var correctIdx = typeof q.correct === 'number' ? q.correct : 0;
+            var opts = q.options || [];
+            var correctLetter = letters[correctIdx] || 'a';
+            var correctText = (opts[correctIdx] || '').replace(/^[A-D]\.?\s*/i, '').trim();
+            html += '<div class="question-card" data-question="' + (q.id || (idx+1)) + '">';
+            html += '<div class="question-header"><span class="question-number">Q' + (q.id || (idx+1)) + '</span>';
+            if (q.topic) html += '<span class="question-topic">' + escapeHtml(q.topic) + '</span>';
+            if (q.year) html += '<span class="question-year">' + escapeHtml(q.year) + '</span>';
+            html += '</div><div class="question-text"><p>' + escapeHtml(q.question) + '</p></div>';
+            html += '<div class="options-container">';
+            opts.forEach(function(opt, i) {
+                html += '<div class="option" data-option="' + (letters[i]||'a') + '">' + escapeHtml(opt) + '</div>';
+            });
+            html += '</div><div class="answer-explanation" style="display:none;">';
+            html += '<span class="correct-answer">Correct: ' + correctLetter.toUpperCase() + ') ' + escapeHtml(correctText) + '</span><br><br>';
+            html += '<strong>Explanation:</strong> ' + escapeHtml((q.explanation||'').replace(/\n/g, '<br>'));
+            html += '</div><button type="button" class="show-answer-btn"><i class="fas fa-eye"></i> Show Answer</button></div>';
+        });
+        container.innerHTML = html || '<p>No questions for this year. Try "All Years".</p>';
+        if (list.length && document.querySelector('.show-answer-btn')) {
+            document.querySelectorAll('.show-answer-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    var card = btn.closest('.question-card');
+                    var exp = card && card.querySelector('.answer-explanation');
+                    if (!exp) return;
+                    var hidden = exp.style.display === 'none';
+                    exp.style.display = hidden ? 'block' : 'none';
+                    exp.classList.toggle('show', hidden);
+                    btn.innerHTML = hidden ? '<i class="fas fa-eye-slash"></i> Hide Answer' : '<i class="fas fa-eye"></i> Show Answer';
+                });
+            });
+        }
+    }
+
+    function filterByYear(year) {
+        var list = year === 'all' ? allQuestions : allQuestions.filter(function(q) { return (q.year || '') === year; });
+        list.forEach(function(q, i) { q._displayId = i + 1; });
+        renderQuestions(list);
+        document.getElementById('year-count').textContent = (year === 'all' ? 'All' : year) + ': ' + list.length + ' questions';
+    }
+
+    document.getElementById('year-tabs').addEventListener('click', function(e) {
+        var tab = e.target.closest('.year-tab');
+        if (!tab) return;
+        document.querySelectorAll('.year-tab').forEach(function(t) { t.classList.remove('active'); t.classList.add('secondary'); });
+        tab.classList.add('active'); tab.classList.remove('secondary');
+        filterByYear(tab.getAttribute('data-year'));
+    });
+
+    Promise.all(allTopics.map(function(t) {
+        return fetch('../data/questions/' + t + '.json').then(function(r) { return r.json(); }).catch(function() { return []; });
+    })).then(function(results) {
+        allQuestions = results.reduce(function(acc, arr) { return acc.concat(Array.isArray(arr) ? arr : []); }, []);
+        allQuestions.forEach(function(q, i) { q._id = i + 1; });
+        filterByYear('all');
+    }).catch(function() {
+        document.getElementById('questions-container').innerHTML = '<p>Could not load questions. Check network.</p>';
+    });
+})();
+    </script>
+</body>
+</html>
