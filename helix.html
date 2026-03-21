@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helix — Enterprise Knowledge Synthesis | Amit Kumar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --accent: #000; --bg: #f1f1; --text-primary: #111; --text-secondary: #666; --border: #e0e0e0; --muted-bg: #f7f7f7; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text-primary); background: var(--bg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        .container { max-width: 920px; margin: 0 auto; padding: 0 40px; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 32px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+        .nav-back { color: var(--text-secondary); text-decoration: none; font-weight: 600; transition: color .2s; }
+        .nav-back:hover { color: var(--accent); }
+        .nav-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; text-decoration: none; color: var(--text-primary); }
+        .project-hero { padding: 60px 0 40px; }
+        .project-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; background: #000; color: #fff; padding: 6px 12px; border-radius: 100px; margin-bottom: 16px; }
+        .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 700; letter-spacing: -.03em; line-height: 1.05; margin-bottom: 16px; }
+        .project-tagline { font-size: 18px; color: var(--text-secondary); max-width: 620px; line-height: 1.7; margin-bottom: 36px; }
+        .stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 60px; overflow: hidden; }
+        .stat-cell { padding: 28px; border-right: 1px solid var(--border); }
+        .stat-cell:last-child { border-right: none; }
+        .stat-cell .val { font-family: 'Space Grotesk', sans-serif; font-size: 26px; font-weight: 700; display: block; margin-bottom: 4px; }
+        .stat-cell .lbl { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: .06em; }
+        .section { padding: 48px 0; border-top: 1px solid var(--border); }
+        .section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .18em; color: #999; margin-bottom: 28px; }
+        .section p { font-size: 15.5px; color: var(--text-secondary); line-height: 1.75; max-width: 720px; margin-bottom: 16px; }
+        .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+        .chip { font-size: 12px; font-weight: 600; padding: 5px 14px; border: 1px solid var(--border); border-radius: 100px; color: var(--text-secondary); background: var(--muted-bg); }
+        .cap-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 0px; }
+        .cap-item { padding: 22px 24px; background: var(--muted-bg); border-radius: 8px; border: 1px solid transparent; transition: border-color .2s; }
+        .cap-item:hover { border-color: #ddd; background: #fff; }
+        .cap-item h4 { font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+        .cap-item p { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+        .cli-block { background: #111; color: #e8e8e8; border-radius: 8px; padding: 20px 24px; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.8; margin-top: 20px; }
+        .cli-block .cmd { color: #7dd3fc; }
+        footer { padding: 60px 0 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        footer .nav-links a { margin: 0 16px; font-size: 13px; color: var(--text-secondary); text-decoration: none; transition: color .2s; }
+        footer .nav-links a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html#systems" class="nav-back"><i class="fas fa-arrow-left"></i> &larr; Back to Portfolio</a>
+            <a href="index.html" class="nav-name">Amit Kumar</a>
+        </nav>
+
+        <div class="project-hero">
+            <div class="project-badge">Retrieval Systems</div>
+            <h1 class="project-title">Helix — Enterprise Knowledge Synthesis</h1>
+            <p class="project-tagline">Advanced retrieval architecture for hybrid knowledge synthesis, supporting multi-modal ingestion, semantic chunking, and context-aware search across vast enterprise document repositories.</p>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-cell"><span class="val">Hybrid</span><span class="lbl">ARCHITECTURE</span></div>
+            <div class="stat-cell"><span class="val">1M+</span><span class="lbl">CONTEXT WINDOW</span></div>
+            <div class="stat-cell"><span class="val">94%</span><span class="lbl">PRECISION</span></div>
+            <div class="stat-cell"><span class="val">12TB</span><span class="lbl">INDEXED DATA</span></div>
+        </div>
+
+        <div class="section">
+            <div class="section-label">Overview</div>
+            <p>
+                Helix is an enterprise-grade knowledge synthesis engine that combines dense and sparse retrieval methods with advanced document understanding. It enables organizations to unlock insights from unstructured data at scale, supporting everything from PDF parsing to real-time semantic search across millions of documents.
+            </p>
+            <p>
+                Built on a hybrid architecture that merges keyword-based BM25 retrieval with neural embedding models, Helix achieves high precision and recall across diverse document types. The system incorporates sophisticated chunking strategies, multi-stage reranking, and contextual expansion to deliver accurate results even for complex enterprise queries.
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-label">Capabilities</div>
+            <div class="cap-grid">
+                <div class="cap-item"><h4>Hybrid Retrieval</h4><p>Combines dense embeddings (BERT, Sentence-BERT) with sparse BM25 for optimal precision-recall balance.</p></div>
+                <div class="cap-item"><h4>Multi-Modal Ingestion</h4><p>Supports PDF, DOCX, HTML, Markdown, and structured data with intelligent layout parsing and OCR.</p></div>
+                <div class="cap-item"><h4>Semantic Chunking</h4><p>Context-aware document segmentation preserving semantic coherence across paragraph and section boundaries.</p></div>
+                <div class="cap-item"><h4>Advanced Reranking</h4><p>Multi-stage reranking pipeline using cross-encoders and relevance feedback for top-k results.</p></div>
+                <div class="cap-item"><h4>Query Expansion</h4><p>Automatic query reformulation and expansion using synonyms, entity recognition, and user intent modeling.</p></div>
+                <div class="cap-item"><h4>Scalable Indexing</h4><p>Distributed vector search with FAISS and Elasticsearch integration, handling 12TB+ of indexed content.</p></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-label">Tech Stack</div>
+            <div class="chips">
+                <span class="chip">Python</span>
+                <span class="chip">FastAPI</span>
+                <span class="chip">Sentence-BERT</span>
+                <span class="chip">FAISS</span>
+                <span class="chip">Elasticsearch</span>
+                <span class="chip">Redis</span>
+                <span class="chip">PostgreSQL</span>
+                <span class="chip">Celery</span>
+                <span class="chip">Docker</span>
+                <span class="chip">Kubernetes</span>
+                <span class="chip">Apache Tika</span>
+                <span class="chip">Tesseract OCR</span>
+                <span class="chip">Hugging Face</span>
+                <span class="chip">GKE</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-label">Architecture</div>
+            <p>
+                The Helix system is structured around three core layers: <strong>Ingestion</strong> (document parsing, OCR, metadata extraction), <strong>Indexing</strong> (chunking, embedding generation, vector and keyword index creation), and <strong>Retrieval</strong> (hybrid search, reranking, context synthesis). Each layer is horizontally scalable and fault-tolerant, leveraging Kubernetes for orchestration and Redis for caching.
+            </p>
+            <p>
+                Key directories include <code>ingestor/</code> (multi-format parsers), <code>embedder/</code> (BERT-based encoding pipelines), <code>retriever/</code> (hybrid search logic), <code>reranker/</code> (cross-encoder models), <code>api/</code> (FastAPI endpoints), and <code>workers/</code> (Celery-based async tasks for indexing and batch processing).
+            </p>
+        </div>
+
+        <footer>
+            <div class="nav-links">
+                <a href="vortex.html">← Vortex</a>
+                <a href="index.html#systems">All Systems</a>
+                <a href="marvin.html">Marvin →</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
