@@ -650,38 +650,24 @@
         </div>
     </div>
 
-    <script>
+    653
+    
         const projects = {
             marvin: {
                 title: "Marvin",
                 badge: "Core Infrastructure",
-                stats: [
-                    { label: "Commits", value: "7,587" },
-                    { label: "Branches", value: "852" },
-                    { label: "Storage", value: "431.9 MiB" }
-                ],
                 description: "High-performance inference backbone for heterogeneous LLM deployments. Marvin integrates custom C++ kernels with speculative decoding and KV cache optimization. It serves as the primary inference layer across E42 AI agents, handling thousands of concurrent requests with low-latency INT4/INT8 quantization support.",
                 link: "marvin.html"
             },
             eddie: {
                 title: "Eddie",
                 badge: "Agentic AI",
-                stats: [
-                    { label: "Commits", value: "2,654" },
-                    { label: "Branches", value: "584" },
-                    { label: "Storage", value: "932 MiB" }
-                ],
                 description: "Multi-agent orchestration framework designed for autonomous problem-solving. Eddie uses a hierarchical LangGraph-based architecture to coordinate specialized agents. It features robust guardrails, PII detection workflows, and persistent state management, allowing it to tackle long-horizon tasks across enterprise domains.",
                 link: "eddie.html"
             },
             vortex: {
                 title: "Vortex",
                 badge: "Cloud & Scale",
-                stats: [
-                    { label: "Commits", value: "159" },
-                    { label: "Branches", value: "23" },
-                    { label: "Open Issues", value: "5" }
-                ],
                 description: "Vortex is the Kubernetes-native deployment toolkit for the E42 AI platform. Deployed on GKE, it provides a CLI-driven lifecycle for multi-tenant inference clusters. It includes a LiteLLM gateway, unified request routing, zero-trust service mesh, and automated scaling of GPU workloads across global regions.",
                 link: "vortex.html"
             },
