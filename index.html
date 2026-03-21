@@ -12,8 +12,8 @@
             --bg: #ffffff;
             --text-primary: #111111;
             --text-secondary: #666666;
-            --border: #eeeeee;
-            --muted-bg: #f9f9f9;
+            --border: #e8e8e8;
+            --muted-bg: #f7f7f7;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -26,201 +26,313 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        .container { max-width: 900px; margin: 0 auto; padding: 0 40px; }
+        .container { max-width: 920px; margin: 0 auto; padding: 0 40px; }
 
         /* Navigation */
         nav {
             display: flex; justify-content: space-between; align-items: center;
-            padding: 40px 0; font-size: 14px; font-weight: 500;
+            padding: 36px 0; font-size: 13px; font-weight: 500;
+            border-bottom: 1px solid var(--border);
         }
-        .nav-links { display: flex; gap: 32px; }
+        .nav-name { font-weight: 700; font-family: 'Space Grotesk', sans-serif; font-size: 17px; letter-spacing: -0.02em; }
+        .nav-links { display: flex; gap: 28px; }
         .nav-links a { color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
         .nav-links a:hover { color: var(--accent); }
 
-        /* Header / Hero */
-        header { padding: 80px 0 60px; }
-        .hero-grid { display: grid; grid-template-columns: 1fr 240px; gap: 60px; align-items: start; }
-        
+        /* Hero */
+        header { padding: 70px 0 60px; }
+        .hero-grid { display: grid; grid-template-columns: 1fr 200px; gap: 60px; align-items: start; }
+
         h1 {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 48px; font-weight: 700; letter-spacing: -0.03em;
-            margin-bottom: 24px; line-height: 1.1;
+            font-size: 44px; font-weight: 700; letter-spacing: -0.03em;
+            margin-bottom: 20px; line-height: 1.1;
         }
 
-        .bio-text { font-size: 19px; color: var(--text-secondary); max-width: 580px; margin-bottom: 40px; font-weight: 400; line-height: 1.6; }
+        .role-badge {
+            display: inline-block; font-size: 12px; font-weight: 600;
+            letter-spacing: 0.04em; text-transform: uppercase;
+            background: var(--muted-bg); padding: 4px 12px; border-radius: 4px;
+            margin-bottom: 20px; color: var(--text-secondary);
+        }
+
+        .bio-text {
+            font-size: 17px; color: var(--text-secondary); max-width: 560px;
+            margin-bottom: 36px; font-weight: 400; line-height: 1.7;
+        }
         .bio-text strong { color: var(--accent); font-weight: 600; }
 
-        .profile-img-container { position: relative; width: 100%; }
         .profile-img {
-            width: 100%; height: auto; border-radius: 8px;
-            filter: grayscale(100%); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 100%; height: auto; border-radius: 6px;
+            filter: grayscale(100%);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        .profile-img:hover { filter: grayscale(0%); transform: translateY(-5px); }
+        .profile-img:hover { filter: grayscale(0%); transform: scale(1.02); }
+
+        .contact-row { display: flex; gap: 20px; flex-wrap: wrap; }
+        .contact-row a {
+            font-size: 13px; font-weight: 600; color: var(--text-primary);
+            text-decoration: none; border-bottom: 1px solid var(--border);
+            padding-bottom: 2px; transition: border-color 0.2s;
+        }
+        .contact-row a:hover { border-color: var(--accent); }
 
         /* Sections */
-        section { padding: 80px 0; border-top: 1px solid var(--border); }
+        section { padding: 70px 0; border-top: 1px solid var(--border); }
         .section-label {
-            font-size: 11px; font-weight: 700; text-transform: uppercase;
-            letter-spacing: 0.15em; color: var(--text-secondary); margin-bottom: 50px;
-        }
-
-        /* Systems / Research Grid */
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-        .item h3 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; margin-bottom: 12px; letter-spacing: -0.01em; }
-        .item p { color: var(--text-secondary); font-size: 15px; margin-bottom: 20px; line-height: 1.6; }
-        
-        .status-tag {
-            display: inline-flex; align-items: center; gap: 6px;
             font-size: 10px; font-weight: 700; text-transform: uppercase;
-            letter-spacing: 0.05em; color: var(--text-secondary);
-            padding: 4px 10px; border: 1px solid var(--border); border-radius: 100px;
+            letter-spacing: 0.18em; color: #999; margin-bottom: 48px;
         }
 
-        /* Chronology */
-        .chrono-item { margin-bottom: 50px; display: grid; grid-template-columns: 140px 1fr; gap: 40px; }
-        .chrono-meta { font-size: 13px; font-weight: 600; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
-        .chrono-content h4 { font-family: 'Space Grotesk', sans-serif; font-size: 19px; font-weight: 600; margin-bottom: 8px; }
-        .chrono-content p { color: var(--text-secondary); font-size: 15px; max-width: 540px; }
+        /* 2-col grid for systems */
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px 56px; }
+        .sys-item h3 { font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 600; margin-bottom: 10px; letter-spacing: -0.01em; }
+        .sys-item p { color: var(--text-secondary); font-size: 14.5px; margin-bottom: 16px; line-height: 1.65; }
+        .tag {
+            display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.06em; color: #888; padding: 3px 9px;
+            border: 1px solid var(--border); border-radius: 100px;
+        }
 
-        /* Lab / Research Style Tags */
-        .tech-stack { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
-        .tech-tag { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 500; color: var(--text-primary); }
-        .tech-tag::before { content: '/'; color: var(--text-secondary); margin-right: 4px; }
+        /* Timeline rows */
+        .tline { margin-bottom: 44px; display: grid; grid-template-columns: 130px 1fr; gap: 40px; }
+        .tline-date { font-size: 12.5px; font-weight: 600; color: #999; padding-top: 3px; font-variant-numeric: tabular-nums; }
+        .tline-content h4 { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600; margin-bottom: 7px; }
+        .tline-content h4 a { color: var(--text-primary); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+        .tline-content h4 a:hover { border-bottom-color: #000; }
+        .tline-content p { color: var(--text-secondary); font-size: 14.5px; max-width: 560px; line-height: 1.65; }
+        .tline-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+        .tline-tag { font-size: 11px; font-weight: 500; color: var(--text-secondary); }
+        .tline-tag::before { content: '/'; margin-right: 3px; color: #bbb; }
+
+        /* Presentations grid */
+        .pubs-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
+        .pub-card {
+            padding: 24px; background: var(--muted-bg); border-radius: 8px;
+            border: 1px solid transparent; transition: all 0.25s;
+            text-decoration: none; display: block; color: inherit;
+        }
+        .pub-card:hover { border-color: #ddd; background: #fff; transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.05); }
+        .pub-card .pub-type { font-size: 9px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #999; margin-bottom: 8px; }
+        .pub-card h5 { font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 8px; }
+        .pub-card p { font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; }
+        .pub-year { font-size: 11px; color: #bbb; margin-top: 12px; font-weight: 600; }
+
+        /* Achievements list */
+        .ach-list { list-style: none; }
+        .ach-list li { display: grid; grid-template-columns: 130px 1fr; gap: 40px; margin-bottom: 28px; }
+        .ach-year { font-size: 12.5px; font-weight: 600; color: #999; padding-top: 2px; }
+        .ach-text { font-size: 15px; color: var(--text-secondary); }
+        .ach-text strong { color: var(--text-primary); }
 
         /* Footer */
-        footer { padding: 100px 0; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-end; }
-        .footer-left p { color: var(--text-secondary); font-size: 14px; }
-        .social-links { display: flex; gap: 24px; margin-top: 20px; }
-        .social-links a { color: var(--text-primary); text-decoration: none; font-size: 15px; font-weight: 500; border-bottom: 1px solid transparent; transition: all 0.2s; }
-        .social-links a:hover { border-bottom-color: var(--accent); }
+        footer { padding: 80px 0 60px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-end; }
+        .footer-note { font-size: 13px; color: #bbb; }
 
         @media (max-width: 768px) {
-            .hero-grid { grid-template-columns: 1fr; gap: 40px; }
-            .profile-img-container { width: 140px; margin-bottom: 20px; }
-            .grid { grid-template-columns: 1fr; }
-            .chrono-item { grid-template-columns: 1fr; gap: 10px; }
+            .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+            .hero-grid .profile-side { order: -1; width: 120px; }
+            .two-col { grid-template-columns: 1fr; gap: 36px; }
+            .tline { grid-template-columns: 1fr; gap: 6px; }
+            .ach-list li { grid-template-columns: 1fr; gap: 4px; }
+            .pubs-grid { grid-template-columns: 1fr 1fr; }
             header { padding: 40px 0; }
+            h1 { font-size: 34px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <div style="font-weight: 700; font-family: 'Space Grotesk'; font-size: 18px;">AK</div>
-            <div class="nav-links">
-                <a href="#systems">Systems</a>
-                <a href="#about">About</a>
-                <a href="blogs.html">Writings</a>
-                <a href="pubs/Amit_kumar.pdf">Research/CV</a>
-            </div>
-        </nav>
+<div class="container">
 
-        <header>
-            <div class="hero-grid">
-                <div>
-                    <h1>Architecting Intelligent Systems.</h1>
-                    <p class="bio-text">
-                        Amit Kumar is a Lead AI Engineer focused on <strong>Autonomous Agent Orchestration</strong> and <strong>Distributed LLM Infrastructure</strong>. 
-                        Currently building the future of enterprise intelligence at e42.ai, where research meets high-scale production.
-                    </p>
-                    <div class="social-links">
-                        <a href="https://github.com/amitkumar0902">GitHub</a>
-                        <a href="https://linkedin.com/in/amitkumar0902">LinkedIn</a>
-                        <a href="mailto:ak6.amitkumar@gmail.com">Email</a>
-                    </div>
-                </div>
-                <div class="profile-img-container">
-                    <img src="pubs/dp1.jpg" alt="Amit Kumar" class="profile-img">
-                </div>
-            </div>
-        </header>
+    <nav>
+        <span class="nav-name">Amit Kumar</span>
+        <div class="nav-links">
+            <a href="#systems">Systems</a>
+            <a href="#research">Presentations</a>
+            <a href="#about">About</a>
+            <a href="blogs.html">Writings</a>
+            <a href="pubs/Amit_kumar.pdf">CV</a>
+        </div>
+    </nav>
 
-        <section id="systems">
-            <div class="section-label">Selected Systems & Research</div>
-            <div class="grid">
-                <div class="item">
-                    <h3>Marvin</h3>
-                    <p>High-performance inference backbone designed for the heterogeneous LLM landscape. Implements dynamic quantization kernels and speculative decoding to optimize throughput across diverse hardware profiles.</p>
-                    <div class="status-tag">Core Infrastructure</div>
-                </div>
-                <div class="item">
-                    <h3>Eddie</h3>
-                    <p>A multi-agent orchestration framework leveraging hierarchical reasoning. Enables autonomous task decomposition and stateful collaboration between specialized models through graph-based control flows.</p>
-                    <div class="status-tag">Agentic Framework</div>
-                </div>
-                <div class="item">
-                    <h3>Vortex</h3>
-                    <p>Kubernetes-native AI service mesh deployed on GKE. Orchestrates global request routing, intelligent caching, and secure model-to-model communication in zero-trust environments.</p>
-                    <div class="status-tag">Cloud & Scale</div>
-                </div>
-                <div class="item">
-                    <h3>Helix</h3>
-                    <p>Advanced knowledge synthesis engine. Combines long-term persistent memory with hybrid RAG architectures, enabling high-fidelity retrieval over multi-modal enterprise datasets.</p>
-                    <div class="status-tag">Retrieval Systems</div>
+    <header>
+        <div class="hero-grid">
+            <div>
+                <div class="role-badge">Lead AI Engineer &mdash; e42.ai</div>
+                <h1>Architecting Intelligent Systems.</h1>
+                <p class="bio-text">
+                    Focused on <strong>Autonomous Agent Orchestration</strong> and <strong>Distributed LLM Infrastructure</strong>.
+                    Building production-scale AI at the frontier of reasoning, multi-modal retrieval, and high-performance inference.
+                    Where systems research meets real-world deployment.
+                </p>
+                <div class="contact-row">
+                    <a href="https://github.com/amitkumar0902"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/amitkumar0902"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="blogs.html"><i class="fas fa-pen-nib"></i> Writings</a>
+                    <a href="mailto:ak6.amitkumar@gmail.com"><i class="fas fa-envelope"></i> Email</a>
                 </div>
             </div>
-        </section>
+            <div class="profile-side">
+                <img src="images/amit.png" alt="Amit Kumar" class="profile-img">
+            </div>
+        </div>
+    </header>
 
-        <section id="about">
-            <div class="section-label">Experience & Education</div>
-            
-            <div class="chrono-item">
-                <div class="chrono-meta">2023 — Present</div>
-                <div class="chrono-content">
-                    <h4>Lead AI Engineer @ e42.ai</h4>
-                    <p>Leading the development of production-scale Generative AI platforms. Researching system-level optimizations for agentic reasoning and large-scale inference clusters.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Distributed Systems</span>
-                        <span class="tech-tag">Autonomous Agents</span>
-                        <span class="tech-tag">MLOps</span>
-                    </div>
-                </div>
+    <!-- SYSTEMS -->
+    <section id="systems">
+        <div class="section-label">Selected Systems &amp; Research</div>
+        <div class="two-col">
+            <div class="sys-item">
+                <h3>Marvin</h3>
+                <p>High-performance inference backbone for heterogeneous LLM deployments. Integrates <strong>llms_ground</strong> and <strong>llamacpp</strong> with dynamic quantization kernels and speculative decoding pipelines for maximum throughput.</p>
+                <span class="tag">Core Infrastructure</span>
             </div>
+            <div class="sys-item">
+                <h3>Eddie</h3>
+                <p>Multi-agent orchestration framework for autonomous task solving. Hierarchical reasoning with LangGraph-based state machines enables stateful, tool-using agent collaboration across long-horizon tasks.</p>
+                <span class="tag">Agentic AI</span>
+            </div>
+            <div class="sys-item">
+                <h3>Vortex</h3>
+                <p>Kubernetes-native AI platform toolkit deployed on GKE. Unified request routing, zero-trust service mesh, Keycloak auth, and intelligent model selection across multi-tenant inference clusters.</p>
+                <span class="tag">Cloud &amp; Scale</span>
+            </div>
+            <div class="sys-item">
+                <h3>Helix</h3>
+                <p>Enterprise knowledge synthesis engine with persistent long-term memory. Hybrid RAG architecture with semantic routing enables high-fidelity retrieval over multi-modal, large-scale document corpora.</p>
+                <span class="tag">Retrieval Systems</span>
+            </div>
+        </div>
+    </section>
 
-            <div class="chrono-item">
-                <div class="chrono-meta">2020 — 2022</div>
-                <div class="chrono-content">
-                    <h4>M.Tech in ML & Computing</h4>
-                    <p>Indian Institute of Space Science and Technology (IIST). Thesis focused on computational intelligence and statistical learning methodologies.</p>
-                </div>
-            </div>
+    <!-- PRESENTATIONS -->
+    <section id="research">
+        <div class="section-label">Presentations &amp; Technical Reading</div>
+        <div class="pubs-grid">
+            <a class="pub-card" href="blogs.html">
+                <div class="pub-type">Presentation &bull; 2024</div>
+                <h5>StreamingLLM: Efficient Streaming Language Models with Attention Sinks</h5>
+                <p>Enabling infinite-context inference without KV cache explosion using attention sink tokens.</p>
+                <div class="pub-year">Slides &rarr; pubs/StreamingLLM.pdf</div>
+            </a>
+            <a class="pub-card" href="blogs.html">
+                <div class="pub-type">Presentation &bull; 2024</div>
+                <h5>AlphaGeometry: AI for Olympiad-Level Geometry</h5>
+                <p>DeepMind's neuro-symbolic system combining language models with symbolic deduction engines.</p>
+                <div class="pub-year">Slides &rarr; pubs/AlphaGeometry.pdf</div>
+            </a>
+            <a class="pub-card" href="blogs.html">
+                <div class="pub-type">Presentation &bull; 2024</div>
+                <h5>Infini-Attention: Infinite Context Transformers</h5>
+                <p>Google's compressive memory mechanism achieving infinite context length in transformers.</p>
+                <div class="pub-year">Slides &rarr; pubs/Infini-attention.pdf</div>
+            </a>
+            <a class="pub-card" href="blogs.html">
+                <div class="pub-type">Presentation &bull; 2024</div>
+                <h5>GaLore: Memory-Efficient LLM Training via Gradient Projection</h5>
+                <p>Reducing full fine-tuning memory footprint without sacrificing model expressivity.</p>
+                <div class="pub-year">Slides &rarr; pubs/GaLore.pdf</div>
+            </a>
+            <a class="pub-card" href="blogs.html">
+                <div class="pub-type">Presentation &bull; 2024</div>
+                <h5>WARP: Weight Averaged Rewarded Policies for RLHF</h5>
+                <p>How weight averaging improves reward stability and alignment in RLHF fine-tuning.</p>
+                <div class="pub-year">Slides &rarr; pubs/WARP.pdf</div>
+            </a>
+            <a class="pub-card" href="pubs/LARS.pdf">
+                <div class="pub-type">Paper Reading</div>
+                <h5>LARS &amp; Efficient Optimizer Landscapes</h5>
+                <p>Layer-wise Adaptive Rate Scaling and large-batch training convergence analysis.</p>
+                <div class="pub-year">Notes &rarr; pubs/LARS.pdf</div>
+            </a>
+        </div>
+    </section>
 
-            <div class="chrono-item">
-                <div class="chrono-meta">2016 — 2020</div>
-                <div class="chrono-content">
-                    <h4>B.Tech in IT</h4>
-                    <p>Jabalpur Engineering College. Focused on algorithmic foundations and distributed computing systems.</p>
-                </div>
-            </div>
-        </section>
+    <!-- EXPERIENCE & EDUCATION -->
+    <section id="about">
+        <div class="section-label">Experience &amp; Education</div>
 
-        <section>
-            <div class="section-label">Recognition</div>
-            <div class="chrono-item">
-                <div class="chrono-meta">2018</div>
-                <div class="chrono-content">
-                    <h4>ACM ICPC Regionalist</h4>
-                    <p>Competitive programming finalist at the Kolkata-Kanpur site. Ranked among top teams in algorithmic problem solving.</p>
+        <div class="tline">
+            <div class="tline-date">2023 &mdash; Present</div>
+            <div class="tline-content">
+                <h4>Lead AI Engineer @ e42.ai</h4>
+                <p>Leading architecture and deployment of production GenAI platforms. Directing multi-agent system research, distributed inference infrastructure, and LLM serving pipelines. Mentoring team across GenAI stack.</p>
+                <div class="tline-tags">
+                    <span class="tline-tag">Distributed Systems</span>
+                    <span class="tline-tag">Autonomous Agents</span>
+                    <span class="tline-tag">LLM Serving</span>
+                    <span class="tline-tag">System Design</span>
                 </div>
             </div>
-            <div class="chrono-item">
-                <div class="chrono-meta">Ongoing</div>
-                <div class="chrono-content">
-                    <h4>Active Contributor</h4>
-                    <p>Regularly engaging with the open research community in NLP and system design. Focus on quantized inference and multi-modal reasoning chains.</p>
-                </div>
-            </div>
-        </section>
+        </div>
 
-        <footer>
-            <div class="footer-left">
-                <p>© 2026 Amit Kumar. New Town, WB.</p>
-                <p style="margin-top: 8px; font-size: 12px; opacity: 0.6;">Designed for the next paradigm of computing.</p>
+        <div class="tline">
+            <div class="tline-date">Prev</div>
+            <div class="tline-content">
+                <h4>NLP Engineer @ Circlebase</h4>
+                <p>Built entity recognition pipelines for social determinants of health and drug relations. Designed production NLP services on Django-based deployment infrastructure.</p>
+                <div class="tline-tags">
+                    <span class="tline-tag">NLP</span>
+                    <span class="tline-tag">Entity Recognition</span>
+                    <span class="tline-tag">Production ML</span>
+                </div>
             </div>
-            <div style="opacity: 0.4;">
-                <a href="https://info.flagcounter.com/yMl7"><img src="https://s11.flagcounter.com/count2/yMl7/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter"></a>
+        </div>
+
+        <div class="tline">
+            <div class="tline-date">2020 &mdash; 2022</div>
+            <div class="tline-content">
+                <h4>M.Tech in ML &amp; Computing</h4>
+                <p>Indian Institute of Space Science and Technology (IIST). Specialization in statistical learning, computational intelligence, and applied ML methodologies.</p>
             </div>
-        </footer>
-    </div>
+        </div>
+
+        <div class="tline">
+            <div class="tline-date">2016 &mdash; 2020</div>
+            <div class="tline-content">
+                <h4>B.Tech in IT</h4>
+                <p>Jabalpur Engineering College. Foundations in algorithms, data structures, and distributed computing systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section>
+        <div class="section-label">Achievements &amp; Recognition</div>
+        <ul class="ach-list">
+            <li>
+                <span class="ach-year">2018</span>
+                <span class="ach-text"><strong>ACM ICPC Regionalist</strong> &mdash; Qualified for the Kolkata-Kanpur site contest at UIET, Kanpur. Ranked among top competitive programmers nationally.</span>
+            </li>
+            <li>
+                <span class="ach-year">2018</span>
+                <span class="ach-text"><strong>CodeChef Rating 1883</strong> (handle: amit_9) &mdash; Active competitive programmer with strong algorithmic problem-solving track record across data structures and combinatorics.</span>
+            </li>
+            <li>
+                <span class="ach-year">2018</span>
+                <span class="ach-text"><strong>Gold Medal, Chess &mdash; Avahan 2018</strong> &mdash; First place in Chess at the Avahan intra-college championship, JEC.</span>
+            </li>
+            <li>
+                <span class="ach-year">2018</span>
+                <span class="ach-text"><strong>Organized &ldquo;So You Think You Can Code&rdquo;</strong> &mdash; Designed and ran a competitive programming contest on HackerEarth, with problem setting and participant evaluation.</span>
+            </li>
+            <li>
+                <span class="ach-year">Ongoing</span>
+                <span class="ach-text">Active in NLP and systems research, regularly presenting frontier AI papers on topics including infinite-context architectures, memory-efficient training, and RLHF alignment.</span>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div>
+            <div class="footer-note">&copy; 2026 Amit Kumar &mdash; New Town, WB</div>
+            <div class="footer-note" style="margin-top: 4px;">Focused on the future of autonomous intelligence.</div>
+        </div>
+        <div style="opacity: 0.35;">
+            <a href="https://info.flagcounter.com/yMl7"><img src="https://s11.flagcounter.com/count2/yMl7/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter"></a>
+        </div>
+    </footer>
+
+</div>
 </body>
 </html>
