@@ -242,7 +242,7 @@
             background: var(--bg-card);
         }
 
-        /* ── Section Layout ── */
+        /* ────── Section Layout ────── */
         .section {
             padding: 6rem 2rem;
             max-width: 1200px;
@@ -275,7 +275,7 @@
             margin: 0 auto;
         }
 
-        /* ── Impact Numbers ── */
+        /* ────── Impact Numbers ────── */
         .impact {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -316,7 +316,7 @@
             font-weight: 500;
         }
 
-        /* ── Project Cards ── */
+        /* ────── Project Cards ────── */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -329,7 +329,6 @@
             border-radius: 16px;
             padding: 2rem;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            cursor: pointer;
             position: relative;
             overflow: hidden;
         }
@@ -422,7 +421,7 @@
             transform: translate(2px, -2px);
         }
 
-        /* ── Featured Project (Full Width) ── */
+        /* ────── Featured Project (Full Width) ────── */
         .featured-project {
             background: var(--bg-card);
             border: 1px solid var(--border);
@@ -495,7 +494,7 @@
             margin-top: 0.25rem;
         }
 
-        /* ── Presentations ── */
+        /* ────── Presentations ────── */
         .talks-list {
             display: flex;
             flex-direction: column;
@@ -549,7 +548,7 @@
             white-space: nowrap;
         }
 
-        /* ── Experience Timeline ── */
+        /* ────── Experience Timeline ────── */
         .timeline {
             position: relative;
             padding-left: 3rem;
@@ -629,7 +628,7 @@
             border: 1px solid rgba(99, 102, 241, 0.15);
         }
 
-        /* ── Achievements ── */
+        /* ────── Achievements ────── */
         .achievements-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -668,7 +667,7 @@
             line-height: 1.6;
         }
 
-        /* ── Philosophy Section ── */
+        /* ────── Philosophy Section ────── */
         .philosophy {
             padding: 6rem 2rem;
             max-width: 1200px;
@@ -691,7 +690,7 @@
             font-weight: 600;
         }
 
-        /* ── Footer ── */
+        /* ────── Footer ────── */
         footer {
             border-top: 1px solid var(--border);
             padding: 3rem 2rem;
@@ -724,7 +723,7 @@
 
         .footer-links a:hover { color: var(--accent-light); }
 
-        /* ── Responsive ── */
+        /* ────── Responsive ────── */
         @media (max-width: 768px) {
             .impact { grid-template-columns: repeat(2, 1fr); }
             .projects-grid { grid-template-columns: 1fr; }
@@ -737,7 +736,7 @@
             .footer-inner { flex-direction: column; gap: 1.5rem; }
         }
 
-        /* ── Scroll Animations ── */
+        /* ────── Scroll Animations ────── */
         .fade-up {
             opacity: 0;
             transform: translateY(30px);
@@ -761,7 +760,7 @@
                 <li><a href="#talks">Presentations</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#writings" onclick="window.location.href='blogs.html'">Writings</a></li>
+                <li><a href="writings" onclick="window.location.href='blogs.html'">Writings</a></li>
                 <li><a href="pubs/resume.pdf" target="_blank">CV</a></li>
             </ul>
         </div>
@@ -822,7 +821,7 @@
 
         <div class="projects-grid">
             <!-- Marvin -->
-            <div class="project-card fade-up" onclick="window.location.href='marvin.html'">
+            <div class="project-card fade-up">
                 <div class="project-badge">Core Infrastructure</div>
                 <h3>Marvin</h3>
                 <p>
@@ -836,11 +835,10 @@
                     <span>Speculative Decoding</span>
                     <span>INT4/INT8</span>
                 </div>
-                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
             </div>
 
             <!-- Eddie -->
-            <div class="project-card fade-up" onclick="window.location.href='eddie.html'">
+            <div class="project-card fade-up">
                 <div class="project-badge">Agentic AI</div>
                 <h3>Eddie</h3>
                 <p>
@@ -855,11 +853,10 @@
                     <span>Guardrails</span>
                     <span>State Machines</span>
                 </div>
-                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
             </div>
 
             <!-- Vortex -->
-            <div class="project-card fade-up" onclick="window.location.href='vortex.html'">
+            <div class="project-card fade-up">
                 <div class="project-badge">Cloud & Scale</div>
                 <h3>Vortex</h3>
                 <p>
@@ -873,11 +870,10 @@
                     <span>Service Mesh</span>
                     <span>LiteLLM</span>
                 </div>
-                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
             </div>
 
             <!-- Open Source / Research -->
-            <div class="project-card fade-up">
+            <div class="project-card fade-up" style="cursor:pointer" onclick="window.location.href='blogs.html'">
                 <div class="project-badge">Research & Writing</div>
                 <h3>Frontier AI Papers</h3>
                 <p>
@@ -909,7 +905,6 @@
                     <span>LLM</span>
                     <span>Clinical NLP</span>
                 </div>
-                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
             </div>
 
             <!-- Drug Consumption Forecasting -->
@@ -927,7 +922,6 @@
                     <span>XGBoost</span>
                     <span>Forecasting</span>
                 </div>
-                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
             </div>
 
             <!-- Abnormal Event Detection -->
@@ -945,7 +939,6 @@
                     <span>Video Analysis</span>
                     <span>95% Precision</span>
                 </div>
-                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
             </div>
         </div>
     </section>
