@@ -3,714 +3,1217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amit Kumar | AI Research & Systems</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Amit Kumar — AI Systems Architect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --accent: #000000;
-            --bg: #ffffff;
-            --text-primary: #111111;
-            --text-secondary: #666666;
-            --border: #e8e8e8;
-            --muted-bg: #f7f7f7;
-            --modal-bg: rgba(255, 255, 255, 0.98);
+            --bg-primary: #0a0a0b;
+            --bg-secondary: #111113;
+            --bg-card: #18181b;
+            --bg-card-hover: #1f1f23;
+            --accent: #6366f1;
+            --accent-light: #818cf8;
+            --accent-glow: rgba(99, 102, 241, 0.15);
+            --text-primary: #fafafa;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --border: #27272a;
+            --border-light: #3f3f46;
+            --gradient-1: linear-gradient(135deg, #6366f1, #8b5cf6, #a78bfa);
+            --gradient-2: linear-gradient(135deg, #06b6d4, #3b82f6, #6366f1);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
+        html { scroll-behavior: smooth; }
+
         body {
             font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
             color: var(--text-primary);
-            background-color: var(--bg);
-            line-height: 1.5;
+            line-height: 1.6;
             -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
         }
 
-        .container { max-width: 920px; margin: 0 auto; padding: 0 40px; }
+        ::selection {
+            background: var(--accent);
+            color: white;
+        }
 
-        /* Navigation */
+        /* ── Navigation ── */
         nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 10, 11, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 36px 0;
-            font-size: 13px;
-            font-weight: 500;
-            border-bottom: 1px solid var(--border);
+            height: 64px;
         }
 
-        .nav-name {
+        .nav-logo {
             font-weight: 700;
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 17px;
+            font-size: 1.1rem;
             letter-spacing: -0.02em;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        .nav-links { display: flex; gap: 28px; }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
         .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
-            transition: color 0.2s;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
         }
-        .nav-links a:hover { color: var(--accent); }
 
-        /* Hero */
-        header { padding: 70px 0 60px; }
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s;
+        }
+
+        .nav-links a:hover::after { width: 100%; }
+
+        /* ── Hero ── */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 30% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
+                        radial-gradient(ellipse at 70% 20%, rgba(139, 92, 246, 0.06) 0%, transparent 50%),
+                        radial-gradient(ellipse at 50% 80%, rgba(6, 182, 212, 0.04) 0%, transparent 50%);
+            animation: aurora 20s ease-in-out infinite;
+        }
+
+        @keyframes aurora {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(2%, -1%) rotate(1deg); }
+            66% { transform: translate(-1%, 2%) rotate(-1deg); }
+        }
+
         .hero-grid {
-            display: grid;
-            grid-template-columns: 1fr 200px;
-            gap: 60px;
-            align-items: start;
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
         }
 
-        h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 44px;
-            font-weight: 700;
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 1rem;
+            background: var(--accent-glow);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 100px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--accent-light);
+            margin-bottom: 2rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .hero-eyebrow .pulse {
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.5); }
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 7vw, 5.5rem);
+            font-weight: 800;
+            line-height: 1.05;
             letter-spacing: -0.03em;
-            margin-bottom: 20px;
-            line-height: 1.1;
+            margin-bottom: 1.5rem;
         }
 
-        .role-badge {
-            display: inline-block;
-            font-size: 12px;
-            font-weight: 600;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            background: var(--muted-bg);
-            padding: 4px 12px;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            color: var(--text-secondary);
+        .hero h1 .gradient-text {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        .bio-text {
-            font-size: 17px;
+        .hero-subtitle {
+            font-size: 1.25rem;
             color: var(--text-secondary);
-            max-width: 560px;
-            margin-bottom: 36px;
-            font-weight: 400;
+            max-width: 600px;
             line-height: 1.7;
+            margin-bottom: 2.5rem;
+            font-weight: 400;
         }
 
-        .bio-text strong { color: var(--accent); font-weight: 600; }
-
-        .profile-img {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-            filter: grayscale(100%);
-            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        .hero-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
         }
 
-        .profile-img:hover {
-            filter: grayscale(0%);
-            transform: scale(1.02);
-        }
-
-        .contact-row { display: flex; gap: 20px; flex-wrap: wrap; }
-        .contact-row a {
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text-primary);
+        .hero-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
             text-decoration: none;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 2px;
-            transition: border-color 0.2s;
-        }
-        .contact-row a:hover { border-color: var(--accent); }
-
-        /* Sections */
-        section { padding: 70px 0; border-top: 1px solid var(--border); }
-        .section-label {
-            font-size: 10px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.18em;
-            color: #999;
-            margin-bottom: 48px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s;
         }
 
-        /* 2-col grid for systems */
-        .two-col {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 48px 56px;
+        .btn-primary {
+            background: var(--accent);
+            color: white;
         }
 
-        .sys-item {
-            cursor: pointer;
-            transition: transform 0.2s, opacity 0.2s;
-        }
-        .sys-item:hover {
+        .btn-primary:hover {
+            background: var(--accent-light);
             transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(99, 102, 241, 0.3);
         }
 
-        .sys-item h3 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 21px;
+        .btn-ghost {
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+            background: transparent;
+        }
+
+        .btn-ghost:hover {
+            color: var(--text-primary);
+            border-color: var(--border-light);
+            background: var(--bg-card);
+        }
+
+        /* ── Section Layout ── */
+        .section {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            margin-bottom: 4rem;
+        }
+
+        .section-label {
+            font-size: 0.75rem;
             font-weight: 600;
-            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-light);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .section-divider {
+            width: 100%;
+            height: 1px;
+            background: var(--border);
+            margin: 0 auto;
+        }
+
+        /* ── Impact Numbers ── */
+        .impact {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .impact-card {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .impact-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .impact-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.25rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .impact-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* ── Project Cards ── */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .project-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-1);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .project-card:hover {
+            border-color: var(--border-light);
+            background: var(--bg-card-hover);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .project-card:hover::before { opacity: 1; }
+
+        .project-badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 0.3rem 0.75rem;
+            border-radius: 100px;
+            background: var(--accent-glow);
+            color: var(--accent-light);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            margin-bottom: 1rem;
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
             letter-spacing: -0.01em;
         }
 
-        .sys-item p {
+        .project-card p {
             color: var(--text-secondary);
-            font-size: 14.5px;
-            margin-bottom: 16px;
-            line-height: 1.65;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
         }
 
-        .tag {
-            display: inline-block;
-            font-size: 10px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            color: #888;
-            padding: 3px 9px;
-            border: 1px solid var(--border);
-            border-radius: 100px;
-        }
-
-        /* Modals */
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.4);
-            backdrop-filter: blur(4px);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .modal-overlay.active {
+        .project-tech {
             display: flex;
-            opacity: 1;
+            flex-wrap: wrap;
+            gap: 0.5rem;
         }
 
-        .modal-content {
-            background: #fff;
-            width: 90%;
-            max-width: 600px;
-            max-height: 85vh;
-            border-radius: 12px;
-            padding: 40px;
-            position: relative;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.12);
-            overflow-y: auto;
-            transform: scale(0.95);
-            transition: transform 0.3s ease;
+        .project-tech span {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            background: var(--bg-primary);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+            font-family: 'JetBrains Mono', monospace;
         }
 
-        .modal-overlay.active .modal-content {
-            transform: scale(1);
-        }
-
-        .close-modal {
+        .project-arrow {
             position: absolute;
-            top: 24px;
-            right: 24px;
-            background: none;
-            border: none;
-            font-size: 20px;
-            cursor: pointer;
-            color: #999;
+            bottom: 2rem;
+            right: 2rem;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            transition: all 0.3s;
+            font-size: 0.85rem;
         }
 
-        .modal-badge {
-            font-size: 10px;
-            font-weight: 700;
+        .project-card:hover .project-arrow {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+            transform: translate(2px, -2px);
+        }
+
+        /* ── Featured Project (Full Width) ── */
+        .featured-project {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 3rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s;
+            cursor: pointer;
+        }
+
+        .featured-project::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: var(--gradient-2);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .featured-project:hover {
+            border-color: var(--border-light);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+        }
+
+        .featured-project:hover::before { opacity: 1; }
+
+        .featured-label {
+            font-size: 0.7rem;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.1em;
-            color: #999;
-            margin-bottom: 12px;
-            display: block;
+            color: #06b6d4;
+            margin-bottom: 1rem;
         }
 
-        .modal-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 28px;
+        .featured-project h3 {
+            font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
         }
 
-        .modal-stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin-bottom: 30px;
-            padding-bottom: 30px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .stat-item .stat-value {
-            font-size: 18px;
-            font-weight: 700;
-            display: block;
-        }
-
-        .stat-item .stat-label {
-            font-size: 11px;
-            color: #999;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .modal-description {
-            font-size: 15px;
+        .featured-project p {
             color: var(--text-secondary);
-            line-height: 1.7;
-            margin-bottom: 30px;
+            font-size: 1rem;
+            line-height: 1.8;
+            max-width: 700px;
+            margin-bottom: 2rem;
         }
 
-        /* Timeline rows */
-        .tline {
-            margin-bottom: 44px;
-            display: grid;
-            grid-template-columns: 130px 1fr;
-            gap: 40px;
-        }
-
-        .tline-date {
-            font-size: 12.5px;
-            font-weight: 600;
-            color: #999;
-            padding-top: 3px;
-            font-variant-numeric: tabular-nums;
-        }
-
-        .tline-content h4 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 7px;
-        }
-
-        .tline-content h4 a {
-            color: var(--text-primary);
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.2s;
-        }
-
-        .tline-content h4 a:hover { border-bottom-color: #000; }
-
-        .tline-content p {
-            color: var(--text-secondary);
-            font-size: 14.5px;
-            max-width: 560px;
-            line-height: 1.65;
-        }
-
-        .tline-tags {
+        .featured-stats {
             display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-top: 14px;
+            gap: 3rem;
         }
 
-        .tline-tag {
-            font-size: 11px;
-            font-weight: 500;
-            color: var(--text-secondary);
+        .featured-stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-light);
         }
 
-        .tline-tag::before {
-            content: '/';
-            margin-right: 3px;
-            color: #bbb;
+        .featured-stat-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
         }
 
-        /* Presentations grid */
-        .pubs-grid {
+        /* ── Presentations ── */
+        .talks-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            background: var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .talk-item {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 24px;
-        }
-
-        .pub-card {
-            padding: 24px;
-            background: var(--muted-bg);
-            border-radius: 8px;
-            border: 1px solid transparent;
-            transition: all 0.25s;
+            grid-template-columns: 80px 1fr auto;
+            align-items: center;
+            gap: 2rem;
+            padding: 1.5rem 2rem;
+            background: var(--bg-card);
+            transition: all 0.3s;
             text-decoration: none;
-            display: block;
             color: inherit;
         }
 
-        .pub-card:hover {
-            border-color: #ddd;
-            background: #fff;
-            transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+        .talk-item:hover {
+            background: var(--bg-card-hover);
         }
 
-        .pub-card .pub-type {
-            font-size: 9px;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: #999;
-            margin-bottom: 8px;
+        .talk-year {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
         }
 
-        .pub-card h5 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 14px;
+        .talk-info h4 {
+            font-size: 1rem;
             font-weight: 600;
-            line-height: 1.4;
-            margin-bottom: 8px;
+            margin-bottom: 0.25rem;
         }
 
-        .pub-card p {
-            font-size: 12.5px;
-            color: var(--text-secondary);
+        .talk-info p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
             line-height: 1.5;
         }
 
-        .pub-year {
-            font-size: 11px;
-            color: #bbb;
-            margin-top: 12px;
-            font-weight: 600;
+        .talk-type {
+            font-size: 0.7rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            background: var(--bg-primary);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+            white-space: nowrap;
         }
 
-        /* Achievements list */
-        .ach-list { list-style: none; }
-        .ach-list li {
-            display: grid;
-            grid-template-columns: 130px 1fr;
-            gap: 40px;
-            margin-bottom: 28px;
+        /* ── Experience Timeline ── */
+        .timeline {
+            position: relative;
+            padding-left: 3rem;
         }
 
-        .ach-year {
-            font-size: 12.5px;
-            font-weight: 600;
-            color: #999;
-            padding-top: 2px;
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 8px;
+            bottom: 8px;
+            width: 1px;
+            background: var(--border);
         }
 
-        .ach-text {
-            font-size: 15px;
+        .timeline-item {
+            position: relative;
+            margin-bottom: 3rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -3rem;
+            top: 8px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 2px solid var(--accent);
+            background: var(--bg-primary);
+        }
+
+        .timeline-item.active::before {
+            background: var(--accent);
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
+        }
+
+        .timeline-period {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-role {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .timeline-org {
             color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
         }
 
-        .ach-text strong { color: var(--text-primary); }
+        .timeline-desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.7;
+            max-width: 600px;
+        }
 
-        /* Footer */
+        .timeline-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .timeline-tags span {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            background: var(--accent-glow);
+            color: var(--accent-light);
+            border: 1px solid rgba(99, 102, 241, 0.15);
+        }
+
+        /* ── Achievements ── */
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .achievement-card {
+            padding: 1.5rem;
+            border-radius: 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .achievement-card:hover {
+            border-color: var(--border-light);
+            transform: translateY(-2px);
+        }
+
+        .achievement-year {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .achievement-title {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .achievement-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        /* ── Philosophy Section ── */
+        .philosophy {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .philosophy blockquote {
+            font-size: 1.75rem;
+            font-weight: 300;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 0 auto;
+            font-style: italic;
+        }
+
+        .philosophy blockquote strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* ── Footer ── */
         footer {
-            padding: 80px 0 60px;
             border-top: 1px solid var(--border);
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-inner {
             display: flex;
             justify-content: space-between;
-            align-items: flex-end;
+            align-items: center;
         }
 
-        .footer-note { font-size: 13px; color: #bbb; }
+        .footer-text {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
 
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover { color: var(--accent-light); }
+
+        /* ── Responsive ── */
         @media (max-width: 768px) {
-            .hero-grid { grid-template-columns: 1fr; gap: 32px; }
-            .hero-grid .profile-side { order: -1; width: 120px; }
-            .two-col { grid-template-columns: 1fr; gap: 36px; }
-            .tline { grid-template-columns: 1fr; gap: 6px; }
-            .ach-list li { grid-template-columns: 1fr; gap: 4px; }
-            .pubs-grid { grid-template-columns: 1fr 1fr; }
-            header { padding: 40px 0; }
-            h1 { font-size: 34px; }
+            .impact { grid-template-columns: repeat(2, 1fr); }
+            .projects-grid { grid-template-columns: 1fr; }
+            .achievements-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2.5rem; }
+            .featured-stats { flex-wrap: wrap; gap: 1.5rem; }
+            .talk-item { grid-template-columns: 60px 1fr; }
+            .talk-type { display: none; }
+            .footer-inner { flex-direction: column; gap: 1.5rem; }
+        }
+
+        /* ── Scroll Animations ── */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <nav>
-            <div class="nav-name">Amit Kumar</div>
-            <div class="nav-links">
-                <a href="#systems">Systems</a>
-                <a href="#research">Presentations</a>
-                <a href="#about">About</a>
-                <a href="blogs.html">Writings</a>
-                <a href="pubs/Amit_kumar.pdf">CV</a>
-            </div>
-        </nav>
-
-        <header>
-            <div class="hero-grid">
-                <div class="bio-side">
-                    <div class="role-badge">Lead AI Engineer &mdash; e42.ai</div>
-                    <h1>Architecting Intelligent Systems.</h1>
-                    <p class="bio-text">
-                        Focused on <strong>Autonomous Agent Orchestration</strong> and <strong>Distributed LLM Infrastructure</strong>. Building production-scale AI at the frontier of reasoning, multi-modal retrieval, and high-performance inference. Where systems research meets real-world deployment.
-                    </p>
-                    <div class="contact-row">
-                        <a href="https://github.com/amitkumar0902"><i class="fab fa-github"></i> GitHub</a>
-                        <a href="https://linkedin.com/in/amitkumar0902"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        <a href="blogs.html"><i class="fas fa-pen-nib"></i> Writings</a>
-                        <a href="mailto:ak6.amitkumar@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-                    </div>
-                </div>
-                <div class="profile-side">
-                    <img src="images/amit.png" alt="Amit Kumar" class="profile-img">
-                </div>
-            </div>
-        </header>
-
-        <!-- SYSTEMS -->
-        <section id="systems">
-            <div class="section-label">Selected Systems &amp; Research</div>
-            <div class="two-col">
-                <div class="sys-item" onclick="openModal('marvin')">
-                    <h3>Marvin</h3>
-                    <p>High-performance inference backbone for heterogeneous LLM deployments. Integrates <strong>llms_ground</strong> and <strong>llamacpp</strong> with dynamic quantization kernels and speculative decoding pipelines for maximum throughput.</p>
-                    <span class="tag">Core Infrastructure</span>
-                </div>
-                <div class="sys-item" onclick="openModal('eddie')">
-                    <h3>Eddie</h3>
-                    <p>Multi-agent orchestration framework for autonomous task solving. Hierarchical reasoning with LangGraph-based state machines enables stateful, tool-using agent collaboration across long-horizon tasks.</p>
-                    <span class="tag">Agentic AI</span>
-                </div>
-                <div class="sys-item" onclick="openModal('vortex')">
-                    <h3>Vortex</h3>
-                    <p>Kubernetes-native AI platform toolkit deployed on GKE. Unified request routing, zero-trust service mesh, Keycloak auth, and intelligent model selection across multi-tenant inference clusters.</p>
-                    <span class="tag">Cloud &amp; Scale</span>
-                </div>
-                <div class="sys-item" onclick="openModal('helix')">
-                    <h3>Helix</h3>
-                    <p>Enterprise knowledge synthesis engine with persistent long-term memory. Hybrid RAG architecture with semantic routing enables high-fidelity retrieval over multi-modal, large-scale document corpora.</p>
-                    <span class="tag">Retrieval Systems</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- PRESENTATIONS -->
-        <section id="research">
-            <div class="section-label">Presentations &amp; Technical Reading</div>
-            <div class="pubs-grid">
-                <a class="pub-card" href="pubs/StreamingLLM.pdf">
-                    <div class="pub-type">Presentation • 2024</div>
-                    <h5>StreamingLLM: Efficient Streaming Language Models with Attention Sinks</h5>
-                    <p>Enabling infinite-context inference without KV cache explosion using attention sink tokens.</p>
-                    <div class="pub-year">Slides &rarr;</div>
-                </a>
-                <a class="pub-card" href="pubs/AlphaGeometry.pdf">
-                    <div class="pub-type">Presentation • 2024</div>
-                    <h5>AlphaGeometry: AI for Olympiad-Level Geometry</h5>
-                    <p>DeepMind's neuro-symbolic system combining language models with symbolic deduction engines.</p>
-                    <div class="pub-year">Slides &rarr;</div>
-                </a>
-                <a class="pub-card" href="pubs/Infini-attention.pdf">
-                    <div class="pub-type">Presentation • 2024</div>
-                    <h5>Infini-Attention: Infinite Context Transformers</h5>
-                    <p>Google's compressive memory mechanism achieving infinite context length in transformers.</p>
-                    <div class="pub-year">Slides &rarr;</div>
-                </a>
-                <a class="pub-card" href="pubs/GaLore.pdf">
-                    <div class="pub-type">Presentation • 2024</div>
-                    <h5>GaLore: Memory-Efficient LLM Training via Gradient Projection</h5>
-                    <p>Reducing full fine-tuning memory footprint without sacrificing model expressivity.</p>
-                    <div class="pub-year">Slides &rarr;</div>
-                </a>
-                <a class="pub-card" href="pubs/WARP.pdf">
-                    <div class="pub-type">Presentation • 2024</div>
-                    <h5>WARP: Weight Averaged Rewarded Policies for RLHF</h5>
-                    <p>How weight averaging improves reward stability and alignment in RLHF fine-tuning.</p>
-                    <div class="pub-year">Slides &rarr;</div>
-                </a>
-                <a class="pub-card" href="pubs/LARS.pdf">
-                    <div class="pub-type">Paper Reading</div>
-                    <h5>LARS &amp; Efficient Optimizer Landscapes</h5>
-                    <p>Layer-wise Adaptive Rate Scaling and large-batch training convergence analysis.</p>
-                    <div class="pub-year">Notes &rarr;</div>
-                </a>
-            </div>
-        </section>
-
-        <!-- EXPERIENCE & EDUCATION -->
-        <section id="about">
-            <div class="section-label">Experience &amp; Education</div>
-
-            <div class="tline">
-                <div class="tline-date">2023 &mdash; Present</div>
-                <div class="tline-content">
-                    <h4>Lead AI Engineer @ e42.ai</h4>
-                    <p>Leading architecture and deployment of production GenAI platforms. Directing multi-agent system research, distributed inference infrastructure, and LLM serving pipelines. Mentoring team across GenAI stack.</p>
-                    <div class="tline-tags">
-                        <span class="tline-tag">Distributed Systems</span>
-                        <span class="tline-tag">Autonomous Agents</span>
-                        <span class="tline-tag">LLM Serving</span>
-                        <span class="tline-tag">System Design</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tline">
-                <div class="tline-date">Nov 2021 &mdash; May 2023</div>
-                <div class="tline-content">
-                    <h4>NLP Engineer Intern &#8594; NLP Engineer @ Circlebase</h4>
-                    <p>Joined as an NLP Engineer Intern (Nov 2021 &mdash; May 2022) before transitioning to a full-time role for one year. Built entity recognition pipelines for social determinants of health and drug relations. Designed production NLP services on Django-based deployment infrastructure.</p>
-                    <div class="tline-tags">
-                        <span class="tline-tag">NLP</span>
-                        <span class="tline-tag">Entity Recognition</span>
-                        <span class="tline-tag">Production ML</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tline">
-                <div class="tline-date">2020 &mdash; 2022</div>
-                <div class="tline-content">
-                    <h4>M.Tech in ML &amp; Computing</h4>
-                    <p>Indian Institute of Space Science and Technology (IIST). Specialization in statistical learning, computational intelligence, and applied ML methodologies.</p>
-                </div>
-            </div>
-
-            <div class="tline">
-                <div class="tline-date">2016 &mdash; 2020</div>
-                <div class="tline-content">
-                    <h4>B.Tech in IT</h4>
-                    <p>Jabalpur Engineering College. Foundations in algorithms, data structures, and distributed computing systems.</p>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- ACHIEVEMENTS -->
-        <section>
-            <div class="section-label">Achievements &amp; Recognition</div>
-            <ul class="ach-list">
-                <li>
-                    <span class="ach-year">2018</span>
-                    <span class="ach-text"><strong>ACM ICPC Regionalist</strong> &mdash; Qualified for the Kolkata-Kanpur site contest at UIET, Kanpur. Ranked among top competitive programmers nationally.</span>
-                </li>
-                <li>
-                    <span class="ach-year">2018</span>
-                    <span class="ach-text"><strong>CodeChef Rating 1883</strong> (handle: amit_9) &mdash; Active competitive programmer with strong algorithmic problem-solving track record across data structures and combinatorics.</span>
-                </li>
-                <li>
-                    <span class="ach-year">2018</span>
-                    <span class="ach-text"><strong>Gold Medal, Chess &mdash; Avahan 2018</strong> &mdash; First place in Chess at the Avahan intra-college championship, JEC.</span>
-                </li>
-                <li>
-                    <span class="ach-year">2018</span>
-                    <span class="ach-text"><strong>Organized &ldquo;So You Think You Can Code&rdquo;</strong> &mdash; Designed and ran a competitive programming contest on HackerEarth, with problem setting and participant evaluation.</span>
-                </li>
-                <li>
-                    <span class="ach-year">Ongoing</span>
-                    <span class="ach-text">Active in NLP and systems research, regularly presenting frontier AI papers on topics including infinite-context architectures, memory-efficient training, and RLHF alignment.</span>
-                </li>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-inner">
+            <div class="nav-logo">AK</div>
+            <ul class="nav-links">
+                <li><a href="#systems">Systems</a></li>
+                <li><a href="#talks">Presentations</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#writings" onclick="window.location.href='blogs.html'">Writings</a></li>
+                <li><a href="pubs/resume.pdf" target="_blank">CV</a></li>
             </ul>
-        </section>
+        </div>
+    </nav>
 
-        <footer>
-            <div>
-                <div class="footer-note">&copy; 2026 Amit Kumar &mdash; New Town, WB</div>
-                <div class="footer-note" style="margin-top: 4px;">Focused on the future of autonomous intelligence.</div>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="pulse"></span>
+                Lead AI Engineer
             </div>
-            <div style="opacity: 0.35;">
-                <a href="https://info.flagcounter.com/yMl7"><img src="https://s11.flagcounter.com/count2/yMl7/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+            <h1>
+                Building the<br>
+                <span class="gradient-text">infrastructure for<br>autonomous intelligence.</span>
+            </h1>
+            <p class="hero-subtitle">
+                I design and ship production-scale AI systems — from high-throughput inference engines to multi-agent orchestration frameworks. Focused on the intersection of systems engineering and frontier AI research.
+            </p>
+            <div class="hero-links">
+                <a href="#systems" class="btn-primary"><i class="fas fa-cube"></i> View Systems</a>
+                <a href="https://github.com/amitkumar0902" target="_blank" class="btn-ghost"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/amit-kumar0902/" target="_blank" class="btn-ghost"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:ak6.amitkumar@gmail.com" class="btn-ghost"><i class="fas fa-envelope"></i> Email</a>
             </div>
-        </footer>
-    </div>
+        </div>
+    </section>
 
-    <!-- Modal UI -->
-    <div id="modalOverlay" class="modal-overlay" onclick="closeModal()">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <button class="close-modal" onclick="closeModal()">&times;</button>
-            <span id="modalBadge" class="modal-badge"></span>
-            <h2 id="modalTitle" class="modal-title"></h2>
-            
-            <div id="modalStats" class="modal-stats">
-                <div class="stat-item">
-                    <span id="stat1Value" class="stat-value"></span>
-                    <span id="stat1Label" class="stat-label"></span>
-                </div>
-                <div class="stat-item">
-                    <span id="stat2Value" class="stat-value"></span>
-                    <span id="stat2Label" class="stat-label"></span>
-                </div>
-                <div class="stat-item">
-                    <span id="stat3Value" class="stat-value"></span>
-                    <span id="stat3Label" class="stat-label"></span>
-                </div>
-            </div>
-
-            <p id="modalDescription" class="modal-description"></p>
-            <a id="modalLink" href="#" style="font-size: 14px; font-weight: 600; color: #000; text-decoration: none; border-bottom: 1px solid #000; padding-bottom: 2px;">Explore Source &rarr;</a>
+    <!-- Impact Numbers -->
+    <div class="impact fade-up">
+        <div class="impact-card">
+            <div class="impact-number">7+</div>
+            <div class="impact-label">AI Systems Shipped</div>
+        </div>
+        <div class="impact-card">
+            <div class="impact-number">6+</div>
+            <div class="impact-label">Research Presentations</div>
+        </div>
+        <div class="impact-card">
+            <div class="impact-number">4+</div>
+            <div class="impact-label">Years in AI/ML</div>
+        </div>
+        <div class="impact-card">
+            <div class="impact-number">ACM</div>
+            <div class="impact-label">ICPC Regionalist</div>
         </div>
     </div>
 
-    653
-    
-        const projects = {
-            marvin: {
-                title: "Marvin",
-                badge: "Core Infrastructure",
-                description: "High-performance inference backbone for heterogeneous LLM deployments. Marvin integrates custom C++ kernels with speculative decoding and KV cache optimization. It serves as the primary inference layer across E42 AI agents, handling thousands of concurrent requests with low-latency INT4/INT8 quantization support.",
-                link: "marvin.html"
-            },
-            eddie: {
-                title: "Eddie",
-                badge: "Agentic AI",
-                description: "Multi-agent orchestration framework designed for autonomous problem-solving. Eddie uses a hierarchical LangGraph-based architecture to coordinate specialized agents. It features robust guardrails, PII detection workflows, and persistent state management, allowing it to tackle long-horizon tasks across enterprise domains.",
-                link: "eddie.html"
-            },
-            vortex: {
-                title: "Vortex",
-                badge: "Cloud & Scale",
-                description: "Vortex is the Kubernetes-native deployment toolkit for the E42 AI platform. Deployed on GKE, it provides a CLI-driven lifecycle for multi-tenant inference clusters. It includes a LiteLLM gateway, unified request routing, zero-trust service mesh, and automated scaling of GPU workloads across global regions.",
-                link: "vortex.html"
-            },
-            helix: {
-                title: "Helix",
-                badge: "Retrieval Systems",
-                stats: [
-                    { label: "Architecture", value: "Hybrid" },
-                    { label: "Context", value: "1M+" },
-                    { label: "Precision", value: "94%" }
-                ],
-                description: "Helix is a high-fidelity knowledge synthesis engine. It implements a multi-modal RAG architecture with semantic routing and long-term memory. By combining vector databases (Qdrant) with graph-based reasoning (Neo4j), Helix provides factual grounding for agents operating over massive, unstructured document corpora.",
-                link: "helix.html"
+    <div class="section-divider"></div>
+
+    <!-- Systems -->
+    <section class="section" id="systems">
+        <div class="section-header fade-up">
+            <div class="section-label">Systems & Research</div>
+            <h2 class="section-title">What I Build</h2>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Marvin -->
+            <div class="project-card fade-up" onclick="window.location.href='marvin.html'">
+                <div class="project-badge">Core Infrastructure</div>
+                <h3>Marvin</h3>
+                <p>
+                    High-performance inference backbone serving heterogeneous LLM deployments.
+                    Optimized for maximum throughput with dynamic quantization, speculative decoding,
+                    and intelligent KV cache management across diverse model architectures.
+                </p>
+                <div class="project-tech">
+                    <span>C++</span>
+                    <span>CUDA</span>
+                    <span>Speculative Decoding</span>
+                    <span>INT4/INT8</span>
+                </div>
+                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+
+            <!-- Eddie -->
+            <div class="project-card fade-up" onclick="window.location.href='eddie.html'">
+                <div class="project-badge">Agentic AI</div>
+                <h3>Eddie</h3>
+                <p>
+                    Multi-agent orchestration framework for autonomous task solving.
+                    Features hierarchical reasoning with stateful agent collaboration,
+                    robust guardrails, and persistent state management for complex,
+                    long-horizon enterprise workflows.
+                </p>
+                <div class="project-tech">
+                    <span>LangGraph</span>
+                    <span>Multi-Agent</span>
+                    <span>Guardrails</span>
+                    <span>State Machines</span>
+                </div>
+                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+
+            <!-- Vortex -->
+            <div class="project-card fade-up" onclick="window.location.href='vortex.html'">
+                <div class="project-badge">Cloud & Scale</div>
+                <h3>Vortex</h3>
+                <p>
+                    Kubernetes-native AI platform toolkit for multi-tenant inference clusters.
+                    Provides unified request routing, zero-trust service mesh,
+                    and automated GPU workload scaling with CLI-driven lifecycle management.
+                </p>
+                <div class="project-tech">
+                    <span>Kubernetes</span>
+                    <span>GKE</span>
+                    <span>Service Mesh</span>
+                    <span>LiteLLM</span>
+                </div>
+                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+
+            <!-- Open Source / Research -->
+            <div class="project-card fade-up">
+                <div class="project-badge">Research & Writing</div>
+                <h3>Frontier AI Papers</h3>
+                <p>
+                    Regular deep-dives into frontier research — from infinite-context architectures
+                    and memory-efficient training to RLHF alignment. Each paper reading includes
+                    detailed presentations with implementation insights.
+                </p>
+                <div class="project-tech">
+                    <span>StreamingLLM</span>
+                    <span>Infini-Attention</span>
+                    <span>GaLore</span>
+                    <span>WARP</span>
+                </div>
+                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+
+            <!-- Clinical Trial Chatbot -->
+            <div class="project-card fade-up">
+                <div class="project-badge">Healthcare NLP</div>
+                <h3>Clinical Trial Chatbot</h3>
+                <p>
+                    Intelligent Q&A system for clinical trial documents featuring named entity recognition
+                    for adverse drug events, Haystack-based retrieval, and an LLM-powered dashboard
+                    for interactive exploration of medical literature.
+                </p>
+                <div class="project-tech">
+                    <span>NER</span>
+                    <span>Haystack</span>
+                    <span>LLM</span>
+                    <span>Clinical NLP</span>
+                </div>
+                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+
+            <!-- Drug Consumption Forecasting -->
+            <div class="project-card fade-up">
+                <div class="project-badge">Time-Series ML</div>
+                <h3>Drug Consumption Forecasting</h3>
+                <p>
+                    Predictive analytics pipeline for pharmaceutical demand planning using
+                    ensemble time-series methods. Achieved MAPE under 20% by combining
+                    ARIMA, Holt-Winters exponential smoothing, and XGBoost regressors.
+                </p>
+                <div class="project-tech">
+                    <span>ARIMA</span>
+                    <span>Holt-Winters</span>
+                    <span>XGBoost</span>
+                    <span>Forecasting</span>
+                </div>
+                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+
+            <!-- Abnormal Event Detection -->
+            <div class="project-card fade-up">
+                <div class="project-badge">Computer Vision</div>
+                <h3>Abnormal Event Detection in Video</h3>
+                <p>
+                    Real-time anomaly detection system for surveillance video streams,
+                    achieving 95% precision on the UCSD Anomaly Detection Dataset.
+                    Combines spatial-temporal feature extraction with unsupervised learning.
+                </p>
+                <div class="project-tech">
+                    <span>CNN</span>
+                    <span>Anomaly Detection</span>
+                    <span>Video Analysis</span>
+                    <span>95% Precision</span>
+                </div>
+                <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Philosophy -->
+    <section class="philosophy fade-up">
+        <div class="section-label">Philosophy</div>
+        <blockquote>
+            "The future of AI isn't just smarter models — it's <strong>smarter systems</strong>.
+            I believe the most impactful work happens at the intersection of
+            <strong>rigorous engineering</strong> and <strong>frontier research</strong>,
+            where ideas are stress-tested against production reality."
+        </blockquote>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Presentations -->
+    <section class="section" id="talks">
+        <div class="section-header fade-up">
+            <div class="section-label">Presentations</div>
+            <h2 class="section-title">Research Talks & Deep Dives</h2>
+        </div>
+
+        <div class="talks-list fade-up">
+            <a href="blog-streaming-llm.html" class="talk-item">
+                <span class="talk-year">2024</span>
+                <div class="talk-info">
+                    <h4>StreamingLLM: Efficient Streaming Language Models with Attention Sinks</h4>
+                    <p>Enabling infinite-context inference without KV cache explosion</p>
+                </div>
+                <span class="talk-type">Presentation</span>
+            </a>
+            <a href="blog-alphageometry.html" class="talk-item">
+                <span class="talk-year">2024</span>
+                <div class="talk-info">
+                    <h4>AlphaGeometry: AI for Olympiad-Level Geometry</h4>
+                    <p>Neuro-symbolic system combining language models with symbolic deduction</p>
+                </div>
+                <span class="talk-type">Presentation</span>
+            </a>
+            <a href="blog-infini-attention.html" class="talk-item">
+                <span class="talk-year">2024</span>
+                <div class="talk-info">
+                    <h4>Infini-Attention: Infinite Context Transformers</h4>
+                    <p>Compressive memory for infinite context length in transformers</p>
+                </div>
+                <span class="talk-type">Presentation</span>
+            </a>
+            <a href="blog-galore.html" class="talk-item">
+                <span class="talk-year">2024</span>
+                <div class="talk-info">
+                    <h4>GaLore: Memory-Efficient LLM Training</h4>
+                    <p>Reducing fine-tuning memory footprint via gradient projection</p>
+                </div>
+                <span class="talk-type">Presentation</span>
+            </a>
+            <a href="blog-warp.html" class="talk-item">
+                <span class="talk-year">2024</span>
+                <div class="talk-info">
+                    <h4>WARP: Weight Averaged Rewarded Policies for RLHF</h4>
+                    <p>Improving reward stability and alignment in RLHF fine-tuning</p>
+                </div>
+                <span class="talk-type">Presentation</span>
+            </a>
+            <a href="blog-lars.html" class="talk-item">
+                <span class="talk-year">2024</span>
+                <div class="talk-info">
+                    <h4>LARS & Efficient Optimizer Landscapes</h4>
+                    <p>Layer-wise adaptive rate scaling and large-batch convergence</p>
+                </div>
+                <span class="talk-type">Paper Reading</span>
+            </a>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+        <div class="section-header fade-up">
+            <div class="section-label">Experience & Education</div>
+            <h2 class="section-title">Journey</h2>
+        </div>
+
+        <div class="timeline fade-up">
+            <div class="timeline-item active">
+                <div class="timeline-period">2023 — Present</div>
+                <div class="timeline-role">Lead AI Engineer</div>
+                <div class="timeline-org">e42.ai</div>
+                <div class="timeline-desc">
+                    Leading architecture and deployment of production-scale generative AI platforms.
+                    Directing multi-agent systems research, distributed inference infrastructure, and
+                    LLM serving pipelines. Mentoring engineers across the full GenAI stack.
+                </div>
+                <div class="timeline-tags">
+                    <span>Distributed Systems</span>
+                    <span>Autonomous Agents</span>
+                    <span>LLM Serving</span>
+                    <span>System Design</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-period">Nov 2021 — May 2023</div>
+                <div class="timeline-role">NLP Engineer</div>
+                <div class="timeline-org">Circlebase (Clinical NLP)</div>
+                <div class="timeline-desc">
+                    Joined as intern, promoted to full-time. Built entity recognition pipelines
+                    for social determinants of health and drug relations. Designed production NLP
+                    services and deployment infrastructure.
+                </div>
+                <div class="timeline-tags">
+                    <span>NLP</span>
+                    <span>Entity Recognition</span>
+                    <span>Production ML</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-period">Sept — Nov 2021</div>
+                <div class="timeline-role">ML Engineer</div>
+                <div class="timeline-org">Omdena — Internet & Jurisdiction Policy Network</div>
+                <div class="timeline-desc">
+                    Built knowledge graph pipelines and NLP-driven triplet extractors for policy document analysis. Contributed to the Datasphere framework by developing text classification and information extraction tools for internet governance datasets.
+                </div>
+                <div class="timeline-tags">
+                    <span>Knowledge Graphs</span>
+                    <span>NLP</span>
+                    <span>Information Extraction</span>
+                    <span>Triplet Extractors</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-period">2020 — 2022</div>
+                <div class="timeline-role">M.Tech in ML & Computing</div>
+                <div class="timeline-org">Indian Institute of Space Science and Technology (IIST)</div>
+                <div class="timeline-desc">
+                    Specialization in statistical learning, computational intelligence, and applied ML.
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-period">2016 — 2020</div>
+                <div class="timeline-role">B.Tech in Information Technology</div>
+                <div class="timeline-org">Jabalpur Engineering College</div>
+                <div class="timeline-desc">
+                    Foundations in algorithms, data structures, and distributed computing systems.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Achievements -->
+    <section class="section" id="achievements">
+        <div class="section-header fade-up">
+            <div class="section-label">Recognition</div>
+            <h2 class="section-title">Achievements</h2>
+        </div>
+
+        <div class="achievements-grid fade-up">
+            <div class="achievement-card">
+                <div class="achievement-year">2018</div>
+                <div class="achievement-title">ACM ICPC Regionalist</div>
+                <div class="achievement-desc">
+                    Qualified for the Kolkata-Kanpur site contest at UIET, Kanpur.
+                    Ranked among top competitive programmers nationally.
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-year">2018</div>
+                <div class="achievement-title">CodeChef Rating 1883</div>
+                <div class="achievement-desc">
+                    Handle: amit_9 — Strong algorithmic problem-solving across
+                    data structures and combinatorics.
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-year">2018</div>
+                <div class="achievement-title">Gold Medal, Chess — Avahan</div>
+                <div class="achievement-desc">
+                    First place in Chess at the Avahan intra-college championship, JEC.
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-year">2018</div>
+                <div class="achievement-title">Organized "So You Think You Can Code"</div>
+                <div class="achievement-desc">
+                    Designed and ran a competitive programming contest on HackerEarth
+                    with problem setting and evaluation.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Technical Skills -->
+    <section class="section" id="skills">
+        <div class="section-header fade-up">
+            <div class="section-label">Toolbox</div>
+            <h2 class="section-title">Skills & Technologies</h2>
+        </div>
+        <div class="achievements-grid fade-up">
+            <div class="achievement-card">
+                <div class="achievement-year">Languages</div>
+                <div class="achievement-title">Core Programming</div>
+                <div class="achievement-desc">Python, C++, C, SQL, Bash — deep fluency in systems and scripting for ML infrastructure and backend services.</div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-year">ML / AI</div>
+                <div class="achievement-title">Frameworks & Models</div>
+                <div class="achievement-desc">PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, vLLM, GGML — from training to production inference.</div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-year">Infrastructure</div>
+                <div class="achievement-title">Cloud & DevOps</div>
+                <div class="achievement-desc">Docker, Kubernetes, GCP (GKE), Git, CI/CD, service meshes — building scalable, reproducible ML platforms.</div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-year">Data</div>
+                <div class="achievement-title">Storage & Processing</div>
+                <div class="achievement-desc">PostgreSQL, SQLite, Redis, Elasticsearch, vector databases — managing structured and unstructured data at scale.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-text">
+                &copy; 2026 Amit Kumar — Focused on the future of autonomous intelligence.
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/amitkumar0902" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/amit-kumar0902/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:ak6.amitkumar@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Animation Script -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+        // Smooth nav background on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.borderBottomColor = 'rgba(39, 39, 42, 0.8)';
+            } else {
+                nav.style.borderBottomColor = 'rgba(39, 39, 42, 0.3)';
             }
-        };
-
-        function openModal(id) {
-            const project = projects[id];
-            document.getElementById('modalBadge').textContent = project.badge;
-            document.getElementById('modalTitle').textContent = project.title;
-            document.getElementById('modalDescription').textContent = project.description;
-            document.getElementById('modalLink').href = project.link;
-
-            document.getElementById('stat1Value').textContent = project.stats[0].value;
-            document.getElementById('stat1Label').textContent = project.stats[0].label;
-            document.getElementById('stat2Value').textContent = project.stats[1].value;
-            document.getElementById('stat2Label').textContent = project.stats[1].label;
-            document.getElementById('stat3Value').textContent = project.stats[2].value;
-            document.getElementById('stat3Label').textContent = project.stats[2].label;
-
-            document.getElementById('modalOverlay').classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeModal() {
-            document.getElementById('modalOverlay').classList.remove('active');
-            document.body.style.overflow = 'auto';
-        }
-
-        // Close on ESC
-        window.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeModal();
         });
     </script>
+
 </body>
 </html>
