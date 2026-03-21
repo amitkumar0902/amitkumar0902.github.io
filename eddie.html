@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eddie — Multi-Agent Orchestration | Amit Kumar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    :root { --accent: #000; --bg: #fff; --text-primary: #111; --text-secondary: #666; --border: #e8e8e8; --muted-bg: #f7f7f7; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text-primary); background: var(--bg); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    .container { max-width: 920px; margin: 0 auto; padding: 0 40px; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 32px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+    .nav-back { color: var(--text-secondary); text-decoration: none; font-weight: 600; transition: color .2s; }
+    .nav-back:hover { color: var(--accent); }
+    .nav-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; text-decoration: none; color: var(--text-primary); }
+    .project-hero { padding: 60px 0 40px; }
+    .project-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; background: #000; color: #fff; padding: 4px 12px; border-radius: 4px; margin-bottom: 20px; }
+    .project-title { font-family: 'Space Grotesk', sans-serif; font-size: 52px; font-weight: 700; letter-spacing: -.03em; line-height: 1.05; margin-bottom: 16px; }
+    .project-tagline { font-size: 18px; color: var(--text-secondary); max-width: 620px; line-height: 1.7; margin-bottom: 36px; }
+    .stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 60px; overflow: hidden; }
+    .stat-cell { padding: 24px 28px; border-right: 1px solid var(--border); }
+    .stat-cell:last-child { border-right: none; }
+    .stat-cell .val { font-family: 'Space Grotesk', sans-serif; font-size: 26px; font-weight: 700; display: block; margin-bottom: 4px; }
+    .stat-cell .lbl { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: .06em; }
+    .section { padding: 48px 0; border-top: 1px solid var(--border); }
+    .section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .18em; color: #999; margin-bottom: 28px; }
+    .section p { font-size: 15.5px; color: var(--text-secondary); line-height: 1.75; max-width: 720px; margin-bottom: 16px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+    .chip { font-size: 12px; font-weight: 600; padding: 5px 14px; border: 1px solid var(--border); border-radius: 100px; color: var(--text-secondary); background: var(--muted-bg); }
+    .cap-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 8px; }
+    .cap-item { padding: 22px 24px; background: var(--muted-bg); border-radius: 8px; border: 1px solid transparent; transition: border-color .2s; }
+    .cap-item:hover { border-color: #ddd; background: #fff; }
+    .cap-item h4 { font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+    .cap-item p { font-size: 13px; color: var(--text-secondary); line-height: 1.55; margin: 0; }
+    footer { padding: 60px 0 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+    footer a { font-size: 13px; font-weight: 600; color: var(--text-primary); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 2px; }
+    footer a:hover { border-color: #000; }
+    .footer-note { font-size: 12px; color: #bbb; }
+    @media (max-width: 768px) { .project-title { font-size: 36px; } .stats-bar { grid-template-columns: 1fr 1fr; } .cap-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<div class="container">
+  <nav>
+    <a href="index.html" class="nav-back"><i class="fas fa-arrow-left" style="margin-right:6px;"></i>Back to Portfolio</a>
+    <a href="index.html" class="nav-name">Amit Kumar</a>
+  </nav>
+
+  <div class="project-hero">
+    <span class="project-badge">Agentic AI</span>
+    <h1 class="project-title">Eddie</h1>
+    <p class="project-tagline">Production multi-agent orchestration framework for autonomous enterprise task solving. Hierarchical reasoning, persistent state, and robust guardrails at scale.</p>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat-cell"><span class="val">2,654</span><span class="lbl">Commits</span></div>
+    <div class="stat-cell"><span class="val">584</span><span class="lbl">Branches</span></div>
+    <div class="stat-cell"><span class="val">38</span><span class="lbl">Tracked Issues</span></div>
+    <div class="stat-cell"><span class="val">932 MiB</span><span class="lbl">Project Size</span></div>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Overview</div>
+    <p>Eddie is the autonomous agent orchestration layer of the E42 AI platform. It enables enterprise customers to deploy AI agents that can reason, plan, use tools, and collaborate in multi-step workflows — all without human-in-the-loop supervision for routine tasks.</p>
+    <p>Built on a <strong>LangGraph</strong>-based hierarchical state machine, Eddie coordinates specialized agents (planner, executor, critic, memory) through directed acyclic task graphs. Each agent has its own tool registry, context window, and retry policy, enabling robust handling of long-horizon enterprise tasks like document processing, data reconciliation, and customer interaction workflows.</p>
+    <p>Eddie integrates deep with the Marvin inference layer for LLM calls and with Vortex for secure, multi-tenant deployment. Its <strong>guardrails</strong> module (a dedicated subdirectory) provides PII detection, content filtering, and compliance-aware output validation — critical for enterprise deployments.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Capabilities</div>
+    <div class="cap-grid">
+      <div class="cap-item"><h4>Hierarchical Agent Graphs</h4><p>LangGraph-powered DAG execution with supervisor agents orchestrating specialized subagents per domain or task type.</p></div>
+      <div class="cap-item"><h4>PII & Guardrails</h4><p>Dedicated guardrails module with regex + ML-based PII detection, prompt injection defense, and output toxicity filters.</p></div>
+      <div class="cap-item"><h4>Persistent Memory</h4><p>Stateful agent sessions backed by PostgreSQL + Redis. Agents can recall prior context across multi-session interactions.</p></div>
+      <div class="cap-item"><h4>MCP Gateway Integration</h4><p>Native MetaMCP (mcps/) support — agents use standardized tool protocols for browser, filesystem, API, and DB interactions.</p></div>
+      <div class="cap-item"><h4>Workflow Automation</h4><p>Pre-built PII workflow pipelines in workflows/pii/ with pytest test coverage. Configmap-driven deployment for rapid iteration.</p></div>
+      <div class="cap-item"><h4>Multi-tenant Deployment</h4><p>Namespace-isolated via Vortex/GKE. Each customer tenant runs isolated agent instances with per-tenant rate limits and audit logs.</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Tech Stack</div>
+    <div class="chips">
+      <span class="chip">Python</span>
+      <span class="chip">LangGraph</span>
+      <span class="chip">LangChain</span>
+      <span class="chip">FastAPI</span>
+      <span class="chip">Docker</span>
+      <span class="chip">Kubernetes</span>
+      <span class="chip">Redis</span>
+      <span class="chip">PostgreSQL</span>
+      <span class="chip">MetaMCP</span>
+      <span class="chip">Qdrant</span>
+      <span class="chip">GKE</span>
+      <span class="chip">Keycloak</span>
+      <span class="chip">pytest</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-label">Repository Structure</div>
+    <p>Key directories: <code>agents/</code> (all agent definitions and tool registries), <code>guardrails/</code> (PII, safety, compliance filters), <code>mcps/</code> (MetaMCP protocol adapters), <code>workflows/pii/</code> (end-to-end workflow definitions), <code>deployment/</code> (K8s manifests and configmaps), <code>supervisor_logs/</code> (structured runtime logging).</p>
+  </div>
+
+  <footer>
+    <a href="marvin.html">&larr; Marvin</a>
+    <span class="footer-note">E42 AI Platform &mdash; 2023 &ndash; Present</span>
+    <a href="vortex.html">Vortex &rarr;</a>
+  </footer>
+</div>
+</body>
+</html>
