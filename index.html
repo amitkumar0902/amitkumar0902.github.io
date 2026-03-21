@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amit Kumar | Lead AI Engineer</title>
+    <title>Amit Kumar | Lead GenAI Engineer</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -66,111 +66,141 @@
 
         .misc-list { list-style: none; margin-bottom: 80px; }
         .misc-list li { margin-bottom: 15px; padding-left: 30px; position: relative; }
-        .misc-list li::before { content: '\f058'; font-family: 'Font Awesome 5 Free'; font-weight: 900; position: absolute; left: 0; color: var(--primary); }
+        .misc-list li::before { content: '\\f058'; font-family: 'Font Awesome 5 Free'; font-weight: 900; position: absolute; left: 0; color: var(--primary); }
 
         footer { padding: 60px 0; text-align: center; border-top: 1px solid var(--border); color: #888; }
 
-        @media (max-width: 768px) { .about-grid { grid-template-columns: 1fr; } h1 { font-size: 36px; } }
+        @media (max-width: 768px) {
+            .about-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 36px; }
+        }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <header>
-        <img src="images/amit.png" alt="Amit Kumar" class="profile-img">
-        <h1>Amit Kumar</h1>
-        <p class="tagline">Lead AI Engineer @ e42.ai</p>
-        <div class="social-links">
-            <a href="pubs/Amit_kumar.pdf" target="_blank" title="CV"><i class="fas fa-file-pdf"></i></a>
-            <a href="https://www.linkedin.com/in/amitkumar0902" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/amitkumar0902" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="blogs.html" title="Blogs"><i class="fas fa-blog"></i></a>
-            <a href="mailto:ak6.amitkumar@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-        </div>
-    </header>
-
-    <div class="about-grid">
-        <div class="bio-card">
-            <h2>About Me</h2>
-            <p>I architect and deploy cutting-edge AI solutions, specializing in large-scale NLP pipelines and multi-agent systems. As a Lead AI Engineer at e42.ai, I've built multiple production APIs serving thousands of daily requests, developed sophisticated RAG systems, and fine-tuned VLMs for specialized extraction tasks.</p>
-            <div class="expertise-list">
-                <span class="expertise-tag">RAG Systems</span>
-                <span class="expertise-tag">Multi-Agent Orchestration</span>
-                <span class="expertise-tag">VLM Fine-tuning</span>
-                <span class="expertise-tag">Quantized Serving</span>
-                <span class="expertise-tag">Infrastructure & DevOps</span>
-                <span class="expertise-tag">FastAPI/Docker</span>
+    <div class="container">
+        <header>
+            <img src="pubs/dp1.jpg" alt="Amit Kumar" class="profile-img">
+            <h1>Amit Kumar</h1>
+            <p class="tagline">Lead GenAI Engineer @ e42.ai</p>
+            <div class="social-links">
+                <a href="pubs/Amit_kumar.pdf" title="CV"><i class="fas fa-file-pdf"></i></a>
+                <a href="https://www.linkedin.com/in/amitkumar0902" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/amitkumar0902" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="blogs.html" title="Blogs"><i class="fas fa-blog"></i></a>
+                <a href="mailto:ak6.amitkumar@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
             </div>
-        </div>
-        <div class="bio-card">
-            <h2>Education</h2>
-            <p><strong>M.Tech in ML & Computing</strong><br>IIST (Indian Institute of Space Science and Technology)</p>
-            <p style="margin-top:15px;"><strong>B.Tech in IT</strong><br>Jabalpur Engineering College</p>
-        </div>
-    </div>
+        </header>
 
-    <h2 class="section-title">Key Projects & Platforms</h2>
-    <div class="projects-grid">
-        <div class="project-card">
-            <h3><i class="fas fa-brain"></i> Consumer Insights Agent</h3>
-            <p>Architected an intelligent Q&A agent for complex behavior analysis, processing proprietary datasets with custom RAG pipelines and multi-step reasoning.</p>
-        </div>
-        <div class="project-card">
-            <h3><i class="fas fa-layer-group"></i> HELIX Platform</h3>
-            <p>Built core components of flagship conversational AI including agent orchestration, knowledge management, and GCP production pipelines.</p>
-        </div>
-        <div class="project-card">
-            <h3><i class="fas fa-network-wired"></i> Vortex API Gateway</h3>
-            <p>High-performance LLM routing gateway with authentication, rate limiting, and intelligent model selection across multiple providers.</p>
-        </div>
-        <div class="project-card">
-            <h3><i class="fas fa-microchip"></i> Financial Services Solutions</h3>
-            <p>Developed AI-powered document processing workflows using custom NLP models for entity extraction and classification.</p>
-        </div>
-        <div class="project-card">
-            <h3><i class="fas fa-shield-alt"></i> Regulatory Intelligence</h3>
-            <p>Built ML pipelines for pharmaceutical document analysis, enabling automated compliance monitoring and knowledge extraction.</p>
-        </div>
-        <div class="project-card">
-            <h3><i class="fas fa-users-cog"></i> Multi-Agent Systems</h3>
-            <p>Designed production orchestration frameworks using LangGraph for complex task decomposition and collaborative AI workflows.</p>
-        </div>
-    </div>
-
-    <h2 class="section-title">Experience</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="timeline-date">2023 - Present</div>
+        <div class="about-grid">
+            <div class="bio-card">
+                <h2>About Me</h2>
+                <p>I architect and scale production GenAI systems, specializing in agentic AI workflows, LLM infrastructure, and distributed multi-agent orchestration. As Lead GenAI Engineer at e42.ai, I own end-to-end platforms including <strong>Marvin</strong> (LLM serving infrastructure with llms_ground and standalone models), <strong>Eddie</strong> (multi-agent systems), and <strong>Vortex</strong> (E42's AI platform deployment toolkit on GKE). I build high-throughput RAG pipelines, fine-tune VLMs, architect scalable agent systems, and design robust inference infrastructure serving thousands of daily requests.</p>
+            </div>
             <div>
-                <h3>Lead AI Engineer @ e42.ai</h3>
-                <p>Leading the architecture and deployment of production-ready AI pipelines. Mentoring junior engineers while maintaining hands-on technical contributions to core infrastructure.</p>
+                <div class="expertise-list">
+                    <span class="expertise-tag">Agentic AI</span>
+                    <span class="expertise-tag">Multi-Agent Systems</span>
+                    <span class="expertise-tag">LLM Infrastructure</span>
+                    <span class="expertise-tag">RAG Architectures</span>
+                    <span class="expertise-tag">VLM Fine-tuning</span>
+                    <span class="expertise-tag">System Design</span>
+                    <span class="expertise-tag">Quantized Serving</span>
+                    <span class="expertise-tag">K8s & GCP</span>
+                    <span class="expertise-tag">FastAPI/Docker</span>
+                </div>
             </div>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-date">Previous</div>
-            <div>
-                <h3>NLP Engineer @ Circlebase</h3>
-                <p>Developed entity recognition pipelines for social determinants of health and drug relations. Streamlined Django-based production environments.</p>
+
+        <section>
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div>
+                        <h3><strong>M.Tech in ML & Computing</strong></h3>
+                        <p>IIST (Indian Institute of Space Science and Technology)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015 - 2019</div>
+                    <div>
+                        <h3><strong>B.Tech in IT</strong></h3>
+                        <p>Jabalpur Engineering College</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Key Platforms & Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3><i class="fas fa-robot"></i> Marvin</h3>
+                    <p>Complete ownership of e42's LLM serving infrastructure. Built <strong>llms_ground</strong> for model deployment orchestration, integrated <strong>llamacpp</strong> for high-performance quantized serving, and architected standalone model infrastructure. Handles production-grade model serving, quantization, and distributed inference at scale.</p>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-project-diagram"></i> Eddie</h3>
+                    <p>Architected e42's flagship multi-agent orchestration platform. Designed agentic workflows with LangGraph, built collaborative agent systems for complex task decomposition, and deployed production orchestration frameworks with state management and tool integration.</p>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-server"></i> Vortex</h3>
+                    <p>Built E42's AI platform deployment toolkit deployed on GKE. High-performance LLM routing gateway with Keycloak authentication, rate limiting, intelligent model selection across providers, and multi-tenant infrastructure. Enables scalable AI deployment with unified API interface.</p>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-comments"></i> HELIX Platform</h3>
+                    <p>Developed core components of flagship conversational AI including agent orchestration, knowledge management, production RAG pipelines on GCP, and system integration. Powers enterprise conversational intelligence with advanced NLP capabilities.</p>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-brain"></i> Consumer Insights Agent</h3>
+                    <p>Architected an intelligent Q&A agent for complex behavior analysis. Built custom RAG pipelines processing proprietary datasets, designed multi-step reasoning chains, and deployed production-grade knowledge retrieval systems with semantic search.</p>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-file-invoice-dollar"></i> Financial Services Solutions</h3>
+                    <p>Developed AI-powered document processing workflows with fine-tuned NLP models for entity extraction, classification, and structured data generation. Automated financial document analysis with custom VLM pipelines.</p>
+                </div>
+                <div class="project-card">
+                    <h3><i class="fas fa-shield-alt"></i> Regulatory Intelligence</h3>
+                    <p>Built ML pipelines for pharmaceutical document analysis. Designed automated compliance monitoring systems, knowledge extraction workflows, and regulatory change detection using advanced NLP and retrieval techniques.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Present</div>
+                    <div>
+                        <h3><strong>Lead GenAI Engineer @ e42.ai</strong></h3>
+                        <p>Leading architecture and deployment of production GenAI systems. Full ownership of Marvin (LLM infrastructure), Eddie (multi-agent systems), and Vortex (deployment toolkit). Architecting scalable agentic AI workflows, managing distributed inference infrastructure, and mentoring engineering teams on advanced AI system design.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div>
+                        <h3><strong>NLP Engineer @ Circlebase</strong></h3>
+                        <p>Developed entity recognition pipelines for social determinants of health and drug relations. Built production NLP services, streamlined Django-based deployment environments, and designed custom extraction models.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Achievements & Recognition</h2>
+            <ul class="misc-list">
+                <li>Qualified for <strong>ACM ICPC 2018</strong> Kolkata-Kanpur site contest at UIET, Kanpur</li>
+                <li><strong>Codechef Rating: 1883</strong> (amit_9) — Active in competitive programming and algorithmic challenges</li>
+                <li>Organized "So you think you can code" competition on Hackerearth</li>
+                <li><strong>Gold Medal</strong> in Chess, Avahan 2018 (Intra college competition)</li>
+                <li>Active contributor to internal AI research, platform engineering, and system design initiatives</li>
+                <li>Built and deployed multiple production-grade GenAI systems serving thousands of daily inference requests</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2026 Amit Kumar. Built for the agentic AI era.</p>
+            <a href="https://info.flagcounter.com/yMl7"><img src="https://s11.flagcounter.com/count2/yMl7/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter"></a>
+        </footer>
     </div>
-
-    <h2 class="section-title">Achievements & Misc</h2>
-    <ul class="misc-list">
-        <li>Qualified for the <strong>ACM ICPC 2018</strong> Kolkata-Kanpur site contest at UIET, Kanpur.</li>
-        <li><strong>Codechef Rating: 1883</strong> (amit_9). Active in competitive programming and algorithmic challenges.</li>
-        <li>Organized "So you think you can code" competition on Hackerearth.</li>
-        <li><strong>Gold Medal</strong> in Chess, Avahan 2018 (Intra college competition).</li>
-        <li>Active contributor to internal AI research and platform engineering initiatives.</li>
-    </ul>
-
-    <footer>
-        <p>&copy; 2026 Amit Kumar. Built for the AI-first world.</p>
-        <div style="margin-top:20px;">
-            <a href="https://info.flagcounter.com/yMl7"><img src="https://s11.flagcounter.com/count2/yMl7/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-        </div>
-    </footer>
-</div>
-
 </body>
 </html>
