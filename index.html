@@ -9,17 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --bg-primary: #fafafa;
-            --bg-alt: #f5f5f4;
-            --bg-card: #ffffff;
+            --bg-primary: #ffffff;
             --accent: #2563eb;
-            --accent-hover: #1d4ed8;
-            --accent-subtle: rgba(37, 99, 235, 0.07);
             --text-primary: #1c1917;
             --text-secondary: #57534e;
             --text-muted: #a8a29e;
             --border: #e7e5e4;
-            --border-hover: #d6d3d1;
             --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
         }
@@ -54,7 +49,7 @@
             top: 0;
             width: 100%;
             z-index: 1000;
-            background: rgba(250, 250, 250, 0.85);
+            background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
             border-bottom: 1px solid transparent;
@@ -121,29 +116,19 @@
         }
 
         .hero-photo img {
-            width: 240px;
-            height: 240px;
-            border-radius: 16px;
+            width: 220px;
+            height: 220px;
+            border-radius: 12px;
             object-fit: cover;
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-            transition: box-shadow 0.3s ease;
-        }
-
-        .hero-photo img:hover {
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
         }
 
         .hero-eyebrow {
             display: inline-block;
-            padding: 0.3rem 0.85rem;
-            background: var(--accent-subtle);
-            border-radius: 100px;
-            font-size: 0.75rem;
-            font-weight: 500;
-            color: var(--accent);
-            margin-bottom: 1.5rem;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            letter-spacing: 0.02em;
         }
 
         .hero h1 {
@@ -166,41 +151,24 @@
 
         .hero-links {
             display: flex;
-            gap: 0.75rem;
+            gap: 1.25rem;
             flex-wrap: wrap;
+            align-items: center;
         }
 
         .hero-links a {
             display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
-            padding: 0.6rem 1.25rem;
-            border-radius: 8px;
+            gap: 0.4rem;
             text-decoration: none;
             font-size: 0.875rem;
-            font-weight: 500;
-            transition: all 0.2s ease;
-        }
-
-        .btn-primary {
-            background: var(--accent);
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: var(--accent-hover);
-        }
-
-        .btn-ghost {
+            font-weight: 400;
             color: var(--text-secondary);
-            border: 1px solid var(--border);
-            background: transparent;
+            transition: color 0.2s ease;
         }
 
-        .btn-ghost:hover {
+        .hero-links a:hover {
             color: var(--text-primary);
-            border-color: var(--border-hover);
-            background: var(--bg-alt);
         }
 
         /* ── Section Layout ── */
@@ -219,7 +187,7 @@
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 0.08em;
-            color: var(--accent);
+            color: var(--text-muted);
             margin-bottom: 0.5rem;
         }
 
@@ -234,21 +202,17 @@
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 1.25rem;
+            gap: 0 3rem;
         }
 
         .project-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.75rem;
-            transition: box-shadow 0.3s ease, border-color 0.3s ease;
+            padding: 1.5rem 0;
             position: relative;
+            border-bottom: 1px solid var(--border);
         }
 
-        .project-card:hover {
-            border-color: var(--border-hover);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        .project-card:last-child {
+            border-bottom: none;
         }
 
         .project-badge {
@@ -257,11 +221,8 @@
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 0.06em;
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
-            background: var(--accent-subtle);
-            color: var(--accent);
-            margin-bottom: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
         }
 
         .project-card h3 {
@@ -281,38 +242,25 @@
         .project-tech {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.4rem;
+            gap: 0.15rem 0.5rem;
         }
 
         .project-tech span {
-            font-size: 0.72rem;
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-            background: var(--bg-alt);
+            font-size: 0.75rem;
             color: var(--text-muted);
-            font-family: var(--font-mono);
         }
 
         .project-arrow {
             position: absolute;
-            bottom: 1.75rem;
-            right: 1.75rem;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            border: 1px solid var(--border);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            top: 1.5rem;
+            right: 0;
             color: var(--text-muted);
-            transition: all 0.2s;
             font-size: 0.8rem;
+            transition: color 0.2s;
         }
 
         .project-card:hover .project-arrow {
-            background: var(--accent);
-            border-color: var(--accent);
-            color: white;
+            color: var(--text-secondary);
         }
 
         /* ── Presentations ── */
@@ -337,12 +285,8 @@
             border-bottom: none;
         }
 
-        .talk-item:hover {
-            background: var(--bg-alt);
-            margin: 0 -1rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            border-radius: 8px;
+        .talk-item:hover .talk-info h4 {
+            color: var(--accent);
         }
 
         .talk-year {
@@ -366,9 +310,6 @@
 
         .talk-type {
             font-size: 0.7rem;
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
-            background: var(--bg-alt);
             color: var(--text-muted);
             white-space: nowrap;
         }
@@ -406,7 +347,7 @@
             width: 11px;
             height: 11px;
             border-radius: 50%;
-            border: 2px solid var(--border-hover);
+            border: 2px solid var(--border);
             background: var(--bg-primary);
         }
 
@@ -449,37 +390,30 @@
         }
 
         .timeline-tags span {
-            font-size: 0.72rem;
-            padding: 0.15rem 0.5rem;
-            border-radius: 4px;
-            background: var(--accent-subtle);
-            color: var(--accent);
+            font-size: 0.75rem;
+            color: var(--text-muted);
         }
 
         /* ── Achievements ── */
         .achievements-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 1.25rem;
+            gap: 0 3rem;
         }
 
         .achievement-card {
-            padding: 1.5rem;
-            border-radius: 12px;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            transition: box-shadow 0.3s ease, border-color 0.3s ease;
+            padding: 1.25rem 0;
+            border-bottom: 1px solid var(--border);
         }
 
-        .achievement-card:hover {
-            border-color: var(--border-hover);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        .achievement-card:last-child {
+            border-bottom: none;
         }
 
         .achievement-year {
             font-family: var(--font-mono);
             font-size: 0.72rem;
-            color: var(--accent);
+            color: var(--text-muted);
             margin-bottom: 0.4rem;
         }
 
@@ -504,13 +438,12 @@
         }
 
         .philosophy blockquote {
-            font-size: 1.35rem;
-            font-weight: 300;
-            line-height: 1.65;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.7;
             color: var(--text-secondary);
-            max-width: 700px;
+            max-width: 640px;
             margin: 0 auto;
-            font-style: italic;
         }
 
         .philosophy blockquote strong {
@@ -578,8 +511,8 @@
             }
 
             .hero-photo img {
-                width: 160px;
-                height: 160px;
+                width: 140px;
+                height: 140px;
             }
 
             .talk-item {
@@ -634,10 +567,10 @@
                 <h1>Building the infrastructure for autonomous intelligence.</h1>
                 <p class="hero-subtitle">I design and ship production-scale AI systems — from high-throughput inference engines to multi-agent orchestration frameworks. Focused on the intersection of systems engineering and frontier AI research.</p>
                 <div class="hero-links">
-                    <a href="#systems" class="btn-primary"><i class="fas fa-cube"></i> View Systems</a>
-                    <a href="https://github.com/amitkumar0902" target="_blank" class="btn-ghost"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://www.linkedin.com/in/amit-kumar0902/" target="_blank" class="btn-ghost"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    <a href="mailto:ak6.amitkumar@gmail.com" class="btn-ghost"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://github.com/amitkumar0902" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/amit-kumar0902/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="mailto:ak6.amitkumar@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="pubs/resume.pdf" target="_blank"><i class="fas fa-file-alt"></i> CV</a>
                 </div>
             </div>
             <div class="hero-photo fade-up">
@@ -658,7 +591,7 @@
                 <h3>Marvin</h3>
                 <p>High-performance inference backbone serving heterogeneous LLM deployments. Optimized for maximum throughput with dynamic quantization, speculative decoding, and intelligent KV cache management across diverse model architectures.</p>
                 <div class="project-tech">
-                    <span>C++</span> <span>CUDA</span> <span>Speculative Decoding</span> <span>INT4/INT8</span>
+                    <span>#C++</span> <span>#CUDA</span> <span>#speculative-decoding</span> <span>#INT4/INT8</span>
                 </div>
             </div>
 
@@ -667,7 +600,7 @@
                 <h3>Eddie</h3>
                 <p>Multi-agent orchestration framework for autonomous task solving. Features hierarchical reasoning with stateful agent collaboration, robust guardrails, and persistent state management for complex, long-horizon enterprise workflows.</p>
                 <div class="project-tech">
-                    <span>LangGraph</span> <span>Multi-Agent</span> <span>Guardrails</span> <span>State Machines</span>
+                    <span>#LangGraph</span> <span>#multi-agent</span> <span>#guardrails</span> <span>#state-machines</span>
                 </div>
             </div>
 
@@ -676,7 +609,7 @@
                 <h3>Vortex</h3>
                 <p>Kubernetes-native AI platform toolkit for multi-tenant inference clusters. Provides unified request routing, zero-trust service mesh, and automated GPU workload scaling with CLI-driven lifecycle management.</p>
                 <div class="project-tech">
-                    <span>Kubernetes</span> <span>GKE</span> <span>Service Mesh</span> <span>LiteLLM</span>
+                    <span>#Kubernetes</span> <span>#GKE</span> <span>#service-mesh</span> <span>#LiteLLM</span>
                 </div>
             </div>
 
@@ -685,7 +618,7 @@
                 <h3>Frontier AI Papers</h3>
                 <p>Regular deep-dives into frontier research — from infinite-context architectures and memory-efficient training to RLHF alignment. Each paper reading includes detailed presentations with implementation insights.</p>
                 <div class="project-tech">
-                    <span>StreamingLLM</span> <span>Infini-Attention</span> <span>GaLore</span> <span>WARP</span>
+                    <span>#StreamingLLM</span> <span>#Infini-Attention</span> <span>#GaLore</span> <span>#WARP</span>
                 </div>
                 <div class="project-arrow"><i class="fas fa-arrow-right"></i></div>
             </div>
@@ -695,7 +628,7 @@
                 <h3>Clinical Trial Chatbot</h3>
                 <p>Intelligent Q&A system for clinical trial documents featuring named entity recognition for adverse drug events, Haystack-based retrieval, and an LLM-powered dashboard for interactive exploration of medical literature.</p>
                 <div class="project-tech">
-                    <span>NER</span> <span>Haystack</span> <span>LLM</span> <span>Clinical NLP</span>
+                    <span>#NER</span> <span>#Haystack</span> <span>#LLM</span> <span>#clinical-NLP</span>
                 </div>
             </div>
 
@@ -704,7 +637,7 @@
                 <h3>Drug Consumption Forecasting</h3>
                 <p>Predictive analytics pipeline for pharmaceutical demand planning using ensemble time-series methods. Achieved MAPE under 20% by combining ARIMA, Holt-Winters exponential smoothing, and XGBoost regressors.</p>
                 <div class="project-tech">
-                    <span>ARIMA</span> <span>Holt-Winters</span> <span>XGBoost</span> <span>Forecasting</span>
+                    <span>#ARIMA</span> <span>#Holt-Winters</span> <span>#XGBoost</span> <span>#forecasting</span>
                 </div>
             </div>
 
@@ -713,7 +646,7 @@
                 <h3>Abnormal Event Detection in Video</h3>
                 <p>Real-time anomaly detection system for surveillance video streams, achieving 95% precision on the UCSD Anomaly Detection Dataset. Combines spatial-temporal feature extraction with unsupervised learning.</p>
                 <div class="project-tech">
-                    <span>CNN</span> <span>Anomaly Detection</span> <span>Video Analysis</span> <span>95% Precision</span>
+                    <span>#CNN</span> <span>#anomaly-detection</span> <span>#video-analysis</span> <span>#95%-precision</span>
                 </div>
             </div>
         </div>
@@ -820,7 +753,7 @@
                 <div class="timeline-org">e42.ai</div>
                 <div class="timeline-desc">Architecting enterprise-grade AI systems and defining technical strategy for next-generation autonomous intelligence platforms. Driving cross-functional alignment on AI infrastructure, multi-agent frameworks, and scalable LLM deployment.</div>
                 <div class="timeline-tags">
-                    <span>AI Architecture</span> <span>System Design</span> <span>Technical Strategy</span> <span>LLM Infrastructure</span>
+                    <span>#AI-architecture</span> <span>#system-design</span> <span>#technical-strategy</span> <span>#LLM-infrastructure</span>
                 </div>
             </div>
             <div class="timeline-item">
@@ -829,7 +762,7 @@
                 <div class="timeline-org">e42.ai</div>
                 <div class="timeline-desc">Leading architecture and deployment of production-scale generative AI platforms. Directing multi-agent systems research, distributed inference infrastructure, and LLM serving pipelines. Mentoring engineers across the full GenAI stack.</div>
                 <div class="timeline-tags">
-                    <span>Distributed Systems</span> <span>Autonomous Agents</span> <span>LLM Serving</span> <span>System Design</span>
+                    <span>#distributed-systems</span> <span>#autonomous-agents</span> <span>#LLM-serving</span> <span>#system-design</span>
                 </div>
             </div>
             <div class="timeline-item">
@@ -838,7 +771,7 @@
                 <div class="timeline-org">e42.ai</div>
                 <div class="timeline-desc">Developed and deployed NLP models for enterprise AI products. Built conversational AI pipelines, intent recognition systems, and information extraction modules at production scale.</div>
                 <div class="timeline-tags">
-                    <span>NLP</span> <span>Conversational AI</span> <span>Information Extraction</span> <span>Production ML</span>
+                    <span>#NLP</span> <span>#conversational-AI</span> <span>#information-extraction</span> <span>#production-ML</span>
                 </div>
             </div>
             <div class="timeline-item">
@@ -847,7 +780,7 @@
                 <div class="timeline-org">Circlebase (Clinical NLP)</div>
                 <div class="timeline-desc">Joined as intern, promoted to full-time. Built entity recognition pipelines for social determinants of health and drug relations. Designed production NLP services and deployment infrastructure.</div>
                 <div class="timeline-tags">
-                    <span>NLP</span> <span>Entity Recognition</span> <span>Production ML</span>
+                    <span>#NLP</span> <span>#entity-recognition</span> <span>#production-ML</span>
                 </div>
             </div>
             <div class="timeline-item">
@@ -856,7 +789,7 @@
                 <div class="timeline-org">Omdena — Internet & Jurisdiction Policy Network</div>
                 <div class="timeline-desc">Built knowledge graph pipelines and NLP-driven triplet extractors for policy document analysis. Contributed to the Datasphere framework by developing text classification and information extraction tools for internet governance datasets.</div>
                 <div class="timeline-tags">
-                    <span>Knowledge Graphs</span> <span>NLP</span> <span>Information Extraction</span> <span>Triplet Extractors</span>
+                    <span>#knowledge-graphs</span> <span>#NLP</span> <span>#information-extraction</span> <span>#triplet-extractors</span>
                 </div>
             </div>
             <div class="timeline-item">
