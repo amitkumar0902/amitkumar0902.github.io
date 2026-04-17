@@ -1,0 +1,827 @@
+[
+  {
+    "id": 1,
+    "question": "Hysterosalpingogram (HSG) primarily uses which type of radiation imaging?",
+    "options": [
+      "A. MRI",
+      "B. X-ray with contrast",
+      "C. Ultrasound only",
+      "D. CT PET"
+    ],
+    "correct": 1,
+    "explanation": "• HSG is an X-ray fluoroscopic study with contrast to assess tubal patency.\n• Memory-based NORCET theme.",
+    "topic": "OBG / Radiology",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2,
+    "question": "Whole blood stored in blood bank is typically kept at approximately:",
+    "options": [
+      "A. 0°C",
+      "B. 2–6°C",
+      "C. 15°C",
+      "D. 25°C"
+    ],
+    "correct": 1,
+    "explanation": "• RBC storage: 2–6°C is standard cold chain.\n• Frequently asked in competitive nursing exams.",
+    "topic": "Med-Surg",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "question": "Thanatology is the study of:",
+    "options": [
+      "A. Birth",
+      "B. Death and dying",
+      "C. Sleep",
+      "D. Aging only"
+    ],
+    "correct": 1,
+    "explanation": "• Thanatology relates to death, dying, and bereavement.\n• NORCET memory-based recall question.",
+    "topic": "Psychiatric / Fundamentals",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "Honey should be introduced in infant weaning typically:",
+    "options": [
+      "A. Before 6 months",
+      "B. After 12 months",
+      "C. Only day 1 of life",
+      "D. Never"
+    ],
+    "correct": 1,
+    "explanation": "• Honey is avoided <12 months due to infant botulism risk.\n• Aligns with common PYQ discussions.",
+    "topic": "Pediatric",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 5,
+    "question": "A marker associated with neural tube defects in amniotic fluid includes:",
+    "options": [
+      "A. Bilirubin",
+      "B. Acetylcholinesterase / AFP context",
+      "C. Glucose only",
+      "D. Urea"
+    ],
+    "correct": 1,
+    "explanation": "• Elevated AFP and AChE patterns support NTD screening context.\n• Simplified for MCQ practice.",
+    "topic": "OBG / Genetics",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 6,
+    "question": "Sarcopenia refers to:",
+    "options": [
+      "A. Bone loss",
+      "B. Age-related loss of muscle mass and strength",
+      "C. Fat gain only",
+      "D. Joint inflammation"
+    ],
+    "correct": 1,
+    "explanation": "• Sarcopenia = muscle loss with aging.\n• NORCET general science theme.",
+    "topic": "Med-Surg",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "Synthetic form of vitamin K often referenced in exams:",
+    "options": [
+      "A. Phylloquinone",
+      "B. Menadione (synthetic K3)",
+      "C. Cholecalciferol",
+      "D. Tocopherol"
+    ],
+    "correct": 1,
+    "explanation": "• Menadione is synthetic vitamin K3; phylloquinone is K1 natural.\n• Verify with standard texts.",
+    "topic": "Nutrition",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8,
+    "question": "Direct Coombs test detects:",
+    "options": [
+      "A. Antibody in serum",
+      "B. Antibody attached to RBC surface",
+      "C. Platelet antibodies only",
+      "D. HIV antibodies"
+    ],
+    "correct": 1,
+    "explanation": "• Direct antiglobulin test detects antibodies on RBCs.\n• High-yield hematology.",
+    "topic": "Med-Surg",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9,
+    "question": "Ventilator-associated pneumonia (VAP) typically occurs after intubation for at least:",
+    "options": [
+      "A. 6 hours",
+      "B. 48–72 hours",
+      "C. 1 hour",
+      "D. 30 days always"
+    ],
+    "correct": 1,
+    "explanation": "• VAP definitions often use ventilation >48–72 hours.\n• Guidelines vary slightly; this is exam-oriented.",
+    "topic": "ICU",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10,
+    "question": "Log roll technique for spinal precautions typically needs at least:",
+    "options": [
+      "A. 1 person",
+      "B. 2 people",
+      "C. 3–4 people coordinated",
+      "D. No assistance"
+    ],
+    "correct": 2,
+    "explanation": "• Log roll for spinal injury: usually 3–4 staff to maintain alignment.\n• Some sources cite minimum 3; option reflects coordinated team roll.",
+    "topic": "Emergency",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "question": "T lymphocytes mature primarily in:",
+    "options": [
+      "A. Bone marrow",
+      "B. Thymus",
+      "C. Spleen",
+      "D. Liver"
+    ],
+    "correct": 1,
+    "explanation": "• T cells mature in thymus; B cells in bone marrow.\n• Very high yield.",
+    "topic": "Immunology",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "BLS sequence for unresponsive adult without pulse:",
+    "options": [
+      "A. A-B-C",
+      "B. C-A-B (compressions first)",
+      "C. D-A-B",
+      "D. R-A-B"
+    ],
+    "correct": 1,
+    "explanation": "• AHA BLS: start chest compressions first (C-A-B) for adults.",
+    "topic": "Emergency",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 13,
+    "question": "Parkland formula for fluid resuscitation in burns uses:",
+    "options": [
+      "A. 2 mL × kg × %TBSA",
+      "B. 3 mL × kg × %TBSA",
+      "C. 4 mL × kg × %TBSA lactated Ringer’s in 24h",
+      "D. 5 mL × kg × %TBSA"
+    ],
+    "correct": 2,
+    "explanation": "• Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h).\n• Classic NORCET style.",
+    "topic": "Emergency",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 14,
+    "question": "PM-JAY provides health coverage up to (approx) per family per year:",
+    "options": [
+      "A. ₹1 lakh",
+      "B. ₹3 lakh",
+      "C. ₹5 lakh",
+      "D. ₹10 lakh"
+    ],
+    "correct": 2,
+    "explanation": "• Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year.\n• Verify official updates.",
+    "topic": "GK / Health Programs",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 15,
+    "question": "MTP Act (as commonly tested) allows termination up to:",
+    "options": [
+      "A. 12 weeks only",
+      "B. 20 weeks",
+      "C. 24 weeks in many specified situations",
+      "D. 36 weeks"
+    ],
+    "correct": 2,
+    "explanation": "• Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context.\n• Cross-check latest statute for your exam cycle.",
+    "topic": "OBG / Legal",
+    "year": "NORCET 2021",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 16,
+    "question": "Spinal anesthesia monitoring should especially watch for:",
+    "options": [
+      "A. Hypertension only",
+      "B. Hypotension and bradycardia",
+      "C. Hyperglycemia",
+      "D. Seizures only"
+    ],
+    "correct": 1,
+    "explanation": "• Sympathetic block → hypotension/bradycardia common.\n• NORCET clinical theme.",
+    "topic": "Perioperative",
+    "year": "NORCET 2023 (memory-based)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 17,
+    "question": "Hand rub with alcohol-based sanitizer effective duration commonly taught:",
+    "options": [
+      "A. 5 seconds",
+      "B. 20–30 seconds until dry",
+      "C. 2 minutes always",
+      "D. 1 hour"
+    ],
+    "correct": 1,
+    "explanation": "• WHO: rub until dry, ~20–30 seconds.\n• Fundamentals high yield.",
+    "topic": "Infection Control",
+    "year": "NORCET 2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "Yellow bio-medical waste bag is used for:",
+    "options": [
+      "A. General waste",
+      "B. Infectious/pathological/certain contaminated wastes per BMW rules",
+      "C. Radioactive waste",
+      "D. Sharps"
+    ],
+    "correct": 1,
+    "explanation": "• BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual).\n• Follow latest national guidelines.",
+    "topic": "Community / Legal",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 19,
+    "question": "Exclusive breastfeeding recommended for:",
+    "options": [
+      "A. 3 months",
+      "B. 6 months",
+      "C. 9 months",
+      "D. 12 months"
+    ],
+    "correct": 1,
+    "explanation": "• WHO: exclusive breastfeeding for 6 months.\n• Standard CHN question.",
+    "topic": "Pediatric",
+    "year": "NORCET 2024",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 20,
+    "question": "Pulse polio immunization is an example of:",
+    "options": [
+      "A. Passive immunity",
+      "B. Active immunization campaign",
+      "C. Chemoprophylaxis",
+      "D. Herd treatment with antibiotics"
+    ],
+    "correct": 1,
+    "explanation": "• Oral polio vaccine campaigns provide active immunity.\n• CHN program classic.",
+    "topic": "Community Health",
+    "year": "NORCET 2023",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 21,
+    "question": "Early sign of hypovolemic shock may include:",
+    "options": [
+      "A. Bounding pulse",
+      "B. Tachycardia",
+      "C. Hypertension",
+      "D. Warm flushed skin"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Med-Surg",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 22,
+    "question": "Sterile field is considered contaminated if:",
+    "options": [
+      "A. Wet gauze placed dry",
+      "B. Sterile gloved hand drops below waist level",
+      "C. Talking quietly",
+      "D. Using forceps"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Fundamentals",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "Antidote for opioid overdose:",
+    "options": [
+      "A. Flumazenil",
+      "B. Naloxone",
+      "C. Atropine",
+      "D. Vitamin K"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Pharmacology",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "A. 80–100 bpm",
+      "B. 110–160 bpm",
+      "C. 170–190 bpm",
+      "D. 60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "OBG",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "A. Hospital specialist doctor",
+      "B. Community health volunteer under NRHM",
+      "C. Lab technician",
+      "D. Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "CHN",
+    "year": "NORCET 2021",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 26,
+    "question": "Therapeutic communication includes:",
+    "options": [
+      "A. Giving false reassurance",
+      "B. Active listening",
+      "C. Changing topic abruptly",
+      "D. Criticizing patient"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Psychiatric",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 27,
+    "question": "Weight doubles by approximately:",
+    "options": [
+      "A. 3 months",
+      "B. 5 months",
+      "C. 12 months",
+      "D. 2 years"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Pediatric",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "Liver is located mainly in:",
+    "options": [
+      "A. Left hypochondrium",
+      "B. Right upper quadrant",
+      "C. Pelvis",
+      "D. Retroperitoneum only"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Anatomy",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 29,
+    "question": "Article 21 of Indian Constitution relates to:",
+    "options": [
+      "A. Education",
+      "B. Protection of life and personal liberty",
+      "C. Freedom of speech",
+      "D. Right to property"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "GK",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "Acid-fast bacillus seen in:",
+    "options": [
+      "A. Staphylococcus",
+      "B. Mycobacterium tuberculosis",
+      "C. E. coli",
+      "D. Candida"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Microbiology",
+    "year": "NORCET 2021",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "Early sign of hypovolemic shock may include:",
+    "options": [
+      "A. Bounding pulse",
+      "B. Tachycardia",
+      "C. Hypertension",
+      "D. Warm flushed skin"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Med-Surg",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "Sterile field is considered contaminated if:",
+    "options": [
+      "A. Wet gauze placed dry",
+      "B. Sterile gloved hand drops below waist level",
+      "C. Talking quietly",
+      "D. Using forceps"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Fundamentals",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "question": "Antidote for opioid overdose:",
+    "options": [
+      "A. Flumazenil",
+      "B. Naloxone",
+      "C. Atropine",
+      "D. Vitamin K"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Pharmacology",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "A. 80–100 bpm",
+      "B. 110–160 bpm",
+      "C. 170–190 bpm",
+      "D. 60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "OBG",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 35,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "A. Hospital specialist doctor",
+      "B. Community health volunteer under NRHM",
+      "C. Lab technician",
+      "D. Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "CHN",
+    "year": "NORCET 2021",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "Therapeutic communication includes:",
+    "options": [
+      "A. Giving false reassurance",
+      "B. Active listening",
+      "C. Changing topic abruptly",
+      "D. Criticizing patient"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Psychiatric",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 37,
+    "question": "Weight doubles by approximately:",
+    "options": [
+      "A. 3 months",
+      "B. 5 months",
+      "C. 12 months",
+      "D. 2 years"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Pediatric",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "Liver is located mainly in:",
+    "options": [
+      "A. Left hypochondrium",
+      "B. Right upper quadrant",
+      "C. Pelvis",
+      "D. Retroperitoneum only"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Anatomy",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 39,
+    "question": "Article 21 of Indian Constitution relates to:",
+    "options": [
+      "A. Education",
+      "B. Protection of life and personal liberty",
+      "C. Freedom of speech",
+      "D. Right to property"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "GK",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "question": "Acid-fast bacillus seen in:",
+    "options": [
+      "A. Staphylococcus",
+      "B. Mycobacterium tuberculosis",
+      "C. E. coli",
+      "D. Candida"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Microbiology",
+    "year": "NORCET 2021",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 41,
+    "question": "Early sign of hypovolemic shock may include:",
+    "options": [
+      "A. Bounding pulse",
+      "B. Tachycardia",
+      "C. Hypertension",
+      "D. Warm flushed skin"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Med-Surg",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "question": "Sterile field is considered contaminated if:",
+    "options": [
+      "A. Wet gauze placed dry",
+      "B. Sterile gloved hand drops below waist level",
+      "C. Talking quietly",
+      "D. Using forceps"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Fundamentals",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 43,
+    "question": "Antidote for opioid overdose:",
+    "options": [
+      "A. Flumazenil",
+      "B. Naloxone",
+      "C. Atropine",
+      "D. Vitamin K"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Pharmacology",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "A. 80–100 bpm",
+      "B. 110–160 bpm",
+      "C. 170–190 bpm",
+      "D. 60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "OBG",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "A. Hospital specialist doctor",
+      "B. Community health volunteer under NRHM",
+      "C. Lab technician",
+      "D. Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "CHN",
+    "year": "NORCET 2021",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 46,
+    "question": "Therapeutic communication includes:",
+    "options": [
+      "A. Giving false reassurance",
+      "B. Active listening",
+      "C. Changing topic abruptly",
+      "D. Criticizing patient"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Psychiatric",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 47,
+    "question": "Weight doubles by approximately:",
+    "options": [
+      "A. 3 months",
+      "B. 5 months",
+      "C. 12 months",
+      "D. 2 years"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Pediatric",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 48,
+    "question": "Liver is located mainly in:",
+    "options": [
+      "A. Left hypochondrium",
+      "B. Right upper quadrant",
+      "C. Pelvis",
+      "D. Retroperitoneum only"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Anatomy",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 49,
+    "question": "Article 21 of Indian Constitution relates to:",
+    "options": [
+      "A. Education",
+      "B. Protection of life and personal liberty",
+      "C. Freedom of speech",
+      "D. Right to property"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "GK",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "question": "Acid-fast bacillus seen in:",
+    "options": [
+      "A. Staphylococcus",
+      "B. Mycobacterium tuberculosis",
+      "C. E. coli",
+      "D. Candida"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Microbiology",
+    "year": "NORCET 2021",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 51,
+    "question": "Early sign of hypovolemic shock may include:",
+    "options": [
+      "A. Bounding pulse",
+      "B. Tachycardia",
+      "C. Hypertension",
+      "D. Warm flushed skin"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Med-Surg",
+    "year": "NORCET 5 (2023)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 52,
+    "question": "Sterile field is considered contaminated if:",
+    "options": [
+      "A. Wet gauze placed dry",
+      "B. Sterile gloved hand drops below waist level",
+      "C. Talking quietly",
+      "D. Using forceps"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Fundamentals",
+    "year": "NORCET 6 Mains (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 53,
+    "question": "Antidote for opioid overdose:",
+    "options": [
+      "A. Flumazenil",
+      "B. Naloxone",
+      "C. Atropine",
+      "D. Vitamin K"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "Pharmacology",
+    "year": "NORCET 7 Prelims (2024)",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 54,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "A. 80–100 bpm",
+      "B. 110–160 bpm",
+      "C. 170–190 bpm",
+      "D. 60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "OBG",
+    "year": "NORCET 2022",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 55,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "A. Hospital specialist doctor",
+      "B. Community health volunteer under NRHM",
+      "C. Lab technician",
+      "D. Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "topic": "CHN",
+    "year": "NORCET 2021",
+    "difficulty": "Medium"
+  }
+]
