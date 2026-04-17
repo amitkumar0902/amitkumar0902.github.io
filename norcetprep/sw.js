@@ -1,5 +1,5 @@
 // NORCET Mains service worker — network-first for HTML, stale-while-revalidate for JSON/CSS/JS
-const CACHE = 'norcet-mains-v8-uxfix';
+const CACHE = 'norcet-mains-v9-sitemap';
 const PRECACHE = [
   './',
   './index.html',
