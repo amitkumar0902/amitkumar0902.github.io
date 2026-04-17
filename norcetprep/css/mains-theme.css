@@ -668,6 +668,19 @@ body.focus-mode { padding-top: 0; }
 .resume-hint a { margin-right: 14px; }
 
 /* Plain-English site map (appears at the bottom of mains-plan/index.html) */
+#sitemap { scroll-margin-top: 96px; }
+.sitemap-jump {
+  margin: 18px 0 8px;
+  padding: 12px 14px;
+  background: var(--bg-alt);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  font-size: var(--fz-sm);
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.sitemap-jump a { font-weight: 600; color: var(--accent); }
+.sitemap-jump a:hover { text-decoration: underline; }
 .sitemap h2 { margin-bottom: 6px; }
 .sitemap-group {
   margin: 20px 0;
