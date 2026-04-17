@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "total": 160,
+    "minutes": 180,
+    "negativeMark": 0.33,
+    "derivedFrom": "High Yield Topics NORCET PDF (11 sections) + NORCET Mains 2024/2025 pattern",
+    "updated": "2026-04-17"
+  },
+  "sectionMix": [
+    { "subject": "Medical-Surgical", "count": 40, "note": "Combines Medicine + Surgery sections" },
+    { "subject": "Community Health", "count": 22 },
+    { "subject": "OBG",              "count": 20, "note": "Midwifery + Gyn" },
+    { "subject": "Pediatric",        "count": 20 },
+    { "subject": "Fundamentals",     "count": 18, "note": "Nursing Foundation + First-aid + Infection control" },
+    { "subject": "Pharmacology",     "count": 14 },
+    { "subject": "Psychiatric",      "count": 10 },
+    { "subject": "Microbiology",     "count": 6 },
+    { "subject": "Anatomy",          "count": 4, "note": "Includes Physiology" },
+    { "subject": "Nutrition",        "count": 4, "note": "Biochem overlap" },
+    { "subject": "Admin",            "count": 2 }
+  ],
+  "qtypeMix": {
+    "scenarioMin": 115,
+    "calcRange":   [8, 14],
+    "imageRange":  [8, 15],
+    "recallMax":   30,
+    "description": "Scenario ≥ 72%, calc 5–9%, image 5–9%, pure recall ≤ 19%. Matches NORCET Mains 2024/2025 pattern."
+  },
+  "spotlight": {
+    "1":  "Medical-Surgical",
+    "2":  "OBG",
+    "3":  "Pediatric",
+    "4":  "Community Health",
+    "5":  "Fundamentals",
+    "6":  "Pharmacology",
+    "7":  "Psychiatric",
+    "8":  "Microbiology",
+    "9":  "Medical-Surgical",
+    "10": "Balanced"
+  },
+  "spotlightBoost": 4,
+  "rules": {
+    "deterministic": true,
+    "seedBase": 1000,
+    "preAllocatePyq": true,
+    "preAllocateMustCover": true,
+    "pyqInAtLeastOneMock": true,
+    "mustCoverInAtLeastOneMock": true,
+    "strictTotal": 160
+  }
+}

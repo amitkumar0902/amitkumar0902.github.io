@@ -32,3 +32,13 @@ The practice.js and mock-test.js runners automatically render `data/mains/images
 ## Example SVG assets
 
 The files `sample-ecg-nsr.svg` and `sample-bmw-bags.svg` in this folder demonstrate the wiring.
+
+## 2026-04-17 — High-Yield pack assets
+
+| File | Used by | Purpose |
+|------|---------|---------|
+| `lochia-types.svg` | `flashcards/hy-lochia.json`, OBG notes | Three-phase lochia chart (Rubra / Serosa / Alba) |
+| `pph-4ts.svg`      | `flashcards/hy-pph.json`, OBG notes    | Postpartum haemorrhage 4-Ts (Tone · Trauma · Tissue · Thrombin) + escalation ladder |
+
+Both are hand-authored SVGs — no licensing restrictions. Feel free to
+regenerate with the scripts in `norcetprep/scripts/`.

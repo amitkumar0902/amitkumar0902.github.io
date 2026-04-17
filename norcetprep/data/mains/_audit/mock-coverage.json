@@ -1,20 +1,23 @@
 {
-  "generated": "2026-04-17T04:45:09.467Z",
+  "generated": "2026-04-17T05:02:15.560Z",
   "mustCoverTotal": 275,
   "coveredAcrossMocks": 275,
   "uncoveredCount": 0,
   "uncovered": [],
   "perMockCoverage": {
-    "mock-7.json": 49,
-    "mock-9.json": 49,
-    "mock-4.json": 48,
-    "mock-8.json": 47,
-    "mock-3.json": 55,
-    "mock-6.json": 51,
-    "mock-2.json": 42,
-    "mock-pyq.json": 50,
-    "mock-1.json": 50,
-    "mock-5.json": 49,
-    "mock-10.json": 40
-  }
+    "mock-6.json": 54,
+    "mock-3.json": 65,
+    "mock-7.json": 57,
+    "mock-1.json": 57,
+    "mock-10.json": 59,
+    "mock-9.json": 61,
+    "mock-pyq.json": 58,
+    "mock-5.json": 66,
+    "mock-8.json": 64,
+    "mock-2.json": 58,
+    "mock-4.json": 62
+  },
+  "pyqTotal": 32,
+  "pyqCovered": 32,
+  "pyqUncovered": []
 }

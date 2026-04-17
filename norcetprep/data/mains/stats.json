@@ -1,5 +1,5 @@
 {
-  "totalQs": 1189,
+  "totalQs": 1197,
   "pyqCount": 32,
   "legacyCount": 55,
   "practiceCount": 492,
@@ -7,7 +7,7 @@
     "Medical-Surgical": 265,
     "Fundamentals": 113,
     "Pharmacology": 132,
-    "OBG": 88,
+    "OBG": 96,
     "Pediatric": 118,
     "Community Health": 90,
     "Psychiatric": 75,
@@ -20,7 +20,7 @@
   "byDay": {
     "1": 48,
     "2": 78,
-    "3": 88,
+    "3": 96,
     "4": 117,
     "5": 36,
     "6": 90,
@@ -33,8 +33,8 @@
     "13": 72
   },
   "byQtype": {
-    "factual": 485,
-    "calculation": 11,
-    "scenario": 693
+    "factual": 486,
+    "calculation": 12,
+    "scenario": 699
   }
 }

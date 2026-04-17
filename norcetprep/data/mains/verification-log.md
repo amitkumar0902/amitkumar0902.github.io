@@ -242,3 +242,64 @@ exam pattern.
 - Every `must`-priority topic appears in at least one of the ten mocks.
 - Build pipeline re-runs audits on every `scripts/build-mains-bank.mjs`
   invocation.
+
+---
+
+## Addendum — 2026-04-17 · Blueprint-driven mocks + legacy cleanup + Lochia/PPH pack
+
+### Blueprint-driven mock generator
+
+- New `data/mains/mock-blueprint.json` encodes section mix (160 total),
+  qtype floors (`scenarioMin`: 115, `recallMax`: 30), spotlight bias per
+  mock, and PYQ / must-cover pre-allocation rules.
+- `scripts/build-mains-bank.mjs` now does three deterministic passes:
+  1. Pin-pre-allocate every PYQ and every `must`-priority syllabus topic
+     round-robin across mocks 1–10.
+  2. Fill each section up to its blueprint target (scenario-first order),
+     with an optional `+spotlightBoost` for the featured subject.
+  3. Scenario-ratio guard — swap lowest-priority non-PYQ recall items for
+     scenario items until the mock's scenario count ≥ `scenarioMin`.
+- Result (this pass): **10 mocks × 160 Q**, **every** mock at exactly
+  115 scenario items (≥72%), **275 / 275** must-cover topics appearing in
+  ≥1 mock, **32 / 32** PYQ items in ≥1 mock, per-mock section mix within
+  ±2 of blueprint.
+
+### Cross-mock coverage audit
+
+- `scripts/build-mains-bank.mjs` now emits `data/mains/_audit/mock-coverage.md`
+  with per-mock totals (qtype breakdown + top sections), plus
+  `mock-coverage.json` for machine use.
+
+### Lochia + PPH focused pack
+
+- New `data/mains/topics/high-yield/lochia-pph-pack.json` — 8 hand-authored
+  scenario/calc/factual MCQs (tagged `pph`, `lochia`, `must`).
+- Flashcards: `flashcards/hy-lochia.json` (9 cards) + `flashcards/hy-pph.json`
+  (15 cards). Both linked from `mains-plan/flashcards/index.html`.
+- SVG assets: `images/lochia-types.svg` (3-phase chart) +
+  `images/pph-4ts.svg` (4 Ts + escalation ladder). Documented in
+  `images/README.md`.
+
+### Legacy cleanup
+
+- `scripts/legacy-cleanup.mjs` strips inline `linear-gradient` styling
+  (hero blocks + strategy boxes), rewrites `day-hero` → `nm-hero`,
+  `notification-banner` → `nm-nav`, and remaps broken
+  `../topics/<slug>.html` links to the new `notes/index.html?section=<s>`
+  viewer. Applied across all 13 `day-*.html` pages + `pyqs.html`.
+- `scripts/inject-day-links.mjs` auto-injects a "High-yield hooks for Day N"
+  aside into every day page, driven by `syllabus.json` + `videos.json`,
+  with idempotent `<!-- nm-day-links -->` sentinels.
+
+### Bank totals after this pass
+
+- Question bank total: **1 197** items (vs 1 189 previous; +8 from Lochia/PPH pack).
+- High-yield auto + hand-authored: 618 items.
+- 100% scenario ratio across the 610 auto-generated topics + pack.
+- All 10 mocks + PYQ mock contain exactly 160 questions each.
+
+### Service-worker cache
+
+- Bumped to `norcet-mains-v3-blueprint` to invalidate old PWA installs.
+- Added: `mock-blueprint.json`, `hy-lochia.json`, `hy-pph.json`,
+  `lochia-types.svg`, `pph-4ts.svg`.

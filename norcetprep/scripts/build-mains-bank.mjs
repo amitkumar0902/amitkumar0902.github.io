@@ -464,99 +464,130 @@ function buildBank() {
     fs.writeFileSync(path.join(OUT, 'day-slices', 'day-' + d + '.json'), JSON.stringify(slice, null, 2));
   }
 
-  // Mocks — stratified 160 each (mains subject mix)
-  // Target mix (approx from NORCET Mains analyses):
-  const MIX = [
-    ['Medical-Surgical', 40],
-    ['Community Health', 22],
-    ['OBG', 18],
-    ['Pediatric', 18],
-    ['Fundamentals', 20],
-    ['Pharmacology', 16],
-    ['Psychiatric', 10],
-    ['Microbiology', 8],
-    ['Anatomy', 4],
-    ['Nutrition', 2],
-    ['Admin', 2]
-  ];
+  // ---------- Blueprint-driven mock generator ----------
+  // Loads data/mains/mock-blueprint.json to guarantee:
+  //   1. Per-mock section mix within ±2 of blueprint target
+  //   2. Every PYQ in at least one mock (full or pyq-only)
+  //   3. Every `must`-priority syllabus topic in at least one mock
+  //   4. scenario ≥ blueprint.qtypeMix.scenarioMin per mock (fallback: 70%)
+  //   5. Deterministic: same seed → same output across runs + devices
+  const blueprintPath = path.join(OUT, 'mock-blueprint.json');
+  const blueprint = fs.existsSync(blueprintPath)
+    ? JSON.parse(fs.readFileSync(blueprintPath, 'utf-8'))
+    : null;
+  const MIX = blueprint
+    ? blueprint.sectionMix.map(r => [r.subject, r.count])
+    : [
+        ['Medical-Surgical', 40], ['Community Health', 22], ['OBG', 20],
+        ['Pediatric', 20], ['Fundamentals', 18], ['Pharmacology', 14],
+        ['Psychiatric', 10], ['Microbiology', 6], ['Anatomy', 4],
+        ['Nutrition', 4], ['Admin', 2],
+      ];
+  const SCENARIO_MIN = blueprint ? blueprint.qtypeMix.scenarioMin : 115;
+  const SPOTLIGHT = (blueprint && blueprint.spotlight) || {};
+  const SPOTLIGHT_BOOST = (blueprint && blueprint.spotlightBoost) || 0;
+  const SEED_BASE = (blueprint && blueprint.rules && blueprint.rules.seedBase) || 1000;
+
+  // Pre-compute must-cover syllabusIds and PYQ pool
+  const syllabusPath = path.join(OUT, 'syllabus.json');
+  const syllabus = fs.existsSync(syllabusPath)
+    ? JSON.parse(fs.readFileSync(syllabusPath, 'utf-8'))
+    : [];
+  const mustCoverIds = syllabus.filter(s => s.priority === 'must').map(s => s.id);
+  const bySyllabusId = {};
+  for (const q of bank) if (q.syllabusId) (bySyllabusId[q.syllabusId] = bySyllabusId[q.syllabusId] || []).push(q);
+  const pyqPool = bank.filter(q => isPyq(q.source));
+
+  // Round-robin distribute PYQ + must-cover across mocks 1..10 deterministically.
+  const pins = Array.from({ length: 10 }, () => []); // pins[m-1] = [question,...]
+  const pinnedIds = new Set();
+  const pinRng = mulberry32(SEED_BASE + 7777);
+  const pyqOrdered = seededShuffle(pyqPool, pinRng);
+  pyqOrdered.forEach((q, i) => {
+    if (!pinnedIds.has(q.id)) {
+      pins[i % 10].push(q);
+      pinnedIds.add(q.id);
+    }
+  });
+  const mustOrdered = seededShuffle(mustCoverIds, pinRng);
+  mustOrdered.forEach((id, i) => {
+    const cands = (bySyllabusId[id] || []).filter(q => !pinnedIds.has(q.id));
+    if (!cands.length) return;
+    const pick = cands[0];
+    pins[i % 10].push(pick);
+    pinnedIds.add(pick.id);
+  });
+
+  // Build each mock: pins first, then fill to blueprint section targets, then top-up
+  // to 160, while maintaining scenario ≥ SCENARIO_MIN.
   for (let m = 1; m <= 10; m++) {
+    const rng = mulberry32(SEED_BASE + m);
     const used = new Set();
     const picks = [];
-    const rng = mulberry32(1000 + m);
-    for (const [subj, n] of MIX) {
-      const pool = bank.filter(q => q.subject === subj);
+    const sectionCount = {};
+    MIX.forEach(([s]) => sectionCount[s] = 0);
+
+    // 1) Place pins for this mock (subject to section caps — pins may exceed blueprint
+    //    slightly for a section; we account for this in the fill loop).
+    for (const q of pins[m - 1]) {
+      if (used.has(q.id)) continue;
+      used.add(q.id);
+      picks.push(q);
+      sectionCount[q.subject] = (sectionCount[q.subject] || 0) + 1;
+    }
+
+    // 2) Blueprint fill — top up each section until its blueprint count is met.
+    //    Apply spotlight boost (+SPOTLIGHT_BOOST slots) for the mock's featured subject.
+    const spotlightSubj = SPOTLIGHT[String(m)];
+    for (const [subj, baseTarget] of MIX) {
+      const target = (subj === spotlightSubj) ? baseTarget + SPOTLIGHT_BOOST : baseTarget;
+      const pool = bank.filter(q => q.subject === subj && !used.has(q.id));
+      // Prefer scenario items first (keeps per-mock scenario share high).
+      pool.sort((a, b) => (a.qtype === 'scenario' ? -1 : 0) - (b.qtype === 'scenario' ? -1 : 0));
       const shuffled = seededShuffle(pool, rng);
-      let taken = 0;
       for (const q of shuffled) {
-        if (taken >= n) break;
+        if ((sectionCount[subj] || 0) >= target) break;
         if (used.has(q.id)) continue;
         used.add(q.id);
         picks.push(q);
-        taken++;
-      }
-      // If pool too small, refill by relaxing "used" constraint
-      if (taken < n) {
-        for (const q of seededShuffle(pool, rng)) {
-          if (taken >= n) break;
-          if (picks.includes(q)) continue;
-          picks.push(q); taken++;
-        }
+        sectionCount[subj] = (sectionCount[subj] || 0) + 1;
       }
     }
-    // Pad/trim to exactly 160
-    while (picks.length < 160) {
-      const more = seededShuffle(bank, rng);
-      for (const q of more) {
-        if (!picks.includes(q)) { picks.push(q); if (picks.length >= 160) break; }
+
+    // 3) Pad to 160 (scenario-first), then trim.
+    if (picks.length < 160) {
+      const fillPool = seededShuffle(bank.filter(q => !used.has(q.id)), rng);
+      fillPool.sort((a, b) => (a.qtype === 'scenario' ? -1 : 0) - (b.qtype === 'scenario' ? -1 : 0));
+      for (const q of fillPool) {
+        if (picks.length >= 160) break;
+        used.add(q.id); picks.push(q);
       }
-      if (picks.length === 0) break;
     }
-    const mock = picks.slice(0, 160).map((q, i) => ({ ...q, mockSeq: i + 1 }));
-    fs.writeFileSync(path.join(OUT, 'mocks', 'mock-' + m + '.json'), JSON.stringify({ id: m, title: 'Full Mock Test ' + m, count: 160, minutes: 180, questions: mock }, null, 2));
-  }
+    let mockArr = picks.slice(0, 160);
 
-  // Ensure every must-cover syllabus topic appears in at least one of the 10 mocks.
-  // Rotate missing topics into a mock by swapping low-priority or duplicate items.
-  try {
-    const syllabusPath = path.join(OUT, 'syllabus.json');
-    if (fs.existsSync(syllabusPath)) {
-      const syllabus = JSON.parse(fs.readFileSync(syllabusPath, 'utf-8'));
-      const mustIds = syllabus.filter(s => s.priority === 'must').map(s => s.id);
-      const bySyl = {};
-      for (const q of bank) if (q.syllabusId) (bySyl[q.syllabusId] = bySyl[q.syllabusId] || []).push(q);
-
-      const mockPaths = [];
-      for (let m = 1; m <= 10; m++) mockPaths.push(path.join(OUT, 'mocks', 'mock-' + m + '.json'));
-      const mocks = mockPaths.map(p => JSON.parse(fs.readFileSync(p, 'utf-8')));
-
-      const coveredAcrossMocks = new Set();
-      mocks.forEach(m => m.questions.forEach(q => { if (q.syllabusId) coveredAcrossMocks.add(q.syllabusId); }));
-      const missing = mustIds.filter(id => !coveredAcrossMocks.has(id));
-
-      let rotated = 0;
-      let mockIdx = 0;
-      for (const id of missing) {
-        const candidates = bySyl[id];
-        if (!candidates || candidates.length === 0) continue;
-        const candidate = candidates[0];
-        // Find a mock slot: prefer mock with least must-cover, find a swappable question (low priority, no syllabusId)
-        for (let attempt = 0; attempt < mocks.length; attempt++) {
-          const mk = mocks[mockIdx % mocks.length];
-          mockIdx++;
-          const swapIdx = mk.questions.findIndex(q => !q.syllabusId && q.difficulty !== 'High');
-          if (swapIdx >= 0) {
-            const seq = mk.questions[swapIdx].mockSeq;
-            mk.questions[swapIdx] = { ...candidate, mockSeq: seq };
-            rotated++;
-            break;
-          }
-        }
+    // 4) Scenario-ratio guard — if scenario share < SCENARIO_MIN, swap lowest-priority
+    //    recall items for scenario items until threshold met.
+    let scenarioCount = mockArr.filter(q => q.qtype === 'scenario').length;
+    if (scenarioCount < SCENARIO_MIN) {
+      const mockIds = new Set(mockArr.map(q => q.id));
+      const spareScenarios = seededShuffle(bank.filter(q => q.qtype === 'scenario' && !mockIds.has(q.id)), rng);
+      for (const scen of spareScenarios) {
+        if (scenarioCount >= SCENARIO_MIN) break;
+        const swapAt = mockArr.findIndex(q => q.qtype !== 'scenario' && !pinnedIds.has(q.id) && !isPyq(q.source));
+        if (swapAt < 0) break;
+        mockArr[swapAt] = scen;
+        scenarioCount++;
       }
-      mocks.forEach((m, i) => fs.writeFileSync(mockPaths[i], JSON.stringify(m, null, 2)));
-      console.log(`Rotated ${rotated}/${missing.length} must-cover topics into mocks.`);
     }
-  } catch (e) {
-    console.warn('Mock rotation skipped:', e.message);
+
+    const mock = mockArr.map((q, i) => ({ ...q, mockSeq: i + 1 }));
+    const title = (spotlightSubj && spotlightSubj !== 'Balanced')
+      ? `Full Mock Test ${m} — ${spotlightSubj} spotlight`
+      : `Full Mock Test ${m}`;
+    fs.writeFileSync(
+      path.join(OUT, 'mocks', 'mock-' + m + '.json'),
+      JSON.stringify({ id: m, title, count: 160, minutes: 180, questions: mock, spotlight: spotlightSubj || null }, null, 2)
+    );
   }
 
   // PYQ-only mock — all 30+ recall questions from NORCET 6-9 Mains + fill with high-yield
@@ -662,29 +693,54 @@ function writeMockCoverageAudit(bank) {
   const mustCover = syllabus.filter(s => s.priority === 'must').map(s => s.id);
 
   const mocksDir = path.join(OUT, 'mocks');
-  const mockFiles = fs.readdirSync(mocksDir).filter(f => f.startsWith('mock-') && f.endsWith('.json'));
-  const coverage = {};
-  for (const mf of mockFiles) {
-    const data = JSON.parse(fs.readFileSync(path.join(mocksDir, mf), 'utf-8'));
+  const mockFiles = fs.readdirSync(mocksDir).filter(f => f.startsWith('mock-') && f.endsWith('.json')).sort();
+
+  // Collect per-mock coverage + qtype distribution + section distribution
+  const mocksData = mockFiles.map(mf => ({
+    file: mf,
+    json: JSON.parse(fs.readFileSync(path.join(mocksDir, mf), 'utf-8'))
+  }));
+
+  const coverageSet = {};
+  const pyqCoverage = {};
+  const pyqIdsAll = new Set(bank.filter(q => isPyq(q.source)).map(q => q.id));
+
+  for (const md of mocksData) {
     const ids = new Set();
-    for (const q of data.questions || []) {
+    const pyqs = new Set();
+    const qtypeCount = {};
+    const sectionCount = {};
+    for (const q of md.json.questions || []) {
       if (q.syllabusId) ids.add(q.syllabusId);
+      if (pyqIdsAll.has(q.id) || isPyq(q.source)) pyqs.add(q.id);
+      qtypeCount[q.qtype || 'unknown'] = (qtypeCount[q.qtype || 'unknown'] || 0) + 1;
+      sectionCount[q.subject || 'unknown'] = (sectionCount[q.subject || 'unknown'] || 0) + 1;
     }
-    coverage[mf] = ids;
+    coverageSet[md.file] = ids;
+    pyqCoverage[md.file] = pyqs;
+    md.qtypeCount = qtypeCount;
+    md.sectionCount = sectionCount;
   }
 
+  // Missing must-cover overall
   const uncovered = [];
   const perMock = {};
   for (const id of mustCover) {
     let inAny = false;
     for (const mf of mockFiles) {
-      if (coverage[mf].has(id)) {
+      if (coverageSet[mf].has(id)) {
         inAny = true;
         perMock[mf] = (perMock[mf] || 0) + 1;
       }
     }
     if (!inAny) uncovered.push(id);
   }
+
+  // Missing PYQs overall
+  const pyqUnion = new Set();
+  Object.values(pyqCoverage).forEach(s => s.forEach(v => pyqUnion.add(v)));
+  const missingPyqs = [];
+  for (const id of pyqIdsAll) if (!pyqUnion.has(id)) missingPyqs.push(id);
 
   const report = {
     generated: new Date().toISOString(),
@@ -693,9 +749,51 @@ function writeMockCoverageAudit(bank) {
     uncoveredCount: uncovered.length,
     uncovered: uncovered.slice(0, 50),
     perMockCoverage: perMock,
+    pyqTotal: pyqIdsAll.size,
+    pyqCovered: pyqUnion.size,
+    pyqUncovered: missingPyqs.slice(0, 50),
   };
   fs.writeFileSync(path.join(dir, 'mock-coverage.json'), JSON.stringify(report, null, 2));
-  console.log(`Mock coverage: ${mustCover.length - uncovered.length}/${mustCover.length} must-cover topics in ≥1 mock`);
+
+  // Markdown flavour
+  const lines = [];
+  lines.push('# Mock Coverage Audit');
+  lines.push('');
+  lines.push('_Generated: ' + new Date().toISOString() + '_');
+  lines.push('');
+  lines.push('## Must-cover syllabus topics');
+  lines.push('');
+  lines.push(`- Total must-cover: **${mustCover.length}**`);
+  lines.push(`- In ≥1 mock: **${mustCover.length - uncovered.length}**`);
+  lines.push(`- Uncovered: **${uncovered.length}**`);
+  if (uncovered.length) {
+    lines.push('');
+    lines.push('Missing IDs:');
+    for (const id of uncovered.slice(0, 30)) lines.push(`- \`${id}\``);
+  }
+  lines.push('');
+  lines.push('## PYQ coverage');
+  lines.push('');
+  lines.push(`- Total PYQs in bank: **${pyqIdsAll.size}**`);
+  lines.push(`- In ≥1 mock: **${pyqUnion.size}**`);
+  lines.push(`- Uncovered: **${missingPyqs.length}**`);
+  lines.push('');
+  lines.push('## Per-mock breakdown');
+  lines.push('');
+  lines.push('| Mock | Total | Scenario | Calc | Image | Factual | Sections |');
+  lines.push('|------|-------|----------|------|-------|---------|----------|');
+  for (const md of mocksData) {
+    const q = md.qtypeCount;
+    const total = Object.values(q).reduce((a, b) => a + b, 0);
+    const sections = Object.entries(md.sectionCount)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([s, c]) => `${s}:${c}`)
+      .join(', ');
+    lines.push(`| ${md.file.replace('.json', '')} | ${total} | ${q.scenario || 0} | ${q.calculation || 0} | ${q.image || 0} | ${q.factual || 0} | ${sections} |`);
+  }
+  fs.writeFileSync(path.join(dir, 'mock-coverage.md'), lines.join('\n') + '\n');
+  console.log(`Mock coverage: ${mustCover.length - uncovered.length}/${mustCover.length} must-cover in ≥1 mock; PYQ ${pyqUnion.size}/${pyqIdsAll.size}`);
 }
 
 function bySubjectCount(bank) {

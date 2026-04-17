@@ -150,7 +150,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1106,
+    "id": 1114,
     "question": "Hysterosalpingogram (HSG) primarily uses which type of radiation imaging?",
     "options": [
       "MRI",
@@ -175,7 +175,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1120,
+    "id": 1128,
     "question": "MTP Act (as commonly tested) allows termination up to:",
     "options": [
       "12 weeks only",
@@ -200,7 +200,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1121,
+    "id": 1129,
     "question": "Spinal anesthesia monitoring should especially watch for:",
     "options": [
       "Hypertension only",
@@ -577,7 +577,267 @@
     ]
   },
   {
-    "id": 499,
+    "id": 305,
+    "syllabusId": "midwifery-pph",
+    "question": "A G3P3 woman 15 minutes after vaginal delivery has soaked two pads. The fundus is boggy at the umbilicus, BP 90/60, HR 118. Which nursing action is the FIRST priority?",
+    "options": [
+      "Start a second IV line with 18G cannula and draw blood for cross-match",
+      "Perform bimanual uterine massage while administering oxytocin 10 IU IM",
+      "Position the patient in Trendelenburg and apply oxygen 6 L by mask",
+      "Notify the obstetrician for emergency exploration in theatre"
+    ],
+    "correct": 1,
+    "explanation": "WHO LCG 2020 + FIGO 2022: active management — oxytocin + massage FIRST, then escalate through the uterotonic ladder (carboprost / misoprostol / tranexamic acid).",
+    "explanations": {
+      "A": "IV access and blood products are critical but only after uterine tone is addressed — atonic uterus loses blood faster than resuscitation can replace it.",
+      "B": "Tone is the commonest (70–80%) PPH cause. Immediate fundal massage plus oxytocin 10 IU IM per AMTSL is the first-line nursing intervention.",
+      "C": "Positioning is supportive; it does not stop haemorrhage. Trendelenburg is no longer recommended — it worsens venous return.",
+      "D": "Escalation follows ongoing atony despite uterotonics + mechanical measures; it is not the first action."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph",
+      "must"
+    ]
+  },
+  {
+    "id": 306,
+    "syllabusId": "midwifery-pph",
+    "question": "Atonic PPH persists despite oxytocin. The obstetrician orders carboprost 250 mcg IM. Which comorbidity would make the nurse hold the drug and verify the order?",
+    "options": [
+      "Gestational diabetes well-controlled on diet",
+      "Severe bronchial asthma on inhaled steroids",
+      "Iron-deficiency anaemia (Hb 9.4 g/dL)",
+      "Prior myomectomy four years earlier"
+    ],
+    "correct": 1,
+    "explanation": "Carboprost bronchospasm risk is classic — asthma is the only absolute contraindication the nurse must catch at bedside.",
+    "explanations": {
+      "A": "Diabetes does not contraindicate carboprost.",
+      "B": "Carboprost (15-methyl PGF2α) is contraindicated in asthma — causes bronchoconstriction. Alternative: misoprostol 800 mcg sublingual.",
+      "C": "Anaemia is a reason to give blood, not withhold uterotonics.",
+      "D": "Prior uterine surgery is not a carboprost contraindication per se."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph",
+      "must"
+    ]
+  },
+  {
+    "id": 307,
+    "syllabusId": "midwifery-pph",
+    "question": "The obstetrician orders an oxytocin infusion: 40 IU in 500 mL NS at 125 mL/hr. How many IU of oxytocin does the patient receive per minute?",
+    "options": [
+      "0.17 IU/min",
+      "0.34 IU/min",
+      "0.67 IU/min",
+      "1.33 IU/min"
+    ],
+    "correct": 0,
+    "explanation": "Oxytocin post-placental infusion typically targets 0.1–0.2 IU/min. Nurses must be able to derive this at bedside.",
+    "explanations": {
+      "A": "Concentration 40 IU / 500 mL = 0.08 IU/mL. Rate 125 mL/hr = ~2.08 mL/min → 0.08 × 2.08 ≈ 0.17 IU/min.",
+      "B": "Twice the correct value — re-check concentration × rate.",
+      "C": "Four times the correct — arithmetic slip.",
+      "D": "Far above therapeutic — would cause tetanic contraction."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "calculation",
+    "tags": [
+      "calc",
+      "highyield",
+      "pph"
+    ]
+  },
+  {
+    "id": 308,
+    "syllabusId": "midwifery-lochia",
+    "question": "A postpartum woman on Day 10 reports lochia that is bright red and heavier than yesterday, passing a small clot. Her fundus is 2 fingerbreadths above the symphysis. The nurse's MOST appropriate action is:",
+    "options": [
+      "Reassure her that bright-red lochia until day 14 is normal",
+      "Call the obstetrician — this pattern suggests subinvolution / retained products",
+      "Increase oral fluids and reassess in four hours",
+      "Encourage ambulation to accelerate involution"
+    ],
+    "correct": 1,
+    "explanation": "Lochia timeline: rubra 1–3 d → serosa 4–10 d → alba 10 d–6 wk. Reversion or persistent rubra warrants escalation.",
+    "explanations": {
+      "A": "By Day 10 lochia should be serosa (pinkish) transitioning to alba. Reverting to rubra is abnormal.",
+      "B": "Bright-red lochia after Day 4–5 + poorly involuted uterus = red flag for subinvolution, retained placental fragments, or late PPH. Escalate.",
+      "C": "Delay risks ongoing blood loss; not appropriate.",
+      "D": "Ambulation is generally advised but does NOT address the underlying pathology."
+    },
+    "subject": "OBG",
+    "topic": "Lochia",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "lochia",
+      "must"
+    ]
+  },
+  {
+    "id": 309,
+    "syllabusId": "midwifery-lochia",
+    "question": "Lochia alba is characterised by:",
+    "options": [
+      "Bright-red vaginal discharge with clots, days 1–3",
+      "Pink to brown serosanguinous discharge, days 4–10",
+      "Whitish-yellow leucocyte-rich discharge, day 10 to 6 weeks",
+      "Offensive purulent discharge at any time"
+    ],
+    "correct": 2,
+    "explanation": "The three-stage classification (rubra / serosa / alba) is NORCET-level high-yield.",
+    "explanations": {
+      "A": "That is lochia rubra.",
+      "B": "That is lochia serosa.",
+      "C": "Lochia alba — day 10 onwards, composed of leucocytes, mucus, and epithelial cells.",
+      "D": "Offensive / purulent discharge suggests endometritis — pathological, not a physiological lochia phase."
+    },
+    "subject": "OBG",
+    "topic": "Lochia",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "factual",
+    "tags": [
+      "highyield",
+      "lochia",
+      "must"
+    ]
+  },
+  {
+    "id": 310,
+    "syllabusId": "midwifery-lochia",
+    "question": "On postpartum Day 2 a mother reports offensive, greenish lochia with low-grade fever (38.1 °C) and uterine tenderness. The nurse suspects:",
+    "options": [
+      "Normal lochia rubra — reassure and document",
+      "Puerperal endometritis — obtain cultures and notify obstetrician",
+      "Urinary tract infection — send urine culture only",
+      "Breast engorgement — apply cold compress"
+    ],
+    "correct": 1,
+    "explanation": "Infection is the other major PP red flag — offensive lochia + fever = endometritis until proven otherwise.",
+    "explanations": {
+      "A": "Offensive odour + fever is never normal for lochia.",
+      "B": "Classical triad of puerperal endometritis: foul lochia + fever + uterine tenderness. Culture, IV antibiotics (clindamycin + gentamicin).",
+      "C": "UTI would typically have dysuria/frequency and clearer lochia.",
+      "D": "Engorgement causes breast pain, not uterine tenderness / offensive lochia."
+    },
+    "subject": "OBG",
+    "topic": "Lochia",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "lochia"
+    ]
+  },
+  {
+    "id": 311,
+    "syllabusId": "midwifery-pph",
+    "question": "A shock index of 1.2 is calculated in a woman with ongoing PPH. The nurse recognises this as:",
+    "options": [
+      "Normal — no additional intervention required",
+      "Early warning — increase crystalloid infusion only",
+      "Trigger for massive transfusion protocol activation",
+      "Consistent with vasovagal response — reposition only"
+    ],
+    "correct": 2,
+    "explanation": "Shock index is the NORCET Mains go-to bedside metric for haemorrhagic shock triage.",
+    "explanations": {
+      "A": "Normal SI is < 0.9.",
+      "B": "Crystalloids alone cannot replace lost oxygen-carrying capacity.",
+      "C": "Shock Index ≥ 1.0 (HR/SBP) in obstetric haemorrhage activates massive transfusion (RCOG 2016). SI ≥ 1.2 is specifically associated with transfusion need.",
+      "D": "Vasovagal causes bradycardia, not tachycardia/hypotension."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph",
+      "must"
+    ]
+  },
+  {
+    "id": 312,
+    "syllabusId": "midwifery-pph",
+    "question": "Despite oxytocin + carboprost the uterus remains atonic 30 minutes postpartum. The surgical escalation ladder the nurse anticipates is:",
+    "options": [
+      "Hysterectomy first, then bilateral uterine artery ligation",
+      "Bimanual compression → balloon tamponade → B-Lynch suture → stepwise uterine artery ligation → hysterectomy",
+      "Immediate caesarean hysterectomy",
+      "Cervical cerclage before any surgical intervention"
+    ],
+    "correct": 1,
+    "explanation": "NORCET loves this ladder — memorise the stepwise escalation before hysterectomy.",
+    "explanations": {
+      "A": "Hysterectomy is last-line after uterus-conserving measures fail.",
+      "B": "WHO / FIGO: bimanual compression → intrauterine balloon (Bakri) → compression sutures (B-Lynch) → uterine / internal iliac ligation → hysterectomy as final step.",
+      "C": "Bypasses uterus-conserving measures; reserved for failed escalation or life-threatening bleeding.",
+      "D": "Cerclage is for incompetent cervix in pregnancy, not for PPH."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph"
+    ]
+  },
+  {
+    "id": 507,
     "syllabusId": "midwifery-1-obstetric-score-gpal-tpal",
     "question": "A multipara comes for booking visit stating: \"2 live births at term, 1 preterm stillborn at 32 wk, 1 miscarriage at 10 wk; current pregnancy 12 wk.\"\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -609,7 +869,7 @@
     ]
   },
   {
-    "id": 500,
+    "id": 508,
     "syllabusId": "midwifery-2-calculation-of-edd-naegele-rule",
     "question": "Primigravida with regular 28-d cycles reports LMP on 10 Jan 2026.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -638,262 +898,6 @@
       "scenario",
       "highyield",
       "must"
-    ]
-  },
-  {
-    "id": 501,
-    "syllabusId": "midwifery-3-antenatal-care",
-    "question": "A 24-y-old G2P1 at 12 wk presents for first ANC visit with no prior booking.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
-      "Admit, start MgSO4 loading 4 g IV over 20 min, labetalol IV for BP, urinary catheter, DTR q1h, deep tendon reflexes, plan delivery",
-      "Start IFA and calcium, give Td-1, order booking investigations, counsel on danger signs",
-      "Fundal massage first, then IV oxytocin 10 IU bolus, crystalloid bolus, cross-match 2 units, call obstetric team, monitor vitals q5 min"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Start IFA and calcium, give Td-1, order booking investigations, counsel on danger signs (Danger signs: severe headache, blurring, convulsions, decreased fetal movements, PV bleed, fever.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Start IFA and calcium, give Td-1, order booking investigations, counsel on danger signs. WHO 2016 model: 8 contacts (earlier 4-visit scheme).",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Antenatal care",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 502,
-    "syllabusId": "midwifery-4-anemia-in-pregnancy",
-    "question": "A 28-y-old G3P2 at 32 wk has Hb 6.8 g/dL, breathless on exertion, ankle edema.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "No vaginal exam, two large-bore IVs, oxygen, cross-match 2 units, urgent USG, prepare for emergent CS — this is abruption with fetal distre…",
-      "Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart",
-      "Identify DCDA twins; schedule growth scans q4 wk from 24 wk",
-      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart (Parenteral iron total dose = 2.4 x wt(kg) x (target - actual Hb) + 500 mg stores.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart. Commonest type: iron deficiency (microcytic hypochromic).",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Anemia in pregnancy",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 503,
-    "syllabusId": "midwifery-5-anemia-mukt-bharat-program",
-    "question": "ASHA visits a family with a 3-y-old, 8-y-old, and pregnant mother.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality",
-      "Identify vertex as SOB 9.5 cm — favorable for vaginal delivery",
-      "Identify Green-Armytage — haemostatic clamp used on uterine incision edges during CS",
-      "Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother (Pregnant women get IFA-red: 60 mg iron + 500 mcg folic acid.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother. Target groups: children 6-59 mo, 5-9 y, adolescents 10-19 y, women of reproductive age, pregnant women, lactating mothers."
-    },
-    "subject": "OBG",
-    "topic": "Anemia Mukt Bharat Program",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 504,
-    "syllabusId": "midwifery-6-abortion-types-and-management",
-    "question": "A 26-y-old at 10 wk arrives with heavy PV bleeding, passing clots, BP 90/60, HR 110, cervical os open.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only)",
-      "Summon obstetrician, prepare for assisted breech or emergency CS, assist with Lovset for shoulders and Mauriceau for head",
-      "Admit, start MgSO4 loading 4 g IV over 20 min, labetalol IV for BP, urinary catheter, DTR q1h, deep tendon reflexes, plan delivery",
-      "Start IV fluids, cross-match blood, prepare for MVA, give anti-D if Rh-negative, monitor for shock"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Start IV fluids, cross-match blood, prepare for MVA, give anti-D if Rh-negative, monitor for shock (Rh-negative women receive anti-D 300 mcg within 72 h of abortion.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Start IV fluids, cross-match blood, prepare for MVA, give anti-D if Rh-negative, monitor for shock. Types: threatened, inevitable, incomplete, complete, missed, septic, recurrent (>=3 consecutive)."
-    },
-    "subject": "OBG",
-    "topic": "Abortion — types and management",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 505,
-    "syllabusId": "midwifery-7-mtp-act-and-procedures",
-    "question": "A 19-y-old unmarried woman at 14 wk requests termination due to contraceptive failure.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance",
-      "Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality",
-      "Document as lochia serosa — normal finding; continue perineal care, monitor for return of bright red bleed",
-      "Knee-chest position, manually elevate presenting part, summon obstetric team, prepare for stat cesarean, oxygen by mask"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality (Record-keeping is confidential; only Form C sent to CMO.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality. Indications: risk to mother life/health, substantial fetal anomaly, rape/incest, contraceptive failure (married/unmarried), minor/mental illness.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "MTP — Act and procedures",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 506,
-    "syllabusId": "midwifery-8-ectopic-pregnancy-management",
-    "question": "A 27-y-old with 7-wk amenorrhea presents with sudden right iliac fossa pain, BP 80/50, HR 124, shoulder tip pain.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO",
-      "Empty bladder, supine with knees slightly flexed, perform Leopold 1-4 sequentially, document lie, presentation, position, engagement",
-      "Knee-chest position, manually elevate presenting part, summon obstetric team, prepare for stat cesarean, oxygen by mask",
-      "Start MNT with dietitian, initiate insulin (basal-bolus), self-monitor glucose 4x/day, counsel about hypoglycemia signs, plan growth USG"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO (Discriminatory zone: β-hCG >1500-2000 with empty uterus on TVS → strongly suspect ectopic.)",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO. Triad: amenorrhea + PV spotting + abdominal pain (often unilateral).",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Ectopic pregnancy management",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 507,
-    "syllabusId": "midwifery-9-hydatidiform-mole-snowstorm-appearance",
-    "question": "A 29-y-old G1 at 14 wk by dates has fundal height of 20 wk, PV bleed with grape-like tissue, BP 150/100, β-hCG 250,000.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO",
-      "Document normal involution, reinforce breastfeeding, perineal care, early ambulation, contraception counselling",
-      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
-      "Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance (Avoid pregnancy x1 year post-evacuation to allow β-hCG monitoring.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance. Clinical: vaginal bleeding in 1st trimester, uterus larger than dates, hyperemesis, early PIH."
-    },
-    "subject": "OBG",
-    "topic": "Hydatidiform mole — snowstorm appearance",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 508,
-    "syllabusId": "midwifery-10-chorionic-villi-sampling",
-    "question": "A 38-y-old G2 at 12 wk wants early karyotyping for Down risk.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Identify DCDA twins; schedule growth scans q4 wk from 24 wk",
-      "Document as active phase stage 1; continuous FHR monitoring, encourage position changes, oral fluids, partogram",
-      "Prepare for transabdominal CVS under USG, obtain consent, counsel about 0.5-1% miscarriage risk, instruct to report cramping/bleeding",
-      "Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Prepare for transabdominal CVS under USG, obtain consent, counsel about 0.5-1% miscarriage risk, instruct to report cramping/bleeding (Cannot detect neural tube defects (no amniotic fluid analysis).)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Prepare for transabdominal CVS under USG, obtain consent, counsel about 0.5-1% miscarriage risk, instruct to report cramping/bleeding. Done transabdominally or transcervically under USG guidance.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Chorionic villi sampling",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
     ]
   }
 ]

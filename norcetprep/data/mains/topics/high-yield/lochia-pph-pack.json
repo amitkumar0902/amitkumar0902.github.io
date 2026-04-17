@@ -1,0 +1,218 @@
+[
+  {
+    "syllabusId": "midwifery-pph",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": ["scenario", "highyield", "pph", "must"],
+    "question": "A G3P3 woman 15 minutes after vaginal delivery has soaked two pads. The fundus is boggy at the umbilicus, BP 90/60, HR 118. Which nursing action is the FIRST priority?",
+    "options": [
+      "Start a second IV line with 18G cannula and draw blood for cross-match",
+      "Perform bimanual uterine massage while administering oxytocin 10 IU IM",
+      "Position the patient in Trendelenburg and apply oxygen 6 L by mask",
+      "Notify the obstetrician for emergency exploration in theatre"
+    ],
+    "correct": 1,
+    "explanations": {
+      "A": "IV access and blood products are critical but only after uterine tone is addressed — atonic uterus loses blood faster than resuscitation can replace it.",
+      "B": "Tone is the commonest (70–80%) PPH cause. Immediate fundal massage plus oxytocin 10 IU IM per AMTSL is the first-line nursing intervention.",
+      "C": "Positioning is supportive; it does not stop haemorrhage. Trendelenburg is no longer recommended — it worsens venous return.",
+      "D": "Escalation follows ongoing atony despite uterotonics + mechanical measures; it is not the first action."
+    },
+    "explanation": "WHO LCG 2020 + FIGO 2022: active management — oxytocin + massage FIRST, then escalate through the uterotonic ladder (carboprost / misoprostol / tranexamic acid)."
+  },
+  {
+    "syllabusId": "midwifery-pph",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": ["scenario", "highyield", "pph", "must"],
+    "question": "Atonic PPH persists despite oxytocin. The obstetrician orders carboprost 250 mcg IM. Which comorbidity would make the nurse hold the drug and verify the order?",
+    "options": [
+      "Gestational diabetes well-controlled on diet",
+      "Severe bronchial asthma on inhaled steroids",
+      "Iron-deficiency anaemia (Hb 9.4 g/dL)",
+      "Prior myomectomy four years earlier"
+    ],
+    "correct": 1,
+    "explanations": {
+      "A": "Diabetes does not contraindicate carboprost.",
+      "B": "Carboprost (15-methyl PGF2α) is contraindicated in asthma — causes bronchoconstriction. Alternative: misoprostol 800 mcg sublingual.",
+      "C": "Anaemia is a reason to give blood, not withhold uterotonics.",
+      "D": "Prior uterine surgery is not a carboprost contraindication per se."
+    },
+    "explanation": "Carboprost bronchospasm risk is classic — asthma is the only absolute contraindication the nurse must catch at bedside."
+  },
+  {
+    "syllabusId": "midwifery-pph",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "calculation",
+    "tags": ["calc", "highyield", "pph"],
+    "question": "The obstetrician orders an oxytocin infusion: 40 IU in 500 mL NS at 125 mL/hr. How many IU of oxytocin does the patient receive per minute?",
+    "options": [
+      "0.17 IU/min",
+      "0.34 IU/min",
+      "0.67 IU/min",
+      "1.33 IU/min"
+    ],
+    "correct": 0,
+    "explanations": {
+      "A": "Concentration 40 IU / 500 mL = 0.08 IU/mL. Rate 125 mL/hr = ~2.08 mL/min → 0.08 × 2.08 ≈ 0.17 IU/min.",
+      "B": "Twice the correct value — re-check concentration × rate.",
+      "C": "Four times the correct — arithmetic slip.",
+      "D": "Far above therapeutic — would cause tetanic contraction."
+    },
+    "explanation": "Oxytocin post-placental infusion typically targets 0.1–0.2 IU/min. Nurses must be able to derive this at bedside."
+  },
+  {
+    "syllabusId": "midwifery-lochia",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Lochia",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": ["scenario", "highyield", "lochia", "must"],
+    "question": "A postpartum woman on Day 10 reports lochia that is bright red and heavier than yesterday, passing a small clot. Her fundus is 2 fingerbreadths above the symphysis. The nurse's MOST appropriate action is:",
+    "options": [
+      "Reassure her that bright-red lochia until day 14 is normal",
+      "Call the obstetrician — this pattern suggests subinvolution / retained products",
+      "Increase oral fluids and reassess in four hours",
+      "Encourage ambulation to accelerate involution"
+    ],
+    "correct": 1,
+    "explanations": {
+      "A": "By Day 10 lochia should be serosa (pinkish) transitioning to alba. Reverting to rubra is abnormal.",
+      "B": "Bright-red lochia after Day 4–5 + poorly involuted uterus = red flag for subinvolution, retained placental fragments, or late PPH. Escalate.",
+      "C": "Delay risks ongoing blood loss; not appropriate.",
+      "D": "Ambulation is generally advised but does NOT address the underlying pathology."
+    },
+    "explanation": "Lochia timeline: rubra 1–3 d → serosa 4–10 d → alba 10 d–6 wk. Reversion or persistent rubra warrants escalation."
+  },
+  {
+    "syllabusId": "midwifery-lochia",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Lochia",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "factual",
+    "tags": ["highyield", "lochia", "must"],
+    "question": "Lochia alba is characterised by:",
+    "options": [
+      "Bright-red vaginal discharge with clots, days 1–3",
+      "Pink to brown serosanguinous discharge, days 4–10",
+      "Whitish-yellow leucocyte-rich discharge, day 10 to 6 weeks",
+      "Offensive purulent discharge at any time"
+    ],
+    "correct": 2,
+    "explanations": {
+      "A": "That is lochia rubra.",
+      "B": "That is lochia serosa.",
+      "C": "Lochia alba — day 10 onwards, composed of leucocytes, mucus, and epithelial cells.",
+      "D": "Offensive / purulent discharge suggests endometritis — pathological, not a physiological lochia phase."
+    },
+    "explanation": "The three-stage classification (rubra / serosa / alba) is NORCET-level high-yield."
+  },
+  {
+    "syllabusId": "midwifery-lochia",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Lochia",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": ["scenario", "highyield", "lochia"],
+    "question": "On postpartum Day 2 a mother reports offensive, greenish lochia with low-grade fever (38.1 °C) and uterine tenderness. The nurse suspects:",
+    "options": [
+      "Normal lochia rubra — reassure and document",
+      "Puerperal endometritis — obtain cultures and notify obstetrician",
+      "Urinary tract infection — send urine culture only",
+      "Breast engorgement — apply cold compress"
+    ],
+    "correct": 1,
+    "explanations": {
+      "A": "Offensive odour + fever is never normal for lochia.",
+      "B": "Classical triad of puerperal endometritis: foul lochia + fever + uterine tenderness. Culture, IV antibiotics (clindamycin + gentamicin).",
+      "C": "UTI would typically have dysuria/frequency and clearer lochia.",
+      "D": "Engorgement causes breast pain, not uterine tenderness / offensive lochia."
+    },
+    "explanation": "Infection is the other major PP red flag — offensive lochia + fever = endometritis until proven otherwise."
+  },
+  {
+    "syllabusId": "midwifery-pph",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": ["scenario", "highyield", "pph", "must"],
+    "question": "A shock index of 1.2 is calculated in a woman with ongoing PPH. The nurse recognises this as:",
+    "options": [
+      "Normal — no additional intervention required",
+      "Early warning — increase crystalloid infusion only",
+      "Trigger for massive transfusion protocol activation",
+      "Consistent with vasovagal response — reposition only"
+    ],
+    "correct": 2,
+    "explanations": {
+      "A": "Normal SI is < 0.9.",
+      "B": "Crystalloids alone cannot replace lost oxygen-carrying capacity.",
+      "C": "Shock Index ≥ 1.0 (HR/SBP) in obstetric haemorrhage activates massive transfusion (RCOG 2016). SI ≥ 1.2 is specifically associated with transfusion need.",
+      "D": "Vasovagal causes bradycardia, not tachycardia/hypotension."
+    },
+    "explanation": "Shock index is the NORCET Mains go-to bedside metric for haemorrhagic shock triage."
+  },
+  {
+    "syllabusId": "midwifery-pph",
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Postpartum Hemorrhage (PPH)",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield · Lochia+PPH pack",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": ["scenario", "highyield", "pph"],
+    "question": "Despite oxytocin + carboprost the uterus remains atonic 30 minutes postpartum. The surgical escalation ladder the nurse anticipates is:",
+    "options": [
+      "Hysterectomy first, then bilateral uterine artery ligation",
+      "Bimanual compression → balloon tamponade → B-Lynch suture → stepwise uterine artery ligation → hysterectomy",
+      "Immediate caesarean hysterectomy",
+      "Cervical cerclage before any surgical intervention"
+    ],
+    "correct": 1,
+    "explanations": {
+      "A": "Hysterectomy is last-line after uterus-conserving measures fail.",
+      "B": "WHO / FIGO: bimanual compression → intrauterine balloon (Bakri) → compression sutures (B-Lynch) → uterine / internal iliac ligation → hysterectomy as final step.",
+      "C": "Bypasses uterus-conserving measures; reserved for failed escalation or life-threatening bleeding.",
+      "D": "Cerclage is for incompetent cervix in pregnancy, not for PPH."
+    },
+    "explanation": "NORCET loves this ladder — memorise the stepwise escalation before hysterectomy."
+  }
+]

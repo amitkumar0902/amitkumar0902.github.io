@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated": "2026-04-17T04:45:09.481Z",
+    "generated": "2026-04-17T05:02:15.577Z",
     "syllabusTotal": 610,
     "notesCoverage": "610/610 (100.0%)",
     "scenarioFieldsCoverage": "610/610 (100.0%)",
@@ -52,6 +52,13 @@
         "total": 11,
         "scenarios": 11,
         "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "lochia-pph-pack": {
+        "total": 8,
+        "scenarios": 6,
+        "ratio": 0.75,
         "threshold": 0.7,
         "pass": true
       },
