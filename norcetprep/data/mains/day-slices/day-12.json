@@ -1,6 +1,64 @@
 [
   {
-    "id": 1119,
+    "id": 72,
+    "_origId": "N9-55",
+    "question": "Among the following, which food provides the highest amount of protein per 100 grams?",
+    "options": [
+      "Egg",
+      "Soybean",
+      "Mutton",
+      "Peanuts"
+    ],
+    "correct": 1,
+    "explanation": "Soybean has ≈43 g protein per 100 g — the highest per 100 g among common foods.",
+    "explanations": {
+      "A": "Egg has ≈13 g protein per 100 g.",
+      "B": "Soybean has ≈43 g protein per 100 g — the highest per 100 g among common foods.",
+      "C": "Mutton has ≈18 g protein per 100 g.",
+      "D": "Peanuts have ≈25 g protein per 100 g."
+    },
+    "subject": "Nutrition",
+    "topic": "Protein sources",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "nutrition-biochemistry",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 88,
+    "_origId": "N9-71",
+    "question": "Which food contains the highest amount of protein per serving?",
+    "options": [
+      "Lentils",
+      "Soybean",
+      "Eggs",
+      "Rice"
+    ],
+    "correct": 1,
+    "explanation": "Soybean is highest in protein (≈43 g/100 g) — complete plant protein.",
+    "explanations": {
+      "A": "Lentils ≈ 24 g protein/100 g.",
+      "B": "Soybean is highest in protein (≈43 g/100 g) — complete plant protein.",
+      "C": "Eggs ≈ 13 g/100 g — highest biological value but not highest gram-for-gram.",
+      "D": "Rice ≈ 7 g/100 g — low protein."
+    },
+    "subject": "Community Health",
+    "topic": "Nutrition counselling",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1225,
     "question": "Sarcopenia refers to:",
     "options": [
       "Bone loss",
@@ -25,7 +83,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1120,
+    "id": 1226,
     "question": "Synthetic form of vitamin K often referenced in exams:",
     "options": [
       "Phylloquinone",
@@ -50,7 +108,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1122,
+    "id": 1228,
     "question": "Ventilator-associated pneumonia (VAP) typically occurs after intubation for at least:",
     "options": [
       "6 hours",
@@ -75,7 +133,7 @@
     "qtype": "factual"
   },
   {
-    "id": 833,
+    "id": 939,
     "question": "A patient with chronic kidney disease is on hemodialysis. Which electrolyte imbalance is most commonly associated with renal failure?",
     "options": [
       "Hypokalemia",
@@ -100,7 +158,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 845,
+    "id": 951,
     "question": "A patient with cancer is receiving chemotherapy. Which side effect requires immediate medical attention?",
     "options": [
       "Hair loss",
@@ -125,7 +183,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 849,
+    "id": 955,
     "question": "A patient with sepsis is in septic shock. What is the priority nursing intervention?",
     "options": [
       "Administering antibiotics",
@@ -150,7 +208,7 @@
     "qtype": "factual"
   },
   {
-    "id": 868,
+    "id": 974,
     "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
     "options": [
       "Hyperkalemia",
@@ -175,7 +233,7 @@
     "qtype": "factual"
   },
   {
-    "id": 872,
+    "id": 978,
     "question": "A patient with Cushing's syndrome is at risk for which complication?",
     "options": [
       "Hypoglycemia",
@@ -200,7 +258,7 @@
     "qtype": "factual"
   },
   {
-    "id": 894,
+    "id": 1000,
     "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
     "options": [
       "Hyperkalemia",
@@ -225,7 +283,7 @@
     "qtype": "factual"
   },
   {
-    "id": 945,
+    "id": 1051,
     "question": "Vitamin B12 deficiency causes:",
     "options": [
       "Scurvy",
@@ -250,7 +308,7 @@
     "qtype": "factual"
   },
   {
-    "id": 946,
+    "id": 1052,
     "question": "Vitamin C deficiency causes:",
     "options": [
       "Beriberi",
@@ -275,7 +333,7 @@
     "qtype": "factual"
   },
   {
-    "id": 947,
+    "id": 1053,
     "question": "Iron deficiency typically presents with:",
     "options": [
       "Macrocytic anemia",
@@ -300,7 +358,7 @@
     "qtype": "factual"
   },
   {
-    "id": 948,
+    "id": 1054,
     "question": "Diabetic diet planning emphasizes:",
     "options": [
       "Unlimited simple sugars",
@@ -325,7 +383,7 @@
     "qtype": "factual"
   },
   {
-    "id": 949,
+    "id": 1055,
     "question": "Fasting plasma glucose diagnostic for diabetes (classic cut-off) is:",
     "options": [
       "≥100 mg/dL",
@@ -350,7 +408,7 @@
     "qtype": "factual"
   },
   {
-    "id": 950,
+    "id": 1056,
     "question": "Glycolysis occurs in:",
     "options": [
       "Mitochondria only",
@@ -375,7 +433,7 @@
     "qtype": "factual"
   },
   {
-    "id": 951,
+    "id": 1057,
     "question": "Vitamin D deficiency in children causes:",
     "options": [
       "Pellagra",
@@ -400,7 +458,7 @@
     "qtype": "factual"
   },
   {
-    "id": 952,
+    "id": 1058,
     "question": "Iodine deficiency can lead to:",
     "options": [
       "Diabetes insipidus",
@@ -425,7 +483,7 @@
     "qtype": "factual"
   },
   {
-    "id": 953,
+    "id": 1059,
     "question": "Renal diet often restricts:",
     "options": [
       "Protein, sodium, potassium, phosphorus as needed",
@@ -450,7 +508,7 @@
     "qtype": "factual"
   },
   {
-    "id": 954,
+    "id": 1060,
     "question": "Normal serum sodium approximate range (mEq/L):",
     "options": [
       "120–125",
@@ -475,7 +533,7 @@
     "qtype": "factual"
   },
   {
-    "id": 955,
+    "id": 1061,
     "question": "Biochemistry Q11: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -500,7 +558,7 @@
     "qtype": "factual"
   },
   {
-    "id": 956,
+    "id": 1062,
     "question": "Biochemistry Q12: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -525,7 +583,7 @@
     "qtype": "factual"
   },
   {
-    "id": 957,
+    "id": 1063,
     "question": "Biochemistry Q13: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -550,7 +608,7 @@
     "qtype": "factual"
   },
   {
-    "id": 958,
+    "id": 1064,
     "question": "Biochemistry Q14: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -575,7 +633,7 @@
     "qtype": "factual"
   },
   {
-    "id": 959,
+    "id": 1065,
     "question": "Biochemistry Q15: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -600,7 +658,7 @@
     "qtype": "factual"
   },
   {
-    "id": 960,
+    "id": 1066,
     "question": "Biochemistry Q16: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -625,7 +683,7 @@
     "qtype": "factual"
   },
   {
-    "id": 961,
+    "id": 1067,
     "question": "Biochemistry Q17: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -650,7 +708,7 @@
     "qtype": "factual"
   },
   {
-    "id": 962,
+    "id": 1068,
     "question": "Biochemistry Q18: Ketone bodies increase in:",
     "options": [
       "Fed state",
@@ -675,58 +733,8 @@
     "qtype": "factual"
   },
   {
-    "id": 963,
+    "id": 1069,
     "question": "Biochemistry Q19: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 964,
-    "question": "Biochemistry Q20: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 965,
-    "question": "Biochemistry Q21: Ketone bodies increase in:",
     "options": [
       "Fed state",
       "Prolonged fasting / uncontrolled diabetes",

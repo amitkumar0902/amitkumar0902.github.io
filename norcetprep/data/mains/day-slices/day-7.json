@@ -1,31 +1,7 @@
 [
   {
-    "id": 10,
-    "question": "Yellow-coded BMW bag contains:",
-    "options": [
-      "General waste",
-      "Sharps",
-      "Human anatomical / soiled / micro / chem",
-      "Discarded medicines"
-    ],
-    "correct": 2,
-    "explanation": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
-    "explanations": {
-      "A": "General goes in black, not yellow.",
-      "B": "Sharps → white translucent puncture-proof.",
-      "C": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
-      "D": "Discarded meds go in yellow sub-category but whole bag label is broader — best answer is the full yellow list (C)."
-    },
-    "subject": "Community Health",
-    "topic": "BMW",
-    "day": 7,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 29,
+    "id": 14,
+    "_origId": "N6-5",
     "question": "Venturi mask color providing 24% FiO2 (low-concentration):",
     "options": [
       "Blue",
@@ -39,7 +15,7 @@
       "A": "Blue = 24% FiO2 at 2 L/min.",
       "B": "White = 28%.",
       "C": "Yellow = 35%.",
-      "D": "Red = 40% (or green on some sets)."
+      "D": "Red = 40% (or green on some Venturi sets)."
     },
     "subject": "Fundamentals",
     "topic": "Oxygen therapy",
@@ -47,11 +23,15 @@
     "difficulty": "Medium",
     "source": "NORCET 6 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 31,
-    "question": "Which does NOT belong to the 5 WHO moments of hand hygiene:",
+    "id": 16,
+    "_origId": "N6-7",
+    "question": "Which does NOT belong to the 5 WHO moments of hand hygiene?",
     "options": [
       "Before touching a patient",
       "Before clean/aseptic procedure",
@@ -59,12 +39,12 @@
       "After touching patient surroundings"
     ],
     "correct": 2,
-    "explanation": "NOT one of the 5 moments — irrelevant to clinical contact.",
+    "explanation": "Not one of the 5 WHO moments — irrelevant to clinical contact.",
     "explanations": {
-      "A": "Moment 1.",
-      "B": "Moment 2.",
-      "C": "NOT one of the 5 moments — irrelevant to clinical contact.",
-      "D": "Moment 5."
+      "A": "Moment 1 — before patient contact.",
+      "B": "Moment 2 — before aseptic procedure.",
+      "C": "Not one of the 5 WHO moments — irrelevant to clinical contact.",
+      "D": "Moment 5 — after touching patient surroundings."
     },
     "subject": "Fundamentals",
     "topic": "Hand hygiene",
@@ -72,10 +52,216 @@
     "difficulty": "Easy",
     "source": "NORCET 6 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 1115,
+    "id": 49,
+    "_origId": "N9-32",
+    "question": "A patient with central diabetes insipidus receives vasopressin. What is the expected effect on urine?",
+    "options": [
+      "Urine volume remains high",
+      "Urine specific gravity rises",
+      "Urine volume does not change",
+      "Urine specific gravity lowers"
+    ],
+    "correct": 1,
+    "explanation": "ADH concentrates urine — urine specific gravity rises toward normal.",
+    "explanations": {
+      "A": "Vasopressin promotes water reabsorption at the collecting duct; urine volume decreases.",
+      "B": "ADH concentrates urine — urine specific gravity rises toward normal.",
+      "C": "Urine volume and concentration change markedly with DDAVP in central DI.",
+      "D": "Lowering specific gravity is the opposite of the expected response."
+    },
+    "subject": "Fundamentals",
+    "topic": "Fluid balance / DI",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 51,
+    "_origId": "N9-34",
+    "question": "A patient presents with dilated pupils, elevated blood pressure, and tachycardia. What type of pain is this?",
+    "options": [
+      "Acute pain",
+      "Chronic pain",
+      "Neuropathic pain",
+      "Visceral pain"
+    ],
+    "correct": 0,
+    "explanation": "Sympathetic activation (mydriasis, ↑BP, tachycardia, diaphoresis) characterises acute pain.",
+    "explanations": {
+      "A": "Sympathetic activation (mydriasis, ↑BP, tachycardia, diaphoresis) characterises acute pain.",
+      "B": "Chronic pain usually has parasympathetic dominance with normal vitals and depression/fatigue.",
+      "C": "Neuropathic pain presents with burning/shooting sensations, less autonomic change.",
+      "D": "Visceral pain has diffuse poorly localised features — autonomic signs may overlap but acute pain is the textbook answer."
+    },
+    "subject": "Fundamentals",
+    "topic": "Pain assessment",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 52,
+    "_origId": "N9-35",
+    "question": "The passage of bright red blood per rectum is referred to as:",
+    "options": [
+      "Hematochezia",
+      "Melena",
+      "Hematemesis",
+      "Occult blood"
+    ],
+    "correct": 0,
+    "explanation": "Hematochezia = fresh bright red blood PR, usually lower GI bleed.",
+    "explanations": {
+      "A": "Hematochezia = fresh bright red blood PR, usually lower GI bleed.",
+      "B": "Melena = black tarry stool (upper GI bleed digested).",
+      "C": "Hematemesis = vomiting blood.",
+      "D": "Occult blood = microscopic, not visible."
+    },
+    "subject": "Fundamentals",
+    "topic": "GI bleeding",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 53,
+    "_origId": "N9-36",
+    "question": "A patient's chest tube becomes accidentally dislodged. What is the most appropriate immediate nursing action?",
+    "options": [
+      "Immerse the tube end in sterile saline",
+      "Apply an airtight dressing",
+      "Clamp the chest tube",
+      "Encourage deep breathing"
+    ],
+    "correct": 1,
+    "explanation": "Cover the site with a sterile petroleum-gauze / 3-sided dressing to prevent air entry and tension pneumothorax.",
+    "explanations": {
+      "A": "Re-immersing a dislodged tube risks introducing contamination; the priority is sealing the wound.",
+      "B": "Cover the site with a sterile petroleum-gauze / 3-sided dressing to prevent air entry and tension pneumothorax.",
+      "C": "Clamping a functioning chest drain can cause tension pneumothorax.",
+      "D": "Deep breathing worsens air entry through the open wound."
+    },
+    "subject": "Fundamentals",
+    "topic": "Chest tube",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 54,
+    "_origId": "N9-37",
+    "question": "During suctioning, a patient's oxygen saturation drops from 94% to 88%. What should be the immediate nursing action?",
+    "options": [
+      "Continue suctioning until airway clears",
+      "Stop suction and administer oxygen",
+      "Increase suction pressure and continue",
+      "Call the physician immediately"
+    ],
+    "correct": 1,
+    "explanation": "Stop suction, hyperoxygenate with 100% O2 via BMV/AMBU, allow recovery before re-suction.",
+    "explanations": {
+      "A": "Continuing causes further hypoxia and bradyarrhythmia.",
+      "B": "Stop suction, hyperoxygenate with 100% O2 via BMV/AMBU, allow recovery before re-suction.",
+      "C": "Higher suction pressure damages mucosa and doesn't address hypoxia.",
+      "D": "Physician notification is secondary to immediate resuscitation."
+    },
+    "subject": "Fundamentals",
+    "topic": "Airway suctioning",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 55,
+    "_origId": "N9-38",
+    "question": "The patient's urine output is 100 mL in 24 hours. How is this classified?",
+    "options": [
+      "Oliguria",
+      "Anuria",
+      "Polyuria",
+      "Normal urine output"
+    ],
+    "correct": 1,
+    "explanation": "Anuria is <100 mL/24 h — 100 mL lies at the cutoff and is labelled anuria in most Indian texts.",
+    "explanations": {
+      "A": "Oliguria = <400 mL/day (or <0.5 mL/kg/hr).",
+      "B": "Anuria is <100 mL/24 h — 100 mL lies at the cutoff and is labelled anuria in most Indian texts.",
+      "C": "Polyuria is >3 L/day.",
+      "D": "Normal adult output is 1000–2000 mL/day."
+    },
+    "subject": "Fundamentals",
+    "topic": "Urine output",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 135,
+    "_origId": "N9-118",
+    "question": "A 4-year-old on 50% high-flow oxygen. What is the most appropriate method to provide humidification?",
+    "options": [
+      "Use a dry oxygen delivery system",
+      "Provide intermittent humidification with a heated humidifier",
+      "Administer saline nebulization every hour",
+      "Use a cold mist humidifier continuously"
+    ],
+    "correct": 1,
+    "explanation": "Heated humidification at body temp/100% humidity is the standard for high-flow O2 — prevents mucosal injury.",
+    "explanations": {
+      "A": "Dry high-flow O2 dries mucosa and impairs ciliary function.",
+      "B": "Heated humidification at body temp/100% humidity is the standard for high-flow O2 — prevents mucosal injury.",
+      "C": "Hourly nebulization is excessive and fluid-risky.",
+      "D": "Cold mist has less evaporation efficiency and bronchospasm risk."
+    },
+    "subject": "Pediatric",
+    "topic": "Humidified oxygen therapy",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1221,
     "question": "Whole blood stored in blood bank is typically kept at approximately:",
     "options": [
       "0°C",
@@ -100,7 +286,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1117,
+    "id": 1223,
     "question": "Honey should be introduced in infant weaning typically:",
     "options": [
       "Before 6 months",
@@ -125,7 +311,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1130,
+    "id": 1236,
     "question": "Hand rub with alcohol-based sanitizer effective duration commonly taught:",
     "options": [
       "5 seconds",
@@ -150,7 +336,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1131,
+    "id": 1237,
     "question": "Yellow bio-medical waste bag is used for:",
     "options": [
       "General waste",
@@ -175,7 +361,7 @@
     "qtype": "factual"
   },
   {
-    "id": 284,
+    "id": 390,
     "syllabusId": "foundation-21-health-assessment",
     "question": "New admission head-to-toe.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -207,7 +393,7 @@
     ]
   },
   {
-    "id": 285,
+    "id": 391,
     "syllabusId": "foundation-22-urinary-catheter-care",
     "question": "Post-op with Foley 5 days.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -239,7 +425,7 @@
     ]
   },
   {
-    "id": 286,
+    "id": 392,
     "syllabusId": "foundation-23-chest-tube-care",
     "question": "Post-op thoracotomy with chest tube.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -271,7 +457,7 @@
     ]
   },
   {
-    "id": 287,
+    "id": 393,
     "syllabusId": "foundation-24-thoracentesis",
     "question": "Pleural effusion 1.5 L.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -303,7 +489,7 @@
     ]
   },
   {
-    "id": 289,
+    "id": 395,
     "syllabusId": "foundation-26-pulmonary-artery-catheter",
     "question": "ICU patient with unclear fluid status.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -335,7 +521,7 @@
     ]
   },
   {
-    "id": 758,
+    "id": 864,
     "question": "First-line drug for anaphylaxis:",
     "options": [
       "Oral antihistamine only",
@@ -360,7 +546,7 @@
     "qtype": "factual"
   },
   {
-    "id": 759,
+    "id": 865,
     "question": "Typical adult Hb lower limit (female approx):",
     "options": [
       "10 g/dL",
@@ -385,7 +571,7 @@
     "qtype": "factual"
   },
   {
-    "id": 760,
+    "id": 866,
     "question": "Open fracture priority includes:",
     "options": [
       "Immediate ROM exercises",
@@ -410,7 +596,7 @@
     "qtype": "factual"
   },
   {
-    "id": 763,
+    "id": 869,
     "question": "Clinical pathology Q9: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -435,7 +621,7 @@
     "qtype": "factual"
   },
   {
-    "id": 764,
+    "id": 870,
     "question": "Clinical pathology Q10: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -460,7 +646,7 @@
     "qtype": "factual"
   },
   {
-    "id": 765,
+    "id": 871,
     "question": "Clinical pathology Q11: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -485,7 +671,7 @@
     "qtype": "factual"
   },
   {
-    "id": 766,
+    "id": 872,
     "question": "Clinical pathology Q12: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -510,7 +696,7 @@
     "qtype": "factual"
   },
   {
-    "id": 767,
+    "id": 873,
     "question": "Clinical pathology Q13: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -535,7 +721,7 @@
     "qtype": "factual"
   },
   {
-    "id": 768,
+    "id": 874,
     "question": "Clinical pathology Q14: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -560,7 +746,7 @@
     "qtype": "factual"
   },
   {
-    "id": 769,
+    "id": 875,
     "question": "Clinical pathology Q15: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -585,7 +771,7 @@
     "qtype": "factual"
   },
   {
-    "id": 770,
+    "id": 876,
     "question": "Clinical pathology Q16: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -610,7 +796,7 @@
     "qtype": "factual"
   },
   {
-    "id": 771,
+    "id": 877,
     "question": "Clinical pathology Q17: Platelet count very low increases risk of:",
     "options": [
       "Thrombosis",
@@ -632,156 +818,6 @@
     "difficulty": "Medium",
     "source": "Practice",
     "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 772,
-    "question": "Clinical pathology Q18: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 773,
-    "question": "What is the correct sequence of the nursing process?",
-    "options": [
-      "Assessment, Planning, Diagnosis, Implementation, Evaluation",
-      "Assessment, Diagnosis, Planning, Implementation, Evaluation",
-      "Diagnosis, Assessment, Planning, Implementation, Evaluation",
-      "Planning, Assessment, Diagnosis, Implementation, Evaluation"
-    ],
-    "correct": 1,
-    "explanation": "• The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation.\n• This systematic approach ensures comprehensive patient care.",
-    "explanations": {
-      "A": "\"Assessment, Planning, Diagnosis, Implementation, Evaluation\" is a plausible distractor but incorrect. The correct answer is B (\"Assessment, Diagnosis, Planning, Implementation, Evaluation\") — The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care.",
-      "B": "The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care.",
-      "C": "\"Diagnosis, Assessment, Planning, Implementation, Evaluation\" is a plausible distractor but incorrect. The correct answer is B (\"Assessment, Diagnosis, Planning, Implementation, Evaluation\") — The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care.",
-      "D": "\"Planning, Assessment, Diagnosis, Implementation, Evaluation\" is a plausible distractor but incorrect. The correct answer is B (\"Assessment, Diagnosis, Planning, Implementation, Evaluation\") — The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care."
-    },
-    "subject": "Fundamentals",
-    "topic": "Nursing Process",
-    "day": 7,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 774,
-    "question": "What is the minimum time required for effective hand hygiene using alcohol-based hand rub?",
-    "options": [
-      "10-15 seconds",
-      "20-30 seconds",
-      "40-60 seconds",
-      "2-3 minutes"
-    ],
-    "correct": 1,
-    "explanation": "• Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry.\n• This is the WHO recommended duration for effective hand hygiene.",
-    "explanations": {
-      "A": "\"10-15 seconds\" is a plausible distractor but incorrect. The correct answer is B (\"20-30 seconds\") — Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
-      "B": "Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
-      "C": "\"40-60 seconds\" is a plausible distractor but incorrect. The correct answer is B (\"20-30 seconds\") — Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
-      "D": "\"2-3 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"20-30 seconds\") — Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene."
-    },
-    "subject": "Fundamentals",
-    "topic": "Infection Control",
-    "day": 7,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 775,
-    "question": "Which vital sign should be assessed first in an emergency situation?",
-    "options": [
-      "Blood pressure",
-      "Temperature",
-      "Respiratory rate",
-      "Pulse rate"
-    ],
-    "correct": 2,
-    "explanation": "• In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach.\n• Airway and breathing take priority.",
-    "explanations": {
-      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is C (\"Respiratory rate\") — In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
-      "B": "\"Temperature\" is a plausible distractor but incorrect. The correct answer is C (\"Respiratory rate\") — In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
-      "C": "In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
-      "D": "\"Pulse rate\" is a plausible distractor but incorrect. The correct answer is C (\"Respiratory rate\") — In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority."
-    },
-    "subject": "Fundamentals",
-    "topic": "Vital Signs",
-    "day": 7,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 776,
-    "question": "What is the correct angle for intramuscular injection in the deltoid muscle?",
-    "options": [
-      "45 degrees",
-      "60 degrees",
-      "90 degrees",
-      "30 degrees"
-    ],
-    "correct": 2,
-    "explanation": "• Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
-    "explanations": {
-      "A": "\"45 degrees\" is a plausible distractor but incorrect. The correct answer is C (\"90 degrees\") — Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
-      "B": "\"60 degrees\" is a plausible distractor but incorrect. The correct answer is C (\"90 degrees\") — Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
-      "C": "Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
-      "D": "\"30 degrees\" is a plausible distractor but incorrect. The correct answer is C (\"90 degrees\") — Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue."
-    },
-    "subject": "Fundamentals",
-    "topic": "Medication Administration",
-    "day": 7,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 777,
-    "question": "Which position is best for a patient with dyspnea?",
-    "options": [
-      "Supine",
-      "High Fowler's position",
-      "Trendelenburg",
-      "Lateral"
-    ],
-    "correct": 1,
-    "explanation": "• High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
-    "explanations": {
-      "A": "\"Supine\" is a plausible distractor but incorrect. The correct answer is B (\"High Fowler's position\") — High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
-      "B": "High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
-      "C": "\"Trendelenburg\" is a plausible distractor but incorrect. The correct answer is B (\"High Fowler's position\") — High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
-      "D": "\"Lateral\" is a plausible distractor but incorrect. The correct answer is B (\"High Fowler's position\") — High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing."
-    },
-    "subject": "Fundamentals",
-    "topic": "Patient Positioning",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
     "qtype": "factual"
   }
 ]

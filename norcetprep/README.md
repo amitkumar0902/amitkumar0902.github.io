@@ -52,11 +52,28 @@ and the companion NORCET High-Yield YouTube playlist.
 
 ```bash
 cd norcetprep/scripts
-node build-syllabus.mjs           # rebuild syllabus.json from PDF topics
-node consolidate-notes.mjs        # merge notes-content*.mjs → data/mains/notes/<section>.json
-node gen-highyield.mjs            # per-topic scenario MCQs → data/mains/topics/high-yield/<section>.json
-node build-mains-bank.mjs         # unified bank + 10 mocks + PYQ mock + audits (runs audit-highyield.mjs at end)
+node build-syllabus.mjs               # rebuild syllabus.json from PDF topics
+node consolidate-notes.mjs            # merge notes-content*.mjs → data/mains/notes/<section>.json
+node gen-highyield.mjs                # per-topic scenario MCQs → data/mains/topics/high-yield/<section>.json
+node enrich-syllabus-frequency.mjs    # apply topper frequency-analysis.json → syllabus.json (adds 'critical' tier + frequencyScore)
+node build-mains-bank.mjs             # unified bank + 10 mocks + PYQ mock + NORCET-9 verbatim replay + audits
 ```
+
+The builder globs every JSON file under `data/mains/pyqs/` as the
+source of truth for PYQ rows, so adding a new Mains paper is a matter
+of dropping a well-formed `<paper>.json` in that folder. The current
+set is:
+
+- `pyqs/norcet-9-mains-2025.json` — 121 Qs, verbatim from the official
+  PDF (`imp/NORCET- 9 MAINS.pdf`).
+- `pyqs/norcet-6-7-8-recalls.json` — 17 memory-based recalls.
+
+The topper frequency table lives in `data/mains/frequency-analysis.json`
+(transcribed from the WhatsApp images in `imp/`). Any topic appearing
+in ≥ 8 paper-sittings is promoted to the **`critical`** priority tier
+during the enrich step above; the Topper page
+(`mains-plan/toppers.html`) renders the full ranked table and links
+each row back into the matched syllabus entry's notes + MCQs.
 
 ### Enabling cross-device sync (Firebase) + remote reporting
 

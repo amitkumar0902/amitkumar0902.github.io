@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topper Frequency Analysis · NORCET Mains 2026</title>
+  <meta name="description" content="AIIMS NORCET toppers' topic-wise appearance analysis across NORCET 1.0 to 9.0 (Prelims + Mains) — ranked by repetition frequency with direct links to study every topic.">
+  <link rel="canonical" href="https://amitkumar0902.github.io/norcetprep/mains-plan/toppers.html">
+  <link rel="stylesheet" href="../css/mains-theme.css">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <script src="../js/core.js" defer></script>
+  <style>
+    .topper-hero {
+      padding: 1.5rem; border-radius: 8px;
+      background: linear-gradient(135deg, rgba(255,59,48,0.08), rgba(255,149,0,0.08));
+      border: 1px solid rgba(255,149,0,0.3); margin-bottom: 1.5rem;
+    }
+    .topper-hero h1 { margin: 0 0 0.5rem; font-size: 1.6rem; }
+    .topper-hero p { margin: 0.35rem 0; color: var(--muted, #aaa); }
+    .topper-hero .badges { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; }
+    .topper-hero .badges span {
+      font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 12px;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .topper-filters {
+      display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
+      padding: 0.75rem; background: rgba(255,255,255,0.03); border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+    .topper-filters input[type=search] {
+      padding: 0.4rem 0.6rem; background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1); color: inherit;
+      border-radius: 4px; min-width: 220px;
+    }
+    .topper-filters select {
+      padding: 0.4rem 0.5rem; background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1); color: inherit; border-radius: 4px;
+    }
+
+    table.topper-table {
+      width: 100%; border-collapse: collapse; font-size: 0.9rem;
+    }
+    table.topper-table th, table.topper-table td {
+      padding: 0.55rem 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.08);
+      text-align: left; vertical-align: top;
+    }
+    table.topper-table th {
+      font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em;
+      color: var(--muted, #888); position: sticky; top: 0;
+      background: var(--bg, #0e0e12);
+    }
+    table.topper-table tr:hover { background: rgba(255,255,255,0.03); }
+    .rank { font-weight: 700; color: var(--accent, #4ae); min-width: 2.5rem; }
+    .freq-cell {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-weight: 600; font-size: 0.95rem;
+    }
+    .freq-cell .bar {
+      height: 6px; border-radius: 3px; min-width: 20px;
+      background: linear-gradient(90deg, #ff3b30, #ff9500);
+    }
+    .topic-cell { font-weight: 500; }
+    .keywords { font-size: 0.78rem; color: var(--muted, #888); display: block; margin-top: 0.2rem; }
+    .appearances {
+      display: flex; gap: 0.25rem; flex-wrap: wrap;
+    }
+    .appearances span {
+      font-size: 0.7rem; padding: 0.12rem 0.4rem; border-radius: 3px;
+      background: rgba(74,170,238,0.1); color: #4ae;
+      border: 1px solid rgba(74,170,238,0.2);
+    }
+    .critical-row td { background: rgba(255,59,48,0.05); }
+    .critical-row .rank { color: #ff6b60; }
+
+    .mini-btn {
+      display: inline-block; padding: 0.25rem 0.5rem; font-size: 0.75rem;
+      border-radius: 3px; background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1); color: inherit;
+      text-decoration: none; margin-right: 0.25rem; margin-top: 0.2rem;
+    }
+    .mini-btn:hover { background: rgba(255,255,255,0.12); }
+
+    @media (max-width: 720px) {
+      table.topper-table th:nth-child(3),
+      table.topper-table td:nth-child(3) { display: none; }
+    }
+  </style>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', async () => {
+      NM.boot('toppers');
+      const freq = await fetch('../data/mains/frequency-analysis.json').then(r => r.json());
+      const syllabus = await fetch('../data/mains/syllabus.json').then(r => r.json()).catch(() => []);
+      const coverage = await fetch('../data/mains/_audit/frequency-coverage.json').then(r => r.json()).catch(() => ({ perRowMatchCounts: {} }));
+
+      const criticalThreshold = freq._meta?.criticalThreshold || 8;
+      const syllabusById = {};
+      for (const s of syllabus) syllabusById[s.id] = s;
+
+      const rows = [...(freq.rows || [])].sort((a, b) => (b.frequency || 0) - (a.frequency || 0));
+      const maxFreq = rows[0] ? rows[0].frequency : 1;
+
+      const totalAppearances = rows.reduce((sum, r) => sum + (r.frequency || 0), 0);
+      const criticalCount = rows.filter(r => (r.frequency || 0) >= criticalThreshold).length;
+      document.getElementById('stat-rows').textContent = rows.length;
+      document.getElementById('stat-critical').textContent = criticalCount;
+      document.getElementById('stat-appearances').textContent = totalAppearances;
+
+      const tbody = document.getElementById('tbody');
+      let search = '';
+      let minFreq = 1;
+
+      function render() {
+        const q = search.toLowerCase();
+        const filtered = rows.filter(r =>
+          (r.frequency || 0) >= minFreq &&
+          (!q ||
+            (r.topic || '').toLowerCase().includes(q) ||
+            (r.keywords || []).some(k => k.toLowerCase().includes(q)))
+        );
+        tbody.innerHTML = '';
+        filtered.forEach((r, idx) => {
+          const isCritical = (r.frequency || 0) >= criticalThreshold;
+          const widthPct = Math.max(8, Math.round(((r.frequency || 0) / maxFreq) * 100));
+          const matchInfo = coverage.perRowMatchCounts?.[r.id] || { strong: 0, loose: 0 };
+          const matchedIds = (coverage.matchedTopicsByRow?.[r.id] || []).slice(0, 3);
+
+          // Build quick-action links using the first strong-match topic id (if any).
+          const firstMatch = matchedIds[0];
+          const linkBits = [];
+          if (firstMatch && syllabusById[firstMatch]) {
+            const sec = syllabusById[firstMatch].section;
+            linkBits.push(`<a class="mini-btn" href="notes/index.html?section=${encodeURIComponent(sec)}#${encodeURIComponent(firstMatch)}">📖 Notes</a>`);
+            linkBits.push(`<a class="mini-btn" href="bank.html?syllabusId=${encodeURIComponent(firstMatch)}">🎯 MCQs</a>`);
+          }
+          linkBits.push(`<a class="mini-btn" href="syllabus.html#${encodeURIComponent(firstMatch || '')}">📋 Syllabus</a>`);
+
+          const tr = document.createElement('tr');
+          if (isCritical) tr.classList.add('critical-row');
+          tr.innerHTML = `
+            <td class="rank">${idx + 1}</td>
+            <td class="topic-cell">
+              <strong>${r.topic}</strong>${isCritical ? ' <span style="color:#ff6b60;font-size:0.75rem">🔥 CRITICAL</span>' : ''}
+              ${r.keywords?.length ? `<span class="keywords">Keywords: ${r.keywords.slice(0, 4).join(', ')}${r.keywords.length > 4 ? ', …' : ''}</span>` : ''}
+              <div>${linkBits.join('')}</div>
+            </td>
+            <td>
+              <div class="appearances" aria-label="Appeared in: ${(r.appearances || []).join(', ')}">
+                ${(r.appearances || []).map(a => `<span>${a.replace('NORCET-', '').replace(' ', '·')}</span>`).join('')}
+              </div>
+            </td>
+            <td>
+              <div class="freq-cell">
+                <div class="bar" style="width:${widthPct}px"></div>
+                <span>${r.frequency || 0}×</span>
+              </div>
+              <small style="color: var(--muted, #888); font-size: 0.72rem;">
+                ${matchInfo.strong || 0} syllabus match${matchInfo.strong === 1 ? '' : 'es'}
+              </small>
+            </td>
+          `;
+          tbody.appendChild(tr);
+        });
+        document.getElementById('filter-count').textContent =
+          `${filtered.length} of ${rows.length}`;
+      }
+
+      document.getElementById('search').addEventListener('input', (e) => {
+        search = e.target.value.trim();
+        render();
+      });
+      document.getElementById('minfreq').addEventListener('change', (e) => {
+        minFreq = Number(e.target.value) || 1;
+        render();
+      });
+
+      render();
+    });
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="index.html">← Back to 13-Day Plan</a>
+
+  <section class="topper-hero">
+    <h1>🏆 Topper Frequency Analysis</h1>
+    <p><strong>Source:</strong> AIIMS NORCET toppers' community — PYQ topic-wise analysis across <strong>NORCET 1.0 → NORCET 9.0</strong> (Prelims + Mains sittings).</p>
+    <p>Each appearance = one paper-sitting in which that topic was tested. Topics appearing <strong>8+ times</strong> are promoted to the <em>critical</em> tier on the syllabus.</p>
+    <div class="badges">
+      <span>📊 <span id="stat-rows">–</span> high-yield topics</span>
+      <span>🔥 <span id="stat-critical">–</span> critical tier (≥8 papers)</span>
+      <span>🎯 <span id="stat-appearances">–</span> total appearances counted</span>
+    </div>
+  </section>
+
+  <div class="topper-filters">
+    <input id="search" type="search" placeholder="Search topic or keyword (e.g. MgSO4, TPN, CTG)..." autocomplete="off">
+    <label>Min frequency:
+      <select id="minfreq">
+        <option value="1">1+ (all)</option>
+        <option value="3">3+</option>
+        <option value="5">5+</option>
+        <option value="8">8+ (critical)</option>
+      </select>
+    </label>
+    <span id="filter-count" style="margin-left:auto;color:var(--muted,#888);font-size:0.85rem;"></span>
+  </div>
+
+  <table class="topper-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Topic</th>
+        <th>Appearances</th>
+        <th>Frequency</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <aside style="margin-top:2rem;padding:1rem;background:rgba(255,255,255,0.03);border-radius:6px;font-size:0.88rem;color:var(--muted,#aaa);">
+    <strong>How to use this table:</strong> start with the critical-tier rows (≥8 papers).
+    Every critical topic has a scenario-first note, at least one practice MCQ, and appears in ≥1 full mock.
+    Jump to <a href="syllabus.html">Syllabus → sort by "Critical first"</a> to track completion;
+    or take the verbatim <a href="mocks/index.html">NORCET-9 Mains replay mock</a>.
+  </aside>
+</main>
+</body>
+</html>

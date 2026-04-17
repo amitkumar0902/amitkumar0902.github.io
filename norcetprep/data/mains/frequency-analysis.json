@@ -1,0 +1,414 @@
+{
+  "_meta": {
+    "source": "Next NORCET High-Yield Topics — AIIMS toppers' PYQ topic-wise analysis (NORCET 1.0 to NORCET 9.0, Prelims + Mains)",
+    "images": [
+      "imp/WhatsApp Image 2026-04-17 at 09.42.28.jpeg",
+      "imp/WhatsApp Image 2026-04-17 at 09.42.28 (1).jpeg",
+      "imp/WhatsApp Image 2026-04-17 at 09.42.28 (2).jpeg"
+    ],
+    "extracted": "2026-04-17",
+    "criticalThreshold": 8,
+    "note": "Each appearance = one paper-sitting (Prelims + Mains count separately). A topic with frequency >= 8 is promoted to priority 'critical'."
+  },
+  "rows": [
+    {
+      "id": "freq-mhca-act",
+      "topic": "MHCA Act 2017",
+      "keywords": ["MHCA", "Mental Healthcare Act", "Mental Health Act", "mental health care", "Code of ethics"],
+      "appearances": ["NORCET-1.0", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6 Prelims", "NORCET-7 Prelims"],
+      "frequency": 5
+    },
+    {
+      "id": "freq-gcs-apache",
+      "topic": "GCS / GCS-P / APACHE",
+      "keywords": ["Glasgow Coma", "GCS", "APACHE", "coma scale"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-3.0 S-II", "NORCET-5.0 S-I", "NORCET-5.0 S-II", "NORCET-7.0 Prelims"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-iv-cannula-fluids",
+      "topic": "IV Cannula, IV Fluids (NS, RL)",
+      "keywords": ["IV cannula", "intravenous cannula", "IV fluid", "normal saline", "ringer lactate", "crystalloid"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-II", "NORCET-3.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-tpn",
+      "topic": "TPN & Complications",
+      "keywords": ["TPN", "total parenteral nutrition", "parenteral nutrition"],
+      "appearances": ["NORCET-1.0", "NORCET-3.0", "NORCET-4.0", "NORCET-5.0 Prelims"],
+      "frequency": 4
+    },
+    {
+      "id": "freq-infiltration-phlebitis",
+      "topic": "Infiltration & Phlebitis",
+      "keywords": ["infiltration", "phlebitis", "IV complications", "extravasation", "IV cannula", "Lines and tubes"],
+      "appearances": ["NORCET-1.0", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims"],
+      "frequency": 4
+    },
+    {
+      "id": "freq-opioids-morphine",
+      "topic": "Opioids / Morphine",
+      "keywords": ["opioid", "morphine", "fentanyl", "pethidine", "naloxone"],
+      "appearances": ["NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 5
+    },
+    {
+      "id": "freq-akathisia-eps",
+      "topic": "Akathisia / EPS",
+      "keywords": ["akathisia", "extrapyramidal", "EPS", "tardive dyskinesia", "dystonia", "parkinsonism antipsychotic"],
+      "appearances": ["NORCET-3.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-ctg-nst-cst",
+      "topic": "NST / CST / CTG - Accelerations & Decelerations",
+      "keywords": ["CTG", "cardiotocograph", "NST", "non-stress test", "CST", "contraction stress test", "deceleration", "acceleration", "fetal heart rate"],
+      "appearances": ["NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-5.0 S-II", "NORCET-6.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-contraception",
+      "topic": "Copper-T / IUCD / DMPA / Emergency contraceptive / OCP",
+      "keywords": ["Copper-T", "IUCD", "IUD", "DMPA", "emergency contraception", "OCP", "oral contraceptive", "contraception"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 15
+    },
+    {
+      "id": "freq-electrolytes",
+      "topic": "Electrolytes (K+, Na+, Ca+) / ECG / CKD, HF",
+      "keywords": ["hyperkalemia", "hypokalemia", "hyponatremia", "hypernatremia", "hypocalcemia", "hypercalcemia", "electrolyte", "sodium", "potassium", "calcium"],
+      "appearances": ["NORCET-3.0 S-I", "NORCET-4.0", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-mania-depression-bpd",
+      "topic": "Mania & Depression, BPD",
+      "keywords": ["mania", "manic", "depression", "bipolar", "BPD", "dysthymia", "cyclothymia", "MDD"],
+      "appearances": ["NORCET-3.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Prelims"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-psychotherapies",
+      "topic": "Psychotherapies (Aversion, CBT, Milieu, Play therapy)",
+      "keywords": ["psychotherapy", "CBT", "cognitive behavioral", "aversion therapy", "milieu", "play therapy", "DBT", "dialectical"],
+      "appearances": ["NORCET-3.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Prelims"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-anaesthesia-ot",
+      "topic": "Anaesthesia, OT instruments, WHO Surgical Safety Checklist, Antibiotic prophylaxis & Fasting, Pre/Post-op Nursing Care, Vaporisers, BMW",
+      "keywords": ["anesthesia", "anaesthesia", "OT instrument", "operating theatre", "surgical safety checklist", "antibiotic prophylaxis", "NPO", "fasting guideline", "preoperative", "postoperative", "vaporiser", "biomedical waste", "BMW"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 14
+    },
+    {
+      "id": "freq-vaccines",
+      "topic": "Vaccines (BCG, OPV, Rotavirus, HepB, JE, DPT, MMR, Rabies)",
+      "keywords": ["vaccine", "immunization", "immunisation", "BCG", "OPV", "IPV", "rotavirus", "hepatitis B", "DPT", "MMR", "rabies", "JE", "vaccine schedule"],
+      "appearances": ["NORCET-3.0 S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-poisoning-antidotes",
+      "topic": "Poisoning / Antidotes",
+      "keywords": ["poisoning", "antidote", "organophosphate", "paracetamol overdose", "naloxone", "pralidoxime", "N-acetylcysteine", "flumazenil"],
+      "appearances": ["NORCET-4.0 S-I", "NORCET-5.0 S-I", "NORCET-5.0 S-II", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-hand-hygiene-bmwm",
+      "topic": "WHO Hand Hygiene / BMWM",
+      "keywords": ["hand hygiene", "WHO 5 moments", "hand washing", "biomedical waste management", "BMWM", "color coded bag", "Spill management", "standard precautions", "Infection control"],
+      "appearances": ["NORCET-2.0 S-II", "NORCET-3.0 S-I", "NORCET-4.0 S-I"],
+      "frequency": 3
+    },
+    {
+      "id": "freq-shoulder-dystocia-breech",
+      "topic": "Shoulder Dystocia, Breech Delivery, Amniotomy, Episiotomy, Uterine Laceration, GTD",
+      "keywords": ["shoulder dystocia", "breech delivery", "amniotomy", "episiotomy", "uterine laceration", "GTD", "molar pregnancy", "hydatidiform"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-5.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 10
+    },
+    {
+      "id": "freq-menstrual-cycle-obg",
+      "topic": "Menstrual cycle, Fetal Circulation, Pregnancy signs, Oestrogen/Progestogen/HCG, Anti-D, Oxytocin, Breastfeeding, Abortion",
+      "keywords": ["menstrual cycle", "fetal circulation", "ductus venosus", "pregnancy signs", "estrogen", "progesterone", "HCG", "anti-D", "Rh isoimmunization", "oxytocin", "breastfeeding", "abortion", "MTP"],
+      "appearances": ["NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 9
+    },
+    {
+      "id": "freq-amtsl-gtpal-edd",
+      "topic": "AMTSL, GTPAL and EDD",
+      "keywords": ["AMTSL", "active management third stage", "GTPAL", "GPAL", "TPAL", "obstetric score", "EDD", "Naegele"],
+      "appearances": ["NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-4.0 S-I", "NORCET-5.0 Prelims", "NORCET-5.0 Mains", "NORCET-7.0 Prelims"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-personality-defense",
+      "topic": "Personality Disorders / Defense Mechanism",
+      "keywords": ["personality disorder", "borderline personality", "BPD", "antisocial", "narcissistic", "defense mechanism", "defence mechanism", "denial", "projection", "repression"],
+      "appearances": ["NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-national-health-programs",
+      "topic": "National Health Programs (AMB, PSMA, NTEP, IMNCI)",
+      "keywords": ["national health program", "AMB", "Anemia Mukt Bharat", "PSMA", "PMSMA", "NTEP", "IMNCI", "RBSK", "RKSK", "Poshan", "NHM"],
+      "appearances": ["NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 7
+    },
+    {
+      "id": "freq-mechanical-ventilation",
+      "topic": "Mechanical Ventilation with COPD, BiPAP / ICU Care",
+      "keywords": ["mechanical ventilation", "ventilator", "COPD", "BiPAP", "CPAP", "NIV", "non-invasive ventilation", "ICU care", "PEEP", "tidal volume", "weaning"],
+      "appearances": ["NORCET-3.0 S-II", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 10
+    },
+    {
+      "id": "freq-abg-acid-base",
+      "topic": "ABG / Acid-Base Disorders (Respiratory/Metabolic Acidosis & Alkalosis)",
+      "keywords": ["ABG", "arterial blood gas", "acid-base", "respiratory acidosis", "respiratory alkalosis", "metabolic acidosis", "metabolic alkalosis", "bicarbonate", "pH"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 14
+    },
+    {
+      "id": "freq-adr-epinephrine",
+      "topic": "ADR / Epinephrine / Adrenaline",
+      "keywords": ["epinephrine", "adrenaline", "ADR", "anaphylaxis", "anaphylactic"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-2.0 S-II", "NORCET-3.0 S-I", "NORCET-3.0 S-II", "NORCET-5.0 Mains", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 10
+    },
+    {
+      "id": "freq-drug-calculation",
+      "topic": "Drug Calculation / Dose",
+      "keywords": ["drug calculation", "dose calculation", "drip rate", "infusion rate", "mg/kg", "mcg/kg/min", "drops per minute"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0", "NORCET-5.0 Prelims", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 11
+    },
+    {
+      "id": "freq-aha-cpr-bls-acls",
+      "topic": "AHA Guidelines: CPR / BLS / ACLS / Neonatal Resuscitation / Defib & Cardioversion",
+      "keywords": ["BLS", "ACLS", "CPR", "cardiopulmonary resuscitation", "AHA", "defibrillation", "cardioversion", "neonatal resuscitation", "NRP"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-2.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 12
+    },
+    {
+      "id": "freq-burns-pressure-sore",
+      "topic": "Burn with Management / Pressure sore with management",
+      "keywords": ["burn", "Parkland", "TBSA", "pressure sore", "pressure ulcer", "decubitus", "rule of nine"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 11
+    },
+    {
+      "id": "freq-ecg-changes",
+      "topic": "ECG / Changes / IBQs",
+      "keywords": ["ECG", "electrocardiogram", "ST elevation", "ST depression", "arrhythmia", "heart block"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-2.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 9
+    },
+    {
+      "id": "freq-et-tube-das",
+      "topic": "ET Tube / Sizes / Suctioning / Difficult Intubation / DAS guidelines",
+      "keywords": ["ET tube", "endotracheal tube", "intubation", "suctioning", "DAS", "difficult airway", "bougie"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-5.0 Prelims", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 11
+    },
+    {
+      "id": "freq-allen-abg-test",
+      "topic": "Allen Test and ABG Test",
+      "keywords": ["Allen test", "modified Allen", "radial artery", "ABG sampling", "ABG interpretation", "Arterial blood gas"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-5.0 Prelims", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-8.0 Mains"],
+      "frequency": 9
+    },
+    {
+      "id": "freq-cvp-monitoring",
+      "topic": "CVP & Monitoring, Waveforms",
+      "keywords": ["CVP", "central venous pressure", "hemodynamic monitoring", "waveform"],
+      "appearances": ["NORCET-1.0", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-9.0 Prelims"],
+      "frequency": 4
+    },
+    {
+      "id": "freq-drug-admin-calc",
+      "topic": "Drug administration & Dose Calculation",
+      "keywords": ["drug administration", "IV push", "bolus", "Z-track", "6 rights", "medication error"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-2.0 S-II", "NORCET-3.0 S-I", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 17
+    },
+    {
+      "id": "freq-airway-management",
+      "topic": "Airway Management",
+      "keywords": ["airway management", "airway patency", "head tilt", "chin lift", "jaw thrust"],
+      "appearances": ["NORCET-1.0", "NORCET-3.0 S-I", "NORCET-4.0", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 9
+    },
+    {
+      "id": "freq-airway-adjuncts",
+      "topic": "Adjuncts & Maneuvers (LMA, NPA, OPA, AMBU Bag, Laryngoscope)",
+      "keywords": ["LMA", "laryngeal mask", "NPA", "nasopharyngeal airway", "OPA", "oropharyngeal airway", "AMBU bag", "bag valve mask", "laryngoscope"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-2.0 S-II", "NORCET-3.0 S-I", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 16
+    },
+    {
+      "id": "freq-trauma-fast-atls-triage",
+      "topic": "Trauma & Emergency — FAST / e-FAST / ATLS / Triage",
+      "keywords": ["trauma", "FAST", "e-FAST", "ATLS", "triage", "primary survey", "secondary survey", "mass casualty"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-2.0 S-II", "NORCET-3.0 S-I", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 16
+    },
+    {
+      "id": "freq-emergency-maneuvers",
+      "topic": "Emergency Maneuvers (Valsalva, Heimlich, Sellick, Jaw Thrust, Head-tilt Chin-lift, Triple Maneuver)",
+      "keywords": ["Valsalva", "Heimlich", "Sellick", "cricoid pressure", "jaw thrust", "head tilt chin lift", "triple maneuver", "Vagal maneuver", "Airway management"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0 S-I", "NORCET-2.0 S-II", "NORCET-3.0 S-I", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 16
+    },
+    {
+      "id": "freq-obg-maneuvers",
+      "topic": "OBG Maneuvers — Shoulder Dystocia, Breech, Leopold",
+      "keywords": ["shoulder dystocia", "McRoberts", "Woods screw", "breech maneuver", "Pinard", "Leopold", "Mauriceau"],
+      "appearances": ["NORCET-1.0", "NORCET-5.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-lumbar-liver-biopsy",
+      "topic": "Lumbar Puncture, Liver Biopsy",
+      "keywords": ["lumbar puncture", "LP", "spinal tap", "liver biopsy", "post-LP headache"],
+      "appearances": ["NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-schizophrenia-eps-maoi",
+      "topic": "Schizophrenia / EPS / MAOI",
+      "keywords": ["schizophrenia", "first rank symptom", "Schneider", "delusion", "hallucination", "MAOI", "monoamine oxidase", "tyramine"],
+      "appearances": ["NORCET-2.0 S-I", "NORCET-3.0 S-II", "NORCET-5.0 Prelims", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-blood-transfusion",
+      "topic": "Blood Transfusion / Reaction / MBT",
+      "keywords": ["blood transfusion", "transfusion reaction", "hemolytic reaction", "febrile reaction", "massive transfusion", "MBT", "FFP", "platelet transfusion"],
+      "appearances": ["NORCET-3.0 S-I", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-central-picc",
+      "topic": "Central Line, PICC Line / Insertion / Complications",
+      "keywords": ["central line", "central venous catheter", "CVC", "PICC", "triple lumen", "pneumothorax CVC", "catheter insertion", "CVP care", "Pulmonary artery catheter"],
+      "appearances": ["NORCET-2.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-alcoholism-withdrawal",
+      "topic": "Alcoholism / Withdrawal / AER",
+      "keywords": ["alcoholism", "alcohol dependence", "withdrawal", "delirium tremens", "DT", "Wernicke", "disulfiram", "CAGE", "AER"],
+      "appearances": ["NORCET-4.0", "NORCET-5.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-trauma-emergency-medicine",
+      "topic": "Trauma & Emergency Medicine",
+      "keywords": ["trauma care", "emergency medicine", "polytrauma", "spinal injury", "c-spine", "Basics of trauma", "Head injury", "Abdominal trauma", "Thoracic trauma"],
+      "appearances": ["NORCET-1.0", "NORCET-4.0 S-I", "NORCET-6.0 Prelims", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-who-imnci-malnutrition-kmc",
+      "topic": "WHO IMNCI / Malnutrition / Dehydration / KMC / IFA / Vit-B12",
+      "keywords": ["IMNCI", "IMCI", "malnutrition", "SAM", "MAM", "kwashiorkor", "marasmus", "dehydration", "ORS", "KMC", "kangaroo mother", "IFA", "iron folic acid", "vitamin B12"],
+      "appearances": ["NORCET-1.0", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 9
+    },
+    {
+      "id": "freq-clinical-scoring",
+      "topic": "Clinical Scoring (APGAR, MMSE, BPP, GCS, aPTT, INR, Mantoux, Shake, Widal, CBC, Downes)",
+      "keywords": ["APGAR", "MMSE", "biophysical profile", "BPP", "aPTT", "INR", "Mantoux test", "shake test", "Widal", "CBC", "RSS score", "Downes score", "Silverman"],
+      "appearances": ["NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 11
+    },
+    {
+      "id": "freq-sexual-eating-thought",
+      "topic": "Sexual disorders, Eating disorders, Thought Disorders, Delusion, Dementia, Hallucination",
+      "keywords": ["sexual disorder", "gender dysphoria", "transvestism", "eating disorder", "anorexia", "bulimia", "thought disorder", "delusion", "dementia", "hallucination"],
+      "appearances": ["NORCET-1.0", "NORCET-4.0 S-I", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 9
+    },
+    {
+      "id": "freq-psychosexual-maslow",
+      "topic": "Psychosexual Model, Psychosocial Model, Maslow Hierarchy",
+      "keywords": ["psychosexual", "Freud", "Erikson", "psychosocial", "Maslow", "hierarchy of needs"],
+      "appearances": ["NORCET-2.0", "NORCET-3.0 S-I", "NORCET-4.0 S-I", "NORCET-5.0 S-I", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims"],
+      "frequency": 6
+    },
+    {
+      "id": "freq-antipsychotic-antidepressant-antimanic",
+      "topic": "Anti-Psychotic, Anti-Depressants, Anti-Manic",
+      "keywords": ["antipsychotic", "haloperidol", "olanzapine", "risperidone", "clozapine", "antidepressant", "SSRI", "tricyclic", "lithium", "valproate", "antimanic"],
+      "appearances": ["NORCET-2.0", "NORCET-3.0 S-I", "NORCET-4.0 S-I", "NORCET-5.0 S-I", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims"],
+      "frequency": 7
+    },
+    {
+      "id": "freq-thora-para-biopsy-foley",
+      "topic": "Thoracentesis, Paracentesis, Bone Marrow / Renal Biopsy, Foley catheterisation",
+      "keywords": ["thoracentesis", "paracentesis", "bone marrow aspiration", "renal biopsy", "Foley catheter", "urinary catheter", "male catheter", "female catheter"],
+      "appearances": ["NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-4.0 S-I", "NORCET-5.0 S-I", "NORCET-7.0 Prelims", "NORCET-8.0 Prelims", "NORCET-9.0 Prelims"],
+      "frequency": 7
+    },
+    {
+      "id": "freq-tracheostomy-rt-colostomy",
+      "topic": "Tracheostomy Care, ET Tube Care, Ryles Tube feeding, Comfort & Positioning, Colostomy care",
+      "keywords": ["tracheostomy", "ET tube care", "Ryles tube", "NG tube", "nasogastric", "tube feeding", "colostomy", "ostomy care", "positioning"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 14
+    },
+    {
+      "id": "freq-hai-vap-crbsi",
+      "topic": "Hospital Acquired Infection — VAP, CRBSI, UTI, SSI",
+      "keywords": ["hospital acquired infection", "HAI", "nosocomial", "VAP", "ventilator associated", "CRBSI", "CLABSI", "CAUTI", "SSI", "surgical site infection"],
+      "appearances": ["NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-4.0 S-I", "NORCET-5.0 Prelims", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-8.0 Mains"],
+      "frequency": 7
+    },
+    {
+      "id": "freq-vital-signs",
+      "topic": "Vital Signs — BP, Temperature, Pulse, Resp",
+      "keywords": ["vital sign", "blood pressure", "temperature", "pulse rate", "respiratory rate", "TPR", "orthostatic"],
+      "appearances": ["NORCET-2.0 S-I", "NORCET-3.0 S-I", "NORCET-4.0 S-I", "NORCET-5.0 Prelims", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Mains"],
+      "frequency": 8
+    },
+    {
+      "id": "freq-oxygen-therapy",
+      "topic": "Oxygen Therapy — Nasal Prongs, HBOT, HFNC, NRBM, Venturi",
+      "keywords": ["oxygen therapy", "nasal prong", "nasal cannula", "HBOT", "hyperbaric", "HFNC", "high flow nasal", "NRBM", "non-rebreather", "Venturi mask"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-6.0 Prelims", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 13
+    },
+    {
+      "id": "freq-emergency-drugs",
+      "topic": "Emergency Medicines — ADR, NORAD, Phenytoin, Dobutamine, Hydrocortisone, Furosemide, Morphine, MgSO4, Lithium, Heparin, Atropine, Digoxin, Surfactant",
+      "keywords": ["epinephrine", "adrenaline", "noradrenaline", "NORAD", "phenytoin", "dobutamine", "hydrocortisone", "furosemide", "frusemide", "morphine", "magnesium sulfate", "MgSO4", "lithium", "heparin", "atropine", "digoxin", "surfactant"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 14
+    },
+    {
+      "id": "freq-congenital-disorders",
+      "topic": "Cleft lip/Palate, Congenital disorders (Heart/Brain/Spinal), Exstrophy, Hypospadias, Epispadias, Clubfoot, Nephrotic, Intussusception, Pyloric stenosis, Hirschsprung, Diarrhoea, TEF, Hydrocephalus, Meningitis, Rheumatic fever, Neonatal jaundice, RDS, MAS",
+      "keywords": ["cleft lip", "cleft palate", "congenital heart", "spina bifida", "myelomeningocele", "exstrophy", "hypospadias", "epispadias", "clubfoot", "Ponseti", "nephrotic syndrome", "intussusception", "pyloric stenosis", "Hirschsprung", "diarrhea", "TEF", "tracheoesophageal", "hydrocephalus", "Dandy-Walker", "meningitis", "rheumatic fever", "neonatal jaundice", "RDS", "MAS", "meconium aspiration"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-9.0 Prelims", "NORCET-9.0 Mains"],
+      "frequency": 13
+    },
+    {
+      "id": "freq-mi-ie-hf-stroke-gbs",
+      "topic": "MI, Infective Endocarditis, Heart Failure, Stroke, Respiratory failure types, GBS, Myasthenia Gravis, DM",
+      "keywords": ["myocardial infarction", "MI", "STEMI", "NSTEMI", "infective endocarditis", "IE", "heart failure", "CHF", "stroke", "CVA", "respiratory failure", "GBS", "Guillain-Barré", "myasthenia gravis", "diabetes mellitus", "DKA", "HHS"],
+      "appearances": ["NORCET-1.0", "NORCET-2.0", "NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-5.0 Prelims S-II", "NORCET-5.0 Mains", "NORCET-6.0 Prelims", "NORCET-6.0 Mains", "NORCET-7.0 Prelims", "NORCET-7.0 Mains", "NORCET-8.0 Prelims", "NORCET-8.0 Mains", "NORCET-9.0 Prelims"],
+      "frequency": 14
+    },
+    {
+      "id": "freq-surgical-blades-wounds",
+      "topic": "Surgical Blades & Suturing, Wounds",
+      "keywords": ["surgical blade", "scalpel", "suture", "suturing", "wound care", "wound healing"],
+      "appearances": ["NORCET-3.0 S-II", "NORCET-4.0 S-I", "NORCET-5.0 Prelims S-I", "NORCET-6.0 Prelims"],
+      "frequency": 4
+    }
+  ]
+}

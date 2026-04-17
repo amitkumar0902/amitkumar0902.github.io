@@ -1,0 +1,342 @@
+[
+  {
+    "id": "N8-1",
+    "question": "DBT stands for (in nursing / govt scheme context):",
+    "options": ["Direct Bank Transfer", "Direct Benefit Transfer", "Digital Benefit Transfer", "Direct Beneficiary Transaction"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Schemes",
+    "day": 6,
+    "difficulty": "Easy",
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 8 Mains",
+    "explanations": {
+      "A": "Common misreading.",
+      "B": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
+      "C": "Incorrect expansion.",
+      "D": "Incorrect expansion."
+    }
+  },
+  {
+    "id": "N8-2",
+    "question": "Tetralogy of Fallot — classic components do NOT include:",
+    "options": ["VSD", "Overriding aorta", "RV hypertrophy", "ASD"],
+    "correct": 3,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Congenital Heart",
+    "day": 5,
+    "difficulty": "Medium",
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 8 Mains",
+    "explanations": {
+      "A": "VSD is part of TOF.",
+      "B": "Overriding aorta is part of TOF.",
+      "C": "RV hypertrophy is part of TOF.",
+      "D": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
+    }
+  },
+  {
+    "id": "N8-3",
+    "question": "Leopold's 1st maneuver detects:",
+    "options": ["Fetal lie", "Fundal content (breech/cephalic)", "Engagement", "Position"],
+    "correct": 1,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Leopold",
+    "day": 3,
+    "difficulty": "Easy",
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 8 Mains",
+    "explanations": {
+      "A": "Overall finding, but 1st step focuses on the fundus.",
+      "B": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
+      "C": "Engagement is assessed in the 4th (Pawlik) maneuver.",
+      "D": "Position is determined in the 3rd maneuver."
+    }
+  },
+  {
+    "id": "N8-4",
+    "question": "Normal pH of arterial blood is:",
+    "options": ["7.25–7.35", "7.35–7.45", "7.45–7.55", "7.40–7.60"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "ABG",
+    "day": 1,
+    "difficulty": "Easy",
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 8 Mains",
+    "explanations": {
+      "A": "Acidemic range.",
+      "B": "Normal physiological pH is 7.35–7.45.",
+      "C": "Alkalemic range.",
+      "D": "Incorrect band."
+    }
+  },
+  {
+    "id": "N8-5",
+    "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
+    "options": ["HOB flat", "HOB elevation 30–45°", "Continuous sedation", "Paralytic infusion"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "ICU care / VAP",
+    "day": 1,
+    "difficulty": "Medium",
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 8 Mains",
+    "explanations": {
+      "A": "Supine position increases aspiration risk.",
+      "B": "Semi-Fowler 30–45° is a core VAP-bundle element — reduces gastric reflux and aspiration.",
+      "C": "Deep sedation delays extubation and increases VAP risk.",
+      "D": "Paralytics have no routine VAP-prevention role."
+    }
+  },
+  {
+    "id": "N8-6",
+    "question": "Coombs test is used to diagnose:",
+    "options": ["Hemophilia", "Autoimmune hemolytic anemia", "G6PD deficiency", "Aplastic anemia"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Hematology",
+    "day": 5,
+    "difficulty": "Medium",
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 8 Mains",
+    "explanations": {
+      "A": "Hemophilia is diagnosed with factor assays.",
+      "B": "Direct Coombs detects antibody coating RBCs — classic test for AIHA.",
+      "C": "G6PD is assessed with enzyme assays, not Coombs.",
+      "D": "Aplastic anemia is diagnosed by bone marrow biopsy."
+    }
+  },
+  {
+    "id": "N7-1",
+    "question": "Episiotomy most commonly used in India:",
+    "options": ["Mediolateral", "Midline", "J-shaped", "Lateral"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Episiotomy",
+    "day": 3,
+    "difficulty": "Easy",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 7 Mains",
+    "explanations": {
+      "A": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
+      "B": "Preferred in the USA but not standard in India due to higher severe-tear risk.",
+      "C": "J-shaped is rarely used.",
+      "D": "Lateral episiotomy is obsolete; abandoned due to complications."
+    }
+  },
+  {
+    "id": "N7-2",
+    "question": "Triple-lumen catheter typically has:",
+    "options": ["1 port", "2 ports", "3 ports", "4 ports"],
+    "correct": 2,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Central line",
+    "day": 8,
+    "difficulty": "Easy",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 7 Mains",
+    "explanations": {
+      "A": "Single-lumen.",
+      "B": "Double-lumen.",
+      "C": "Triple-lumen = 3 ports (distal, middle, proximal).",
+      "D": "Quadruple-lumen is rare and has 4 ports."
+    }
+  },
+  {
+    "id": "N7-3",
+    "question": "First intervention in hypovolemic shock:",
+    "options": ["Antibiotics", "Vasopressors", "IV fluid bolus", "Inotropes"],
+    "correct": 2,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Shock",
+    "day": 9,
+    "difficulty": "Easy",
+    "qtype": "scenario",
+    "year": 2024,
+    "source": "NORCET 7 Mains",
+    "explanations": {
+      "A": "Antibiotics are only for suspected sepsis, not hypovolemia.",
+      "B": "Vasopressors are second-line after fluid resuscitation.",
+      "C": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
+      "D": "Inotropes are for cardiogenic shock, not hypovolemic."
+    }
+  },
+  {
+    "id": "N6-1",
+    "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 weeks' gestation?",
+    "options": ["≥130/80 mmHg", "≥140/90 mmHg", "≥150/95 mmHg", "≥160/110 mmHg"],
+    "correct": 1,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Pre-eclampsia",
+    "day": 3,
+    "difficulty": "Medium",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "This is the Stage 1 hypertension cutoff, not the pre-eclampsia threshold.",
+      "B": "BP ≥140/90 mmHg on two occasions ≥4 hours apart after 20 weeks + proteinuria or end-organ dysfunction = pre-eclampsia.",
+      "C": "Not a standard cutoff.",
+      "D": "≥160/110 defines pre-eclampsia with severe features, not the diagnosis itself."
+    }
+  },
+  {
+    "id": "N6-2",
+    "question": "First step in Neonatal Resuscitation Program after birth:",
+    "options": ["Clamp cord", "Dry, warm, position, clear airway", "Give oxygen", "Start compressions"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "NRP",
+    "day": 4,
+    "difficulty": "Easy",
+    "qtype": "scenario",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "Cord clamping follows the initial steps.",
+      "B": "Initial steps per NRP: warm, dry, position airway, clear secretions, stimulate.",
+      "C": "Oxygen only if HR <100 and PPV has failed.",
+      "D": "Chest compressions only if HR <60 after effective PPV."
+    }
+  },
+  {
+    "id": "N6-3",
+    "question": "Normal ET tube size for full-term newborn (uncuffed) is:",
+    "options": ["2.5 mm", "3.0–3.5 mm", "4.0 mm", "4.5 mm"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "ET tube",
+    "day": 2,
+    "difficulty": "Medium",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "Used for preterm <1 kg.",
+      "B": "Term newborn needs ET tube 3.0–3.5 mm uncuffed.",
+      "C": "Used for older infant (6–12 months).",
+      "D": "Used for children >1 year."
+    }
+  },
+  {
+    "id": "N6-4",
+    "question": "MgSO4 therapeutic serum level in eclampsia is:",
+    "options": ["1–2 mEq/L", "4–7 mEq/L", "8–10 mEq/L", ">10 mEq/L"],
+    "correct": 1,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "MgSO4",
+    "day": 3,
+    "difficulty": "High",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "Subtherapeutic.",
+      "B": "Therapeutic serum magnesium level = 4–7 mEq/L for eclampsia prophylaxis.",
+      "C": "8–10 mEq/L → loss of deep tendon reflexes (toxic).",
+      "D": ">10 mEq/L → respiratory depression; stop infusion and give calcium gluconate."
+    }
+  },
+  {
+    "id": "N6-5",
+    "question": "Venturi mask color providing 24% FiO2 (low-concentration):",
+    "options": ["Blue", "White", "Yellow", "Red"],
+    "correct": 0,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Oxygen therapy",
+    "day": 7,
+    "difficulty": "Medium",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "Blue = 24% FiO2 at 2 L/min.",
+      "B": "White = 28%.",
+      "C": "Yellow = 35%.",
+      "D": "Red = 40% (or green on some Venturi sets)."
+    }
+  },
+  {
+    "id": "N6-6",
+    "question": "CPR compression:ventilation ratio in adults (single rescuer):",
+    "options": ["15:2", "30:2", "5:1", "10:2"],
+    "correct": 1,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "BLS",
+    "day": 9,
+    "difficulty": "Easy",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "Pediatric two-rescuer ratio.",
+      "B": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
+      "C": "Outdated ratio.",
+      "D": "Non-standard."
+    }
+  },
+  {
+    "id": "N6-7",
+    "question": "Which does NOT belong to the 5 WHO moments of hand hygiene?",
+    "options": ["Before touching a patient", "Before clean/aseptic procedure", "After touching the nurses' station", "After touching patient surroundings"],
+    "correct": 2,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Hand hygiene",
+    "day": 7,
+    "difficulty": "Easy",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "Moment 1 — before patient contact.",
+      "B": "Moment 2 — before aseptic procedure.",
+      "C": "Not one of the 5 WHO moments — irrelevant to clinical contact.",
+      "D": "Moment 5 — after touching patient surroundings."
+    }
+  },
+  {
+    "id": "N6-8",
+    "question": "ICDS beneficiary age group for supplementary nutrition is:",
+    "options": ["0–3 years", "6 months–6 years + pregnant/lactating", "0–5 years", "6–12 years"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "ICDS",
+    "day": 6,
+    "difficulty": "Medium",
+    "qtype": "recall",
+    "year": 2024,
+    "source": "NORCET 6 Mains",
+    "explanations": {
+      "A": "Partial range only.",
+      "B": "ICDS covers children 6 months–6 years, pregnant and lactating women, and adolescent girls.",
+      "C": "Excludes pregnant/lactating women.",
+      "D": "School-age children are not part of ICDS."
+    }
+  }
+]

@@ -1,6 +1,35 @@
 [
   {
-    "id": 1124,
+    "id": 25,
+    "_origId": "N9-8",
+    "question": "Stenosis or obstruction of the Foramina of Luschka and Magendie is most commonly associated with which condition?",
+    "options": [
+      "Dandy Walker malformation",
+      "Arnold Chiari malformation",
+      "Hydrocephalus due to aqueductal stenosis",
+      "Spina bifida"
+    ],
+    "correct": 0,
+    "explanation": "Dandy-Walker malformation = cystic dilation of 4th ventricle + cerebellar vermis hypoplasia due to atresia of Luschka & Magendie.",
+    "explanations": {
+      "A": "Dandy-Walker malformation = cystic dilation of 4th ventricle + cerebellar vermis hypoplasia due to atresia of Luschka & Magendie.",
+      "B": "Arnold-Chiari involves cerebellar tonsillar herniation, not foraminal atresia.",
+      "C": "Aqueductal stenosis obstructs the cerebral aqueduct (between 3rd and 4th ventricles), not the foramina.",
+      "D": "Spina bifida is a neural tube defect; unrelated to CSF foraminal atresia."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neurology (Congenital)",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1230,
     "question": "T lymphocytes mature primarily in:",
     "options": [
       "Bone marrow",
@@ -25,7 +54,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1141,
+    "id": 1247,
     "question": "Liver is located mainly in:",
     "options": [
       "Left hypochondrium",
@@ -50,7 +79,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1151,
+    "id": 1257,
     "question": "Liver is located mainly in:",
     "options": [
       "Left hypochondrium",
@@ -75,7 +104,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1161,
+    "id": 1267,
     "question": "Liver is located mainly in:",
     "options": [
       "Left hypochondrium",
@@ -100,7 +129,7 @@
     "qtype": "factual"
   },
   {
-    "id": 675,
+    "id": 781,
     "question": "First heart sound (S1) is primarily associated with:",
     "options": [
       "Semilunar valve closure",
@@ -125,7 +154,7 @@
     "qtype": "factual"
   },
   {
-    "id": 676,
+    "id": 782,
     "question": "Normal stroke volume is approximately:",
     "options": [
       "20–40 mL",
@@ -150,7 +179,7 @@
     "qtype": "factual"
   },
   {
-    "id": 677,
+    "id": 783,
     "question": "Tidal volume is:",
     "options": [
       "Volume after maximal inspiration",
@@ -175,7 +204,7 @@
     "qtype": "factual"
   },
   {
-    "id": 678,
+    "id": 784,
     "question": "Functional residual capacity (FRC) equals:",
     "options": [
       "IRV + TV",
@@ -200,7 +229,7 @@
     "qtype": "factual"
   },
   {
-    "id": 679,
+    "id": 785,
     "question": "Cranial nerve III supplies:",
     "options": [
       "Lateral rectus",
@@ -225,7 +254,7 @@
     "qtype": "factual"
   },
   {
-    "id": 680,
+    "id": 786,
     "question": "Facial nerve (CN VII) motor nucleus innervates:",
     "options": [
       "Masseter",
@@ -250,7 +279,7 @@
     "qtype": "factual"
   },
   {
-    "id": 681,
+    "id": 787,
     "question": "Insulin is secreted by:",
     "options": [
       "Alpha cells of pancreas",
@@ -275,7 +304,7 @@
     "qtype": "factual"
   },
   {
-    "id": 683,
+    "id": 789,
     "question": "Parietal cells secrete:",
     "options": [
       "Pepsinogen",
@@ -300,7 +329,7 @@
     "qtype": "factual"
   },
   {
-    "id": 684,
+    "id": 790,
     "question": "O negative blood is considered universal donor for:",
     "options": [
       "Plasma only",
@@ -325,7 +354,7 @@
     "qtype": "factual"
   },
   {
-    "id": 685,
+    "id": 791,
     "question": "Cardiac output equals:",
     "options": [
       "MAP × TPR",
@@ -350,7 +379,7 @@
     "qtype": "factual"
   },
   {
-    "id": 686,
+    "id": 792,
     "question": "Main site of gas exchange:",
     "options": [
       "Trachea",
@@ -375,7 +404,7 @@
     "qtype": "factual"
   },
   {
-    "id": 687,
+    "id": 793,
     "question": "CSF is mainly produced in:",
     "options": [
       "Arachnoid granulations",
@@ -400,7 +429,7 @@
     "qtype": "factual"
   },
   {
-    "id": 688,
+    "id": 794,
     "question": "TSH is secreted by:",
     "options": [
       "Thyroid",
@@ -425,7 +454,7 @@
     "qtype": "factual"
   },
   {
-    "id": 689,
+    "id": 795,
     "question": "Ball-and-socket joint example:",
     "options": [
       "Elbow",
@@ -450,7 +479,7 @@
     "qtype": "factual"
   },
   {
-    "id": 690,
+    "id": 796,
     "question": "Antibody-mediated immunity is called:",
     "options": [
       "Cell-mediated",
@@ -475,7 +504,7 @@
     "qtype": "factual"
   },
   {
-    "id": 692,
+    "id": 798,
     "question": "Hypoxemia with normal A-a gradient suggests:",
     "options": [
       "Shunt",
@@ -500,7 +529,7 @@
     "qtype": "factual"
   },
   {
-    "id": 694,
+    "id": 800,
     "question": "Common bile duct joins pancreatic duct at:",
     "options": [
       "Duodenal bulb",
@@ -525,7 +554,7 @@
     "qtype": "factual"
   },
   {
-    "id": 695,
+    "id": 801,
     "question": "Anatomy & Physiology Q21: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
@@ -550,7 +579,7 @@
     "qtype": "factual"
   },
   {
-    "id": 696,
+    "id": 802,
     "question": "Anatomy & Physiology Q22: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
@@ -575,7 +604,7 @@
     "qtype": "factual"
   },
   {
-    "id": 697,
+    "id": 803,
     "question": "Anatomy & Physiology Q23: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
@@ -600,7 +629,7 @@
     "qtype": "factual"
   },
   {
-    "id": 698,
+    "id": 804,
     "question": "Anatomy & Physiology Q24: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
@@ -625,7 +654,7 @@
     "qtype": "factual"
   },
   {
-    "id": 699,
+    "id": 805,
     "question": "Anatomy & Physiology Q25: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
@@ -650,7 +679,7 @@
     "qtype": "factual"
   },
   {
-    "id": 700,
+    "id": 806,
     "question": "Anatomy & Physiology Q26: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
@@ -675,7 +704,7 @@
     "qtype": "factual"
   },
   {
-    "id": 701,
+    "id": 807,
     "question": "Anatomy & Physiology Q27: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
@@ -700,33 +729,8 @@
     "qtype": "factual"
   },
   {
-    "id": 702,
+    "id": 808,
     "question": "Anatomy & Physiology Q28: The thymus is primarily important for:",
-    "options": [
-      "B cell maturation",
-      "T cell maturation",
-      "Red blood cell production",
-      "Insulin secretion"
-    ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "explanations": {
-      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
-      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
-      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
-      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
-    },
-    "subject": "Anatomy",
-    "topic": "Immunity",
-    "day": 11,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "NORCET PYQ theme",
-    "qtype": "factual"
-  },
-  {
-    "id": 703,
-    "question": "Anatomy & Physiology Q29: The thymus is primarily important for:",
     "options": [
       "B cell maturation",
       "T cell maturation",

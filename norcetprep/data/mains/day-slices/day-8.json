@@ -1,6 +1,7 @@
 [
   {
-    "id": 23,
+    "id": 8,
+    "_origId": "N7-2",
     "question": "Triple-lumen catheter typically has:",
     "options": [
       "1 port",
@@ -9,12 +10,12 @@
       "4 ports"
     ],
     "correct": 2,
-    "explanation": "Triple-lumen = 3 ports (distal/middle/proximal).",
+    "explanation": "Triple-lumen = 3 ports (distal, middle, proximal).",
     "explanations": {
       "A": "Single-lumen.",
       "B": "Double-lumen.",
-      "C": "Triple-lumen = 3 ports (distal/middle/proximal).",
-      "D": "Quadruple-lumen, less common."
+      "C": "Triple-lumen = 3 ports (distal, middle, proximal).",
+      "D": "Quadruple-lumen is rare and has 4 ports."
     },
     "subject": "Fundamentals",
     "topic": "Central line",
@@ -22,10 +23,71 @@
     "difficulty": "Easy",
     "source": "NORCET 7 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 1134,
+    "id": 34,
+    "_origId": "N9-17",
+    "question": "During central venous catheter (CVC) insertion, a patient develops sudden dyspnea and diminished breath sounds on one side. What is the most likely complication?",
+    "options": [
+      "Pneumothorax",
+      "Hemothorax",
+      "Cardiac tamponade",
+      "Air embolism"
+    ],
+    "correct": 0,
+    "explanation": "Inadvertent pleural puncture during subclavian/IJ CVC insertion → sudden dyspnea + unilateral diminished breath sounds = pneumothorax.",
+    "explanations": {
+      "A": "Inadvertent pleural puncture during subclavian/IJ CVC insertion → sudden dyspnea + unilateral diminished breath sounds = pneumothorax.",
+      "B": "Hemothorax presents similarly but with dullness to percussion + shock; less immediate on insertion.",
+      "C": "Tamponade (late perforation of RV) causes Beck's triad — muffled heart sounds, hypotension, JVD.",
+      "D": "Air embolism causes sudden hypoxia + mill-wheel murmur; bilateral breath sounds usually preserved."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "CVC complications",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 76,
+    "_origId": "N9-59",
+    "question": "A 30-year-old presents with fever, weight loss, and skin lesions after traveling to a rural area. The nurse suspects leishmaniasis. Which vector is most likely responsible?",
+    "options": [
+      "Mosquito",
+      "Tsetse fly",
+      "Sandfly",
+      "Tick"
+    ],
+    "correct": 2,
+    "explanation": "Phlebotomus (sandfly) transmits Leishmania donovani → kala-azar.",
+    "explanations": {
+      "A": "Mosquitoes transmit malaria, dengue, chikungunya.",
+      "B": "Tsetse fly transmits African trypanosomiasis.",
+      "C": "Phlebotomus (sandfly) transmits Leishmania donovani → kala-azar.",
+      "D": "Ticks transmit Lyme disease, rickettsioses."
+    },
+    "subject": "Community Health",
+    "topic": "Leishmaniasis / vector",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "community-health",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1240,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -50,7 +112,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1143,
+    "id": 1249,
     "question": "Acid-fast bacillus seen in:",
     "options": [
       "Staphylococcus",
@@ -75,7 +137,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1144,
+    "id": 1250,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -100,7 +162,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1153,
+    "id": 1259,
     "question": "Acid-fast bacillus seen in:",
     "options": [
       "Staphylococcus",
@@ -125,7 +187,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1154,
+    "id": 1260,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -150,7 +212,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1163,
+    "id": 1269,
     "question": "Acid-fast bacillus seen in:",
     "options": [
       "Staphylococcus",
@@ -175,7 +237,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1164,
+    "id": 1270,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -200,7 +262,7 @@
     "qtype": "factual"
   },
   {
-    "id": 313,
+    "id": 419,
     "syllabusId": "medicine-1-fluid-and-electrolyte-imbalance-with-ecg-changes",
     "question": "CKD patient with K+ 6.8, peaked T waves.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -232,7 +294,7 @@
     ]
   },
   {
-    "id": 314,
+    "id": 420,
     "syllabusId": "medicine-2-vagal-maneuver",
     "question": "Hemodynamically stable SVT 180/min.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -264,7 +326,7 @@
     ]
   },
   {
-    "id": 315,
+    "id": 421,
     "syllabusId": "medicine-3-basic-ecg-interpretation",
     "question": "ECG shows ST elevation V1-V4 with reciprocal depression in II III aVF.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -296,7 +358,7 @@
     ]
   },
   {
-    "id": 316,
+    "id": 422,
     "syllabusId": "medicine-4-heart-sounds-rhonchi-wheezes-pleural-rub-crackles",
     "question": "COPD patient with polyphonic expiratory wheeze.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -328,7 +390,7 @@
     ]
   },
   {
-    "id": 317,
+    "id": 423,
     "syllabusId": "medicine-5-pulse-pressure",
     "question": "BP 160/60 with collapsing pulse.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -360,7 +422,7 @@
     ]
   },
   {
-    "id": 318,
+    "id": 424,
     "syllabusId": "medicine-6-myocardial-infarction-and-enzyme-markers",
     "question": "Crushing chest pain 2 h, ECG ST elevation II III aVF, troponin positive.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -392,7 +454,7 @@
     ]
   },
   {
-    "id": 319,
+    "id": 425,
     "syllabusId": "medicine-7-rheumatic-fever",
     "question": "10-y-old with migratory arthritis, carditis, recent pharyngitis.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -424,7 +486,7 @@
     ]
   },
   {
-    "id": 320,
+    "id": 426,
     "syllabusId": "medicine-8-varicose-vein",
     "question": "Teacher with leg heaviness and visible bulging veins.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -456,7 +518,7 @@
     ]
   },
   {
-    "id": 321,
+    "id": 427,
     "syllabusId": "medicine-9-ventricular-fibrillation-defibrillation",
     "question": "Witnessed collapse, monitor shows VF.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -488,7 +550,7 @@
     ]
   },
   {
-    "id": 322,
+    "id": 428,
     "syllabusId": "medicine-10-coronary-artery-bypass-grafting-cabg",
     "question": "POD 2 CABG patient ready for ambulation.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -520,7 +582,7 @@
     ]
   },
   {
-    "id": 323,
+    "id": 429,
     "syllabusId": "medicine-11-angina-types-variant-prinzmetal",
     "question": "Young man with nocturnal chest pain and transient ST elevation.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -552,7 +614,7 @@
     ]
   },
   {
-    "id": 324,
+    "id": 430,
     "syllabusId": "medicine-12-bacterial-endocarditis",
     "question": "IVDU with fever, new murmur, Osler nodes.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -584,7 +646,7 @@
     ]
   },
   {
-    "id": 325,
+    "id": 431,
     "syllabusId": "medicine-13-constrictive-pericarditis",
     "question": "Post-TB patient with elevated JVP rising on inspiration and ascites.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -616,7 +678,7 @@
     ]
   },
   {
-    "id": 326,
+    "id": 432,
     "syllabusId": "medicine-14-intra-aortic-balloon-pump-iabp",
     "question": "Cardiogenic shock patient on IABP.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -648,7 +710,7 @@
     ]
   },
   {
-    "id": 327,
+    "id": 433,
     "syllabusId": "medicine-15-cardiac-tamponade",
     "question": "Post-MI patient with sudden hypotension, distended neck veins, muffled sounds.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -680,7 +742,7 @@
     ]
   },
   {
-    "id": 328,
+    "id": 434,
     "syllabusId": "medicine-16-pacemaker-types-and-settings",
     "question": "Recent pacemaker implant patient.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -712,7 +774,7 @@
     ]
   },
   {
-    "id": 329,
+    "id": 435,
     "syllabusId": "medicine-17-cardioversion-vs-defibrillation",
     "question": "AF with rapid ventricular response, unstable, BP 80/50.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -744,7 +806,7 @@
     ]
   },
   {
-    "id": 330,
+    "id": 436,
     "syllabusId": "medicine-18-defibrillator-aed",
     "question": "Public cardiac arrest, bystander with AED.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -776,7 +838,7 @@
     ]
   },
   {
-    "id": 331,
+    "id": 437,
     "syllabusId": "medicine-19-cardiac-monitor",
     "question": "Cardiac monitor shows flat line.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -808,7 +870,7 @@
     ]
   },
   {
-    "id": 332,
+    "id": 438,
     "syllabusId": "medicine-20-pcwp-pulmonary-capillary-wedge-pressure",
     "question": "Pulmonary edema patient with PCWP 28.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -827,70 +889,6 @@
     },
     "subject": "Medical-Surgical",
     "topic": "PCWP (pulmonary capillary wedge pressure)",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 333,
-    "syllabusId": "medicine-21-pulmonary-artery-catheter",
-    "question": "ICU shock patient needs PA catheter.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "ABI, address risk factors, start aspirin + statin, supervised exercise program, smoking cessation; refer if lifestyle-limiting",
-      "Acute gout — NSAID (naproxen) or colchicine, rest, ice, do NOT start allopurinol during acute attack; start urate-lowering after resolution",
-      "Level transducer at phlebostatic axis, zero, interpret pressure tracings, watch for arrhythmia during float",
-      "Acute hepatitis — check viral serology, paracetamol level, autoimmune, alcohol; supportive care, monitor coagulation and encephalopathy; ur…"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Level transducer at phlebostatic axis, zero, interpret pressure tracings, watch for arrhythmia during float",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Level transducer at phlebostatic axis, zero, interpret pressure tracings, watch for arrhythmia during float. Normal: RAP 0-8, RV 25/0-8, PA 25/10, PCWP 6-12",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Pulmonary artery catheter",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 334,
-    "syllabusId": "medicine-22-thyroid-eye-disease",
-    "question": "Graves patient with progressive proptosis.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Two large-bore IVs, crystalloid + blood cross-match, terlipressin IV, ceftriaxone IV, urgent endoscopy for band ligation, monitor for encep…",
-      "Graduated compression stockings 20-30 mmHg, elevate legs, weight management, refer for duplex USG and consider endovenous ablation",
-      "Emergency dialysis, calcium gluconate for cardiac protection, insulin+dextrose for K+, furosemide if any residual function, O2",
-      "Stop smoking, ophthalmology referral, lubricating eye drops, elevate head while sleeping, escalate to steroids if inflammation"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Stop smoking, ophthalmology referral, lubricating eye drops, elevate head while sleeping, escalate to steroids if inflammation",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Stop smoking, ophthalmology referral, lubricating eye drops, elevate head while sleeping, escalate to steroids if inflammation. Proptosis, lid lag, lid retraction (Dalrymple), ophthalmoplegia"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Thyroid eye disease",
     "section": "medicine",
     "day": 8,
     "difficulty": "Medium",

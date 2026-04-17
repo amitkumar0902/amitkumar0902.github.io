@@ -1,31 +1,7 @@
 [
   {
     "id": 2,
-    "question": "Most common electrolyte abnormality in chronic kidney disease is:",
-    "options": [
-      "Hypokalemia",
-      "Hyperkalemia",
-      "Hyponatremia",
-      "Hypercalcemia"
-    ],
-    "correct": 1,
-    "explanation": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
-    "explanations": {
-      "A": "Hypokalemia is seen in loop diuretic over-use, not typical of CKD.",
-      "B": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
-      "C": "Hyponatremia can occur but not the hallmark finding.",
-      "D": "Hypercalcemia is atypical; CKD typically causes hypocalcemia."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Renal",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 17,
+    "_origId": "N8-2",
     "question": "Tetralogy of Fallot — classic components do NOT include:",
     "options": [
       "VSD",
@@ -36,9 +12,9 @@
     "correct": 3,
     "explanation": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH.",
     "explanations": {
-      "A": "Part of TOF.",
-      "B": "Part of TOF.",
-      "C": "Part of TOF.",
+      "A": "VSD is part of TOF.",
+      "B": "Overriding aorta is part of TOF.",
+      "C": "RV hypertrophy is part of TOF.",
       "D": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
     },
     "subject": "Pediatric",
@@ -47,10 +23,14 @@
     "difficulty": "Medium",
     "source": "NORCET 8 Mains",
     "year": 2025,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 21,
+    "id": 6,
+    "_origId": "N8-6",
     "question": "Coombs test is used to diagnose:",
     "options": [
       "Hemophilia",
@@ -59,12 +39,12 @@
       "Aplastic anemia"
     ],
     "correct": 1,
-    "explanation": "Direct Coombs detects antibody on RBCs — AIHA.",
+    "explanation": "Direct Coombs detects antibody coating RBCs — classic test for AIHA.",
     "explanations": {
-      "A": "Coagulation factor assays used.",
-      "B": "Direct Coombs detects antibody on RBCs — AIHA.",
-      "C": "Enzyme assay, not Coombs.",
-      "D": "Bone marrow biopsy, not Coombs."
+      "A": "Hemophilia is diagnosed with factor assays.",
+      "B": "Direct Coombs detects antibody coating RBCs — classic test for AIHA.",
+      "C": "G6PD is assessed with enzyme assays, not Coombs.",
+      "D": "Aplastic anemia is diagnosed by bone marrow biopsy."
     },
     "subject": "Medical-Surgical",
     "topic": "Hematology",
@@ -72,10 +52,448 @@
     "difficulty": "Medium",
     "source": "NORCET 8 Mains",
     "year": 2025,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 1139,
+    "id": 79,
+    "_origId": "N9-62",
+    "question": "A 4-year-old presents with prolonged fever, rash, and conjunctivitis. Kawasaki disease is suspected. Which type of blood vessels is primarily affected?",
+    "options": [
+      "Large arteries",
+      "Medium-sized arteries",
+      "Small capillaries",
+      "Veins"
+    ],
+    "correct": 1,
+    "explanation": "Kawasaki is a medium-vessel vasculitis — coronary aneurysms are the feared complication.",
+    "explanations": {
+      "A": "Large-vessel vasculitis (Takayasu, GCA) affects aorta/main branches.",
+      "B": "Kawasaki is a medium-vessel vasculitis — coronary aneurysms are the feared complication.",
+      "C": "Small-vessel vasculitis (HSP, MPA).",
+      "D": "Veins are rarely involved in classical vasculitides."
+    },
+    "subject": "Community Health",
+    "topic": "Kawasaki disease",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "community-health",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 115,
+    "_origId": "N9-98",
+    "question": "Boot shaped heart is seen in:",
+    "options": [
+      "Tricuspid atresia",
+      "Tetralogy of Fallot",
+      "Truncus arteriosus",
+      "Total anomalous pulmonary venous return"
+    ],
+    "correct": 1,
+    "explanation": "TOF produces 'coeur en sabot' (boot-shaped heart) due to RV hypertrophy + small pulmonary trunk.",
+    "explanations": {
+      "A": "Tricuspid atresia shows left axis deviation but not classic boot shape.",
+      "B": "TOF produces 'coeur en sabot' (boot-shaped heart) due to RV hypertrophy + small pulmonary trunk.",
+      "C": "Truncus arteriosus has a single great vessel, no typical boot shape.",
+      "D": "TAPVR produces 'snowman' or 'figure-of-eight' cardiac silhouette."
+    },
+    "subject": "Pediatric",
+    "topic": "Congenital heart disease",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 116,
+    "_origId": "N9-99",
+    "question": "A baby with eczema is prescribed a topical corticosteroid. What advice should be given to the parent?",
+    "options": [
+      "Apply at night time to reduce systemic absorption",
+      "Gastric irritation occurs when hands are put in mouth",
+      "Causes hair growth at application site",
+      "Apply a thin layer only on the affected area and avoid prolonged use"
+    ],
+    "correct": 3,
+    "explanation": "Thin layer to affected area only; short-term use; avoid occlusion and prolonged use (risk of skin atrophy, striae, HPA-axis suppression in infants).",
+    "explanations": {
+      "A": "Timing isn't the main concern; dose/area/duration is.",
+      "B": "Topical steroids don't cause gastric irritation with typical use.",
+      "C": "Hypertrichosis is possible but not the main counselling point.",
+      "D": "Thin layer to affected area only; short-term use; avoid occlusion and prolonged use (risk of skin atrophy, striae, HPA-axis suppression in infants)."
+    },
+    "subject": "Pediatric",
+    "topic": "Topical steroid counseling",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 118,
+    "_origId": "N9-101",
+    "question": "Which of the following is an early sign of increased intracranial pressure (ICP) in children?",
+    "options": [
+      "Altered level of consciousness",
+      "Headache",
+      "Nausea and vomiting",
+      "Seizures"
+    ],
+    "correct": 0,
+    "explanation": "Altered LOC (irritability, lethargy, poor feeding) is the earliest and most sensitive sign in children.",
+    "explanations": {
+      "A": "Altered LOC (irritability, lethargy, poor feeding) is the earliest and most sensitive sign in children.",
+      "B": "Headache requires verbal ability; often absent in infants.",
+      "C": "Vomiting follows LOC changes.",
+      "D": "Seizures are late signs."
+    },
+    "subject": "Pediatric",
+    "topic": "Raised ICP (Pediatric)",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 121,
+    "_origId": "N9-104",
+    "question": "A 2-month-old has increasing head circumference, vomiting, downward deviation of eyes, tense anterior fontanelle and sunset sign. MRI: cystic dilatation of 4th ventricle with cerebellar vermis hypoplasia. Dandy-Walker syndrome suspected. Underlying mechanism?",
+    "options": [
+      "Aqueductal stenosis → supratentorial hydrocephalus",
+      "Atresia of Luschka and Magendie → non-communicating hydrocephalus",
+      "CSF overproduction by choroid plexus",
+      "CSF malabsorption by defective arachnoid granulations"
+    ],
+    "correct": 1,
+    "explanation": "Dandy-Walker = atresia of foramina Luschka/Magendie → cystic 4th ventricle, vermis hypoplasia, non-communicating hydrocephalus.",
+    "explanations": {
+      "A": "Aqueductal stenosis causes a different form of non-communicating hydrocephalus.",
+      "B": "Dandy-Walker = atresia of foramina Luschka/Magendie → cystic 4th ventricle, vermis hypoplasia, non-communicating hydrocephalus.",
+      "C": "Choroid plexus papilloma, not Dandy-Walker.",
+      "D": "Communicating hydrocephalus / post-meningitic, not Dandy-Walker."
+    },
+    "subject": "Pediatric",
+    "topic": "Dandy-Walker",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 122,
+    "_origId": "N9-105",
+    "question": "A 5-year-old with acute diarrhea. Under ICDS protocol, what is the appropriate dose and duration of zinc supplementation?",
+    "options": [
+      "10 mg daily for 7 days",
+      "20 mg daily for 14 days",
+      "15 mg daily for 10 days",
+      "30 mg daily for 7 days"
+    ],
+    "correct": 1,
+    "explanation": "WHO/IMNCI: zinc 20 mg daily × 14 days for children ≥6 months with diarrhoea.",
+    "explanations": {
+      "A": "10 mg × 14 days is for infants <6 months.",
+      "B": "WHO/IMNCI: zinc 20 mg daily × 14 days for children ≥6 months with diarrhoea.",
+      "C": "15 mg/10 days is non-standard.",
+      "D": "30 mg/7 days is non-standard."
+    },
+    "subject": "Pediatric",
+    "topic": "Diarrhoea management / Zinc",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 125,
+    "_origId": "N9-108",
+    "question": "A 6-week-old infant has projectile vomiting after feeds, weight loss, palpable olive-shaped mass in RUQ, and visible peristalsis. What is the most likely diagnosis?",
+    "options": [
+      "Gastroesophageal reflux disease (GERD)",
+      "Intussusception",
+      "Pyloric stenosis",
+      "Duodenal atresia"
+    ],
+    "correct": 2,
+    "explanation": "Classic HPS — non-bilious projectile vomiting, palpable olive mass, visible gastric peristalsis in 4–8 week-old.",
+    "explanations": {
+      "A": "GERD is posseting, not projectile vomiting with olive mass.",
+      "B": "Intussusception presents with colic + currant-jelly stools, typically 6–18 months.",
+      "C": "Classic HPS — non-bilious projectile vomiting, palpable olive mass, visible gastric peristalsis in 4–8 week-old.",
+      "D": "Duodenal atresia presents in the first day of life with bilious vomiting and 'double bubble' on X-ray."
+    },
+    "subject": "Pediatric",
+    "topic": "Hypertrophic pyloric stenosis",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 126,
+    "_origId": "N9-109",
+    "question": "A newborn has clubfoot (inward and downward foot). What is the first-line treatment?",
+    "options": [
+      "Immediate surgical correction",
+      "Observation and follow-up",
+      "Serial plaster casting (Ponseti method)",
+      "Physical therapy alone"
+    ],
+    "correct": 2,
+    "explanation": "Ponseti method — weekly manipulation and plaster casts (average 5–6 casts), optional Achilles tenotomy, followed by bracing — gold standard.",
+    "explanations": {
+      "A": "Surgery reserved for failed conservative correction.",
+      "B": "Clubfoot does not self-correct.",
+      "C": "Ponseti method — weekly manipulation and plaster casts (average 5–6 casts), optional Achilles tenotomy, followed by bracing — gold standard.",
+      "D": "Physical therapy alone is inadequate."
+    },
+    "subject": "Pediatric",
+    "topic": "Congenital talipes equinovarus",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 127,
+    "_origId": "N9-110",
+    "question": "A 3-year-old has 3 days of fever and chills in a malaria-endemic area. Per IMNCI guidelines, what is the most appropriate initial management?",
+    "options": [
+      "Administer oral antibiotics immediately",
+      "Refer to a higher center without treatment",
+      "Perform rapid diagnostic test for malaria and treat if positive",
+      "Start antipyretics and observe for 48 hours"
+    ],
+    "correct": 2,
+    "explanation": "Rapid diagnostic test (RDT) / microscopy and species-specific ACT treatment per NVBDCP guidelines.",
+    "explanations": {
+      "A": "Antibiotics not indicated without bacterial diagnosis.",
+      "B": "Delayed treatment worsens outcomes; RDT available at peripheral levels.",
+      "C": "Rapid diagnostic test (RDT) / microscopy and species-specific ACT treatment per NVBDCP guidelines.",
+      "D": "Observation alone for 48 h in a febrile child risks severe malaria."
+    },
+    "subject": "Pediatric",
+    "topic": "IMNCI / Malaria",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 128,
+    "_origId": "N9-111",
+    "question": "A newborn with neonatal diabetes mellitus type I (hyperglycemia, weight loss). What is the most appropriate initial treatment?",
+    "options": [
+      "Oral hypoglycemic agents",
+      "Insulin therapy",
+      "Dietary management alone",
+      "Observation without medication"
+    ],
+    "correct": 1,
+    "explanation": "Neonatal DM is absolute insulin deficiency → insulin (often continuous infusion) is first-line.",
+    "explanations": {
+      "A": "Sulfonylureas may be used later in KATP channel neonatal DM, but not initial therapy.",
+      "B": "Neonatal DM is absolute insulin deficiency → insulin (often continuous infusion) is first-line.",
+      "C": "Dietary management is insufficient.",
+      "D": "Observation risks DKA and death."
+    },
+    "subject": "Pediatric",
+    "topic": "Neonatal DM",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 130,
+    "_origId": "N9-113",
+    "question": "A 3-year-old plays with clay, holding and manipulating it with fingers. Which fine motor skill is being demonstrated?",
+    "options": [
+      "Scribbling with a crayon",
+      "Building a tower of 6–8 blocks",
+      "Using fingers to mold clay",
+      "Copying a circle"
+    ],
+    "correct": 2,
+    "explanation": "Hand/finger molding of clay (pincer + palmar manipulation) is a characteristic 3-year skill.",
+    "explanations": {
+      "A": "Scribbling is an 18–24 month skill.",
+      "B": "Stacking 6–8 blocks appears at 24 months.",
+      "C": "Hand/finger molding of clay (pincer + palmar manipulation) is a characteristic 3-year skill.",
+      "D": "Copying a circle is a 3-year skill too, but not the behaviour in the stem."
+    },
+    "subject": "Pediatric",
+    "topic": "Developmental milestones",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 131,
+    "_origId": "N9-114",
+    "question": "A newborn with meningocele (sac on lower back, no infection/hemorrhage). What is the most likely finding in CSF analysis?",
+    "options": [
+      "Elevated white blood cell count",
+      "Normal CSF composition",
+      "Increased red blood cell count",
+      "Decreased glucose levels"
+    ],
+    "correct": 1,
+    "explanation": "Uncomplicated meningocele has normal CSF — only meninges protrude; cord remains intact.",
+    "explanations": {
+      "A": "Elevated WBC suggests meningitis.",
+      "B": "Uncomplicated meningocele has normal CSF — only meninges protrude; cord remains intact.",
+      "C": "Elevated RBC suggests hemorrhage.",
+      "D": "Low glucose suggests bacterial meningitis."
+    },
+    "subject": "Pediatric",
+    "topic": "Neural tube defects",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 132,
+    "_origId": "N9-115",
+    "question": "A newborn with myelomeningocele is being monitored. What is the most likely finding related to the anterior fontanelle if ICP is increased?",
+    "options": [
+      "Sunken fontanelle",
+      "Normal fontanelle",
+      "Bulging fontanelle",
+      "Closed fontanelle"
+    ],
+    "correct": 2,
+    "explanation": "Increased CSF pressure → bulging, tense anterior fontanelle + split sutures + 'sunset' eyes.",
+    "explanations": {
+      "A": "Sunken fontanelle indicates dehydration.",
+      "B": "Normal fontanelle rules out raised ICP.",
+      "C": "Increased CSF pressure → bulging, tense anterior fontanelle + split sutures + 'sunset' eyes.",
+      "D": "Anterior fontanelle closes by 18 months; early closure suggests craniosynostosis."
+    },
+    "subject": "Pediatric",
+    "topic": "Raised ICP in neonates",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 133,
+    "_origId": "N9-116",
+    "question": "A 5-year-old with asthma is prescribed 2 puffs of Asthalin (salbutamol) every 6 hours. Which is the most important instruction?",
+    "options": [
+      "Administer only during acute asthma attacks",
+      "Use a spacer device for effective delivery",
+      "Increase to 4 puffs if symptoms worsen",
+      "Administer before meals only"
+    ],
+    "correct": 1,
+    "explanation": "In children <12 years, spacer is mandatory with MDI to improve lung deposition and reduce oropharyngeal side effects.",
+    "explanations": {
+      "A": "Salbutamol can be regular reliever + rescue, not only PRN.",
+      "B": "In children <12 years, spacer is mandatory with MDI to improve lung deposition and reduce oropharyngeal side effects.",
+      "C": "Self-escalation is dangerous without medical advice.",
+      "D": "Salbutamol timing doesn't depend on meals."
+    },
+    "subject": "Pediatric",
+    "topic": "Pediatric inhaler technique",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 138,
+    "_origId": "N9-121",
+    "question": "Discharge instructions for an infant with a jejunostomy at home — which is emphasized?",
+    "options": [
+      "Administer high-calorie formula orally to promote weight gain",
+      "Monitor the jejunostomy site daily for signs of infection or leakage",
+      "Clean the jejunostomy tube with alcohol-based solution twice daily",
+      "Restrict fluid intake to prevent excessive output from the jejunostomy"
+    ],
+    "correct": 1,
+    "explanation": "Daily site inspection for redness, leakage, skin breakdown is the core home-care instruction; report promptly.",
+    "explanations": {
+      "A": "Oral feeds are not the goal with jejunostomy; feeding is via the tube.",
+      "B": "Daily site inspection for redness, leakage, skin breakdown is the core home-care instruction; report promptly.",
+      "C": "Alcohol is too drying/irritating for stoma skin; mild soap and water are preferred.",
+      "D": "Fluid restriction risks dehydration; output is managed, not fluids restricted."
+    },
+    "subject": "Pediatric",
+    "topic": "Jejunostomy home care",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1245,
     "question": "Therapeutic communication includes:",
     "options": [
       "Giving false reassurance",
@@ -100,7 +518,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1149,
+    "id": 1255,
     "question": "Therapeutic communication includes:",
     "options": [
       "Giving false reassurance",
@@ -125,7 +543,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1159,
+    "id": 1265,
     "question": "Therapeutic communication includes:",
     "options": [
       "Giving false reassurance",
@@ -150,7 +568,7 @@
     "qtype": "factual"
   },
   {
-    "id": 160,
+    "id": 266,
     "syllabusId": "child-30-respiratory-distress-syndrome",
     "question": "30-wk preterm with tachypnea and grunting.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -182,7 +600,7 @@
     ]
   },
   {
-    "id": 171,
+    "id": 277,
     "syllabusId": "child-41-mitral-stenosis",
     "question": "Young female with history of RF, DOE, hemoptysis, AF.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -214,7 +632,7 @@
     ]
   },
   {
-    "id": 174,
+    "id": 280,
     "syllabusId": "child-44-hemophilia",
     "question": "Boy with recurrent knee hemarthrosis.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -246,7 +664,7 @@
     ]
   },
   {
-    "id": 176,
+    "id": 282,
     "syllabusId": "child-46-sequestration-crisis",
     "question": "Sickle cell 2-y-old with sudden pallor and huge spleen.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -278,7 +696,7 @@
     ]
   },
   {
-    "id": 178,
+    "id": 284,
     "syllabusId": "child-48-aplastic-anemia",
     "question": "Adolescent with pancytopenia and hypocellular marrow.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -310,7 +728,7 @@
     ]
   },
   {
-    "id": 181,
+    "id": 287,
     "syllabusId": "child-51-spina-bifida-occulta",
     "question": "Child with hairy patch on low back.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -342,7 +760,7 @@
     ]
   },
   {
-    "id": 182,
+    "id": 288,
     "syllabusId": "child-52-babinski-sign",
     "question": "6-mo baby with upgoing Babinski.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -374,7 +792,7 @@
     ]
   },
   {
-    "id": 183,
+    "id": 289,
     "syllabusId": "child-53-hydrocephalus",
     "question": "Infant with VP shunt and fever + vomiting.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -406,7 +824,7 @@
     ]
   },
   {
-    "id": 187,
+    "id": 293,
     "syllabusId": "child-57-cerebral-palsy",
     "question": "2-y-old preterm survivor with spastic diplegia.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -438,7 +856,7 @@
     ]
   },
   {
-    "id": 189,
+    "id": 295,
     "syllabusId": "child-59-craniosynostosis",
     "question": "Infant with elongated head, palpable ridge.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -468,390 +886,5 @@
       "highyield",
       "nice"
     ]
-  },
-  {
-    "id": 190,
-    "syllabusId": "child-60-pyloric-stenosis",
-    "question": "Same as surgery entry.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support",
-      "Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
-      "Severe dehydration — Plan C IV RL 100 mL/kg (30 in 30 min then 70 in 2.5 h), reassess q15-30 min",
-      "Severe wasting — acute malnutrition management, MUAC check, nutrition support"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected. Projectile non-bilious vomiting 4-6 wk",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Pyloric stenosis",
-    "section": "child",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 192,
-    "syllabusId": "child-62-tracheoesophageal-fistula",
-    "question": "Newborn with excessive drooling and coughing on feeding.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Protective isolation, transfusions as needed, refer for HSCT evaluation, immunosuppressive therapy",
-      "Stop feeds, nasal/oral suction, Replogle tube continuous low-pressure suction of upper pouch, head up 30°, IV fluids, urgent pediatric surgery referral",
-      "Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm",
-      "Erythema toxicum — benign, self-resolves, no treatment"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Stop feeds, nasal/oral suction, Replogle tube continuous low-pressure suction of upper pouch, head up 30°, IV fluids, urgent pediatric surgery referral",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Stop feeds, nasal/oral suction, Replogle tube continuous low-pressure suction of upper pouch, head up 30°, IV fluids, urgent pediatric surgery referral. Type C (85%): proximal EA + distal TEF",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Tracheoesophageal fistula",
-    "section": "child",
-    "day": 5,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 194,
-    "syllabusId": "child-64-primary-apnea",
-    "question": "Newborn not breathing after drying and stimulation.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Blood cultures from CVC and peripheral, urine, CXR, start IV piperacillin-tazobactam within 1 h, isolate, avoid rectal temp/meds",
-      "Upright feeding with special bottle, genetic counseling, refer to cleft team, plan surgery per rule of 10s, MDT approach",
-      "Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm",
-      "Measure standing height with stadiometer in Frankfort plane, plot on growth chart"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm. Primary: responds to stimulation",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Primary apnea",
-    "section": "child",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 198,
-    "syllabusId": "child-68-bronchopulmonary-dysplasia",
-    "question": "10-mo ex-28-wk preterm on home O2.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "First 28 days of life — classify mortality as NMR",
-      "Adult hematopoiesis: vertebrae, sternum, ribs, pelvis, proximal long bones",
-      "Apply mask with C-E grip, deliver PPV 40-60/min at PIP 20; if chest not rising, run MR SOPA",
-      "Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2. Pathogenesis: baro/volutrauma + hyperoxia + inflammation"
-    },
-    "subject": "Pediatric",
-    "topic": "Bronchopulmonary dysplasia",
-    "section": "child",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 205,
-    "syllabusId": "child-75-adhd",
-    "question": "7-y-old failing in school, cannot sit still.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Apply mask with C-E grip, deliver PPV 40-60/min at PIP 20; if chest not rising, run MR SOPA",
-      "Vanderbilt/Conners assessment, rule out hearing/vision/learning disability, behavioral interventions first-line; stimulants if severe",
-      "Measure standing height with stadiometer in Frankfort plane, plot on growth chart",
-      "SAM with complications — admit to NRC/SNCU, start F-75 (stabilization), treat infections, electrolytes (K, Mg), vit A, gradual transition t…"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Vanderbilt/Conners assessment, rule out hearing/vision/learning disability, behavioral interventions first-line; stimulants if severe",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Vanderbilt/Conners assessment, rule out hearing/vision/learning disability, behavioral interventions first-line; stimulants if severe. Inattention, hyperactivity, impulsivity for >=6 mo in >=2 settings before age 12",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "ADHD",
-    "section": "child",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 682,
-    "question": "Primary site of tubular reabsorption:",
-    "options": [
-      "Collecting duct only",
-      "Proximal convoluted tubule",
-      "Loop of Henle only",
-      "Bowman capsule"
-    ],
-    "correct": 1,
-    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
-    "explanations": {
-      "A": "\"Collecting duct only\" is a plausible distractor but incorrect. The correct answer is B (\"Proximal convoluted tubule\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "C": "\"Loop of Henle only\" is a plausible distractor but incorrect. The correct answer is B (\"Proximal convoluted tubule\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "D": "\"Bowman capsule\" is a plausible distractor but incorrect. The correct answer is B (\"Proximal convoluted tubule\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
-    },
-    "subject": "Anatomy",
-    "topic": "Renal",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 693,
-    "question": "Juxtaglomerular cells release:",
-    "options": [
-      "ADH",
-      "Renin",
-      "Aldosterone directly",
-      "ANP"
-    ],
-    "correct": 1,
-    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
-    "explanations": {
-      "A": "\"ADH\" is a plausible distractor but incorrect. The correct answer is B (\"Renin\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "C": "\"Aldosterone directly\" is a plausible distractor but incorrect. The correct answer is B (\"Renin\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "D": "\"ANP\" is a plausible distractor but incorrect. The correct answer is B (\"Renin\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
-    },
-    "subject": "Anatomy",
-    "topic": "Renal",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 722,
-    "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
-    "options": [
-      "Less than 20 per 1000 live births",
-      "Less than 25 per 1000 live births",
-      "Less than 30 per 1000 live births",
-      "Less than 35 per 1000 live births"
-    ],
-    "correct": 0,
-    "explanation": "• India aims to reduce IMR to less than 20 per 1000 live births.\n• Current IMR is around 28.\n• Key interventions include immunization, nutrition, and safe delivery.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
-    "explanations": {
-      "A": "India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "B": "\"Less than 25 per 1000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 20 per 1000 live births\") — India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "C": "\"Less than 30 per 1000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 20 per 1000 live births\") — India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "D": "\"Less than 35 per 1000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 20 per 1000 live births\") — India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28."
-    },
-    "subject": "Community Health",
-    "topic": "Child Health",
-    "day": 5,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 730,
-    "question": "What is the target for reducing Under-5 Mortality Rate?",
-    "options": [
-      "Less than 25 per 1000",
-      "Less than 30 per 1000",
-      "Less than 35 per 1000",
-      "Less than 40 per 1000"
-    ],
-    "correct": 0,
-    "explanation": "• SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030.\n• Key interventions include immunization, nutrition, and safe water.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
-    "explanations": {
-      "A": "SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030. Key interventions include immunization, nutrition, and safe water.",
-      "B": "\"Less than 30 per 1000\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 25 per 1000\") — SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030. Key interventions include immunization, nutrition, and safe water.",
-      "C": "\"Less than 35 per 1000\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 25 per 1000\") — SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030. Key interventions include immunization, nutrition, and safe water.",
-      "D": "\"Less than 40 per 1000\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 25 per 1000\") — SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030. Key interventions include immunization, nutrition, and safe water."
-    },
-    "subject": "Community Health",
-    "topic": "Child Health",
-    "day": 5,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 742,
-    "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
-    "options": [
-      "Less than 20 per 1000 live births",
-      "Less than 25 per 1000 live births",
-      "Less than 30 per 1000 live births",
-      "Less than 35 per 1000 live births"
-    ],
-    "correct": 0,
-    "explanation": "• India aims to reduce IMR to less than 20 per 1000 live births.\n• Current IMR is around 28.\n• Key interventions include immunization, nutrition, and safe delivery.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
-    "explanations": {
-      "A": "India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "B": "\"Less than 25 per 1000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 20 per 1000 live births\") — India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "C": "\"Less than 30 per 1000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 20 per 1000 live births\") — India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "D": "\"Less than 35 per 1000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 20 per 1000 live births\") — India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28."
-    },
-    "subject": "Community Health",
-    "topic": "Child Health",
-    "day": 5,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2020",
-    "qtype": "factual"
-  },
-  {
-    "id": 841,
-    "question": "A patient with deep vein thrombosis (DVT) is receiving heparin therapy. What is the most critical nursing assessment?",
-    "options": [
-      "Blood pressure",
-      "Bleeding signs",
-      "Urine output",
-      "Temperature"
-    ],
-    "correct": 1,
-    "explanation": "• Heparin is an anticoagulant that increases bleeding risk.\n• Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
-    "explanations": {
-      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding signs\") — Heparin is an anticoagulant that increases bleeding risk. Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
-      "B": "Heparin is an anticoagulant that increases bleeding risk. Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
-      "C": "\"Urine output\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding signs\") — Heparin is an anticoagulant that increases bleeding risk. Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
-      "D": "\"Temperature\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding signs\") — Heparin is an anticoagulant that increases bleeding risk. Monitoring for signs of bleeding (gums, bruising, hematuria) is critical."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Hematological System",
-    "day": 5,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 876,
-    "question": "A patient with hemophilia A is bleeding. What factor replacement is needed?",
-    "options": [
-      "Factor VII",
-      "Factor VIII",
-      "Factor IX",
-      "Factor X"
-    ],
-    "correct": 1,
-    "explanation": "• Hemophilia A is a deficiency of Factor VIII.\n• Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
-    "explanations": {
-      "A": "\"Factor VII\" is a plausible distractor but incorrect. The correct answer is B (\"Factor VIII\") — Hemophilia A is a deficiency of Factor VIII. Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
-      "B": "Hemophilia A is a deficiency of Factor VIII. Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
-      "C": "\"Factor IX\" is a plausible distractor but incorrect. The correct answer is B (\"Factor VIII\") — Hemophilia A is a deficiency of Factor VIII. Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
-      "D": "\"Factor X\" is a plausible distractor but incorrect. The correct answer is B (\"Factor VIII\") — Hemophilia A is a deficiency of Factor VIII. Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Hematological System",
-    "day": 5,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
-  },
-  {
-    "id": 890,
-    "question": "A patient with myasthenia gravis is experiencing crisis. What is the priority assessment?",
-    "options": [
-      "Muscle strength",
-      "Respiratory function",
-      "Swallowing ability",
-      "Vision"
-    ],
-    "correct": 1,
-    "explanation": "• Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.\n• Respiratory failure can occur rapidly and is life-threatening.\n• This knowledge is essential for managing neuromuscular disorders.",
-    "explanations": {
-      "A": "\"Muscle strength\" is a plausible distractor but incorrect. The correct answer is B (\"Respiratory function\") — Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
-      "B": "Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
-      "C": "\"Swallowing ability\" is a plausible distractor but incorrect. The correct answer is B (\"Respiratory function\") — Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
-      "D": "\"Vision\" is a plausible distractor but incorrect. The correct answer is B (\"Respiratory function\") — Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological - Myasthenia Gravis",
-    "day": 5,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2020",
-    "qtype": "factual"
-  },
-  {
-    "id": 1008,
-    "question": "A 2-year-old child is brought to the emergency department with fever and difficulty breathing. What is the priority assessment?",
-    "options": [
-      "Temperature",
-      "Airway and breathing",
-      "Blood pressure",
-      "Weight"
-    ],
-    "correct": 1,
-    "explanation": "• In pediatric emergencies, airway and breathing are assessed first using the ABC approach.\n• Respiratory distress is common in children and can deteriorate rapidly.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
-    "explanations": {
-      "A": "\"Temperature\" is a plausible distractor but incorrect. The correct answer is B (\"Airway and breathing\") — In pediatric emergencies, airway and breathing are assessed first using the ABC approach. Respiratory distress is common in children and can deteriorate rapidly.",
-      "B": "In pediatric emergencies, airway and breathing are assessed first using the ABC approach. Respiratory distress is common in children and can deteriorate rapidly.",
-      "C": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Airway and breathing\") — In pediatric emergencies, airway and breathing are assessed first using the ABC approach. Respiratory distress is common in children and can deteriorate rapidly.",
-      "D": "\"Weight\" is a plausible distractor but incorrect. The correct answer is B (\"Airway and breathing\") — In pediatric emergencies, airway and breathing are assessed first using the ABC approach. Respiratory distress is common in children and can deteriorate rapidly."
-    },
-    "subject": "Pediatric",
-    "topic": "Pediatric Assessment",
-    "day": 5,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
   }
 ]

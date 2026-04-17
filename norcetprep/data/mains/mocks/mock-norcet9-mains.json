@@ -1,519 +1,20 @@
 {
-  "id": "pyq",
-  "title": "PYQ-Only Mock (NORCET 6-9 Mains recalls + high-yield fills)",
-  "count": 160,
+  "id": "norcet9-mains",
+  "title": "NORCET 9 Mains 2025 — Full Replay (121 Q)",
+  "count": 121,
   "minutes": 180,
+  "source": "NORCET 9 Mains 2025 (official paper)",
+  "verbatim": true,
+  "subjects": {
+    "Medical-Surgical": 31,
+    "Fundamentals": 8,
+    "OBG": 15,
+    "Nutrition": 1,
+    "Community Health": 26,
+    "Psychiatric": 14,
+    "Pediatric": 26
+  },
   "questions": [
-    {
-      "id": 1,
-      "_origId": "N8-1",
-      "question": "DBT stands for (in nursing / govt scheme context):",
-      "options": [
-        "Direct Bank Transfer",
-        "Direct Benefit Transfer",
-        "Digital Benefit Transfer",
-        "Direct Beneficiary Transaction"
-      ],
-      "correct": 1,
-      "explanation": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
-      "explanations": {
-        "A": "Common misreading.",
-        "B": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
-        "C": "Incorrect expansion.",
-        "D": "Incorrect expansion."
-      },
-      "subject": "Community Health",
-      "topic": "Schemes",
-      "day": 6,
-      "difficulty": "Easy",
-      "source": "NORCET 8 Mains",
-      "year": 2025,
-      "qtype": "recall",
-      "section": "community-health",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 1
-    },
-    {
-      "id": 2,
-      "_origId": "N8-2",
-      "question": "Tetralogy of Fallot — classic components do NOT include:",
-      "options": [
-        "VSD",
-        "Overriding aorta",
-        "RV hypertrophy",
-        "ASD"
-      ],
-      "correct": 3,
-      "explanation": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH.",
-      "explanations": {
-        "A": "VSD is part of TOF.",
-        "B": "Overriding aorta is part of TOF.",
-        "C": "RV hypertrophy is part of TOF.",
-        "D": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
-      },
-      "subject": "Pediatric",
-      "topic": "Congenital Heart",
-      "day": 5,
-      "difficulty": "Medium",
-      "source": "NORCET 8 Mains",
-      "year": 2025,
-      "qtype": "recall",
-      "section": "pediatric",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 2
-    },
-    {
-      "id": 3,
-      "_origId": "N8-3",
-      "question": "Leopold's 1st maneuver detects:",
-      "options": [
-        "Fetal lie",
-        "Fundal content (breech/cephalic)",
-        "Engagement",
-        "Position"
-      ],
-      "correct": 1,
-      "explanation": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
-      "explanations": {
-        "A": "Overall finding, but 1st step focuses on the fundus.",
-        "B": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
-        "C": "Engagement is assessed in the 4th (Pawlik) maneuver.",
-        "D": "Position is determined in the 3rd maneuver."
-      },
-      "subject": "OBG",
-      "topic": "Leopold",
-      "day": 3,
-      "difficulty": "Easy",
-      "source": "NORCET 8 Mains",
-      "year": 2025,
-      "qtype": "recall",
-      "section": "midwifery",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 3
-    },
-    {
-      "id": 4,
-      "_origId": "N8-4",
-      "question": "Normal pH of arterial blood is:",
-      "options": [
-        "7.25–7.35",
-        "7.35–7.45",
-        "7.45–7.55",
-        "7.40–7.60"
-      ],
-      "correct": 1,
-      "explanation": "Normal physiological pH is 7.35–7.45.",
-      "explanations": {
-        "A": "Acidemic range.",
-        "B": "Normal physiological pH is 7.35–7.45.",
-        "C": "Alkalemic range.",
-        "D": "Incorrect band."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "ABG",
-      "day": 1,
-      "difficulty": "Easy",
-      "source": "NORCET 8 Mains",
-      "year": 2025,
-      "qtype": "recall",
-      "section": "medical-surgical",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 4
-    },
-    {
-      "id": 5,
-      "_origId": "N8-5",
-      "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
-      "options": [
-        "HOB flat",
-        "HOB elevation 30–45°",
-        "Continuous sedation",
-        "Paralytic infusion"
-      ],
-      "correct": 1,
-      "explanation": "Semi-Fowler 30–45° is a core VAP-bundle element — reduces gastric reflux and aspiration.",
-      "explanations": {
-        "A": "Supine position increases aspiration risk.",
-        "B": "Semi-Fowler 30–45° is a core VAP-bundle element — reduces gastric reflux and aspiration.",
-        "C": "Deep sedation delays extubation and increases VAP risk.",
-        "D": "Paralytics have no routine VAP-prevention role."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "ICU care / VAP",
-      "day": 1,
-      "difficulty": "Medium",
-      "source": "NORCET 8 Mains",
-      "year": 2025,
-      "qtype": "scenario",
-      "section": "medical-surgical",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 5
-    },
-    {
-      "id": 6,
-      "_origId": "N8-6",
-      "question": "Coombs test is used to diagnose:",
-      "options": [
-        "Hemophilia",
-        "Autoimmune hemolytic anemia",
-        "G6PD deficiency",
-        "Aplastic anemia"
-      ],
-      "correct": 1,
-      "explanation": "Direct Coombs detects antibody coating RBCs — classic test for AIHA.",
-      "explanations": {
-        "A": "Hemophilia is diagnosed with factor assays.",
-        "B": "Direct Coombs detects antibody coating RBCs — classic test for AIHA.",
-        "C": "G6PD is assessed with enzyme assays, not Coombs.",
-        "D": "Aplastic anemia is diagnosed by bone marrow biopsy."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Hematology",
-      "day": 5,
-      "difficulty": "Medium",
-      "source": "NORCET 8 Mains",
-      "year": 2025,
-      "qtype": "recall",
-      "section": "medical-surgical",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 6
-    },
-    {
-      "id": 7,
-      "_origId": "N7-1",
-      "question": "Episiotomy most commonly used in India:",
-      "options": [
-        "Mediolateral",
-        "Midline",
-        "J-shaped",
-        "Lateral"
-      ],
-      "correct": 0,
-      "explanation": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
-      "explanations": {
-        "A": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
-        "B": "Preferred in the USA but not standard in India due to higher severe-tear risk.",
-        "C": "J-shaped is rarely used.",
-        "D": "Lateral episiotomy is obsolete; abandoned due to complications."
-      },
-      "subject": "OBG",
-      "topic": "Episiotomy",
-      "day": 3,
-      "difficulty": "Easy",
-      "source": "NORCET 7 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "midwifery",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 7
-    },
-    {
-      "id": 8,
-      "_origId": "N7-2",
-      "question": "Triple-lumen catheter typically has:",
-      "options": [
-        "1 port",
-        "2 ports",
-        "3 ports",
-        "4 ports"
-      ],
-      "correct": 2,
-      "explanation": "Triple-lumen = 3 ports (distal, middle, proximal).",
-      "explanations": {
-        "A": "Single-lumen.",
-        "B": "Double-lumen.",
-        "C": "Triple-lumen = 3 ports (distal, middle, proximal).",
-        "D": "Quadruple-lumen is rare and has 4 ports."
-      },
-      "subject": "Fundamentals",
-      "topic": "Central line",
-      "day": 8,
-      "difficulty": "Easy",
-      "source": "NORCET 7 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "foundations",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 8
-    },
-    {
-      "id": 9,
-      "_origId": "N7-3",
-      "question": "First intervention in hypovolemic shock:",
-      "options": [
-        "Antibiotics",
-        "Vasopressors",
-        "IV fluid bolus",
-        "Inotropes"
-      ],
-      "correct": 2,
-      "explanation": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
-      "explanations": {
-        "A": "Antibiotics are only for suspected sepsis, not hypovolemia.",
-        "B": "Vasopressors are second-line after fluid resuscitation.",
-        "C": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
-        "D": "Inotropes are for cardiogenic shock, not hypovolemic."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Shock",
-      "day": 9,
-      "difficulty": "Easy",
-      "source": "NORCET 7 Mains",
-      "year": 2024,
-      "qtype": "scenario",
-      "section": "medical-surgical",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 9
-    },
-    {
-      "id": 10,
-      "_origId": "N6-1",
-      "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 weeks' gestation?",
-      "options": [
-        "≥130/80 mmHg",
-        "≥140/90 mmHg",
-        "≥150/95 mmHg",
-        "≥160/110 mmHg"
-      ],
-      "correct": 1,
-      "explanation": "BP ≥140/90 mmHg on two occasions ≥4 hours apart after 20 weeks + proteinuria or end-organ dysfunction = pre-eclampsia.",
-      "explanations": {
-        "A": "This is the Stage 1 hypertension cutoff, not the pre-eclampsia threshold.",
-        "B": "BP ≥140/90 mmHg on two occasions ≥4 hours apart after 20 weeks + proteinuria or end-organ dysfunction = pre-eclampsia.",
-        "C": "Not a standard cutoff.",
-        "D": "≥160/110 defines pre-eclampsia with severe features, not the diagnosis itself."
-      },
-      "subject": "OBG",
-      "topic": "Pre-eclampsia",
-      "day": 3,
-      "difficulty": "Medium",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "midwifery",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 10
-    },
-    {
-      "id": 11,
-      "_origId": "N6-2",
-      "question": "First step in Neonatal Resuscitation Program after birth:",
-      "options": [
-        "Clamp cord",
-        "Dry, warm, position, clear airway",
-        "Give oxygen",
-        "Start compressions"
-      ],
-      "correct": 1,
-      "explanation": "Initial steps per NRP: warm, dry, position airway, clear secretions, stimulate.",
-      "explanations": {
-        "A": "Cord clamping follows the initial steps.",
-        "B": "Initial steps per NRP: warm, dry, position airway, clear secretions, stimulate.",
-        "C": "Oxygen only if HR <100 and PPV has failed.",
-        "D": "Chest compressions only if HR <60 after effective PPV."
-      },
-      "subject": "Pediatric",
-      "topic": "NRP",
-      "day": 4,
-      "difficulty": "Easy",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "scenario",
-      "section": "pediatric",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 11
-    },
-    {
-      "id": 12,
-      "_origId": "N6-3",
-      "question": "Normal ET tube size for full-term newborn (uncuffed) is:",
-      "options": [
-        "2.5 mm",
-        "3.0–3.5 mm",
-        "4.0 mm",
-        "4.5 mm"
-      ],
-      "correct": 1,
-      "explanation": "Term newborn needs ET tube 3.0–3.5 mm uncuffed.",
-      "explanations": {
-        "A": "Used for preterm <1 kg.",
-        "B": "Term newborn needs ET tube 3.0–3.5 mm uncuffed.",
-        "C": "Used for older infant (6–12 months).",
-        "D": "Used for children >1 year."
-      },
-      "subject": "Pediatric",
-      "topic": "ET tube",
-      "day": 2,
-      "difficulty": "Medium",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "pediatric",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 12
-    },
-    {
-      "id": 13,
-      "_origId": "N6-4",
-      "question": "MgSO4 therapeutic serum level in eclampsia is:",
-      "options": [
-        "1–2 mEq/L",
-        "4–7 mEq/L",
-        "8–10 mEq/L",
-        ">10 mEq/L"
-      ],
-      "correct": 1,
-      "explanation": "Therapeutic serum magnesium level = 4–7 mEq/L for eclampsia prophylaxis.",
-      "explanations": {
-        "A": "Subtherapeutic.",
-        "B": "Therapeutic serum magnesium level = 4–7 mEq/L for eclampsia prophylaxis.",
-        "C": "8–10 mEq/L → loss of deep tendon reflexes (toxic).",
-        "D": ">10 mEq/L → respiratory depression; stop infusion and give calcium gluconate."
-      },
-      "subject": "OBG",
-      "topic": "MgSO4",
-      "day": 3,
-      "difficulty": "High",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "midwifery",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 13
-    },
-    {
-      "id": 14,
-      "_origId": "N6-5",
-      "question": "Venturi mask color providing 24% FiO2 (low-concentration):",
-      "options": [
-        "Blue",
-        "White",
-        "Yellow",
-        "Red"
-      ],
-      "correct": 0,
-      "explanation": "Blue = 24% FiO2 at 2 L/min.",
-      "explanations": {
-        "A": "Blue = 24% FiO2 at 2 L/min.",
-        "B": "White = 28%.",
-        "C": "Yellow = 35%.",
-        "D": "Red = 40% (or green on some Venturi sets)."
-      },
-      "subject": "Fundamentals",
-      "topic": "Oxygen therapy",
-      "day": 7,
-      "difficulty": "Medium",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "foundations",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 14
-    },
-    {
-      "id": 15,
-      "_origId": "N6-6",
-      "question": "CPR compression:ventilation ratio in adults (single rescuer):",
-      "options": [
-        "15:2",
-        "30:2",
-        "5:1",
-        "10:2"
-      ],
-      "correct": 1,
-      "explanation": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
-      "explanations": {
-        "A": "Pediatric two-rescuer ratio.",
-        "B": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
-        "C": "Outdated ratio.",
-        "D": "Non-standard."
-      },
-      "subject": "Fundamentals",
-      "topic": "BLS",
-      "day": 9,
-      "difficulty": "Easy",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "foundations",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 15
-    },
-    {
-      "id": 16,
-      "_origId": "N6-7",
-      "question": "Which does NOT belong to the 5 WHO moments of hand hygiene?",
-      "options": [
-        "Before touching a patient",
-        "Before clean/aseptic procedure",
-        "After touching the nurses' station",
-        "After touching patient surroundings"
-      ],
-      "correct": 2,
-      "explanation": "Not one of the 5 WHO moments — irrelevant to clinical contact.",
-      "explanations": {
-        "A": "Moment 1 — before patient contact.",
-        "B": "Moment 2 — before aseptic procedure.",
-        "C": "Not one of the 5 WHO moments — irrelevant to clinical contact.",
-        "D": "Moment 5 — after touching patient surroundings."
-      },
-      "subject": "Fundamentals",
-      "topic": "Hand hygiene",
-      "day": 7,
-      "difficulty": "Easy",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "foundations",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 16
-    },
-    {
-      "id": 17,
-      "_origId": "N6-8",
-      "question": "ICDS beneficiary age group for supplementary nutrition is:",
-      "options": [
-        "0–3 years",
-        "6 months–6 years + pregnant/lactating",
-        "0–5 years",
-        "6–12 years"
-      ],
-      "correct": 1,
-      "explanation": "ICDS covers children 6 months–6 years, pregnant and lactating women, and adolescent girls.",
-      "explanations": {
-        "A": "Partial range only.",
-        "B": "ICDS covers children 6 months–6 years, pregnant and lactating women, and adolescent girls.",
-        "C": "Excludes pregnant/lactating women.",
-        "D": "School-age children are not part of ICDS."
-      },
-      "subject": "Community Health",
-      "topic": "ICDS",
-      "day": 6,
-      "difficulty": "Medium",
-      "source": "NORCET 6 Mains",
-      "year": 2024,
-      "qtype": "recall",
-      "section": "community-health",
-      "tags": [],
-      "_sourceFile": "norcet-6-7-8-recalls.json",
-      "mockSeq": 17
-    },
     {
       "id": 18,
       "_origId": "N9-1",
@@ -542,7 +43,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 18
+      "mockSeq": 1
     },
     {
       "id": 19,
@@ -572,7 +73,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 19
+      "mockSeq": 2
     },
     {
       "id": 20,
@@ -602,7 +103,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 20
+      "mockSeq": 3
     },
     {
       "id": 21,
@@ -632,7 +133,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 21
+      "mockSeq": 4
     },
     {
       "id": 22,
@@ -662,7 +163,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 22
+      "mockSeq": 5
     },
     {
       "id": 23,
@@ -692,7 +193,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 23
+      "mockSeq": 6
     },
     {
       "id": 24,
@@ -722,7 +223,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 24
+      "mockSeq": 7
     },
     {
       "id": 25,
@@ -752,7 +253,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 25
+      "mockSeq": 8
     },
     {
       "id": 26,
@@ -782,7 +283,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 26
+      "mockSeq": 9
     },
     {
       "id": 27,
@@ -812,7 +313,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 27
+      "mockSeq": 10
     },
     {
       "id": 28,
@@ -842,7 +343,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 28
+      "mockSeq": 11
     },
     {
       "id": 29,
@@ -872,7 +373,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 29
+      "mockSeq": 12
     },
     {
       "id": 30,
@@ -902,7 +403,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 30
+      "mockSeq": 13
     },
     {
       "id": 31,
@@ -932,7 +433,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 31
+      "mockSeq": 14
     },
     {
       "id": 32,
@@ -962,7 +463,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 32
+      "mockSeq": 15
     },
     {
       "id": 33,
@@ -992,7 +493,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 33
+      "mockSeq": 16
     },
     {
       "id": 34,
@@ -1022,7 +523,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 34
+      "mockSeq": 17
     },
     {
       "id": 35,
@@ -1052,7 +553,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 35
+      "mockSeq": 18
     },
     {
       "id": 36,
@@ -1082,7 +583,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 36
+      "mockSeq": 19
     },
     {
       "id": 37,
@@ -1112,7 +613,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 37
+      "mockSeq": 20
     },
     {
       "id": 38,
@@ -1142,7 +643,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 38
+      "mockSeq": 21
     },
     {
       "id": 39,
@@ -1172,7 +673,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 39
+      "mockSeq": 22
     },
     {
       "id": 40,
@@ -1202,7 +703,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 40
+      "mockSeq": 23
     },
     {
       "id": 41,
@@ -1232,7 +733,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 41
+      "mockSeq": 24
     },
     {
       "id": 42,
@@ -1262,7 +763,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 42
+      "mockSeq": 25
     },
     {
       "id": 43,
@@ -1292,7 +793,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 43
+      "mockSeq": 26
     },
     {
       "id": 44,
@@ -1322,7 +823,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 44
+      "mockSeq": 27
     },
     {
       "id": 45,
@@ -1352,7 +853,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 45
+      "mockSeq": 28
     },
     {
       "id": 46,
@@ -1382,7 +883,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 46
+      "mockSeq": 29
     },
     {
       "id": 47,
@@ -1412,7 +913,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 47
+      "mockSeq": 30
     },
     {
       "id": 48,
@@ -1442,7 +943,7 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 48
+      "mockSeq": 31
     },
     {
       "id": 49,
@@ -1472,7 +973,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 49
+      "mockSeq": 32
     },
     {
       "id": 50,
@@ -1502,7 +1003,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 50
+      "mockSeq": 33
     },
     {
       "id": 51,
@@ -1532,7 +1033,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 51
+      "mockSeq": 34
     },
     {
       "id": 52,
@@ -1562,7 +1063,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 52
+      "mockSeq": 35
     },
     {
       "id": 53,
@@ -1592,7 +1093,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 53
+      "mockSeq": 36
     },
     {
       "id": 54,
@@ -1622,7 +1123,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 54
+      "mockSeq": 37
     },
     {
       "id": 55,
@@ -1652,7 +1153,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 55
+      "mockSeq": 38
     },
     {
       "id": 56,
@@ -1682,7 +1183,7 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 56
+      "mockSeq": 39
     },
     {
       "id": 57,
@@ -1712,7 +1213,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 57
+      "mockSeq": 40
     },
     {
       "id": 58,
@@ -1742,7 +1243,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 58
+      "mockSeq": 41
     },
     {
       "id": 59,
@@ -1772,7 +1273,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 59
+      "mockSeq": 42
     },
     {
       "id": 60,
@@ -1802,7 +1303,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 60
+      "mockSeq": 43
     },
     {
       "id": 61,
@@ -1832,7 +1333,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 61
+      "mockSeq": 44
     },
     {
       "id": 62,
@@ -1862,7 +1363,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 62
+      "mockSeq": 45
     },
     {
       "id": 63,
@@ -1892,7 +1393,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 63
+      "mockSeq": 46
     },
     {
       "id": 64,
@@ -1922,7 +1423,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 64
+      "mockSeq": 47
     },
     {
       "id": 65,
@@ -1952,7 +1453,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 65
+      "mockSeq": 48
     },
     {
       "id": 66,
@@ -1982,7 +1483,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 66
+      "mockSeq": 49
     },
     {
       "id": 67,
@@ -2012,7 +1513,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 67
+      "mockSeq": 50
     },
     {
       "id": 68,
@@ -2042,7 +1543,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 68
+      "mockSeq": 51
     },
     {
       "id": 69,
@@ -2072,7 +1573,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 69
+      "mockSeq": 52
     },
     {
       "id": 70,
@@ -2102,7 +1603,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 70
+      "mockSeq": 53
     },
     {
       "id": 71,
@@ -2132,7 +1633,7 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 71
+      "mockSeq": 54
     },
     {
       "id": 72,
@@ -2162,7 +1663,7 @@
       "section": "nutrition-biochemistry",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 72
+      "mockSeq": 55
     },
     {
       "id": 73,
@@ -2192,7 +1693,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 73
+      "mockSeq": 56
     },
     {
       "id": 74,
@@ -2222,7 +1723,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 74
+      "mockSeq": 57
     },
     {
       "id": 75,
@@ -2252,7 +1753,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 75
+      "mockSeq": 58
     },
     {
       "id": 76,
@@ -2282,7 +1783,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 76
+      "mockSeq": 59
     },
     {
       "id": 77,
@@ -2312,7 +1813,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 77
+      "mockSeq": 60
     },
     {
       "id": 78,
@@ -2342,7 +1843,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 78
+      "mockSeq": 61
     },
     {
       "id": 79,
@@ -2372,7 +1873,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 79
+      "mockSeq": 62
     },
     {
       "id": 80,
@@ -2402,7 +1903,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 80
+      "mockSeq": 63
     },
     {
       "id": 81,
@@ -2432,7 +1933,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 81
+      "mockSeq": 64
     },
     {
       "id": 82,
@@ -2462,7 +1963,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 82
+      "mockSeq": 65
     },
     {
       "id": 83,
@@ -2492,7 +1993,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 83
+      "mockSeq": 66
     },
     {
       "id": 84,
@@ -2522,7 +2023,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 84
+      "mockSeq": 67
     },
     {
       "id": 85,
@@ -2552,7 +2053,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 85
+      "mockSeq": 68
     },
     {
       "id": 86,
@@ -2582,7 +2083,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 86
+      "mockSeq": 69
     },
     {
       "id": 87,
@@ -2612,7 +2113,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 87
+      "mockSeq": 70
     },
     {
       "id": 88,
@@ -2642,7 +2143,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 88
+      "mockSeq": 71
     },
     {
       "id": 89,
@@ -2672,7 +2173,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 89
+      "mockSeq": 72
     },
     {
       "id": 90,
@@ -2702,7 +2203,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 90
+      "mockSeq": 73
     },
     {
       "id": 91,
@@ -2732,7 +2233,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 91
+      "mockSeq": 74
     },
     {
       "id": 92,
@@ -2762,7 +2263,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 92
+      "mockSeq": 75
     },
     {
       "id": 93,
@@ -2792,7 +2293,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 93
+      "mockSeq": 76
     },
     {
       "id": 94,
@@ -2822,7 +2323,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 94
+      "mockSeq": 77
     },
     {
       "id": 95,
@@ -2852,7 +2353,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 95
+      "mockSeq": 78
     },
     {
       "id": 96,
@@ -2882,7 +2383,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 96
+      "mockSeq": 79
     },
     {
       "id": 97,
@@ -2912,7 +2413,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 97
+      "mockSeq": 80
     },
     {
       "id": 98,
@@ -2942,7 +2443,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 98
+      "mockSeq": 81
     },
     {
       "id": 99,
@@ -2972,7 +2473,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 99
+      "mockSeq": 82
     },
     {
       "id": 100,
@@ -3002,7 +2503,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 100
+      "mockSeq": 83
     },
     {
       "id": 101,
@@ -3032,7 +2533,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 101
+      "mockSeq": 84
     },
     {
       "id": 102,
@@ -3062,7 +2563,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 102
+      "mockSeq": 85
     },
     {
       "id": 103,
@@ -3092,7 +2593,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 103
+      "mockSeq": 86
     },
     {
       "id": 104,
@@ -3122,7 +2623,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 104
+      "mockSeq": 87
     },
     {
       "id": 105,
@@ -3152,7 +2653,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 105
+      "mockSeq": 88
     },
     {
       "id": 106,
@@ -3182,7 +2683,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 106
+      "mockSeq": 89
     },
     {
       "id": 107,
@@ -3212,7 +2713,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 107
+      "mockSeq": 90
     },
     {
       "id": 108,
@@ -3242,7 +2743,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 108
+      "mockSeq": 91
     },
     {
       "id": 109,
@@ -3272,7 +2773,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 109
+      "mockSeq": 92
     },
     {
       "id": 110,
@@ -3302,7 +2803,7 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 110
+      "mockSeq": 93
     },
     {
       "id": 111,
@@ -3332,7 +2833,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 111
+      "mockSeq": 94
     },
     {
       "id": 112,
@@ -3362,7 +2863,7 @@
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 112
+      "mockSeq": 95
     },
     {
       "id": 113,
@@ -3392,7 +2893,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 113
+      "mockSeq": 96
     },
     {
       "id": 114,
@@ -3422,7 +2923,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 114
+      "mockSeq": 97
     },
     {
       "id": 115,
@@ -3452,7 +2953,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 115
+      "mockSeq": 98
     },
     {
       "id": 116,
@@ -3482,7 +2983,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 116
+      "mockSeq": 99
     },
     {
       "id": 117,
@@ -3512,7 +3013,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 117
+      "mockSeq": 100
     },
     {
       "id": 118,
@@ -3542,7 +3043,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 118
+      "mockSeq": 101
     },
     {
       "id": 119,
@@ -3572,7 +3073,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 119
+      "mockSeq": 102
     },
     {
       "id": 120,
@@ -3602,7 +3103,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 120
+      "mockSeq": 103
     },
     {
       "id": 121,
@@ -3632,7 +3133,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 121
+      "mockSeq": 104
     },
     {
       "id": 122,
@@ -3662,7 +3163,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 122
+      "mockSeq": 105
     },
     {
       "id": 123,
@@ -3692,7 +3193,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 123
+      "mockSeq": 106
     },
     {
       "id": 124,
@@ -3722,7 +3223,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 124
+      "mockSeq": 107
     },
     {
       "id": 125,
@@ -3752,7 +3253,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 125
+      "mockSeq": 108
     },
     {
       "id": 126,
@@ -3782,7 +3283,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 126
+      "mockSeq": 109
     },
     {
       "id": 127,
@@ -3812,7 +3313,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 127
+      "mockSeq": 110
     },
     {
       "id": 128,
@@ -3842,7 +3343,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 128
+      "mockSeq": 111
     },
     {
       "id": 129,
@@ -3872,7 +3373,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 129
+      "mockSeq": 112
     },
     {
       "id": 130,
@@ -3902,7 +3403,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 130
+      "mockSeq": 113
     },
     {
       "id": 131,
@@ -3932,7 +3433,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 131
+      "mockSeq": 114
     },
     {
       "id": 132,
@@ -3962,7 +3463,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 132
+      "mockSeq": 115
     },
     {
       "id": 133,
@@ -3992,7 +3493,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 133
+      "mockSeq": 116
     },
     {
       "id": 134,
@@ -4022,7 +3523,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 134
+      "mockSeq": 117
     },
     {
       "id": 135,
@@ -4052,7 +3553,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 135
+      "mockSeq": 118
     },
     {
       "id": 136,
@@ -4082,7 +3583,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 136
+      "mockSeq": 119
     },
     {
       "id": 137,
@@ -4112,7 +3613,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 137
+      "mockSeq": 120
     },
     {
       "id": 138,
@@ -4142,684 +3643,7 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 138
-    },
-    {
-      "id": 634,
-      "syllabusId": "midwifery-22-instruments-for-curettage-and-cesarean-section",
-      "question": "OSCE image of Green-Armytage forceps.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality",
-        "Identify Green-Armytage — haemostatic clamp used on uterine incision edges during CS",
-        "Plan hospital delivery with urology backup, avoid manual removal, arrange blood products, anticipate hysterectomy",
-        "Start IV fluids, cross-match blood, prepare for MVA, give anti-D if Rh-negative, monitor for shock"
-      ],
-      "correct": 1,
-      "explanation": "Priority: Identify Green-Armytage — haemostatic clamp used on uterine incision edges during CS",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Correct — per the note, the priority action is: Identify Green-Armytage — haemostatic clamp used on uterine incision edges during CS. D&C tray: Sims speculum, Hegar dilators (4-16 mm), Karman cannula/curette, sponge forceps, anterior vulsellum.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "OBG",
-      "topic": "Instruments for curettage and cesarean section",
-      "section": "midwifery",
-      "day": 3,
-      "difficulty": "Medium",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "should"
-      ],
-      "mockSeq": 139
-    },
-    {
-      "id": 1002,
-      "question": "A patient with TPN (Total Parenteral Nutrition) develops hyperglycemia. What is the priority intervention?",
-      "options": [
-        "Stop TPN",
-        "Add insulin to TPN solution",
-        "Increase TPN rate",
-        "Monitor only"
-      ],
-      "correct": 1,
-      "explanation": "• Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately.\n• TPN should not be stopped abruptly.\n• Monitor blood glucose frequently.\n• Understanding TPN management prevents complications and ensures adequate nutrition in critically ill patients.",
-      "explanations": {
-        "A": "\"Stop TPN\" is a plausible distractor but incorrect. The correct answer is B (\"Add insulin to TPN solution\") — Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately. TPN should not be stopped abruptly.",
-        "B": "Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately. TPN should not be stopped abruptly.",
-        "C": "\"Increase TPN rate\" is a plausible distractor but incorrect. The correct answer is B (\"Add insulin to TPN solution\") — Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately. TPN should not be stopped abruptly.",
-        "D": "\"Monitor only\" is a plausible distractor but incorrect. The correct answer is B (\"Add insulin to TPN solution\") — Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately. TPN should not be stopped abruptly."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Nutrition Support Equipment",
-      "day": 8,
-      "difficulty": "High",
-      "source": "Practice",
-      "year": "2016",
-      "qtype": "scenario",
-      "mockSeq": 140
-    },
-    {
-      "id": 589,
-      "syllabusId": "micro-16-bacterial-growth-curve",
-      "question": "Item on antibiotic action phase.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Isolate droplet precautions 5 d post-swelling, analgesia, cold/warm compress, hydration, observe for complications (orchitis, meningitis)",
-        "Load autoclave correctly (loosely packed, indicators), confirm 121°C/15 psi/15-20 min, check chemical and biological indicators (Bacillus s…",
-        "Cite endotoxin (Gram-negative lipopolysaccharide)",
-        "Most antibiotics most effective on log phase"
-      ],
-      "correct": 3,
-      "explanation": "Priority: Most antibiotics most effective on log phase",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Correct — per the note, the priority action is: Most antibiotics most effective on log phase. Lag: adaptation"
-      },
-      "subject": "Microbiology",
-      "topic": "Bacterial growth curve",
-      "section": "micro",
-      "day": 10,
-      "difficulty": "Medium",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "should"
-      ],
-      "mockSeq": 141
-    },
-    {
-      "id": 1144,
-      "question": "A 6-month-old infant is ready for complementary feeding. What is the first sign of readiness?",
-      "options": [
-        "Can sit with support",
-        "Shows interest in food",
-        "Loss of tongue-thrust reflex",
-        "Can hold head steady"
-      ],
-      "correct": 2,
-      "explanation": "• Loss of tongue-thrust reflex is a key sign that an infant is ready for complementary feeding.\n• Other signs include ability to sit with support, head control, showing interest in food, and opening mouth when food approaches.\n• Starting complementary feeding at the right time (around 6 months) ensures optimal nutrition while continuing breastfeeding.\n• Pediatric nursing requires specialized knowledge as children have unique physiological needs.",
-      "explanations": {
-        "A": "\"Can sit with support\" is a plausible distractor but incorrect. The correct answer is C (\"Loss of tongue-thrust reflex\") — Loss of tongue-thrust reflex is a key sign that an infant is ready for complementary feeding. Other signs include ability to sit with support, head control, showing interest in food, and opening mouth when food approaches.",
-        "B": "\"Shows interest in food\" is a plausible distractor but incorrect. The correct answer is C (\"Loss of tongue-thrust reflex\") — Loss of tongue-thrust reflex is a key sign that an infant is ready for complementary feeding. Other signs include ability to sit with support, head control, showing interest in food, and opening mouth when food approaches.",
-        "C": "Loss of tongue-thrust reflex is a key sign that an infant is ready for complementary feeding. Other signs include ability to sit with support, head control, showing interest in food, and opening mouth when food approaches.",
-        "D": "\"Can hold head steady\" is a plausible distractor but incorrect. The correct answer is C (\"Loss of tongue-thrust reflex\") — Loss of tongue-thrust reflex is a key sign that an infant is ready for complementary feeding. Other signs include ability to sit with support, head control, showing interest in food, and opening mouth when food approaches."
-      },
-      "subject": "Pediatric",
-      "topic": "Nutrition",
-      "day": 4,
-      "difficulty": "High",
-      "source": "Practice",
-      "year": "2025",
-      "qtype": "scenario",
-      "mockSeq": 142
-    },
-    {
-      "id": 954,
-      "question": "A patient with rheumatoid arthritis is taking methotrexate. What is the most important monitoring parameter?",
-      "options": [
-        "Blood glucose",
-        "Liver function tests",
-        "Blood pressure",
-        "Temperature"
-      ],
-      "correct": 1,
-      "explanation": "• Methotrexate can cause hepatotoxicity.\n• Regular liver function tests are essential to monitor for liver damage.",
-      "explanations": {
-        "A": "\"Blood glucose\" is a plausible distractor but incorrect. The correct answer is B (\"Liver function tests\") — Methotrexate can cause hepatotoxicity. Regular liver function tests are essential to monitor for liver damage.",
-        "B": "Methotrexate can cause hepatotoxicity. Regular liver function tests are essential to monitor for liver damage.",
-        "C": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Liver function tests\") — Methotrexate can cause hepatotoxicity. Regular liver function tests are essential to monitor for liver damage.",
-        "D": "\"Temperature\" is a plausible distractor but incorrect. The correct answer is B (\"Liver function tests\") — Methotrexate can cause hepatotoxicity. Regular liver function tests are essential to monitor for liver damage."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Musculoskeletal System",
-      "day": 2,
-      "difficulty": "High",
-      "source": "Practice",
-      "year": "2022",
-      "qtype": "scenario",
-      "mockSeq": 143
-    },
-    {
-      "id": 968,
-      "question": "A patient with tension pneumothorax requires immediate intervention. What is the priority action?",
-      "options": [
-        "Administer oxygen",
-        "Insert chest tube",
-        "Needle decompression",
-        "Prepare for surgery"
-      ],
-      "correct": 2,
-      "explanation": "• Tension pneumothorax is a medical emergency.\n• Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-      "explanations": {
-        "A": "\"Administer oxygen\" is a plausible distractor but incorrect. The correct answer is C (\"Needle decompression\") — Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-        "B": "\"Insert chest tube\" is a plausible distractor but incorrect. The correct answer is C (\"Needle decompression\") — Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-        "C": "Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-        "D": "\"Prepare for surgery\" is a plausible distractor but incorrect. The correct answer is C (\"Needle decompression\") — Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Respiratory System",
-      "day": 13,
-      "difficulty": "Critical",
-      "source": "Practice",
-      "year": "2015",
-      "qtype": "scenario",
-      "mockSeq": 144
-    },
-    {
-      "id": 626,
-      "syllabusId": "midwifery-14-postpartum-hemorrhage-management-and-risk-factors",
-      "question": "Postpartum day 1, 28-y-old G3P3 soaks pad in 10 min, fundus boggy above umbilicus, BP 90/60, HR 118.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only)",
-        "Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality",
-        "Fundal massage first, then IV oxytocin 10 IU bolus, crystalloid bolus, cross-match 2 units, call obstetric team, monitor vitals q5 min",
-        "Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart"
-      ],
-      "correct": 2,
-      "explanation": "Priority: Fundal massage first, then IV oxytocin 10 IU bolus, crystalloid bolus, cross-match 2 units, call obstetric team, monitor vitals q5 min (Shock index (HR/SBP) >=1 → activate massive transfusion protocol.)",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Correct — per the note, the priority action is: Fundal massage first, then IV oxytocin 10 IU bolus, crystalloid bolus, cross-match 2 units, call obstetric team, monitor vitals q5 min. 4 Ts: Tone (atony 70-80%), Trauma (lacerations), Tissue (retained products), Thrombin (coagulopathy).",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "OBG",
-      "topic": "Postpartum hemorrhage — management and risk factors",
-      "section": "midwifery",
-      "day": 3,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 145
-    },
-    {
-      "id": 744,
-      "syllabusId": "surgery-42-esophageal-perforation",
-      "question": "Post-endoscopy patient with chest pain, neck crepitus.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Blood cultures x2, MRI, empiric anti-staph IV, ortho consult for drainage",
-        "PPI (omeprazole) 20 mg OD before breakfast, weight loss, avoid late meals, head elevation; endoscopy if alarm symptoms",
-        "NPO, IV fluids, broad-spectrum antibiotics, urgent CT with water-soluble contrast, surgical consult",
-        "Lead Time Out: verbal confirmation of patient, procedure, site, antibiotic prophylaxis given, imaging displayed"
-      ],
-      "correct": 2,
-      "explanation": "Priority: NPO, IV fluids, broad-spectrum antibiotics, urgent CT with water-soluble contrast, surgical consult",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Correct — per the note, the priority action is: NPO, IV fluids, broad-spectrum antibiotics, urgent CT with water-soluble contrast, surgical consult. Mackler triad: vomiting + chest pain + subcutaneous emphysema",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Esophageal perforation",
-      "section": "surgery",
-      "day": 8,
-      "difficulty": "Easy",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "nice"
-      ],
-      "mockSeq": 146
-    },
-    {
-      "id": 673,
-      "syllabusId": "pharma-31-general-anesthesia-stages",
-      "question": "OSCE item on stages.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Identify stage III as target for surgery",
-        "Dose = 200 mg; draw up from suspension concentration and double-check",
-        "Remove clothing, wash skin + decontaminate staff PPE, atropine 2-4 mg IV repeat doubling q5 min until secretions dry, pralidoxime 30 mg/kg …",
-        "IV artesunate 2.4 mg/kg at 0, 12, 24 h then daily; ICU support; avoid artesunate monotherapy oral"
-      ],
-      "correct": 0,
-      "explanation": "Priority: Identify stage III as target for surgery",
-      "explanations": {
-        "A": "Correct — per the note, the priority action is: Identify stage III as target for surgery. I: analgesia",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "Pharmacology",
-      "topic": "General anesthesia — stages",
-      "section": "pharma",
-      "day": 2,
-      "difficulty": "Medium",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "should"
-      ],
-      "mockSeq": 147
-    },
-    {
-      "id": 404,
-      "syllabusId": "gyn-5-intrauterine-device-cu-t",
-      "question": "P2 wants long-term reversible contraception.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
-        "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
-        "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
-        "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …"
-      ],
-      "correct": 0,
-      "explanation": "Priority: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks (Check threads monthly; PID risk highest first 3 weeks.)",
-      "explanations": {
-        "A": "Correct — per the note, the priority action is: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks. Cu-T 380A: 10 years; Cu-T 375: 5 years.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "OBG",
-      "topic": "Intrauterine device (Cu-T)",
-      "section": "gyn",
-      "day": 3,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 148
-    },
-    {
-      "id": 286,
-      "syllabusId": "child-50-meningitis-pediatric",
-      "question": "4-y-old with fever, neck stiffness, petechiae.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Suspect meningococcal — LP urgent, ceftriaxone 80-100 mg/kg/day, droplet isolation, notify, chemoprophylaxis contacts (rifampicin)",
-        "Vit D3 60,000 IU weekly + calcium; sunlight; diet",
-        "Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
-        "Brown fat (interscapular, axillae, around kidneys) is primary heat source via non-shivering thermogenesis"
-      ],
-      "correct": 0,
-      "explanation": "Priority: Suspect meningococcal — LP urgent, ceftriaxone 80-100 mg/kg/day, droplet isolation, notify, chemoprophylaxis contacts (rifampicin)",
-      "explanations": {
-        "A": "Correct — per the note, the priority action is: Suspect meningococcal — LP urgent, ceftriaxone 80-100 mg/kg/day, droplet isolation, notify, chemoprophylaxis contacts (rifampicin). <3 mo: GBS, E coli, Listeria",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "Pediatric",
-      "topic": "Meningitis — pediatric",
-      "section": "child",
-      "day": 4,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 149
-    },
-    {
-      "id": 293,
-      "syllabusId": "child-57-cerebral-palsy",
-      "question": "2-y-old preterm survivor with spastic diplegia.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Refer pediatric hem-onc, tumor lysis prevention (hydration, allopurinol/rasburicase), infection prophylaxis, central line for induction che…",
-        "Reduce warmer set point, check for overheating, rule out infection (sepsis fever)",
-        "Johnson EFW = (36-12)x155 = 3720 g",
-        "MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support"
-      ],
-      "correct": 3,
-      "explanation": "Priority: MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Correct — per the note, the priority action is: MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support. Spastic (most common), dyskinetic, ataxic, mixed"
-      },
-      "subject": "Pediatric",
-      "topic": "Cerebral palsy",
-      "section": "child",
-      "day": 5,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 150
-    },
-    {
-      "id": 446,
-      "syllabusId": "medicine-28-graves-disease",
-      "question": "Pregnant 1st trimester with Graves.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Metabolic acidosis (pH low, HCO3 low); anion gap 26 (high) — DKA/lactic/toxin; treat underlying, fluids; avoid bicarbonate unless pH <7.1",
-        "Use PTU 1st trimester (less teratogenic than methimazole), switch to methimazole in 2nd; monitor fT4 to keep in upper normal",
-        "Lower to floor if standing, cushion head, left lateral position, clear surroundings, time seizure, do NOT put anything in mouth, O2 once cy…",
-        "Emergency dialysis, calcium gluconate for cardiac protection, insulin+dextrose for K+, furosemide if any residual function, O2"
-      ],
-      "correct": 1,
-      "explanation": "Priority: Use PTU 1st trimester (less teratogenic than methimazole), switch to methimazole in 2nd; monitor fT4 to keep in upper normal",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Correct — per the note, the priority action is: Use PTU 1st trimester (less teratogenic than methimazole), switch to methimazole in 2nd; monitor fT4 to keep in upper normal. Diffuse goiter, ophthalmopathy, pretibial myxedema, thyroid acropachy",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Graves disease",
-      "section": "medicine",
-      "day": 8,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 151
-    },
-    {
-      "id": 182,
-      "syllabusId": "anatomy-44-diaphragm-physiology",
-      "question": "Item on quiet inspiration.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Central (UMN) VII lesion (stroke) — forehead spared due to bilateral cortical input; workup stroke",
-        "Frontal lobe precentral gyrus (Brodmann area 4)",
-        "Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk",
-        "Diaphragm (primary) with some external intercostal activity"
-      ],
-      "correct": 3,
-      "explanation": "Priority: Diaphragm (primary) with some external intercostal activity",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Correct — per the note, the priority action is: Diaphragm (primary) with some external intercostal activity. Phrenic nerve C3-C5"
-      },
-      "subject": "Anatomy",
-      "topic": "Diaphragm physiology",
-      "section": "anatomy",
-      "day": 10,
-      "difficulty": "Medium",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "should"
-      ],
-      "mockSeq": 152
-    },
-    {
-      "id": 316,
-      "syllabusId": "chn-2-cold-chain",
-      "question": "ANM at outreach session has vaccine carrier.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Airborne precautions — N95 respirator fit-tested, negative-pressure room, keep door closed, instruct cough etiquette",
-        "Source reduction — empty coolers weekly, cover water storage, use larvicide (temephos), long sleeves, repellents, fogging for adult vectors",
-        "80,000 plains, 30,000 hilly/tribal per CHC",
-        "Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle"
-      ],
-      "correct": 3,
-      "explanation": "Priority: Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle (Top shelf of ILR: OPV, measles; bottom: DPT, TT, HepB.)",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Correct — per the note, the priority action is: Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle. ILR (2-8°C): most vaccines"
-      },
-      "subject": "Community Health",
-      "topic": "Cold chain",
-      "section": "chn",
-      "day": 6,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 153
-    },
-    {
-      "id": 967,
-      "question": "A patient with Guillain-Barré syndrome is in the acute phase. What is the priority nursing intervention?",
-      "options": [
-        "Respiratory monitoring",
-        "Physical therapy",
-        "Pain management",
-        "Nutritional support"
-      ],
-      "correct": 0,
-      "explanation": "• Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-      "explanations": {
-        "A": "Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-        "B": "\"Physical therapy\" is a plausible distractor but incorrect. The correct answer is A (\"Respiratory monitoring\") — Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-        "C": "\"Pain management\" is a plausible distractor but incorrect. The correct answer is A (\"Respiratory monitoring\") — Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-        "D": "\"Nutritional support\" is a plausible distractor but incorrect. The correct answer is A (\"Respiratory monitoring\") — Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Neurological System",
-      "day": 13,
-      "difficulty": "Critical",
-      "source": "Practice",
-      "year": "2024",
-      "qtype": "scenario",
-      "mockSeq": 154
-    },
-    {
-      "id": 958,
-      "question": "A patient with pulmonary embolism is receiving alteplase (tPA). What is the most critical monitoring?",
-      "options": [
-        "Blood pressure",
-        "Signs of bleeding",
-        "Oxygen saturation",
-        "Heart rate"
-      ],
-      "correct": 1,
-      "explanation": "• tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk.\n• Continuous monitoring for signs of bleeding is critical.",
-      "explanations": {
-        "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
-        "B": "tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
-        "C": "\"Oxygen saturation\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
-        "D": "\"Heart rate\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Respiratory System",
-      "day": 3,
-      "difficulty": "Critical",
-      "source": "Practice",
-      "year": "2024",
-      "qtype": "scenario",
-      "mockSeq": 155
-    },
-    {
-      "id": 989,
-      "question": "A patient with STEMI receives 300 mg aspirin loading dose. What is the priority after administration?",
-      "options": [
-        "Monitor for bleeding",
-        "Administer dual antiplatelet therapy",
-        "Prepare for PCI",
-        "Assess pain level"
-      ],
-      "correct": 1,
-      "explanation": "• After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI.\n• This combination significantly reduces thrombotic events but increases bleeding risk.\n• Monitoring for signs of bleeding is essential, but initiating DAPT is the immediate priority after aspirin in STEMI management.",
-      "explanations": {
-        "A": "\"Monitor for bleeding\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
-        "B": "After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
-        "C": "\"Prepare for PCI\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
-        "D": "\"Assess pain level\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk."
-      },
-      "subject": "Medical-Surgical",
-      "topic": "Cardiovascular System",
-      "day": 10,
-      "difficulty": "High",
-      "source": "Practice",
-      "year": "2016",
-      "qtype": "scenario",
-      "mockSeq": 156
-    },
-    {
-      "id": 627,
-      "syllabusId": "midwifery-15-active-management-of-third-stage-of-labor-amtsl",
-      "question": "Baby just delivered; placenta in situ.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Summon obstetrician, prepare for assisted breech or emergency CS, assist with Lovset for shoulders and Mauriceau for head",
-        "Identify Green-Armytage — haemostatic clamp used on uterine incision edges during CS",
-        "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus once placenta delive…",
-        "Perform mediolateral episiotomy at 45° after local infiltration, wait for next contraction, deliver head in flexion"
-      ],
-      "correct": 2,
-      "explanation": "Priority: Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus once placenta delive… (Do not perform CCT without uterine contraction — risk of inversion.)",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Correct — per the note, the priority action is: Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus once placenta delive…. Oxytocin 10 IU IM within 1 minute of delivery of baby.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "OBG",
-      "topic": "Active management of third stage of labor (AMTSL)",
-      "section": "midwifery",
-      "day": 3,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 157
-    },
-    {
-      "id": 297,
-      "syllabusId": "child-61-hirschsprung-disease",
-      "question": "Newborn did not pass meconium in 24 h, distended abdomen.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Nasogastric decompression, rectal exam reveals explosive decompression (classic), refer pediatric surgery, contrast enema, plan biopsy",
-        "Cite India UIP as described, including birth, 6/10/14 wk, 9 mo, and boosters",
-        "Echo to confirm, start ibuprofen closure dose, fluid restriction; if fails, ligation",
-        "Developmental delay concern — detailed history, physical exam, refer for intervention if delay confirmed"
-      ],
-      "correct": 0,
-      "explanation": "Priority: Nasogastric decompression, rectal exam reveals explosive decompression (classic), refer pediatric surgery, contrast enema, plan biopsy",
-      "explanations": {
-        "A": "Correct — per the note, the priority action is: Nasogastric decompression, rectal exam reveals explosive decompression (classic), refer pediatric surgery, contrast enema, plan biopsy. Failure to pass meconium within 48 h, abdominal distention, bilious vomiting",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "Pediatric",
-      "topic": "Hirschsprung disease",
-      "section": "child",
-      "day": 4,
-      "difficulty": "Medium",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "should"
-      ],
-      "mockSeq": 158
-    },
-    {
-      "id": 318,
-      "syllabusId": "chn-4-diarrhea-and-ors-management",
-      "question": "10-kg 14-mo-old with lethargy, sunken eyes, skin pinch goes back slowly, unable to drink.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle",
-        "Design is cohort; calculate relative risk as CI exposed / CI unexposed",
-        "Counsel Cu-T 380A (10 y) or LNG-IUS (5 y); rule out pregnancy, insert within 7 d of menses, teach thread check, 6-week follow-up",
-        "Severe dehydration — Plan C: IV RL 30 mL/kg (300 mL) in 30 min, then 70 mL/kg (700 mL) over 2.5 h; reassess q15-30 min; start ORS once able to drink"
-      ],
-      "correct": 3,
-      "explanation": "Priority: Severe dehydration — Plan C: IV RL 30 mL/kg (300 mL) in 30 min, then 70 mL/kg (700 mL) over 2.5 h; reassess q15-30 min; start ORS once able to drink (Zinc reduces duration + severity + recurrence.)",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Reflects management of a different scenario; not the priority for the stem described.",
-        "D": "Correct — per the note, the priority action is: Severe dehydration — Plan C: IV RL 30 mL/kg (300 mL) in 30 min, then 70 mL/kg (700 mL) over 2.5 h; reassess q15-30 min; start ORS once able to drink. Classify: no dehydration, some dehydration, severe"
-      },
-      "subject": "Community Health",
-      "topic": "Diarrhea and ORS management",
-      "section": "chn",
-      "day": 6,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 159
-    },
-    {
-      "id": 636,
-      "syllabusId": "midwifery-24-diabetes-in-pregnancy-gdm",
-      "question": "G1 at 26 wk has DIPSI 2-h 168 mg/dL; FBS 112 next day.\n\nWhat is the nurse's immediate priority action?",
-      "options": [
-        "Document as active phase stage 1; continuous FHR monitoring, encourage position changes, oral fluids, partogram",
-        "Document normal involution, reinforce breastfeeding, perineal care, early ambulation, contraception counselling",
-        "Start MNT with dietitian, initiate insulin (basal-bolus), self-monitor glucose 4x/day, counsel about hypoglycemia signs, plan growth USG",
-        "Identify Green-Armytage — haemostatic clamp used on uterine incision edges during CS"
-      ],
-      "correct": 2,
-      "explanation": "Priority: Start MNT with dietitian, initiate insulin (basal-bolus), self-monitor glucose 4x/day, counsel about hypoglycemia signs, plan growth USG (Rescreen postpartum at 6 wk with 75 g OGTT for overt DM.)",
-      "explanations": {
-        "A": "Reflects management of a different scenario; not the priority for the stem described.",
-        "B": "Reflects management of a different scenario; not the priority for the stem described.",
-        "C": "Correct — per the note, the priority action is: Start MNT with dietitian, initiate insulin (basal-bolus), self-monitor glucose 4x/day, counsel about hypoglycemia signs, plan growth USG. Screening: DIPSI — 75 g oral glucose, 2-h venous ≥140 mg/dL = GDM.",
-        "D": "Reflects management of a different scenario; not the priority for the stem described."
-      },
-      "subject": "OBG",
-      "topic": "Diabetes in pregnancy (GDM)",
-      "section": "midwifery",
-      "day": 3,
-      "difficulty": "High",
-      "source": "NORCET High-Yield Generator v1",
-      "year": 2025,
-      "qtype": "scenario",
-      "tags": [
-        "scenario",
-        "highyield",
-        "must"
-      ],
-      "mockSeq": 160
+      "mockSeq": 121
     }
   ]
 }

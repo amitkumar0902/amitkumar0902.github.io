@@ -1,0 +1,2307 @@
+[
+  {
+    "id": "N9-1",
+    "question": "A 65-year-old patient with a history of diabetes mellitus and coronary artery disease presents with dizziness and near syncope. ECG shows a wide-complex bradyarrhythmia. What is the most appropriate management?",
+    "options": ["Amiodarone", "Transcutaneous pacemaker insertion", "Anticoagulant therapy with continuous observation", "Atropine"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Arrhythmia / Pacing",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Amiodarone treats tachyarrhythmias, not symptomatic bradyarrhythmia; it can worsen bradycardia.",
+      "B": "Symptomatic bradycardia with signs of poor perfusion (near-syncope) refractory to atropine requires transcutaneous pacing per ACLS bradycardia algorithm.",
+      "C": "Anticoagulants do not correct the underlying rhythm problem; observation alone is unsafe in symptomatic bradycardia.",
+      "D": "Atropine is first-line for symptomatic bradycardia but is ineffective in high-degree AV blocks with wide QRS; pacing is then indicated."
+    }
+  },
+  {
+    "id": "N9-2",
+    "question": "Identify the type of anesthesia shown in the image (needle placed in the epidural space, catheter threaded, LOR-to-saline technique).",
+    "options": ["Subdural anesthesia", "Spinal anesthesia", "Epidural anesthesia", "General anesthesia"],
+    "correct": 2,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Anesthesia (Regional)",
+    "day": 1,
+    "qtype": "image",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "image": "imp/NORCET- 9 MAINS.pdf#page=1 (Q2)",
+    "explanations": {
+      "A": "Subdural block is an accidental placement, not an intentional technique demonstrated here.",
+      "B": "Spinal anesthesia uses a smaller-gauge needle placed through the dura into CSF; no catheter is threaded.",
+      "C": "The Tuohy needle, loss-of-resistance technique, and catheter shown are classic features of epidural anesthesia.",
+      "D": "General anesthesia is delivered via inhalational/IV agents and airway devices, not a spinal needle."
+    }
+  },
+  {
+    "id": "N9-3",
+    "question": "A case of road traffic accident (RTA) develops neuropathic pain. Which drug is most appropriate for the management of neuropathic pain?",
+    "options": ["Acetaminophen", "Ibuprofen", "Tramadol", "Gabapentin"],
+    "correct": 3,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Neuropathic pain",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Acetaminophen treats mild nociceptive pain, not neuropathic pain (no central anticonvulsant action).",
+      "B": "NSAIDs act on inflammatory nociceptive pain; they are ineffective for neuropathic pain.",
+      "C": "Tramadol is a weak opioid with modest SNRI activity — used as adjunct, not first-line.",
+      "D": "Gabapentin (a gabapentinoid) is first-line for neuropathic pain along with pregabalin, TCAs and SNRIs."
+    }
+  },
+  {
+    "id": "N9-4",
+    "question": "A patient with rheumatoid arthritis has a history of gastric ulcer. Which drug is most appropriate for this patient?",
+    "options": ["Celecoxib", "Naloxone", "Acetaminophen", "Ibuprofen"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "NSAIDs / GI protection",
+    "day": 13,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Celecoxib is a COX-2 selective inhibitor with lower GI ulcer risk — preferred in RA patients with PUD history.",
+      "B": "Naloxone is an opioid antagonist; it has no anti-inflammatory role.",
+      "C": "Paracetamol has minimal anti-inflammatory effect; inadequate for RA disease control.",
+      "D": "Ibuprofen is a non-selective NSAID and significantly increases ulcer/bleeding risk."
+    }
+  },
+  {
+    "id": "N9-5",
+    "question": "Which of the following is NOT typically seen in a patient with heat stroke?",
+    "options": ["Excessive sweating", "Temperature 103°F", "Rapid pulse", "Hot dry skin"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Heat stroke",
+    "day": 9,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Classic (non-exertional) heat stroke shows anhidrosis — sweating fails due to thermoregulatory collapse.",
+      "B": "Core temperature >40°C (≈104°F) is a hallmark; 103°F (39.4°C) is consistent.",
+      "C": "Tachycardia is typical as the body tries to dissipate heat.",
+      "D": "Hot, dry, flushed skin is the classic presentation due to failed sweating."
+    }
+  },
+  {
+    "id": "N9-6",
+    "question": "A patient on ECMO continues to have difficulty breathing despite adequate settings. What is the most appropriate next step?",
+    "options": ["Increase tidal volume", "Check for circuit obstruction", "Increase ECMO flow rate", "Increase FiO2 to 100%"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "ECMO troubleshooting",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Increasing tidal volume risks ventilator-induced lung injury and ignores the actual problem.",
+      "B": "Persistent respiratory distress despite adequate settings mandates ruling out circuit issues (kinks, thrombus, cannula malposition) first.",
+      "C": "Blindly escalating flow can worsen hemolysis and mask the root cause.",
+      "D": "Raising FiO2 to 100% is oxygen toxicity risk and doesn't address a mechanical failure."
+    }
+  },
+  {
+    "id": "N9-7",
+    "question": "In a patient with a shockable cardiac rhythm, after how many shocks should adrenaline be administered?",
+    "options": ["0.1 mL after the first shock", "0.1 mL after the second shock", "1 mg after the third shock", "1 mg after the second shock"],
+    "correct": 2,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "ACLS / Adrenaline",
+    "day": 9,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "0.1 mL is a pediatric dose; in adult ACLS the dose is 1 mg IV.",
+      "B": "Correct dose is 1 mg, and timing in shockable rhythms is after the third shock (then every 3–5 min).",
+      "C": "AHA guideline — for VF/pulseless VT, epinephrine 1 mg IV/IO is given after the 3rd shock; repeat every 3–5 minutes.",
+      "D": "Dose is right (1 mg) but timing is wrong; delayed until the 3rd shock in shockable rhythms."
+    }
+  },
+  {
+    "id": "N9-8",
+    "question": "Stenosis or obstruction of the Foramina of Luschka and Magendie is most commonly associated with which condition?",
+    "options": ["Dandy Walker malformation", "Arnold Chiari malformation", "Hydrocephalus due to aqueductal stenosis", "Spina bifida"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Neurology (Congenital)",
+    "day": 11,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Dandy-Walker malformation = cystic dilation of 4th ventricle + cerebellar vermis hypoplasia due to atresia of Luschka & Magendie.",
+      "B": "Arnold-Chiari involves cerebellar tonsillar herniation, not foraminal atresia.",
+      "C": "Aqueductal stenosis obstructs the cerebral aqueduct (between 3rd and 4th ventricles), not the foramina.",
+      "D": "Spina bifida is a neural tube defect; unrelated to CSF foraminal atresia."
+    }
+  },
+  {
+    "id": "N9-9",
+    "question": "Which anti-tuberculosis drug is the most bactericidal?",
+    "options": ["Rifampicin", "Ethambutol", "Isoniazid", "Pyrazinamide"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Anti-TB drugs",
+    "day": 13,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Rifampicin is rated the most bactericidal first-line anti-TB drug; it kills actively dividing and semi-dormant bacilli.",
+      "B": "Ethambutol is primarily bacteriostatic and used to prevent resistance.",
+      "C": "Isoniazid is highly bactericidal against rapidly dividing bacilli (early bactericidal activity) but rifampicin has the broadest bactericidal reach.",
+      "D": "Pyrazinamide is a sterilising drug effective in acidic intracellular pH; not the most bactericidal overall."
+    }
+  },
+  {
+    "id": "N9-10",
+    "question": "A patient is prescribed an inhaler with 200 puffs; the order is 2 puffs every 6 hours. For how many days will one inhaler last?",
+    "options": ["20 days", "25 days", "28 days", "30 days"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Drug calculation",
+    "day": 2,
+    "qtype": "calc",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "20 × 8 = 160 puffs — only consumed 160, not 200.",
+      "B": "2 puffs × 4 doses/day = 8 puffs/day → 200 ÷ 8 = 25 days.",
+      "C": "28 × 8 = 224 puffs — exceeds 200.",
+      "D": "30 × 8 = 240 puffs — exceeds 200."
+    }
+  },
+  {
+    "id": "N9-11",
+    "question": "Calcium gluconate is NOT given by which method?",
+    "options": ["Fast IV", "Slow IV", "IV infusion", "Oral route"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Electrolytes / Medication safety",
+    "day": 13,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Rapid IV push of calcium causes bradycardia, hypotension, cardiac arrest; never given fast IV.",
+      "B": "Slow IV push over 5–10 minutes (diluted) is the standard for acute hyperkalemia/tetany.",
+      "C": "IV infusion (diluted in dextrose/saline) over 30–60 minutes is accepted for symptomatic hypocalcemia.",
+      "D": "Oral calcium gluconate is available for maintenance therapy."
+    }
+  },
+  {
+    "id": "N9-12",
+    "question": "What is the recommended breathing rate during CPR in a patient with an advanced airway?",
+    "options": ["10 breaths per minute", "12 breaths per minute", "20 breaths per minute", "6 breaths per minute"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "BLS/ACLS",
+    "day": 9,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "AHA 2020 — with an advanced airway, give 1 breath every 6 seconds = 10 breaths/min with continuous chest compressions.",
+      "B": "12 breaths/min is the rescue breathing rate without compressions.",
+      "C": "20/min is used only in pediatric advanced airway (every 2–3 s).",
+      "D": "6/min is a pediatric rescue breathing rate in specific contexts, not adult CPR."
+    }
+  },
+  {
+    "id": "N9-13",
+    "question": "A burn patient requires 4800 mL fluid in the first 24 hours as per the Parkland formula. How much fluid should be given in the first 8 hours?",
+    "options": ["1200 mL", "2400 mL", "1800 mL", "3000 mL"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Burns / Parkland",
+    "day": 1,
+    "qtype": "calc",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "1200 mL = 25% — under-resuscitation; Parkland mandates 50% in first 8 hours.",
+      "B": "Parkland protocol: give half (50%) of calculated 24-hour volume in first 8 hours → 4800 ÷ 2 = 2400 mL.",
+      "C": "1800 mL is neither ½ nor ¼ of 4800; not part of Parkland pacing.",
+      "D": "3000 mL > 50%; would risk over-resuscitation/compartment syndrome."
+    }
+  },
+  {
+    "id": "N9-14",
+    "question": "Elevated jugular venous pressure is most commonly caused by:",
+    "options": ["Hypervolemia", "Fluid overload", "Hypovolemia", "Dehydration"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Hemodynamics / JVP",
+    "day": 1,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Increased intravascular volume elevates right atrial pressure → raised JVP (also seen in RHF, tamponade).",
+      "B": "Fluid overload is a broader term; hypervolemia is the specific hemodynamic cause. Both technically raise JVP, but the exam's intended answer is hypervolemia.",
+      "C": "Hypovolemia reduces venous return and lowers JVP.",
+      "D": "Dehydration (volume loss) similarly lowers JVP."
+    }
+  },
+  {
+    "id": "N9-15",
+    "question": "A patient receiving heparin has an aPTT of 85 seconds. What is the most appropriate next action?",
+    "options": ["Hold the next dose of heparin", "Increase the heparin dose", "Continue the same heparin dose", "Administer vitamin K"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Anticoagulation / aPTT",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Therapeutic aPTT on heparin = 1.5–2.5× control (≈46–70 s). 85 s is supra-therapeutic → hold dose and recheck.",
+      "B": "Increasing would worsen bleeding risk.",
+      "C": "aPTT is outside therapeutic range; leaving dose unchanged is unsafe.",
+      "D": "Vitamin K reverses warfarin, not heparin; heparin reversal uses protamine sulfate."
+    }
+  },
+  {
+    "id": "N9-16",
+    "question": "What is the primary purpose of a bougie during airway management?",
+    "options": ["To assist endotracheal tube placement in a difficult airway", "To measure airway resistance during mechanical ventilation", "To facilitate suctioning of tracheal secretions", "To maintain airway patency during mask ventilation"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Airway management",
+    "day": 1,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Bougie (gum-elastic introducer) is railroaded into the trachea when glottic view is poor, guiding the ETT.",
+      "B": "Airway resistance is measured on the ventilator, not with a bougie.",
+      "C": "Suctioning uses a soft/hard suction catheter, not a bougie.",
+      "D": "Airway patency during mask ventilation is maintained by oral/nasal airways, not a bougie."
+    }
+  },
+  {
+    "id": "N9-17",
+    "question": "During central venous catheter (CVC) insertion, a patient develops sudden dyspnea and diminished breath sounds on one side. What is the most likely complication?",
+    "options": ["Pneumothorax", "Hemothorax", "Cardiac tamponade", "Air embolism"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "CVC complications",
+    "day": 8,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Inadvertent pleural puncture during subclavian/IJ CVC insertion → sudden dyspnea + unilateral diminished breath sounds = pneumothorax.",
+      "B": "Hemothorax presents similarly but with dullness to percussion + shock; less immediate on insertion.",
+      "C": "Tamponade (late perforation of RV) causes Beck's triad — muffled heart sounds, hypotension, JVD.",
+      "D": "Air embolism causes sudden hypoxia + mill-wheel murmur; bilateral breath sounds usually preserved."
+    }
+  },
+  {
+    "id": "N9-18",
+    "question": "Which of the following is an EARLY sign of increased intracranial pressure (ICP)?",
+    "options": ["Bradycardia", "Irregular respiration", "Headache and vomiting", "Hypertension"],
+    "correct": 2,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Raised ICP",
+    "day": 1,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Bradycardia is part of Cushing's triad — a late, pre-herniation sign.",
+      "B": "Irregular (Cheyne-Stokes/ataxic) respiration is a late Cushing triad component.",
+      "C": "Morning headache, vomiting (often projectile, non-bilious), and visual changes are early ICP features.",
+      "D": "Hypertension with widened pulse pressure is late (Cushing response)."
+    }
+  },
+  {
+    "id": "N9-19",
+    "question": "A COPD patient develops respiratory acidosis. Which intervention is most appropriate?",
+    "options": ["Administer oxygen via BiPAP", "Start mechanical ventilation", "Give sodium bicarbonate IV", "Restrict fluids"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "COPD / NIV",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "BiPAP (NIV) is first-line for COPD exacerbation with respiratory acidosis — it unloads work of breathing and improves CO2 clearance.",
+      "B": "Invasive ventilation is reserved for NIV failure or contraindication.",
+      "C": "Bicarbonate does not treat the underlying hypoventilation and can cause paradoxical CSF acidosis.",
+      "D": "Fluid restriction doesn't address respiratory failure."
+    }
+  },
+  {
+    "id": "N9-20",
+    "question": "During dialysis, a patient's potassium level rises to 6.8 mEq/L. What is the immediate life-saving intervention?",
+    "options": ["Administer calcium gluconate IV", "Start potassium-restricted diet", "Administer furosemide", "Restrict IV fluids"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Hyperkalemia",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "IV calcium gluconate immediately stabilises myocardial membrane against lethal arrhythmia — first step in life-threatening hyperkalemia.",
+      "B": "Dietary restriction is long-term prevention, not acute rescue.",
+      "C": "Furosemide requires functioning kidneys; useless in dialysis-dependent anuria.",
+      "D": "Fluid restriction doesn't lower serum K+ acutely."
+    }
+  },
+  {
+    "id": "N9-21",
+    "question": "Atropine is given before abdominal surgery to:",
+    "options": ["Reduce gastric secretions", "Increase peristalsis", "Prevent infection", "Increase urine output"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Pre-op medications",
+    "day": 1,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Atropine is an antimuscarinic — reduces salivary, bronchial and gastric secretions, preventing aspiration during anesthesia.",
+      "B": "Atropine decreases peristalsis (paralytic effect on GI smooth muscle).",
+      "C": "Atropine has no antimicrobial property.",
+      "D": "Atropine causes urinary retention, not diuresis."
+    }
+  },
+  {
+    "id": "N9-22",
+    "question": "A patient presents with pelvic trauma associated with testicular injury. What is the priority nursing action?",
+    "options": ["Insert Foley catheter immediately", "Avoid urethral catheterization", "Apply ice packs and reassurance only", "Start antibiotics and send urine culture"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Urethral injury / Pelvic trauma",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Blind catheterization can convert a partial urethral tear into complete disruption.",
+      "B": "Blood at meatus, scrotal/perineal hematoma → avoid Foley until retrograde urethrogram rules out urethral injury; supra-pubic cystostomy preferred.",
+      "C": "Pain relief alone ignores possible urethral disruption and bladder retention.",
+      "D": "Antibiotics and culture are secondary to ruling out urethral injury."
+    }
+  },
+  {
+    "id": "N9-23",
+    "question": "Which finding in a patient receiving opioid analgesics indicates the most serious concern and requires immediate intervention?",
+    "options": ["Constipation", "Nausea and vomiting", "Respiratory rate 10/min", "Urinary retention"],
+    "correct": 2,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Opioid toxicity",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Constipation is common, chronic, and managed with bowel regimen.",
+      "B": "Nausea/vomiting is expected and treated with antiemetics.",
+      "C": "Respiratory rate <12 signals opioid-induced respiratory depression — life-threatening; prepare naloxone and stimulate patient.",
+      "D": "Retention is a side effect but not immediately life-threatening."
+    }
+  },
+  {
+    "id": "N9-24",
+    "question": "A patient on mechanical ventilation shows sudden desaturation and increased peak airway pressure. What is the immediate nursing action?",
+    "options": ["Increase the oxygen flow", "Perform suctioning", "Administer bronchodilator", "Notify the physician"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Ventilator troubleshooting",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Increasing FiO2 doesn't remove obstruction causing high peak pressures.",
+      "B": "Sudden ↑peak pressure + desaturation is typically secretions or kinked tube — suction first (DOPES: Displacement, Obstruction, Pneumothorax, Equipment, Stacking).",
+      "C": "Bronchodilators help if wheeze-driven; addressed after clearing the airway.",
+      "D": "Notifying the physician comes after the first-line nursing intervention to rescue the patient."
+    }
+  },
+  {
+    "id": "N9-25",
+    "question": "A patient with a history of peptic ulcer requires pain management. Which analgesic approach is safest?",
+    "options": ["NSAIDs", "Avoid NSAIDs", "Aspirin", "NSAIDs with PPI"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Analgesia / GI risk",
+    "day": 13,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "NSAIDs directly impair mucosal protection and worsen ulcer.",
+      "B": "Safest approach is to avoid NSAIDs and use acetaminophen or a COX-2 selective with PPI if absolutely required.",
+      "C": "Aspirin is a potent ulcerogenic agent — contraindicated.",
+      "D": "PPI reduces but doesn't eliminate NSAID-induced ulcer risk; outright avoidance is still safest."
+    }
+  },
+  {
+    "id": "N9-26",
+    "question": "A patient develops headache and dizziness after a lumbar puncture. What is the most appropriate immediate nursing action?",
+    "options": ["Send sample to laboratory", "Position patient in prone", "Notify physician", "Encourage deep breathing"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Post-LP headache",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "The CSF sample is usually already sent; the focus now is patient comfort/safety.",
+      "B": "Post-LP headache is managed by keeping the patient flat (supine or prone) for several hours with fluids; reduces CSF leak symptoms.",
+      "C": "Notify after addressing positioning and fluids if pain is severe/persistent.",
+      "D": "Deep breathing doesn't resolve low-pressure headache."
+    }
+  },
+  {
+    "id": "N9-27",
+    "question": "Which of the following is the most common side effect of nitroglycerin?",
+    "options": ["Bradycardia", "Headache", "Nausea", "Palpitations"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Nitrates",
+    "day": 13,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Nitrates cause reflex tachycardia, not bradycardia.",
+      "B": "Cerebral vasodilation → throbbing headache is the commonest NTG side effect.",
+      "C": "Nausea can occur but is less frequent than headache.",
+      "D": "Palpitations from reflex tachycardia are less common as a complaint than headache."
+    }
+  },
+  {
+    "id": "N9-28",
+    "question": "A patient is suspected of having acute pancreatitis. Which laboratory values are most commonly elevated?",
+    "options": ["Amylase and lipase", "Triglycerides", "ALT and AST", "Creatinine"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Pancreatitis / Enzymes",
+    "day": 1,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Serum amylase and especially lipase (>3× upper limit) are the diagnostic biomarkers of acute pancreatitis.",
+      "B": "Triglycerides are a cause of pancreatitis but not the diagnostic marker.",
+      "C": "ALT/AST rise in biliary pancreatitis but are not specific to pancreas.",
+      "D": "Creatinine rises if AKI complicates severe disease but isn't primary."
+    }
+  },
+  {
+    "id": "N9-29",
+    "question": "A patient's ABG shows pH 7.50, PaCO2 28 mmHg, HCO3 24 mEq/L. Which of the following is the most likely cause?",
+    "options": ["Chronic obstructive pulmonary disease", "Pulmonary embolism", "Air embolism", "Hypoxia"],
+    "correct": 1,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "ABG / Respiratory alkalosis",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "COPD classically produces respiratory acidosis (↑PaCO2), not alkalosis.",
+      "B": "ABG shows acute respiratory alkalosis (↑pH, ↓PaCO2, normal HCO3) — typical of PE-induced hyperventilation.",
+      "C": "Air embolism is rarer; PE fits the hyperventilation pattern best here.",
+      "D": "Pure hypoxia may drive hyperventilation but PE is the best clinical fit."
+    }
+  },
+  {
+    "id": "N9-30",
+    "question": "A patient is unconscious after trauma with suspected cervical spine injury. What is the priority nursing intervention?",
+    "options": ["Insert oropharyngeal airway", "Start IV fluids", "Perform neuro assessment", "Apply cervical immobilization"],
+    "correct": 3,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "C-spine trauma",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Airway protection is important but any manipulation must happen with the neck immobilised.",
+      "B": "Circulation support follows airway/spine protection.",
+      "C": "Neurological assessment is secondary; must not delay immobilisation.",
+      "D": "Rigid cervical collar + manual in-line stabilisation is first to prevent secondary cord injury."
+    }
+  },
+  {
+    "id": "N9-31",
+    "question": "A patient with chronic kidney disease presents with hyponatremia. What is the most appropriate initial nursing intervention?",
+    "options": ["Administer 0.9% NS", "Restrict fluids", "Administer 3% hypertonic saline", "Start diuretics"],
+    "correct": 0,
+    "section": "medical-surgical",
+    "subject": "Medical-Surgical",
+    "topic": "Hyponatremia / CKD",
+    "day": 1,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "In symptomatic hyponatremia with CKD, isotonic saline (0.9% NS) is the safest initial step to restore sodium gradually.",
+      "B": "Fluid restriction suits SIADH-type dilutional hyponatremia, not hypovolemic or CKD-related loss.",
+      "C": "3% saline is reserved for severe symptomatic hyponatremia with neurological signs; requires close monitoring.",
+      "D": "Diuretics can worsen hyponatremia in CKD."
+    }
+  },
+  {
+    "id": "N9-32",
+    "question": "A patient with central diabetes insipidus receives vasopressin. What is the expected effect on urine?",
+    "options": ["Urine volume remains high", "Urine specific gravity rises", "Urine volume does not change", "Urine specific gravity lowers"],
+    "correct": 1,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Fluid balance / DI",
+    "day": 7,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Vasopressin promotes water reabsorption at the collecting duct; urine volume decreases.",
+      "B": "ADH concentrates urine — urine specific gravity rises toward normal.",
+      "C": "Urine volume and concentration change markedly with DDAVP in central DI.",
+      "D": "Lowering specific gravity is the opposite of the expected response."
+    }
+  },
+  {
+    "id": "N9-33",
+    "question": "Patients on monoamine oxidase inhibitors (MAOIs) should avoid which of the following?",
+    "options": ["Tyramine", "Glucose", "Fructose", "Lactose"],
+    "correct": 0,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "MAOI / Diet",
+    "day": 9,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Tyramine-rich foods (aged cheese, cured meats, soy, fermented products) cause hypertensive crisis with MAOIs.",
+      "B": "Glucose has no interaction with MAOIs.",
+      "C": "Fructose has no relevant MAOI interaction.",
+      "D": "Lactose has no relevant MAOI interaction."
+    }
+  },
+  {
+    "id": "N9-34",
+    "question": "A patient presents with dilated pupils, elevated blood pressure, and tachycardia. What type of pain is this?",
+    "options": ["Acute pain", "Chronic pain", "Neuropathic pain", "Visceral pain"],
+    "correct": 0,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Pain assessment",
+    "day": 7,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Sympathetic activation (mydriasis, ↑BP, tachycardia, diaphoresis) characterises acute pain.",
+      "B": "Chronic pain usually has parasympathetic dominance with normal vitals and depression/fatigue.",
+      "C": "Neuropathic pain presents with burning/shooting sensations, less autonomic change.",
+      "D": "Visceral pain has diffuse poorly localised features — autonomic signs may overlap but acute pain is the textbook answer."
+    }
+  },
+  {
+    "id": "N9-35",
+    "question": "The passage of bright red blood per rectum is referred to as:",
+    "options": ["Hematochezia", "Melena", "Hematemesis", "Occult blood"],
+    "correct": 0,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "GI bleeding",
+    "day": 7,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Hematochezia = fresh bright red blood PR, usually lower GI bleed.",
+      "B": "Melena = black tarry stool (upper GI bleed digested).",
+      "C": "Hematemesis = vomiting blood.",
+      "D": "Occult blood = microscopic, not visible."
+    }
+  },
+  {
+    "id": "N9-36",
+    "question": "A patient's chest tube becomes accidentally dislodged. What is the most appropriate immediate nursing action?",
+    "options": ["Immerse the tube end in sterile saline", "Apply an airtight dressing", "Clamp the chest tube", "Encourage deep breathing"],
+    "correct": 1,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Chest tube",
+    "day": 7,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Re-immersing a dislodged tube risks introducing contamination; the priority is sealing the wound.",
+      "B": "Cover the site with a sterile petroleum-gauze / 3-sided dressing to prevent air entry and tension pneumothorax.",
+      "C": "Clamping a functioning chest drain can cause tension pneumothorax.",
+      "D": "Deep breathing worsens air entry through the open wound."
+    }
+  },
+  {
+    "id": "N9-37",
+    "question": "During suctioning, a patient's oxygen saturation drops from 94% to 88%. What should be the immediate nursing action?",
+    "options": ["Continue suctioning until airway clears", "Stop suction and administer oxygen", "Increase suction pressure and continue", "Call the physician immediately"],
+    "correct": 1,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Airway suctioning",
+    "day": 7,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Continuing causes further hypoxia and bradyarrhythmia.",
+      "B": "Stop suction, hyperoxygenate with 100% O2 via BMV/AMBU, allow recovery before re-suction.",
+      "C": "Higher suction pressure damages mucosa and doesn't address hypoxia.",
+      "D": "Physician notification is secondary to immediate resuscitation."
+    }
+  },
+  {
+    "id": "N9-38",
+    "question": "The patient's urine output is 100 mL in 24 hours. How is this classified?",
+    "options": ["Oliguria", "Anuria", "Polyuria", "Normal urine output"],
+    "correct": 1,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Urine output",
+    "day": 7,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Oliguria = <400 mL/day (or <0.5 mL/kg/hr).",
+      "B": "Anuria is <100 mL/24 h — 100 mL lies at the cutoff and is labelled anuria in most Indian texts.",
+      "C": "Polyuria is >3 L/day.",
+      "D": "Normal adult output is 1000–2000 mL/day."
+    }
+  },
+  {
+    "id": "N9-39",
+    "question": "A nurse is instructed to infuse 1000 mL of IV fluid over 8 hours using an IV set with a drop factor of 15 gtt/mL. What should be the correct infusion rate in drops per minute?",
+    "options": ["42 drops/min", "31 drops/min", "25 drops/min", "18 drops/min"],
+    "correct": 1,
+    "section": "foundations",
+    "subject": "Fundamentals",
+    "topic": "Drip rate / Drug calc",
+    "day": 2,
+    "qtype": "calc",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "42 is the rate for a drop factor of 20 gtt/mL (not 15).",
+      "B": "(1000 × 15) ÷ (8 × 60) = 15000/480 ≈ 31 drops/min.",
+      "C": "25 matches drop factor of 12.",
+      "D": "18 is less than half; incorrect arithmetic."
+    }
+  },
+  {
+    "id": "N9-40",
+    "question": "A woman undergoing evaluation for infertility is advised a hysterosalpingogram. On which day of the menstrual cycle should the nurse schedule this procedure?",
+    "options": ["Day 21", "Day 14", "Day 3", "Day 8"],
+    "correct": 3,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "HSG / Infertility",
+    "day": 3,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Day 21 is the luteal phase — risk of early pregnancy disruption.",
+      "B": "Day 14 is ovulation; radiation risk if conception has occurred.",
+      "C": "Day 3 is too early; menstruation may still be occurring.",
+      "D": "HSG is ideally done in the proliferative phase, days 7–10 post-menses, before ovulation. Day 8 fits."
+    }
+  },
+  {
+    "id": "N9-41",
+    "question": "Identify the given instrument (atraumatic clamp with triangular fenestrated tips used on uterine angles).",
+    "options": ["Green Armytage Forceps", "Babcock Forceps", "Allis Tissue Forceps", "Kocher's Forceps"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "OT instruments",
+    "day": 3,
+    "qtype": "image",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "image": "imp/NORCET- 9 MAINS.pdf#page=3 (Q41)",
+    "explanations": {
+      "A": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
+      "B": "Babcock has rounded atraumatic ring tips, used for delicate tissue like appendix.",
+      "C": "Allis has serrated teeth — grasping traumatic forceps.",
+      "D": "Kocher's has heavy serrations and 1×2 teeth — for tough pedicles."
+    }
+  },
+  {
+    "id": "N9-42",
+    "question": "Identify the given instrument (wide, scoop-shaped abdominal retractor).",
+    "options": ["Doyen's Retractor", "Deaver Retractor", "Langenbeck Retractor", "Morris Retractor"],
+    "correct": 1,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "OT instruments",
+    "day": 3,
+    "qtype": "image",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "image": "imp/NORCET- 9 MAINS.pdf#page=3 (Q42)",
+    "explanations": {
+      "A": "Doyen's is a curved bladder retractor used in LSCS.",
+      "B": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
+      "C": "Langenbeck is a small L-shaped retractor for superficial wounds.",
+      "D": "Morris is a curved retractor with a broader blade than Langenbeck but not Deaver-shape."
+    }
+  },
+  {
+    "id": "N9-43",
+    "question": "Identify the item shown in the image (fenestrated obstetric drape with V-shaped leg opening).",
+    "options": ["Obstetric V-Drape", "Episiotomy Pack", "Perineal Sheet", "Cesarean Section Drape"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Obstetric supplies",
+    "day": 3,
+    "qtype": "image",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "image": "imp/NORCET- 9 MAINS.pdf#page=3 (Q43)",
+    "explanations": {
+      "A": "V-drape isolates the perineum for vaginal delivery; V-shaped cut-out at the leg opening.",
+      "B": "Episiotomy packs hold instruments, not drapes.",
+      "C": "Perineal sheet is a smaller under-buttock drape.",
+      "D": "Cesarean drape has an abdominal fenestration, not a V leg opening."
+    }
+  },
+  {
+    "id": "N9-44",
+    "question": "A cardiotocography tracing shows cord compression. Which fetal heart rate pattern is most expected?",
+    "options": ["Variable decelerations", "Late decelerations", "Early decelerations", "Hypoxia"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "CTG interpretation",
+    "day": 3,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
+      "B": "Late decels indicate uteroplacental insufficiency.",
+      "C": "Early decels mirror contractions; caused by fetal head compression.",
+      "D": "Hypoxia is an outcome, not a CTG pattern."
+    }
+  },
+  {
+    "id": "N9-45",
+    "question": "A patient develops uterine hyperstimulation after administration of prostaglandins for induction of labour. What is the most appropriate management?",
+    "options": ["Calcium gluconate", "Magnesium sulphate", "Hydralazine", "Terbutaline"],
+    "correct": 3,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Uterine hyperstimulation",
+    "day": 3,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Calcium gluconate reverses MgSO4 toxicity; not used for tachysystole.",
+      "B": "MgSO4 is for seizure prophylaxis in eclampsia, not tocolysis of PG-induced hyperstimulation.",
+      "C": "Hydralazine is an antihypertensive.",
+      "D": "Terbutaline (β-agonist) is the tocolytic of choice for uterine hyperstimulation."
+    }
+  },
+  {
+    "id": "N9-46",
+    "question": "A 28-year-old woman has a history of 3 consecutive first-trimester abortions, no structural uterine abnormality, normal blood sugars, and is positive for antiphospholipid antibody. What is the most likely diagnosis?",
+    "options": ["Antiphospholipid syndrome", "Recurrent pregnancy loss due to uterine anomaly", "Gestational diabetes mellitus", "Pre-eclampsia"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Recurrent pregnancy loss",
+    "day": 3,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "APS diagnosis = ≥3 consecutive first-trimester losses + positive aPL antibody (lupus anticoagulant / anticardiolipin / β2-GPI) on two occasions 12 weeks apart.",
+      "B": "Ruled out — no structural anomaly.",
+      "C": "Ruled out — normal sugars.",
+      "D": "Pre-eclampsia is a late-pregnancy syndrome."
+    }
+  },
+  {
+    "id": "N9-47",
+    "question": "Visual Inspection with Acetic Acid (VIA) is primarily used for the screening of which condition?",
+    "options": ["Cervical cancer", "Endometrial cancer", "Ovarian cancer", "Vaginal prolapse"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Cancer screening / VIA",
+    "day": 3,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "VIA produces acetowhite areas on the cervix, highlighting cervical intraepithelial neoplasia — mass screening tool in India.",
+      "B": "Endometrial cancer screening uses TVS + biopsy.",
+      "C": "Ovarian cancer screened with CA-125 + TVS.",
+      "D": "Prolapse is diagnosed clinically (POP-Q)."
+    }
+  },
+  {
+    "id": "N9-48",
+    "question": "A patient develops postpartum hemorrhage at a Primary Health Centre. What is the first-line management?",
+    "options": ["Start IV tranexamic acid immediately", "Perform immediate hysterectomy", "Administer uterotonic (Oxytocin)", "Begin blood transfusion"],
+    "correct": 2,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "PPH / AMTSL",
+    "day": 3,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "TXA is adjunctive (within 3 h of PPH), given after uterotonics per WHO.",
+      "B": "Hysterectomy is the last resort, not first line.",
+      "C": "Oxytocin IV/IM is first-line uterotonic; initiate massage + bimanual compression alongside.",
+      "D": "Transfusion comes after initial resuscitation and uterotonics; often requires referral from PHC."
+    }
+  },
+  {
+    "id": "N9-49",
+    "question": "Which of the following is true about the biophysical profile in obstetrical assessment?",
+    "options": ["Uses only fetal heart rate patterns", "Includes fetal breathing, gross body movements, fetal tone, amniotic fluid volume, and NST", "Solely based on ultrasound without fetal monitoring", "Performed only during first trimester"],
+    "correct": 1,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "BPP / Antenatal",
+    "day": 3,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "NST is only one component; BPP is broader.",
+      "B": "Standard BPP has 5 components: fetal breathing, gross body movement, tone, amniotic fluid volume, and NST (2 points each, max 10).",
+      "C": "NST requires CTG, not just ultrasound.",
+      "D": "BPP is used in the third trimester to assess fetal well-being."
+    }
+  },
+  {
+    "id": "N9-50",
+    "question": "A patient is in labour. When does the second stage of labour start?",
+    "options": ["At full cervical dilation (10 cm)", "At 8 cm cervical dilation with strong expulsive contractions", "At the onset of regular uterine contractions", "At rupture of membranes"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Stages of labour",
+    "day": 3,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Second stage = full cervical dilatation (10 cm) to delivery of baby.",
+      "B": "8 cm is late first stage (transition).",
+      "C": "First stage starts with regular contractions + progressive dilatation.",
+      "D": "ROM is not the defining event of second stage."
+    }
+  },
+  {
+    "id": "N9-51",
+    "question": "Which maneuver is specifically used for head delivery during labour?",
+    "options": ["Ritgen maneuver", "McRoberts maneuver", "Pinard's maneuver", "Woods screw maneuver"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Labour maneuvers",
+    "day": 3,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Ritgen maneuver — controlled delivery of fetal head to prevent perineal tear.",
+      "B": "McRoberts is for shoulder dystocia.",
+      "C": "Pinard's maneuver is used to deliver a breech (frank breech with extended legs).",
+      "D": "Woods screw is a shoulder-dystocia rotational maneuver."
+    }
+  },
+  {
+    "id": "N9-52",
+    "question": "In a partograph, which line indicates abnormal labour progress?",
+    "options": ["Alert line", "Action line", "Slow progress", "No descent"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Partograph",
+    "day": 3,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Crossing the alert line (cervicograph drifts rightward) is the earliest warning of labour dystocia — mandates review.",
+      "B": "Action line crossing demands active intervention/transfer, but the alert line is the first abnormal signal.",
+      "C": "Not a labelled partograph line.",
+      "D": "Not a labelled partograph line."
+    }
+  },
+  {
+    "id": "N9-53",
+    "question": "A patient in labour has cervical dilatation of 6 cm with contractions every 5 minutes. What is the appropriate nursing action?",
+    "options": ["Immediate augmentation", "Monitor contractions and FHR", "Prepare for delivery", "Administer oxytocin"],
+    "correct": 1,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "Active labour monitoring",
+    "day": 3,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Augmentation is indicated only if inadequate contractions persist; 6 cm with q5 min contractions is normal active labour.",
+      "B": "Appropriate action is continuous monitoring of contractions and FHR per standard intrapartum care.",
+      "C": "Delivery prep is for full dilatation (10 cm) and active pushing.",
+      "D": "Oxytocin is not needed with adequate progress."
+    }
+  },
+  {
+    "id": "N9-54",
+    "question": "Identify the pattern shown in the CTG strip (FHR drop begins with contraction, nadir at peak, returns to baseline by end).",
+    "options": ["Early deceleration", "Fetal tachycardia", "Fetal bradycardia", "Late deceleration"],
+    "correct": 0,
+    "section": "midwifery",
+    "subject": "OBG",
+    "topic": "CTG interpretation",
+    "day": 3,
+    "qtype": "image",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "image": "imp/NORCET- 9 MAINS.pdf#page=4 (Q54)",
+    "explanations": {
+      "A": "Early deceleration mirrors the contraction (head compression) and is benign.",
+      "B": "Tachycardia is sustained baseline >160 bpm.",
+      "C": "Bradycardia is sustained baseline <110 bpm.",
+      "D": "Late deceleration nadir occurs AFTER the contraction peak (uteroplacental insufficiency) — pathological."
+    }
+  },
+  {
+    "id": "N9-55",
+    "question": "Among the following, which food provides the highest amount of protein per 100 grams?",
+    "options": ["Egg", "Soybean", "Mutton", "Peanuts"],
+    "correct": 1,
+    "section": "nutrition-biochemistry",
+    "subject": "Nutrition",
+    "topic": "Protein sources",
+    "day": 12,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Egg has ≈13 g protein per 100 g.",
+      "B": "Soybean has ≈43 g protein per 100 g — the highest per 100 g among common foods.",
+      "C": "Mutton has ≈18 g protein per 100 g.",
+      "D": "Peanuts have ≈25 g protein per 100 g."
+    }
+  },
+  {
+    "id": "N9-56",
+    "question": "In which year was the first National Family Planning Programme launched in India?",
+    "options": ["1947", "1952", "1961", "1971"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "NFP history",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "India gained independence in 1947, but the NFP came later.",
+      "B": "India launched the world's first government-sponsored NFP in 1952.",
+      "C": "1961 is irrelevant.",
+      "D": "1971 saw MTP Act, not NFP."
+    }
+  },
+  {
+    "id": "N9-57",
+    "question": "Which was the first National Family Planning Programme launched in India?",
+    "options": ["National Population Policy", "Family Welfare Programme", "Reproductive and Child Health Programme", "National Rural Health Mission"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "NFP history",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "National Population Policy was adopted in 2000.",
+      "B": "Launched in 1952 as the 'Family Welfare Programme' — India's first NFP.",
+      "C": "RCH programme began in 1997.",
+      "D": "NRHM launched in 2005."
+    }
+  },
+  {
+    "id": "N9-58",
+    "question": "A 45-year-old patient on isoniazid therapy for tuberculosis presents with numbness and tingling in the extremities. Which intervention should the nurse prioritize?",
+    "options": ["Administer vitamin B12 supplements", "Increase the dose of isoniazid", "Administer vitamin B6 (pyridoxine) supplements", "Discontinue isoniazid immediately"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "TB / Isoniazid neuropathy",
+    "day": 6,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "B12 treats pernicious anemia-related neuropathy, not INH neuropathy.",
+      "B": "Increasing INH worsens the neuropathy.",
+      "C": "INH inhibits pyridoxal-5-phosphate → B6 deficiency → peripheral neuropathy. Treatment: pyridoxine 10–50 mg/day.",
+      "D": "INH is stopped only if severe; routine practice is to add pyridoxine to prevent/treat."
+    }
+  },
+  {
+    "id": "N9-59",
+    "question": "A 30-year-old presents with fever, weight loss, and skin lesions after traveling to a rural area. The nurse suspects leishmaniasis. Which vector is most likely responsible?",
+    "options": ["Mosquito", "Tsetse fly", "Sandfly", "Tick"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Leishmaniasis / vector",
+    "day": 8,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Mosquitoes transmit malaria, dengue, chikungunya.",
+      "B": "Tsetse fly transmits African trypanosomiasis.",
+      "C": "Phlebotomus (sandfly) transmits Leishmania donovani → kala-azar.",
+      "D": "Ticks transmit Lyme disease, rickettsioses."
+    }
+  },
+  {
+    "id": "N9-60",
+    "question": "A community health nurse educates parents about the rotavirus vaccine. What is the correct route of administration for the rotavirus vaccine?",
+    "options": ["Intramuscular", "Subcutaneous", "Oral", "Intravenous"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Immunization",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "IM not used for rotavirus.",
+      "B": "Subcut not used for rotavirus.",
+      "C": "Rotavirus is given orally (live attenuated) at 6, 10, 14 weeks.",
+      "D": "IV not used."
+    }
+  },
+  {
+    "id": "N9-61",
+    "question": "Can herd immunity provide protection against tetanus in unvaccinated individuals?",
+    "options": ["Fully protects against tetanus", "Partially protects due to community vaccination", "Does not protect — tetanus is not contagious", "Protects only vaccinated individuals"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Herd immunity / Tetanus",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Incorrect — herd immunity cannot protect the unvaccinated from tetanus.",
+      "B": "Incorrect — concept doesn't apply.",
+      "C": "Tetanus is acquired from environmental Clostridium tetani spores, not person-to-person. Herd immunity protects only against communicable diseases.",
+      "D": "Vaccination protects the vaccinated directly; this statement is trivially true but not the point of the question."
+    }
+  },
+  {
+    "id": "N9-62",
+    "question": "A 4-year-old presents with prolonged fever, rash, and conjunctivitis. Kawasaki disease is suspected. Which type of blood vessels is primarily affected?",
+    "options": ["Large arteries", "Medium-sized arteries", "Small capillaries", "Veins"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Kawasaki disease",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Large-vessel vasculitis (Takayasu, GCA) affects aorta/main branches.",
+      "B": "Kawasaki is a medium-vessel vasculitis — coronary aneurysms are the feared complication.",
+      "C": "Small-vessel vasculitis (HSP, MPA).",
+      "D": "Veins are rarely involved in classical vasculitides."
+    }
+  },
+  {
+    "id": "N9-63",
+    "question": "Among infectious diseases, which condition is a significant contributor to mortality rates in India?",
+    "options": ["Malaria", "Tuberculosis", "Dengue fever", "Cholera"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Burden of disease",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Malaria mortality in India is declining; not the largest infectious cause.",
+      "B": "India has the world's highest TB burden; TB is the single largest infectious killer.",
+      "C": "Dengue causes outbreaks but fewer deaths than TB.",
+      "D": "Cholera is largely controlled."
+    }
+  },
+  {
+    "id": "N9-64",
+    "question": "What is the annual coverage limit provided by PM-JAY for a beneficiary's family?",
+    "options": ["Rs. 1 lakh per family per year", "Rs. 3 lakhs per family per year", "Rs. 5 lakhs per family per year", "Rs. 10 lakhs per family per year"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Ayushman Bharat / PM-JAY",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Too low; doesn't match PM-JAY.",
+      "B": "Too low.",
+      "C": "PM-JAY provides ₹5 lakh/family/year for secondary + tertiary care.",
+      "D": "PM-JAY was enhanced to ₹10 lakh only for senior citizens ≥70 years (2024 expansion); standard family cover remains ₹5 lakh."
+    }
+  },
+  {
+    "id": "N9-65",
+    "question": "Which ministry is primarily responsible for implementing Poshan Abhiyaan?",
+    "options": ["Ministry of Health and Family Welfare", "Ministry of Women and Child Development", "Ministry of Education", "Ministry of Rural Development"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Poshan Abhiyaan",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "MoHFW handles health programmes, not Poshan Abhiyaan.",
+      "B": "Launched 2018 under MoWCD with ICDS ecosystem; targets stunting, anemia, LBW.",
+      "C": "Mid-Day Meal is under MoE; not Poshan Abhiyaan.",
+      "D": "MoRD doesn't run Poshan Abhiyaan."
+    }
+  },
+  {
+    "id": "N9-66",
+    "question": "What is the primary objective of the Janani Shishu Suraksha Karyakram (JSSK)?",
+    "options": ["Provide free postnatal care only", "Promote institutional delivery and ensure free maternal and newborn care", "Offer financial assistance for home deliveries", "Provide nutritional supplements to pregnant women"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "JSSK / Maternal health",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "JSSK covers antenatal, intranatal, and postnatal care — not only postnatal.",
+      "B": "JSSK (2011) entitles every pregnant woman and sick newborn (≤30 days, later extended to 1 year) to free delivery, drugs, diagnostics, diet, transport.",
+      "C": "JSSK promotes institutional delivery; does not fund home deliveries.",
+      "D": "Supplements are under Poshan Abhiyaan/ICDS, not JSSK."
+    }
+  },
+  {
+    "id": "N9-67",
+    "question": "What is the recommended time frame to check for a response to the BCG vaccine?",
+    "options": ["2-4 weeks", "4-6 weeks", "8-10 weeks", "12-14 weeks"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "BCG / UIP",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Too early — scar takes longer to form.",
+      "B": "Papule forms but typical scar assessment later.",
+      "C": "A BCG scar develops by 8–12 weeks; Mantoux conversion around this time.",
+      "D": "Usually scar is already formed by then."
+    }
+  },
+  {
+    "id": "N9-68",
+    "question": "Which epidemiological measure is most appropriate to determine the proportion of the population affected by a specific disease at a given time?",
+    "options": ["Incidence rate", "Prevalence", "Mortality rate", "Attack rate"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Epidemiology",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Incidence counts new cases over time — not a snapshot.",
+      "B": "Prevalence = existing cases / total population at a given time (snapshot).",
+      "C": "Mortality measures deaths, not cases.",
+      "D": "Attack rate is outbreak-specific (ill ÷ exposed)."
+    }
+  },
+  {
+    "id": "N9-69",
+    "question": "Which statement is true regarding killed vaccines?",
+    "options": ["Never require booster doses", "Typically require booster doses to maintain immunity", "Provide lifelong immunity without boosters", "Only effective with a single dose"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Vaccines / Immunology",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Killed vaccines routinely need boosters.",
+      "B": "Inactivated/killed antigens produce weaker immunity than live; need multiple doses and boosters (e.g., DPT, IPV, rabies).",
+      "C": "Live attenuated can provide longer immunity; killed usually not.",
+      "D": "Single dose rarely achieves protective immunity with killed vaccines."
+    }
+  },
+  {
+    "id": "N9-70",
+    "question": "An age-sex pyramid shows a narrow top and wide base. What does this demographic pattern indicate?",
+    "options": ["Low birth rate and low death rate", "High birth rate and high death rate", "Low birth rate and high death rate", "High birth rate and low death rate"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Demography",
+    "day": 6,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Low both → columnar (stable) pyramid.",
+      "B": "Wide base = high birth rate; narrow top = high death rate with few elderly → typical developing-country pyramid.",
+      "C": "Low birth + high death → contracting (top-heavy) pyramid.",
+      "D": "Low death + high birth → expanding bulge but with widening middle-age bands, not as narrow at the top."
+    }
+  },
+  {
+    "id": "N9-71",
+    "question": "Which food contains the highest amount of protein per serving?",
+    "options": ["Lentils", "Soybean", "Eggs", "Rice"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Nutrition counselling",
+    "day": 12,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Lentils ≈ 24 g protein/100 g.",
+      "B": "Soybean is highest in protein (≈43 g/100 g) — complete plant protein.",
+      "C": "Eggs ≈ 13 g/100 g — highest biological value but not highest gram-for-gram.",
+      "D": "Rice ≈ 7 g/100 g — low protein."
+    }
+  },
+  {
+    "id": "N9-72",
+    "question": "What is the primary purpose of the unique health ID under the Ayushman Bharat Digital Mission?",
+    "options": ["Provide financial assistance for hospital admissions", "Create a universal health identity for seamless healthcare access", "Track vaccination records only", "Monitor disease outbreaks in real-time"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "ABDM / Digital Health",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Financial cover is PM-JAY.",
+      "B": "ABHA (Ayushman Bharat Health Account) is a unique 14-digit ID for health records — enables longitudinal EHR and seamless healthcare access.",
+      "C": "Vaccination tracking is done via U-WIN/CoWIN, not the sole purpose of the health ID.",
+      "D": "Outbreak monitoring is via IDSP, not ABHA."
+    }
+  },
+  {
+    "id": "N9-73",
+    "question": "Which framework integrates adolescent health with reproductive and child health services?",
+    "options": ["RMNCH", "RMNCH+A", "NRHM", "ASHA"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "RMNCH+A",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "RMNCH covers reproductive, maternal, newborn, child — no adolescent component.",
+      "B": "RMNCH+A adds Adolescent health (2013) with RKSK/school health services.",
+      "C": "NRHM is the broader rural health mission.",
+      "D": "ASHA is a community health worker, not a programme framework."
+    }
+  },
+  {
+    "id": "N9-74",
+    "question": "Which statement about inactivated polio vaccine (IPV) is true?",
+    "options": ["Administered orally to prevent polio", "Live attenuated vaccine", "Injectable vaccine providing immunity against polio", "Requires only a single dose for lifelong immunity"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Polio / IPV",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Oral route is for OPV (live), not IPV.",
+      "B": "IPV is killed (Salk); OPV is live attenuated (Sabin).",
+      "C": "IPV is given intramuscularly / intradermally (fIPV) — injectable inactivated vaccine.",
+      "D": "Multi-dose schedule required."
+    }
+  },
+  {
+    "id": "N9-75",
+    "question": "Which statement is true about adjuvants in vaccines?",
+    "options": ["Weaken the immune response", "Enhance the immune response to vaccines", "Live pathogens included in vaccines", "Prevent the vaccine from being effective"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Vaccines / Adjuvants",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Opposite of function.",
+      "B": "Adjuvants (e.g., aluminium salts, AS04) boost antigen presentation → stronger/longer immune response.",
+      "C": "Adjuvants are not pathogens; they're immune stimulants.",
+      "D": "Adjuvants improve efficacy."
+    }
+  },
+  {
+    "id": "N9-76",
+    "question": "Annual nutrition awareness activities in September for malnutrition prevention fall primarily under which national program?",
+    "options": ["Ayushman Bharat", "Swachh Bharat Abhiyan", "Poshan Abhiyaan", "National Health Mission"],
+    "correct": 2,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Poshan Maah",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Ayushman Bharat is an insurance + wellness centre programme.",
+      "B": "Swachh Bharat addresses sanitation, not nutrition.",
+      "C": "September is observed as Rashtriya Poshan Maah under Poshan Abhiyaan.",
+      "D": "NHM is an umbrella; Poshan Abhiyaan is the specific nutrition programme."
+    }
+  },
+  {
+    "id": "N9-77",
+    "question": "Which anti-tubercular drug is primarily bactericidal?",
+    "options": ["Ethambutol", "Isoniazid", "Pyrazinamide", "Both Isoniazid and Pyrazinamide"],
+    "correct": 3,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "ATT pharmacology",
+    "day": 13,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Ethambutol is bacteriostatic.",
+      "B": "Isoniazid is bactericidal, but the question asks which options are bactericidal.",
+      "C": "Pyrazinamide is bactericidal in acidic intracellular environment (sterilising).",
+      "D": "Both INH and PZA are bactericidal first-line drugs; rifampicin is also bactericidal but not listed here."
+    }
+  },
+  {
+    "id": "N9-78",
+    "question": "Which national programme is specifically designed to reduce maternal and newborn mortality through safe delivery and comprehensive care?",
+    "options": ["Poshan Abhiyaan", "Janani Shishu Suraksha Yojana (JSSY)", "Ayushman Bharat", "National Rural Health Mission (NRHM)"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "JSSY",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Poshan targets nutrition.",
+      "B": "JSSY/JSSK entitles free delivery, drugs, diagnostics, diet, transport for pregnant women and sick newborns.",
+      "C": "Ayushman covers secondary/tertiary care insurance.",
+      "D": "NRHM is umbrella mission, not targeted at mother-newborn specifically."
+    }
+  },
+  {
+    "id": "N9-79",
+    "question": "A 28-year-old develops PPH after delivery and is referred from PHC. Which medication should the nurse prioritize?",
+    "options": ["Misoprostol", "Oxytocin", "Tranexamic acid", "Ergometrine"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "PPH management",
+    "day": 3,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Misoprostol is a backup in settings without oxytocin availability.",
+      "B": "IV Oxytocin is the first-line uterotonic for PPH (part of AMTSL).",
+      "C": "TXA is adjunct within 3 hours of PPH; not first-line uterotonic.",
+      "D": "Ergometrine is second-line; contraindicated in hypertension."
+    }
+  },
+  {
+    "id": "N9-80",
+    "question": "Which national programme specifically addresses newborn and maternal mortality through comprehensive maternal and child health services?",
+    "options": ["National Rural Health Mission (NRHM)", "Janani Shishu Suraksha Karyakram (JSSK)", "Integrated Child Development Services (ICDS)", "National Immunization Programme"],
+    "correct": 1,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "JSSK",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "NRHM is umbrella.",
+      "B": "JSSK is specifically targeted at mother and sick newborn with free delivery + newborn care.",
+      "C": "ICDS targets 6 mo–6 y children and pregnant/lactating women nutrition.",
+      "D": "NIP is vaccination programme."
+    }
+  },
+  {
+    "id": "N9-81",
+    "question": "A 25-year-old expresses a persistent urge to wear female clothing and identifies with a gender different from assigned sex at birth. What is the most appropriate term?",
+    "options": ["Gender dysphoria", "Transvestism", "Homosexuality", "Gender conformity"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Gender identity",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Gender dysphoria describes distress from incongruence — but the patient description emphasises dressing behaviour.",
+      "B": "Per Target High's answer key — the stem highlights 'persistent urge to wear female clothing', best described as transvestism (cross-dressing) rather than full gender dysphoria.",
+      "C": "Homosexuality refers to sexual orientation, not gender identity/dressing.",
+      "D": "Gender conformity is identification with assigned gender — opposite of the stem."
+    }
+  },
+  {
+    "id": "N9-82",
+    "question": "A 30-year-old with suspected schizophrenia has disorganized thinking and reports hearing voices commenting on his actions. Which is a first-rank symptom of schizophrenia?",
+    "options": ["Social withdrawal", "Thought disorder (e.g., thought broadcasting)", "Flat affect", "Visual hallucinations"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia / FRS",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Social withdrawal is a negative symptom, not Schneider's first-rank.",
+      "B": "Schneider's FRS include: thought insertion/withdrawal/broadcasting, 3rd-person auditory hallucinations, delusions of control.",
+      "C": "Flat affect is a negative symptom.",
+      "D": "Visual hallucinations are uncommon in schizophrenia; more suggestive of organic/substance-induced states."
+    }
+  },
+  {
+    "id": "N9-83",
+    "question": "A 35-year-old on antipsychotic medication reports a constant urge to move and an inability to stay seated. Which condition is most likely?",
+    "options": ["Tardive dyskinesia", "Akathisia", "Dystonia", "Parkinsonism"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "EPS / Akathisia",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "TD is late-onset involuntary oro-lingual movements.",
+      "B": "Akathisia is subjective restlessness + observable inability to sit still — early EPS; treated with propranolol/benzodiazepines and dose reduction.",
+      "C": "Acute dystonia is sustained muscle contraction (torticollis, oculogyric crisis).",
+      "D": "Parkinsonism features tremor, rigidity, bradykinesia, not restlessness."
+    }
+  },
+  {
+    "id": "N9-84",
+    "question": "A 50-year-old with neuropathic pain after nerve injury is prescribed a medication. Which is most commonly used for neuropathic pain?",
+    "options": ["Ibuprofen", "Gabapentin", "Paracetamol", "Morphine"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Neuropathic pain",
+    "day": 13,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "NSAIDs are ineffective for neuropathic pain.",
+      "B": "Gabapentin (or pregabalin) is first-line per WHO analgesic ladder for neuropathic pain.",
+      "C": "Acetaminophen targets nociceptive pain.",
+      "D": "Opioids are reserved for refractory cases; not first-line."
+    }
+  },
+  {
+    "id": "N9-85",
+    "question": "A 40-year-old on disulfiram therapy for alcohol dependence — what is the most critical advice?",
+    "options": ["Avoid caffeine-containing beverages", "Avoid alcohol and alcohol-containing products", "Increase fluid intake to prevent dehydration", "Take the medication with meals to reduce side effects"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Disulfiram counselling",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Caffeine is not contraindicated with disulfiram.",
+      "B": "Any alcohol (including mouthwash, cough syrups, perfumes) causes acetaldehyde accumulation → flushing, tachycardia, hypotension, vomiting — potentially fatal.",
+      "C": "Fluid isn't the key issue.",
+      "D": "Disulfiram is taken once daily without meal requirement."
+    }
+  },
+  {
+    "id": "N9-86",
+    "question": "A 28-year-old with borderline personality disorder exhibits emotional instability and impulsive behavior. Which therapy is first-line?",
+    "options": ["Cognitive Behavioral Therapy (CBT)", "Dialectical Behavior Therapy (DBT)", "Psychoanalytic Therapy", "Family Therapy"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Personality disorders",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "CBT addresses cognitive distortions; less effective for BPD.",
+      "B": "DBT (Linehan) is the evidence-based first-line therapy for BPD — teaches mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness.",
+      "C": "Psychoanalytic therapy is longer and not first-line.",
+      "D": "Family therapy has a supporting role but isn't first-line."
+    }
+  },
+  {
+    "id": "N9-87",
+    "question": "A patient reports 3 months of low mood followed by a recent period of excessive energy, talkativeness, and reckless behavior. Bipolar I disorder is suspected. What is the most likely current diagnosis?",
+    "options": ["Major depressive disorder", "Bipolar I disorder with current manic episode", "Generalized anxiety disorder", "Bipolar II disorder with hypomania"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Bipolar disorder",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "MDD has no manic/hypomanic episode.",
+      "B": "Past depression + current manic episode (excessive energy, reckless behavior) = Bipolar I with current manic episode.",
+      "C": "GAD involves chronic worry, not mood cycling.",
+      "D": "Bipolar II requires hypomania (less severe, <1 week, no functional impairment)."
+    }
+  },
+  {
+    "id": "N9-88",
+    "question": "A patient reports persistent low mood, low energy, and hopelessness for several years without episodes of major depression. What is the most likely diagnosis?",
+    "options": ["Major depressive disorder", "Dysthymia", "Bipolar II disorder", "Cyclothymic disorder"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Chronic mood disorders",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "MDD requires ≥2-week episodes meeting 5+ criteria.",
+      "B": "Dysthymia (now Persistent Depressive Disorder) = chronic low mood ≥2 years without MDE.",
+      "C": "Bipolar II has hypomanic episodes, absent here.",
+      "D": "Cyclothymia requires hypomanic + depressive symptoms alternating for ≥2 years."
+    }
+  },
+  {
+    "id": "N9-89",
+    "question": "A 45-year-old on opioid therapy for post-surgical pain has a respiratory rate of 10 breaths/min. What is the primary concern?",
+    "options": ["Hypertension", "Respiratory depression", "Tachycardia", "Hyperglycemia"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Opioid toxicity",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Opioids cause hypotension, not hypertension.",
+      "B": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
+      "C": "Opioids cause bradycardia, not tachycardia.",
+      "D": "Hyperglycemia is not an opioid effect."
+    }
+  },
+  {
+    "id": "N9-90",
+    "question": "A patient with schizophrenia speaks in a way that frequently drifts off-topic. This is identified as a disorder of thought form. Which term best describes it?",
+    "options": ["Flight of ideas", "Tangentiality", "Thought blocking", "Loose associations"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Thought disorder",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Flight of ideas involves rapid, pressured speech jumping between related ideas (mania).",
+      "B": "Tangentiality — replies veer off-topic and never return to the original point.",
+      "C": "Thought blocking is abrupt stoppage of speech/thoughts.",
+      "D": "Loose associations involve disconnected ideas with no logical link — more severe than tangentiality."
+    }
+  },
+  {
+    "id": "N9-91",
+    "question": "A 12-year-old with conduct disorder exhibits aggressive behavior and disregard for rules. What is a key nursing role?",
+    "options": ["Encourage free expression without boundaries", "Implement strict rules and regulations with consistent enforcement", "Avoid setting limits to reduce confrontations", "Focus solely on medication administration"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Conduct disorder",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Lack of limits worsens impulsive behavior.",
+      "B": "Structured environment with firm, consistent rules is the evidence-based behavioral strategy.",
+      "C": "Avoiding limits reinforces disruptive behavior.",
+      "D": "Medication is adjunctive; psychosocial structure is primary."
+    }
+  },
+  {
+    "id": "N9-92",
+    "question": "Which of the following is NOT considered a negative symptom of schizophrenia?",
+    "options": ["Apathy", "Alogia", "Ambivalence", "Anhedonia"],
+    "correct": 2,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia symptoms",
+    "day": 9,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Apathy (avolition) is a classic negative symptom.",
+      "B": "Alogia (poverty of speech) is negative.",
+      "C": "Ambivalence — per Bleuler's four A's it's considered a primary (cognitive) feature, not classified among standard negative symptoms (apathy, alogia, anhedonia, asociality, avolition).",
+      "D": "Anhedonia is a negative symptom."
+    }
+  },
+  {
+    "id": "N9-93",
+    "question": "Under Anemia Mukt Bharat, for a pregnant woman in her second trimester, which Hb level classifies her as anemic?",
+    "options": ["Hb < 11.0 g/dL", "Hb < 12.0 g/dL", "Hb < 10.0 g/dL", "Hb < 13.0 g/dL"],
+    "correct": 0,
+    "section": "community-health",
+    "subject": "Community Health",
+    "topic": "Anemia Mukt Bharat",
+    "day": 6,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "WHO/AMB cutoff for pregnancy anemia: Hb < 11.0 g/dL (any trimester).",
+      "B": "12.0 g/dL is the cutoff for non-pregnant women.",
+      "C": "10.0 g/dL is moderate anemia cutoff, not diagnostic threshold.",
+      "D": "13.0 is the cutoff for adult men."
+    }
+  },
+  {
+    "id": "N9-94",
+    "question": "A 45-year-old with schizophrenia stable on a typical antipsychotic × 5 years now exhibits involuntary lip smacking and tongue protrusion (Tardive Dyskinesia). What is the priority management?",
+    "options": ["Initiate Propranolol to control motor movements", "Increase the dose of the current antipsychotic", "Substitute with Trihexyphenidyl for symptom control", "Decrease the dose of current antipsychotic or switch to an atypical agent"],
+    "correct": 3,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Tardive Dyskinesia",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Propranolol is for akathisia, not TD.",
+      "B": "Increasing the offending drug may transiently mask TD but worsens long-term severity.",
+      "C": "Anticholinergics (trihexyphenidyl) actually worsen TD.",
+      "D": "First step is to lower or discontinue the typical antipsychotic and switch to an atypical (clozapine has lowest TD risk). VMAT2 inhibitors (valbenazine/deutetrabenazine) are approved for symptomatic control."
+    }
+  },
+  {
+    "id": "N9-95",
+    "question": "A 38-year-old believes his neighbors are plotting to harm him and are constantly monitoring his activities. Which term best describes this belief?",
+    "options": ["Delusion of grandeur", "Delusion of persecution", "Delusion of reference", "Delusion of control"],
+    "correct": 1,
+    "section": "psychiatric",
+    "subject": "Psychiatric",
+    "topic": "Delusions",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Grandiose delusion = inflated self-importance.",
+      "B": "Persecutory delusion = belief others are conspiring/plotting harm — commonest type in schizophrenia.",
+      "C": "Reference delusion = innocuous stimuli (TV, news) believed to refer to self.",
+      "D": "Delusion of control = belief that one's thoughts/actions are controlled by external force."
+    }
+  },
+  {
+    "id": "N9-96",
+    "question": "Identify the below given image (specialized bottle with elongated teat used in cleft lip/palate feeding).",
+    "options": ["Haberman feeder", "Pigeon bottle", "Cleft lip/palate nurser", "Both a and b"],
+    "correct": 0,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Cleft lip/palate feeding",
+    "day": 4,
+    "qtype": "image",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "image": "imp/NORCET- 9 MAINS.pdf#page=8 (Q96)",
+    "explanations": {
+      "A": "Haberman feeder — has a one-way valve and compressible teat; used for infants who can't generate suction (cleft lip/palate).",
+      "B": "Pigeon bottle is also specialty feeder; separate appearance.",
+      "C": "'Cleft lip/palate nurser' is a class name, not the specific instrument shown.",
+      "D": "'Both a and b' would apply only if both were visible; Target High key marks a."
+    }
+  },
+  {
+    "id": "N9-97",
+    "question": "What is the full form of INAP?",
+    "options": ["India Newborn Action Plan", "India Neonatal Action Plan", "India Newborn Active Plan", "India Neonatal Active Plan"],
+    "correct": 0,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "INAP",
+    "day": 4,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "INAP = India Newborn Action Plan (2014) — aims to reduce NMR and stillbirth rate to single digits by 2030.",
+      "B": "Incorrect — 'Neonatal' replaces 'Newborn' but the actual term is 'Newborn'.",
+      "C": "Incorrect expansion.",
+      "D": "Incorrect expansion."
+    }
+  },
+  {
+    "id": "N9-98",
+    "question": "Boot shaped heart is seen in:",
+    "options": ["Tricuspid atresia", "Tetralogy of Fallot", "Truncus arteriosus", "Total anomalous pulmonary venous return"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Congenital heart disease",
+    "day": 5,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Tricuspid atresia shows left axis deviation but not classic boot shape.",
+      "B": "TOF produces 'coeur en sabot' (boot-shaped heart) due to RV hypertrophy + small pulmonary trunk.",
+      "C": "Truncus arteriosus has a single great vessel, no typical boot shape.",
+      "D": "TAPVR produces 'snowman' or 'figure-of-eight' cardiac silhouette."
+    }
+  },
+  {
+    "id": "N9-99",
+    "question": "A baby with eczema is prescribed a topical corticosteroid. What advice should be given to the parent?",
+    "options": ["Apply at night time to reduce systemic absorption", "Gastric irritation occurs when hands are put in mouth", "Causes hair growth at application site", "Apply a thin layer only on the affected area and avoid prolonged use"],
+    "correct": 3,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Topical steroid counseling",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Timing isn't the main concern; dose/area/duration is.",
+      "B": "Topical steroids don't cause gastric irritation with typical use.",
+      "C": "Hypertrichosis is possible but not the main counselling point.",
+      "D": "Thin layer to affected area only; short-term use; avoid occlusion and prolonged use (risk of skin atrophy, striae, HPA-axis suppression in infants)."
+    }
+  },
+  {
+    "id": "N9-100",
+    "question": "In NICU, which respiratory distress assessment score is used?",
+    "options": ["Silverman-Anderson score", "Downes score", "Both a and b", "Only a"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Respiratory distress scoring",
+    "day": 4,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Silverman-Anderson is used primarily for preterm neonates.",
+      "B": "Downes score includes cyanosis, air entry; used in older neonates / broader contexts.",
+      "C": "Both Silverman-Anderson AND Downes are used in NICU to grade neonatal respiratory distress.",
+      "D": "Limiting to Silverman-Anderson alone is inaccurate."
+    }
+  },
+  {
+    "id": "N9-101",
+    "question": "Which of the following is an early sign of increased intracranial pressure (ICP) in children?",
+    "options": ["Altered level of consciousness", "Headache", "Nausea and vomiting", "Seizures"],
+    "correct": 0,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Raised ICP (Pediatric)",
+    "day": 5,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Altered LOC (irritability, lethargy, poor feeding) is the earliest and most sensitive sign in children.",
+      "B": "Headache requires verbal ability; often absent in infants.",
+      "C": "Vomiting follows LOC changes.",
+      "D": "Seizures are late signs."
+    }
+  },
+  {
+    "id": "N9-102",
+    "question": "A pediatric client on HFNC shows SpO2 of 50%. What is the most appropriate and immediate action?",
+    "options": ["Increase HFNC flow rate by 5 L/min", "Call the Respiratory Therapist to adjust the FiO2", "Immediately discontinue HFNC and switch to BVM with 100% oxygen", "Reposition the child prone and reassess SpO2 after 15 minutes"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Pediatric emergency airway",
+    "day": 9,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Simply increasing flow is insufficient with critical hypoxia.",
+      "B": "Waiting for RT will waste precious seconds.",
+      "C": "Critical hypoxia (SpO2 50%) requires immediate bag-valve-mask ventilation with 100% O2 — rescue ventilation takes precedence over device titration.",
+      "D": "Repositioning with 15-minute wait is unacceptably dangerous at SpO2 50%."
+    }
+  },
+  {
+    "id": "N9-103",
+    "question": "A mother reports her 4-year-old is not receiving ICDS supplementary nutrition. What should the nurse do first?",
+    "options": ["Refer to a pediatrician for evaluation", "Verify the child's age and ICDS enrollment status", "Educate the mother about nutrition", "Provide immediate supplementary food"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "ICDS / Nursing process",
+    "day": 6,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Medical referral is premature without assessing eligibility.",
+      "B": "Nursing process starts with assessment — verify eligibility (6 mo–6 y) and current enrolment in AWC.",
+      "C": "Education is second step, after assessment.",
+      "D": "Providing food without eligibility verification is improper programme use."
+    }
+  },
+  {
+    "id": "N9-104",
+    "question": "A 2-month-old has increasing head circumference, vomiting, downward deviation of eyes, tense anterior fontanelle and sunset sign. MRI: cystic dilatation of 4th ventricle with cerebellar vermis hypoplasia. Dandy-Walker syndrome suspected. Underlying mechanism?",
+    "options": ["Aqueductal stenosis → supratentorial hydrocephalus", "Atresia of Luschka and Magendie → non-communicating hydrocephalus", "CSF overproduction by choroid plexus", "CSF malabsorption by defective arachnoid granulations"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Dandy-Walker",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Aqueductal stenosis causes a different form of non-communicating hydrocephalus.",
+      "B": "Dandy-Walker = atresia of foramina Luschka/Magendie → cystic 4th ventricle, vermis hypoplasia, non-communicating hydrocephalus.",
+      "C": "Choroid plexus papilloma, not Dandy-Walker.",
+      "D": "Communicating hydrocephalus / post-meningitic, not Dandy-Walker."
+    }
+  },
+  {
+    "id": "N9-105",
+    "question": "A 5-year-old with acute diarrhea. Under ICDS protocol, what is the appropriate dose and duration of zinc supplementation?",
+    "options": ["10 mg daily for 7 days", "20 mg daily for 14 days", "15 mg daily for 10 days", "30 mg daily for 7 days"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Diarrhoea management / Zinc",
+    "day": 5,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "10 mg × 14 days is for infants <6 months.",
+      "B": "WHO/IMNCI: zinc 20 mg daily × 14 days for children ≥6 months with diarrhoea.",
+      "C": "15 mg/10 days is non-standard.",
+      "D": "30 mg/7 days is non-standard."
+    }
+  },
+  {
+    "id": "N9-106",
+    "question": "A newborn at 1 minute shows HR 120, irregular respirations, some flexion, weak cry, SpO2 62%. What should the nurse do next?",
+    "options": ["Initiate positive pressure ventilation immediately", "Administer supplemental oxygen and monitor SpO2", "Perform chest compressions and intubate", "Dry the newborn, provide warmth, and reassess after 30 seconds"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "NRP",
+    "day": 4,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "PPV is indicated only if HR <100 or apnea; here HR 120.",
+      "B": "Pre-ductal SpO2 at 1 min can be 60–65% normally (per NRP). HR >100 and breathing — give free-flow O2 and monitor SpO2.",
+      "C": "Compressions only if HR <60 after 30 s of effective PPV.",
+      "D": "Initial steps already done; reassessment should guide oxygen titration now."
+    }
+  },
+  {
+    "id": "N9-107",
+    "question": "What is the correct description of the ductus venosus in fetal circulation?",
+    "options": ["Connects pulmonary artery to aorta", "Shunts oxygenated blood from umbilical vein to IVC", "Links umbilical artery to portal vein for nutrient delivery", "Allows blood flow from RA to LA through foramen ovale"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Fetal circulation",
+    "day": 4,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "That's ductus arteriosus.",
+      "B": "Ductus venosus bypasses the liver, carrying oxygenated blood from umbilical vein directly to IVC.",
+      "C": "Umbilical vein (not artery) and portal vein are connected via the liver but not by the ductus venosus directly.",
+      "D": "That's the foramen ovale."
+    }
+  },
+  {
+    "id": "N9-108",
+    "question": "A 6-week-old infant has projectile vomiting after feeds, weight loss, palpable olive-shaped mass in RUQ, and visible peristalsis. What is the most likely diagnosis?",
+    "options": ["Gastroesophageal reflux disease (GERD)", "Intussusception", "Pyloric stenosis", "Duodenal atresia"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Hypertrophic pyloric stenosis",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "GERD is posseting, not projectile vomiting with olive mass.",
+      "B": "Intussusception presents with colic + currant-jelly stools, typically 6–18 months.",
+      "C": "Classic HPS — non-bilious projectile vomiting, palpable olive mass, visible gastric peristalsis in 4–8 week-old.",
+      "D": "Duodenal atresia presents in the first day of life with bilious vomiting and 'double bubble' on X-ray."
+    }
+  },
+  {
+    "id": "N9-109",
+    "question": "A newborn has clubfoot (inward and downward foot). What is the first-line treatment?",
+    "options": ["Immediate surgical correction", "Observation and follow-up", "Serial plaster casting (Ponseti method)", "Physical therapy alone"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Congenital talipes equinovarus",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Surgery reserved for failed conservative correction.",
+      "B": "Clubfoot does not self-correct.",
+      "C": "Ponseti method — weekly manipulation and plaster casts (average 5–6 casts), optional Achilles tenotomy, followed by bracing — gold standard.",
+      "D": "Physical therapy alone is inadequate."
+    }
+  },
+  {
+    "id": "N9-110",
+    "question": "A 3-year-old has 3 days of fever and chills in a malaria-endemic area. Per IMNCI guidelines, what is the most appropriate initial management?",
+    "options": ["Administer oral antibiotics immediately", "Refer to a higher center without treatment", "Perform rapid diagnostic test for malaria and treat if positive", "Start antipyretics and observe for 48 hours"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "IMNCI / Malaria",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Antibiotics not indicated without bacterial diagnosis.",
+      "B": "Delayed treatment worsens outcomes; RDT available at peripheral levels.",
+      "C": "Rapid diagnostic test (RDT) / microscopy and species-specific ACT treatment per NVBDCP guidelines.",
+      "D": "Observation alone for 48 h in a febrile child risks severe malaria."
+    }
+  },
+  {
+    "id": "N9-111",
+    "question": "A newborn with neonatal diabetes mellitus type I (hyperglycemia, weight loss). What is the most appropriate initial treatment?",
+    "options": ["Oral hypoglycemic agents", "Insulin therapy", "Dietary management alone", "Observation without medication"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Neonatal DM",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Sulfonylureas may be used later in KATP channel neonatal DM, but not initial therapy.",
+      "B": "Neonatal DM is absolute insulin deficiency → insulin (often continuous infusion) is first-line.",
+      "C": "Dietary management is insufficient.",
+      "D": "Observation risks DKA and death."
+    }
+  },
+  {
+    "id": "N9-112",
+    "question": "A preterm newborn is evaluated for respiratory distress syndrome (RDS) using grunting, nasal flaring, retractions. Which scale is used?",
+    "options": ["Apgar score", "Silverman-Anderson score", "Ballard score", "Dubowitz score"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Respiratory scoring",
+    "day": 4,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Apgar assesses immediate post-birth transition.",
+      "B": "Silverman-Anderson scores 5 signs (chest movement, intercostal retraction, xiphoid retraction, nasal flaring, grunting); higher = worse RDS.",
+      "C": "Ballard assesses gestational age.",
+      "D": "Dubowitz also assesses gestational age."
+    }
+  },
+  {
+    "id": "N9-113",
+    "question": "A 3-year-old plays with clay, holding and manipulating it with fingers. Which fine motor skill is being demonstrated?",
+    "options": ["Scribbling with a crayon", "Building a tower of 6–8 blocks", "Using fingers to mold clay", "Copying a circle"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Developmental milestones",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Scribbling is an 18–24 month skill.",
+      "B": "Stacking 6–8 blocks appears at 24 months.",
+      "C": "Hand/finger molding of clay (pincer + palmar manipulation) is a characteristic 3-year skill.",
+      "D": "Copying a circle is a 3-year skill too, but not the behaviour in the stem."
+    }
+  },
+  {
+    "id": "N9-114",
+    "question": "A newborn with meningocele (sac on lower back, no infection/hemorrhage). What is the most likely finding in CSF analysis?",
+    "options": ["Elevated white blood cell count", "Normal CSF composition", "Increased red blood cell count", "Decreased glucose levels"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Neural tube defects",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Elevated WBC suggests meningitis.",
+      "B": "Uncomplicated meningocele has normal CSF — only meninges protrude; cord remains intact.",
+      "C": "Elevated RBC suggests hemorrhage.",
+      "D": "Low glucose suggests bacterial meningitis."
+    }
+  },
+  {
+    "id": "N9-115",
+    "question": "A newborn with myelomeningocele is being monitored. What is the most likely finding related to the anterior fontanelle if ICP is increased?",
+    "options": ["Sunken fontanelle", "Normal fontanelle", "Bulging fontanelle", "Closed fontanelle"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Raised ICP in neonates",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Sunken fontanelle indicates dehydration.",
+      "B": "Normal fontanelle rules out raised ICP.",
+      "C": "Increased CSF pressure → bulging, tense anterior fontanelle + split sutures + 'sunset' eyes.",
+      "D": "Anterior fontanelle closes by 18 months; early closure suggests craniosynostosis."
+    }
+  },
+  {
+    "id": "N9-116",
+    "question": "A 5-year-old with asthma is prescribed 2 puffs of Asthalin (salbutamol) every 6 hours. Which is the most important instruction?",
+    "options": ["Administer only during acute asthma attacks", "Use a spacer device for effective delivery", "Increase to 4 puffs if symptoms worsen", "Administer before meals only"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Pediatric inhaler technique",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Salbutamol can be regular reliever + rescue, not only PRN.",
+      "B": "In children <12 years, spacer is mandatory with MDI to improve lung deposition and reduce oropharyngeal side effects.",
+      "C": "Self-escalation is dangerous without medical advice.",
+      "D": "Salbutamol timing doesn't depend on meals."
+    }
+  },
+  {
+    "id": "N9-117",
+    "question": "A 14-day-old neonate has fast breathing, irritability, and poor feeding. What is the most appropriate initial action?",
+    "options": ["Administer oral antibiotics immediately", "Perform a complete clinical assessment and check for jaundice or signs of infection", "Start phototherapy without further evaluation", "Advise the mother to increase breastfeeding frequency"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Neonatal assessment",
+    "day": 4,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Empirical antibiotics without assessment is poor practice.",
+      "B": "Nursing process — complete assessment (vitals, jaundice, sepsis screen, feeding history) precedes any intervention per IMNCI.",
+      "C": "Phototherapy requires bilirubin confirmation.",
+      "D": "Breastfeeding advice is not the priority in a potentially septic neonate."
+    }
+  },
+  {
+    "id": "N9-118",
+    "question": "A 4-year-old on 50% high-flow oxygen. What is the most appropriate method to provide humidification?",
+    "options": ["Use a dry oxygen delivery system", "Provide intermittent humidification with a heated humidifier", "Administer saline nebulization every hour", "Use a cold mist humidifier continuously"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Humidified oxygen therapy",
+    "day": 7,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Dry high-flow O2 dries mucosa and impairs ciliary function.",
+      "B": "Heated humidification at body temp/100% humidity is the standard for high-flow O2 — prevents mucosal injury.",
+      "C": "Hourly nebulization is excessive and fluid-risky.",
+      "D": "Cold mist has less evaporation efficiency and bronchospasm risk."
+    }
+  },
+  {
+    "id": "N9-119",
+    "question": "A 3-day-old neonate with bilirubin 15 mg/dL starts phototherapy. With expected reduction 1–2 mg/dL every 4–6 h, what is the anticipated bilirubin level after 12 hours of effective phototherapy?",
+    "options": ["12-13 mg/dL", "9-12 mg/dL", "13-14 mg/dL", "10-11 mg/dL"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Phototherapy / Bilirubin",
+    "day": 4,
+    "qtype": "calc",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Only a 2–3 mg drop — too little for 12 hours of effective phototherapy.",
+      "B": "12 hours ≈ 2–3 dosing intervals × 1–2 mg drop/interval = 3–6 mg total drop → 15 − 3 to 6 = 9–12 mg/dL.",
+      "C": "Rise would be unexpected.",
+      "D": "Still too little drop; phototherapy is effective."
+    }
+  },
+  {
+    "id": "N9-120",
+    "question": "A preterm neonate in NICU is monitored for hypoxia. Which clinical manifestation is a LATE sign of hypoxia?",
+    "options": ["Tachypnea", "Nasal flaring", "Cyanosis", "Restlessness"],
+    "correct": 2,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Hypoxia signs",
+    "day": 4,
+    "qtype": "recall",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Tachypnea is early compensation.",
+      "B": "Nasal flaring is early respiratory distress.",
+      "C": "Central cyanosis is a late hypoxia sign — requires ≥5 g/dL of deoxygenated Hb.",
+      "D": "Restlessness is early behavioral change."
+    }
+  },
+  {
+    "id": "N9-121",
+    "question": "Discharge instructions for an infant with a jejunostomy at home — which is emphasized?",
+    "options": ["Administer high-calorie formula orally to promote weight gain", "Monitor the jejunostomy site daily for signs of infection or leakage", "Clean the jejunostomy tube with alcohol-based solution twice daily", "Restrict fluid intake to prevent excessive output from the jejunostomy"],
+    "correct": 1,
+    "section": "pediatric",
+    "subject": "Pediatric",
+    "topic": "Jejunostomy home care",
+    "day": 5,
+    "qtype": "scenario",
+    "year": 2025,
+    "source": "NORCET 9 Mains",
+    "explanations": {
+      "A": "Oral feeds are not the goal with jejunostomy; feeding is via the tube.",
+      "B": "Daily site inspection for redness, leakage, skin breakdown is the core home-care instruction; report promptly.",
+      "C": "Alcohol is too drying/irritating for stoma skin; mild soap and water are preferred.",
+      "D": "Fluid restriction risks dehydration; output is managed, not fluids restricted."
+    }
+  }
+]

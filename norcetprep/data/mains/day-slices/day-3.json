@@ -1,57 +1,8 @@
 [
   {
-    "id": 6,
-    "question": "First-line drug for severe pre-eclampsia / eclampsia prophylaxis:",
-    "options": [
-      "Hydralazine",
-      "Magnesium sulfate",
-      "Labetalol",
-      "Diazepam"
-    ],
-    "correct": 1,
-    "explanation": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
-    "explanations": {
-      "A": "BP control adjunct, not seizure prophylaxis.",
-      "B": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
-      "C": "Antihypertensive only, not seizure prevention.",
-      "D": "Older practice, now supplanted by MgSO4."
-    },
-    "subject": "OBG",
-    "topic": "Eclampsia",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 11,
-    "question": "MTP Act (2021 amendment) allows termination up to:",
-    "options": [
-      "12 weeks",
-      "20 weeks",
-      "24 weeks",
-      "28 weeks"
-    ],
-    "correct": 2,
-    "explanation": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
-    "explanations": {
-      "A": "Previous lower limit without conditions.",
-      "B": "Up to 20 wk with one RMP opinion.",
-      "C": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
-      "D": "Only beyond 24 wk with Medical Board approval for substantial fetal abnormalities."
-    },
-    "subject": "OBG",
-    "topic": "MTP Act",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 18,
-    "question": "Leopold's maneuver 1st step detects:",
+    "id": 3,
+    "_origId": "N8-3",
+    "question": "Leopold's 1st maneuver detects:",
     "options": [
       "Fetal lie",
       "Fundal content (breech/cephalic)",
@@ -59,12 +10,12 @@
       "Position"
     ],
     "correct": 1,
-    "explanation": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
+    "explanation": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
     "explanations": {
       "A": "Overall finding, but 1st step focuses on the fundus.",
-      "B": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
-      "C": "4th maneuver (Pawlik).",
-      "D": "3rd maneuver."
+      "B": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
+      "C": "Engagement is assessed in the 4th (Pawlik) maneuver.",
+      "D": "Position is determined in the 3rd maneuver."
     },
     "subject": "OBG",
     "topic": "Leopold",
@@ -72,10 +23,14 @@
     "difficulty": "Easy",
     "source": "NORCET 8 Mains",
     "year": 2025,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 22,
+    "id": 7,
+    "_origId": "N7-1",
     "question": "Episiotomy most commonly used in India:",
     "options": [
       "Mediolateral",
@@ -84,12 +39,12 @@
       "Lateral"
     ],
     "correct": 0,
-    "explanation": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
+    "explanation": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
     "explanations": {
-      "A": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
-      "B": "Preferred in the USA but not standard in India due to higher tear risk.",
-      "C": "Rarely used.",
-      "D": "Obsolete; abandoned due to high complications."
+      "A": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
+      "B": "Preferred in the USA but not standard in India due to higher severe-tear risk.",
+      "C": "J-shaped is rarely used.",
+      "D": "Lateral episiotomy is obsolete; abandoned due to complications."
     },
     "subject": "OBG",
     "topic": "Episiotomy",
@@ -97,11 +52,15 @@
     "difficulty": "Easy",
     "source": "NORCET 7 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 25,
-    "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 wk GA:",
+    "id": 10,
+    "_origId": "N6-1",
+    "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 weeks' gestation?",
     "options": [
       "≥130/80 mmHg",
       "≥140/90 mmHg",
@@ -109,12 +68,12 @@
       "≥160/110 mmHg"
     ],
     "correct": 1,
-    "explanation": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
+    "explanation": "BP ≥140/90 mmHg on two occasions ≥4 hours apart after 20 weeks + proteinuria or end-organ dysfunction = pre-eclampsia.",
     "explanations": {
-      "A": "Stage 1 hypertension cutoff, not pre-eclampsia.",
-      "B": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
+      "A": "This is the Stage 1 hypertension cutoff, not the pre-eclampsia threshold.",
+      "B": "BP ≥140/90 mmHg on two occasions ≥4 hours apart after 20 weeks + proteinuria or end-organ dysfunction = pre-eclampsia.",
       "C": "Not a standard cutoff.",
-      "D": "That level defines severe features, not the diagnosis itself."
+      "D": "≥160/110 defines pre-eclampsia with severe features, not the diagnosis itself."
     },
     "subject": "OBG",
     "topic": "Pre-eclampsia",
@@ -122,10 +81,14 @@
     "difficulty": "Medium",
     "source": "NORCET 6 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 28,
+    "id": 13,
+    "_origId": "N6-4",
     "question": "MgSO4 therapeutic serum level in eclampsia is:",
     "options": [
       "1–2 mEq/L",
@@ -134,12 +97,12 @@
       ">10 mEq/L"
     ],
     "correct": 1,
-    "explanation": "Therapeutic 4–7 mEq/L; 8–10 → loss of DTRs; >10 → respiratory depression.",
+    "explanation": "Therapeutic serum magnesium level = 4–7 mEq/L for eclampsia prophylaxis.",
     "explanations": {
       "A": "Subtherapeutic.",
-      "B": "Therapeutic 4–7 mEq/L; 8–10 → loss of DTRs; >10 → respiratory depression.",
-      "C": "Toxic range.",
-      "D": "Toxic; stop infusion, give Ca gluconate."
+      "B": "Therapeutic serum magnesium level = 4–7 mEq/L for eclampsia prophylaxis.",
+      "C": "8–10 mEq/L → loss of deep tendon reflexes (toxic).",
+      "D": ">10 mEq/L → respiratory depression; stop infusion and give calcium gluconate."
     },
     "subject": "OBG",
     "topic": "MgSO4",
@@ -147,10 +110,477 @@
     "difficulty": "High",
     "source": "NORCET 6 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 1114,
+    "id": 57,
+    "_origId": "N9-40",
+    "question": "A woman undergoing evaluation for infertility is advised a hysterosalpingogram. On which day of the menstrual cycle should the nurse schedule this procedure?",
+    "options": [
+      "Day 21",
+      "Day 14",
+      "Day 3",
+      "Day 8"
+    ],
+    "correct": 3,
+    "explanation": "HSG is ideally done in the proliferative phase, days 7–10 post-menses, before ovulation. Day 8 fits.",
+    "explanations": {
+      "A": "Day 21 is the luteal phase — risk of early pregnancy disruption.",
+      "B": "Day 14 is ovulation; radiation risk if conception has occurred.",
+      "C": "Day 3 is too early; menstruation may still be occurring.",
+      "D": "HSG is ideally done in the proliferative phase, days 7–10 post-menses, before ovulation. Day 8 fits."
+    },
+    "subject": "OBG",
+    "topic": "HSG / Infertility",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 58,
+    "_origId": "N9-41",
+    "question": "Identify the given instrument (atraumatic clamp with triangular fenestrated tips used on uterine angles).",
+    "options": [
+      "Green Armytage Forceps",
+      "Babcock Forceps",
+      "Allis Tissue Forceps",
+      "Kocher's Forceps"
+    ],
+    "correct": 0,
+    "explanation": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
+    "explanations": {
+      "A": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
+      "B": "Babcock has rounded atraumatic ring tips, used for delicate tissue like appendix.",
+      "C": "Allis has serrated teeth — grasping traumatic forceps.",
+      "D": "Kocher's has heavy serrations and 1×2 teeth — for tough pedicles."
+    },
+    "subject": "OBG",
+    "topic": "OT instruments",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "image",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 59,
+    "_origId": "N9-42",
+    "question": "Identify the given instrument (wide, scoop-shaped abdominal retractor).",
+    "options": [
+      "Doyen's Retractor",
+      "Deaver Retractor",
+      "Langenbeck Retractor",
+      "Morris Retractor"
+    ],
+    "correct": 1,
+    "explanation": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
+    "explanations": {
+      "A": "Doyen's is a curved bladder retractor used in LSCS.",
+      "B": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
+      "C": "Langenbeck is a small L-shaped retractor for superficial wounds.",
+      "D": "Morris is a curved retractor with a broader blade than Langenbeck but not Deaver-shape."
+    },
+    "subject": "OBG",
+    "topic": "OT instruments",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "image",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 60,
+    "_origId": "N9-43",
+    "question": "Identify the item shown in the image (fenestrated obstetric drape with V-shaped leg opening).",
+    "options": [
+      "Obstetric V-Drape",
+      "Episiotomy Pack",
+      "Perineal Sheet",
+      "Cesarean Section Drape"
+    ],
+    "correct": 0,
+    "explanation": "V-drape isolates the perineum for vaginal delivery; V-shaped cut-out at the leg opening.",
+    "explanations": {
+      "A": "V-drape isolates the perineum for vaginal delivery; V-shaped cut-out at the leg opening.",
+      "B": "Episiotomy packs hold instruments, not drapes.",
+      "C": "Perineal sheet is a smaller under-buttock drape.",
+      "D": "Cesarean drape has an abdominal fenestration, not a V leg opening."
+    },
+    "subject": "OBG",
+    "topic": "Obstetric supplies",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "image",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 61,
+    "_origId": "N9-44",
+    "question": "A cardiotocography tracing shows cord compression. Which fetal heart rate pattern is most expected?",
+    "options": [
+      "Variable decelerations",
+      "Late decelerations",
+      "Early decelerations",
+      "Hypoxia"
+    ],
+    "correct": 0,
+    "explanation": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
+    "explanations": {
+      "A": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
+      "B": "Late decels indicate uteroplacental insufficiency.",
+      "C": "Early decels mirror contractions; caused by fetal head compression.",
+      "D": "Hypoxia is an outcome, not a CTG pattern."
+    },
+    "subject": "OBG",
+    "topic": "CTG interpretation",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 62,
+    "_origId": "N9-45",
+    "question": "A patient develops uterine hyperstimulation after administration of prostaglandins for induction of labour. What is the most appropriate management?",
+    "options": [
+      "Calcium gluconate",
+      "Magnesium sulphate",
+      "Hydralazine",
+      "Terbutaline"
+    ],
+    "correct": 3,
+    "explanation": "Terbutaline (β-agonist) is the tocolytic of choice for uterine hyperstimulation.",
+    "explanations": {
+      "A": "Calcium gluconate reverses MgSO4 toxicity; not used for tachysystole.",
+      "B": "MgSO4 is for seizure prophylaxis in eclampsia, not tocolysis of PG-induced hyperstimulation.",
+      "C": "Hydralazine is an antihypertensive.",
+      "D": "Terbutaline (β-agonist) is the tocolytic of choice for uterine hyperstimulation."
+    },
+    "subject": "OBG",
+    "topic": "Uterine hyperstimulation",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 63,
+    "_origId": "N9-46",
+    "question": "A 28-year-old woman has a history of 3 consecutive first-trimester abortions, no structural uterine abnormality, normal blood sugars, and is positive for antiphospholipid antibody. What is the most likely diagnosis?",
+    "options": [
+      "Antiphospholipid syndrome",
+      "Recurrent pregnancy loss due to uterine anomaly",
+      "Gestational diabetes mellitus",
+      "Pre-eclampsia"
+    ],
+    "correct": 0,
+    "explanation": "APS diagnosis = ≥3 consecutive first-trimester losses + positive aPL antibody (lupus anticoagulant / anticardiolipin / β2-GPI) on two occasions 12 weeks apart.",
+    "explanations": {
+      "A": "APS diagnosis = ≥3 consecutive first-trimester losses + positive aPL antibody (lupus anticoagulant / anticardiolipin / β2-GPI) on two occasions 12 weeks apart.",
+      "B": "Ruled out — no structural anomaly.",
+      "C": "Ruled out — normal sugars.",
+      "D": "Pre-eclampsia is a late-pregnancy syndrome."
+    },
+    "subject": "OBG",
+    "topic": "Recurrent pregnancy loss",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 64,
+    "_origId": "N9-47",
+    "question": "Visual Inspection with Acetic Acid (VIA) is primarily used for the screening of which condition?",
+    "options": [
+      "Cervical cancer",
+      "Endometrial cancer",
+      "Ovarian cancer",
+      "Vaginal prolapse"
+    ],
+    "correct": 0,
+    "explanation": "VIA produces acetowhite areas on the cervix, highlighting cervical intraepithelial neoplasia — mass screening tool in India.",
+    "explanations": {
+      "A": "VIA produces acetowhite areas on the cervix, highlighting cervical intraepithelial neoplasia — mass screening tool in India.",
+      "B": "Endometrial cancer screening uses TVS + biopsy.",
+      "C": "Ovarian cancer screened with CA-125 + TVS.",
+      "D": "Prolapse is diagnosed clinically (POP-Q)."
+    },
+    "subject": "OBG",
+    "topic": "Cancer screening / VIA",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 65,
+    "_origId": "N9-48",
+    "question": "A patient develops postpartum hemorrhage at a Primary Health Centre. What is the first-line management?",
+    "options": [
+      "Start IV tranexamic acid immediately",
+      "Perform immediate hysterectomy",
+      "Administer uterotonic (Oxytocin)",
+      "Begin blood transfusion"
+    ],
+    "correct": 2,
+    "explanation": "Oxytocin IV/IM is first-line uterotonic; initiate massage + bimanual compression alongside.",
+    "explanations": {
+      "A": "TXA is adjunctive (within 3 h of PPH), given after uterotonics per WHO.",
+      "B": "Hysterectomy is the last resort, not first line.",
+      "C": "Oxytocin IV/IM is first-line uterotonic; initiate massage + bimanual compression alongside.",
+      "D": "Transfusion comes after initial resuscitation and uterotonics; often requires referral from PHC."
+    },
+    "subject": "OBG",
+    "topic": "PPH / AMTSL",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 66,
+    "_origId": "N9-49",
+    "question": "Which of the following is true about the biophysical profile in obstetrical assessment?",
+    "options": [
+      "Uses only fetal heart rate patterns",
+      "Includes fetal breathing, gross body movements, fetal tone, amniotic fluid volume, and NST",
+      "Solely based on ultrasound without fetal monitoring",
+      "Performed only during first trimester"
+    ],
+    "correct": 1,
+    "explanation": "Standard BPP has 5 components: fetal breathing, gross body movement, tone, amniotic fluid volume, and NST (2 points each, max 10).",
+    "explanations": {
+      "A": "NST is only one component; BPP is broader.",
+      "B": "Standard BPP has 5 components: fetal breathing, gross body movement, tone, amniotic fluid volume, and NST (2 points each, max 10).",
+      "C": "NST requires CTG, not just ultrasound.",
+      "D": "BPP is used in the third trimester to assess fetal well-being."
+    },
+    "subject": "OBG",
+    "topic": "BPP / Antenatal",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 67,
+    "_origId": "N9-50",
+    "question": "A patient is in labour. When does the second stage of labour start?",
+    "options": [
+      "At full cervical dilation (10 cm)",
+      "At 8 cm cervical dilation with strong expulsive contractions",
+      "At the onset of regular uterine contractions",
+      "At rupture of membranes"
+    ],
+    "correct": 0,
+    "explanation": "Second stage = full cervical dilatation (10 cm) to delivery of baby.",
+    "explanations": {
+      "A": "Second stage = full cervical dilatation (10 cm) to delivery of baby.",
+      "B": "8 cm is late first stage (transition).",
+      "C": "First stage starts with regular contractions + progressive dilatation.",
+      "D": "ROM is not the defining event of second stage."
+    },
+    "subject": "OBG",
+    "topic": "Stages of labour",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 68,
+    "_origId": "N9-51",
+    "question": "Which maneuver is specifically used for head delivery during labour?",
+    "options": [
+      "Ritgen maneuver",
+      "McRoberts maneuver",
+      "Pinard's maneuver",
+      "Woods screw maneuver"
+    ],
+    "correct": 0,
+    "explanation": "Ritgen maneuver — controlled delivery of fetal head to prevent perineal tear.",
+    "explanations": {
+      "A": "Ritgen maneuver — controlled delivery of fetal head to prevent perineal tear.",
+      "B": "McRoberts is for shoulder dystocia.",
+      "C": "Pinard's maneuver is used to deliver a breech (frank breech with extended legs).",
+      "D": "Woods screw is a shoulder-dystocia rotational maneuver."
+    },
+    "subject": "OBG",
+    "topic": "Labour maneuvers",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 69,
+    "_origId": "N9-52",
+    "question": "In a partograph, which line indicates abnormal labour progress?",
+    "options": [
+      "Alert line",
+      "Action line",
+      "Slow progress",
+      "No descent"
+    ],
+    "correct": 0,
+    "explanation": "Crossing the alert line (cervicograph drifts rightward) is the earliest warning of labour dystocia — mandates review.",
+    "explanations": {
+      "A": "Crossing the alert line (cervicograph drifts rightward) is the earliest warning of labour dystocia — mandates review.",
+      "B": "Action line crossing demands active intervention/transfer, but the alert line is the first abnormal signal.",
+      "C": "Not a labelled partograph line.",
+      "D": "Not a labelled partograph line."
+    },
+    "subject": "OBG",
+    "topic": "Partograph",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 70,
+    "_origId": "N9-53",
+    "question": "A patient in labour has cervical dilatation of 6 cm with contractions every 5 minutes. What is the appropriate nursing action?",
+    "options": [
+      "Immediate augmentation",
+      "Monitor contractions and FHR",
+      "Prepare for delivery",
+      "Administer oxytocin"
+    ],
+    "correct": 1,
+    "explanation": "Appropriate action is continuous monitoring of contractions and FHR per standard intrapartum care.",
+    "explanations": {
+      "A": "Augmentation is indicated only if inadequate contractions persist; 6 cm with q5 min contractions is normal active labour.",
+      "B": "Appropriate action is continuous monitoring of contractions and FHR per standard intrapartum care.",
+      "C": "Delivery prep is for full dilatation (10 cm) and active pushing.",
+      "D": "Oxytocin is not needed with adequate progress."
+    },
+    "subject": "OBG",
+    "topic": "Active labour monitoring",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 71,
+    "_origId": "N9-54",
+    "question": "Identify the pattern shown in the CTG strip (FHR drop begins with contraction, nadir at peak, returns to baseline by end).",
+    "options": [
+      "Early deceleration",
+      "Fetal tachycardia",
+      "Fetal bradycardia",
+      "Late deceleration"
+    ],
+    "correct": 0,
+    "explanation": "Early deceleration mirrors the contraction (head compression) and is benign.",
+    "explanations": {
+      "A": "Early deceleration mirrors the contraction (head compression) and is benign.",
+      "B": "Tachycardia is sustained baseline >160 bpm.",
+      "C": "Bradycardia is sustained baseline <110 bpm.",
+      "D": "Late deceleration nadir occurs AFTER the contraction peak (uteroplacental insufficiency) — pathological."
+    },
+    "subject": "OBG",
+    "topic": "CTG interpretation",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "image",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 96,
+    "_origId": "N9-79",
+    "question": "A 28-year-old develops PPH after delivery and is referred from PHC. Which medication should the nurse prioritize?",
+    "options": [
+      "Misoprostol",
+      "Oxytocin",
+      "Tranexamic acid",
+      "Ergometrine"
+    ],
+    "correct": 1,
+    "explanation": "IV Oxytocin is the first-line uterotonic for PPH (part of AMTSL).",
+    "explanations": {
+      "A": "Misoprostol is a backup in settings without oxytocin availability.",
+      "B": "IV Oxytocin is the first-line uterotonic for PPH (part of AMTSL).",
+      "C": "TXA is adjunct within 3 hours of PPH; not first-line uterotonic.",
+      "D": "Ergometrine is second-line; contraindicated in hypertension."
+    },
+    "subject": "Community Health",
+    "topic": "PPH management",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "community-health",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1220,
     "question": "Hysterosalpingogram (HSG) primarily uses which type of radiation imaging?",
     "options": [
       "MRI",
@@ -175,7 +605,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1128,
+    "id": 1234,
     "question": "MTP Act (as commonly tested) allows termination up to:",
     "options": [
       "12 weeks only",
@@ -200,7 +630,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1129,
+    "id": 1235,
     "question": "Spinal anesthesia monitoring should especially watch for:",
     "options": [
       "Hypertension only",
@@ -225,7 +655,7 @@
     "qtype": "factual"
   },
   {
-    "id": 294,
+    "id": 400,
     "syllabusId": "gyn-1-vaginitis",
     "question": "25-y-old with frothy yellow-green discharge, strawberry cervix on speculum.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -257,7 +687,7 @@
     ]
   },
   {
-    "id": 295,
+    "id": 401,
     "syllabusId": "gyn-2-pelvic-inflammatory-disease-pid",
     "question": "22-y-old with lower abdominal pain, fever 38.5, purulent cervical discharge, cervical motion tenderness.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -289,7 +719,7 @@
     ]
   },
   {
-    "id": 296,
+    "id": 402,
     "syllabusId": "gyn-3-syndromic-management-of-pid-and-vaginitis",
     "question": "PHC: 24-y-old with lower abdominal pain and discharge.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -321,7 +751,7 @@
     ]
   },
   {
-    "id": 297,
+    "id": 403,
     "syllabusId": "gyn-4-emergency-contraceptives",
     "question": "20-y-old student 18 h after unprotected sex.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -353,7 +783,7 @@
     ]
   },
   {
-    "id": 298,
+    "id": 404,
     "syllabusId": "gyn-5-intrauterine-device-cu-t",
     "question": "P2 wants long-term reversible contraception.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -385,7 +815,7 @@
     ]
   },
   {
-    "id": 299,
+    "id": 405,
     "syllabusId": "gyn-6-ocp-mala-d-mala-n-absolute-contraindications",
     "question": "32-y-old smoker requests OCP.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -417,7 +847,7 @@
     ]
   },
   {
-    "id": 300,
+    "id": 406,
     "syllabusId": "gyn-7-pap-smear",
     "question": "35-y-old for routine screening.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -437,458 +867,6 @@
     "subject": "OBG",
     "topic": "Pap smear",
     "section": "gyn",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 301,
-    "syllabusId": "gyn-8-vasectomy-and-tubectomy",
-    "question": "40-y-old P3 husband consents for sterilization.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
-      "Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
-      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
-      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent. Vasectomy: bilateral vas deferens ligation under LA, 15-30 min; back-up method x3 months until azoospermia confirmed.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Vasectomy and tubectomy",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 302,
-    "syllabusId": "gyn-9-hpv-and-vaccine",
-    "question": "Mother of 12-y-old daughter asks about HPV vaccine.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
-      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
-      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
-      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd (Vaccination does not replace screening.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd. Oncogenic types: 16, 18 (70%); low-risk: 6, 11 (warts).",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "HPV and vaccine",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 303,
-    "syllabusId": "gyn-10-ovarian-tumors-and-tumor-markers",
-    "question": "55-y-old with pelvic mass and CA-125 500.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
-      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
-      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
-      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy. Epithelial (most common): serous, mucinous — CA-125.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Ovarian tumors and tumor markers",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 304,
-    "syllabusId": "gyn-11-semen-analysis",
-    "question": "Couple with 2 y infertility.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
-      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
-      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
-      "Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h (Azoospermia: zero sperm on 2 separate samples.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h. Volume >=1.4 mL, pH >=7.2, count >=16 million/mL."
-    },
-    "subject": "OBG",
-    "topic": "Semen analysis",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 305,
-    "syllabusId": "midwifery-pph",
-    "question": "A G3P3 woman 15 minutes after vaginal delivery has soaked two pads. The fundus is boggy at the umbilicus, BP 90/60, HR 118. Which nursing action is the FIRST priority?",
-    "options": [
-      "Start a second IV line with 18G cannula and draw blood for cross-match",
-      "Perform bimanual uterine massage while administering oxytocin 10 IU IM",
-      "Position the patient in Trendelenburg and apply oxygen 6 L by mask",
-      "Notify the obstetrician for emergency exploration in theatre"
-    ],
-    "correct": 1,
-    "explanation": "WHO LCG 2020 + FIGO 2022: active management — oxytocin + massage FIRST, then escalate through the uterotonic ladder (carboprost / misoprostol / tranexamic acid).",
-    "explanations": {
-      "A": "IV access and blood products are critical but only after uterine tone is addressed — atonic uterus loses blood faster than resuscitation can replace it.",
-      "B": "Tone is the commonest (70–80%) PPH cause. Immediate fundal massage plus oxytocin 10 IU IM per AMTSL is the first-line nursing intervention.",
-      "C": "Positioning is supportive; it does not stop haemorrhage. Trendelenburg is no longer recommended — it worsens venous return.",
-      "D": "Escalation follows ongoing atony despite uterotonics + mechanical measures; it is not the first action."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Hemorrhage (PPH)",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "pph",
-      "must"
-    ]
-  },
-  {
-    "id": 306,
-    "syllabusId": "midwifery-pph",
-    "question": "Atonic PPH persists despite oxytocin. The obstetrician orders carboprost 250 mcg IM. Which comorbidity would make the nurse hold the drug and verify the order?",
-    "options": [
-      "Gestational diabetes well-controlled on diet",
-      "Severe bronchial asthma on inhaled steroids",
-      "Iron-deficiency anaemia (Hb 9.4 g/dL)",
-      "Prior myomectomy four years earlier"
-    ],
-    "correct": 1,
-    "explanation": "Carboprost bronchospasm risk is classic — asthma is the only absolute contraindication the nurse must catch at bedside.",
-    "explanations": {
-      "A": "Diabetes does not contraindicate carboprost.",
-      "B": "Carboprost (15-methyl PGF2α) is contraindicated in asthma — causes bronchoconstriction. Alternative: misoprostol 800 mcg sublingual.",
-      "C": "Anaemia is a reason to give blood, not withhold uterotonics.",
-      "D": "Prior uterine surgery is not a carboprost contraindication per se."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Hemorrhage (PPH)",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "pph",
-      "must"
-    ]
-  },
-  {
-    "id": 307,
-    "syllabusId": "midwifery-pph",
-    "question": "The obstetrician orders an oxytocin infusion: 40 IU in 500 mL NS at 125 mL/hr. How many IU of oxytocin does the patient receive per minute?",
-    "options": [
-      "0.17 IU/min",
-      "0.34 IU/min",
-      "0.67 IU/min",
-      "1.33 IU/min"
-    ],
-    "correct": 0,
-    "explanation": "Oxytocin post-placental infusion typically targets 0.1–0.2 IU/min. Nurses must be able to derive this at bedside.",
-    "explanations": {
-      "A": "Concentration 40 IU / 500 mL = 0.08 IU/mL. Rate 125 mL/hr = ~2.08 mL/min → 0.08 × 2.08 ≈ 0.17 IU/min.",
-      "B": "Twice the correct value — re-check concentration × rate.",
-      "C": "Four times the correct — arithmetic slip.",
-      "D": "Far above therapeutic — would cause tetanic contraction."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Hemorrhage (PPH)",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "calculation",
-    "tags": [
-      "calc",
-      "highyield",
-      "pph"
-    ]
-  },
-  {
-    "id": 308,
-    "syllabusId": "midwifery-lochia",
-    "question": "A postpartum woman on Day 10 reports lochia that is bright red and heavier than yesterday, passing a small clot. Her fundus is 2 fingerbreadths above the symphysis. The nurse's MOST appropriate action is:",
-    "options": [
-      "Reassure her that bright-red lochia until day 14 is normal",
-      "Call the obstetrician — this pattern suggests subinvolution / retained products",
-      "Increase oral fluids and reassess in four hours",
-      "Encourage ambulation to accelerate involution"
-    ],
-    "correct": 1,
-    "explanation": "Lochia timeline: rubra 1–3 d → serosa 4–10 d → alba 10 d–6 wk. Reversion or persistent rubra warrants escalation.",
-    "explanations": {
-      "A": "By Day 10 lochia should be serosa (pinkish) transitioning to alba. Reverting to rubra is abnormal.",
-      "B": "Bright-red lochia after Day 4–5 + poorly involuted uterus = red flag for subinvolution, retained placental fragments, or late PPH. Escalate.",
-      "C": "Delay risks ongoing blood loss; not appropriate.",
-      "D": "Ambulation is generally advised but does NOT address the underlying pathology."
-    },
-    "subject": "OBG",
-    "topic": "Lochia",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "lochia",
-      "must"
-    ]
-  },
-  {
-    "id": 309,
-    "syllabusId": "midwifery-lochia",
-    "question": "Lochia alba is characterised by:",
-    "options": [
-      "Bright-red vaginal discharge with clots, days 1–3",
-      "Pink to brown serosanguinous discharge, days 4–10",
-      "Whitish-yellow leucocyte-rich discharge, day 10 to 6 weeks",
-      "Offensive purulent discharge at any time"
-    ],
-    "correct": 2,
-    "explanation": "The three-stage classification (rubra / serosa / alba) is NORCET-level high-yield.",
-    "explanations": {
-      "A": "That is lochia rubra.",
-      "B": "That is lochia serosa.",
-      "C": "Lochia alba — day 10 onwards, composed of leucocytes, mucus, and epithelial cells.",
-      "D": "Offensive / purulent discharge suggests endometritis — pathological, not a physiological lochia phase."
-    },
-    "subject": "OBG",
-    "topic": "Lochia",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "factual",
-    "tags": [
-      "highyield",
-      "lochia",
-      "must"
-    ]
-  },
-  {
-    "id": 310,
-    "syllabusId": "midwifery-lochia",
-    "question": "On postpartum Day 2 a mother reports offensive, greenish lochia with low-grade fever (38.1 °C) and uterine tenderness. The nurse suspects:",
-    "options": [
-      "Normal lochia rubra — reassure and document",
-      "Puerperal endometritis — obtain cultures and notify obstetrician",
-      "Urinary tract infection — send urine culture only",
-      "Breast engorgement — apply cold compress"
-    ],
-    "correct": 1,
-    "explanation": "Infection is the other major PP red flag — offensive lochia + fever = endometritis until proven otherwise.",
-    "explanations": {
-      "A": "Offensive odour + fever is never normal for lochia.",
-      "B": "Classical triad of puerperal endometritis: foul lochia + fever + uterine tenderness. Culture, IV antibiotics (clindamycin + gentamicin).",
-      "C": "UTI would typically have dysuria/frequency and clearer lochia.",
-      "D": "Engorgement causes breast pain, not uterine tenderness / offensive lochia."
-    },
-    "subject": "OBG",
-    "topic": "Lochia",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "lochia"
-    ]
-  },
-  {
-    "id": 311,
-    "syllabusId": "midwifery-pph",
-    "question": "A shock index of 1.2 is calculated in a woman with ongoing PPH. The nurse recognises this as:",
-    "options": [
-      "Normal — no additional intervention required",
-      "Early warning — increase crystalloid infusion only",
-      "Trigger for massive transfusion protocol activation",
-      "Consistent with vasovagal response — reposition only"
-    ],
-    "correct": 2,
-    "explanation": "Shock index is the NORCET Mains go-to bedside metric for haemorrhagic shock triage.",
-    "explanations": {
-      "A": "Normal SI is < 0.9.",
-      "B": "Crystalloids alone cannot replace lost oxygen-carrying capacity.",
-      "C": "Shock Index ≥ 1.0 (HR/SBP) in obstetric haemorrhage activates massive transfusion (RCOG 2016). SI ≥ 1.2 is specifically associated with transfusion need.",
-      "D": "Vasovagal causes bradycardia, not tachycardia/hypotension."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Hemorrhage (PPH)",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "pph",
-      "must"
-    ]
-  },
-  {
-    "id": 312,
-    "syllabusId": "midwifery-pph",
-    "question": "Despite oxytocin + carboprost the uterus remains atonic 30 minutes postpartum. The surgical escalation ladder the nurse anticipates is:",
-    "options": [
-      "Hysterectomy first, then bilateral uterine artery ligation",
-      "Bimanual compression → balloon tamponade → B-Lynch suture → stepwise uterine artery ligation → hysterectomy",
-      "Immediate caesarean hysterectomy",
-      "Cervical cerclage before any surgical intervention"
-    ],
-    "correct": 1,
-    "explanation": "NORCET loves this ladder — memorise the stepwise escalation before hysterectomy.",
-    "explanations": {
-      "A": "Hysterectomy is last-line after uterus-conserving measures fail.",
-      "B": "WHO / FIGO: bimanual compression → intrauterine balloon (Bakri) → compression sutures (B-Lynch) → uterine / internal iliac ligation → hysterectomy as final step.",
-      "C": "Bypasses uterus-conserving measures; reserved for failed escalation or life-threatening bleeding.",
-      "D": "Cerclage is for incompetent cervix in pregnancy, not for PPH."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Hemorrhage (PPH)",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield · Lochia+PPH pack",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "pph"
-    ]
-  },
-  {
-    "id": 507,
-    "syllabusId": "midwifery-1-obstetric-score-gpal-tpal",
-    "question": "A multipara comes for booking visit stating: \"2 live births at term, 1 preterm stillborn at 32 wk, 1 miscarriage at 10 wk; current pregnancy 12 wk.\"\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
-      "Document as active phase stage 1; continuous FHR monitoring, encourage position changes, oral fluids, partogram",
-      "Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only)",
-      "Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only) (G5 P3+2 L3 means 5 pregnancies, 3 viable deliveries, 2 abortions, 3 living children.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only). Gravida = total pregnancies including current.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Obstetric score (GPAL/TPAL)",
-    "section": "midwifery",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 508,
-    "syllabusId": "midwifery-2-calculation-of-edd-naegele-rule",
-    "question": "Primigravida with regular 28-d cycles reports LMP on 10 Jan 2026.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
-      "Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother",
-      "EDD = 17 Oct 2026 (add 9 months + 7 days)",
-      "Admit, start MgSO4 loading 4 g IV over 20 min, labetalol IV for BP, urinary catheter, DTR q1h, deep tendon reflexes, plan delivery"
-    ],
-    "correct": 2,
-    "explanation": "Priority: EDD = 17 Oct 2026 (add 9 months + 7 days) (LMP 1 May 2025 → EDD 8 Feb 2026.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: EDD = 17 Oct 2026 (add 9 months + 7 days). Add 7 days and 9 months (or subtract 3 months and add 7 days plus a year) to LMP.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Calculation of EDD (Naegele rule)",
-    "section": "midwifery",
     "day": 3,
     "difficulty": "High",
     "source": "NORCET High-Yield Generator v1",

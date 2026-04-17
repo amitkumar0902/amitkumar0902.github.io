@@ -303,3 +303,101 @@ exam pattern.
 - Bumped to `norcet-mains-v3-blueprint` to invalidate old PWA installs.
 - Added: `mock-blueprint.json`, `hy-lochia.json`, `hy-pph.json`,
   `lochia-types.svg`, `pph-4ts.svg`.
+
+---
+
+## 2026-04-17 — NORCET 9 Mains 2025 import + Topper frequency integration
+
+### New source files (tracked in `norcetprep/imp/`)
+
+- `imp/NORCET- 9 MAINS.pdf` — official NORCET 9 Mains 2025 paper,
+  121 MCQs with per-option explanations (extracted verbatim).
+- `imp/WhatsApp Image 2026-04-17 at 09.42.28.jpeg` (+2 continuation
+  images) — AIIMS toppers' community topic-wise frequency analysis
+  covering NORCET 1.0 → 9.0 (Prelims + Mains sittings).
+
+### Data additions
+
+- `data/mains/pyqs/norcet-9-mains-2025.json` — 121 questions, each with
+  `section`, `subject`, `topic`, `qtype`, `year=2025`,
+  `source="NORCET 9 Mains"`, and a 1:4 `explanations` object keyed A–D.
+- `data/mains/pyqs/norcet-6-7-8-recalls.json` — migration of the 17
+  legacy recall rows previously inlined in `build-mains-bank.mjs` into
+  the same verbose schema (de-duplicated against the PDF via
+  Jaccard ≥ 0.8 on stem tokens — no duplicates found).
+- `data/mains/frequency-analysis.json` — 57 topper rows with
+  `keywords[]`, `appearances[]`, and a `frequency` score, plus a
+  `_meta.criticalThreshold = 8` marker.
+
+### Syllabus enrichment
+
+- New `scripts/enrich-syllabus-frequency.mjs`:
+  - Matches topper rows to `syllabus.json` topics using two tiers —
+    **strong** (literal keyword substring → score 1.0) and **loose**
+    (Jaccard token overlap ≥ 0.6, reported but not applied).
+  - Only strong matches contribute `frequencyScore` + `appearances[]`
+    to a syllabus entry.
+  - Promotes any syllabus entry with `frequencyScore >= 8` from
+    `must/should/nice` → new **`critical`** priority tier.
+  - Writes `_audit/frequency-coverage.md` + `frequency-coverage.json`
+    with `matchedTopicsByRow` (used by the new Topper page).
+
+### Builder refactor
+
+- `scripts/build-mains-bank.mjs` no longer carries an inline `PYQS`
+  array. It now globs every `.json` under `data/mains/pyqs/` and maps
+  rows through a shared shape.
+- Legacy rows (if any re-appear) are de-duplicated against the
+  PDF-derived NORCET-9 rows using `jaccard ≥ 0.8` on stem tokens.
+- New output: `data/mains/mocks/mock-norcet9-mains.json` — verbatim
+  121-question replay of the official paper, preserving order and
+  question types (no filler, no shuffle). Listed in
+  `mocks/index.json` with `verbatim: true`.
+
+### Audits
+
+- `scripts/audit-highyield.mjs` now validates:
+  - every topper row has ≥ 1 **strong** syllabus match
+    (`frequency.matchedRows === frequency.rows`, 57/57 on this run),
+  - every `priority === 'critical'` entry has ≥ 1 question,
+  - the critical tier holds ≥ 0.70 scenario ratio
+    (current: **1.0** across 219 entries),
+  - every expected source (`NORCET 6/7/8/9 Mains`) is present in the
+    bank, and NORCET 9 hits **121** questions.
+- `_audit/mock-coverage.md` now includes a per-source table
+  (excluding the verbatim NORCET-9 replay row so the metric measures
+  blend coverage, not self-inclusion).
+- Current issue count across both audits: **0**.
+
+### UI
+
+- `mains-plan/syllabus.html` — new `critical` filter + "Sort: Critical
+  first" / "Most frequent" options. Rows render a 🔥 frequency badge
+  (with appearances tooltip) when `frequencyScore > 0`.
+- `mains-plan/notes/index.html` — merges `frequencyScore` +
+  promoted `priority` from the syllabus at load-time so cards show
+  the critical badge and the ordering controls match syllabus.
+- `mains-plan/pyqs.html` — adds a "verbatim NORCET-9 replay
+  available in-app" callout and a Topper analysis link.
+- `mains-plan/toppers.html` (new) — searchable/filterable table of
+  all 57 topper rows, ranked by frequency, with per-row links into the
+  matched syllabus entry's notes + MCQs.
+- `mains-plan/index.html` — added a "Topper" tile to the
+  High-Yield section.
+
+### Service-worker cache
+
+- Bumped to `norcet-mains-v4-norcet9` to invalidate PWA installs.
+- Precache now also carries:
+  `frequency-analysis.json`, `mocks/mock-norcet9-mains.json`,
+  `pyqs/norcet-9-mains-2025.json`, `pyqs/norcet-6-7-8-recalls.json`,
+  `mains-plan/toppers.html`.
+
+### Bank totals after this pass
+
+- Question bank total: **1 303** items (+106 from PDF-net-of-dedupe).
+- PYQs in bank: **138** (121 NORCET-9 + 6 NORCET-8 + 3 NORCET-7 +
+  8 NORCET-6).
+- Critical-tier syllabus entries: **219** / 610.
+- All 10 mocks + PYQ mock stay at 160 questions each; the new
+  `mock-norcet9-mains` mock is exactly **121**.

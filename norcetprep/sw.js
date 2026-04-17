@@ -1,5 +1,5 @@
 // NORCET Mains service worker — network-first for HTML, stale-while-revalidate for JSON/CSS/JS
-const CACHE = 'norcet-mains-v3-blueprint';
+const CACHE = 'norcet-mains-v4-norcet9';
 const PRECACHE = [
   './',
   './index.html',
@@ -15,8 +15,12 @@ const PRECACHE = [
   './data/mains/videos.json',
   './data/mains/drill-drug-calc.json',
   './data/mains/stats.json',
+  './data/mains/frequency-analysis.json',
   './data/mains/mocks/index.json',
   './data/mains/mocks/mock-pyq.json',
+  './data/mains/mocks/mock-norcet9-mains.json',
+  './data/mains/pyqs/norcet-9-mains-2025.json',
+  './data/mains/pyqs/norcet-6-7-8-recalls.json',
   './data/mains/mock-blueprint.json',
   './data/mains/flashcards/hy-lochia.json',
   './data/mains/flashcards/hy-pph.json',
@@ -42,6 +46,7 @@ const PRECACHE = [
   './mains-plan/settings.html',
   './mains-plan/pyqs.html',
   './mains-plan/syllabus.html',
+  './mains-plan/toppers.html',
   './mains-plan/watch.html',
   './mains-plan/notes/index.html'
 ];

@@ -27,9 +27,17 @@
       display: inline-block; padding: 0.12rem 0.4rem; border-radius: 3px;
       font-weight: 600; text-transform: uppercase; font-size: 0.7rem;
     }
+    .p-critical { background: linear-gradient(135deg, #ff3b30, #ff9500); color: #fff; }
     .p-must { background: #c23a3a; color: #fff; }
     .p-should { background: #4a7; color: #fff; }
     .p-nice { background: #555; color: #eee; }
+    .freq-badge {
+      display: inline-flex; align-items: center; gap: 0.2rem;
+      font-size: 0.7rem; padding: 0.1rem 0.45rem; border-radius: 10px;
+      background: rgba(255,149,0,0.15); color: #ffb040; font-weight: 600;
+      border: 1px solid rgba(255,149,0,0.3); margin-left: 0.3rem;
+    }
+    .freq-badge.critical { background: rgba(255,59,48,0.2); color: #ff6b60; border-color: rgba(255,59,48,0.45); }
     .note-card .def { font-size: 0.95rem; margin: 0.35rem 0 0.5rem; }
     .note-card ul { font-size: 0.87rem; margin: 0.25rem 0 0.5rem 1.25rem; padding: 0; }
     .note-card ul li { margin: 0.15rem 0; }
@@ -96,28 +104,55 @@
       }
 
       const notes = await fetch('../../data/mains/notes/' + section + '.json').then(r => r.json());
+      // Merge in frequency + promoted priority from the enriched syllabus.
+      const syllabus = await fetch('../../data/mains/syllabus.json').then(r => r.json()).catch(() => []);
+      const syllabusById = {};
+      for (const s of syllabus) syllabusById[s.id] = s;
+      for (const n of notes) {
+        const s = syllabusById[n.id];
+        if (s) {
+          n.frequencyScore = s.frequencyScore || 0;
+          n.appearances = s.appearances || [];
+          if (s.priority === 'critical') n.priority = 'critical';
+        }
+      }
       const title = SECTIONS.find(s => s.id === section)?.label || section;
       document.getElementById('section-title').textContent = title + ' · Notes';
       document.title = title + ' Notes · NORCET Mains 2026';
 
       const container = document.getElementById('notes-list');
       let search = '';
-      let priorityFilter = { must: true, should: true, nice: true };
+      let priorityFilter = { critical: true, must: true, should: true, nice: true };
+      let sortMode = NM.get('notesSort', 'default');
+
+      function sortFn(a, b) {
+        if (sortMode === 'critical-first') {
+          const rank = p => (p === 'critical' ? 0 : p === 'must' ? 1 : p === 'should' ? 2 : 3);
+          const ra = rank(a.priority), rb = rank(b.priority);
+          if (ra !== rb) return ra - rb;
+          return (b.frequencyScore || 0) - (a.frequencyScore || 0);
+        }
+        if (sortMode === 'frequency') return (b.frequencyScore || 0) - (a.frequencyScore || 0);
+        return 0;
+      }
 
       function render() {
         container.innerHTML = '';
         const filtered = notes.filter(n =>
           priorityFilter[n.priority] &&
           (!search || ((n.topic + ' ' + n.definition + ' ' + (n.keyPoints || []).join(' ')).toLowerCase().includes(search)))
-        );
+        ).sort(sortFn);
         for (const n of filtered) {
           const card = document.createElement('article');
           card.className = 'note-card';
           card.id = n.id;
           const eps = videoByTopic[n.id] || [];
           const videoBtns = eps.map(ep => `<a class="video" href="../watch.html?v=${ep.videoId}">▶ Ep ${ep.episode}</a>`).join(' ');
+          const freqBadge = n.frequencyScore
+            ? `<span class="freq-badge ${n.priority === 'critical' ? 'critical' : ''}" title="Appeared in ${n.frequencyScore} NORCET papers: ${(n.appearances || []).join(', ')}">🔥 ×${n.frequencyScore}</span>`
+            : '';
           card.innerHTML = `
-            <h3>${n.title || n.topic}</h3>
+            <h3>${n.title || n.topic}${freqBadge}</h3>
             <div class="note-meta">
               <span class="p-badge p-${n.priority}">${n.priority}</span>
               · Day ${n.day}
@@ -146,6 +181,15 @@
         priorityFilter[e.target.value] = e.target.checked;
         render();
       }));
+      const sortEl = document.getElementById('sort');
+      if (sortEl) {
+        sortEl.value = sortMode;
+        sortEl.addEventListener('change', (e) => {
+          sortMode = e.target.value;
+          NM.set('notesSort', sortMode);
+          render();
+        });
+      }
       render();
 
       // Scroll to hash if present
@@ -168,9 +212,15 @@
 
   <div class="filter-row">
     <input id="search" type="search" placeholder="Search within section..." autocomplete="off">
+    <label><input type="checkbox" class="priority-filter" value="critical" checked> <span class="p-badge p-critical">critical</span></label>
     <label><input type="checkbox" class="priority-filter" value="must" checked> must</label>
     <label><input type="checkbox" class="priority-filter" value="should" checked> should</label>
     <label><input type="checkbox" class="priority-filter" value="nice" checked> nice</label>
+    <select id="sort" style="padding:0.35rem 0.5rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);color:inherit;border-radius:4px;">
+      <option value="default">Section order</option>
+      <option value="critical-first">Critical first</option>
+      <option value="frequency">Most frequent</option>
+    </select>
   </div>
 
   <div id="notes-list"></div>

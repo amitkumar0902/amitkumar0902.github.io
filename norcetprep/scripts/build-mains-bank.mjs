@@ -216,67 +216,113 @@ function loadHighYieldTopics() {
   return out;
 }
 
-// ---------- Curated NORCET Mains PYQ set (recall-based, high yield) ----------
-// These are memory-based / publicly compiled recalls from NORCET 6-9 Mains 2024-2025.
+// ---------- Curated NORCET Mains PYQ set — loaded from data/mains/pyqs/*.json ----------
+// Single-source-of-truth: each JSON file under data/mains/pyqs/ contributes rows.
+// The NORCET-9 Mains 2025 file (121 Qs, verbatim from the official PDF) is the
+// canonical source; when an older recall stub collides with a PDF question
+// by stem similarity (Jaccard token overlap ≥ 0.8), the PDF version wins.
+const PYQ_DIR = path.join(OUT, 'pyqs');
+function tokensOf(s) {
+  return new Set(
+    String(s || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9+]+/g, ' ')
+      .split(' ')
+      .filter(t => t.length >= 3)
+  );
+}
+function jaccard(aSet, bSet) {
+  if (!aSet.size || !bSet.size) return 0;
+  let inter = 0;
+  for (const t of aSet) if (bSet.has(t)) inter++;
+  return inter / (aSet.size + bSet.size - inter);
+}
+function loadAllPyqFiles() {
+  if (!fs.existsSync(PYQ_DIR)) return [];
+  const out = [];
+  for (const f of fs.readdirSync(PYQ_DIR).sort()) {
+    if (!f.endsWith('.json')) continue;
+    const arr = JSON.parse(fs.readFileSync(path.join(PYQ_DIR, f), 'utf8'));
+    if (!Array.isArray(arr)) continue;
+    for (const q of arr) {
+      if (!q || !q.options || q.options.length !== 4 || typeof q.correct !== 'number') continue;
+      out.push({ ...q, _sourceFile: f });
+    }
+  }
+  return out;
+}
+// Retained for legacy compatibility; no inline rows anymore.
 const PYQS = [
-  // NORCET 9 — Sep 27, 2025 — recall
-  { q: 'The Parkland formula for fluid resuscitation in burns is:', o: ['2 mL × kg × %TBSA','3 mL × kg × %TBSA','4 mL × kg × %TBSA','5 mL × kg × %TBSA'], c: 2, subj: 'Medical-Surgical', topic: 'Burns', day: 1, diff: 'High', e: { A: '2 mL×kg×%TBSA is the Modified Brooke formula, not Parkland.', B: '3 mL×kg×%TBSA is seen in pediatric modifications (Galveston) — not Parkland.', C: 'Parkland = 4 mL × kg × %TBSA, lactated Ringer\'s over 24 h; half in first 8 h.', D: 'Exceeds standard resuscitation volume and risks over-resuscitation.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Most common electrolyte abnormality in chronic kidney disease is:', o: ['Hypokalemia','Hyperkalemia','Hyponatremia','Hypercalcemia'], c: 1, subj: 'Medical-Surgical', topic: 'Renal', day: 5, diff: 'Medium', e: { A: 'Hypokalemia is seen in loop diuretic over-use, not typical of CKD.', B: 'CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.', C: 'Hyponatremia can occur but not the hallmark finding.', D: 'Hypercalcemia is atypical; CKD typically causes hypocalcemia.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'In BLS (AHA 2020), the correct sequence for adults is:', o: ['A-B-C','C-A-B','B-C-A','Call-Check-Compress'], c: 1, subj: 'Fundamentals', topic: 'BLS/ACLS', day: 9, diff: 'Easy', e: { A: 'Older Airway-Breathing-Compressions sequence has been superseded.', B: 'Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.', C: 'Incorrect ordering.', D: 'Describes the pre-BLS check, not the CPR sequence itself.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Correct depth of chest compression in adult CPR is:', o: ['1-2 cm','3-4 cm','5-6 cm','7-8 cm'], c: 2, subj: 'Fundamentals', topic: 'BLS/ACLS', day: 9, diff: 'Easy', e: { A: 'Too shallow — insufficient coronary perfusion pressure.', B: 'Still below AHA recommendation.', C: 'AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.', D: 'Excessive depth increases rib-fracture/internal-injury risk.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'IV infusion of 1 L at 125 mL/hr — duration is:', o: ['6 hr','8 hr','10 hr','12 hr'], c: 1, subj: 'Pharmacology', topic: 'Drug calculation', day: 2, diff: 'Easy', e: { A: '6 hr × 125 = 750 mL, not 1 L.', B: '1000 ÷ 125 = 8 hours.', C: '10 hr × 125 = 1250 mL, too much.', D: '12 hr × 125 = 1500 mL, too much.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'calculation' },
-  { q: 'First-line drug for severe pre-eclampsia / eclampsia prophylaxis:', o: ['Hydralazine','Magnesium sulfate','Labetalol','Diazepam'], c: 1, subj: 'OBG', topic: 'Eclampsia', day: 3, diff: 'Easy', e: { A: 'BP control adjunct, not seizure prophylaxis.', B: 'MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).', C: 'Antihypertensive only, not seizure prevention.', D: 'Older practice, now supplanted by MgSO4.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Normal APGAR score range is:', o: ['0–5','0–10','0–15','1–10'], c: 1, subj: 'Pediatric', topic: 'APGAR', day: 4, diff: 'Easy', e: { A: 'Maximum is 10, not 5.', B: '5 criteria × 0–2 each → total 0–10.', C: 'Incorrect.', D: 'Minimum is 0, not 1.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Exclusive breastfeeding WHO recommendation:', o: ['3 months','4 months','6 months','12 months'], c: 2, subj: 'Community Health', topic: 'MCH', day: 6, diff: 'Easy', e: { A: 'Too short per WHO.', B: 'Below current WHO guidance.', C: 'WHO: exclusive breastfeeding first 6 months of life.', D: 'Complementary feeding should start by 6 months.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Which antipsychotic requires weekly CBC monitoring?', o: ['Haloperidol','Clozapine','Risperidone','Olanzapine'], c: 1, subj: 'Psychiatric', topic: 'Antipsychotics', day: 9, diff: 'Medium', e: { A: 'EPS risk but no mandatory CBC protocol.', B: 'Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.', C: 'Routine CBC not mandated.', D: 'Metabolic monitoring needed; not weekly CBC.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Yellow-coded BMW bag contains:', o: ['General waste','Sharps','Human anatomical / soiled / micro / chem','Discarded medicines'], c: 2, subj: 'Community Health', topic: 'BMW', day: 7, diff: 'Easy', e: { A: 'General goes in black, not yellow.', B: 'Sharps → white translucent puncture-proof.', C: 'Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.', D: 'Discarded meds go in yellow sub-category but whole bag label is broader — best answer is the full yellow list (C).' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'MTP Act (2021 amendment) allows termination up to:', o: ['12 weeks','20 weeks','24 weeks','28 weeks'], c: 2, subj: 'OBG', topic: 'MTP Act', day: 3, diff: 'Medium', e: { A: 'Previous lower limit without conditions.', B: 'Up to 20 wk with one RMP opinion.', C: 'Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).', D: 'Only beyond 24 wk with Medical Board approval for substantial fetal abnormalities.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'PM-JAY coverage per family per year:', o: ['₹1 lakh','₹3 lakh','₹5 lakh','₹10 lakh'], c: 2, subj: 'Community Health', topic: 'National Programs', day: 6, diff: 'Easy', e: { A: 'Too low.', B: 'Too low.', C: 'Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.', D: 'Incorrect.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Most common method of suicide in India:', o: ['Poisoning','Hanging','Firearms','Drowning'], c: 1, subj: 'Psychiatric', topic: 'Epidemiology', day: 9, diff: 'Medium', e: { A: 'Second most common but not leading.', B: 'NCRB data: hanging is the leading method (>55%).', C: 'Rare due to low firearms penetration.', D: 'Uncommon method.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Article 21A deals with:', o: ['Right to equality','Right to education','Right to life','Right to speech'], c: 1, subj: 'Community Health', topic: 'Constitution', day: 6, diff: 'Easy', e: { A: 'Article 14.', B: 'Article 21A → Right to Education 6–14 yrs (86th Amendment).', C: 'Article 21.', D: 'Article 19.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Drug of choice for status epilepticus (first-line IV):', o: ['Phenytoin','Lorazepam','Phenobarbital','Valproate'], c: 1, subj: 'Pharmacology', topic: 'Neurology', day: 9, diff: 'Medium', e: { A: 'Used as second-line after benzodiazepines.', B: 'IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.', C: 'Third-line option.', D: 'Alternative second-line.' }, src: 'NORCET 9 Mains', yr: 2025, qt: 'factual' },
-
-  // NORCET 8 — key recalls
-  { q: 'DBT stands for (in nursing / govt scheme context):', o: ['Direct Bank Transfer','Direct Benefit Transfer','Digital Benefit Transfer','Direct Beneficiary Transaction'], c: 1, subj: 'Community Health', topic: 'Schemes', day: 6, diff: 'Easy', e: { A: 'Common misreading.', B: 'Direct Benefit Transfer — government cash-scheme mechanism.', C: 'Incorrect expansion.', D: 'Incorrect expansion.' }, src: 'NORCET 8 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Tetralogy of Fallot — classic components do NOT include:', o: ['VSD','Overriding aorta','RV hypertrophy','ASD'], c: 3, subj: 'Pediatric', topic: 'Congenital Heart', day: 5, diff: 'Medium', e: { A: 'Part of TOF.', B: 'Part of TOF.', C: 'Part of TOF.', D: 'ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH.' }, src: 'NORCET 8 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Leopold\'s maneuver 1st step detects:', o: ['Fetal lie','Fundal content (breech/cephalic)','Engagement','Position'], c: 1, subj: 'OBG', topic: 'Leopold', day: 3, diff: 'Easy', e: { A: 'Overall finding, but 1st step focuses on the fundus.', B: 'Fundal grip → identifies what part (head vs breech) occupies the fundus.', C: '4th maneuver (Pawlik).', D: '3rd maneuver.' }, src: 'NORCET 8 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Normal pH of arterial blood is:', o: ['7.25–7.35','7.35–7.45','7.45–7.55','7.40–7.60'], c: 1, subj: 'Medical-Surgical', topic: 'ABG', day: 1, diff: 'Easy', e: { A: 'Acidemic range.', B: 'Physiological 7.35–7.45.', C: 'Alkalemic.', D: 'Incorrect band.' }, src: 'NORCET 8 Mains', yr: 2025, qt: 'factual' },
-  { q: 'Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):', o: ['HOB flat','HOB elevation 30–45°','Continuous sedation','Paralytic infusion'], c: 1, subj: 'Medical-Surgical', topic: 'ICU care', day: 1, diff: 'Medium', e: { A: 'Increases aspiration risk.', B: 'Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).', C: 'Over-sedation delays extubation and increases VAP risk.', D: 'Paralytics have no routine VAP-prevention role.' }, src: 'NORCET 8 Mains', yr: 2025, qt: 'scenario' },
-  { q: 'Coombs test is used to diagnose:', o: ['Hemophilia','Autoimmune hemolytic anemia','G6PD deficiency','Aplastic anemia'], c: 1, subj: 'Medical-Surgical', topic: 'Hematology', day: 5, diff: 'Medium', e: { A: 'Coagulation factor assays used.', B: 'Direct Coombs detects antibody on RBCs — AIHA.', C: 'Enzyme assay, not Coombs.', D: 'Bone marrow biopsy, not Coombs.' }, src: 'NORCET 8 Mains', yr: 2025, qt: 'factual' },
-
-  // NORCET 7 — key recalls
-  { q: 'Episiotomy most commonly used in India:', o: ['Mediolateral','Midline','J-shaped','Lateral'], c: 0, subj: 'OBG', topic: 'Episiotomy', day: 3, diff: 'Easy', e: { A: 'Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.', B: 'Preferred in the USA but not standard in India due to higher tear risk.', C: 'Rarely used.', D: 'Obsolete; abandoned due to high complications.' }, src: 'NORCET 7 Mains', yr: 2024, qt: 'factual' },
-  { q: 'Triple-lumen catheter typically has:', o: ['1 port','2 ports','3 ports','4 ports'], c: 2, subj: 'Fundamentals', topic: 'Central line', day: 8, diff: 'Easy', e: { A: 'Single-lumen.', B: 'Double-lumen.', C: 'Triple-lumen = 3 ports (distal/middle/proximal).', D: 'Quadruple-lumen, less common.' }, src: 'NORCET 7 Mains', yr: 2024, qt: 'factual' },
-  { q: 'First intervention in hypovolemic shock:', o: ['Antibiotics','Vasopressors','IV fluid bolus','Inotropes'], c: 2, subj: 'Medical-Surgical', topic: 'Shock', day: 9, diff: 'Easy', e: { A: 'Only for septic source.', B: 'Second line after fluid challenge.', C: 'Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.', D: 'For cardiogenic, not hypovolemic shock.' }, src: 'NORCET 7 Mains', yr: 2024, qt: 'factual' },
-
-  // NORCET 6 — key recalls
-  { q: 'Pre-eclampsia is diagnosed at what BP threshold after 20 wk GA:', o: ['≥130/80 mmHg','≥140/90 mmHg','≥150/95 mmHg','≥160/110 mmHg'], c: 1, subj: 'OBG', topic: 'Pre-eclampsia', day: 3, diff: 'Medium', e: { A: 'Stage 1 hypertension cutoff, not pre-eclampsia.', B: 'BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.', C: 'Not a standard cutoff.', D: 'That level defines severe features, not the diagnosis itself.' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' },
-  { q: 'First step in Neonatal Resuscitation Program after birth:', o: ['Clamp cord','Dry, warm, position, clear airway','Give oxygen','Start compressions'], c: 1, subj: 'Pediatric', topic: 'NRP', day: 4, diff: 'Easy', e: { A: 'Done after initial steps.', B: 'Initial steps: warm, dry, position airway, clear secretions, stimulate.', C: 'Only if HR<100 and PPV has failed.', D: 'Only if HR<60 after effective PPV.' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' },
-  { q: 'Normal ET tube size for full-term newborn (uncuffed):', o: ['2.5 mm','3.0–3.5 mm','4.0 mm','4.5 mm'], c: 1, subj: 'Pediatric', topic: 'ET tube', day: 2, diff: 'Medium', e: { A: 'Used for <1 kg preterm.', B: 'Term newborn ~3.0–3.5 mm uncuffed.', C: 'Older infant (6–12 mo).', D: 'Child >1 year.' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' },
-  { q: 'MgSO4 therapeutic serum level in eclampsia is:', o: ['1–2 mEq/L','4–7 mEq/L','8–10 mEq/L','>10 mEq/L'], c: 1, subj: 'OBG', topic: 'MgSO4', day: 3, diff: 'High', e: { A: 'Subtherapeutic.', B: 'Therapeutic 4–7 mEq/L; 8–10 → loss of DTRs; >10 → respiratory depression.', C: 'Toxic range.', D: 'Toxic; stop infusion, give Ca gluconate.' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' },
-  { q: 'Venturi mask color providing 24% FiO2 (low-concentration):', o: ['Blue','White','Yellow','Red'], c: 0, subj: 'Fundamentals', topic: 'Oxygen therapy', day: 7, diff: 'Medium', e: { A: 'Blue = 24% FiO2 at 2 L/min.', B: 'White = 28%.', C: 'Yellow = 35%.', D: 'Red = 40% (or green on some sets).' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' },
-  { q: 'CPR compression:ventilation ratio in adults (single rescuer):', o: ['15:2','30:2','5:1','10:2'], c: 1, subj: 'Fundamentals', topic: 'BLS', day: 9, diff: 'Easy', e: { A: 'Pediatric 2-rescuer ratio.', B: 'Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.', C: 'Outdated ratio.', D: 'Not standard.' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' },
-  { q: 'Which does NOT belong to the 5 WHO moments of hand hygiene:', o: ['Before touching a patient','Before clean/aseptic procedure','After touching the nurses\' station','After touching patient surroundings'], c: 2, subj: 'Fundamentals', topic: 'Hand hygiene', day: 7, diff: 'Easy', e: { A: 'Moment 1.', B: 'Moment 2.', C: 'NOT one of the 5 moments — irrelevant to clinical contact.', D: 'Moment 5.' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' },
-  { q: 'ICDS beneficiary age group for supplementary nutrition is:', o: ['0–3 y','6 mo–6 y + pregnant / lactating','0–5 y','6–12 y'], c: 1, subj: 'Community Health', topic: 'ICDS', day: 6, diff: 'Medium', e: { A: 'Partial range only.', B: 'ICDS covers children 6 mo–6 y, pregnant and lactating women, adolescent girls.', C: 'Does not include pregnant/lactating.', D: 'School-age not under ICDS.' }, src: 'NORCET 6 Mains', yr: 2024, qt: 'factual' }
+  /* Intentionally empty — all PYQs now live in data/mains/pyqs/*.json.
+     The content previously here was migrated to:
+     - data/mains/pyqs/norcet-9-mains-2025.json (121 Qs, verbatim from PDF)
+     - data/mains/pyqs/norcet-6-7-8-recalls.json (17 Qs, memory-based recalls)
+  */
+  { _placeholder: true, q: '', o: ['','','',''], c: 0, subj: '', topic: '', day: 1, diff: 'Easy', e: { A:'',B:'',C:'',D:'' }, src: '_placeholder', yr: 0, qt: 'factual' }
 ];
 
 function pyqRows() {
-  return PYQS.map((p, i) => ({
-    id: 'M' + (i + 1),
-    question: p.q,
-    options: p.o,
-    correct: p.c,
-    explanation: p.e[['A','B','C','D'][p.c]],
-    explanations: p.e,
-    subject: p.subj,
-    topic: p.topic,
-    day: p.day,
-    difficulty: p.diff,
-    source: p.src,
-    year: p.yr,
-    qtype: p.qt
+  // Load questions from JSON files (canonical source) and map them to the
+  // same shape the downstream code expects. JSON rows use verbose field
+  // names (question, options, correct, explanations, ...) and we keep them
+  // as-is when present; older recall rows stored via PYQS[] still use the
+  // terse keys (q/o/c/e/subj/topic/diff/src/yr/qt).
+  const jsonRows = loadAllPyqFiles();
+  const jsonMapped = jsonRows.map((q) => ({
+    id: q.id || '',
+    _origId: q.id || '',
+    question: q.question,
+    options: q.options,
+    correct: q.correct,
+    explanation: q.explanation || (q.explanations ? q.explanations[['A','B','C','D'][q.correct]] : ''),
+    explanations: q.explanations || {},
+    subject: q.subject || '',
+    topic: q.topic || '',
+    day: q.day || 1,
+    difficulty: q.difficulty || 'Medium',
+    source: q.source || '',
+    year: q.year || 0,
+    qtype: q.qtype || 'factual',
+    section: q.section || '',
+    tags: q.tags || [],
+    _sourceFile: q._sourceFile || ''
   }));
+
+  // Legacy inline rows (currently just a placeholder we filter out).
+  const legacyMapped = PYQS
+    .filter((p) => p && !p._placeholder && p.q)
+    .map((p, i) => ({
+      id: 'L' + (i + 1),
+      question: p.q,
+      options: p.o,
+      correct: p.c,
+      explanation: p.e[['A','B','C','D'][p.c]],
+      explanations: p.e,
+      subject: p.subj,
+      topic: p.topic,
+      day: p.day,
+      difficulty: p.diff,
+      source: p.src,
+      year: p.yr,
+      qtype: p.qt
+    }));
+
+  // De-duplicate: if a legacy row's stem matches a JSON row's stem at
+  // Jaccard ≥ 0.8, keep the JSON (PDF-derived) version and drop the legacy.
+  const jsonTokens = jsonMapped.map((r) => tokensOf(r.question));
+  const deduped = legacyMapped.filter((lr) => {
+    const lt = tokensOf(lr.question);
+    for (let i = 0; i < jsonTokens.length; i++) {
+      if (jaccard(lt, jsonTokens[i]) >= 0.8) return false;
+    }
+    return true;
+  });
+
+  const all = [...jsonMapped, ...deduped];
+  // Re-number with M1..Mn for stable ids across the merged set.
+  return all.map((row, idx) => ({ ...row, id: 'M' + (idx + 1) }));
 }
+
 
 // ---------- Flashcards seed ----------
 const FLASHCARDS = {
@@ -607,6 +653,39 @@ function buildBank() {
     count: pyqMockFinal.length, minutes: 180, questions: pyqMockFinal,
   }, null, 2));
 
+  // NORCET 9 Mains 2025 — verbatim 121-question replay mock.
+  // Preserves the official paper order and question types; no shuffling, no filler.
+  const norcet9 = bank
+    .filter(q => q.source === 'NORCET 9 Mains' && q.year === 2025)
+    .slice()
+    .sort((a, b) => {
+      // Original file ids look like "N9-1".."N9-121"; fall back to insertion order.
+      const na = Number(String(a._origId || a.id || '').replace(/^[A-Z]+-?/, '')) || 0;
+      const nb = Number(String(b._origId || b.id || '').replace(/^[A-Z]+-?/, '')) || 0;
+      return na - nb;
+    });
+  if (norcet9.length === 121) {
+    const mockN9 = norcet9.map((q, i) => ({ ...q, mockSeq: i + 1 }));
+    const bySubjN9 = {};
+    mockN9.forEach(q => { bySubjN9[q.subject] = (bySubjN9[q.subject] || 0) + 1; });
+    fs.writeFileSync(
+      path.join(OUT, 'mocks', 'mock-norcet9-mains.json'),
+      JSON.stringify({
+        id: 'norcet9-mains',
+        title: 'NORCET 9 Mains 2025 — Full Replay (121 Q)',
+        count: 121,
+        minutes: 180,
+        source: 'NORCET 9 Mains 2025 (official paper)',
+        verbatim: true,
+        subjects: bySubjN9,
+        questions: mockN9
+      }, null, 2)
+    );
+    console.log('NORCET-9 replay mock: 121 Qs written.');
+  } else {
+    console.warn(`[warn] NORCET-9 replay skipped — expected 121 questions, found ${norcet9.length}.`);
+  }
+
   // Mocks index (summary)
   const mocksIndex = [];
   for (let m = 1; m <= 10; m++) {
@@ -618,6 +697,21 @@ function buildBank() {
   const pyqMockSubj = {};
   pyqMockFinal.forEach(q => { pyqMockSubj[q.subject] = (pyqMockSubj[q.subject] || 0) + 1; });
   mocksIndex.push({ id: 'pyq', title: 'PYQ-Only Mock', count: pyqMockFinal.length, minutes: 180, subjects: pyqMockSubj });
+
+  // NORCET-9 replay mock (if it was written above).
+  const n9MockPath = path.join(OUT, 'mocks', 'mock-norcet9-mains.json');
+  if (fs.existsSync(n9MockPath)) {
+    const n9 = JSON.parse(fs.readFileSync(n9MockPath, 'utf8'));
+    mocksIndex.push({
+      id: 'norcet9-mains',
+      title: n9.title,
+      count: n9.count,
+      minutes: n9.minutes,
+      subjects: n9.subjects,
+      verbatim: true
+    });
+  }
+
   fs.writeFileSync(path.join(OUT, 'mocks', 'index.json'), JSON.stringify(mocksIndex, null, 2));
 
   // Cross-mock coverage audit — every must-cover topic appears in >=1 mock.
@@ -742,6 +836,30 @@ function writeMockCoverageAudit(bank) {
   const missingPyqs = [];
   for (const id of pyqIdsAll) if (!pyqUnion.has(id)) missingPyqs.push(id);
 
+  // Per-source PYQ coverage (NORCET 6/7/8/9 Mains): a source is "covered" if
+  // at least one PYQ from that source appears somewhere in the 10 mocks
+  // (ignoring the verbatim NORCET-9 replay mock, which by definition hosts
+  //  all 121 of its questions).
+  const pyqBySource = {};
+  const pyqInMocksBySource = {};
+  const nonReplayMockFiles = mockFiles.filter(f => f !== 'mock-norcet9-mains.json');
+  const coveredInNonReplay = new Set();
+  for (const mf of nonReplayMockFiles) {
+    for (const id of pyqCoverage[mf] || []) coveredInNonReplay.add(id);
+  }
+  for (const q of bank.filter(x => isPyq(x.source))) {
+    pyqBySource[q.source] = (pyqBySource[q.source] || 0) + 1;
+    if (coveredInNonReplay.has(q.id)) {
+      pyqInMocksBySource[q.source] = (pyqInMocksBySource[q.source] || 0) + 1;
+    }
+  }
+  const pyqSourceCoverage = Object.keys(pyqBySource).map(src => ({
+    source: src,
+    total: pyqBySource[src],
+    inMocks: pyqInMocksBySource[src] || 0,
+    pct: pyqBySource[src] ? +(((pyqInMocksBySource[src] || 0) / pyqBySource[src]) * 100).toFixed(1) : 0
+  }));
+
   const report = {
     generated: new Date().toISOString(),
     mustCoverTotal: mustCover.length,
@@ -752,6 +870,7 @@ function writeMockCoverageAudit(bank) {
     pyqTotal: pyqIdsAll.size,
     pyqCovered: pyqUnion.size,
     pyqUncovered: missingPyqs.slice(0, 50),
+    pyqSourceCoverage
   };
   fs.writeFileSync(path.join(dir, 'mock-coverage.json'), JSON.stringify(report, null, 2));
 
@@ -777,6 +896,14 @@ function writeMockCoverageAudit(bank) {
   lines.push(`- Total PYQs in bank: **${pyqIdsAll.size}**`);
   lines.push(`- In ≥1 mock: **${pyqUnion.size}**`);
   lines.push(`- Uncovered: **${missingPyqs.length}**`);
+  lines.push('');
+  lines.push('### PYQ coverage by source (excluding verbatim NORCET-9 replay)');
+  lines.push('');
+  lines.push('| Source | Total | In mocks | % |');
+  lines.push('|--------|-------|----------|---|');
+  for (const row of pyqSourceCoverage.sort((a, b) => a.source.localeCompare(b.source))) {
+    lines.push(`| ${row.source} | ${row.total} | ${row.inMocks} | ${row.pct}% |`);
+  }
   lines.push('');
   lines.push('## Per-mock breakdown');
   lines.push('');

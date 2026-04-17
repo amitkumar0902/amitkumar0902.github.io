@@ -97,6 +97,93 @@ for (const [section, qs] of Object.entries(qBySection)) {
   }
 }
 
+// ---------- Frequency coverage audit ----------
+// Every topper-table row in frequency-analysis.json must map to ≥1 syllabus entry
+// via enrich-syllabus-frequency.mjs, and critical-tier entries (score ≥8) need a
+// high scenario ratio of questions and a matched note.
+const freqFile = path.join(DATA_DIR, 'frequency-analysis.json');
+const freqAuditFile = path.join(DATA_DIR, '_audit', 'frequency-coverage.json');
+let frequency = { rows: 0, matchedRows: 0, unmatchedRows: [], criticalEntries: 0, criticalWithQuestion: 0, criticalScenarioRatio: 0 };
+if (fs.existsSync(freqFile)) {
+  const freq = JSON.parse(fs.readFileSync(freqFile, 'utf-8'));
+  const coverage = fs.existsSync(freqAuditFile)
+    ? JSON.parse(fs.readFileSync(freqAuditFile, 'utf-8'))
+    : { perRowMatchCounts: {}, unmatchedRows: [] };
+
+  // coverage.perRowMatchCounts keys are the freq-row ids; a row is "matched"
+  // when its strong-match count is ≥1. unmatchedRows is authoritative if present.
+  const matchedRowIds = new Set(
+    Object.entries(coverage.perRowMatchCounts || {})
+      .filter(([, v]) => (v && (v.strong || 0) > 0))
+      .map(([k]) => k)
+  );
+  frequency.rows = (freq.rows || []).length;
+  frequency.matchedRows = typeof coverage.matchedRows === 'number'
+    ? coverage.matchedRows
+    : (freq.rows || []).filter(r => matchedRowIds.has(r.id)).length;
+  frequency.unmatchedRows = Array.isArray(coverage.unmatchedRows) && coverage.unmatchedRows.length > 0
+    ? coverage.unmatchedRows
+    : (freq.rows || [])
+        .filter(r => !matchedRowIds.has(r.id))
+        .map(r => ({ id: r.id, topic: r.topic, frequency: r.frequency }));
+  if (frequency.unmatchedRows.length > 0) {
+    for (const u of frequency.unmatchedRows) {
+      issues.push({ type: 'freq-row-unmatched', id: u.id, topic: u.topic });
+    }
+  }
+
+  // Critical tier: syllabus entries with priority === 'critical' (promoted by the enricher).
+  const critical = syllabus.filter(e => e.priority === 'critical');
+  frequency.criticalEntries = critical.length;
+  let critWithQ = 0;
+  let critScenarioTotal = 0;
+  let critScenarioCount = 0;
+  for (const e of critical) {
+    const qs = qBySyllabusId[e.id] || [];
+    if (qs.length > 0) critWithQ++;
+    else issues.push({ type: 'critical-missing-question', id: e.id, topic: e.topic });
+    critScenarioTotal += qs.length;
+    critScenarioCount += qs.filter(q => q.qtype === 'scenario').length;
+  }
+  frequency.criticalWithQuestion = critWithQ;
+  frequency.criticalScenarioRatio = critScenarioTotal
+    ? +((critScenarioCount / critScenarioTotal).toFixed(3))
+    : 0;
+  // Critical tier expected ≥0.70 scenario ratio (tighter than default).
+  if (critScenarioTotal > 0 && frequency.criticalScenarioRatio < 0.70) {
+    issues.push({
+      type: 'critical-scenario-ratio-low',
+      ratio: frequency.criticalScenarioRatio,
+      threshold: 0.70,
+      total: critScenarioTotal,
+      scenarios: critScenarioCount
+    });
+  }
+}
+
+// ---------- PYQ coverage by source ----------
+// Every known NORCET Mains source should appear in the question bank with ≥1 question.
+const EXPECTED_PYQ_SOURCES = ['NORCET 6 Mains', 'NORCET 7 Mains', 'NORCET 8 Mains', 'NORCET 9 Mains'];
+let pyqBySource = {};
+if (fs.existsSync(BANK_FILE)) {
+  const bank = JSON.parse(fs.readFileSync(BANK_FILE, 'utf-8'));
+  for (const q of bank) {
+    if (!q.source) continue;
+    const m = /^NORCET\s+\d+\s+Mains/i.exec(q.source);
+    if (!m) continue;
+    pyqBySource[q.source] = (pyqBySource[q.source] || 0) + 1;
+  }
+  for (const src of EXPECTED_PYQ_SOURCES) {
+    if (!(src in pyqBySource)) {
+      issues.push({ type: 'pyq-source-missing', source: src });
+    }
+  }
+  // NORCET 9 Mains must have the full 121-Q replay present.
+  if ((pyqBySource['NORCET 9 Mains'] || 0) < 121) {
+    issues.push({ type: 'norcet9-under-121', found: pyqBySource['NORCET 9 Mains'] || 0, expected: 121 });
+  }
+}
+
 const summary = {
   generated: new Date().toISOString(),
   syllabusTotal: syllabus.length,
@@ -104,6 +191,8 @@ const summary = {
   scenarioFieldsCoverage: `${ctxOk}/${syllabus.length} (${((ctxOk/syllabus.length)*100).toFixed(1)}%)`,
   questionCoverage: `${questionOk}/${syllabus.length} (${((questionOk/syllabus.length)*100).toFixed(1)}%)`,
   scenarioRatios: ratios,
+  frequency,
+  pyqBySource,
   issueCount: issues.length,
   firstIssues: issues.slice(0, 20),
 };

@@ -1,131 +1,7 @@
 [
   {
-    "id": 3,
-    "question": "In BLS (AHA 2020), the correct sequence for adults is:",
-    "options": [
-      "A-B-C",
-      "C-A-B",
-      "B-C-A",
-      "Call-Check-Compress"
-    ],
-    "correct": 1,
-    "explanation": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
-    "explanations": {
-      "A": "Older Airway-Breathing-Compressions sequence has been superseded.",
-      "B": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
-      "C": "Incorrect ordering.",
-      "D": "Describes the pre-BLS check, not the CPR sequence itself."
-    },
-    "subject": "Fundamentals",
-    "topic": "BLS/ACLS",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 4,
-    "question": "Correct depth of chest compression in adult CPR is:",
-    "options": [
-      "1-2 cm",
-      "3-4 cm",
-      "5-6 cm",
-      "7-8 cm"
-    ],
-    "correct": 2,
-    "explanation": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
-    "explanations": {
-      "A": "Too shallow — insufficient coronary perfusion pressure.",
-      "B": "Still below AHA recommendation.",
-      "C": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
-      "D": "Excessive depth increases rib-fracture/internal-injury risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "BLS/ACLS",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
     "id": 9,
-    "question": "Which antipsychotic requires weekly CBC monitoring?",
-    "options": [
-      "Haloperidol",
-      "Clozapine",
-      "Risperidone",
-      "Olanzapine"
-    ],
-    "correct": 1,
-    "explanation": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
-    "explanations": {
-      "A": "EPS risk but no mandatory CBC protocol.",
-      "B": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
-      "C": "Routine CBC not mandated.",
-      "D": "Metabolic monitoring needed; not weekly CBC."
-    },
-    "subject": "Psychiatric",
-    "topic": "Antipsychotics",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 13,
-    "question": "Most common method of suicide in India:",
-    "options": [
-      "Poisoning",
-      "Hanging",
-      "Firearms",
-      "Drowning"
-    ],
-    "correct": 1,
-    "explanation": "NCRB data: hanging is the leading method (>55%).",
-    "explanations": {
-      "A": "Second most common but not leading.",
-      "B": "NCRB data: hanging is the leading method (>55%).",
-      "C": "Rare due to low firearms penetration.",
-      "D": "Uncommon method."
-    },
-    "subject": "Psychiatric",
-    "topic": "Epidemiology",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 15,
-    "question": "Drug of choice for status epilepticus (first-line IV):",
-    "options": [
-      "Phenytoin",
-      "Lorazepam",
-      "Phenobarbital",
-      "Valproate"
-    ],
-    "correct": 1,
-    "explanation": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
-    "explanations": {
-      "A": "Used as second-line after benzodiazepines.",
-      "B": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
-      "C": "Third-line option.",
-      "D": "Alternative second-line."
-    },
-    "subject": "Pharmacology",
-    "topic": "Neurology",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 24,
+    "_origId": "N7-3",
     "question": "First intervention in hypovolemic shock:",
     "options": [
       "Antibiotics",
@@ -134,12 +10,12 @@
       "Inotropes"
     ],
     "correct": 2,
-    "explanation": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
+    "explanation": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
     "explanations": {
-      "A": "Only for septic source.",
-      "B": "Second line after fluid challenge.",
-      "C": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
-      "D": "For cardiogenic, not hypovolemic shock."
+      "A": "Antibiotics are only for suspected sepsis, not hypovolemia.",
+      "B": "Vasopressors are second-line after fluid resuscitation.",
+      "C": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
+      "D": "Inotropes are for cardiogenic shock, not hypovolemic."
     },
     "subject": "Medical-Surgical",
     "topic": "Shock",
@@ -147,10 +23,14 @@
     "difficulty": "Easy",
     "source": "NORCET 7 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 30,
+    "id": 15,
+    "_origId": "N6-6",
     "question": "CPR compression:ventilation ratio in adults (single rescuer):",
     "options": [
       "15:2",
@@ -161,10 +41,10 @@
     "correct": 1,
     "explanation": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
     "explanations": {
-      "A": "Pediatric 2-rescuer ratio.",
+      "A": "Pediatric two-rescuer ratio.",
       "B": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
       "C": "Outdated ratio.",
-      "D": "Not standard."
+      "D": "Non-standard."
     },
     "subject": "Fundamentals",
     "topic": "BLS",
@@ -172,10 +52,593 @@
     "difficulty": "Easy",
     "source": "NORCET 6 Mains",
     "year": 2024,
-    "qtype": "factual"
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-6-7-8-recalls.json"
   },
   {
-    "id": 1118,
+    "id": 20,
+    "_origId": "N9-3",
+    "question": "A case of road traffic accident (RTA) develops neuropathic pain. Which drug is most appropriate for the management of neuropathic pain?",
+    "options": [
+      "Acetaminophen",
+      "Ibuprofen",
+      "Tramadol",
+      "Gabapentin"
+    ],
+    "correct": 3,
+    "explanation": "Gabapentin (a gabapentinoid) is first-line for neuropathic pain along with pregabalin, TCAs and SNRIs.",
+    "explanations": {
+      "A": "Acetaminophen treats mild nociceptive pain, not neuropathic pain (no central anticonvulsant action).",
+      "B": "NSAIDs act on inflammatory nociceptive pain; they are ineffective for neuropathic pain.",
+      "C": "Tramadol is a weak opioid with modest SNRI activity — used as adjunct, not first-line.",
+      "D": "Gabapentin (a gabapentinoid) is first-line for neuropathic pain along with pregabalin, TCAs and SNRIs."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neuropathic pain",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 22,
+    "_origId": "N9-5",
+    "question": "Which of the following is NOT typically seen in a patient with heat stroke?",
+    "options": [
+      "Excessive sweating",
+      "Temperature 103°F",
+      "Rapid pulse",
+      "Hot dry skin"
+    ],
+    "correct": 0,
+    "explanation": "Classic (non-exertional) heat stroke shows anhidrosis — sweating fails due to thermoregulatory collapse.",
+    "explanations": {
+      "A": "Classic (non-exertional) heat stroke shows anhidrosis — sweating fails due to thermoregulatory collapse.",
+      "B": "Core temperature >40°C (≈104°F) is a hallmark; 103°F (39.4°C) is consistent.",
+      "C": "Tachycardia is typical as the body tries to dissipate heat.",
+      "D": "Hot, dry, flushed skin is the classic presentation due to failed sweating."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Heat stroke",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 24,
+    "_origId": "N9-7",
+    "question": "In a patient with a shockable cardiac rhythm, after how many shocks should adrenaline be administered?",
+    "options": [
+      "0.1 mL after the first shock",
+      "0.1 mL after the second shock",
+      "1 mg after the third shock",
+      "1 mg after the second shock"
+    ],
+    "correct": 2,
+    "explanation": "AHA guideline — for VF/pulseless VT, epinephrine 1 mg IV/IO is given after the 3rd shock; repeat every 3–5 minutes.",
+    "explanations": {
+      "A": "0.1 mL is a pediatric dose; in adult ACLS the dose is 1 mg IV.",
+      "B": "Correct dose is 1 mg, and timing in shockable rhythms is after the third shock (then every 3–5 min).",
+      "C": "AHA guideline — for VF/pulseless VT, epinephrine 1 mg IV/IO is given after the 3rd shock; repeat every 3–5 minutes.",
+      "D": "Dose is right (1 mg) but timing is wrong; delayed until the 3rd shock in shockable rhythms."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "ACLS / Adrenaline",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 29,
+    "_origId": "N9-12",
+    "question": "What is the recommended breathing rate during CPR in a patient with an advanced airway?",
+    "options": [
+      "10 breaths per minute",
+      "12 breaths per minute",
+      "20 breaths per minute",
+      "6 breaths per minute"
+    ],
+    "correct": 0,
+    "explanation": "AHA 2020 — with an advanced airway, give 1 breath every 6 seconds = 10 breaths/min with continuous chest compressions.",
+    "explanations": {
+      "A": "AHA 2020 — with an advanced airway, give 1 breath every 6 seconds = 10 breaths/min with continuous chest compressions.",
+      "B": "12 breaths/min is the rescue breathing rate without compressions.",
+      "C": "20/min is used only in pediatric advanced airway (every 2–3 s).",
+      "D": "6/min is a pediatric rescue breathing rate in specific contexts, not adult CPR."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "BLS/ACLS",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 47,
+    "_origId": "N9-30",
+    "question": "A patient is unconscious after trauma with suspected cervical spine injury. What is the priority nursing intervention?",
+    "options": [
+      "Insert oropharyngeal airway",
+      "Start IV fluids",
+      "Perform neuro assessment",
+      "Apply cervical immobilization"
+    ],
+    "correct": 3,
+    "explanation": "Rigid cervical collar + manual in-line stabilisation is first to prevent secondary cord injury.",
+    "explanations": {
+      "A": "Airway protection is important but any manipulation must happen with the neck immobilised.",
+      "B": "Circulation support follows airway/spine protection.",
+      "C": "Neurological assessment is secondary; must not delay immobilisation.",
+      "D": "Rigid cervical collar + manual in-line stabilisation is first to prevent secondary cord injury."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "C-spine trauma",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 50,
+    "_origId": "N9-33",
+    "question": "Patients on monoamine oxidase inhibitors (MAOIs) should avoid which of the following?",
+    "options": [
+      "Tyramine",
+      "Glucose",
+      "Fructose",
+      "Lactose"
+    ],
+    "correct": 0,
+    "explanation": "Tyramine-rich foods (aged cheese, cured meats, soy, fermented products) cause hypertensive crisis with MAOIs.",
+    "explanations": {
+      "A": "Tyramine-rich foods (aged cheese, cured meats, soy, fermented products) cause hypertensive crisis with MAOIs.",
+      "B": "Glucose has no interaction with MAOIs.",
+      "C": "Fructose has no relevant MAOI interaction.",
+      "D": "Lactose has no relevant MAOI interaction."
+    },
+    "subject": "Fundamentals",
+    "topic": "MAOI / Diet",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 98,
+    "_origId": "N9-81",
+    "question": "A 25-year-old expresses a persistent urge to wear female clothing and identifies with a gender different from assigned sex at birth. What is the most appropriate term?",
+    "options": [
+      "Gender dysphoria",
+      "Transvestism",
+      "Homosexuality",
+      "Gender conformity"
+    ],
+    "correct": 1,
+    "explanation": "Per Target High's answer key — the stem highlights 'persistent urge to wear female clothing', best described as transvestism (cross-dressing) rather than full gender dysphoria.",
+    "explanations": {
+      "A": "Gender dysphoria describes distress from incongruence — but the patient description emphasises dressing behaviour.",
+      "B": "Per Target High's answer key — the stem highlights 'persistent urge to wear female clothing', best described as transvestism (cross-dressing) rather than full gender dysphoria.",
+      "C": "Homosexuality refers to sexual orientation, not gender identity/dressing.",
+      "D": "Gender conformity is identification with assigned gender — opposite of the stem."
+    },
+    "subject": "Psychiatric",
+    "topic": "Gender identity",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 99,
+    "_origId": "N9-82",
+    "question": "A 30-year-old with suspected schizophrenia has disorganized thinking and reports hearing voices commenting on his actions. Which is a first-rank symptom of schizophrenia?",
+    "options": [
+      "Social withdrawal",
+      "Thought disorder (e.g., thought broadcasting)",
+      "Flat affect",
+      "Visual hallucinations"
+    ],
+    "correct": 1,
+    "explanation": "Schneider's FRS include: thought insertion/withdrawal/broadcasting, 3rd-person auditory hallucinations, delusions of control.",
+    "explanations": {
+      "A": "Social withdrawal is a negative symptom, not Schneider's first-rank.",
+      "B": "Schneider's FRS include: thought insertion/withdrawal/broadcasting, 3rd-person auditory hallucinations, delusions of control.",
+      "C": "Flat affect is a negative symptom.",
+      "D": "Visual hallucinations are uncommon in schizophrenia; more suggestive of organic/substance-induced states."
+    },
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia / FRS",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 100,
+    "_origId": "N9-83",
+    "question": "A 35-year-old on antipsychotic medication reports a constant urge to move and an inability to stay seated. Which condition is most likely?",
+    "options": [
+      "Tardive dyskinesia",
+      "Akathisia",
+      "Dystonia",
+      "Parkinsonism"
+    ],
+    "correct": 1,
+    "explanation": "Akathisia is subjective restlessness + observable inability to sit still — early EPS; treated with propranolol/benzodiazepines and dose reduction.",
+    "explanations": {
+      "A": "TD is late-onset involuntary oro-lingual movements.",
+      "B": "Akathisia is subjective restlessness + observable inability to sit still — early EPS; treated with propranolol/benzodiazepines and dose reduction.",
+      "C": "Acute dystonia is sustained muscle contraction (torticollis, oculogyric crisis).",
+      "D": "Parkinsonism features tremor, rigidity, bradykinesia, not restlessness."
+    },
+    "subject": "Psychiatric",
+    "topic": "EPS / Akathisia",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 102,
+    "_origId": "N9-85",
+    "question": "A 40-year-old on disulfiram therapy for alcohol dependence — what is the most critical advice?",
+    "options": [
+      "Avoid caffeine-containing beverages",
+      "Avoid alcohol and alcohol-containing products",
+      "Increase fluid intake to prevent dehydration",
+      "Take the medication with meals to reduce side effects"
+    ],
+    "correct": 1,
+    "explanation": "Any alcohol (including mouthwash, cough syrups, perfumes) causes acetaldehyde accumulation → flushing, tachycardia, hypotension, vomiting — potentially fatal.",
+    "explanations": {
+      "A": "Caffeine is not contraindicated with disulfiram.",
+      "B": "Any alcohol (including mouthwash, cough syrups, perfumes) causes acetaldehyde accumulation → flushing, tachycardia, hypotension, vomiting — potentially fatal.",
+      "C": "Fluid isn't the key issue.",
+      "D": "Disulfiram is taken once daily without meal requirement."
+    },
+    "subject": "Psychiatric",
+    "topic": "Disulfiram counselling",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 103,
+    "_origId": "N9-86",
+    "question": "A 28-year-old with borderline personality disorder exhibits emotional instability and impulsive behavior. Which therapy is first-line?",
+    "options": [
+      "Cognitive Behavioral Therapy (CBT)",
+      "Dialectical Behavior Therapy (DBT)",
+      "Psychoanalytic Therapy",
+      "Family Therapy"
+    ],
+    "correct": 1,
+    "explanation": "DBT (Linehan) is the evidence-based first-line therapy for BPD — teaches mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness.",
+    "explanations": {
+      "A": "CBT addresses cognitive distortions; less effective for BPD.",
+      "B": "DBT (Linehan) is the evidence-based first-line therapy for BPD — teaches mindfulness, distress tolerance, emotion regulation, interpersonal effectiveness.",
+      "C": "Psychoanalytic therapy is longer and not first-line.",
+      "D": "Family therapy has a supporting role but isn't first-line."
+    },
+    "subject": "Psychiatric",
+    "topic": "Personality disorders",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 104,
+    "_origId": "N9-87",
+    "question": "A patient reports 3 months of low mood followed by a recent period of excessive energy, talkativeness, and reckless behavior. Bipolar I disorder is suspected. What is the most likely current diagnosis?",
+    "options": [
+      "Major depressive disorder",
+      "Bipolar I disorder with current manic episode",
+      "Generalized anxiety disorder",
+      "Bipolar II disorder with hypomania"
+    ],
+    "correct": 1,
+    "explanation": "Past depression + current manic episode (excessive energy, reckless behavior) = Bipolar I with current manic episode.",
+    "explanations": {
+      "A": "MDD has no manic/hypomanic episode.",
+      "B": "Past depression + current manic episode (excessive energy, reckless behavior) = Bipolar I with current manic episode.",
+      "C": "GAD involves chronic worry, not mood cycling.",
+      "D": "Bipolar II requires hypomania (less severe, <1 week, no functional impairment)."
+    },
+    "subject": "Psychiatric",
+    "topic": "Bipolar disorder",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 105,
+    "_origId": "N9-88",
+    "question": "A patient reports persistent low mood, low energy, and hopelessness for several years without episodes of major depression. What is the most likely diagnosis?",
+    "options": [
+      "Major depressive disorder",
+      "Dysthymia",
+      "Bipolar II disorder",
+      "Cyclothymic disorder"
+    ],
+    "correct": 1,
+    "explanation": "Dysthymia (now Persistent Depressive Disorder) = chronic low mood ≥2 years without MDE.",
+    "explanations": {
+      "A": "MDD requires ≥2-week episodes meeting 5+ criteria.",
+      "B": "Dysthymia (now Persistent Depressive Disorder) = chronic low mood ≥2 years without MDE.",
+      "C": "Bipolar II has hypomanic episodes, absent here.",
+      "D": "Cyclothymia requires hypomanic + depressive symptoms alternating for ≥2 years."
+    },
+    "subject": "Psychiatric",
+    "topic": "Chronic mood disorders",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 106,
+    "_origId": "N9-89",
+    "question": "A 45-year-old on opioid therapy for post-surgical pain has a respiratory rate of 10 breaths/min. What is the primary concern?",
+    "options": [
+      "Hypertension",
+      "Respiratory depression",
+      "Tachycardia",
+      "Hyperglycemia"
+    ],
+    "correct": 1,
+    "explanation": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
+    "explanations": {
+      "A": "Opioids cause hypotension, not hypertension.",
+      "B": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
+      "C": "Opioids cause bradycardia, not tachycardia.",
+      "D": "Hyperglycemia is not an opioid effect."
+    },
+    "subject": "Psychiatric",
+    "topic": "Opioid toxicity",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 107,
+    "_origId": "N9-90",
+    "question": "A patient with schizophrenia speaks in a way that frequently drifts off-topic. This is identified as a disorder of thought form. Which term best describes it?",
+    "options": [
+      "Flight of ideas",
+      "Tangentiality",
+      "Thought blocking",
+      "Loose associations"
+    ],
+    "correct": 1,
+    "explanation": "Tangentiality — replies veer off-topic and never return to the original point.",
+    "explanations": {
+      "A": "Flight of ideas involves rapid, pressured speech jumping between related ideas (mania).",
+      "B": "Tangentiality — replies veer off-topic and never return to the original point.",
+      "C": "Thought blocking is abrupt stoppage of speech/thoughts.",
+      "D": "Loose associations involve disconnected ideas with no logical link — more severe than tangentiality."
+    },
+    "subject": "Psychiatric",
+    "topic": "Thought disorder",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 108,
+    "_origId": "N9-91",
+    "question": "A 12-year-old with conduct disorder exhibits aggressive behavior and disregard for rules. What is a key nursing role?",
+    "options": [
+      "Encourage free expression without boundaries",
+      "Implement strict rules and regulations with consistent enforcement",
+      "Avoid setting limits to reduce confrontations",
+      "Focus solely on medication administration"
+    ],
+    "correct": 1,
+    "explanation": "Structured environment with firm, consistent rules is the evidence-based behavioral strategy.",
+    "explanations": {
+      "A": "Lack of limits worsens impulsive behavior.",
+      "B": "Structured environment with firm, consistent rules is the evidence-based behavioral strategy.",
+      "C": "Avoiding limits reinforces disruptive behavior.",
+      "D": "Medication is adjunctive; psychosocial structure is primary."
+    },
+    "subject": "Psychiatric",
+    "topic": "Conduct disorder",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 109,
+    "_origId": "N9-92",
+    "question": "Which of the following is NOT considered a negative symptom of schizophrenia?",
+    "options": [
+      "Apathy",
+      "Alogia",
+      "Ambivalence",
+      "Anhedonia"
+    ],
+    "correct": 2,
+    "explanation": "Ambivalence — per Bleuler's four A's it's considered a primary (cognitive) feature, not classified among standard negative symptoms (apathy, alogia, anhedonia, asociality, avolition).",
+    "explanations": {
+      "A": "Apathy (avolition) is a classic negative symptom.",
+      "B": "Alogia (poverty of speech) is negative.",
+      "C": "Ambivalence — per Bleuler's four A's it's considered a primary (cognitive) feature, not classified among standard negative symptoms (apathy, alogia, anhedonia, asociality, avolition).",
+      "D": "Anhedonia is a negative symptom."
+    },
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia symptoms",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 111,
+    "_origId": "N9-94",
+    "question": "A 45-year-old with schizophrenia stable on a typical antipsychotic × 5 years now exhibits involuntary lip smacking and tongue protrusion (Tardive Dyskinesia). What is the priority management?",
+    "options": [
+      "Initiate Propranolol to control motor movements",
+      "Increase the dose of the current antipsychotic",
+      "Substitute with Trihexyphenidyl for symptom control",
+      "Decrease the dose of current antipsychotic or switch to an atypical agent"
+    ],
+    "correct": 3,
+    "explanation": "First step is to lower or discontinue the typical antipsychotic and switch to an atypical (clozapine has lowest TD risk). VMAT2 inhibitors (valbenazine/deutetrabenazine) are approved for symptomatic control.",
+    "explanations": {
+      "A": "Propranolol is for akathisia, not TD.",
+      "B": "Increasing the offending drug may transiently mask TD but worsens long-term severity.",
+      "C": "Anticholinergics (trihexyphenidyl) actually worsen TD.",
+      "D": "First step is to lower or discontinue the typical antipsychotic and switch to an atypical (clozapine has lowest TD risk). VMAT2 inhibitors (valbenazine/deutetrabenazine) are approved for symptomatic control."
+    },
+    "subject": "Psychiatric",
+    "topic": "Tardive Dyskinesia",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 112,
+    "_origId": "N9-95",
+    "question": "A 38-year-old believes his neighbors are plotting to harm him and are constantly monitoring his activities. Which term best describes this belief?",
+    "options": [
+      "Delusion of grandeur",
+      "Delusion of persecution",
+      "Delusion of reference",
+      "Delusion of control"
+    ],
+    "correct": 1,
+    "explanation": "Persecutory delusion = belief others are conspiring/plotting harm — commonest type in schizophrenia.",
+    "explanations": {
+      "A": "Grandiose delusion = inflated self-importance.",
+      "B": "Persecutory delusion = belief others are conspiring/plotting harm — commonest type in schizophrenia.",
+      "C": "Reference delusion = innocuous stimuli (TV, news) believed to refer to self.",
+      "D": "Delusion of control = belief that one's thoughts/actions are controlled by external force."
+    },
+    "subject": "Psychiatric",
+    "topic": "Delusions",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 119,
+    "_origId": "N9-102",
+    "question": "A pediatric client on HFNC shows SpO2 of 50%. What is the most appropriate and immediate action?",
+    "options": [
+      "Increase HFNC flow rate by 5 L/min",
+      "Call the Respiratory Therapist to adjust the FiO2",
+      "Immediately discontinue HFNC and switch to BVM with 100% oxygen",
+      "Reposition the child prone and reassess SpO2 after 15 minutes"
+    ],
+    "correct": 2,
+    "explanation": "Critical hypoxia (SpO2 50%) requires immediate bag-valve-mask ventilation with 100% O2 — rescue ventilation takes precedence over device titration.",
+    "explanations": {
+      "A": "Simply increasing flow is insufficient with critical hypoxia.",
+      "B": "Waiting for RT will waste precious seconds.",
+      "C": "Critical hypoxia (SpO2 50%) requires immediate bag-valve-mask ventilation with 100% O2 — rescue ventilation takes precedence over device titration.",
+      "D": "Repositioning with 15-minute wait is unacceptably dangerous at SpO2 50%."
+    },
+    "subject": "Pediatric",
+    "topic": "Pediatric emergency airway",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "pediatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1224,
     "question": "A marker associated with neural tube defects in amniotic fluid includes:",
     "options": [
       "Bilirubin",
@@ -200,7 +663,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1125,
+    "id": 1231,
     "question": "BLS sequence for unresponsive adult without pulse:",
     "options": [
       "A-B-C",
@@ -225,7 +688,7 @@
     "qtype": "factual"
   },
   {
-    "id": 255,
+    "id": 361,
     "syllabusId": "ent-1-presbycusis",
     "question": "72-y-old with progressive hearing loss worse in crowded rooms.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -257,7 +720,7 @@
     ]
   },
   {
-    "id": 256,
+    "id": 362,
     "syllabusId": "ent-2-otoscope-examination",
     "question": "Toddler with ear pain.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -289,7 +752,7 @@
     ]
   },
   {
-    "id": 257,
+    "id": 363,
     "syllabusId": "ent-3-laryngoscope",
     "question": "Infant requiring intubation.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -321,7 +784,7 @@
     ]
   },
   {
-    "id": 258,
+    "id": 364,
     "syllabusId": "ent-4-acute-epiglottitis",
     "question": "4-y-old unimmunized, drooling, tripod, stridor, fever 39.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -353,7 +816,7 @@
     ]
   },
   {
-    "id": 259,
+    "id": 365,
     "syllabusId": "ent-5-meniere-disease",
     "question": "45-y-old with episodic vertigo, tinnitus, low-frequency hearing loss.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -385,7 +848,7 @@
     ]
   },
   {
-    "id": 260,
+    "id": 366,
     "syllabusId": "ent-6-epistaxis-management",
     "question": "Adult with active anterior nose bleed.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -414,486 +877,6 @@
       "scenario",
       "highyield",
       "must"
-    ]
-  },
-  {
-    "id": 261,
-    "syllabusId": "ent-7-tinnitus",
-    "question": "Patient on furosemide with new tinnitus.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
-      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
-      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoco…",
-      "Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral. Subjective (common) vs objective (vascular)",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Tinnitus",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 262,
-    "syllabusId": "ent-8-profound-hearing-loss",
-    "question": "1-y-old failed OAE screen twice.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
-      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
-      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
-      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y). Classification: mild 26-40, moderate 41-55, mod-severe 56-70, severe 71-90, profound >90 dB",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Profound hearing loss",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 263,
-    "syllabusId": "ent-9-rinne-and-weber-tests",
-    "question": "Weber lateralizes right, Rinne negative right (BC>AC).\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoco…",
-      "Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy",
-      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
-      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry. Rinne: AC vs BC at mastoid; normal AC>BC (positive)"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Rinne and Weber tests",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 424,
-    "syllabusId": "mental-1-erikson-psychosocial-stages",
-    "question": "Hospitalized 2-y-old clinging to parent, resists strangers.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, light…",
-      "Identify anal stage (1-3 y)",
-      "Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice",
-      "Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine. Trust vs mistrust (0-1)"
-    },
-    "subject": "Psychiatric",
-    "topic": "Erikson psychosocial stages",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 425,
-    "syllabusId": "mental-2-ego-defense-mechanisms",
-    "question": "Recently divorced man blames ex for his alcoholism.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "MDD — safety assess (hospitalize if active suicidality), start SSRI (sertraline), schedule psychotherapy, close follow-up",
-      "ECT indicated — consult psychiatry, informed consent, pre-anesthesia clearance, baseline MMSE, post-ECT monitoring",
-      "Identify projection; psychotherapy — explore feelings, identify healthier coping, refer to counselor",
-      "Identify anal stage (1-3 y)"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Identify projection; psychotherapy — explore feelings, identify healthier coping, refer to counselor",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Identify projection; psychotherapy — explore feelings, identify healthier coping, refer to counselor. Mature: sublimation, humor, altruism",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Ego defense mechanisms",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 426,
-    "syllabusId": "mental-3-psychoanalytic-theory-freud",
-    "question": "Item on stage associated with toilet training conflicts.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Identify anal stage (1-3 y)",
-      "Avoid codeine in children post-T&A; use non-opioid or other opioid cautiously",
-      "Check level, stop offending drugs, hydrate",
-      "CBT with graded exposure, consider short-term benzo for acute flight, SSRI if disabling"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Identify anal stage (1-3 y)",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Identify anal stage (1-3 y). Oral (0-1), Anal (1-3), Phallic (3-6), Latent (6-12), Genital (12+)",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Psychoanalytic theory — Freud",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 427,
-    "syllabusId": "mental-4-freud-structural-theory-of-mind-id-ego-superego",
-    "question": "Patient repeatedly steals despite guilt.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Refer for formal diagnostic evaluation (ADOS), start early intervention (speech + ABA), parent training, rule out hearing loss",
-      "Recognize as corrugator furrow in severe depression",
-      "Id-superego conflict; therapy to address underlying drives",
-      "Mania — hospital admission for safety, start mood stabilizer (lithium or valproate) + atypical antipsychotic, educate about sleep hygiene a…"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Id-superego conflict; therapy to address underlying drives",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Id-superego conflict; therapy to address underlying drives. Id: unconscious pleasure principle",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Freud structural theory of mind (id/ego/superego)",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 428,
-    "syllabusId": "mental-5-delirium",
-    "question": "Post-op elderly with fluctuating confusion, pulling lines.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, lighting), low-dose halop…",
-      "Id-superego conflict; therapy to address underlying drives",
-      "ECT indicated — consult psychiatry, informed consent, pre-anesthesia clearance, baseline MMSE, post-ECT monitoring",
-      "Admit if medically unstable; slow refeeding to avoid refeeding syndrome, CBT, family therapy, SSRI for comorbid depression"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, lighting), low-dose halop…",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, lighting), low-dose halop…. Abrupt onset, fluctuating course, inattention, disorganized thinking, altered LOC",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Delirium",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 429,
-    "syllabusId": "mental-6-delirium-vs-dementia",
-    "question": "Elderly with 2-day confusion on background of Alzheimer.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Admit ICU/HDU, IV lorazepam per CIWA titration, thiamine IV, fluids, monitor electrolytes/Mg, sitter/restraints if needed",
-      "Suspect superimposed delirium — full workup for reversible causes, avoid restraints",
-      "CIWA-triggered benzodiazepine",
-      "Consider complicated grief or MDD — screen with PHQ-9, safety assess, counseling, consider SSRI"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Suspect superimposed delirium — full workup for reversible causes, avoid restraints",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Suspect superimposed delirium — full workup for reversible causes, avoid restraints. Delirium: acute, fluctuating, reversible, LOC altered, attention impaired",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Delirium vs dementia",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 430,
-    "syllabusId": "mental-7-parkinson-disease-psych-features",
-    "question": "Parkinson patient with visual hallucinations.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Id-superego conflict; therapy to address underlying drives",
-      "Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens)",
-      "Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines",
-      "Check level, stop offending drugs, hydrate"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens). Depression (40%)",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Parkinson disease — psych features",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 431,
-    "syllabusId": "mental-8-extrapyramidal-symptoms-eps",
-    "question": "Schizophrenia patient on haloperidol with torticollis and oculogyric crisis.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Admit, urine toxicology, rule out organic cause, cessation support, risperidone if psychotic",
-      "Cite decreased 5-HT, NE, DA",
-      "Admit if medically unstable; slow refeeding to avoid refeeding syndrome, CBT, family therapy, SSRI for comorbid depression",
-      "Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice. Acute dystonia: minutes-hours — IM diphenhydramine or benztropine"
-    },
-    "subject": "Psychiatric",
-    "topic": "Extrapyramidal symptoms (EPS)",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 432,
-    "syllabusId": "mental-9-vascular-dementia",
-    "question": "Stepwise memory decline with multiple strokes on MRI.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Avoid codeine in children post-T&A; use non-opioid or other opioid cautiously",
-      "Identify as added behaviors (hallucinations, delusions)",
-      "Photosensitivity — sun protection, hat, sunscreen, consider alternative antipsychotic",
-      "Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines. Stepwise cognitive decline with each stroke"
-    },
-    "subject": "Psychiatric",
-    "topic": "Vascular dementia",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 433,
-    "syllabusId": "mental-10-bender-gestalt-test",
-    "question": "Item on projective vs objective.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Thiamine 100 mg IV TDS x3 d, then oral, cognitive rehabilitation, social services, abstinence support",
-      "Bender-Gestalt is a projective/visuomotor test",
-      "Hypertensive crisis — IV phentolamine or nitroprusside, monitor BP, ICU",
-      "Check ANC urgently — discontinue if agranulocytosis (<1500), protective isolation, blood cultures, broad-spectrum antibiotics"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Bender-Gestalt is a projective/visuomotor test",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Bender-Gestalt is a projective/visuomotor test. Copy 9 designs; score for errors, distortions",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Bender-Gestalt test",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 434,
-    "syllabusId": "mental-11-antipsychotic-medications-side-effects",
-    "question": "Schizophrenia on olanzapine gains 10 kg.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine",
-      "Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens)",
-      "Metabolic side effect — lifestyle counseling, monitor lipids/FBS, consider switching to aripiprazole if severe",
-      "Admit if medically unstable; slow refeeding to avoid refeeding syndrome, CBT, family therapy, SSRI for comorbid depression"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Metabolic side effect — lifestyle counseling, monitor lipids/FBS, consider switching to aripiprazole if severe",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Metabolic side effect — lifestyle counseling, monitor lipids/FBS, consider switching to aripiprazole if severe. Typical (haloperidol, chlorpromazine, fluphenazine): high D2 block — EPS risk",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Psychiatric",
-    "topic": "Antipsychotic medications — side effects",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 435,
-    "syllabusId": "mental-12-tricyclic-antidepressants-side-effects",
-    "question": "TCA overdose with wide QRS 140 ms, seizure.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice",
-      "Wernicke encephalopathy — IV thiamine 500 mg TDS x3 d before glucose, magnesium, supportive care",
-      "Bender-Gestalt is a projective/visuomotor test",
-      "Sodium bicarbonate 1-2 mEq/kg IV bolus, continuous cardiac monitoring, control seizure with benzodiazepine, avoid procainamide"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Sodium bicarbonate 1-2 mEq/kg IV bolus, continuous cardiac monitoring, control seizure with benzodiazepine, avoid procainamide",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Sodium bicarbonate 1-2 mEq/kg IV bolus, continuous cardiac monitoring, control seizure with benzodiazepine, avoid procainamide. Amitriptyline, nortriptyline, imipramine, clomipramine"
-    },
-    "subject": "Psychiatric",
-    "topic": "Tricyclic antidepressants — side effects",
-    "section": "mental",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
     ]
   }
 ]

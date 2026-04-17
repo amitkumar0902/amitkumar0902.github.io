@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated": "2026-04-17T05:02:15.577Z",
+    "generated": "2026-04-17T05:49:30.944Z",
     "syllabusTotal": 610,
     "notesCoverage": "610/610 (100.0%)",
     "scenarioFieldsCoverage": "610/610 (100.0%)",
@@ -104,6 +104,20 @@
         "threshold": 0.7,
         "pass": true
       }
+    },
+    "frequency": {
+      "rows": 57,
+      "matchedRows": 57,
+      "unmatchedRows": [],
+      "criticalEntries": 219,
+      "criticalWithQuestion": 219,
+      "criticalScenarioRatio": 1
+    },
+    "pyqBySource": {
+      "NORCET 8 Mains": 6,
+      "NORCET 7 Mains": 3,
+      "NORCET 6 Mains": 8,
+      "NORCET 9 Mains": 121
     },
     "issueCount": 0,
     "firstIssues": []

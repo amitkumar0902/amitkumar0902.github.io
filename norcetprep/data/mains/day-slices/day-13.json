@@ -1,6 +1,209 @@
 [
   {
-    "id": 1136,
+    "id": 21,
+    "_origId": "N9-4",
+    "question": "A patient with rheumatoid arthritis has a history of gastric ulcer. Which drug is most appropriate for this patient?",
+    "options": [
+      "Celecoxib",
+      "Naloxone",
+      "Acetaminophen",
+      "Ibuprofen"
+    ],
+    "correct": 0,
+    "explanation": "Celecoxib is a COX-2 selective inhibitor with lower GI ulcer risk — preferred in RA patients with PUD history.",
+    "explanations": {
+      "A": "Celecoxib is a COX-2 selective inhibitor with lower GI ulcer risk — preferred in RA patients with PUD history.",
+      "B": "Naloxone is an opioid antagonist; it has no anti-inflammatory role.",
+      "C": "Paracetamol has minimal anti-inflammatory effect; inadequate for RA disease control.",
+      "D": "Ibuprofen is a non-selective NSAID and significantly increases ulcer/bleeding risk."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "NSAIDs / GI protection",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 26,
+    "_origId": "N9-9",
+    "question": "Which anti-tuberculosis drug is the most bactericidal?",
+    "options": [
+      "Rifampicin",
+      "Ethambutol",
+      "Isoniazid",
+      "Pyrazinamide"
+    ],
+    "correct": 0,
+    "explanation": "Rifampicin is rated the most bactericidal first-line anti-TB drug; it kills actively dividing and semi-dormant bacilli.",
+    "explanations": {
+      "A": "Rifampicin is rated the most bactericidal first-line anti-TB drug; it kills actively dividing and semi-dormant bacilli.",
+      "B": "Ethambutol is primarily bacteriostatic and used to prevent resistance.",
+      "C": "Isoniazid is highly bactericidal against rapidly dividing bacilli (early bactericidal activity) but rifampicin has the broadest bactericidal reach.",
+      "D": "Pyrazinamide is a sterilising drug effective in acidic intracellular pH; not the most bactericidal overall."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Anti-TB drugs",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 28,
+    "_origId": "N9-11",
+    "question": "Calcium gluconate is NOT given by which method?",
+    "options": [
+      "Fast IV",
+      "Slow IV",
+      "IV infusion",
+      "Oral route"
+    ],
+    "correct": 0,
+    "explanation": "Rapid IV push of calcium causes bradycardia, hypotension, cardiac arrest; never given fast IV.",
+    "explanations": {
+      "A": "Rapid IV push of calcium causes bradycardia, hypotension, cardiac arrest; never given fast IV.",
+      "B": "Slow IV push over 5–10 minutes (diluted) is the standard for acute hyperkalemia/tetany.",
+      "C": "IV infusion (diluted in dextrose/saline) over 30–60 minutes is accepted for symptomatic hypocalcemia.",
+      "D": "Oral calcium gluconate is available for maintenance therapy."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Electrolytes / Medication safety",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 42,
+    "_origId": "N9-25",
+    "question": "A patient with a history of peptic ulcer requires pain management. Which analgesic approach is safest?",
+    "options": [
+      "NSAIDs",
+      "Avoid NSAIDs",
+      "Aspirin",
+      "NSAIDs with PPI"
+    ],
+    "correct": 1,
+    "explanation": "Safest approach is to avoid NSAIDs and use acetaminophen or a COX-2 selective with PPI if absolutely required.",
+    "explanations": {
+      "A": "NSAIDs directly impair mucosal protection and worsen ulcer.",
+      "B": "Safest approach is to avoid NSAIDs and use acetaminophen or a COX-2 selective with PPI if absolutely required.",
+      "C": "Aspirin is a potent ulcerogenic agent — contraindicated.",
+      "D": "PPI reduces but doesn't eliminate NSAID-induced ulcer risk; outright avoidance is still safest."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Analgesia / GI risk",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 44,
+    "_origId": "N9-27",
+    "question": "Which of the following is the most common side effect of nitroglycerin?",
+    "options": [
+      "Bradycardia",
+      "Headache",
+      "Nausea",
+      "Palpitations"
+    ],
+    "correct": 1,
+    "explanation": "Cerebral vasodilation → throbbing headache is the commonest NTG side effect.",
+    "explanations": {
+      "A": "Nitrates cause reflex tachycardia, not bradycardia.",
+      "B": "Cerebral vasodilation → throbbing headache is the commonest NTG side effect.",
+      "C": "Nausea can occur but is less frequent than headache.",
+      "D": "Palpitations from reflex tachycardia are less common as a complaint than headache."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Nitrates",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 94,
+    "_origId": "N9-77",
+    "question": "Which anti-tubercular drug is primarily bactericidal?",
+    "options": [
+      "Ethambutol",
+      "Isoniazid",
+      "Pyrazinamide",
+      "Both Isoniazid and Pyrazinamide"
+    ],
+    "correct": 3,
+    "explanation": "Both INH and PZA are bactericidal first-line drugs; rifampicin is also bactericidal but not listed here.",
+    "explanations": {
+      "A": "Ethambutol is bacteriostatic.",
+      "B": "Isoniazid is bactericidal, but the question asks which options are bactericidal.",
+      "C": "Pyrazinamide is bactericidal in acidic intracellular environment (sterilising).",
+      "D": "Both INH and PZA are bactericidal first-line drugs; rifampicin is also bactericidal but not listed here."
+    },
+    "subject": "Community Health",
+    "topic": "ATT pharmacology",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 101,
+    "_origId": "N9-84",
+    "question": "A 50-year-old with neuropathic pain after nerve injury is prescribed a medication. Which is most commonly used for neuropathic pain?",
+    "options": [
+      "Ibuprofen",
+      "Gabapentin",
+      "Paracetamol",
+      "Morphine"
+    ],
+    "correct": 1,
+    "explanation": "Gabapentin (or pregabalin) is first-line per WHO analgesic ladder for neuropathic pain.",
+    "explanations": {
+      "A": "NSAIDs are ineffective for neuropathic pain.",
+      "B": "Gabapentin (or pregabalin) is first-line per WHO analgesic ladder for neuropathic pain.",
+      "C": "Acetaminophen targets nociceptive pain.",
+      "D": "Opioids are reserved for refractory cases; not first-line."
+    },
+    "subject": "Psychiatric",
+    "topic": "Neuropathic pain",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "scenario",
+    "section": "psychiatric",
+    "tags": [],
+    "_sourceFile": "norcet-9-mains-2025.json"
+  },
+  {
+    "id": 1242,
     "question": "Antidote for opioid overdose:",
     "options": [
       "Flumazenil",
@@ -25,7 +228,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1146,
+    "id": 1252,
     "question": "Antidote for opioid overdose:",
     "options": [
       "Flumazenil",
@@ -50,7 +253,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1156,
+    "id": 1262,
     "question": "Antidote for opioid overdose:",
     "options": [
       "Flumazenil",
@@ -75,7 +278,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1166,
+    "id": 1272,
     "question": "Antidote for opioid overdose:",
     "options": [
       "Flumazenil",
@@ -100,7 +303,7 @@
     "qtype": "factual"
   },
   {
-    "id": 859,
+    "id": 965,
     "question": "A patient with acute coronary syndrome is receiving dual antiplatelet therapy (aspirin + clopidogrel). What is the priority teaching?",
     "options": [
       "Report signs of bleeding",
@@ -125,7 +328,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 860,
+    "id": 966,
     "question": "A patient with end-stage renal disease is on peritoneal dialysis. What is the most critical complication to monitor?",
     "options": [
       "Peritonitis",
@@ -150,7 +353,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 861,
+    "id": 967,
     "question": "A patient with Guillain-Barré syndrome is in the acute phase. What is the priority nursing intervention?",
     "options": [
       "Respiratory monitoring",
@@ -175,7 +378,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 862,
+    "id": 968,
     "question": "A patient with tension pneumothorax requires immediate intervention. What is the priority action?",
     "options": [
       "Administer oxygen",
@@ -200,7 +403,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 863,
+    "id": 969,
     "question": "A patient with abdominal aortic aneurysm (AAA) is at risk for rupture. What is the most important nursing assessment?",
     "options": [
       "Blood pressure",
@@ -225,7 +428,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 870,
+    "id": 976,
     "question": "A patient post-CABG surgery develops atrial fibrillation. What is the priority nursing intervention?",
     "options": [
       "Administer digoxin",
@@ -250,7 +453,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 879,
+    "id": 985,
     "question": "A patient with pheochromocytoma is at risk for which complication?",
     "options": [
       "Hypotension",
@@ -275,7 +478,7 @@
     "qtype": "factual"
   },
   {
-    "id": 915,
+    "id": 1021,
     "question": "[IMAGE-BASED] The image shows a syringe with a needle. Which gauge is typically used for intramuscular injection in an adult?",
     "options": [
       "18 G",
@@ -300,7 +503,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1044,
+    "id": 1150,
     "question": "Which drug class does propranolol belong to?",
     "options": [
       "ACE inhibitor",
@@ -325,7 +528,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1046,
+    "id": 1152,
     "question": "Rifampicin is a key drug in treatment of:",
     "options": [
       "Viral hepatitis",
@@ -350,7 +553,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1047,
+    "id": 1153,
     "question": "Antidote for heparin overdose is:",
     "options": [
       "Vitamin K",
@@ -375,7 +578,7 @@
     "qtype": "calculation"
   },
   {
-    "id": 1048,
+    "id": 1154,
     "question": "Warfarin overdose is reversed with:",
     "options": [
       "Protamine",
@@ -400,7 +603,7 @@
     "qtype": "calculation"
   },
   {
-    "id": 1049,
+    "id": 1155,
     "question": "Specific antidote for benzodiazepine overdose:",
     "options": [
       "Naloxone",
@@ -425,7 +628,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1050,
+    "id": 1156,
     "question": "Naloxone is the antidote for:",
     "options": [
       "Benzodiazepines",
@@ -450,7 +653,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1051,
+    "id": 1157,
     "question": "Organophosphate poisoning is treated with atropine and:",
     "options": [
       "Naloxone",
@@ -475,7 +678,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1052,
+    "id": 1158,
     "question": "Acetaminophen (paracetamol) overdose antidote:",
     "options": [
       "Methylene blue",
@@ -500,7 +703,7 @@
     "qtype": "calculation"
   },
   {
-    "id": 1053,
+    "id": 1159,
     "question": "First-pass metabolism mainly occurs in:",
     "options": [
       "Kidneys",
@@ -525,7 +728,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1054,
+    "id": 1160,
     "question": "Half-life of a drug refers to time for plasma concentration to:",
     "options": [
       "Double",
@@ -550,7 +753,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1056,
+    "id": 1162,
     "question": "Serum digoxin level should be monitored especially when combined with:",
     "options": [
       "Penicillin",
@@ -570,181 +773,6 @@
     "topic": "Cardiovascular",
     "day": 13,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1057,
-    "question": "Lithium therapy requires monitoring of:",
-    "options": [
-      "Liver enzymes only",
-      "Serum lithium and renal function",
-      "INR only",
-      "TSH only"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Liver enzymes only\" is a plausible distractor but incorrect. The correct answer is B (\"Serum lithium and renal function\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"INR only\" is a plausible distractor but incorrect. The correct answer is B (\"Serum lithium and renal function\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"TSH only\" is a plausible distractor but incorrect. The correct answer is B (\"Serum lithium and renal function\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "CNS Drugs",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1059,
-    "question": "Aminoglycosides are primarily:",
-    "options": [
-      "Bacteriostatic",
-      "Bactericidal",
-      "Antifungal",
-      "Antiviral"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Bacteriostatic\" is a plausible distractor but incorrect. The correct answer is B (\"Bactericidal\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Antifungal\" is a plausible distractor but incorrect. The correct answer is B (\"Bactericidal\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Antiviral\" is a plausible distractor but incorrect. The correct answer is B (\"Bactericidal\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Antimicrobials",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1061,
-    "question": "Atropine is used in symptomatic bradycardia because it:",
-    "options": [
-      "Blocks beta receptors",
-      "Blocks muscarinic receptors",
-      "Increases potassium",
-      "Slows AV conduction"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Blocks beta receptors\" is a plausible distractor but incorrect. The correct answer is B (\"Blocks muscarinic receptors\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Increases potassium\" is a plausible distractor but incorrect. The correct answer is B (\"Blocks muscarinic receptors\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Slows AV conduction\" is a plausible distractor but incorrect. The correct answer is B (\"Blocks muscarinic receptors\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Emergency Drugs",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1062,
-    "question": "Sublingual nitroglycerin should be stored:",
-    "options": [
-      "In direct sunlight",
-      "In a cool dark place; replace after opening per guidelines",
-      "In freezer",
-      "With desiccant only"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"In direct sunlight\" is a plausible distractor but incorrect. The correct answer is B (\"In a cool dark place; replace after opening per guidelines\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"In freezer\" is a plausible distractor but incorrect. The correct answer is B (\"In a cool dark place; replace after opening per guidelines\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"With desiccant only\" is a plausible distractor but incorrect. The correct answer is B (\"In a cool dark place; replace after opening per guidelines\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Nursing Pharmacology",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1063,
-    "question": "Rapid-acting insulin example:",
-    "options": [
-      "NPH",
-      "Glargine",
-      "Lispro",
-      "Detemir"
-    ],
-    "correct": 2,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"NPH\" is a plausible distractor but incorrect. The correct answer is C (\"Lispro\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "\"Glargine\" is a plausible distractor but incorrect. The correct answer is C (\"Lispro\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Detemir\" is a plausible distractor but incorrect. The correct answer is C (\"Lispro\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Insulin",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1064,
-    "question": "ACE inhibitors commonly cause which side effect?",
-    "options": [
-      "Hyperkalemia and dry cough",
-      "Hypokalemia",
-      "Bradycardia only",
-      "Constipation only"
-    ],
-    "correct": 0,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
-    "explanations": {
-      "A": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "B": "\"Hypokalemia\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia and dry cough\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "C": "\"Bradycardia only\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia and dry cough\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "D": "\"Constipation only\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia and dry cough\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics."
-    },
-    "subject": "Pharmacology",
-    "topic": "Drug Classification",
-    "day": 13,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1066,
-    "question": "Furosemide is a:",
-    "options": [
-      "Potassium-sparing diuretic",
-      "Loop diuretic",
-      "Osmotic diuretic",
-      "Carbonic anhydrase inhibitor"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
-    "explanations": {
-      "A": "\"Potassium-sparing diuretic\" is a plausible distractor but incorrect. The correct answer is B (\"Loop diuretic\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "C": "\"Osmotic diuretic\" is a plausible distractor but incorrect. The correct answer is B (\"Loop diuretic\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "D": "\"Carbonic anhydrase inhibitor\" is a plausible distractor but incorrect. The correct answer is B (\"Loop diuretic\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics."
-    },
-    "subject": "Pharmacology",
-    "topic": "Diuretics",
-    "day": 13,
-    "difficulty": "Hard",
     "source": "Practice",
     "year": null,
     "qtype": "factual"
