@@ -1,0 +1,752 @@
+[
+  {
+    "id": 5,
+    "question": "IV infusion of 1 L at 125 mL/hr — duration is:",
+    "options": [
+      "6 hr",
+      "8 hr",
+      "10 hr",
+      "12 hr"
+    ],
+    "correct": 1,
+    "explanation": "1000 ÷ 125 = 8 hours.",
+    "explanations": {
+      "A": "6 hr × 125 = 750 mL, not 1 L.",
+      "B": "1000 ÷ 125 = 8 hours.",
+      "C": "10 hr × 125 = 1250 mL, too much.",
+      "D": "12 hr × 125 = 1500 mL, too much."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug calculation",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "calculation"
+  },
+  {
+    "id": 27,
+    "question": "Normal ET tube size for full-term newborn (uncuffed):",
+    "options": [
+      "2.5 mm",
+      "3.0–3.5 mm",
+      "4.0 mm",
+      "4.5 mm"
+    ],
+    "correct": 1,
+    "explanation": "Term newborn ~3.0–3.5 mm uncuffed.",
+    "explanations": {
+      "A": "Used for <1 kg preterm.",
+      "B": "Term newborn ~3.0–3.5 mm uncuffed.",
+      "C": "Older infant (6–12 mo).",
+      "D": "Child >1 year."
+    },
+    "subject": "Pediatric",
+    "topic": "ET tube",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "NORCET 6 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 212,
+    "question": "[IMAGE-BASED] The image shows an endotracheal tube. What internal diameter (mm) is typically used for an average adult female?",
+    "options": [
+      "6.0–6.5 mm",
+      "7.0–7.5 mm",
+      "8.0–8.5 mm",
+      "9.0 mm"
+    ],
+    "correct": 1,
+    "explanation": "• Adult female ETT is usually 7.0–7.5 mm; adult male 7.5–8.5 mm.\n• Pediatric formula: (age/4) + 4 mm.\n• Tube sizing from images is a recurrent NORCET topic.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Adult female ETT is usually 7.0–7.5 mm; adult male 7.5–8.5 mm. Pediatric formula: (age/4) + 4 mm.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Image-Based - Airway",
+    "day": 2,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 217,
+    "question": "A patient with stroke (CVA) is unable to swallow. What is the most appropriate initial nursing action?",
+    "options": [
+      "Start nasogastric tube feeding",
+      "Provide oral care only",
+      "NPO status with IV fluids",
+      "Encourage small sips of water"
+    ],
+    "correct": 2,
+    "explanation": "• Patients with dysphagia after stroke are at high risk for aspiration.\n• NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.\n• IV fluids maintain hydration.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neurological System",
+    "day": 2,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 287,
+    "question": "A patient requires blood transfusion. What is the correct administration set?",
+    "options": [
+      "Standard IV set",
+      "Blood administration set with filter",
+      "Syringe pump",
+      "Any administration set"
+    ],
+    "correct": 1,
+    "explanation": "• Blood transfusion requires special blood administration set with built-in filter (170-260 micron) to remove clots and aggregates.\n• Use Y-type set for normal saline compatibility.\n• Never use standard IV set.\n• Proper equipment prevents complications and ensures safe transfusion.\n• This knowledge is critical for blood administration.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Blood transfusion requires special blood administration set with built-in filter (170-260 micron) to remove clots and aggregates. Use Y-type set for normal saline compatibility.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Transfusion Equipment",
+    "day": 2,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "factual"
+  },
+  {
+    "id": 370,
+    "question": "What is the priority nursing care for a woman with hyperemesis gravidarum?",
+    "options": [
+      "Encourage oral fluids",
+      "IV fluid replacement",
+      "Administer antiemetics",
+      "Dietary counseling"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperemesis gravidarum causes severe dehydration and electrolyte imbalance.\n• IV fluid replacement is the priority to restore fluid and electrolyte balance.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Hyperemesis gravidarum causes severe dehydration and electrolyte imbalance. IV fluid replacement is the priority to restore fluid and electrolyte balance.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 2,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 392,
+    "question": "A 3-year-old child with dehydration is receiving IV fluids. What is the priority nursing intervention?",
+    "options": [
+      "Monitor intake and output",
+      "Check blood glucose",
+      "Assess skin turgor",
+      "Measure weight daily"
+    ],
+    "correct": 0,
+    "explanation": "• Monitoring intake and output is critical in dehydration to assess fluid balance and response to treatment.\n• Daily weights also help assess fluid status.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "Monitoring intake and output is critical in dehydration to assess fluid balance and response to treatment. Daily weights also help assess fluid status.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Fluid Management",
+    "day": 2,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 408,
+    "question": "A 1-year-old child with bronchiolitis is having difficulty feeding. What is the priority intervention?",
+    "options": [
+      "Force oral feeding",
+      "Provide small, frequent feeds",
+      "Start IV fluids",
+      "Administer sedatives"
+    ],
+    "correct": 1,
+    "explanation": "• Small, frequent feeds reduce respiratory effort while maintaining nutrition.\n• IV fluids may be needed if oral intake is insufficient due to respiratory distress.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Small, frequent feeds reduce respiratory effort while maintaining nutrition. IV fluids may be needed if oral intake is insufficient due to respiratory distress.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Respiratory Conditions",
+    "day": 2,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "scenario"
+  },
+  {
+    "id": 418,
+    "question": "A 1-year-old child with bronchiolitis is having difficulty feeding. What is the priority intervention?",
+    "options": [
+      "Force oral feeding",
+      "Provide small, frequent feeds",
+      "Start IV fluids",
+      "Administer sedatives"
+    ],
+    "correct": 1,
+    "explanation": "• Small, frequent feeds reduce respiratory effort while maintaining nutrition.\n• IV fluids may be needed if oral intake is insufficient due to respiratory distress.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Small, frequent feeds reduce respiratory effort while maintaining nutrition. IV fluids may be needed if oral intake is insufficient due to respiratory distress.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Respiratory Conditions",
+    "day": 2,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 426,
+    "question": "Which drug class does propranolol belong to?",
+    "options": [
+      "ACE inhibitor",
+      "Beta-blocker",
+      "Calcium channel blocker",
+      "Diuretic"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug Classification",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 427,
+    "question": "Clozapine is primarily classified as:",
+    "options": [
+      "Typical antipsychotic",
+      "Atypical antipsychotic",
+      "Mood stabilizer",
+      "Benzodiazepine"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug Classification",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 428,
+    "question": "Rifampicin is a key drug in treatment of:",
+    "options": [
+      "Viral hepatitis",
+      "Tuberculosis",
+      "Malaria",
+      "Typhoid"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug Classification",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 429,
+    "question": "Antidote for heparin overdose is:",
+    "options": [
+      "Vitamin K",
+      "Protamine sulfate",
+      "Fresh frozen plasma",
+      "Tranexamic acid"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Anticoagulants",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "calculation"
+  },
+  {
+    "id": 430,
+    "question": "Warfarin overdose is reversed with:",
+    "options": [
+      "Protamine",
+      "Vitamin K (phytonadione)",
+      "Calcium gluconate",
+      "Atropine"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Anticoagulants",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "calculation"
+  },
+  {
+    "id": 431,
+    "question": "Specific antidote for benzodiazepine overdose:",
+    "options": [
+      "Naloxone",
+      "Flumazenil",
+      "Physostigmine",
+      "Pralidoxime"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antidotes",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 432,
+    "question": "Naloxone is the antidote for:",
+    "options": [
+      "Benzodiazepines",
+      "Opioids",
+      "Organophosphates",
+      "Beta-blockers"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antidotes",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 433,
+    "question": "Organophosphate poisoning is treated with atropine and:",
+    "options": [
+      "Naloxone",
+      "Pralidoxime",
+      "Flumazenil",
+      "Vitamin K"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antidotes",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 434,
+    "question": "Acetaminophen (paracetamol) overdose antidote:",
+    "options": [
+      "Methylene blue",
+      "N-acetylcysteine",
+      "Dimercaprol",
+      "EDTA"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antidotes",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "calculation"
+  },
+  {
+    "id": 435,
+    "question": "First-pass metabolism mainly occurs in:",
+    "options": [
+      "Kidneys",
+      "Liver",
+      "Lungs",
+      "Skin"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Pharmacokinetics",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 436,
+    "question": "Half-life of a drug refers to time for plasma concentration to:",
+    "options": [
+      "Double",
+      "Reduce by 50%",
+      "Reach steady state",
+      "Clear completely"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Pharmacokinetics",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 438,
+    "question": "Serum digoxin level should be monitored especially when combined with:",
+    "options": [
+      "Penicillin",
+      "Amiodarone",
+      "Paracetamol",
+      "Metformin"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 439,
+    "question": "Lithium therapy requires monitoring of:",
+    "options": [
+      "Liver enzymes only",
+      "Serum lithium and renal function",
+      "INR only",
+      "TSH only"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "CNS Drugs",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 440,
+    "question": "RIPE regimen for TB includes all EXCEPT:",
+    "options": [
+      "Rifampicin",
+      "Isoniazid",
+      "Pyrazinamide",
+      "Chloramphenicol"
+    ],
+    "correct": 3,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 441,
+    "question": "Aminoglycosides are primarily:",
+    "options": [
+      "Bacteriostatic",
+      "Bactericidal",
+      "Antifungal",
+      "Antiviral"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 444,
+    "question": "Sublingual nitroglycerin should be stored:",
+    "options": [
+      "In direct sunlight",
+      "In a cool dark place; replace after opening per guidelines",
+      "In freezer",
+      "With desiccant only"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Nursing Pharmacology",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 445,
+    "question": "Rapid-acting insulin example:",
+    "options": [
+      "NPH",
+      "Glargine",
+      "Lispro",
+      "Detemir"
+    ],
+    "correct": 2,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Insulin",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 446,
+    "question": "ACE inhibitors commonly cause which side effect?",
+    "options": [
+      "Hyperkalemia and dry cough",
+      "Hypokalemia",
+      "Bradycardia only",
+      "Constipation only"
+    ],
+    "correct": 0,
+    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanations": {
+      "A": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug Classification",
+    "day": 2,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 447,
+    "question": "Which antipsychotic requires regular CBC monitoring for agranulocytosis risk?",
+    "options": [
+      "Haloperidol",
+      "Clozapine",
+      "Olanzapine",
+      "Risperidone"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antipsychotics",
+    "day": 2,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 448,
+    "question": "Furosemide is a:",
+    "options": [
+      "Potassium-sparing diuretic",
+      "Loop diuretic",
+      "Osmotic diuretic",
+      "Carbonic anhydrase inhibitor"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Diuretics",
+    "day": 2,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 449,
+    "question": "Opioid-induced constipation is often managed with:",
+    "options": [
+      "Atropine",
+      "Methylnaltrexone or laxatives per protocol",
+      "Propranolol",
+      "Diazepam"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Analgesics",
+    "day": 2,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  }
+]

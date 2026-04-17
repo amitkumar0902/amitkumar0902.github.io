@@ -1,0 +1,627 @@
+[
+  {
+    "id": 23,
+    "question": "Triple-lumen catheter typically has:",
+    "options": [
+      "1 port",
+      "2 ports",
+      "3 ports",
+      "4 ports"
+    ],
+    "correct": 2,
+    "explanation": "Triple-lumen = 3 ports (distal/middle/proximal).",
+    "explanations": {
+      "A": "Single-lumen.",
+      "B": "Double-lumen.",
+      "C": "Triple-lumen = 3 ports (distal/middle/proximal).",
+      "D": "Quadruple-lumen, less common."
+    },
+    "subject": "Fundamentals",
+    "topic": "Central line",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "NORCET 7 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 198,
+    "question": "What is the correct method for measuring central venous pressure (CVP)?",
+    "options": [
+      "Measure at mid-axillary line (4th intercostal space)",
+      "Measure at sternal angle",
+      "Measure at any level",
+      "Measure at heart level"
+    ],
+    "correct": 0,
+    "explanation": "• CVP is measured at the phlebostatic axis (mid-axillary line at 4th intercostal space) with patient supine.\n• This represents right atrial pressure.\n• Normal CVP is 2-8 mmHg.\n• Understanding CVP measurement is critical for assessing fluid status and cardiac function in critically ill patients.",
+    "explanations": {
+      "A": "CVP is measured at the phlebostatic axis (mid-axillary line at 4th intercostal space) with patient supine. This represents right atrial pressure.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Monitoring Equipment",
+    "day": 8,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "factual"
+  },
+  {
+    "id": 246,
+    "question": "A patient receiving TPN (Total Parenteral Nutrition) develops hyperglycemia. What is the priority intervention?",
+    "options": [
+      "Stop TPN",
+      "Add insulin to TPN solution",
+      "Increase TPN rate",
+      "Monitor only"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperglycemia in TPN patients requires insulin administration, often added directly to the TPN solution or given separately.\n• TPN should not be stopped abruptly.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Hyperglycemia in TPN patients requires insulin administration, often added directly to the TPN solution or given separately. TPN should not be stopped abruptly.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Nutrition",
+    "day": 8,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2017",
+    "qtype": "scenario"
+  },
+  {
+    "id": 278,
+    "question": "A patient with TPN (Total Parenteral Nutrition) develops hyperglycemia. What is the priority intervention?",
+    "options": [
+      "Stop TPN",
+      "Add insulin to TPN solution",
+      "Increase TPN rate",
+      "Monitor only"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately.\n• TPN should not be stopped abruptly.\n• Monitor blood glucose frequently.\n• Understanding TPN management prevents complications and ensures adequate nutrition in critically ill patients.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Hyperglycemia in TPN requires insulin administration, often added directly to TPN solution or given separately. TPN should not be stopped abruptly.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Nutrition Support Equipment",
+    "day": 8,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2016",
+    "qtype": "scenario"
+  },
+  {
+    "id": 299,
+    "question": "Autoclave uses:",
+    "options": [
+      "Dry heat 160°C",
+      "Steam under pressure ~121°C",
+      "Ethylene oxide only",
+      "UV light"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Sterilization",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 300,
+    "question": "Hot air oven is used for:",
+    "options": [
+      "Rubber gloves",
+      "Glassware and oils",
+      "Catheters",
+      "Endoscopes"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Sterilization",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 301,
+    "question": "Gram-negative bacteria have:",
+    "options": [
+      "Thick peptidoglycan, no outer membrane",
+      "Thin peptidoglycan and outer membrane with LPS",
+      "No cell wall",
+      "Acid-fast wall"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 302,
+    "question": "Hepatitis B transmission includes:",
+    "options": [
+      "Fecal-oral only",
+      "Blood and sexual contact",
+      "Respiratory droplets",
+      "Mosquito"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 303,
+    "question": "Mantoux test measures:",
+    "options": [
+      "Humoral immunity",
+      "Delayed hypersensitivity to TB antigens",
+      "IgM only",
+      "Viral load"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "TB",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 305,
+    "question": "Malaria vector:",
+    "options": [
+      "Culex",
+      "Anopheles",
+      "Aedes",
+      "Housefly"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 306,
+    "question": "Passive immunity example:",
+    "options": [
+      "Vaccine",
+      "Maternal IgG across placenta",
+      "Natural infection recovery",
+      "Memory B cells"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Immunity",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 307,
+    "question": "ELISA is used to detect:",
+    "options": [
+      "Only bacteria culture",
+      "Antigens or antibodies in serum",
+      "Only fungal hyphae",
+      "Only parasites in stool"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Diagnostics",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 308,
+    "question": "Spores are best destroyed by:",
+    "options": [
+      "Boiling 1 minute",
+      "Autoclaving",
+      "Alcohol rub",
+      "Soap wash"
+    ],
+    "correct": 1,
+    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Microbiology/infection control high-yield for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Infection Control",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 1,
+    "question": "The Parkland formula for fluid resuscitation in burns is:",
+    "options": [
+      "2 mL × kg × %TBSA",
+      "3 mL × kg × %TBSA",
+      "4 mL × kg × %TBSA",
+      "5 mL × kg × %TBSA"
+    ],
+    "correct": 2,
+    "explanation": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+    "explanations": {
+      "A": "2 mL×kg×%TBSA is the Modified Brooke formula, not Parkland.",
+      "B": "3 mL×kg×%TBSA is seen in pediatric modifications (Galveston) — not Parkland.",
+      "C": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+      "D": "Exceeds standard resuscitation volume and risks over-resuscitation."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Burns",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 2,
+    "question": "Most common electrolyte abnormality in chronic kidney disease is:",
+    "options": [
+      "Hypokalemia",
+      "Hyperkalemia",
+      "Hyponatremia",
+      "Hypercalcemia"
+    ],
+    "correct": 1,
+    "explanation": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
+    "explanations": {
+      "A": "Hypokalemia is seen in loop diuretic over-use, not typical of CKD.",
+      "B": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
+      "C": "Hyponatremia can occur but not the hallmark finding.",
+      "D": "Hypercalcemia is atypical; CKD typically causes hypocalcemia."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Renal",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 3,
+    "question": "In BLS (AHA 2020), the correct sequence for adults is:",
+    "options": [
+      "A-B-C",
+      "C-A-B",
+      "B-C-A",
+      "Call-Check-Compress"
+    ],
+    "correct": 1,
+    "explanation": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
+    "explanations": {
+      "A": "Older Airway-Breathing-Compressions sequence has been superseded.",
+      "B": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
+      "C": "Incorrect ordering.",
+      "D": "Describes the pre-BLS check, not the CPR sequence itself."
+    },
+    "subject": "Fundamentals",
+    "topic": "BLS/ACLS",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 4,
+    "question": "Correct depth of chest compression in adult CPR is:",
+    "options": [
+      "1-2 cm",
+      "3-4 cm",
+      "5-6 cm",
+      "7-8 cm"
+    ],
+    "correct": 2,
+    "explanation": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
+    "explanations": {
+      "A": "Too shallow — insufficient coronary perfusion pressure.",
+      "B": "Still below AHA recommendation.",
+      "C": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
+      "D": "Excessive depth increases rib-fracture/internal-injury risk."
+    },
+    "subject": "Fundamentals",
+    "topic": "BLS/ACLS",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 5,
+    "question": "IV infusion of 1 L at 125 mL/hr — duration is:",
+    "options": [
+      "6 hr",
+      "8 hr",
+      "10 hr",
+      "12 hr"
+    ],
+    "correct": 1,
+    "explanation": "1000 ÷ 125 = 8 hours.",
+    "explanations": {
+      "A": "6 hr × 125 = 750 mL, not 1 L.",
+      "B": "1000 ÷ 125 = 8 hours.",
+      "C": "10 hr × 125 = 1250 mL, too much.",
+      "D": "12 hr × 125 = 1500 mL, too much."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug calculation",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "calculation"
+  },
+  {
+    "id": 6,
+    "question": "First-line drug for severe pre-eclampsia / eclampsia prophylaxis:",
+    "options": [
+      "Hydralazine",
+      "Magnesium sulfate",
+      "Labetalol",
+      "Diazepam"
+    ],
+    "correct": 1,
+    "explanation": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+    "explanations": {
+      "A": "BP control adjunct, not seizure prophylaxis.",
+      "B": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+      "C": "Antihypertensive only, not seizure prevention.",
+      "D": "Older practice, now supplanted by MgSO4."
+    },
+    "subject": "OBG",
+    "topic": "Eclampsia",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 7,
+    "question": "Normal APGAR score range is:",
+    "options": [
+      "0–5",
+      "0–10",
+      "0–15",
+      "1–10"
+    ],
+    "correct": 1,
+    "explanation": "5 criteria × 0–2 each → total 0–10.",
+    "explanations": {
+      "A": "Maximum is 10, not 5.",
+      "B": "5 criteria × 0–2 each → total 0–10.",
+      "C": "Incorrect.",
+      "D": "Minimum is 0, not 1."
+    },
+    "subject": "Pediatric",
+    "topic": "APGAR",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 8,
+    "question": "Exclusive breastfeeding WHO recommendation:",
+    "options": [
+      "3 months",
+      "4 months",
+      "6 months",
+      "12 months"
+    ],
+    "correct": 2,
+    "explanation": "WHO: exclusive breastfeeding first 6 months of life.",
+    "explanations": {
+      "A": "Too short per WHO.",
+      "B": "Below current WHO guidance.",
+      "C": "WHO: exclusive breastfeeding first 6 months of life.",
+      "D": "Complementary feeding should start by 6 months."
+    },
+    "subject": "Community Health",
+    "topic": "MCH",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 9,
+    "question": "Which antipsychotic requires weekly CBC monitoring?",
+    "options": [
+      "Haloperidol",
+      "Clozapine",
+      "Risperidone",
+      "Olanzapine"
+    ],
+    "correct": 1,
+    "explanation": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
+    "explanations": {
+      "A": "EPS risk but no mandatory CBC protocol.",
+      "B": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
+      "C": "Routine CBC not mandated.",
+      "D": "Metabolic monitoring needed; not weekly CBC."
+    },
+    "subject": "Psychiatric",
+    "topic": "Antipsychotics",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 10,
+    "question": "Yellow-coded BMW bag contains:",
+    "options": [
+      "General waste",
+      "Sharps",
+      "Human anatomical / soiled / micro / chem",
+      "Discarded medicines"
+    ],
+    "correct": 2,
+    "explanation": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
+    "explanations": {
+      "A": "General goes in black, not yellow.",
+      "B": "Sharps → white translucent puncture-proof.",
+      "C": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
+      "D": "Discarded meds go in yellow sub-category but whole bag label is broader — best answer is the full yellow list (C)."
+    },
+    "subject": "Community Health",
+    "topic": "BMW",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 11,
+    "question": "MTP Act (2021 amendment) allows termination up to:",
+    "options": [
+      "12 weeks",
+      "20 weeks",
+      "24 weeks",
+      "28 weeks"
+    ],
+    "correct": 2,
+    "explanation": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
+    "explanations": {
+      "A": "Previous lower limit without conditions.",
+      "B": "Up to 20 wk with one RMP opinion.",
+      "C": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
+      "D": "Only beyond 24 wk with Medical Board approval for substantial fetal abnormalities."
+    },
+    "subject": "OBG",
+    "topic": "MTP Act",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 12,
+    "question": "PM-JAY coverage per family per year:",
+    "options": [
+      "₹1 lakh",
+      "₹3 lakh",
+      "₹5 lakh",
+      "₹10 lakh"
+    ],
+    "correct": 2,
+    "explanation": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
+    "explanations": {
+      "A": "Too low.",
+      "B": "Too low.",
+      "C": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
+      "D": "Incorrect."
+    },
+    "subject": "Community Health",
+    "topic": "National Programs",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  }
+]

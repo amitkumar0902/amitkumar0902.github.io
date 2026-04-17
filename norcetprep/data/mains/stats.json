@@ -1,0 +1,40 @@
+{
+  "totalQs": 579,
+  "pyqCount": 0,
+  "legacyCount": 55,
+  "practiceCount": 492,
+  "bySubject": {
+    "Medical-Surgical": 91,
+    "Fundamentals": 83,
+    "Pharmacology": 72,
+    "OBG": 47,
+    "Pediatric": 40,
+    "Community Health": 44,
+    "Psychiatric": 31,
+    "Admin": 24,
+    "Anatomy": 42,
+    "Microbiology": 28,
+    "Nutrition": 22,
+    "Mixed": 55
+  },
+  "byDay": {
+    "1": 46,
+    "2": 73,
+    "3": 37,
+    "4": 40,
+    "5": 11,
+    "6": 47,
+    "7": 64,
+    "8": 13,
+    "9": 70,
+    "10": 178,
+    "11": 0,
+    "12": 0,
+    "13": 0
+  },
+  "byQtype": {
+    "factual": 485,
+    "calculation": 11,
+    "scenario": 83
+  }
+}

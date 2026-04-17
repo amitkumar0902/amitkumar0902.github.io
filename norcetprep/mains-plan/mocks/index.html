@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Mock Tests · NORCET Mains 2026</title>
+  <meta name="description" content="Ten full-length NORCET Mains mock tests — 160 questions in 180 minutes each, with subject-wise analysis and negative marking.">
+  <link rel="stylesheet" href="../../css/mains-theme.css">
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <script src="../../js/core.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      NM.boot('mocks');
+      loadMocks();
+    });
+    async function loadMocks() {
+      const host = document.getElementById('mocks-list');
+      try {
+        const res = await fetch('../../data/mains/mocks/index.json');
+        const mocks = await res.json();
+        const results = NM.get('mockResults', []);
+        const latest = {};
+        results.forEach(r => { latest[r.id] = r; });
+        host.innerHTML = mocks.map(m => {
+          const r = latest[m.id];
+          const top = Object.entries(m.subjects).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([s,n])=>s+' '+n).join(' · ');
+          const status = r ? '<span class="status done">'+r.pct.toFixed(0)+'%</span>' : '<span class="status">unattempted</span>';
+          const prog = r ? '<div class="progress-bar"><div class="progress-bar__fill" style="width:'+r.pct+'%"></div></div>' : '';
+          const saved = NM.get('mock.' + m.id);
+          const resumable = saved && !saved.submitted ? ' <span class="badge badge--warn">resume</span>' : '';
+          return '<li>' +
+            '<span class="num">Mock '+m.id+'</span>' +
+            '<span class="title">'+m.title+resumable+'<div class="small muted">'+m.count+' Q · '+m.minutes+' min · '+top+'</div>'+prog+'</span>' +
+            '<span class="links"><a href="mock.html?id='+m.id+'">'+(r?'Retake':'Start')+'</a>'+(r?' <a href="mock.html?id='+m.id+'#review">Review</a>':'')+'</span>' +
+            status +
+          '</li>';
+        }).join('');
+      } catch (e) {
+        host.innerHTML = '<li>Could not load mocks. Run the build script.</li>';
+      }
+    }
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="../index.html">← Back to Plan</a>
+  <h1>Full Mock Tests</h1>
+  <p class="muted">Ten full-length NORCET Mains simulations. Each is 160 questions in 180 minutes, with +1 correct and −1/3 wrong. Results are saved locally with subject-wise analysis.</p>
+
+  <h2>The 10 mocks</h2>
+  <ul class="lecture-list" id="mocks-list"><li>Loading...</li></ul>
+
+  <h2>How to use them</h2>
+  <ul>
+    <li><strong>Phase 1 (Days 1–5):</strong> Optional — attempt Mock 1 as a baseline only if time permits.</li>
+    <li><strong>Phase 2 (Days 6–9):</strong> Mocks 2–4 at the end of each day.</li>
+    <li><strong>Phase 3 (Days 10–13):</strong> Mocks 5–10, one per day; review wrong answers the same evening.</li>
+    <li>Always submit even if you don't finish. The dashboard needs the data to triage weak areas.</li>
+  </ul>
+</main>
+</body>
+</html>

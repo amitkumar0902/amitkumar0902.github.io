@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings · NORCET Mains 2026</title>
+  <link rel="stylesheet" href="../css/mains-theme.css">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <script src="../js/core.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      NM.boot('settings');
+      const s = NM.get('settings', { animOff: false, hapticOff: false });
+      document.getElementById('anim').checked = !s.animOff;
+      document.getElementById('haptic').checked = !s.hapticOff;
+      document.getElementById('anim').addEventListener('change', (e) => save('animOff', !e.target.checked));
+      document.getElementById('haptic').addEventListener('change', (e) => save('hapticOff', !e.target.checked));
+      document.querySelectorAll('input[name="fs"]').forEach(r => {
+        r.checked = (NM.get('fontsize', 'md') === r.value);
+        r.addEventListener('change', () => { NM.set('fontsize', r.value); document.documentElement.setAttribute('data-fs', r.value); });
+      });
+      document.querySelectorAll('input[name="th"]').forEach(r => {
+        const cur = document.documentElement.getAttribute('data-theme') || 'light';
+        r.checked = (r.value === cur);
+        r.addEventListener('change', () => NM.applyTheme(r.value));
+      });
+      document.getElementById('reset').addEventListener('click', () => {
+        if (confirm('Clear all locally saved progress, mocks, SRS, activity?')) {
+          Object.keys(localStorage).forEach(k => { if (k.startsWith('nm.v1.')) localStorage.removeItem(k); });
+          alert('Cleared. Reloading.');
+          location.reload();
+        }
+      });
+    });
+    function save(k, v) {
+      const s = NM.get('settings', {}); s[k] = v; NM.set('settings', s);
+    }
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="index.html">← Back to Plan</a>
+  <h1>Settings</h1>
+
+  <h2>Theme</h2>
+  <label><input type="radio" name="th" value="light"> Light</label>
+  &nbsp;&nbsp;<label><input type="radio" name="th" value="dark"> Dark</label>
+
+  <h2>Font size</h2>
+  <label><input type="radio" name="fs" value="sm"> Small</label>
+  &nbsp;&nbsp;<label><input type="radio" name="fs" value="md"> Medium</label>
+  &nbsp;&nbsp;<label><input type="radio" name="fs" value="lg"> Large</label>
+
+  <h2>Accessibility &amp; feedback</h2>
+  <p><label><input type="checkbox" id="anim"> Animations &amp; celebrations</label></p>
+  <p><label><input type="checkbox" id="haptic"> Haptic feedback on mobile</label></p>
+
+  <h2>Keyboard shortcuts</h2>
+  <table>
+    <tr><td><kbd>1</kbd>–<kbd>4</kbd></td><td>Pick option</td></tr>
+    <tr><td><kbd>Enter</kbd></td><td>Submit / Next</td></tr>
+    <tr><td><kbd>F</kbd></td><td>Flag for review (in mocks)</td></tr>
+    <tr><td><kbd>←</kbd> <kbd>→</kbd></td><td>Prev / Next Q</td></tr>
+    <tr><td><kbd>Ctrl</kbd>+<kbd>K</kbd></td><td>Command palette</td></tr>
+    <tr><td><kbd>?</kbd></td><td>Keyboard help</td></tr>
+  </table>
+
+  <h2>Data</h2>
+  <p>All progress is stored privately in this browser. Nothing is sent to any server.</p>
+  <div class="btn-row">
+    <button class="btn btn--ghost" id="reset">Clear all progress</button>
+  </div>
+
+  <h2>Install as app</h2>
+  <p class="muted">On mobile: tap Share → Add to Home Screen. On desktop Chrome: click the install icon in the address bar. Works offline once cached.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,752 @@
+[
+  {
+    "id": 508,
+    "question": "Parkland formula for fluid resuscitation in burns uses:",
+    "options": [
+      "2 mL × kg × %TBSA",
+      "3 mL × kg × %TBSA",
+      "4 mL × kg × %TBSA lactated Ringer’s in 24h",
+      "5 mL × kg × %TBSA"
+    ],
+    "correct": 2,
+    "explanation": "• Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h).\n• Classic NORCET style.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Mixed",
+    "topic": "Emergency",
+    "day": 1,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
+    "qtype": "factual"
+  },
+  {
+    "id": 511,
+    "question": "Spinal anesthesia monitoring should especially watch for:",
+    "options": [
+      "Hypertension only",
+      "Hypotension and bradycardia",
+      "Hyperglycemia",
+      "Seizures only"
+    ],
+    "correct": 1,
+    "explanation": "• Sympathetic block → hypotension/bradycardia common.\n• NORCET clinical theme.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Mixed",
+    "topic": "Perioperative",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 1,
+    "question": "The Parkland formula for fluid resuscitation in burns is:",
+    "options": [
+      "2 mL × kg × %TBSA",
+      "3 mL × kg × %TBSA",
+      "4 mL × kg × %TBSA",
+      "5 mL × kg × %TBSA"
+    ],
+    "correct": 2,
+    "explanation": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+    "explanations": {
+      "A": "2 mL×kg×%TBSA is the Modified Brooke formula, not Parkland.",
+      "B": "3 mL×kg×%TBSA is seen in pediatric modifications (Galveston) — not Parkland.",
+      "C": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+      "D": "Exceeds standard resuscitation volume and risks over-resuscitation."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Burns",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 19,
+    "question": "Normal pH of arterial blood is:",
+    "options": [
+      "7.25–7.35",
+      "7.35–7.45",
+      "7.45–7.55",
+      "7.40–7.60"
+    ],
+    "correct": 1,
+    "explanation": "Physiological 7.35–7.45.",
+    "explanations": {
+      "A": "Acidemic range.",
+      "B": "Physiological 7.35–7.45.",
+      "C": "Alkalemic.",
+      "D": "Incorrect band."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "ABG",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 8 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 20,
+    "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
+    "options": [
+      "HOB flat",
+      "HOB elevation 30–45°",
+      "Continuous sedation",
+      "Paralytic infusion"
+    ],
+    "correct": 1,
+    "explanation": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
+    "explanations": {
+      "A": "Increases aspiration risk.",
+      "B": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
+      "C": "Over-sedation delays extubation and increases VAP risk.",
+      "D": "Paralytics have no routine VAP-prevention role."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "ICU care",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "NORCET 8 Mains",
+    "year": 2025,
+    "qtype": "scenario"
+  },
+  {
+    "id": 73,
+    "question": "P wave on ECG represents:",
+    "options": [
+      "Ventricular depolarization",
+      "Atrial depolarization",
+      "Ventricular repolarization",
+      "AV delay only"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Anatomy",
+    "topic": "Cardiovascular",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 139,
+    "question": "Rule of Nines: adult anterior trunk is about:",
+    "options": [
+      "9%",
+      "18%",
+      "27%",
+      "36%"
+    ],
+    "correct": 1,
+    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "First aid / emergency nursing for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Burns",
+    "day": 1,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 143,
+    "question": "Respiratory acidosis shows:",
+    "options": [
+      "Low CO2",
+      "High CO2 with acidic pH",
+      "High HCO3 with alkalemia",
+      "Always normal pH"
+    ],
+    "correct": 1,
+    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "First aid / emergency nursing for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "ABG",
+    "day": 1,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 200,
+    "question": "What is the correct method for testing nasogastric tube placement?",
+    "options": [
+      "Auscultation only",
+      "pH testing of aspirate",
+      "X-ray confirmation",
+      "Water injection test"
+    ],
+    "correct": 2,
+    "explanation": "• X-ray is the gold standard for confirming NG tube placement.\n• pH testing (<5.5 suggests gastric placement) is acceptable for ongoing verification.\n• Auscultation alone is unreliable.\n• Proper placement verification prevents aspiration and ensures safe feeding.\n• This knowledge is critical for patient safety.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "X-ray is the gold standard for confirming NG tube placement. pH testing (<5.5 suggests gastric placement) is acceptable for ongoing verification.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Feeding Equipment",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2017",
+    "qtype": "factual"
+  },
+  {
+    "id": 214,
+    "question": "A patient with myocardial infarction is admitted to the ICU. What is the priority nursing intervention in the first 24 hours?",
+    "options": [
+      "Administering pain medication",
+      "Continuous cardiac monitoring",
+      "Providing emotional support",
+      "Teaching about lifestyle modifications"
+    ],
+    "correct": 1,
+    "explanation": "• Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period.\n• While pain management and other interventions are important, cardiac monitoring takes priority.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Cardiovascular System",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 215,
+    "question": "A patient with chronic kidney disease is on hemodialysis. Which electrolyte imbalance is most commonly associated with renal failure?",
+    "options": [
+      "Hypokalemia",
+      "Hyperkalemia",
+      "Hyponatremia",
+      "Hypocalcemia"
+    ],
+    "correct": 1,
+    "explanation": "• Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium.\n• This can lead to life-threatening cardiac arrhythmias.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium. This can lead to life-threatening cardiac arrhythmias.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Renal System",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "scenario"
+  },
+  {
+    "id": 220,
+    "question": "A patient is scheduled for coronary artery bypass graft (CABG) surgery. What is the most important pre-operative teaching?",
+    "options": [
+      "Deep breathing exercises",
+      "Medication management",
+      "Dietary restrictions",
+      "Activity limitations"
+    ],
+    "correct": 0,
+    "explanation": "• Deep breathing exercises are critical post-CABG to prevent atelectasis and pneumonia.\n• Teaching should begin pre-operatively so patients can practice.",
+    "explanations": {
+      "A": "Deep breathing exercises are critical post-CABG to prevent atelectasis and pneumonia. Teaching should begin pre-operatively so patients can practice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Cardiovascular Surgery",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 223,
+    "question": "A patient with deep vein thrombosis (DVT) is receiving heparin therapy. What is the most critical nursing assessment?",
+    "options": [
+      "Blood pressure",
+      "Bleeding signs",
+      "Urine output",
+      "Temperature"
+    ],
+    "correct": 1,
+    "explanation": "• Heparin is an anticoagulant that increases bleeding risk.\n• Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Heparin is an anticoagulant that increases bleeding risk. Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Hematological System",
+    "day": 1,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 226,
+    "question": "A patient with burns covering 40% of body surface area is in the fluid resuscitation phase. What is the priority assessment?",
+    "options": [
+      "Pain level",
+      "Urine output",
+      "Wound appearance",
+      "Temperature"
+    ],
+    "correct": 1,
+    "explanation": "• Urine output is the best indicator of adequate fluid resuscitation in burn patients.\n• Target is 30-50 ml/hour in adults.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Emergency Care",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 228,
+    "question": "A patient with heart failure is prescribed digoxin. What is the most important sign of digoxin toxicity?",
+    "options": [
+      "Increased heart rate",
+      "Visual disturbances (yellow-green halos)",
+      "Hypertension",
+      "Increased urine output"
+    ],
+    "correct": 1,
+    "explanation": "• Visual disturbances, particularly yellow-green halos around lights, are classic early signs of digoxin toxicity.\n• Other signs include bradycardia, nausea, and arrhythmias.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Visual disturbances, particularly yellow-green halos around lights, are classic early signs of digoxin toxicity. Other signs include bradycardia, nausea, and arrhythmias.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Cardiovascular System",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 232,
+    "question": "A patient with glaucoma is prescribed timolol eye drops. What is the most important teaching point?",
+    "options": [
+      "Apply pressure to lacrimal duct after instillation",
+      "Use drops only in affected eye",
+      "Store in refrigerator",
+      "Use before meals"
+    ],
+    "correct": 0,
+    "explanation": "• Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
+    "explanations": {
+      "A": "Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Ophthalmology",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 236,
+    "question": "A patient with multiple sclerosis is experiencing an exacerbation. What is the priority nursing intervention?",
+    "options": [
+      "Encourage activity",
+      "Prevent complications of immobility",
+      "Administer high-dose steroids",
+      "Provide emotional support"
+    ],
+    "correct": 1,
+    "explanation": "• During MS exacerbations, patients may have decreased mobility.\n• Preventing complications like pressure ulcers, contractures, and DVT is the priority.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "During MS exacerbations, patients may have decreased mobility. Preventing complications like pressure ulcers, contractures, and DVT is the priority.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neurological System",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "scenario"
+  },
+  {
+    "id": 249,
+    "question": "A patient requires endotracheal suctioning. What is the maximum suction time per pass?",
+    "options": [
+      "5 seconds",
+      "10 seconds",
+      "15 seconds",
+      "20 seconds"
+    ],
+    "correct": 1,
+    "explanation": "• Endotracheal suctioning should not exceed 10-15 seconds per pass to prevent hypoxia and cardiac arrhythmias.\n• Pre-oxygenate before suctioning.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Endotracheal suctioning should not exceed 10-15 seconds per pass to prevent hypoxia and cardiac arrhythmias. Pre-oxygenate before suctioning.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Critical Care",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2020",
+    "qtype": "factual"
+  },
+  {
+    "id": 252,
+    "question": "A patient post-CABG surgery develops atrial fibrillation. What is the priority nursing intervention?",
+    "options": [
+      "Administer digoxin",
+      "Monitor for stroke risk",
+      "Increase activity",
+      "Restrict fluids"
+    ],
+    "correct": 1,
+    "explanation": "• Atrial fibrillation post-CABG increases stroke risk due to blood stasis.\n• Anticoagulation and monitoring for embolic events are priorities.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Atrial fibrillation post-CABG increases stroke risk due to blood stasis. Anticoagulation and monitoring for embolic events are priorities.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Cardiovascular Surgery",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 264,
+    "question": "A patient with acute coronary syndrome requires primary PCI. What is the target time from ECG to PCI?",
+    "options": [
+      "Within 60 minutes",
+      "Within 90 minutes",
+      "Within 120 minutes",
+      "Within 180 minutes"
+    ],
+    "correct": 1,
+    "explanation": "• For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits.\n• Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.\n• Time to reperfusion is critical - every minute counts in preserving myocardial function.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Cardiovascular System",
+    "day": 1,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "scenario"
+  },
+  {
+    "id": 267,
+    "question": "A patient with acute kidney injury has serum potassium of 6.5 mEq/L and peaked T-waves on ECG. What is the immediate treatment?",
+    "options": [
+      "Administer potassium supplements",
+      "Administer calcium gluconate IV",
+      "Encourage potassium-rich foods",
+      "Monitor only"
+    ],
+    "correct": 1,
+    "explanation": "• Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias.\n• Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.\n• This is a medical emergency.\n• Understanding electrolyte emergencies is critical for critical care nursing.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Electrolyte Imbalance - Hyperkalemia",
+    "day": 1,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "scenario"
+  },
+  {
+    "id": 268,
+    "question": "A patient with chronic heart failure is on furosemide. What electrolyte should be monitored?",
+    "options": [
+      "Sodium",
+      "Potassium",
+      "Calcium",
+      "Magnesium"
+    ],
+    "correct": 1,
+    "explanation": "• Furosemide (loop diuretic) causes hypokalemia by increasing potassium excretion.\n• Monitor potassium levels regularly and may need supplementation.\n• Hypokalemia increases digoxin toxicity risk and can cause muscle weakness and arrhythmias.\n• Understanding diuretic effects on electrolytes is essential for safe medication management.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Furosemide (loop diuretic) causes hypokalemia by increasing potassium excretion. Monitor potassium levels regularly and may need supplementation.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Pharmacology - Diuretics",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2016",
+    "qtype": "scenario"
+  },
+  {
+    "id": 276,
+    "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
+    "options": [
+      "Hyperkalemia",
+      "Hypokalemia",
+      "Hypercalcemia",
+      "Hypocalcemia"
+    ],
+    "correct": 0,
+    "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents.\n• Hyperkalemia is the most dangerous and can cause fatal arrhythmias.\n• Understanding oncologic emergencies is critical for safe chemotherapy administration and monitoring.",
+    "explanations": {
+      "A": "Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents. Hyperkalemia is the most dangerous and can cause fatal arrhythmias.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Oncology - Tumor Lysis Syndrome",
+    "day": 1,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 282,
+    "question": "A patient with pacemaker requires which type of monitoring?",
+    "options": [
+      "ECG monitoring",
+      "Blood pressure only",
+      "No special monitoring",
+      "Temperature only"
+    ],
+    "correct": 0,
+    "explanation": "• Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing.\n• Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.\n• Understanding cardiac devices is essential for managing patients with implanted devices.",
+    "explanations": {
+      "A": "Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Cardiac Devices",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2020",
+    "qtype": "factual"
+  },
+  {
+    "id": 309,
+    "question": "Microbiology Q11: Which is a gram-positive coccus in clusters?",
+    "options": [
+      "Streptococcus pyogenes chains",
+      "Staphylococcus aureus",
+      "Neisseria",
+      "Escherichia coli"
+    ],
+    "correct": 1,
+    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 310,
+    "question": "Microbiology Q12: Which is a gram-positive coccus in clusters?",
+    "options": [
+      "Streptococcus pyogenes chains",
+      "Staphylococcus aureus",
+      "Neisseria",
+      "Escherichia coli"
+    ],
+    "correct": 1,
+    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 311,
+    "question": "Microbiology Q13: Which is a gram-positive coccus in clusters?",
+    "options": [
+      "Streptococcus pyogenes chains",
+      "Staphylococcus aureus",
+      "Neisseria",
+      "Escherichia coli"
+    ],
+    "correct": 1,
+    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 312,
+    "question": "Microbiology Q14: Which is a gram-positive coccus in clusters?",
+    "options": [
+      "Streptococcus pyogenes chains",
+      "Staphylococcus aureus",
+      "Neisseria",
+      "Escherichia coli"
+    ],
+    "correct": 1,
+    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 313,
+    "question": "Microbiology Q15: Which is a gram-positive coccus in clusters?",
+    "options": [
+      "Streptococcus pyogenes chains",
+      "Staphylococcus aureus",
+      "Neisseria",
+      "Escherichia coli"
+    ],
+    "correct": 1,
+    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 314,
+    "question": "Microbiology Q16: Which is a gram-positive coccus in clusters?",
+    "options": [
+      "Streptococcus pyogenes chains",
+      "Staphylococcus aureus",
+      "Neisseria",
+      "Escherichia coli"
+    ],
+    "correct": 1,
+    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "id": 6,
+    "question": "First-line drug for severe pre-eclampsia / eclampsia prophylaxis:",
+    "options": [
+      "Hydralazine",
+      "Magnesium sulfate",
+      "Labetalol",
+      "Diazepam"
+    ],
+    "correct": 1,
+    "explanation": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+    "explanations": {
+      "A": "BP control adjunct, not seizure prophylaxis.",
+      "B": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+      "C": "Antihypertensive only, not seizure prevention.",
+      "D": "Older practice, now supplanted by MgSO4."
+    },
+    "subject": "OBG",
+    "topic": "Eclampsia",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 11,
+    "question": "MTP Act (2021 amendment) allows termination up to:",
+    "options": [
+      "12 weeks",
+      "20 weeks",
+      "24 weeks",
+      "28 weeks"
+    ],
+    "correct": 2,
+    "explanation": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
+    "explanations": {
+      "A": "Previous lower limit without conditions.",
+      "B": "Up to 20 wk with one RMP opinion.",
+      "C": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
+      "D": "Only beyond 24 wk with Medical Board approval for substantial fetal abnormalities."
+    },
+    "subject": "OBG",
+    "topic": "MTP Act",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 18,
+    "question": "Leopold's maneuver 1st step detects:",
+    "options": [
+      "Fetal lie",
+      "Fundal content (breech/cephalic)",
+      "Engagement",
+      "Position"
+    ],
+    "correct": 1,
+    "explanation": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
+    "explanations": {
+      "A": "Overall finding, but 1st step focuses on the fundus.",
+      "B": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
+      "C": "4th maneuver (Pawlik).",
+      "D": "3rd maneuver."
+    },
+    "subject": "OBG",
+    "topic": "Leopold",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 8 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 22,
+    "question": "Episiotomy most commonly used in India:",
+    "options": [
+      "Mediolateral",
+      "Midline",
+      "J-shaped",
+      "Lateral"
+    ],
+    "correct": 0,
+    "explanation": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
+    "explanations": {
+      "A": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
+      "B": "Preferred in the USA but not standard in India due to higher tear risk.",
+      "C": "Rarely used.",
+      "D": "Obsolete; abandoned due to high complications."
+    },
+    "subject": "OBG",
+    "topic": "Episiotomy",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 7 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 25,
+    "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 wk GA:",
+    "options": [
+      "≥130/80 mmHg",
+      "≥140/90 mmHg",
+      "≥150/95 mmHg",
+      "≥160/110 mmHg"
+    ],
+    "correct": 1,
+    "explanation": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
+    "explanations": {
+      "A": "Stage 1 hypertension cutoff, not pre-eclampsia.",
+      "B": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
+      "C": "Not a standard cutoff.",
+      "D": "That level defines severe features, not the diagnosis itself."
+    },
+    "subject": "OBG",
+    "topic": "Pre-eclampsia",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 6 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 28,
+    "question": "MgSO4 therapeutic serum level in eclampsia is:",
+    "options": [
+      "1–2 mEq/L",
+      "4–7 mEq/L",
+      "8–10 mEq/L",
+      ">10 mEq/L"
+    ],
+    "correct": 1,
+    "explanation": "Therapeutic 4–7 mEq/L; 8–10 → loss of DTRs; >10 → respiratory depression.",
+    "explanations": {
+      "A": "Subtherapeutic.",
+      "B": "Therapeutic 4–7 mEq/L; 8–10 → loss of DTRs; >10 → respiratory depression.",
+      "C": "Toxic range.",
+      "D": "Toxic; stop infusion, give Ca gluconate."
+    },
+    "subject": "OBG",
+    "topic": "MgSO4",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET 6 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 349,
+    "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
+    "options": [
+      "Check blood pressure",
+      "Administer pain medication",
+      "Encourage rest",
+      "Schedule routine appointment"
+    ],
+    "correct": 0,
+    "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 350,
+    "question": "What is the normal fetal heart rate range during labor?",
+    "options": [
+      "100-120 bpm",
+      "110-160 bpm",
+      "120-180 bpm",
+      "140-200 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Normal fetal heart rate is 110-160 beats per minute.\n• Rates outside this range may indicate fetal distress and require immediate intervention.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Intrapartum Care",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 351,
+    "question": "A woman in active labor has been pushing for 2 hours without progress. What is the most likely cause?",
+    "options": [
+      "Cephalopelvic disproportion",
+      "Inadequate pain relief",
+      "Maternal fatigue",
+      "Fetal position"
+    ],
+    "correct": 0,
+    "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
+    "explanations": {
+      "A": "Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Labor Complications",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 353,
+    "question": "A postpartum woman complains of heavy bleeding and passing large clots. What is the priority action?",
+    "options": [
+      "Massage the fundus",
+      "Check vital signs",
+      "Administer oxytocin",
+      "Prepare for surgery"
+    ],
+    "correct": 0,
+    "explanation": "• Uterine massage helps contract the uterus and control bleeding.\n• This is the first intervention for postpartum hemorrhage.\n• Then assess for other causes if bleeding continues.",
+    "explanations": {
+      "A": "Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Complications",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 354,
+    "question": "What is the recommended iron supplementation during pregnancy?",
+    "options": [
+      "30 mg elemental iron daily",
+      "60 mg elemental iron daily",
+      "100 mg elemental iron daily",
+      "Iron only if anemic"
+    ],
+    "correct": 1,
+    "explanation": "• WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia.\n• This should start in the second trimester and continue postpartum.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal Care",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 356,
+    "question": "What is the normal duration of the first stage of labor in primigravida?",
+    "options": [
+      "2-4 hours",
+      "6-12 hours",
+      "12-18 hours",
+      "18-24 hours"
+    ],
+    "correct": 2,
+    "explanation": "• First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Labor Stages",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 358,
+    "question": "What is the recommended frequency of antenatal visits in a normal pregnancy?",
+    "options": [
+      "Monthly until 28 weeks, then biweekly",
+      "Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly",
+      "Every 2 weeks throughout",
+      "Only when problems occur"
+    ],
+    "correct": 1,
+    "explanation": "• Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery.\n• This allows early detection of complications.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal Care",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 359,
+    "question": "A woman with placenta previa is admitted at 34 weeks. What is the priority nursing intervention?",
+    "options": [
+      "Prepare for immediate delivery",
+      "Bed rest and monitor for bleeding",
+      "Administer tocolytics",
+      "Encourage ambulation"
+    ],
+    "correct": 1,
+    "explanation": "• Placenta previa requires bed rest to prevent bleeding.\n• Monitor for signs of hemorrhage.\n• Delivery is planned when fetus is mature or if bleeding is severe.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 360,
+    "question": "What is the normal amount of lochia rubra in the first 3-4 days postpartum?",
+    "options": [
+      "Minimal, spotting only",
+      "Moderate, like heavy menstrual period",
+      "Heavy, saturating pad in 1 hour",
+      "No bleeding expected"
+    ],
+    "correct": 1,
+    "explanation": "• Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period.\n• Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Care",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 362,
+    "question": "What is the recommended time for initiating breastfeeding after delivery?",
+    "options": [
+      "Within 1 hour",
+      "Within 2-4 hours",
+      "Within 6 hours",
+      "Within 24 hours"
+    ],
+    "correct": 0,
+    "explanation": "• WHO recommends initiating breastfeeding within the first hour after birth (golden hour).\n• Early initiation promotes bonding and establishes milk supply.",
+    "explanations": {
+      "A": "WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Breastfeeding",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 363,
+    "question": "A woman with preeclampsia is receiving magnesium sulfate. What is the priority monitoring?",
+    "options": [
+      "Blood pressure",
+      "Deep tendon reflexes",
+      "Urine output",
+      "Respiratory rate"
+    ],
+    "correct": 1,
+    "explanation": "• Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes.\n• Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 364,
+    "question": "What is the normal weight gain during pregnancy?",
+    "options": [
+      "5-7 kg",
+      "8-12 kg",
+      "11-16 kg",
+      "15-20 kg"
+    ],
+    "correct": 2,
+    "explanation": "• Normal weight gain during pregnancy is 11-16 kg (25-35 pounds).\n• This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal Care",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 365,
+    "question": "A woman with abruptio placentae presents with painful, rigid abdomen. What is the priority intervention?",
+    "options": [
+      "Administer pain medication",
+      "Prepare for emergency cesarean",
+      "Monitor fetal heart rate",
+      "Start IV fluids"
+    ],
+    "correct": 1,
+    "explanation": "• Abruptio placentae is a medical emergency.\n• The rigid, painful abdomen suggests concealed hemorrhage.\n• Emergency delivery is required to save mother and baby.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 366,
+    "question": "What is the recommended folic acid supplementation before and during early pregnancy?",
+    "options": [
+      "200 mcg daily",
+      "400 mcg daily",
+      "600 mcg daily",
+      "1000 mcg daily"
+    ],
+    "correct": 1,
+    "explanation": "• 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects.\n• Higher doses (4-5 mg) are needed if previous child had NTD.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal Care",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 368,
+    "question": "What is the normal duration of the third stage of labor?",
+    "options": [
+      "5-10 minutes",
+      "10-30 minutes",
+      "30-60 minutes",
+      "1-2 hours"
+    ],
+    "correct": 1,
+    "explanation": "• Third stage of labor (placental delivery) normally occurs within 10-30 minutes after birth.\n• If longer than 30 minutes, it's considered retained placenta.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Third stage of labor (placental delivery) normally occurs within 10-30 minutes after birth. If longer than 30 minutes, it's considered retained placenta.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Labor Stages",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 369,
+    "question": "A woman with polyhydramnios is at risk for which complication?",
+    "options": [
+      "Preterm labor",
+      "Post-term pregnancy",
+      "Fetal growth restriction",
+      "Gestational hypertension"
+    ],
+    "correct": 0,
+    "explanation": "• Polyhydramnios (excess amniotic fluid) can cause preterm labor due to uterine overdistension.\n• It's also associated with fetal anomalies and diabetes.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Polyhydramnios (excess amniotic fluid) can cause preterm labor due to uterine overdistension. It's also associated with fetal anomalies and diabetes.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 371,
+    "question": "A newborn has jaundice at 24 hours of age. What does this indicate?",
+    "options": [
+      "Physiological jaundice",
+      "Pathological jaundice",
+      "Breastfeeding jaundice",
+      "Normal finding"
+    ],
+    "correct": 1,
+    "explanation": "• Jaundice appearing within 24 hours is pathological and requires investigation.\n• Physiological jaundice appears after 48-72 hours.\n• Early jaundice may indicate hemolytic disease or infection.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Jaundice appearing within 24 hours is pathological and requires investigation. Physiological jaundice appears after 48-72 hours.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Neonatal Conditions",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 372,
+    "question": "What is the recommended calcium supplementation during pregnancy?",
+    "options": [
+      "500 mg daily",
+      "1000 mg daily",
+      "1500 mg daily",
+      "No supplementation needed"
+    ],
+    "correct": 1,
+    "explanation": "• Pregnant and lactating women need 1000-1200 mg calcium daily.\n• This can usually be met through diet, but supplementation may be needed if intake is inadequate.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Pregnant and lactating women need 1000-1200 mg calcium daily. This can usually be met through diet, but supplementation may be needed if intake is inadequate.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal Care",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 373,
+    "question": "A woman with cervical incompetence is at risk for which complication?",
+    "options": [
+      "Preterm labor",
+      "Post-term pregnancy",
+      "Placenta previa",
+      "Gestational diabetes"
+    ],
+    "correct": 0,
+    "explanation": "• Cervical incompetence (weak cervix) causes painless cervical dilation leading to preterm labor and delivery, usually in second trimester.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Cervical incompetence (weak cervix) causes painless cervical dilation leading to preterm labor and delivery, usually in second trimester. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 374,
+    "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
+    "options": [
+      "Check blood pressure",
+      "Administer pain medication",
+      "Encourage rest",
+      "Schedule routine appointment"
+    ],
+    "correct": 0,
+    "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "factual"
+  },
+  {
+    "id": 375,
+    "question": "What is the normal fetal heart rate range during labor?",
+    "options": [
+      "100-120 bpm",
+      "110-160 bpm",
+      "120-180 bpm",
+      "140-200 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Normal fetal heart rate is 110-160 beats per minute.\n• Rates outside this range may indicate fetal distress and require immediate intervention.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Intrapartum Care",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2016",
+    "qtype": "factual"
+  },
+  {
+    "id": 376,
+    "question": "A woman in active labor has been pushing for 2 hours without progress. What is the most likely cause?",
+    "options": [
+      "Cephalopelvic disproportion",
+      "Inadequate pain relief",
+      "Maternal fatigue",
+      "Fetal position"
+    ],
+    "correct": 0,
+    "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
+    "explanations": {
+      "A": "Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Labor Complications",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2017",
+    "qtype": "factual"
+  },
+  {
+    "id": 378,
+    "question": "A postpartum woman complains of heavy bleeding and passing large clots. What is the priority action?",
+    "options": [
+      "Massage the fundus",
+      "Check vital signs",
+      "Administer oxytocin",
+      "Prepare for surgery"
+    ],
+    "correct": 0,
+    "explanation": "• Uterine massage helps contract the uterus and control bleeding.\n• This is the first intervention for postpartum hemorrhage.\n• Then assess for other causes if bleeding continues.",
+    "explanations": {
+      "A": "Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum Complications",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2019",
+    "qtype": "factual"
+  },
+  {
+    "id": 379,
+    "question": "What is the recommended iron supplementation during pregnancy?",
+    "options": [
+      "30 mg elemental iron daily",
+      "60 mg elemental iron daily",
+      "100 mg elemental iron daily",
+      "Iron only if anemic"
+    ],
+    "correct": 1,
+    "explanation": "• WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia.\n• This should start in the second trimester and continue postpartum.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal Care",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2020",
+    "qtype": "factual"
+  }
+]

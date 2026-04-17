@@ -1,0 +1,752 @@
+[
+  {
+    "id": 513,
+    "question": "Yellow bio-medical waste bag is used for:",
+    "options": [
+      "General waste",
+      "Infectious/pathological/certain contaminated wastes per BMW rules",
+      "Radioactive waste",
+      "Sharps"
+    ],
+    "correct": 1,
+    "explanation": "• BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual).\n• Follow latest national guidelines.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Mixed",
+    "topic": "Community / Legal",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 10,
+    "question": "Yellow-coded BMW bag contains:",
+    "options": [
+      "General waste",
+      "Sharps",
+      "Human anatomical / soiled / micro / chem",
+      "Discarded medicines"
+    ],
+    "correct": 2,
+    "explanation": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
+    "explanations": {
+      "A": "General goes in black, not yellow.",
+      "B": "Sharps → white translucent puncture-proof.",
+      "C": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
+      "D": "Discarded meds go in yellow sub-category but whole bag label is broader — best answer is the full yellow list (C)."
+    },
+    "subject": "Community Health",
+    "topic": "BMW",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 29,
+    "question": "Venturi mask color providing 24% FiO2 (low-concentration):",
+    "options": [
+      "Blue",
+      "White",
+      "Yellow",
+      "Red"
+    ],
+    "correct": 0,
+    "explanation": "Blue = 24% FiO2 at 2 L/min.",
+    "explanations": {
+      "A": "Blue = 24% FiO2 at 2 L/min.",
+      "B": "White = 28%.",
+      "C": "Yellow = 35%.",
+      "D": "Red = 40% (or green on some sets)."
+    },
+    "subject": "Fundamentals",
+    "topic": "Oxygen therapy",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 6 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 31,
+    "question": "Which does NOT belong to the 5 WHO moments of hand hygiene:",
+    "options": [
+      "Before touching a patient",
+      "Before clean/aseptic procedure",
+      "After touching the nurses' station",
+      "After touching patient surroundings"
+    ],
+    "correct": 2,
+    "explanation": "NOT one of the 5 moments — irrelevant to clinical contact.",
+    "explanations": {
+      "A": "Moment 1.",
+      "B": "Moment 2.",
+      "C": "NOT one of the 5 moments — irrelevant to clinical contact.",
+      "D": "Moment 5."
+    },
+    "subject": "Fundamentals",
+    "topic": "Hand hygiene",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 6 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 140,
+    "question": "First-line drug for anaphylaxis:",
+    "options": [
+      "Oral antihistamine only",
+      "IM adrenaline (epinephrine)",
+      "IV beta blocker",
+      "Oral steroid only"
+    ],
+    "correct": 1,
+    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "First aid / emergency nursing for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Anaphylaxis",
+    "day": 7,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 141,
+    "question": "Typical adult Hb lower limit (female approx):",
+    "options": [
+      "10 g/dL",
+      "12 g/dL",
+      "14 g/dL",
+      "8 g/dL"
+    ],
+    "correct": 1,
+    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "First aid / emergency nursing for NORCET.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 145,
+    "question": "Clinical pathology Q9: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 146,
+    "question": "Clinical pathology Q10: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 147,
+    "question": "Clinical pathology Q11: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 148,
+    "question": "Clinical pathology Q12: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 149,
+    "question": "Clinical pathology Q13: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 150,
+    "question": "Clinical pathology Q14: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 151,
+    "question": "Clinical pathology Q15: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 152,
+    "question": "Clinical pathology Q16: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 153,
+    "question": "Clinical pathology Q17: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 154,
+    "question": "Clinical pathology Q18: Platelet count very low increases risk of:",
+    "options": [
+      "Thrombosis",
+      "Bleeding",
+      "Hypernatremia",
+      "Metabolic alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Thrombocytopenia increases bleeding risk.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Labs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 155,
+    "question": "What is the correct sequence of the nursing process?",
+    "options": [
+      "Assessment, Planning, Diagnosis, Implementation, Evaluation",
+      "Assessment, Diagnosis, Planning, Implementation, Evaluation",
+      "Diagnosis, Assessment, Planning, Implementation, Evaluation",
+      "Planning, Assessment, Diagnosis, Implementation, Evaluation"
+    ],
+    "correct": 1,
+    "explanation": "• The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation.\n• This systematic approach ensures comprehensive patient care.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Nursing Process",
+    "day": 7,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 156,
+    "question": "What is the minimum time required for effective hand hygiene using alcohol-based hand rub?",
+    "options": [
+      "10-15 seconds",
+      "20-30 seconds",
+      "40-60 seconds",
+      "2-3 minutes"
+    ],
+    "correct": 1,
+    "explanation": "• Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry.\n• This is the WHO recommended duration for effective hand hygiene.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Infection Control",
+    "day": 7,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 158,
+    "question": "What is the correct angle for intramuscular injection in the deltoid muscle?",
+    "options": [
+      "45 degrees",
+      "60 degrees",
+      "90 degrees",
+      "30 degrees"
+    ],
+    "correct": 2,
+    "explanation": "• Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Medication Administration",
+    "day": 7,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 159,
+    "question": "Which position is best for a patient with dyspnea?",
+    "options": [
+      "Supine",
+      "High Fowler's position",
+      "Trendelenburg",
+      "Lateral"
+    ],
+    "correct": 1,
+    "explanation": "• High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Patient Positioning",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 160,
+    "question": "What is the normal range for adult blood pressure?",
+    "options": [
+      "90/60 - 120/80 mmHg",
+      "100/70 - 130/85 mmHg",
+      "110/75 - 140/90 mmHg",
+      "120/80 - 140/90 mmHg"
+    ],
+    "correct": 0,
+    "explanation": "• Normal adult blood pressure is typically 90/60 to 120/80 mmHg.\n• Values above 120/80 are considered elevated or hypertensive.",
+    "explanations": {
+      "A": "Normal adult blood pressure is typically 90/60 to 120/80 mmHg. Values above 120/80 are considered elevated or hypertensive.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital Signs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 161,
+    "question": "Which type of isolation is required for a patient with tuberculosis?",
+    "options": [
+      "Contact isolation",
+      "Droplet isolation",
+      "Airborne isolation",
+      "Standard precautions only"
+    ],
+    "correct": 2,
+    "explanation": "• Tuberculosis requires airborne isolation because the bacteria can remain suspended in air for long periods.\n• N95 respirator masks are required.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Tuberculosis requires airborne isolation because the bacteria can remain suspended in air for long periods. N95 respirator masks are required.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Infection Control",
+    "day": 7,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 162,
+    "question": "What is the correct technique for measuring blood pressure?",
+    "options": [
+      "Cuff should cover 40% of arm circumference",
+      "Cuff should cover 80% of arm circumference",
+      "Cuff should cover 100% of arm circumference",
+      "Cuff size doesn't matter"
+    ],
+    "correct": 1,
+    "explanation": "• The blood pressure cuff should cover 80% of the arm circumference for accurate readings.\n• Too small or too large cuffs give inaccurate results.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "The blood pressure cuff should cover 80% of the arm circumference for accurate readings. Too small or too large cuffs give inaccurate results.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital Signs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 163,
+    "question": "Which principle of body mechanics prevents back injury when lifting?",
+    "options": [
+      "Keep feet together",
+      "Bend at the waist",
+      "Use leg muscles, keep back straight",
+      "Lift quickly"
+    ],
+    "correct": 2,
+    "explanation": "• Using leg muscles while keeping the back straight distributes weight properly and prevents back injury.\n• Feet should be apart for stability.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Using leg muscles while keeping the back straight distributes weight properly and prevents back injury. Feet should be apart for stability.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Body Mechanics",
+    "day": 7,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 164,
+    "question": "What is the correct site for subcutaneous injection?",
+    "options": [
+      "Deltoid muscle",
+      "Vastus lateralis",
+      "Abdomen, 2 inches from umbilicus",
+      "Gluteus maximus"
+    ],
+    "correct": 2,
+    "explanation": "• Subcutaneous injections are given in fatty tissue.\n• The abdomen (2 inches from umbilicus) is a common site, along with upper arm and thigh.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Subcutaneous injections are given in fatty tissue. The abdomen (2 inches from umbilicus) is a common site, along with upper arm and thigh.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Medication Administration",
+    "day": 7,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 165,
+    "question": "Which communication technique is therapeutic?",
+    "options": [
+      "Giving advice",
+      "False reassurance",
+      "Active listening",
+      "Changing the subject"
+    ],
+    "correct": 2,
+    "explanation": "• Active listening is a therapeutic communication technique that shows respect and allows patients to express themselves.\n• Other options are non-therapeutic.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Active listening is a therapeutic communication technique that shows respect and allows patients to express themselves. Other options are non-therapeutic.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Communication",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 166,
+    "question": "What is the normal adult respiratory rate?",
+    "options": [
+      "10-15 breaths/min",
+      "12-20 breaths/min",
+      "20-25 breaths/min",
+      "25-30 breaths/min"
+    ],
+    "correct": 1,
+    "explanation": "• Normal adult respiratory rate is 12-20 breaths per minute.\n• Rates outside this range may indicate respiratory distress or other conditions.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Normal adult respiratory rate is 12-20 breaths per minute. Rates outside this range may indicate respiratory distress or other conditions.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital Signs",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 167,
+    "question": "Which sterilization method is used for heat-sensitive items?",
+    "options": [
+      "Autoclaving",
+      "Boiling",
+      "Chemical sterilization",
+      "Dry heat"
+    ],
+    "correct": 2,
+    "explanation": "• Chemical sterilization (ethylene oxide, hydrogen peroxide) is used for heat-sensitive items.\n• Autoclaving uses steam and high heat.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Chemical sterilization (ethylene oxide, hydrogen peroxide) is used for heat-sensitive items. Autoclaving uses steam and high heat.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Infection Control",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 169,
+    "question": "Which documentation format is most commonly used in nursing?",
+    "options": [
+      "SOAP",
+      "PIE",
+      "DAR",
+      "Narrative"
+    ],
+    "correct": 0,
+    "explanation": "• SOAP (Subjective, Objective, Assessment, Plan) is the most commonly used documentation format in nursing, providing structured documentation.",
+    "explanations": {
+      "A": "SOAP (Subjective, Objective, Assessment, Plan) is the most commonly used documentation format in nursing, providing structured documentation.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Documentation",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 171,
+    "question": "Which position prevents pressure ulcers on the sacrum?",
+    "options": [
+      "Supine",
+      "Prone",
+      "Lateral",
+      "Sitting"
+    ],
+    "correct": 2,
+    "explanation": "• Lateral position relieves pressure on the sacrum.\n• Regular position changes (every 2 hours) are essential to prevent pressure ulcers.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Lateral position relieves pressure on the sacrum. Regular position changes (every 2 hours) are essential to prevent pressure ulcers.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Fundamentals",
+    "topic": "Patient Positioning",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  }
+]

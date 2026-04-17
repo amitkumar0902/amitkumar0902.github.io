@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards · NORCET Mains 2026</title>
+  <link rel="stylesheet" href="../../css/mains-theme.css">
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <script src="../../js/core.js" defer></script>
+  <script src="../../js/flashcards.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      NM.boot('flashcards');
+      const deck = new URLSearchParams(location.search).get('deck');
+      if (deck) { document.getElementById('picker').hidden = true; NMFlash.start(deck); }
+    });
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="../index.html">← Back to Plan</a>
+  <h1>Flashcards</h1>
+  <div id="picker">
+    <p class="muted">Tap to flip, keep until memorized. Wrong cards re-enter the queue.</p>
+    <ul class="lecture-list">
+      <li><span class="num">1</span><span class="title">Programme logos</span><span class="links"><a href="?deck=logos">Open</a></span></li>
+      <li><span class="num">2</span><span class="title">Discharge colors</span><span class="links"><a href="?deck=discharge-colors">Open</a></span></li>
+      <li><span class="num">3</span><span class="title">Developmental milestones</span><span class="links"><a href="?deck=milestones">Open</a></span></li>
+      <li><span class="num">4</span><span class="title">Mask colors · Venturi / NC / NRB</span><span class="links"><a href="?deck=mask-colors">Open</a></span></li>
+      <li><span class="num">5</span><span class="title">BMW color coding</span><span class="links"><a href="?deck=bmw-colors">Open</a></span></li>
+      <li><span class="num">6</span><span class="title">Formulas (Parkland, 4-2-1, ET, CPR)</span><span class="links"><a href="?deck=formulas">Open</a></span></li>
+      <li><span class="num">7</span><span class="title">Drug names · first-line in emergencies</span><span class="links"><a href="?deck=drug-names">Open</a></span></li>
+    </ul>
+  </div>
+  <div id="fc-root"></div>
+</main>
+</body>
+</html>

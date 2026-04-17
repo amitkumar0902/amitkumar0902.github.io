@@ -1,0 +1,752 @@
+[
+  {
+    "id": 7,
+    "question": "Normal APGAR score range is:",
+    "options": [
+      "0–5",
+      "0–10",
+      "0–15",
+      "1–10"
+    ],
+    "correct": 1,
+    "explanation": "5 criteria × 0–2 each → total 0–10.",
+    "explanations": {
+      "A": "Maximum is 10, not 5.",
+      "B": "5 criteria × 0–2 each → total 0–10.",
+      "C": "Incorrect.",
+      "D": "Minimum is 0, not 1."
+    },
+    "subject": "Pediatric",
+    "topic": "APGAR",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 26,
+    "question": "First step in Neonatal Resuscitation Program after birth:",
+    "options": [
+      "Clamp cord",
+      "Dry, warm, position, clear airway",
+      "Give oxygen",
+      "Start compressions"
+    ],
+    "correct": 1,
+    "explanation": "Initial steps: warm, dry, position airway, clear secretions, stimulate.",
+    "explanations": {
+      "A": "Done after initial steps.",
+      "B": "Initial steps: warm, dry, position airway, clear secretions, stimulate.",
+      "C": "Only if HR<100 and PPV has failed.",
+      "D": "Only if HR<60 after effective PPV."
+    },
+    "subject": "Pediatric",
+    "topic": "NRP",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "NORCET 6 Mains",
+    "year": 2024,
+    "qtype": "factual"
+  },
+  {
+    "id": 35,
+    "question": "What is the purpose of quality assurance in nursing?",
+    "options": [
+      "Reduce costs only",
+      "Ensure standards of care are met",
+      "Increase patient numbers",
+      "Reduce staff"
+    ],
+    "correct": 1,
+    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Admin",
+    "topic": "Quality Assurance",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of quality assurance in nursing?",
+    "options": [
+      "Reduce costs only",
+      "Ensure standards of care are met",
+      "Increase patient numbers",
+      "Reduce staff"
+    ],
+    "correct": 1,
+    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Admin",
+    "topic": "Quality Assurance",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2017",
+    "qtype": "factual"
+  },
+  {
+    "id": 104,
+    "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
+    "options": [
+      "Less than 20 per 1000 live births",
+      "Less than 25 per 1000 live births",
+      "Less than 30 per 1000 live births",
+      "Less than 35 per 1000 live births"
+    ],
+    "correct": 0,
+    "explanation": "• India aims to reduce IMR to less than 20 per 1000 live births.\n• Current IMR is around 28.\n• Key interventions include immunization, nutrition, and safe delivery.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+    "explanations": {
+      "A": "India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Community Health",
+    "topic": "Child Health",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 112,
+    "question": "What is the target for reducing Under-5 Mortality Rate?",
+    "options": [
+      "Less than 25 per 1000",
+      "Less than 30 per 1000",
+      "Less than 35 per 1000",
+      "Less than 40 per 1000"
+    ],
+    "correct": 0,
+    "explanation": "• SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030.\n• Key interventions include immunization, nutrition, and safe water.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+    "explanations": {
+      "A": "SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030. Key interventions include immunization, nutrition, and safe water.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Community Health",
+    "topic": "Child Health",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 115,
+    "question": "What is the primary method of preventing neonatal tetanus?",
+    "options": [
+      "Clean delivery practices",
+      "Tetanus toxoid vaccination of mother",
+      "Antibiotic prophylaxis",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "explanation": "• Neonatal tetanus prevention requires both clean delivery practices (sterile cord cutting) and tetanus toxoid vaccination of pregnant women (2 doses).\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Neonatal tetanus prevention requires both clean delivery practices (sterile cord cutting) and tetanus toxoid vaccination of pregnant women (2 doses). Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs."
+    },
+    "subject": "Community Health",
+    "topic": "Maternal and Child Health",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 124,
+    "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
+    "options": [
+      "Less than 20 per 1000 live births",
+      "Less than 25 per 1000 live births",
+      "Less than 30 per 1000 live births",
+      "Less than 35 per 1000 live births"
+    ],
+    "correct": 0,
+    "explanation": "• India aims to reduce IMR to less than 20 per 1000 live births.\n• Current IMR is around 28.\n• Key interventions include immunization, nutrition, and safe delivery.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+    "explanations": {
+      "A": "India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Community Health",
+    "topic": "Child Health",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2020",
+    "qtype": "factual"
+  },
+  {
+    "id": 225,
+    "question": "A patient with acute respiratory distress syndrome (ARDS) requires mechanical ventilation. What is the priority nursing intervention?",
+    "options": [
+      "Suctioning every hour",
+      "Monitoring ventilator settings",
+      "Positioning patient prone",
+      "Administering sedatives"
+    ],
+    "correct": 1,
+    "explanation": "• Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Critical Care",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 260,
+    "question": "A patient with ARDS is receiving prone positioning. What is the primary benefit?",
+    "options": [
+      "Improved comfort",
+      "Better oxygenation",
+      "Reduced pressure ulcers",
+      "Easier suctioning"
+    ],
+    "correct": 1,
+    "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Critical Care",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 266,
+    "question": "A patient with acute respiratory distress syndrome (ARDS) requires prone positioning. What is the primary benefit?",
+    "options": [
+      "Improved comfort",
+      "Better oxygenation",
+      "Reduced pressure ulcers",
+      "Easier suctioning"
+    ],
+    "correct": 1,
+    "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.\n• This positioning helps recruit collapsed alveoli and improves gas exchange.\n• Prone positioning is an evidence-based intervention for moderate to severe ARDS that can significantly improve patient outcomes.\n• Respiratory assessment is critical as inadequate oxygenation can lead to organ damage.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch. This positioning helps recruit collapsed alveoli and improves gas exchange.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Critical Care",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2025",
+    "qtype": "scenario"
+  },
+  {
+    "id": 280,
+    "question": "A patient with ARDS is on mechanical ventilation. What is the target PaO2?",
+    "options": [
+      "60-80 mmHg",
+      "80-100 mmHg",
+      "100-120 mmHg",
+      "120-140 mmHg"
+    ],
+    "correct": 0,
+    "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.\n• Higher levels increase risk of oxygen toxicity and don't significantly improve outcomes.\n• Understanding ventilator management is critical for respiratory care.",
+    "explanations": {
+      "A": "Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation. Higher levels increase risk of oxygen toxicity and don't significantly improve outcomes.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Ventilator Management",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2018",
+    "qtype": "factual"
+  },
+  {
+    "id": 352,
+    "question": "What is the priority nursing intervention immediately after delivery?",
+    "options": [
+      "Cut the umbilical cord",
+      "Dry and stimulate the newborn",
+      "Administer oxytocin",
+      "Deliver the placenta"
+    ],
+    "correct": 1,
+    "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Immediate Postpartum",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 357,
+    "question": "A newborn has Apgar score of 3 at 1 minute. What is the priority intervention?",
+    "options": [
+      "Provide warmth",
+      "Suction airway",
+      "Administer oxygen",
+      "Begin resuscitation"
+    ],
+    "correct": 3,
+    "explanation": "• Apgar score of 3 indicates severe depression requiring immediate resuscitation.\n• Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation."
+    },
+    "subject": "OBG",
+    "topic": "Neonatal Resuscitation",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 377,
+    "question": "What is the priority nursing intervention immediately after delivery?",
+    "options": [
+      "Cut the umbilical cord",
+      "Dry and stimulate the newborn",
+      "Administer oxytocin",
+      "Deliver the placenta"
+    ],
+    "correct": 1,
+    "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Immediate Postpartum",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2018",
+    "qtype": "factual"
+  },
+  {
+    "id": 382,
+    "question": "A newborn has Apgar score of 3 at 1 minute. What is the priority intervention?",
+    "options": [
+      "Provide warmth",
+      "Suction airway",
+      "Administer oxygen",
+      "Begin resuscitation"
+    ],
+    "correct": 3,
+    "explanation": "• Apgar score of 3 indicates severe depression requiring immediate resuscitation.\n• Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation."
+    },
+    "subject": "OBG",
+    "topic": "Neonatal Resuscitation",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 388,
+    "question": "A newborn requires Apgar assessment. What equipment is needed?",
+    "options": [
+      "Stethoscope and observation",
+      "Blood pressure cuff",
+      "Thermometer only",
+      "No equipment needed"
+    ],
+    "correct": 0,
+    "explanation": "• Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort.\n• Assessed at 1 and 5 minutes after birth.\n• Understanding neonatal assessment equipment is critical for immediate newborn evaluation and identifying need for resuscitation.",
+    "explanations": {
+      "A": "Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort. Assessed at 1 and 5 minutes after birth.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "OBG",
+    "topic": "Neonatal Assessment Equipment",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2018",
+    "qtype": "factual"
+  },
+  {
+    "id": 390,
+    "question": "A 2-year-old child is brought to the emergency department with fever and difficulty breathing. What is the priority assessment?",
+    "options": [
+      "Temperature",
+      "Airway and breathing",
+      "Blood pressure",
+      "Weight"
+    ],
+    "correct": 1,
+    "explanation": "• In pediatric emergencies, airway and breathing are assessed first using the ABC approach.\n• Respiratory distress is common in children and can deteriorate rapidly.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "In pediatric emergencies, airway and breathing are assessed first using the ABC approach. Respiratory distress is common in children and can deteriorate rapidly.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Pediatric Assessment",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 391,
+    "question": "What is the normal heart rate for a 6-month-old infant?",
+    "options": [
+      "60-100 bpm",
+      "80-120 bpm",
+      "100-160 bpm",
+      "120-180 bpm"
+    ],
+    "correct": 2,
+    "explanation": "• Normal heart rate for infants (0-12 months) is 100-160 beats per minute.\n• Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Normal heart rate for infants (0-12 months) is 100-160 beats per minute. Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Vital Signs",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 395,
+    "question": "What is the normal respiratory rate for a 2-year-old child?",
+    "options": [
+      "12-20 breaths/min",
+      "20-30 breaths/min",
+      "25-40 breaths/min",
+      "30-50 breaths/min"
+    ],
+    "correct": 2,
+    "explanation": "• Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute.\n• Respiratory rates are higher in children than adults.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute. Respiratory rates are higher in children than adults.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Vital Signs",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 396,
+    "question": "A 1-year-old child is diagnosed with intussusception. What is the classic clinical presentation?",
+    "options": [
+      "Projectile vomiting",
+      "Currant jelly stools",
+      "High-pitched cry",
+      "Bulging fontanelle"
+    ],
+    "correct": 1,
+    "explanation": "• Currant jelly stools (bloody, mucus-filled stools) are the classic sign of intussusception, along with colicky abdominal pain and vomiting.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Currant jelly stools (bloody, mucus-filled stools) are the classic sign of intussusception, along with colicky abdominal pain and vomiting.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Gastrointestinal Conditions",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "scenario"
+  },
+  {
+    "id": 397,
+    "question": "What is the priority nursing intervention for a child with febrile seizures?",
+    "options": [
+      "Restrain the child",
+      "Protect from injury",
+      "Insert oral airway",
+      "Administer antipyretics immediately"
+    ],
+    "correct": 1,
+    "explanation": "• During a seizure, the priority is to protect the child from injury by padding the area and removing hazards.\n• Never restrain or insert anything in the mouth.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "During a seizure, the priority is to protect the child from injury by padding the area and removing hazards. Never restrain or insert anything in the mouth.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Neurological Conditions",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 398,
+    "question": "A 4-month-old infant is diagnosed with developmental hip dysplasia. What is the treatment?",
+    "options": [
+      "Surgery only",
+      "Pavlik harness",
+      "Physical therapy",
+      "Observation"
+    ],
+    "correct": 1,
+    "explanation": "• Pavlik harness is the first-line treatment for developmental hip dysplasia in infants.\n• It maintains the hip in proper position for normal development.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Pavlik harness is the first-line treatment for developmental hip dysplasia in infants. It maintains the hip in proper position for normal development.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Musculoskeletal Conditions",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 399,
+    "question": "What is the normal weight gain pattern for infants in the first 6 months?",
+    "options": [
+      "100-150 grams/week",
+      "150-200 grams/week",
+      "200-250 grams/week",
+      "250-300 grams/week"
+    ],
+    "correct": 1,
+    "explanation": "• Normal weight gain for infants in the first 6 months is approximately 150-200 grams per week.\n• This doubles birth weight by 6 months.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Normal weight gain for infants in the first 6 months is approximately 150-200 grams per week. This doubles birth weight by 6 months.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Growth and Development",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 400,
+    "question": "A 6-year-old child with type 1 diabetes is experiencing hypoglycemia. What is the immediate treatment?",
+    "options": [
+      "Administer insulin",
+      "Give 15g fast-acting carbohydrate",
+      "Encourage rest",
+      "Check blood glucose in 1 hour"
+    ],
+    "correct": 1,
+    "explanation": "• Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice).\n• Recheck blood glucose in 15 minutes.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice). Recheck blood glucose in 15 minutes.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Endocrine Conditions",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 401,
+    "question": "What is the recommended age for starting complementary feeding in infants?",
+    "options": [
+      "2-3 months",
+      "4-6 months",
+      "6-8 months",
+      "8-10 months"
+    ],
+    "correct": 1,
+    "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding.\n• Some infants may be ready at 4-6 months with signs of readiness.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "WHO recommends starting complementary feeding at 6 months while continuing breastfeeding. Some infants may be ready at 4-6 months with signs of readiness.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Nutrition",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 403,
+    "question": "What is the normal blood pressure for a 5-year-old child?",
+    "options": [
+      "70/40 mmHg",
+      "90/50 mmHg",
+      "100/60 mmHg",
+      "110/70 mmHg"
+    ],
+    "correct": 1,
+    "explanation": "• Normal blood pressure for a 5-year-old is approximately 90/50 mmHg.\n• Blood pressure increases with age.\n• Use age-appropriate cuff size for accurate measurement.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Normal blood pressure for a 5-year-old is approximately 90/50 mmHg. Blood pressure increases with age.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Vital Signs",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 405,
+    "question": "What is the normal head circumference growth rate for infants in first year?",
+    "options": [
+      "0.5 cm/month",
+      "1 cm/month",
+      "1.5 cm/month",
+      "2 cm/month"
+    ],
+    "correct": 1,
+    "explanation": "• Normal head circumference increases by approximately 1 cm per month in the first year.\n• Rapid or slow growth may indicate neurological problems.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Normal head circumference increases by approximately 1 cm per month in the first year. Rapid or slow growth may indicate neurological problems.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Growth and Development",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 407,
+    "question": "What is the recommended position for feeding a premature infant?",
+    "options": [
+      "Supine",
+      "Prone",
+      "Side-lying",
+      "Upright"
+    ],
+    "correct": 2,
+    "explanation": "• Side-lying position during feeding helps prevent aspiration in premature infants.\n• After feeding, place on back for sleep to reduce SIDS risk.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Side-lying position during feeding helps prevent aspiration in premature infants. After feeding, place on back for sleep to reduce SIDS risk.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Neonatal Care",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 409,
+    "question": "What is the normal temperature range for infants?",
+    "options": [
+      "36.1-37.2°C",
+      "36.5-37.5°C",
+      "37.0-38.0°C",
+      "37.5-38.5°C"
+    ],
+    "correct": 1,
+    "explanation": "• Normal body temperature for infants is 36.5-37.5°C (97.7-99.5°F).\n• Infants have less ability to regulate temperature than adults.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Normal body temperature for infants is 36.5-37.5°C (97.7-99.5°F). Infants have less ability to regulate temperature than adults.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Vital Signs",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  }
+]

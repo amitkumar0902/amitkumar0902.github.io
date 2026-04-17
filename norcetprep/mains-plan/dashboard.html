@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Dashboard · NORCET Mains 2026</title>
+  <link rel="stylesheet" href="../css/mains-theme.css">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <script src="../js/core.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      NM.boot('dashboard');
+      render();
+    });
+
+    function render() {
+      const results = NM.get('mockResults', []);
+      const act = NM.get('activity', {});
+      const srs = NM.get('srs', {});
+      const host = document.getElementById('dash');
+
+      if (results.length === 0) {
+        host.innerHTML = '<p class="muted">No mock attempts yet. Complete at least one mock to see your trend.</p><div class="btn-row"><a class="btn btn--accent" href="mocks/">Go to mocks</a></div>';
+        drawActivity(act);
+        return;
+      }
+
+      // Line chart of Mock scores
+      const chart = svgLineChart(results.map(r => ({ x: r.id, y: r.pct, label: 'Mock ' + r.id + ' · ' + r.pct.toFixed(1) + '%' })));
+
+      // Subject heatmap
+      const subjSet = new Set();
+      results.forEach(r => Object.keys(r.bySubj || {}).forEach(s => subjSet.add(s)));
+      const subjects = [...subjSet];
+      const heat = subjectHeatmap(results, subjects);
+
+      // Weakest topics
+      const subjAgg = {};
+      results.forEach(r => {
+        Object.entries(r.bySubj || {}).forEach(([s, v]) => {
+          subjAgg[s] = subjAgg[s] || { t: 0, r: 0 };
+          subjAgg[s].t += v.t; subjAgg[s].r += v.r;
+        });
+      });
+      const subjAcc = Object.entries(subjAgg).map(([s, v]) => ({ s, acc: v.r / v.t, n: v.t }));
+      subjAcc.sort((a, b) => a.acc - b.acc);
+      const weak = subjAcc.slice(0, 5);
+
+      host.innerHTML =
+        '<h2>Mock Trend</h2>' +
+        '<div>' + chart + '</div>' +
+        '<table><thead><tr><th>Mock</th><th>%</th><th>Right</th><th>Wrong</th><th>Skipped</th><th>Avg sec/Q</th><th>Date</th></tr></thead><tbody>' +
+          results.map(r => '<tr><td>Mock '+r.id+'</td><td>'+r.pct.toFixed(1)+'%</td><td>'+r.right+'</td><td>'+r.wrong+'</td><td>'+r.skipped+'</td><td>'+r.avgTime+'s</td><td>'+new Date(r.date).toLocaleDateString('en-IN')+'</td></tr>').join('') +
+        '</tbody></table>' +
+
+        '<h2>Subject accuracy heatmap</h2>' +
+        heat +
+
+        '<h2>Focus areas (5 weakest)</h2>' +
+        '<ol>' + weak.map(w => '<li><strong>'+NM.escape(w.s)+'</strong> — '+(w.acc*100).toFixed(0)+'% across '+w.n+' Qs. <a href="bank.html?subject='+encodeURIComponent(w.s)+'">Drill these now →</a></li>').join('') + '</ol>' +
+
+        '<h2>Practice activity (last 30 days)</h2>' +
+        '<div id="activity"></div>' +
+
+        '<h2>SRS status</h2>' +
+        '<p>Due: <strong>' + NM.srsDueCount() + '</strong> · Total logged: <strong>' + Object.keys(srs).length + '</strong> · Graduated: <strong>' + Object.values(srs).filter(c => c.graduated).length + '</strong></p>' +
+        '<div class="btn-row"><a class="btn btn--accent" href="review.html">Open review drill</a></div>';
+
+      drawActivity(act);
+    }
+
+    function drawActivity(act) {
+      const host = document.getElementById('activity');
+      if (!host) return;
+      const cells = [];
+      for (let i = 29; i >= 0; i--) {
+        const dt = new Date(); dt.setDate(dt.getDate() - i);
+        const key = dt.toISOString().slice(0,10);
+        const mins = (act[key] && act[key].min) || 0;
+        const lvl = mins === 0 ? '' : mins < 15 ? 'l1' : mins < 45 ? 'l2' : mins < 90 ? 'l3' : 'l4';
+        cells.push('<span class="heatmap-cell '+lvl+'" title="'+key+': '+mins+' min"></span>');
+      }
+      host.innerHTML = '<div class="heatmap">' + cells.join('') + '</div>';
+    }
+
+    function svgLineChart(pts) {
+      const W = 720, H = 240, pad = 40;
+      const xs = pts.map(p => p.x), ys = pts.map(p => p.y);
+      const minX = Math.min(...xs), maxX = Math.max(...xs);
+      const minY = 0, maxY = 100;
+      const xScale = x => pad + ((x - minX) / Math.max(1, maxX - minX)) * (W - pad * 2);
+      const yScale = y => H - pad - ((y - minY) / (maxY - minY)) * (H - pad * 2);
+      const path = pts.map((p, i) => (i === 0 ? 'M' : 'L') + xScale(p.x) + ' ' + yScale(p.y)).join(' ');
+      const dots = pts.map(p => '<circle cx="'+xScale(p.x)+'" cy="'+yScale(p.y)+'" r="4" fill="var(--accent)"><title>'+p.label+'</title></circle>').join('');
+      const target = yScale(70);
+      return '<svg viewBox="0 0 '+W+' '+H+'" style="max-width:100%;border:1px solid var(--rule);background:var(--bg)" aria-label="Mock score trend">' +
+        '<line x1="'+pad+'" y1="'+target+'" x2="'+(W-pad)+'" y2="'+target+'" stroke="var(--ok)" stroke-dasharray="4 4"/>' +
+        '<text x="'+(W-pad)+'" y="'+(target-4)+'" fill="var(--ok)" font-size="12" text-anchor="end">target 70%</text>' +
+        '<path d="'+path+'" fill="none" stroke="var(--accent)" stroke-width="2"/>' + dots +
+        '<line x1="'+pad+'" y1="'+(H-pad)+'" x2="'+(W-pad)+'" y2="'+(H-pad)+'" stroke="var(--rule)"/>' +
+        '<line x1="'+pad+'" y1="'+pad+'" x2="'+pad+'" y2="'+(H-pad)+'" stroke="var(--rule)"/>' +
+        '<text x="'+pad+'" y="'+(H-10)+'" font-size="12" fill="var(--ink-mute)">Mock ID →</text>' +
+        '<text x="10" y="'+pad+'" font-size="12" fill="var(--ink-mute)">100%</text>' +
+        '<text x="10" y="'+(H-pad)+'" font-size="12" fill="var(--ink-mute)">0%</text>' +
+      '</svg>';
+    }
+
+    function subjectHeatmap(results, subjects) {
+      const rows = subjects.map(s => {
+        const cells = results.map(r => {
+          const v = r.bySubj && r.bySubj[s];
+          if (!v) return '<td style="padding:4px;border:1px solid var(--rule);background:var(--rule-soft)"></td>';
+          const acc = v.r / v.t;
+          const bg = acc < 0.5 ? '#f3dede' : acc < 0.7 ? '#fbefcf' : '#e1f4e7';
+          return '<td title="'+s+' M'+r.id+': '+(acc*100).toFixed(0)+'% ('+v.r+'/'+v.t+')" style="padding:4px 8px;border:1px solid var(--rule);background:'+bg+';font-family:var(--mono);font-size:12px;text-align:center">'+(acc*100).toFixed(0)+'</td>';
+        }).join('');
+        return '<tr><th style="text-align:left;padding:4px 10px">'+NM.escape(s)+'</th>'+cells+'</tr>';
+      }).join('');
+      const head = '<tr><th></th>'+results.map(r => '<th style="font-weight:700">M'+r.id+'</th>').join('')+'</tr>';
+      return '<table style="border-collapse:collapse">'+head+rows+'</table>';
+    }
+  </script>
+</head>
+<body>
+<main class="page page--wide" id="main">
+  <a class="back" href="index.html">← Back to Plan</a>
+  <h1>Progress Dashboard</h1>
+  <p class="muted">Everything the tool knows about your performance. All data is local to this browser.</p>
+  <div id="dash"><p>Loading…</p></div>
+</main>
+</body>
+</html>

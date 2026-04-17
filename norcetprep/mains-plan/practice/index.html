@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Practice · NORCET Mains 2026</title>
+  <link rel="stylesheet" href="../../css/mains-theme.css">
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <script src="../../js/core.js" defer></script>
+  <script defer>
+  const DAYS = [
+    {n:1, t:'ABG · ECG · Burns'},
+    {n:2, t:'ET tube · Drug calc · IV fluids'},
+    {n:3, t:'OBG — Eclampsia, Placenta, 3rd stage, Hydatidiform'},
+    {n:4, t:'Pediatrics — Milestones, NRP, APGAR, RDS'},
+    {n:5, t:'TEF · Croup · G6PD · Sickle · Hemophilia'},
+    {n:6, t:'National programmes, Logos, ICDS, Polio, HPV, AIDS'},
+    {n:7, t:'Hand hygiene · BMW · O2 devices · Venturi colors'},
+    {n:8, t:'CMV · Toxoplasma · Candida · BV · Enema · TPN · CVC'},
+    {n:9, t:'Priority triage · Advanced drug calc · Cardiac emergencies'},
+    {n:10, t:'Latest trends 2026 · Weak-area revision'},
+    {n:11, t:'Mock post-mortem drills'},
+    {n:12, t:'Speed + accuracy drills'},
+    {n:13, t:'Rapid-fire one-pager sweep'}
+  ];
+  document.addEventListener('DOMContentLoaded', () => {
+    NM.boot('practice');
+    const done = NM.get('practiceDone', {});
+    const host = document.getElementById('list');
+    host.innerHTML = DAYS.map(d => {
+      const status = done[d.n] ? '<span class="status done">done</span>' : '<span class="status">pending</span>';
+      return '<li><span class="num">Day '+d.n+'</span><span class="title">'+d.t+'</span><span class="links"><a href="day-'+d.n+'.html">'+(done[d.n]?'Retake':'Start')+'</a></span>'+status+'</li>';
+    }).join('');
+  });
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="../index.html">← Back to Plan</a>
+  <h1>Daily Practice</h1>
+  <p class="muted">Each day ships with ~25–30 curated questions tied to that day's notes. PYQs appear first; explanations cover every option.</p>
+  <ul class="lecture-list" id="list"></ul>
+  <h2>Other drills</h2>
+  <ul class="lecture-list">
+    <li><span class="num">Drug Calc</span><span class="title">50 rapid calc Qs (30s/each)</span><span class="links"><a href="../drill/drug-calc.html">Open drill</a></span><span class="status">timed</span></li>
+    <li><span class="num">Scenario</span><span class="title">Clinical-reasoning only</span><span class="links"><a href="../drill/scenarios.html">Open drill</a></span><span class="status">scenario</span></li>
+    <li><span class="num">Review</span><span class="title">Missed-question spaced repetition</span><span class="links"><a href="../review.html">Open review</a></span><span class="status">SRS</span></li>
+  </ul>
+</main>
+</body>
+</html>

@@ -1,0 +1,627 @@
+[
+  {
+    "id": 504,
+    "question": "Ventilator-associated pneumonia (VAP) typically occurs after intubation for at least:",
+    "options": [
+      "6 hours",
+      "48–72 hours",
+      "1 hour",
+      "30 days always"
+    ],
+    "correct": 1,
+    "explanation": "• VAP definitions often use ventilation >48–72 hours.\n• Guidelines vary slightly; this is exam-oriented.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "VAP definitions often use ventilation >48–72 hours. Guidelines vary slightly; this is exam-oriented.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Mixed",
+    "topic": "ICU",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 2,
+    "question": "Most common electrolyte abnormality in chronic kidney disease is:",
+    "options": [
+      "Hypokalemia",
+      "Hyperkalemia",
+      "Hyponatremia",
+      "Hypercalcemia"
+    ],
+    "correct": 1,
+    "explanation": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
+    "explanations": {
+      "A": "Hypokalemia is seen in loop diuretic over-use, not typical of CKD.",
+      "B": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
+      "C": "Hyponatremia can occur but not the hallmark finding.",
+      "D": "Hypercalcemia is atypical; CKD typically causes hypocalcemia."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Renal",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 17,
+    "question": "Tetralogy of Fallot — classic components do NOT include:",
+    "options": [
+      "VSD",
+      "Overriding aorta",
+      "RV hypertrophy",
+      "ASD"
+    ],
+    "correct": 3,
+    "explanation": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH.",
+    "explanations": {
+      "A": "Part of TOF.",
+      "B": "Part of TOF.",
+      "C": "Part of TOF.",
+      "D": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
+    },
+    "subject": "Pediatric",
+    "topic": "Congenital Heart",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 8 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 21,
+    "question": "Coombs test is used to diagnose:",
+    "options": [
+      "Hemophilia",
+      "Autoimmune hemolytic anemia",
+      "G6PD deficiency",
+      "Aplastic anemia"
+    ],
+    "correct": 1,
+    "explanation": "Direct Coombs detects antibody on RBCs — AIHA.",
+    "explanations": {
+      "A": "Coagulation factor assays used.",
+      "B": "Direct Coombs detects antibody on RBCs — AIHA.",
+      "C": "Enzyme assay, not Coombs.",
+      "D": "Bone marrow biopsy, not Coombs."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Hematology",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET 8 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 258,
+    "question": "A patient with hemophilia A is bleeding. What factor replacement is needed?",
+    "options": [
+      "Factor VII",
+      "Factor VIII",
+      "Factor IX",
+      "Factor X"
+    ],
+    "correct": 1,
+    "explanation": "• Hemophilia A is a deficiency of Factor VIII.\n• Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Hemophilia A is a deficiency of Factor VIII. Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Hematological System",
+    "day": 5,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2019",
+    "qtype": "factual"
+  },
+  {
+    "id": 298,
+    "question": "[IMAGE-BASED] On the chest X-ray, a wedge-shaped opacity in the lung with the apex toward the hilum suggests:",
+    "options": [
+      "Pneumonia",
+      "Lung mass",
+      "Pulmonary infarction",
+      "Pneumothorax"
+    ],
+    "correct": 2,
+    "explanation": "• A wedge-shaped opacity with apex toward hilum is classic for pulmonary infarction (e.g.\n• pulmonary embolism).\n• Pneumonia and mass often have different shapes and distribution.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "A wedge-shaped opacity with apex toward hilum is classic for pulmonary infarction (e.g. pulmonary embolism).",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Image-Based - X-ray",
+    "day": 5,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2018",
+    "qtype": "factual"
+  },
+  {
+    "id": 394,
+    "question": "A 5-year-old child with asthma is using a metered-dose inhaler. What is the most important teaching?",
+    "options": [
+      "Use spacer device",
+      "Inhale quickly",
+      "Hold breath for 5 seconds",
+      "Use only when symptomatic"
+    ],
+    "correct": 0,
+    "explanation": "• Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects.\n• They make it easier for children to coordinate breathing.",
+    "explanations": {
+      "A": "Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects. They make it easier for children to coordinate breathing.",
+      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Respiratory Conditions",
+    "day": 5,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "calculation"
+  },
+  {
+    "id": 402,
+    "question": "A 3-year-old child with croup is admitted. What is the priority nursing intervention?",
+    "options": [
+      "Administer antibiotics",
+      "Provide cool mist humidification",
+      "Encourage oral fluids",
+      "Administer antipyretics"
+    ],
+    "correct": 1,
+    "explanation": "• Cool mist humidification helps reduce airway inflammation and ease breathing in croup.\n• This is the priority intervention along with monitoring respiratory status.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Respiratory Conditions",
+    "day": 5,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 411,
+    "question": "A 2-year-old child with croup is admitted. What is the priority nursing intervention?",
+    "options": [
+      "Administer antibiotics",
+      "Provide cool mist humidification",
+      "Encourage oral fluids",
+      "Administer antipyretics"
+    ],
+    "correct": 1,
+    "explanation": "• Cool mist humidification helps reduce airway inflammation and ease breathing in croup.\n• This is the priority intervention along with monitoring respiratory status.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Respiratory Conditions",
+    "day": 5,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2016",
+    "qtype": "factual"
+  },
+  {
+    "id": 425,
+    "question": "A child with asthma is using spacer device with MDI. What is the correct technique?",
+    "options": [
+      "One puff, breathe in immediately",
+      "One puff, wait 30 seconds, then breathe in slowly",
+      "Multiple puffs quickly",
+      "No specific technique"
+    ],
+    "correct": 1,
+    "explanation": "• MDI with spacer: shake, one puff into spacer, wait 30 seconds for propellant to settle, then child breathes in slowly through mouthpiece.\n• Spacer improves drug delivery and reduces side effects.\n• Proper technique ensures effective medication delivery.\n• This knowledge is essential for pediatric respiratory care.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "MDI with spacer: shake, one puff into spacer, wait 30 seconds for propellant to settle, then child breathes in slowly through mouthpiece. Spacer improves drug delivery and reduces side effects.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pediatric",
+    "topic": "Pediatric Medication Equipment",
+    "day": 5,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2019",
+    "qtype": "factual"
+  },
+  {
+    "id": 494,
+    "question": "Beta-2 agonist used for acute bronchospasm example:",
+    "options": [
+      "Propranolol",
+      "Salbutamol (albuterol)",
+      "Atenolol",
+      "Labetalol"
+    ],
+    "correct": 1,
+    "explanation": "• Short-acting beta-2 agonists relieve bronchospasm.\n• Non-selective beta-blockers can worsen asthma.",
+    "explanations": {
+      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "B": "Short-acting beta-2 agonists relieve bronchospasm. Non-selective beta-blockers can worsen asthma.",
+      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+    },
+    "subject": "Pharmacology",
+    "topic": "Respiratory",
+    "day": 5,
+    "difficulty": "Easy",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 1,
+    "question": "The Parkland formula for fluid resuscitation in burns is:",
+    "options": [
+      "2 mL × kg × %TBSA",
+      "3 mL × kg × %TBSA",
+      "4 mL × kg × %TBSA",
+      "5 mL × kg × %TBSA"
+    ],
+    "correct": 2,
+    "explanation": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+    "explanations": {
+      "A": "2 mL×kg×%TBSA is the Modified Brooke formula, not Parkland.",
+      "B": "3 mL×kg×%TBSA is seen in pediatric modifications (Galveston) — not Parkland.",
+      "C": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+      "D": "Exceeds standard resuscitation volume and risks over-resuscitation."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Burns",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 3,
+    "question": "In BLS (AHA 2020), the correct sequence for adults is:",
+    "options": [
+      "A-B-C",
+      "C-A-B",
+      "B-C-A",
+      "Call-Check-Compress"
+    ],
+    "correct": 1,
+    "explanation": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
+    "explanations": {
+      "A": "Older Airway-Breathing-Compressions sequence has been superseded.",
+      "B": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
+      "C": "Incorrect ordering.",
+      "D": "Describes the pre-BLS check, not the CPR sequence itself."
+    },
+    "subject": "Fundamentals",
+    "topic": "BLS/ACLS",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 4,
+    "question": "Correct depth of chest compression in adult CPR is:",
+    "options": [
+      "1-2 cm",
+      "3-4 cm",
+      "5-6 cm",
+      "7-8 cm"
+    ],
+    "correct": 2,
+    "explanation": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
+    "explanations": {
+      "A": "Too shallow — insufficient coronary perfusion pressure.",
+      "B": "Still below AHA recommendation.",
+      "C": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
+      "D": "Excessive depth increases rib-fracture/internal-injury risk."
+    },
+    "subject": "Fundamentals",
+    "topic": "BLS/ACLS",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 5,
+    "question": "IV infusion of 1 L at 125 mL/hr — duration is:",
+    "options": [
+      "6 hr",
+      "8 hr",
+      "10 hr",
+      "12 hr"
+    ],
+    "correct": 1,
+    "explanation": "1000 ÷ 125 = 8 hours.",
+    "explanations": {
+      "A": "6 hr × 125 = 750 mL, not 1 L.",
+      "B": "1000 ÷ 125 = 8 hours.",
+      "C": "10 hr × 125 = 1250 mL, too much.",
+      "D": "12 hr × 125 = 1500 mL, too much."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug calculation",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "calculation"
+  },
+  {
+    "id": 6,
+    "question": "First-line drug for severe pre-eclampsia / eclampsia prophylaxis:",
+    "options": [
+      "Hydralazine",
+      "Magnesium sulfate",
+      "Labetalol",
+      "Diazepam"
+    ],
+    "correct": 1,
+    "explanation": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+    "explanations": {
+      "A": "BP control adjunct, not seizure prophylaxis.",
+      "B": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+      "C": "Antihypertensive only, not seizure prevention.",
+      "D": "Older practice, now supplanted by MgSO4."
+    },
+    "subject": "OBG",
+    "topic": "Eclampsia",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 7,
+    "question": "Normal APGAR score range is:",
+    "options": [
+      "0–5",
+      "0–10",
+      "0–15",
+      "1–10"
+    ],
+    "correct": 1,
+    "explanation": "5 criteria × 0–2 each → total 0–10.",
+    "explanations": {
+      "A": "Maximum is 10, not 5.",
+      "B": "5 criteria × 0–2 each → total 0–10.",
+      "C": "Incorrect.",
+      "D": "Minimum is 0, not 1."
+    },
+    "subject": "Pediatric",
+    "topic": "APGAR",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 8,
+    "question": "Exclusive breastfeeding WHO recommendation:",
+    "options": [
+      "3 months",
+      "4 months",
+      "6 months",
+      "12 months"
+    ],
+    "correct": 2,
+    "explanation": "WHO: exclusive breastfeeding first 6 months of life.",
+    "explanations": {
+      "A": "Too short per WHO.",
+      "B": "Below current WHO guidance.",
+      "C": "WHO: exclusive breastfeeding first 6 months of life.",
+      "D": "Complementary feeding should start by 6 months."
+    },
+    "subject": "Community Health",
+    "topic": "MCH",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 9,
+    "question": "Which antipsychotic requires weekly CBC monitoring?",
+    "options": [
+      "Haloperidol",
+      "Clozapine",
+      "Risperidone",
+      "Olanzapine"
+    ],
+    "correct": 1,
+    "explanation": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
+    "explanations": {
+      "A": "EPS risk but no mandatory CBC protocol.",
+      "B": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
+      "C": "Routine CBC not mandated.",
+      "D": "Metabolic monitoring needed; not weekly CBC."
+    },
+    "subject": "Psychiatric",
+    "topic": "Antipsychotics",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 10,
+    "question": "Yellow-coded BMW bag contains:",
+    "options": [
+      "General waste",
+      "Sharps",
+      "Human anatomical / soiled / micro / chem",
+      "Discarded medicines"
+    ],
+    "correct": 2,
+    "explanation": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
+    "explanations": {
+      "A": "General goes in black, not yellow.",
+      "B": "Sharps → white translucent puncture-proof.",
+      "C": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
+      "D": "Discarded meds go in yellow sub-category but whole bag label is broader — best answer is the full yellow list (C)."
+    },
+    "subject": "Community Health",
+    "topic": "BMW",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 11,
+    "question": "MTP Act (2021 amendment) allows termination up to:",
+    "options": [
+      "12 weeks",
+      "20 weeks",
+      "24 weeks",
+      "28 weeks"
+    ],
+    "correct": 2,
+    "explanation": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
+    "explanations": {
+      "A": "Previous lower limit without conditions.",
+      "B": "Up to 20 wk with one RMP opinion.",
+      "C": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
+      "D": "Only beyond 24 wk with Medical Board approval for substantial fetal abnormalities."
+    },
+    "subject": "OBG",
+    "topic": "MTP Act",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 12,
+    "question": "PM-JAY coverage per family per year:",
+    "options": [
+      "₹1 lakh",
+      "₹3 lakh",
+      "₹5 lakh",
+      "₹10 lakh"
+    ],
+    "correct": 2,
+    "explanation": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
+    "explanations": {
+      "A": "Too low.",
+      "B": "Too low.",
+      "C": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
+      "D": "Incorrect."
+    },
+    "subject": "Community Health",
+    "topic": "National Programs",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 13,
+    "question": "Most common method of suicide in India:",
+    "options": [
+      "Poisoning",
+      "Hanging",
+      "Firearms",
+      "Drowning"
+    ],
+    "correct": 1,
+    "explanation": "NCRB data: hanging is the leading method (>55%).",
+    "explanations": {
+      "A": "Second most common but not leading.",
+      "B": "NCRB data: hanging is the leading method (>55%).",
+      "C": "Rare due to low firearms penetration.",
+      "D": "Uncommon method."
+    },
+    "subject": "Psychiatric",
+    "topic": "Epidemiology",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 14,
+    "question": "Article 21A deals with:",
+    "options": [
+      "Right to equality",
+      "Right to education",
+      "Right to life",
+      "Right to speech"
+    ],
+    "correct": 1,
+    "explanation": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
+    "explanations": {
+      "A": "Article 14.",
+      "B": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
+      "C": "Article 21.",
+      "D": "Article 19."
+    },
+    "subject": "Community Health",
+    "topic": "Constitution",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  },
+  {
+    "id": 15,
+    "question": "Drug of choice for status epilepticus (first-line IV):",
+    "options": [
+      "Phenytoin",
+      "Lorazepam",
+      "Phenobarbital",
+      "Valproate"
+    ],
+    "correct": 1,
+    "explanation": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
+    "explanations": {
+      "A": "Used as second-line after benzodiazepines.",
+      "B": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
+      "C": "Third-line option.",
+      "D": "Alternative second-line."
+    },
+    "subject": "Pharmacology",
+    "topic": "Neurology",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 9 Mains",
+    "year": 2025,
+    "qtype": "factual"
+  }
+]

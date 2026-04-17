@@ -1,0 +1,4168 @@
+{
+  "id": 9,
+  "title": "Full Mock Test 9",
+  "count": 160,
+  "minutes": 180,
+  "questions": [
+    {
+      "id": 292,
+      "question": "[IMAGE-BASED] On the chest X-ray image, the tip of the NG tube is visible. Where should it lie to confirm gastric placement?",
+      "options": [
+        "In the trachea",
+        "Below the diaphragm, in the stomach",
+        "In the esophagus above diaphragm",
+        "In the lung"
+      ],
+      "correct": 1,
+      "explanation": "• Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach.\n• Esophageal or tracheal placement is incorrect and unsafe.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Image-Based - X-ray",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 1
+    },
+    {
+      "id": 24,
+      "question": "First intervention in hypovolemic shock:",
+      "options": [
+        "Antibiotics",
+        "Vasopressors",
+        "IV fluid bolus",
+        "Inotropes"
+      ],
+      "correct": 2,
+      "explanation": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
+      "explanations": {
+        "A": "Only for septic source.",
+        "B": "Second line after fluid challenge.",
+        "C": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
+        "D": "For cardiogenic, not hypovolemic shock."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Shock",
+      "day": 9,
+      "difficulty": "Easy",
+      "source": "NORCET 7 Mains",
+      "year": 2024,
+      "qtype": "factual",
+      "mockSeq": 2
+    },
+    {
+      "id": 21,
+      "question": "Coombs test is used to diagnose:",
+      "options": [
+        "Hemophilia",
+        "Autoimmune hemolytic anemia",
+        "G6PD deficiency",
+        "Aplastic anemia"
+      ],
+      "correct": 1,
+      "explanation": "Direct Coombs detects antibody on RBCs — AIHA.",
+      "explanations": {
+        "A": "Coagulation factor assays used.",
+        "B": "Direct Coombs detects antibody on RBCs — AIHA.",
+        "C": "Enzyme assay, not Coombs.",
+        "D": "Bone marrow biopsy, not Coombs."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Hematology",
+      "day": 5,
+      "difficulty": "Medium",
+      "source": "NORCET 8 Mains",
+      "year": 2025,
+      "qtype": "factual",
+      "mockSeq": 3
+    },
+    {
+      "id": 219,
+      "question": "A patient with peptic ulcer disease is prescribed proton pump inhibitors. What should the nurse teach about administration?",
+      "options": [
+        "Take with meals",
+        "Take 30 minutes before breakfast",
+        "Take at bedtime",
+        "Take with antacids"
+      ],
+      "correct": 1,
+      "explanation": "• Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Gastrointestinal System",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 4
+    },
+    {
+      "id": 248,
+      "question": "A patient with Crohn's disease is experiencing a flare-up. What dietary modification is most appropriate?",
+      "options": [
+        "High fiber diet",
+        "Low residue diet",
+        "High protein diet",
+        "High fat diet"
+      ],
+      "correct": 1,
+      "explanation": "• During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms.\n• High fiber can worsen inflammation.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Gastrointestinal System",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2019",
+      "qtype": "scenario",
+      "mockSeq": 5
+    },
+    {
+      "id": 280,
+      "question": "A patient with ARDS is on mechanical ventilation. What is the target PaO2?",
+      "options": [
+        "60-80 mmHg",
+        "80-100 mmHg",
+        "100-120 mmHg",
+        "120-140 mmHg"
+      ],
+      "correct": 0,
+      "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.\n• Higher levels increase risk of oxygen toxicity and don't significantly improve outcomes.\n• Understanding ventilator management is critical for respiratory care.",
+      "explanations": {
+        "A": "Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation. Higher levels increase risk of oxygen toxicity and don't significantly improve outcomes.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Ventilator Management",
+      "day": 4,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 6
+    },
+    {
+      "id": 243,
+      "question": "A patient with Guillain-Barré syndrome is in the acute phase. What is the priority nursing intervention?",
+      "options": [
+        "Respiratory monitoring",
+        "Physical therapy",
+        "Pain management",
+        "Nutritional support"
+      ],
+      "correct": 0,
+      "explanation": "• Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
+      "explanations": {
+        "A": "Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Neurological System",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 7
+    },
+    {
+      "id": 222,
+      "question": "A patient with liver cirrhosis develops hepatic encephalopathy. What dietary modification is most important?",
+      "options": [
+        "High protein diet",
+        "Low protein diet",
+        "High sodium diet",
+        "High fat diet"
+      ],
+      "correct": 1,
+      "explanation": "• Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy.\n• Protein restriction helps manage symptoms.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy. Protein restriction helps manage symptoms.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Hepatic System",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 8
+    },
+    {
+      "id": 239,
+      "question": "A patient with Addison's disease is experiencing an adrenal crisis. What is the priority medication?",
+      "options": [
+        "Insulin",
+        "Hydrocortisone",
+        "Epinephrine",
+        "Vasopressin"
+      ],
+      "correct": 1,
+      "explanation": "• Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Endocrine System",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 9
+    },
+    {
+      "id": 216,
+      "question": "A patient with diabetes mellitus develops diabetic ketoacidosis (DKA). What is the primary nursing intervention?",
+      "options": [
+        "Administering oral glucose",
+        "Starting IV insulin infusion",
+        "Encouraging fluid intake",
+        "Monitoring blood pressure"
+      ],
+      "correct": 1,
+      "explanation": "• IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose.\n• This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Endocrine System",
+      "day": 10,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 10
+    },
+    {
+      "id": 226,
+      "question": "A patient with burns covering 40% of body surface area is in the fluid resuscitation phase. What is the priority assessment?",
+      "options": [
+        "Pain level",
+        "Urine output",
+        "Wound appearance",
+        "Temperature"
+      ],
+      "correct": 1,
+      "explanation": "• Urine output is the best indicator of adequate fluid resuscitation in burn patients.\n• Target is 30-50 ml/hour in adults.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Emergency Care",
+      "day": 1,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "scenario",
+      "mockSeq": 11
+    },
+    {
+      "id": 277,
+      "question": "A patient with chest tube has continuous bubbling in water seal chamber. What does this indicate?",
+      "options": [
+        "Normal functioning",
+        "Air leak in system",
+        "Clogged tube",
+        "Excessive drainage"
+      ],
+      "correct": 1,
+      "explanation": "• Continuous bubbling in water seal chamber indicates air leak, which could be from patient's lung (pneumothorax) or leak in system (connections, tubing).\n• Requires investigation - check connections, clamp tube near patient (if bubbling stops, leak is in patient).\n• This knowledge is critical for managing chest drainage systems.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Continuous bubbling in water seal chamber indicates air leak, which could be from patient's lung (pneumothorax) or leak in system (connections, tubing). Requires investigation - check connections, clamp tube near patient (if bubbling stops, leak is in patient).",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Chest Tube Management",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2015",
+      "qtype": "scenario",
+      "mockSeq": 12
+    },
+    {
+      "id": 276,
+      "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Hypercalcemia",
+        "Hypocalcemia"
+      ],
+      "correct": 0,
+      "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents.\n• Hyperkalemia is the most dangerous and can cause fatal arrhythmias.\n• Understanding oncologic emergencies is critical for safe chemotherapy administration and monitoring.",
+      "explanations": {
+        "A": "Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents. Hyperkalemia is the most dangerous and can cause fatal arrhythmias.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Oncology - Tumor Lysis Syndrome",
+      "day": 1,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 13
+    },
+    {
+      "id": 262,
+      "question": "A patient with Bell's palsy is receiving corticosteroids. What is the most important teaching?",
+      "options": [
+        "Eye protection",
+        "Facial exercises",
+        "Medication timing",
+        "Diet modification"
+      ],
+      "correct": 0,
+      "explanation": "• Bell's palsy causes inability to close the eye, leading to corneal damage.\n• Eye protection (artificial tears, eye patch) is critical.",
+      "explanations": {
+        "A": "Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Neurological System",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "scenario",
+      "mockSeq": 14
+    },
+    {
+      "id": 290,
+      "question": "A patient with external fixator for fracture. What is the priority nursing care?",
+      "options": [
+        "Pin site care",
+        "Range of motion exercises",
+        "Weight bearing",
+        "No special care"
+      ],
+      "correct": 0,
+      "explanation": "• External fixator requires meticulous pin site care to prevent infection: clean daily with saline or antiseptic, assess for signs of infection (redness, drainage, loosening).\n• Pin site infections can lead to osteomyelitis.\n• Understanding orthopedic equipment is essential for fracture management.",
+      "explanations": {
+        "A": "External fixator requires meticulous pin site care to prevent infection: clean daily with saline or antiseptic, assess for signs of infection (redness, drainage, loosening). Pin site infections can lead to osteomyelitis.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Orthopedic Equipment",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 15
+    },
+    {
+      "id": 258,
+      "question": "A patient with hemophilia A is bleeding. What factor replacement is needed?",
+      "options": [
+        "Factor VII",
+        "Factor VIII",
+        "Factor IX",
+        "Factor X"
+      ],
+      "correct": 1,
+      "explanation": "• Hemophilia A is a deficiency of Factor VIII.\n• Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Hemophilia A is a deficiency of Factor VIII. Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Hematological System",
+      "day": 5,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2019",
+      "qtype": "factual",
+      "mockSeq": 16
+    },
+    {
+      "id": 272,
+      "question": "A patient with myasthenia gravis is experiencing crisis. What is the priority assessment?",
+      "options": [
+        "Muscle strength",
+        "Respiratory function",
+        "Swallowing ability",
+        "Vision"
+      ],
+      "correct": 1,
+      "explanation": "• Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.\n• Respiratory failure can occur rapidly and is life-threatening.\n• This knowledge is essential for managing neuromuscular disorders.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Neurological - Myasthenia Gravis",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2020",
+      "qtype": "factual",
+      "mockSeq": 17
+    },
+    {
+      "id": 268,
+      "question": "A patient with chronic heart failure is on furosemide. What electrolyte should be monitored?",
+      "options": [
+        "Sodium",
+        "Potassium",
+        "Calcium",
+        "Magnesium"
+      ],
+      "correct": 1,
+      "explanation": "• Furosemide (loop diuretic) causes hypokalemia by increasing potassium excretion.\n• Monitor potassium levels regularly and may need supplementation.\n• Hypokalemia increases digoxin toxicity risk and can cause muscle weakness and arrhythmias.\n• Understanding diuretic effects on electrolytes is essential for safe medication management.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Furosemide (loop diuretic) causes hypokalemia by increasing potassium excretion. Monitor potassium levels regularly and may need supplementation.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Pharmacology - Diuretics",
+      "day": 1,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2016",
+      "qtype": "scenario",
+      "mockSeq": 18
+    },
+    {
+      "id": 274,
+      "question": "A patient with acute MI receives tPA. What is the most critical monitoring in first 24 hours?",
+      "options": [
+        "Cardiac enzymes",
+        "Signs of bleeding",
+        "ECG changes",
+        "Blood pressure"
+      ],
+      "correct": 1,
+      "explanation": "• tPA is a thrombolytic that significantly increases bleeding risk.\n• Intracranial hemorrhage is the most serious complication requiring immediate monitoring.\n• Continuous assessment for signs of bleeding (gums, bruising, hematuria, melena) is critical.\n• This is a priority nursing intervention because patient safety depends on timely recognition of complications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "tPA is a thrombolytic that significantly increases bleeding risk. Intracranial hemorrhage is the most serious complication requiring immediate monitoring.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Cardiovascular - Thrombolytics",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 19
+    },
+    {
+      "id": 231,
+      "question": "A patient with sepsis is in septic shock. What is the priority nursing intervention?",
+      "options": [
+        "Administering antibiotics",
+        "Fluid resuscitation",
+        "Oxygen administration",
+        "Pain management"
+      ],
+      "correct": 1,
+      "explanation": "• Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion.\n• This should be done immediately.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion. This should be done immediately.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Critical Care",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 20
+    },
+    {
+      "id": 242,
+      "question": "A patient with end-stage renal disease is on peritoneal dialysis. What is the most critical complication to monitor?",
+      "options": [
+        "Peritonitis",
+        "Weight gain",
+        "Fatigue",
+        "Itching"
+      ],
+      "correct": 0,
+      "explanation": "• Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever.\n• It requires immediate treatment.",
+      "explanations": {
+        "A": "Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever. It requires immediate treatment.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Renal System",
+      "day": 10,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 21
+    },
+    {
+      "id": 224,
+      "question": "A patient with spinal cord injury at C5 level is at risk for which complication?",
+      "options": [
+        "Autonomic dysreflexia",
+        "Diabetes insipidus",
+        "Syndrome of inappropriate ADH",
+        "Cushing's syndrome"
+      ],
+      "correct": 0,
+      "explanation": "• Autonomic dysreflexia occurs in patients with spinal cord injury above T6, causing severe hypertension.\n• It's a medical emergency requiring immediate intervention.",
+      "explanations": {
+        "A": "Autonomic dysreflexia occurs in patients with spinal cord injury above T6, causing severe hypertension. It's a medical emergency requiring immediate intervention.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Neurological System",
+      "day": 10,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 22
+    },
+    {
+      "id": 283,
+      "question": "A patient with tracheostomy requires suctioning. What is the correct technique?",
+      "options": [
+        "Insert catheter until resistance, then withdraw 1 cm",
+        "Insert full length",
+        "Insert only 2 cm",
+        "No specific technique"
+      ],
+      "correct": 0,
+      "explanation": "• Tracheostomy suctioning: insert catheter until resistance (carina), withdraw 1 cm, then apply suction while rotating and withdrawing.\n• Pre-oxygenate before suctioning.\n• Limit to 10-15 seconds.\n• Proper technique prevents trauma and maintains airway patency.\n• This knowledge is critical for airway management.",
+      "explanations": {
+        "A": "Tracheostomy suctioning: insert catheter until resistance (carina), withdraw 1 cm, then apply suction while rotating and withdrawing. Pre-oxygenate before suctioning.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Tracheostomy Care",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2021",
+      "qtype": "factual",
+      "mockSeq": 23
+    },
+    {
+      "id": 297,
+      "question": "[IMAGE-BASED] The image shows a syringe with a needle. Which gauge is typically used for intramuscular injection in an adult?",
+      "options": [
+        "18 G",
+        "21–23 G",
+        "26 G",
+        "30 G"
+      ],
+      "correct": 1,
+      "explanation": "• IM injection in adults usually uses 21–23 G, 1–1.5 inch.\n• Subcutaneous often 25–27 G; IV varies by site and use.\n• Syringe/needle identification from images is tested in NORCET.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "IM injection in adults usually uses 21–23 G, 1–1.5 inch. Subcutaneous often 25–27 G; IV varies by site and use.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Image-Based - Instruments",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2019",
+      "qtype": "factual",
+      "mockSeq": 24
+    },
+    {
+      "id": 20,
+      "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
+      "options": [
+        "HOB flat",
+        "HOB elevation 30–45°",
+        "Continuous sedation",
+        "Paralytic infusion"
+      ],
+      "correct": 1,
+      "explanation": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
+      "explanations": {
+        "A": "Increases aspiration risk.",
+        "B": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
+        "C": "Over-sedation delays extubation and increases VAP risk.",
+        "D": "Paralytics have no routine VAP-prevention role."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "ICU care",
+      "day": 1,
+      "difficulty": "Medium",
+      "source": "NORCET 8 Mains",
+      "year": 2025,
+      "qtype": "scenario",
+      "mockSeq": 25
+    },
+    {
+      "id": 295,
+      "question": "[IMAGE-BASED] In the image, a three-bottle chest drainage system is shown. Which chamber indicates an air leak when it bubbles continuously?",
+      "options": [
+        "Collection chamber",
+        "Water seal chamber",
+        "Suction control chamber",
+        "None"
+      ],
+      "correct": 1,
+      "explanation": "• Continuous bubbling in the water seal chamber indicates an air leak (from lung or system).\n• Tidaling may be normal with respiration; continuous bubbling is not.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Continuous bubbling in the water seal chamber indicates an air leak (from lung or system). Tidaling may be normal with respiration; continuous bubbling is not.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Image-Based - Instruments",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2021",
+      "qtype": "factual",
+      "mockSeq": 26
+    },
+    {
+      "id": 253,
+      "question": "A patient with acute respiratory failure is on mechanical ventilation. What is the target PaO2?",
+      "options": [
+        "60-80 mmHg",
+        "80-100 mmHg",
+        "100-120 mmHg",
+        "120-140 mmHg"
+      ],
+      "correct": 0,
+      "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
+      "explanations": {
+        "A": "Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Critical Care",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 27
+    },
+    {
+      "id": 247,
+      "question": "A patient with pernicious anemia is receiving vitamin B12 injections. What is the expected response?",
+      "options": [
+        "Immediate improvement",
+        "Improvement in 1-2 weeks",
+        "Improvement in 4-6 weeks",
+        "No improvement expected"
+      ],
+      "correct": 1,
+      "explanation": "• Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment.\n• Reticulocyte count increases, and neurological symptoms improve gradually.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Hematological System",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "scenario",
+      "mockSeq": 28
+    },
+    {
+      "id": 288,
+      "question": "A patient with PCA (Patient-Controlled Analgesia) pump. What is the most important teaching?",
+      "options": [
+        "Press button frequently",
+        "Only patient should press button",
+        "Family can help",
+        "No teaching needed"
+      ],
+      "correct": 1,
+      "explanation": "• PCA button should only be pressed by the patient to prevent overdose.\n• PCA has built-in safety limits (lockout interval, maximum dose).\n• Family members pressing button can cause respiratory depression.\n• Understanding PCA safety is critical for preventing complications.\n• This knowledge is essential for safe pain management.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "PCA button should only be pressed by the patient to prevent overdose. PCA has built-in safety limits (lockout interval, maximum dose).",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Pain Management Equipment",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2016",
+      "qtype": "scenario",
+      "mockSeq": 29
+    },
+    {
+      "id": 230,
+      "question": "A patient with rheumatoid arthritis is taking methotrexate. What is the most important monitoring parameter?",
+      "options": [
+        "Blood glucose",
+        "Liver function tests",
+        "Blood pressure",
+        "Temperature"
+      ],
+      "correct": 1,
+      "explanation": "• Methotrexate can cause hepatotoxicity.\n• Regular liver function tests are essential to monitor for liver damage.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Methotrexate can cause hepatotoxicity. Regular liver function tests are essential to monitor for liver damage.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Musculoskeletal System",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 30
+    },
+    {
+      "id": 255,
+      "question": "A patient with myasthenia gravis is experiencing a crisis. What is the priority assessment?",
+      "options": [
+        "Muscle strength",
+        "Respiratory function",
+        "Swallowing ability",
+        "Vision"
+      ],
+      "correct": 1,
+      "explanation": "• Myasthenic crisis can cause respiratory failure.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Myasthenic crisis can cause respiratory failure. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Neurological System",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2016",
+      "qtype": "scenario",
+      "mockSeq": 31
+    },
+    {
+      "id": 279,
+      "question": "A patient with deep vein thrombosis is receiving heparin via IV pump. What is the priority monitoring?",
+      "options": [
+        "Pump rate",
+        "Signs of bleeding",
+        "IV site",
+        "Patient comfort"
+      ],
+      "correct": 1,
+      "explanation": "• Heparin increases bleeding risk.\n• Continuous monitoring for signs of bleeding (gums, bruising, hematuria, melena) is critical.\n• Also monitor aPTT levels.\n• Intracranial hemorrhage is most serious complication.\n• This knowledge is essential for safe anticoagulant therapy management.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Heparin increases bleeding risk. Continuous monitoring for signs of bleeding (gums, bruising, hematuria, melena) is critical.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "IV Therapy Equipment",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2017",
+      "qtype": "scenario",
+      "mockSeq": 32
+    },
+    {
+      "id": 1,
+      "question": "The Parkland formula for fluid resuscitation in burns is:",
+      "options": [
+        "2 mL × kg × %TBSA",
+        "3 mL × kg × %TBSA",
+        "4 mL × kg × %TBSA",
+        "5 mL × kg × %TBSA"
+      ],
+      "correct": 2,
+      "explanation": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+      "explanations": {
+        "A": "2 mL×kg×%TBSA is the Modified Brooke formula, not Parkland.",
+        "B": "3 mL×kg×%TBSA is seen in pediatric modifications (Galveston) — not Parkland.",
+        "C": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+        "D": "Exceeds standard resuscitation volume and risks over-resuscitation."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Burns",
+      "day": 1,
+      "difficulty": "High",
+      "source": "NORCET 9 Mains",
+      "year": 2025,
+      "qtype": "factual",
+      "mockSeq": 33
+    },
+    {
+      "id": 214,
+      "question": "A patient with myocardial infarction is admitted to the ICU. What is the priority nursing intervention in the first 24 hours?",
+      "options": [
+        "Administering pain medication",
+        "Continuous cardiac monitoring",
+        "Providing emotional support",
+        "Teaching about lifestyle modifications"
+      ],
+      "correct": 1,
+      "explanation": "• Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period.\n• While pain management and other interventions are important, cardiac monitoring takes priority.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Cardiovascular System",
+      "day": 1,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "scenario",
+      "mockSeq": 34
+    },
+    {
+      "id": 270,
+      "question": "A patient with liver cirrhosis develops asterixis (flapping tremor). What does this indicate?",
+      "options": [
+        "Hepatic encephalopathy",
+        "Alcohol withdrawal",
+        "Parkinson's disease",
+        "Stroke"
+      ],
+      "correct": 0,
+      "explanation": "• Asterixis (flapping tremor) is a classic sign of hepatic encephalopathy, caused by elevated ammonia levels affecting brain function.\n• This indicates worsening liver function and requires immediate intervention including lactulose and protein restriction.\n• Recognizing clinical signs helps in early detection and management.",
+      "explanations": {
+        "A": "Asterixis (flapping tremor) is a classic sign of hepatic encephalopathy, caused by elevated ammonia levels affecting brain function. This indicates worsening liver function and requires immediate intervention including lactulose and protein restriction.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Hepatic System - Encephalopathy",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "scenario",
+      "mockSeq": 35
+    },
+    {
+      "id": 289,
+      "question": "A patient with continuous bladder irrigation. What is the correct flow rate?",
+      "options": [
+        "Slow drip",
+        "Fast flow to keep solution clear",
+        "Intermittent",
+        "No specific rate"
+      ],
+      "correct": 1,
+      "explanation": "• Continuous bladder irrigation requires fast enough flow to keep solution clear (pink-tinged is acceptable, bright red requires faster rate or notify physician).\n• Prevents clot formation and maintains catheter patency.\n• Understanding urological procedures is essential for post-operative care.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Continuous bladder irrigation requires fast enough flow to keep solution clear (pink-tinged is acceptable, bright red requires faster rate or notify physician). Prevents clot formation and maintains catheter patency.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Urological Equipment",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2017",
+      "qtype": "calculation",
+      "mockSeq": 36
+    },
+    {
+      "id": 291,
+      "question": "[IMAGE-BASED] The X-ray shows a chest with a visible lung edge and absence of lung markings beyond it. This is most consistent with:",
+      "options": [
+        "Consolidation",
+        "Pleural effusion",
+        "Pneumothorax",
+        "Cardiomegaly"
+      ],
+      "correct": 2,
+      "explanation": "• A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax.\n• Image-based CXR interpretation is commonly tested in NORCET.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Image-Based - X-ray",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2019",
+      "qtype": "factual",
+      "mockSeq": 37
+    },
+    {
+      "id": 285,
+      "question": "A patient with ICP monitoring. What is the normal intracranial pressure?",
+      "options": [
+        "0-5 mmHg",
+        "5-15 mmHg",
+        "15-25 mmHg",
+        "25-35 mmHg"
+      ],
+      "correct": 1,
+      "explanation": "• Normal ICP is 5-15 mmHg.\n• Elevated ICP (>20) requires intervention to prevent brain herniation.\n• Monitoring ICP helps guide treatment in head injury, stroke, and other neurological conditions.\n• Understanding neurological monitoring is critical for managing critically ill neurological patients.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Normal ICP is 5-15 mmHg. Elevated ICP (>20) requires intervention to prevent brain herniation.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Neurological Monitoring",
+      "day": 10,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 38
+    },
+    {
+      "id": 223,
+      "question": "A patient with deep vein thrombosis (DVT) is receiving heparin therapy. What is the most critical nursing assessment?",
+      "options": [
+        "Blood pressure",
+        "Bleeding signs",
+        "Urine output",
+        "Temperature"
+      ],
+      "correct": 1,
+      "explanation": "• Heparin is an anticoagulant that increases bleeding risk.\n• Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Heparin is an anticoagulant that increases bleeding risk. Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Hematological System",
+      "day": 1,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "scenario",
+      "mockSeq": 39
+    },
+    {
+      "id": 227,
+      "question": "A patient with cancer is receiving chemotherapy. Which side effect requires immediate medical attention?",
+      "options": [
+        "Hair loss",
+        "Nausea and vomiting",
+        "Fever above 38.5°C",
+        "Fatigue"
+      ],
+      "correct": 2,
+      "explanation": "• Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening.\n• Immediate medical attention is required.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening. Immediate medical attention is required.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Oncology",
+      "day": 10,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 40
+    },
+    {
+      "id": 114,
+      "question": "What is the recommended age for starting complementary feeding?",
+      "options": [
+        "2-3 months",
+        "4-6 months",
+        "6 months",
+        "8-10 months"
+      ],
+      "correct": 2,
+      "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond.\n• Early or late introduction has risks.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Nutrition",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 41
+    },
+    {
+      "id": 122,
+      "question": "What is the primary method of preventing malaria in endemic areas?",
+      "options": [
+        "Vaccination",
+        "Insecticide-treated bed nets",
+        "Antibiotic prophylaxis",
+        "Quarantine"
+      ],
+      "correct": 1,
+      "explanation": "• Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites.\n• There is no widely available malaria vaccine yet.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites. There is no widely available malaria vaccine yet.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Communicable Diseases",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 42
+    },
+    {
+      "id": 103,
+      "question": "What is the recommended age for starting Antiretroviral Therapy (ART) in HIV-positive children?",
+      "options": [
+        "Immediately after diagnosis, regardless of age",
+        "At 2 years of age",
+        "At 5 years of age",
+        "Only when symptomatic"
+      ],
+      "correct": 0,
+      "explanation": "• WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
+      "explanations": {
+        "A": "WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "HIV/AIDS",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 43
+    },
+    {
+      "id": 135,
+      "question": "What is the correct method for testing water quality using H2S strip test?",
+      "options": [
+        "Dip in any water",
+        "Fill bottle, add reagent, incubate",
+        "Test directly",
+        "No specific method"
+      ],
+      "correct": 1,
+      "explanation": "• H2S strip test: fill sterile bottle with water sample, add reagent, incubate at room temperature for 24-48 hours.\n• Black color indicates fecal contamination.\n• Understanding water testing equipment is essential for ensuring safe water supply and preventing waterborne diseases in community health.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "H2S strip test: fill sterile bottle with water sample, add reagent, incubate at room temperature for 24-48 hours. Black color indicates fecal contamination.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Water Testing Equipment",
+      "day": 6,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 44
+    },
+    {
+      "id": 134,
+      "question": "What is the correct method for measuring mid-upper arm circumference (MUAC) in children?",
+      "options": [
+        "At any point on arm",
+        "Midpoint between shoulder and elbow",
+        "At elbow",
+        "At shoulder"
+      ],
+      "correct": 1,
+      "explanation": "• MUAC is measured at midpoint between acromion and olecranon process (midpoint of upper arm).\n• Used to assess nutritional status in children.\n• Normal: >13.5 cm.\n• Understanding assessment equipment and techniques is essential for nutritional screening and identifying malnutrition.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "MUAC is measured at midpoint between acromion and olecranon process (midpoint of upper arm). Used to assess nutritional status in children.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Nutritional Assessment Equipment",
+      "day": 6,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2017",
+      "qtype": "factual",
+      "mockSeq": 45
+    },
+    {
+      "id": 129,
+      "question": "According to India's National Immunization Schedule, what is the maximum age for BCG vaccination?",
+      "options": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "1 year"
+      ],
+      "correct": 3,
+      "explanation": "• BCG vaccine should be given as early as possible after birth, with a maximum age limit of 1 year according to India's National Immunization Schedule.\n• BCG is one of three vaccines recommended for all newborns (along with OPV zero dose and Hepatitis B birth dose) irrespective of place of delivery.\n• If delayed beyond 1 year, catch-up vaccination may not be recommended.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "BCG vaccine should be given as early as possible after birth, with a maximum age limit of 1 year according to India's National Immunization Schedule. BCG is one of three vaccines recommended for all newborns (along with OPV zero dose and Hepatitis B birth dose) irrespective of place of delivery."
+      },
+      "subject": "Community Health",
+      "topic": "Immunization",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2015",
+      "qtype": "factual",
+      "mockSeq": 46
+    },
+    {
+      "id": 111,
+      "question": "What is the primary vector for dengue fever?",
+      "options": [
+        "Anopheles mosquito",
+        "Aedes aegypti mosquito",
+        "Culex mosquito",
+        "Sandfly"
+      ],
+      "correct": 1,
+      "explanation": "• Aedes aegypti mosquito is the primary vector for dengue, chikungunya, and Zika viruses.\n• It breeds in clean water and bites during daytime.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Aedes aegypti mosquito is the primary vector for dengue, chikungunya, and Zika viruses. It breeds in clean water and bites during daytime.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Vector-Borne Diseases",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 47
+    },
+    {
+      "id": 102,
+      "question": "What is the primary method of preventing malaria in endemic areas?",
+      "options": [
+        "Vaccination",
+        "Insecticide-treated bed nets",
+        "Antibiotic prophylaxis",
+        "Quarantine"
+      ],
+      "correct": 1,
+      "explanation": "• Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites.\n• There is no widely available malaria vaccine yet.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites. There is no widely available malaria vaccine yet.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Communicable Diseases",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 48
+    },
+    {
+      "id": 110,
+      "question": "What is the recommended frequency for antenatal care visits?",
+      "options": [
+        "2 visits",
+        "4 visits",
+        "6 visits",
+        "8 visits"
+      ],
+      "correct": 1,
+      "explanation": "• WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks.\n• More visits are better for high-risk pregnancies.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks. More visits are better for high-risk pregnancies.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Maternal Health",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 49
+    },
+    {
+      "id": 109,
+      "question": "What is the primary method of preventing iodine deficiency disorders?",
+      "options": [
+        "Iodine supplements",
+        "Iodized salt",
+        "Iodine-rich foods",
+        "Iodine injections"
+      ],
+      "correct": 1,
+      "explanation": "• Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Nutrition",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 50
+    },
+    {
+      "id": 14,
+      "question": "Article 21A deals with:",
+      "options": [
+        "Right to equality",
+        "Right to education",
+        "Right to life",
+        "Right to speech"
+      ],
+      "correct": 1,
+      "explanation": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
+      "explanations": {
+        "A": "Article 14.",
+        "B": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
+        "C": "Article 21.",
+        "D": "Article 19."
+      },
+      "subject": "Community Health",
+      "topic": "Constitution",
+      "day": 6,
+      "difficulty": "Easy",
+      "source": "NORCET 9 Mains",
+      "year": 2025,
+      "qtype": "factual",
+      "mockSeq": 51
+    },
+    {
+      "id": 131,
+      "question": "What is the target year for eliminating tuberculosis from India?",
+      "options": [
+        "2025",
+        "2030",
+        "2035",
+        "2040"
+      ],
+      "correct": 0,
+      "explanation": "• India aims to eliminate TB by 2025, five years ahead of the global SDG target of 2030.\n• The National Strategic Plan focuses on early detection, DOTS treatment, and prevention strategies.\n• TB elimination is defined as less than 1 case per 100,000 population.\n• This is a critical public health goal requiring coordinated efforts across healthcare systems.",
+      "explanations": {
+        "A": "India aims to eliminate TB by 2025, five years ahead of the global SDG target of 2030. The National Strategic Plan focuses on early detection, DOTS treatment, and prevention strategies.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Tuberculosis",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2025",
+      "qtype": "factual",
+      "mockSeq": 52
+    },
+    {
+      "id": 118,
+      "question": "What is the recommended treatment for severe acute malnutrition (SAM)?",
+      "options": [
+        "Hospitalization and therapeutic feeding",
+        "Home-based care only",
+        "Vitamin supplements",
+        "Increased food intake"
+      ],
+      "correct": 0,
+      "explanation": "• Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
+      "explanations": {
+        "A": "Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Nutrition",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 53
+    },
+    {
+      "id": 113,
+      "question": "What is the primary purpose of ASHA (Accredited Social Health Activist)?",
+      "options": [
+        "Provide medical treatment",
+        "Act as link between community and health system",
+        "Conduct surgeries",
+        "Manage hospitals"
+      ],
+      "correct": 1,
+      "explanation": "• ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Health Workers",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 54
+    },
+    {
+      "id": 107,
+      "question": "What is the primary cause of blindness in India?",
+      "options": [
+        "Glaucoma",
+        "Cataract",
+        "Diabetic retinopathy",
+        "Trachoma"
+      ],
+      "correct": 1,
+      "explanation": "• Cataract is the leading cause of blindness in India, accounting for about 62% of cases.\n• It's treatable with surgery.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Eye Health",
+      "day": 6,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 55
+    },
+    {
+      "id": 124,
+      "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
+      "options": [
+        "Less than 20 per 1000 live births",
+        "Less than 25 per 1000 live births",
+        "Less than 30 per 1000 live births",
+        "Less than 35 per 1000 live births"
+      ],
+      "correct": 0,
+      "explanation": "• India aims to reduce IMR to less than 20 per 1000 live births.\n• Current IMR is around 28.\n• Key interventions include immunization, nutrition, and safe delivery.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+      "explanations": {
+        "A": "India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Child Health",
+      "day": 4,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2020",
+      "qtype": "factual",
+      "mockSeq": 56
+    },
+    {
+      "id": 127,
+      "question": "What is the primary cause of blindness in India?",
+      "options": [
+        "Glaucoma",
+        "Cataract",
+        "Diabetic retinopathy",
+        "Trachoma"
+      ],
+      "correct": 1,
+      "explanation": "• Cataract is the leading cause of blindness in India, accounting for about 62% of cases.\n• It's treatable with surgery.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Eye Health",
+      "day": 6,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 57
+    },
+    {
+      "id": 12,
+      "question": "PM-JAY coverage per family per year:",
+      "options": [
+        "₹1 lakh",
+        "₹3 lakh",
+        "₹5 lakh",
+        "₹10 lakh"
+      ],
+      "correct": 2,
+      "explanation": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
+      "explanations": {
+        "A": "Too low.",
+        "B": "Too low.",
+        "C": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
+        "D": "Incorrect."
+      },
+      "subject": "Community Health",
+      "topic": "National Programs",
+      "day": 6,
+      "difficulty": "Easy",
+      "source": "NORCET 9 Mains",
+      "year": 2025,
+      "qtype": "factual",
+      "mockSeq": 58
+    },
+    {
+      "id": 106,
+      "question": "What is the recommended treatment for tuberculosis under DOTS?",
+      "options": [
+        "2 months intensive phase + 4 months continuation",
+        "6 months continuous treatment",
+        "9 months treatment",
+        "12 months treatment"
+      ],
+      "correct": 0,
+      "explanation": "• DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
+      "explanations": {
+        "A": "DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Tuberculosis",
+      "day": 6,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 59
+    },
+    {
+      "id": 130,
+      "question": "What is the spacing requirement between BCG and other vaccinations if not given simultaneously?",
+      "options": [
+        "2 weeks",
+        "4 weeks",
+        "6 weeks",
+        "8 weeks"
+      ],
+      "correct": 1,
+      "explanation": "• If BCG cannot be given immediately at birth or simultaneously with other vaccinations, there should be a minimum gap of four weeks between BCG and other different types of vaccinations.\n• BCG can be given simultaneously with other vaccines, but if delayed, proper spacing ensures optimal immune response and reduces interference between vaccines.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "If BCG cannot be given immediately at birth or simultaneously with other vaccinations, there should be a minimum gap of four weeks between BCG and other different types of vaccinations. BCG can be given simultaneously with other vaccines, but if delayed, proper spacing ensures optimal immune response and reduces interference between vaccines.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Immunization",
+      "day": 6,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2016",
+      "qtype": "factual",
+      "mockSeq": 60
+    },
+    {
+      "id": 126,
+      "question": "What is the recommended treatment for tuberculosis under DOTS?",
+      "options": [
+        "2 months intensive phase + 4 months continuation",
+        "6 months continuous treatment",
+        "9 months treatment",
+        "12 months treatment"
+      ],
+      "correct": 0,
+      "explanation": "• DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
+      "explanations": {
+        "A": "DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Tuberculosis",
+      "day": 6,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 61
+    },
+    {
+      "id": 112,
+      "question": "What is the target for reducing Under-5 Mortality Rate?",
+      "options": [
+        "Less than 25 per 1000",
+        "Less than 30 per 1000",
+        "Less than 35 per 1000",
+        "Less than 40 per 1000"
+      ],
+      "correct": 0,
+      "explanation": "• SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030.\n• Key interventions include immunization, nutrition, and safe water.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+      "explanations": {
+        "A": "SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030. Key interventions include immunization, nutrition, and safe water.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Community Health",
+      "topic": "Child Health",
+      "day": 4,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 62
+    },
+    {
+      "id": 18,
+      "question": "Leopold's maneuver 1st step detects:",
+      "options": [
+        "Fetal lie",
+        "Fundal content (breech/cephalic)",
+        "Engagement",
+        "Position"
+      ],
+      "correct": 1,
+      "explanation": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
+      "explanations": {
+        "A": "Overall finding, but 1st step focuses on the fundus.",
+        "B": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
+        "C": "4th maneuver (Pawlik).",
+        "D": "3rd maneuver."
+      },
+      "subject": "OBG",
+      "topic": "Leopold",
+      "day": 3,
+      "difficulty": "Easy",
+      "source": "NORCET 8 Mains",
+      "year": 2025,
+      "qtype": "factual",
+      "mockSeq": 63
+    },
+    {
+      "id": 28,
+      "question": "MgSO4 therapeutic serum level in eclampsia is:",
+      "options": [
+        "1–2 mEq/L",
+        "4–7 mEq/L",
+        "8–10 mEq/L",
+        ">10 mEq/L"
+      ],
+      "correct": 1,
+      "explanation": "Therapeutic 4–7 mEq/L; 8–10 → loss of DTRs; >10 → respiratory depression.",
+      "explanations": {
+        "A": "Subtherapeutic.",
+        "B": "Therapeutic 4–7 mEq/L; 8–10 → loss of DTRs; >10 → respiratory depression.",
+        "C": "Toxic range.",
+        "D": "Toxic; stop infusion, give Ca gluconate."
+      },
+      "subject": "OBG",
+      "topic": "MgSO4",
+      "day": 3,
+      "difficulty": "High",
+      "source": "NORCET 6 Mains",
+      "year": 2024,
+      "qtype": "factual",
+      "mockSeq": 64
+    },
+    {
+      "id": 366,
+      "question": "What is the recommended folic acid supplementation before and during early pregnancy?",
+      "options": [
+        "200 mcg daily",
+        "400 mcg daily",
+        "600 mcg daily",
+        "1000 mcg daily"
+      ],
+      "correct": 1,
+      "explanation": "• 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects.\n• Higher doses (4-5 mg) are needed if previous child had NTD.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Antenatal Care",
+      "day": 3,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 65
+    },
+    {
+      "id": 352,
+      "question": "What is the priority nursing intervention immediately after delivery?",
+      "options": [
+        "Cut the umbilical cord",
+        "Dry and stimulate the newborn",
+        "Administer oxytocin",
+        "Deliver the placenta"
+      ],
+      "correct": 1,
+      "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Immediate Postpartum",
+      "day": 4,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 66
+    },
+    {
+      "id": 384,
+      "question": "A woman at 36 weeks gestation is diagnosed with preeclampsia with severe features. What is the priority medication?",
+      "options": [
+        "Antihypertensive",
+        "Magnesium sulfate",
+        "Diuretics",
+        "Anticoagulants"
+      ],
+      "correct": 1,
+      "explanation": "• Magnesium sulfate is the priority medication for preeclampsia with severe features to prevent and treat seizures (eclampsia).\n• It also has mild antihypertensive effects.\n• Continuous monitoring of deep tendon reflexes, respiratory rate, and urine output is critical to detect magnesium toxicity.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Magnesium sulfate is the priority medication for preeclampsia with severe features to prevent and treat seizures (eclampsia). It also has mild antihypertensive effects.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Pregnancy Complications",
+      "day": 3,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2025",
+      "qtype": "factual",
+      "mockSeq": 67
+    },
+    {
+      "id": 374,
+      "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
+      "options": [
+        "Check blood pressure",
+        "Administer pain medication",
+        "Encourage rest",
+        "Schedule routine appointment"
+      ],
+      "correct": 0,
+      "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+      "explanations": {
+        "A": "Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Pregnancy Complications",
+      "day": 3,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2015",
+      "qtype": "factual",
+      "mockSeq": 68
+    },
+    {
+      "id": 386,
+      "question": "A postpartum woman requires perineal care. What is the correct solution?",
+      "options": [
+        "Soap and water",
+        "Betadine solution",
+        "Warm water with mild soap, front to back",
+        "Alcohol"
+      ],
+      "correct": 2,
+      "explanation": "• Perineal care requires warm water with mild soap, cleaning front to back to prevent contamination.\n• Avoid harsh chemicals.\n• Proper technique promotes healing and prevents infection.\n• Understanding postpartum care equipment and techniques is essential for maternal recovery.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Perineal care requires warm water with mild soap, cleaning front to back to prevent contamination. Avoid harsh chemicals.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Postpartum Care",
+      "day": 3,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2016",
+      "qtype": "factual",
+      "mockSeq": 69
+    },
+    {
+      "id": 364,
+      "question": "What is the normal weight gain during pregnancy?",
+      "options": [
+        "5-7 kg",
+        "8-12 kg",
+        "11-16 kg",
+        "15-20 kg"
+      ],
+      "correct": 2,
+      "explanation": "• Normal weight gain during pregnancy is 11-16 kg (25-35 pounds).\n• This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Antenatal Care",
+      "day": 3,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 70
+    },
+    {
+      "id": 377,
+      "question": "What is the priority nursing intervention immediately after delivery?",
+      "options": [
+        "Cut the umbilical cord",
+        "Dry and stimulate the newborn",
+        "Administer oxytocin",
+        "Deliver the placenta"
+      ],
+      "correct": 1,
+      "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Immediate Postpartum",
+      "day": 4,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 71
+    },
+    {
+      "id": 383,
+      "question": "What is the recommended frequency of antenatal care visits in a normal pregnancy?",
+      "options": [
+        "Monthly until 28 weeks, then biweekly",
+        "Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly",
+        "Every 2 weeks throughout",
+        "Only when problems occur"
+      ],
+      "correct": 1,
+      "explanation": "• Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery.\n• This allows early detection of complications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Antenatal Care",
+      "day": 3,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 72
+    },
+    {
+      "id": 371,
+      "question": "A newborn has jaundice at 24 hours of age. What does this indicate?",
+      "options": [
+        "Physiological jaundice",
+        "Pathological jaundice",
+        "Breastfeeding jaundice",
+        "Normal finding"
+      ],
+      "correct": 1,
+      "explanation": "• Jaundice appearing within 24 hours is pathological and requires investigation.\n• Physiological jaundice appears after 48-72 hours.\n• Early jaundice may indicate hemolytic disease or infection.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Jaundice appearing within 24 hours is pathological and requires investigation. Physiological jaundice appears after 48-72 hours.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Neonatal Conditions",
+      "day": 3,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 73
+    },
+    {
+      "id": 367,
+      "question": "A postpartum woman develops mastitis. What is the priority nursing intervention?",
+      "options": [
+        "Stop breastfeeding",
+        "Continue breastfeeding and apply warm compress",
+        "Administer antibiotics only",
+        "Apply cold compress"
+      ],
+      "correct": 1,
+      "explanation": "• Mastitis treatment includes continuing breastfeeding (to empty breast), warm compresses, rest, and antibiotics.\n• Stopping breastfeeding can worsen the condition.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Mastitis treatment includes continuing breastfeeding (to empty breast), warm compresses, rest, and antibiotics. Stopping breastfeeding can worsen the condition.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Postpartum Complications",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 74
+    },
+    {
+      "id": 359,
+      "question": "A woman with placenta previa is admitted at 34 weeks. What is the priority nursing intervention?",
+      "options": [
+        "Prepare for immediate delivery",
+        "Bed rest and monitor for bleeding",
+        "Administer tocolytics",
+        "Encourage ambulation"
+      ],
+      "correct": 1,
+      "explanation": "• Placenta previa requires bed rest to prevent bleeding.\n• Monitor for signs of hemorrhage.\n• Delivery is planned when fetus is mature or if bleeding is severe.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Pregnancy Complications",
+      "day": 3,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "scenario",
+      "mockSeq": 75
+    },
+    {
+      "id": 349,
+      "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
+      "options": [
+        "Check blood pressure",
+        "Administer pain medication",
+        "Encourage rest",
+        "Schedule routine appointment"
+      ],
+      "correct": 0,
+      "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+      "explanations": {
+        "A": "Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Pregnancy Complications",
+      "day": 3,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 76
+    },
+    {
+      "id": 6,
+      "question": "First-line drug for severe pre-eclampsia / eclampsia prophylaxis:",
+      "options": [
+        "Hydralazine",
+        "Magnesium sulfate",
+        "Labetalol",
+        "Diazepam"
+      ],
+      "correct": 1,
+      "explanation": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+      "explanations": {
+        "A": "BP control adjunct, not seizure prophylaxis.",
+        "B": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
+        "C": "Antihypertensive only, not seizure prevention.",
+        "D": "Older practice, now supplanted by MgSO4."
+      },
+      "subject": "OBG",
+      "topic": "Eclampsia",
+      "day": 3,
+      "difficulty": "Easy",
+      "source": "NORCET 9 Mains",
+      "year": 2025,
+      "qtype": "factual",
+      "mockSeq": 77
+    },
+    {
+      "id": 373,
+      "question": "A woman with cervical incompetence is at risk for which complication?",
+      "options": [
+        "Preterm labor",
+        "Post-term pregnancy",
+        "Placenta previa",
+        "Gestational diabetes"
+      ],
+      "correct": 0,
+      "explanation": "• Cervical incompetence (weak cervix) causes painless cervical dilation leading to preterm labor and delivery, usually in second trimester.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+      "explanations": {
+        "A": "Cervical incompetence (weak cervix) causes painless cervical dilation leading to preterm labor and delivery, usually in second trimester. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Pregnancy Complications",
+      "day": 3,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 78
+    },
+    {
+      "id": 376,
+      "question": "A woman in active labor has been pushing for 2 hours without progress. What is the most likely cause?",
+      "options": [
+        "Cephalopelvic disproportion",
+        "Inadequate pain relief",
+        "Maternal fatigue",
+        "Fetal position"
+      ],
+      "correct": 0,
+      "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
+      "explanations": {
+        "A": "Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Labor Complications",
+      "day": 3,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2017",
+      "qtype": "factual",
+      "mockSeq": 79
+    },
+    {
+      "id": 360,
+      "question": "What is the normal amount of lochia rubra in the first 3-4 days postpartum?",
+      "options": [
+        "Minimal, spotting only",
+        "Moderate, like heavy menstrual period",
+        "Heavy, saturating pad in 1 hour",
+        "No bleeding expected"
+      ],
+      "correct": 1,
+      "explanation": "• Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period.\n• Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "OBG",
+      "topic": "Postpartum Care",
+      "day": 3,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 80
+    },
+    {
+      "id": 400,
+      "question": "A 6-year-old child with type 1 diabetes is experiencing hypoglycemia. What is the immediate treatment?",
+      "options": [
+        "Administer insulin",
+        "Give 15g fast-acting carbohydrate",
+        "Encourage rest",
+        "Check blood glucose in 1 hour"
+      ],
+      "correct": 1,
+      "explanation": "• Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice).\n• Recheck blood glucose in 15 minutes.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice). Recheck blood glucose in 15 minutes.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Endocrine Conditions",
+      "day": 4,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "scenario",
+      "mockSeq": 81
+    },
+    {
+      "id": 410,
+      "question": "A 4-month-old infant is diagnosed with developmental delay. What is the priority assessment?",
+      "options": [
+        "Head circumference",
+        "Weight gain",
+        "Milestone achievement",
+        "Feeding pattern"
+      ],
+      "correct": 2,
+      "explanation": "• Developmental milestones assessment is critical to identify delays early.\n• Compare with standard developmental charts for age.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Developmental milestones assessment is critical to identify delays early. Compare with standard developmental charts for age.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Growth and Development",
+      "day": 4,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2015",
+      "qtype": "scenario",
+      "mockSeq": 82
+    },
+    {
+      "id": 415,
+      "question": "A 3-year-old child with lead poisoning is admitted. What is the priority nursing intervention?",
+      "options": [
+        "Administer chelation therapy",
+        "Remove source of lead",
+        "Monitor neurological status",
+        "Provide nutritional support"
+      ],
+      "correct": 1,
+      "explanation": "• Removing the source of lead exposure is the first priority to prevent further poisoning.\n• Then chelation therapy and monitoring can begin.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Removing the source of lead exposure is the first priority to prevent further poisoning. Then chelation therapy and monitoring can begin.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Toxicology",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2020",
+      "qtype": "scenario",
+      "mockSeq": 83
+    },
+    {
+      "id": 393,
+      "question": "What is the recommended immunization schedule for DPT (Diphtheria, Pertussis, Tetanus) in India?",
+      "options": [
+        "At birth, 6 weeks, 10 weeks, 14 weeks",
+        "At 6 weeks, 10 weeks, 14 weeks, 16-24 months",
+        "At 2 months, 4 months, 6 months",
+        "At 1 year only"
+      ],
+      "correct": 1,
+      "explanation": "• DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Immunization",
+      "day": 6,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 84
+    },
+    {
+      "id": 392,
+      "question": "A 3-year-old child with dehydration is receiving IV fluids. What is the priority nursing intervention?",
+      "options": [
+        "Monitor intake and output",
+        "Check blood glucose",
+        "Assess skin turgor",
+        "Measure weight daily"
+      ],
+      "correct": 0,
+      "explanation": "• Monitoring intake and output is critical in dehydration to assess fluid balance and response to treatment.\n• Daily weights also help assess fluid status.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+      "explanations": {
+        "A": "Monitoring intake and output is critical in dehydration to assess fluid balance and response to treatment. Daily weights also help assess fluid status.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Fluid Management",
+      "day": 2,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 85
+    },
+    {
+      "id": 390,
+      "question": "A 2-year-old child is brought to the emergency department with fever and difficulty breathing. What is the priority assessment?",
+      "options": [
+        "Temperature",
+        "Airway and breathing",
+        "Blood pressure",
+        "Weight"
+      ],
+      "correct": 1,
+      "explanation": "• In pediatric emergencies, airway and breathing are assessed first using the ABC approach.\n• Respiratory distress is common in children and can deteriorate rapidly.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "In pediatric emergencies, airway and breathing are assessed first using the ABC approach. Respiratory distress is common in children and can deteriorate rapidly.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Pediatric Assessment",
+      "day": 4,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 86
+    },
+    {
+      "id": 405,
+      "question": "What is the normal head circumference growth rate for infants in first year?",
+      "options": [
+        "0.5 cm/month",
+        "1 cm/month",
+        "1.5 cm/month",
+        "2 cm/month"
+      ],
+      "correct": 1,
+      "explanation": "• Normal head circumference increases by approximately 1 cm per month in the first year.\n• Rapid or slow growth may indicate neurological problems.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Normal head circumference increases by approximately 1 cm per month in the first year. Rapid or slow growth may indicate neurological problems.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Growth and Development",
+      "day": 4,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 87
+    },
+    {
+      "id": 397,
+      "question": "What is the priority nursing intervention for a child with febrile seizures?",
+      "options": [
+        "Restrain the child",
+        "Protect from injury",
+        "Insert oral airway",
+        "Administer antipyretics immediately"
+      ],
+      "correct": 1,
+      "explanation": "• During a seizure, the priority is to protect the child from injury by padding the area and removing hazards.\n• Never restrain or insert anything in the mouth.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "During a seizure, the priority is to protect the child from injury by padding the area and removing hazards. Never restrain or insert anything in the mouth.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Neurological Conditions",
+      "day": 4,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 88
+    },
+    {
+      "id": 399,
+      "question": "What is the normal weight gain pattern for infants in the first 6 months?",
+      "options": [
+        "100-150 grams/week",
+        "150-200 grams/week",
+        "200-250 grams/week",
+        "250-300 grams/week"
+      ],
+      "correct": 1,
+      "explanation": "• Normal weight gain for infants in the first 6 months is approximately 150-200 grams per week.\n• This doubles birth weight by 6 months.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Normal weight gain for infants in the first 6 months is approximately 150-200 grams per week. This doubles birth weight by 6 months.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Growth and Development",
+      "day": 4,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "factual",
+      "mockSeq": 89
+    },
+    {
+      "id": 7,
+      "question": "Normal APGAR score range is:",
+      "options": [
+        "0–5",
+        "0–10",
+        "0–15",
+        "1–10"
+      ],
+      "correct": 1,
+      "explanation": "5 criteria × 0–2 each → total 0–10.",
+      "explanations": {
+        "A": "Maximum is 10, not 5.",
+        "B": "5 criteria × 0–2 each → total 0–10.",
+        "C": "Incorrect.",
+        "D": "Minimum is 0, not 1."
+      },
+      "subject": "Pediatric",
+      "topic": "APGAR",
+      "day": 4,
+      "difficulty": "Easy",
+      "source": "NORCET 9 Mains",
+      "year": 2025,
+      "qtype": "factual",
+      "mockSeq": 90
+    },
+    {
+      "id": 394,
+      "question": "A 5-year-old child with asthma is using a metered-dose inhaler. What is the most important teaching?",
+      "options": [
+        "Use spacer device",
+        "Inhale quickly",
+        "Hold breath for 5 seconds",
+        "Use only when symptomatic"
+      ],
+      "correct": 0,
+      "explanation": "• Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects.\n• They make it easier for children to coordinate breathing.",
+      "explanations": {
+        "A": "Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects. They make it easier for children to coordinate breathing.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Respiratory Conditions",
+      "day": 5,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "calculation",
+      "mockSeq": 91
+    },
+    {
+      "id": 413,
+      "question": "A 5-year-old child with type 1 diabetes is experiencing hypoglycemia. What is the immediate treatment?",
+      "options": [
+        "Administer insulin",
+        "Give 15g fast-acting carbohydrate",
+        "Encourage rest",
+        "Check blood glucose in 1 hour"
+      ],
+      "correct": 1,
+      "explanation": "• Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice).\n• Recheck blood glucose in 15 minutes.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice). Recheck blood glucose in 15 minutes.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Endocrine Conditions",
+      "day": 4,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "scenario",
+      "mockSeq": 92
+    },
+    {
+      "id": 408,
+      "question": "A 1-year-old child with bronchiolitis is having difficulty feeding. What is the priority intervention?",
+      "options": [
+        "Force oral feeding",
+        "Provide small, frequent feeds",
+        "Start IV fluids",
+        "Administer sedatives"
+      ],
+      "correct": 1,
+      "explanation": "• Small, frequent feeds reduce respiratory effort while maintaining nutrition.\n• IV fluids may be needed if oral intake is insufficient due to respiratory distress.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Small, frequent feeds reduce respiratory effort while maintaining nutrition. IV fluids may be needed if oral intake is insufficient due to respiratory distress.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Respiratory Conditions",
+      "day": 2,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 93
+    },
+    {
+      "id": 411,
+      "question": "A 2-year-old child with croup is admitted. What is the priority nursing intervention?",
+      "options": [
+        "Administer antibiotics",
+        "Provide cool mist humidification",
+        "Encourage oral fluids",
+        "Administer antipyretics"
+      ],
+      "correct": 1,
+      "explanation": "• Cool mist humidification helps reduce airway inflammation and ease breathing in croup.\n• This is the priority intervention along with monitoring respiratory status.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Respiratory Conditions",
+      "day": 5,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2016",
+      "qtype": "factual",
+      "mockSeq": 94
+    },
+    {
+      "id": 401,
+      "question": "What is the recommended age for starting complementary feeding in infants?",
+      "options": [
+        "2-3 months",
+        "4-6 months",
+        "6-8 months",
+        "8-10 months"
+      ],
+      "correct": 1,
+      "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding.\n• Some infants may be ready at 4-6 months with signs of readiness.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "WHO recommends starting complementary feeding at 6 months while continuing breastfeeding. Some infants may be ready at 4-6 months with signs of readiness.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Nutrition",
+      "day": 4,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 95
+    },
+    {
+      "id": 396,
+      "question": "A 1-year-old child is diagnosed with intussusception. What is the classic clinical presentation?",
+      "options": [
+        "Projectile vomiting",
+        "Currant jelly stools",
+        "High-pitched cry",
+        "Bulging fontanelle"
+      ],
+      "correct": 1,
+      "explanation": "• Currant jelly stools (bloody, mucus-filled stools) are the classic sign of intussusception, along with colicky abdominal pain and vomiting.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Currant jelly stools (bloody, mucus-filled stools) are the classic sign of intussusception, along with colicky abdominal pain and vomiting.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Gastrointestinal Conditions",
+      "day": 4,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 96
+    },
+    {
+      "id": 414,
+      "question": "What is the recommended age for starting complementary feeding in infants?",
+      "options": [
+        "2-3 months",
+        "4-6 months",
+        "6-8 months",
+        "8-10 months"
+      ],
+      "correct": 1,
+      "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding.\n• Some infants may be ready at 4-6 months with signs of readiness.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "WHO recommends starting complementary feeding at 6 months while continuing breastfeeding. Some infants may be ready at 4-6 months with signs of readiness.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Nutrition",
+      "day": 4,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2019",
+      "qtype": "factual",
+      "mockSeq": 97
+    },
+    {
+      "id": 395,
+      "question": "What is the normal respiratory rate for a 2-year-old child?",
+      "options": [
+        "12-20 breaths/min",
+        "20-30 breaths/min",
+        "25-40 breaths/min",
+        "30-50 breaths/min"
+      ],
+      "correct": 2,
+      "explanation": "• Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute.\n• Respiratory rates are higher in children than adults.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute. Respiratory rates are higher in children than adults.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pediatric",
+      "topic": "Vital Signs",
+      "day": 4,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 98
+    },
+    {
+      "id": 146,
+      "question": "Clinical pathology Q10: Platelet count very low increases risk of:",
+      "options": [
+        "Thrombosis",
+        "Bleeding",
+        "Hypernatremia",
+        "Metabolic alkalosis"
+      ],
+      "correct": 1,
+      "explanation": "• Thrombocytopenia increases bleeding risk.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Thrombocytopenia increases bleeding risk.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Labs",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 99
+    },
+    {
+      "id": 173,
+      "question": "Which type of asepsis is used during surgery?",
+      "options": [
+        "Medical asepsis",
+        "Surgical asepsis",
+        "Standard precautions",
+        "Contact precautions"
+      ],
+      "correct": 1,
+      "explanation": "• Surgical asepsis (sterile technique) is used during surgery to prevent introduction of microorganisms.\n• Medical asepsis reduces but doesn't eliminate microorganisms.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Surgical asepsis (sterile technique) is used during surgery to prevent introduction of microorganisms. Medical asepsis reduces but doesn't eliminate microorganisms.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Infection Control",
+      "day": 7,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 100
+    },
+    {
+      "id": 156,
+      "question": "What is the minimum time required for effective hand hygiene using alcohol-based hand rub?",
+      "options": [
+        "10-15 seconds",
+        "20-30 seconds",
+        "40-60 seconds",
+        "2-3 minutes"
+      ],
+      "correct": 1,
+      "explanation": "• Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry.\n• This is the WHO recommended duration for effective hand hygiene.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Infection Control",
+      "day": 7,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 101
+    },
+    {
+      "id": 208,
+      "question": "[IMAGE-BASED] The image shows a laryngoscope with curved blade. What is the correct size for adult intubation?",
+      "options": [
+        "Size 1",
+        "Size 2",
+        "Size 3",
+        "Size 4"
+      ],
+      "correct": 2,
+      "explanation": "• Adult laryngoscopy uses size 3 Macintosh (curved) or size 3 Miller (straight).\n• Size 1–2 is paediatric.\n• Image-based questions on laryngoscope blade size are frequent in NORCET.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Adult laryngoscopy uses size 3 Macintosh (curved) or size 3 Miller (straight). Size 1–2 is paediatric.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Image-Based - Instruments",
+      "day": 7,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 102
+    },
+    {
+      "id": 29,
+      "question": "Venturi mask color providing 24% FiO2 (low-concentration):",
+      "options": [
+        "Blue",
+        "White",
+        "Yellow",
+        "Red"
+      ],
+      "correct": 0,
+      "explanation": "Blue = 24% FiO2 at 2 L/min.",
+      "explanations": {
+        "A": "Blue = 24% FiO2 at 2 L/min.",
+        "B": "White = 28%.",
+        "C": "Yellow = 35%.",
+        "D": "Red = 40% (or green on some sets)."
+      },
+      "subject": "Fundamentals",
+      "topic": "Oxygen therapy",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "NORCET 6 Mains",
+      "year": 2024,
+      "qtype": "factual",
+      "mockSeq": 103
+    },
+    {
+      "id": 178,
+      "question": "What is the priority when a patient has a medication error?",
+      "options": [
+        "Document the error",
+        "Assess patient condition",
+        "Notify the physician",
+        "Complete incident report"
+      ],
+      "correct": 1,
+      "explanation": "• Patient safety is the priority.\n• First assess the patient's condition, then notify the physician, document, and complete incident report.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Patient safety is the priority. First assess the patient's condition, then notify the physician, document, and complete incident report.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Patient Safety",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 104
+    },
+    {
+      "id": 185,
+      "question": "What is the correct angle for subcutaneous injection?",
+      "options": [
+        "15 degrees",
+        "45 degrees",
+        "60 degrees",
+        "90 degrees"
+      ],
+      "correct": 1,
+      "explanation": "• Subcutaneous injections are given at a 45-degree angle (or 90 degrees if using a short needle) to ensure medication reaches subcutaneous tissue.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Subcutaneous injections are given at a 45-degree angle (or 90 degrees if using a short needle) to ensure medication reaches subcutaneous tissue.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Medication Administration",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2020",
+      "qtype": "factual",
+      "mockSeq": 105
+    },
+    {
+      "id": 137,
+      "question": "Adult BLS compression-to-ventilation ratio with 2 rescuers:",
+      "options": [
+        "15:2",
+        "30:2",
+        "5:1",
+        "50:2"
+      ],
+      "correct": 1,
+      "explanation": "• First aid / emergency nursing for NORCET.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "First aid / emergency nursing for NORCET.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "BLS",
+      "day": 9,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 106
+    },
+    {
+      "id": 148,
+      "question": "Clinical pathology Q12: Platelet count very low increases risk of:",
+      "options": [
+        "Thrombosis",
+        "Bleeding",
+        "Hypernatremia",
+        "Metabolic alkalosis"
+      ],
+      "correct": 1,
+      "explanation": "• Thrombocytopenia increases bleeding risk.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Thrombocytopenia increases bleeding risk.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Labs",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 107
+    },
+    {
+      "id": 192,
+      "question": "What is the correct method for measuring blood pressure to ensure accuracy?",
+      "options": [
+        "Cuff should cover 40% of arm circumference",
+        "Cuff should cover 80% of arm circumference",
+        "Cuff should cover 100% of arm circumference",
+        "Cuff size doesn't matter"
+      ],
+      "correct": 1,
+      "explanation": "• The blood pressure cuff should cover 80% of the arm circumference for accurate readings.\n• Too small or too large cuffs give inaccurate results - a small cuff gives falsely high readings, while a large cuff gives falsely low readings.\n• Proper cuff sizing is essential for accurate blood pressure measurement, which is critical for patient assessment and treatment decisions.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "The blood pressure cuff should cover 80% of the arm circumference for accurate readings. Too small or too large cuffs give inaccurate results - a small cuff gives falsely high readings, while a large cuff gives falsely low readings.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Vital Signs",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2025",
+      "qtype": "factual",
+      "mockSeq": 108
+    },
+    {
+      "id": 183,
+      "question": "What is the correct site for intramuscular injection in adults?",
+      "options": [
+        "Deltoid - 1 ml",
+        "Vastus lateralis - up to 5 ml",
+        "Gluteus maximus - any volume",
+        "Abdomen - 2 ml"
+      ],
+      "correct": 1,
+      "explanation": "• Vastus lateralis (thigh) can accommodate up to 5 ml and is safe for adults.\n• Deltoid is limited to 1 ml, gluteus should be avoided due to sciatic nerve risk.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Vastus lateralis (thigh) can accommodate up to 5 ml and is safe for adults. Deltoid is limited to 1 ml, gluteus should be avoided due to sciatic nerve risk.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Medication Administration",
+      "day": 7,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 109
+    },
+    {
+      "id": 202,
+      "question": "What is the correct method for donning sterile gloves using open gloving technique?",
+      "options": [
+        "Touch outer surface of first glove",
+        "Touch only inner surface (cuff) of first glove",
+        "Use unsterile technique",
+        "Reuse gloves"
+      ],
+      "correct": 1,
+      "explanation": "• In open gloving, touch only the inner surface (cuff) of the first glove with bare hand.\n• Then use gloved hand to don second glove by touching only outer surface.\n• Outer surfaces must remain sterile.\n• Proper technique prevents contamination and maintains aseptic field.\n• This is fundamental for sterile procedures.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "In open gloving, touch only the inner surface (cuff) of the first glove with bare hand. Then use gloved hand to don second glove by touching only outer surface.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Aseptic Technique",
+      "day": 7,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2019",
+      "qtype": "factual",
+      "mockSeq": 110
+    },
+    {
+      "id": 206,
+      "question": "What is the correct method for measuring abdominal girth?",
+      "options": [
+        "At umbilicus level",
+        "At widest point",
+        "At any level",
+        "Multiple levels"
+      ],
+      "correct": 0,
+      "explanation": "• Abdominal girth should be measured at umbilicus level with patient supine, using same measuring tape and marking site for consistency.\n• Serial measurements help monitor ascites, distension, or wound healing.\n• Proper technique ensures accurate assessment and early detection of complications.",
+      "explanations": {
+        "A": "Abdominal girth should be measured at umbilicus level with patient supine, using same measuring tape and marking site for consistency. Serial measurements help monitor ascites, distension, or wound healing.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Assessment Techniques",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 111
+    },
+    {
+      "id": 163,
+      "question": "Which principle of body mechanics prevents back injury when lifting?",
+      "options": [
+        "Keep feet together",
+        "Bend at the waist",
+        "Use leg muscles, keep back straight",
+        "Lift quickly"
+      ],
+      "correct": 2,
+      "explanation": "• Using leg muscles while keeping the back straight distributes weight properly and prevents back injury.\n• Feet should be apart for stability.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Using leg muscles while keeping the back straight distributes weight properly and prevents back injury. Feet should be apart for stability.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Body Mechanics",
+      "day": 7,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 112
+    },
+    {
+      "id": 169,
+      "question": "Which documentation format is most commonly used in nursing?",
+      "options": [
+        "SOAP",
+        "PIE",
+        "DAR",
+        "Narrative"
+      ],
+      "correct": 0,
+      "explanation": "• SOAP (Subjective, Objective, Assessment, Plan) is the most commonly used documentation format in nursing, providing structured documentation.",
+      "explanations": {
+        "A": "SOAP (Subjective, Objective, Assessment, Plan) is the most commonly used documentation format in nursing, providing structured documentation.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Documentation",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 113
+    },
+    {
+      "id": 197,
+      "question": "What is the correct method for sputum collection for TB diagnosis?",
+      "options": [
+        "Morning sputum for 3 consecutive days",
+        "Single random sputum",
+        "Evening sputum for 2 days",
+        "Any time for 1 day"
+      ],
+      "correct": 0,
+      "explanation": "• TB diagnosis requires early morning sputum samples for 3 consecutive days.\n• Morning sputum has highest bacterial load.\n• Multiple samples increase detection sensitivity.\n• Proper collection technique is essential for accurate diagnosis.\n• This knowledge is critical for TB control programs.",
+      "explanations": {
+        "A": "TB diagnosis requires early morning sputum samples for 3 consecutive days. Morning sputum has highest bacterial load.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Microbiology - Specimen Collection",
+      "day": 7,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2019",
+      "qtype": "factual",
+      "mockSeq": 114
+    },
+    {
+      "id": 30,
+      "question": "CPR compression:ventilation ratio in adults (single rescuer):",
+      "options": [
+        "15:2",
+        "30:2",
+        "5:1",
+        "10:2"
+      ],
+      "correct": 1,
+      "explanation": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
+      "explanations": {
+        "A": "Pediatric 2-rescuer ratio.",
+        "B": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
+        "C": "Outdated ratio.",
+        "D": "Not standard."
+      },
+      "subject": "Fundamentals",
+      "topic": "BLS",
+      "day": 9,
+      "difficulty": "Easy",
+      "source": "NORCET 6 Mains",
+      "year": 2024,
+      "qtype": "factual",
+      "mockSeq": 115
+    },
+    {
+      "id": 157,
+      "question": "Which vital sign should be assessed first in an emergency situation?",
+      "options": [
+        "Blood pressure",
+        "Temperature",
+        "Respiratory rate",
+        "Pulse rate"
+      ],
+      "correct": 2,
+      "explanation": "• In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach.\n• Airway and breathing take priority.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Vital Signs",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 116
+    },
+    {
+      "id": 150,
+      "question": "Clinical pathology Q14: Platelet count very low increases risk of:",
+      "options": [
+        "Thrombosis",
+        "Bleeding",
+        "Hypernatremia",
+        "Metabolic alkalosis"
+      ],
+      "correct": 1,
+      "explanation": "• Thrombocytopenia increases bleeding risk.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Thrombocytopenia increases bleeding risk.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Labs",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 117
+    },
+    {
+      "id": 210,
+      "question": "[IMAGE-BASED] In the image, a Cidex (glutaraldehyde) tray with immersed instruments is shown. How often must the solution be changed?",
+      "options": [
+        "Every 3 days",
+        "Every 7 days",
+        "Every 14 days",
+        "Every 21 days"
+      ],
+      "correct": 2,
+      "explanation": "• Glutaraldehyde (Cidex) must be changed every 14 days.\n• Immersion time for high-level disinfection is 10–15 minutes.\n• Image-based sterilisation questions are common in NORCET.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Glutaraldehyde (Cidex) must be changed every 14 days. Immersion time for high-level disinfection is 10–15 minutes.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Fundamentals",
+      "topic": "Image-Based - Sterilization",
+      "day": 7,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2017",
+      "qtype": "factual",
+      "mockSeq": 118
+    },
+    {
+      "id": 441,
+      "question": "Aminoglycosides are primarily:",
+      "options": [
+        "Bacteriostatic",
+        "Bactericidal",
+        "Antifungal",
+        "Antiviral"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Antimicrobials",
+      "day": 2,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 119
+    },
+    {
+      "id": 433,
+      "question": "Organophosphate poisoning is treated with atropine and:",
+      "options": [
+        "Naloxone",
+        "Pralidoxime",
+        "Flumazenil",
+        "Vitamin K"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Antidotes",
+      "day": 2,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 120
+    },
+    {
+      "id": 449,
+      "question": "Opioid-induced constipation is often managed with:",
+      "options": [
+        "Atropine",
+        "Methylnaltrexone or laxatives per protocol",
+        "Propranolol",
+        "Diazepam"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Analgesics",
+      "day": 2,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 121
+    },
+    {
+      "id": 486,
+      "question": "Vancomycin infusion-related reaction with flushing and hypotension may be reduced by:",
+      "options": [
+        "Rapid bolus",
+        "Slowing the infusion rate",
+        "Giving with calcium gluconate always",
+        "Stopping fluids"
+      ],
+      "correct": 1,
+      "explanation": "• 'Red man' syndrome is rate-related histamine-like reaction; slow the infusion and support BP.\n• Not true IgE allergy in many cases.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "'Red man' syndrome is rate-related histamine-like reaction; slow the infusion and support BP. Not true IgE allergy in many cases.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Antibiotics",
+      "day": 2,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 122
+    },
+    {
+      "id": 456,
+      "question": "Statins primarily lower:",
+      "options": [
+        "Triglycerides only",
+        "LDL cholesterol",
+        "HDL only",
+        "Sodium"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Cardiovascular",
+      "day": 2,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 123
+    },
+    {
+      "id": 451,
+      "question": "Heparin acts mainly by potentiating:",
+      "options": [
+        "Protein C",
+        "Antithrombin III",
+        "Plasmin",
+        "Thrombin directly only"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Anticoagulants",
+      "day": 2,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 124
+    },
+    {
+      "id": 471,
+      "question": "Z-track IM injection technique reduces:",
+      "options": [
+        "Pain only",
+        "Medication leakage into subcutaneous tissue",
+        "Infection risk to zero",
+        "Need for aspiration"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Pharmacology Nursing",
+      "day": 2,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 125
+    },
+    {
+      "id": 492,
+      "question": "Calcium gluconate IV may be used in hyperkalemia with:",
+      "options": [
+        "Only if potassium is below 3.5",
+        "ECG changes / cardiac membrane stabilization while other measures proceed",
+        "Always instead of insulin-dextrose",
+        "Chronic hypocalcemia only"
+      ],
+      "correct": 1,
+      "explanation": "• Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes.\n• Does not lower total body K; combine with shift/excretion strategies.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Electrolytes",
+      "day": 1,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 126
+    },
+    {
+      "id": 437,
+      "question": "Digoxin toxicity can cause characteristic ECG finding of:",
+      "options": [
+        "Prolonged QT",
+        "Scooping ST depression (reverse tick)",
+        "Delta wave",
+        "Osborn wave"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Cardiovascular",
+      "day": 1,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 127
+    },
+    {
+      "id": 427,
+      "question": "Clozapine is primarily classified as:",
+      "options": [
+        "Typical antipsychotic",
+        "Atypical antipsychotic",
+        "Mood stabilizer",
+        "Benzodiazepine"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Drug Classification",
+      "day": 2,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 128
+    },
+    {
+      "id": 431,
+      "question": "Specific antidote for benzodiazepine overdose:",
+      "options": [
+        "Naloxone",
+        "Flumazenil",
+        "Physostigmine",
+        "Pralidoxime"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Antidotes",
+      "day": 2,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 129
+    },
+    {
+      "id": 430,
+      "question": "Warfarin overdose is reversed with:",
+      "options": [
+        "Protamine",
+        "Vitamin K (phytonadione)",
+        "Calcium gluconate",
+        "Atropine"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Anticoagulants",
+      "day": 2,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "calculation",
+      "mockSeq": 130
+    },
+    {
+      "id": 480,
+      "question": "Which statement about safe medication administration is correct?",
+      "options": [
+        "Crush all enteric-coated tablets to mix with food",
+        "Use two patient identifiers before giving medication",
+        "Skip the five rights if the drug is familiar",
+        "Administer IV push potassium as a rapid bolus if level is low"
+      ],
+      "correct": 1,
+      "explanation": "• Two identifiers and five rights are core safety.\n• Do not crush EC/SR tablets without order.\n• IV potassium must never be given as a rapid bolus.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Two identifiers and five rights are core safety. Do not crush EC/SR tablets without order.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Nursing Pharmacology",
+      "day": 2,
+      "difficulty": "Easy",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 131
+    },
+    {
+      "id": 490,
+      "question": "Methotrexate high-dose therapy often requires rescue with:",
+      "options": [
+        "Folic acid alone at same dose",
+        "Leucovorin (calcium folinate)",
+        "Vitamin B12 IM only",
+        "Thiamine"
+      ],
+      "correct": 1,
+      "explanation": "• Leucovorin rescues normal cells from MTX toxicity in high-dose protocols.\n• Different from low-dose MTX where folic acid supplementation schedules differ.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Leucovorin rescues normal cells from MTX toxicity in high-dose protocols. Different from low-dose MTX where folic acid supplementation schedules differ.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Oncology support",
+      "day": 2,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "calculation",
+      "mockSeq": 132
+    },
+    {
+      "id": 461,
+      "question": "Dopamine low dose primarily affects:",
+      "options": [
+        "Alpha receptors only",
+        "Renal and mesenteric dopamine receptors",
+        "Beta blockade",
+        "Muscarinic receptors"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Emergency",
+      "day": 2,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "calculation",
+      "mockSeq": 133
+    },
+    {
+      "id": 452,
+      "question": "Levothyroxine should be taken:",
+      "options": [
+        "With high-calcium meal",
+        "On empty stomach in morning",
+        "At bedtime with food",
+        "Only if TSH low"
+      ],
+      "correct": 1,
+      "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Pharmacology",
+      "topic": "Endocrine",
+      "day": 2,
+      "difficulty": "Hard",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 134
+    },
+    {
+      "id": 565,
+      "question": "What is the therapeutic use of ECT (Electroconvulsive Therapy)?",
+      "options": [
+        "First-line treatment for all depression",
+        "Treatment for severe, treatment-resistant depression",
+        "Punishment for non-compliance",
+        "Treatment for anxiety only"
+      ],
+      "correct": 1,
+      "explanation": "• ECT is used for severe, treatment-resistant depression, especially when rapid response is needed (suicidal risk) or medications are contraindicated.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "ECT is used for severe, treatment-resistant depression, especially when rapid response is needed (suicidal risk) or medications are contraindicated.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Treatment Modalities",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 135
+    },
+    {
+      "id": 575,
+      "question": "A patient with PTSD is experiencing flashbacks. What is the appropriate nursing response?",
+      "options": [
+        "Touch the patient",
+        "Orient to present, safe environment",
+        "Ask detailed questions about trauma",
+        "Leave patient alone"
+      ],
+      "correct": 1,
+      "explanation": "• During flashbacks, orient patient to present reality and safety.\n• Avoid touching without permission.\n• Don't force discussion of trauma details.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "During flashbacks, orient patient to present reality and safety. Avoid touching without permission.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Trauma Disorders",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 136
+    },
+    {
+      "id": 553,
+      "question": "What is the primary side effect of typical antipsychotics (haloperidol)?",
+      "options": [
+        "Weight gain",
+        "Extrapyramidal symptoms",
+        "Sedation",
+        "Dry mouth"
+      ],
+      "correct": 1,
+      "explanation": "• Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics.\n• Atypical antipsychotics have lower EPS risk.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Psychopharmacology",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 137
+    },
+    {
+      "id": 567,
+      "question": "A patient with major depressive disorder expresses suicidal ideation. What is the priority nursing action?",
+      "options": [
+        "Leave patient alone to think",
+        "Provide one-to-one supervision",
+        "Administer antidepressant",
+        "Schedule therapy session"
+      ],
+      "correct": 1,
+      "explanation": "• Patients with suicidal ideation require constant one-to-one supervision to ensure safety.\n• Remove harmful objects and notify the treatment team immediately.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Depression",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2016",
+      "qtype": "scenario",
+      "mockSeq": 138
+    },
+    {
+      "id": 576,
+      "question": "A patient with major depression is prescribed sertraline (SSRI). What is the most important teaching about this medication?",
+      "options": [
+        "Take with food",
+        "May take 2-4 weeks to show effect",
+        "Can stop anytime",
+        "No side effects expected"
+      ],
+      "correct": 1,
+      "explanation": "• SSRIs like sertraline typically take 2-4 weeks to show therapeutic effects.\n• Patients must be educated about this delayed onset to prevent early discontinuation.\n• Common side effects include nausea, headache, and sexual dysfunction.\n• Abrupt discontinuation can cause withdrawal symptoms.\n• Psychiatric nursing requires therapeutic communication skills and understanding of psychopharmacology.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "SSRIs like sertraline typically take 2-4 weeks to show therapeutic effects. Patients must be educated about this delayed onset to prevent early discontinuation.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Psychopharmacology",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2025",
+      "qtype": "scenario",
+      "mockSeq": 139
+    },
+    {
+      "id": 551,
+      "question": "A patient with schizophrenia is experiencing auditory hallucinations. What is the priority nursing intervention?",
+      "options": [
+        "Confront the patient about delusions",
+        "Acknowledge feelings and focus on reality",
+        "Ignore the hallucinations",
+        "Agree with the patient"
+      ],
+      "correct": 1,
+      "explanation": "• Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality.\n• Confrontation can increase anxiety.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Schizophrenia",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 140
+    },
+    {
+      "id": 556,
+      "question": "A patient with anxiety disorder is experiencing panic attack. What is the priority intervention?",
+      "options": [
+        "Administer benzodiazepine",
+        "Stay with patient, speak calmly",
+        "Leave patient alone",
+        "Encourage physical activity"
+      ],
+      "correct": 1,
+      "explanation": "• During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques.\n• Medication may be needed if severe.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Anxiety Disorders",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "scenario",
+      "mockSeq": 141
+    },
+    {
+      "id": 568,
+      "question": "What is the primary side effect of typical antipsychotics (haloperidol)?",
+      "options": [
+        "Weight gain",
+        "Extrapyramidal symptoms",
+        "Sedation",
+        "Dry mouth"
+      ],
+      "correct": 1,
+      "explanation": "• Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics.\n• Atypical antipsychotics have lower EPS risk.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Psychopharmacology",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2017",
+      "qtype": "factual",
+      "mockSeq": 142
+    },
+    {
+      "id": 573,
+      "question": "A patient with obsessive-compulsive disorder (OCD) is performing rituals. What is the therapeutic approach?",
+      "options": [
+        "Prevent all rituals",
+        "Gradually limit rituals with exposure therapy",
+        "Allow unlimited rituals",
+        "Ignore the behavior"
+      ],
+      "correct": 1,
+      "explanation": "• OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety.\n• Sudden prevention increases distress.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Anxiety Disorders",
+      "day": 9,
+      "difficulty": "High",
+      "source": "Practice",
+      "year": "2022",
+      "qtype": "scenario",
+      "mockSeq": 143
+    },
+    {
+      "id": 559,
+      "question": "What is the priority nursing intervention for a patient with eating disorder (anorexia)?",
+      "options": [
+        "Force feeding",
+        "Monitor weight and vital signs",
+        "Ignore eating behaviors",
+        "Focus only on psychological therapy"
+      ],
+      "correct": 1,
+      "explanation": "• Medical stabilization is priority - monitor weight, vital signs, electrolytes.\n• Malnutrition can be life-threatening.\n• Then address psychological aspects.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Medical stabilization is priority - monitor weight, vital signs, electrolytes. Malnutrition can be life-threatening.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Psychiatric",
+      "topic": "Eating Disorders",
+      "day": 9,
+      "difficulty": "Critical",
+      "source": "Practice",
+      "year": "2024",
+      "qtype": "factual",
+      "mockSeq": 144
+    },
+    {
+      "id": 320,
+      "question": "Microbiology Q22: Which is a gram-positive coccus in clusters?",
+      "options": [
+        "Streptococcus pyogenes chains",
+        "Staphylococcus aureus",
+        "Neisseria",
+        "Escherichia coli"
+      ],
+      "correct": 1,
+      "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 145
+    },
+    {
+      "id": 309,
+      "question": "Microbiology Q11: Which is a gram-positive coccus in clusters?",
+      "options": [
+        "Streptococcus pyogenes chains",
+        "Staphylococcus aureus",
+        "Neisseria",
+        "Escherichia coli"
+      ],
+      "correct": 1,
+      "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 146
+    },
+    {
+      "id": 307,
+      "question": "ELISA is used to detect:",
+      "options": [
+        "Only bacteria culture",
+        "Antigens or antibodies in serum",
+        "Only fungal hyphae",
+        "Only parasites in stool"
+      ],
+      "correct": 1,
+      "explanation": "• Microbiology/infection control high-yield for NORCET.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Microbiology/infection control high-yield for NORCET.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Diagnostics",
+      "day": 8,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 147
+    },
+    {
+      "id": 313,
+      "question": "Microbiology Q15: Which is a gram-positive coccus in clusters?",
+      "options": [
+        "Streptococcus pyogenes chains",
+        "Staphylococcus aureus",
+        "Neisseria",
+        "Escherichia coli"
+      ],
+      "correct": 1,
+      "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 148
+    },
+    {
+      "id": 317,
+      "question": "Microbiology Q19: Which is a gram-positive coccus in clusters?",
+      "options": [
+        "Streptococcus pyogenes chains",
+        "Staphylococcus aureus",
+        "Neisseria",
+        "Escherichia coli"
+      ],
+      "correct": 1,
+      "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 149
+    },
+    {
+      "id": 308,
+      "question": "Spores are best destroyed by:",
+      "options": [
+        "Boiling 1 minute",
+        "Autoclaving",
+        "Alcohol rub",
+        "Soap wash"
+      ],
+      "correct": 1,
+      "explanation": "• Microbiology/infection control high-yield for NORCET.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Microbiology/infection control high-yield for NORCET.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Infection Control",
+      "day": 8,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 150
+    },
+    {
+      "id": 314,
+      "question": "Microbiology Q16: Which is a gram-positive coccus in clusters?",
+      "options": [
+        "Streptococcus pyogenes chains",
+        "Staphylococcus aureus",
+        "Neisseria",
+        "Escherichia coli"
+      ],
+      "correct": 1,
+      "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 151
+    },
+    {
+      "id": 316,
+      "question": "Microbiology Q18: Which is a gram-positive coccus in clusters?",
+      "options": [
+        "Streptococcus pyogenes chains",
+        "Staphylococcus aureus",
+        "Neisseria",
+        "Escherichia coli"
+      ],
+      "correct": 1,
+      "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Microbiology",
+      "topic": "Bacteriology",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 152
+    },
+    {
+      "id": 71,
+      "question": "Ball-and-socket joint example:",
+      "options": [
+        "Elbow",
+        "Shoulder",
+        "Knee patellofemoral only",
+        "Ankle only"
+      ],
+      "correct": 1,
+      "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Anatomy",
+      "topic": "Musculoskeletal",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 153
+    },
+    {
+      "id": 64,
+      "question": "Primary site of tubular reabsorption:",
+      "options": [
+        "Collecting duct only",
+        "Proximal convoluted tubule",
+        "Loop of Henle only",
+        "Bowman capsule"
+      ],
+      "correct": 1,
+      "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Anatomy",
+      "topic": "Renal",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 154
+    },
+    {
+      "id": 95,
+      "question": "Anatomy & Physiology Q39: The thymus is primarily important for:",
+      "options": [
+        "B cell maturation",
+        "T cell maturation",
+        "Red blood cell production",
+        "Insulin secretion"
+      ],
+      "correct": 1,
+      "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Anatomy",
+      "topic": "Immunity",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "NORCET PYQ theme",
+      "qtype": "factual",
+      "mockSeq": 155
+    },
+    {
+      "id": 97,
+      "question": "Anatomy & Physiology Q41: The thymus is primarily important for:",
+      "options": [
+        "B cell maturation",
+        "T cell maturation",
+        "Red blood cell production",
+        "Insulin secretion"
+      ],
+      "correct": 1,
+      "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Anatomy",
+      "topic": "Immunity",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "NORCET PYQ theme",
+      "qtype": "factual",
+      "mockSeq": 156
+    },
+    {
+      "id": 335,
+      "question": "Renal diet often restricts:",
+      "options": [
+        "Protein, sodium, potassium, phosphorus as needed",
+        "Only water",
+        "Only fat",
+        "Only fiber"
+      ],
+      "correct": 0,
+      "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+      "explanations": {
+        "A": "Nutrition/biochemistry for NORCET nursing.",
+        "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Nutrition",
+      "topic": "Therapeutic diet",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 157
+    },
+    {
+      "id": 340,
+      "question": "Biochemistry Q14: Ketone bodies increase in:",
+      "options": [
+        "Fed state",
+        "Prolonged fasting / uncontrolled diabetes",
+        "After high-carb meal",
+        "After IV dextrose only"
+      ],
+      "correct": 1,
+      "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Ketogenesis rises when carbohydrate availability is low.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Nutrition",
+      "topic": "Metabolism",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": null,
+      "qtype": "factual",
+      "mockSeq": 158
+    },
+    {
+      "id": 40,
+      "question": "What is the primary purpose of performance appraisal?",
+      "options": [
+        "Punish poor performance",
+        "Provide feedback and development",
+        "Reduce salaries",
+        "Terminate staff"
+      ],
+      "correct": 1,
+      "explanation": "• Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Admin",
+      "topic": "Human Resources",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2023",
+      "qtype": "factual",
+      "mockSeq": 159
+    },
+    {
+      "id": 48,
+      "question": "What is the first step in the problem-solving process?",
+      "options": [
+        "Implement solution",
+        "Identify the problem",
+        "Evaluate outcomes",
+        "Generate alternatives"
+      ],
+      "correct": 1,
+      "explanation": "• Problem identification is the first step.\n• You must clearly define the problem before generating solutions, implementing, and evaluating.",
+      "explanations": {
+        "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "B": "Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
+        "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+        "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      },
+      "subject": "Admin",
+      "topic": "Problem Solving",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Practice",
+      "year": "2018",
+      "qtype": "factual",
+      "mockSeq": 160
+    }
+  ]
+}

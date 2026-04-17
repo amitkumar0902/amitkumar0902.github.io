@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" width="560" height="200" role="img" aria-label="BMW color-coded bags">
+  <rect width="560" height="200" fill="#fff"/>
+  <g font-family="Georgia" font-size="13" text-anchor="middle" fill="#1a1a1a">
+    <g transform="translate(20,40)">
+      <rect width="100" height="120" fill="#f9d84a" stroke="#1a1a1a"/>
+      <text x="50" y="60" fill="#1a1a1a" font-weight="bold">YELLOW</text>
+      <text x="50" y="140" >Human anatomical</text>
+      <text x="50" y="155" >waste, soiled</text>
+    </g>
+    <g transform="translate(150,40)">
+      <rect width="100" height="120" fill="#d94a4a" stroke="#1a1a1a"/>
+      <text x="50" y="60" fill="#fff" font-weight="bold">RED</text>
+      <text x="50" y="140" >Contaminated</text>
+      <text x="50" y="155" >recyclable plastics</text>
+    </g>
+    <g transform="translate(280,40)">
+      <rect width="100" height="120" fill="#fff" stroke="#1a1a1a"/>
+      <text x="50" y="60" fill="#1a1a1a" font-weight="bold">WHITE</text>
+      <text x="50" y="80" fill="#1a1a1a" font-size="10">(translucent)</text>
+      <text x="50" y="140" >Sharps  needles,</text>
+      <text x="50" y="155" >scalpels, blades</text>
+    </g>
+    <g transform="translate(410,40)">
+      <rect width="100" height="120" fill="#4a7cd9" stroke="#1a1a1a"/>
+      <text x="50" y="60" fill="#fff" font-weight="bold">BLUE</text>
+      <text x="50" y="140" >Broken/discarded</text>
+      <text x="50" y="155" >glass, metallic</text>
+    </g>
+  </g>
+  <text x="280" y="20" font-family="Georgia" font-size="14" text-anchor="middle" font-weight="bold">BMW Rules 2016  Color-coded Segregation</text>
+  <text x="280" y="188" font-family="Georgia" font-size="11" text-anchor="middle" fill="#6a6a6a">Mnemonic: Yellow-anatomy · Red-plastic · White-sharp · Blue-glass</text>
+</svg>

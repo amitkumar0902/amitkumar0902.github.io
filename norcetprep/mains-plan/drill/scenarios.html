@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinical Scenario Drill · NORCET Mains 2026</title>
+  <link rel="stylesheet" href="../../css/mains-theme.css">
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <script src="../../js/core.js" defer></script>
+  <script src="../../js/practice.js" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', async () => {
+      NM.boot('today');
+      const bank = await fetch('../../data/mains/question-bank.json').then(r=>r.json());
+      const scen = bank.filter(q => q.qtype === 'scenario');
+      const url = URL.createObjectURL(new Blob([JSON.stringify(scen.slice(0, 40))], { type: 'application/json' }));
+      NMPractice.start({
+        title: 'Clinical Scenario Drill · ' + Math.min(40, scen.length) + ' Qs',
+        dataUrl: url,
+        stateKey: 'scenario.session'
+      });
+    });
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="../index.html">← Back to Plan</a>
+  <div id="practice-root"><p class="muted">Loading scenario drill…</p></div>
+</main>
+</body>
+</html>
