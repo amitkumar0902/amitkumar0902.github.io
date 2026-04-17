@@ -101,6 +101,7 @@
         expl +
         '<div class="q-footer">' +
           '<button class="btn btn--ghost" id="p-prev">← Previous</button>' +
+          '<button class="btn btn--ghost btn--sm" id="p-report" title="Report this question">Report</button>' +
           (done ? '<button class="btn btn--accent" id="p-next">' + (state.cur === state.questions.length - 1 ? 'Finish' : 'Next →') + '</button>' :
                   '<button class="btn btn--accent" id="p-submit" '+(sel===null?'disabled':'')+'>Submit</button>') +
         '</div>' +
@@ -114,6 +115,8 @@
       });
     });
     document.getElementById('p-prev').addEventListener('click', () => { state.cur = Math.max(0, state.cur - 1); render(); });
+    const repBtn = document.getElementById('p-report');
+    if (repBtn) repBtn.addEventListener('click', () => { if (window.NMReport) window.NMReport.open(q); });
     const subBtn = document.getElementById('p-submit');
     if (subBtn) subBtn.addEventListener('click', submitQ);
     const nxtBtn = document.getElementById('p-next');
@@ -171,6 +174,7 @@
       const done = NM.get('practiceDone', {});
       done[state.day] = true;
       NM.set('practiceDone', done);
+      if (NM.markDayCompleted) NM.markDayCompleted(state.day);
     }
   }
 
@@ -210,12 +214,20 @@
           const cls = j === q.correct ? 'option correct' : (j === a ? 'option wrong' : 'option');
           return '<li class="'+cls+'"><span class="letter">'+letters[j]+'</span><span class="text">'+NM.escape(o)+'</span></li>';
         }).join('');
-        return '<details style="margin:10px 0;border:1px solid var(--rule);padding:10px"><summary><strong>Q'+(i+1)+'.</strong> '+NM.escape(q.question.slice(0,120))+(q.question.length>120?'…':'')+'</summary>' +
+        return '<details style="margin:10px 0;border:1px solid var(--rule);padding:10px" data-qid="'+q.id+'"><summary><strong>Q'+(i+1)+'.</strong> '+NM.escape(q.question.slice(0,120))+(q.question.length>120?'…':'')+'</summary>' +
           '<div class="q-stem">'+NM.escape(q.question)+'</div>' +
           '<ul class="options">'+opts+'</ul>' +
           renderExplanations(q) +
+          '<div class="btn-row" style="justify-content:flex-end"><button class="btn btn--ghost btn--sm" data-act="report" data-qid="'+q.id+'">Report</button></div>' +
         '</details>';
       }).join('');
+      document.querySelectorAll('#wrong-list [data-act="report"]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          const qid = +b.dataset.qid;
+          const q = state.questions.find(function (x) { return x.id === qid; });
+          if (q && window.NMReport) window.NMReport.open(q);
+        });
+      });
     }
     document.getElementById('p-again').addEventListener('click', () => {
       NM.del(state.stateKey);

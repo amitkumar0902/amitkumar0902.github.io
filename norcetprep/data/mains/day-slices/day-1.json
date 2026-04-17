@@ -1,55 +1,5 @@
 [
   {
-    "id": 508,
-    "question": "Parkland formula for fluid resuscitation in burns uses:",
-    "options": [
-      "2 mL × kg × %TBSA",
-      "3 mL × kg × %TBSA",
-      "4 mL × kg × %TBSA lactated Ringer’s in 24h",
-      "5 mL × kg × %TBSA"
-    ],
-    "correct": 2,
-    "explanation": "• Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h).\n• Classic NORCET style.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Emergency",
-    "day": 1,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 511,
-    "question": "Spinal anesthesia monitoring should especially watch for:",
-    "options": [
-      "Hypertension only",
-      "Hypotension and bradycardia",
-      "Hyperglycemia",
-      "Seizures only"
-    ],
-    "correct": 1,
-    "explanation": "• Sympathetic block → hypotension/bradycardia common.\n• NORCET clinical theme.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Perioperative",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
     "id": 1,
     "question": "The Parkland formula for fluid resuscitation in burns is:",
     "options": [
@@ -125,6 +75,106 @@
     "qtype": "scenario"
   },
   {
+    "id": 508,
+    "question": "Parkland formula for fluid resuscitation in burns uses:",
+    "options": [
+      "2 mL × kg × %TBSA",
+      "3 mL × kg × %TBSA",
+      "4 mL × kg × %TBSA lactated Ringer’s in 24h",
+      "5 mL × kg × %TBSA"
+    ],
+    "correct": 2,
+    "explanation": "• Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h).\n• Classic NORCET style.",
+    "explanations": {
+      "A": "\"2 mL × kg × %TBSA\" is a plausible distractor but incorrect. The correct answer is C (\"4 mL × kg × %TBSA lactated Ringer’s in 24h\") — Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
+      "B": "\"3 mL × kg × %TBSA\" is a plausible distractor but incorrect. The correct answer is C (\"4 mL × kg × %TBSA lactated Ringer’s in 24h\") — Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
+      "C": "Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
+      "D": "\"5 mL × kg × %TBSA\" is a plausible distractor but incorrect. The correct answer is C (\"4 mL × kg × %TBSA lactated Ringer’s in 24h\") — Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style."
+    },
+    "subject": "Mixed",
+    "topic": "Emergency",
+    "day": 1,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
+    "qtype": "factual"
+  },
+  {
+    "id": 522,
+    "question": "Weight doubles by approximately:",
+    "options": [
+      "3 months",
+      "5 months",
+      "12 months",
+      "2 years"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"3 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"12 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"2 years\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "Pediatric",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 6 Mains (2024)",
+    "qtype": "factual"
+  },
+  {
+    "id": 532,
+    "question": "Weight doubles by approximately:",
+    "options": [
+      "3 months",
+      "5 months",
+      "12 months",
+      "2 years"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"3 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"12 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"2 years\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "Pediatric",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 6 Mains (2024)",
+    "qtype": "factual"
+  },
+  {
+    "id": 542,
+    "question": "Weight doubles by approximately:",
+    "options": [
+      "3 months",
+      "5 months",
+      "12 months",
+      "2 years"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"3 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"12 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"2 years\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "Pediatric",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 6 Mains (2024)",
+    "qtype": "factual"
+  },
+  {
     "id": 73,
     "question": "P wave on ECG represents:",
     "options": [
@@ -136,10 +186,10 @@
     "correct": 1,
     "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Ventricular depolarization\" is a plausible distractor but incorrect. The correct answer is B (\"Atrial depolarization\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
       "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Ventricular repolarization\" is a plausible distractor but incorrect. The correct answer is B (\"Atrial depolarization\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"AV delay only\" is a plausible distractor but incorrect. The correct answer is B (\"Atrial depolarization\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
     },
     "subject": "Anatomy",
     "topic": "Cardiovascular",
@@ -161,10 +211,10 @@
     "correct": 1,
     "explanation": "• First aid / emergency nursing for NORCET.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"9%\" is a plausible distractor but incorrect. The correct answer is B (\"18%\") — First aid / emergency nursing for NORCET.",
       "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"27%\" is a plausible distractor but incorrect. The correct answer is B (\"18%\") — First aid / emergency nursing for NORCET.",
+      "D": "\"36%\" is a plausible distractor but incorrect. The correct answer is B (\"18%\") — First aid / emergency nursing for NORCET."
     },
     "subject": "Fundamentals",
     "topic": "Burns",
@@ -186,10 +236,10 @@
     "correct": 1,
     "explanation": "• First aid / emergency nursing for NORCET.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Low CO2\" is a plausible distractor but incorrect. The correct answer is B (\"High CO2 with acidic pH\") — First aid / emergency nursing for NORCET.",
       "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"High HCO3 with alkalemia\" is a plausible distractor but incorrect. The correct answer is B (\"High CO2 with acidic pH\") — First aid / emergency nursing for NORCET.",
+      "D": "\"Always normal pH\" is a plausible distractor but incorrect. The correct answer is B (\"High CO2 with acidic pH\") — First aid / emergency nursing for NORCET."
     },
     "subject": "Fundamentals",
     "topic": "ABG",
@@ -197,31 +247,6 @@
     "difficulty": "Hard",
     "source": "Practice",
     "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 200,
-    "question": "What is the correct method for testing nasogastric tube placement?",
-    "options": [
-      "Auscultation only",
-      "pH testing of aspirate",
-      "X-ray confirmation",
-      "Water injection test"
-    ],
-    "correct": 2,
-    "explanation": "• X-ray is the gold standard for confirming NG tube placement.\n• pH testing (<5.5 suggests gastric placement) is acceptable for ongoing verification.\n• Auscultation alone is unreliable.\n• Proper placement verification prevents aspiration and ensures safe feeding.\n• This knowledge is critical for patient safety.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "X-ray is the gold standard for confirming NG tube placement. pH testing (<5.5 suggests gastric placement) is acceptable for ongoing verification.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Feeding Equipment",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2017",
     "qtype": "factual"
   },
   {
@@ -236,90 +261,15 @@
     "correct": 1,
     "explanation": "• Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period.\n• While pain management and other interventions are important, cardiac monitoring takes priority.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Administering pain medication\" is a plausible distractor but incorrect. The correct answer is B (\"Continuous cardiac monitoring\") — Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
       "B": "Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Providing emotional support\" is a plausible distractor but incorrect. The correct answer is B (\"Continuous cardiac monitoring\") — Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
+      "D": "\"Teaching about lifestyle modifications\" is a plausible distractor but incorrect. The correct answer is B (\"Continuous cardiac monitoring\") — Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority."
     },
     "subject": "Medical-Surgical",
     "topic": "Cardiovascular System",
     "day": 1,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 215,
-    "question": "A patient with chronic kidney disease is on hemodialysis. Which electrolyte imbalance is most commonly associated with renal failure?",
-    "options": [
-      "Hypokalemia",
-      "Hyperkalemia",
-      "Hyponatremia",
-      "Hypocalcemia"
-    ],
-    "correct": 1,
-    "explanation": "• Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium.\n• This can lead to life-threatening cardiac arrhythmias.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium. This can lead to life-threatening cardiac arrhythmias.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Renal System",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
-  },
-  {
-    "id": 220,
-    "question": "A patient is scheduled for coronary artery bypass graft (CABG) surgery. What is the most important pre-operative teaching?",
-    "options": [
-      "Deep breathing exercises",
-      "Medication management",
-      "Dietary restrictions",
-      "Activity limitations"
-    ],
-    "correct": 0,
-    "explanation": "• Deep breathing exercises are critical post-CABG to prevent atelectasis and pneumonia.\n• Teaching should begin pre-operatively so patients can practice.",
-    "explanations": {
-      "A": "Deep breathing exercises are critical post-CABG to prevent atelectasis and pneumonia. Teaching should begin pre-operatively so patients can practice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiovascular Surgery",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 223,
-    "question": "A patient with deep vein thrombosis (DVT) is receiving heparin therapy. What is the most critical nursing assessment?",
-    "options": [
-      "Blood pressure",
-      "Bleeding signs",
-      "Urine output",
-      "Temperature"
-    ],
-    "correct": 1,
-    "explanation": "• Heparin is an anticoagulant that increases bleeding risk.\n• Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Heparin is an anticoagulant that increases bleeding risk. Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Hematological System",
-    "day": 1,
-    "difficulty": "Critical",
     "source": "Practice",
     "year": "2023",
     "qtype": "scenario"
@@ -336,10 +286,10 @@
     "correct": 1,
     "explanation": "• Urine output is the best indicator of adequate fluid resuscitation in burn patients.\n• Target is 30-50 ml/hour in adults.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Pain level\" is a plausible distractor but incorrect. The correct answer is B (\"Urine output\") — Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
       "B": "Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Wound appearance\" is a plausible distractor but incorrect. The correct answer is B (\"Urine output\") — Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
+      "D": "\"Temperature\" is a plausible distractor but incorrect. The correct answer is B (\"Urine output\") — Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults."
     },
     "subject": "Medical-Surgical",
     "topic": "Emergency Care",
@@ -350,49 +300,24 @@
     "qtype": "scenario"
   },
   {
-    "id": 228,
-    "question": "A patient with heart failure is prescribed digoxin. What is the most important sign of digoxin toxicity?",
+    "id": 235,
+    "question": "A patient with hypothyroidism is prescribed levothyroxine. What is the best time to take this medication?",
     "options": [
-      "Increased heart rate",
-      "Visual disturbances (yellow-green halos)",
-      "Hypertension",
-      "Increased urine output"
+      "With breakfast",
+      "On empty stomach in morning",
+      "At bedtime",
+      "With evening meal"
     ],
     "correct": 1,
-    "explanation": "• Visual disturbances, particularly yellow-green halos around lights, are classic early signs of digoxin toxicity.\n• Other signs include bradycardia, nausea, and arrhythmias.",
+    "explanation": "• Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption.\n• Food can interfere with absorption.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Visual disturbances, particularly yellow-green halos around lights, are classic early signs of digoxin toxicity. Other signs include bradycardia, nausea, and arrhythmias.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"With breakfast\" is a plausible distractor but incorrect. The correct answer is B (\"On empty stomach in morning\") — Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption.",
+      "B": "Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption.",
+      "C": "\"At bedtime\" is a plausible distractor but incorrect. The correct answer is B (\"On empty stomach in morning\") — Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption.",
+      "D": "\"With evening meal\" is a plausible distractor but incorrect. The correct answer is B (\"On empty stomach in morning\") — Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption."
     },
     "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
-  },
-  {
-    "id": 232,
-    "question": "A patient with glaucoma is prescribed timolol eye drops. What is the most important teaching point?",
-    "options": [
-      "Apply pressure to lacrimal duct after instillation",
-      "Use drops only in affected eye",
-      "Store in refrigerator",
-      "Use before meals"
-    ],
-    "correct": 0,
-    "explanation": "• Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
-    "explanations": {
-      "A": "Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Ophthalmology",
+    "topic": "Endocrine System",
     "day": 1,
     "difficulty": "Medium",
     "source": "Practice",
@@ -400,78 +325,53 @@
     "qtype": "scenario"
   },
   {
-    "id": 236,
-    "question": "A patient with multiple sclerosis is experiencing an exacerbation. What is the priority nursing intervention?",
+    "id": 253,
+    "question": "A patient with acute respiratory failure is on mechanical ventilation. What is the target PaO2?",
     "options": [
-      "Encourage activity",
-      "Prevent complications of immobility",
-      "Administer high-dose steroids",
-      "Provide emotional support"
+      "60-80 mmHg",
+      "80-100 mmHg",
+      "100-120 mmHg",
+      "120-140 mmHg"
     ],
-    "correct": 1,
-    "explanation": "• During MS exacerbations, patients may have decreased mobility.\n• Preventing complications like pressure ulcers, contractures, and DVT is the priority.",
+    "correct": 0,
+    "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "During MS exacerbations, patients may have decreased mobility. Preventing complications like pressure ulcers, contractures, and DVT is the priority.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological System",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
-  },
-  {
-    "id": 249,
-    "question": "A patient requires endotracheal suctioning. What is the maximum suction time per pass?",
-    "options": [
-      "5 seconds",
-      "10 seconds",
-      "15 seconds",
-      "20 seconds"
-    ],
-    "correct": 1,
-    "explanation": "• Endotracheal suctioning should not exceed 10-15 seconds per pass to prevent hypoxia and cardiac arrhythmias.\n• Pre-oxygenate before suctioning.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Endotracheal suctioning should not exceed 10-15 seconds per pass to prevent hypoxia and cardiac arrhythmias. Pre-oxygenate before suctioning.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
+      "B": "\"80-100 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"60-80 mmHg\") — Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
+      "C": "\"100-120 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"60-80 mmHg\") — Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
+      "D": "\"120-140 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"60-80 mmHg\") — Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation."
     },
     "subject": "Medical-Surgical",
     "topic": "Critical Care",
     "day": 1,
     "difficulty": "High",
     "source": "Practice",
-    "year": "2020",
-    "qtype": "factual"
+    "year": "2024",
+    "qtype": "scenario"
   },
   {
-    "id": 252,
-    "question": "A patient post-CABG surgery develops atrial fibrillation. What is the priority nursing intervention?",
+    "id": 257,
+    "question": "A patient with acute cholecystitis is scheduled for surgery. What is the most important pre-operative assessment?",
     "options": [
-      "Administer digoxin",
-      "Monitor for stroke risk",
-      "Increase activity",
-      "Restrict fluids"
+      "Liver function tests",
+      "Coagulation studies",
+      "Cardiac function",
+      "Renal function"
     ],
-    "correct": 1,
-    "explanation": "• Atrial fibrillation post-CABG increases stroke risk due to blood stasis.\n• Anticoagulation and monitoring for embolic events are priorities.",
+    "correct": 0,
+    "explanation": "• Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Atrial fibrillation post-CABG increases stroke risk due to blood stasis. Anticoagulation and monitoring for embolic events are priorities.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
+      "B": "\"Coagulation studies\" is a plausible distractor but incorrect. The correct answer is A (\"Liver function tests\") — Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
+      "C": "\"Cardiac function\" is a plausible distractor but incorrect. The correct answer is A (\"Liver function tests\") — Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
+      "D": "\"Renal function\" is a plausible distractor but incorrect. The correct answer is A (\"Liver function tests\") — Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement."
     },
     "subject": "Medical-Surgical",
-    "topic": "Cardiovascular Surgery",
+    "topic": "Gastrointestinal System",
     "day": 1,
     "difficulty": "High",
     "source": "Practice",
-    "year": "2023",
+    "year": "2018",
     "qtype": "scenario"
   },
   {
@@ -486,10 +386,10 @@
     "correct": 1,
     "explanation": "• For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits.\n• Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.\n• Time to reperfusion is critical - every minute counts in preserving myocardial function.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Within 60 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"Within 90 minutes\") — For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.",
       "B": "For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Within 120 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"Within 90 minutes\") — For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.",
+      "D": "\"Within 180 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"Within 90 minutes\") — For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset."
     },
     "subject": "Medical-Surgical",
     "topic": "Cardiovascular System",
@@ -511,10 +411,10 @@
     "correct": 1,
     "explanation": "• Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias.\n• Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.\n• This is a medical emergency.\n• Understanding electrolyte emergencies is critical for critical care nursing.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Administer potassium supplements\" is a plausible distractor but incorrect. The correct answer is B (\"Administer calcium gluconate IV\") — Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.",
       "B": "Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Encourage potassium-rich foods\" is a plausible distractor but incorrect. The correct answer is B (\"Administer calcium gluconate IV\") — Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.",
+      "D": "\"Monitor only\" is a plausible distractor but incorrect. The correct answer is B (\"Administer calcium gluconate IV\") — Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium."
     },
     "subject": "Medical-Surgical",
     "topic": "Electrolyte Imbalance - Hyperkalemia",
@@ -525,53 +425,28 @@
     "qtype": "scenario"
   },
   {
-    "id": 268,
-    "question": "A patient with chronic heart failure is on furosemide. What electrolyte should be monitored?",
+    "id": 281,
+    "question": "A patient with peritoneal dialysis has cloudy dialysate. What does this indicate?",
     "options": [
-      "Sodium",
-      "Potassium",
-      "Calcium",
-      "Magnesium"
+      "Normal",
+      "Peritonitis",
+      "Dehydration",
+      "Overhydration"
     ],
     "correct": 1,
-    "explanation": "• Furosemide (loop diuretic) causes hypokalemia by increasing potassium excretion.\n• Monitor potassium levels regularly and may need supplementation.\n• Hypokalemia increases digoxin toxicity risk and can cause muscle weakness and arrhythmias.\n• Understanding diuretic effects on electrolytes is essential for safe medication management.",
+    "explanation": "• Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis.\n• Other signs include abdominal pain, fever, and elevated WBC count.\n• Requires immediate treatment with antibiotics.\n• This knowledge is critical for managing dialysis patients and preventing complications.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Furosemide (loop diuretic) causes hypokalemia by increasing potassium excretion. Monitor potassium levels regularly and may need supplementation.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Normal\" is a plausible distractor but incorrect. The correct answer is B (\"Peritonitis\") — Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count.",
+      "B": "Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count.",
+      "C": "\"Dehydration\" is a plausible distractor but incorrect. The correct answer is B (\"Peritonitis\") — Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count.",
+      "D": "\"Overhydration\" is a plausible distractor but incorrect. The correct answer is B (\"Peritonitis\") — Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count."
     },
     "subject": "Medical-Surgical",
-    "topic": "Pharmacology - Diuretics",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "scenario"
-  },
-  {
-    "id": 276,
-    "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
-    "options": [
-      "Hyperkalemia",
-      "Hypokalemia",
-      "Hypercalcemia",
-      "Hypocalcemia"
-    ],
-    "correct": 0,
-    "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents.\n• Hyperkalemia is the most dangerous and can cause fatal arrhythmias.\n• Understanding oncologic emergencies is critical for safe chemotherapy administration and monitoring.",
-    "explanations": {
-      "A": "Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents. Hyperkalemia is the most dangerous and can cause fatal arrhythmias.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Oncology - Tumor Lysis Syndrome",
+    "topic": "Dialysis Equipment",
     "day": 1,
     "difficulty": "Critical",
     "source": "Practice",
-    "year": "2024",
+    "year": "2019",
     "qtype": "factual"
   },
   {
@@ -587,9 +462,9 @@
     "explanation": "• Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing.\n• Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.\n• Understanding cardiac devices is essential for managing patients with implanted devices.",
     "explanations": {
       "A": "Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"Blood pressure only\" is a plausible distractor but incorrect. The correct answer is A (\"ECG monitoring\") — Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.",
+      "C": "\"No special monitoring\" is a plausible distractor but incorrect. The correct answer is A (\"ECG monitoring\") — Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.",
+      "D": "\"Temperature only\" is a plausible distractor but incorrect. The correct answer is A (\"ECG monitoring\") — Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias."
     },
     "subject": "Medical-Surgical",
     "topic": "Cardiac Devices",
@@ -600,151 +475,101 @@
     "qtype": "factual"
   },
   {
-    "id": 309,
-    "question": "Microbiology Q11: Which is a gram-positive coccus in clusters?",
+    "id": 291,
+    "question": "[IMAGE-BASED] The X-ray shows a chest with a visible lung edge and absence of lung markings beyond it. This is most consistent with:",
     "options": [
-      "Streptococcus pyogenes chains",
-      "Staphylococcus aureus",
-      "Neisseria",
-      "Escherichia coli"
+      "Consolidation",
+      "Pleural effusion",
+      "Pneumothorax",
+      "Cardiomegaly"
+    ],
+    "correct": 2,
+    "explanation": "• A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax.\n• Image-based CXR interpretation is commonly tested in NORCET.",
+    "explanations": {
+      "A": "\"Consolidation\" is a plausible distractor but incorrect. The correct answer is C (\"Pneumothorax\") — A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET.",
+      "B": "\"Pleural effusion\" is a plausible distractor but incorrect. The correct answer is C (\"Pneumothorax\") — A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET.",
+      "C": "A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET.",
+      "D": "\"Cardiomegaly\" is a plausible distractor but incorrect. The correct answer is C (\"Pneumothorax\") — A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Image-Based - X-ray",
+    "day": 1,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2019",
+    "qtype": "factual"
+  },
+  {
+    "id": 422,
+    "question": "A newborn requires phototherapy for jaundice. What is the correct distance of phototherapy light?",
+    "options": [
+      "10-15 cm",
+      "30-45 cm",
+      "50-75 cm",
+      "100 cm"
     ],
     "correct": 1,
-    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanation": "• Phototherapy light should be 30-45 cm above infant.\n• Closer increases risk of burns, farther reduces effectiveness.\n• Monitor temperature, cover eyes, rotate position.\n• Understanding neonatal equipment is essential for managing jaundice and preventing complications.\n• Pediatric nursing requires specialized knowledge.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"10-15 cm\" is a plausible distractor but incorrect. The correct answer is B (\"30-45 cm\") — Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness.",
+      "B": "Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness.",
+      "C": "\"50-75 cm\" is a plausible distractor but incorrect. The correct answer is B (\"30-45 cm\") — Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness.",
+      "D": "\"100 cm\" is a plausible distractor but incorrect. The correct answer is B (\"30-45 cm\") — Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness."
     },
-    "subject": "Microbiology",
-    "topic": "Bacteriology",
+    "subject": "Pediatric",
+    "topic": "Neonatal Equipment",
     "day": 1,
-    "difficulty": "Easy",
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2016",
+    "qtype": "factual"
+  },
+  {
+    "id": 437,
+    "question": "Digoxin toxicity can cause characteristic ECG finding of:",
+    "options": [
+      "Prolonged QT",
+      "Scooping ST depression (reverse tick)",
+      "Delta wave",
+      "Osborn wave"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "\"Prolonged QT\" is a plausible distractor but incorrect. The correct answer is B (\"Scooping ST depression (reverse tick)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "\"Delta wave\" is a plausible distractor but incorrect. The correct answer is B (\"Scooping ST depression (reverse tick)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "D": "\"Osborn wave\" is a plausible distractor but incorrect. The correct answer is B (\"Scooping ST depression (reverse tick)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+    },
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "day": 1,
+    "difficulty": "Medium",
     "source": "Practice",
     "year": null,
     "qtype": "factual"
   },
   {
-    "id": 310,
-    "question": "Microbiology Q12: Which is a gram-positive coccus in clusters?",
+    "id": 492,
+    "question": "Calcium gluconate IV may be used in hyperkalemia with:",
     "options": [
-      "Streptococcus pyogenes chains",
-      "Staphylococcus aureus",
-      "Neisseria",
-      "Escherichia coli"
+      "Only if potassium is below 3.5",
+      "ECG changes / cardiac membrane stabilization while other measures proceed",
+      "Always instead of insulin-dextrose",
+      "Chronic hypocalcemia only"
     ],
     "correct": 1,
-    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
+    "explanation": "• Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes.\n• Does not lower total body K; combine with shift/excretion strategies.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Only if potassium is below 3.5\" is a plausible distractor but incorrect. The correct answer is B (\"ECG changes / cardiac membrane stabilization while other measures proceed\") — Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies.",
+      "B": "Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies.",
+      "C": "\"Always instead of insulin-dextrose\" is a plausible distractor but incorrect. The correct answer is B (\"ECG changes / cardiac membrane stabilization while other measures proceed\") — Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies.",
+      "D": "\"Chronic hypocalcemia only\" is a plausible distractor but incorrect. The correct answer is B (\"ECG changes / cardiac membrane stabilization while other measures proceed\") — Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies."
     },
-    "subject": "Microbiology",
-    "topic": "Bacteriology",
+    "subject": "Pharmacology",
+    "topic": "Electrolytes",
     "day": 1,
-    "difficulty": "Easy",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 311,
-    "question": "Microbiology Q13: Which is a gram-positive coccus in clusters?",
-    "options": [
-      "Streptococcus pyogenes chains",
-      "Staphylococcus aureus",
-      "Neisseria",
-      "Escherichia coli"
-    ],
-    "correct": 1,
-    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Microbiology",
-    "topic": "Bacteriology",
-    "day": 1,
-    "difficulty": "Easy",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 312,
-    "question": "Microbiology Q14: Which is a gram-positive coccus in clusters?",
-    "options": [
-      "Streptococcus pyogenes chains",
-      "Staphylococcus aureus",
-      "Neisseria",
-      "Escherichia coli"
-    ],
-    "correct": 1,
-    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Microbiology",
-    "topic": "Bacteriology",
-    "day": 1,
-    "difficulty": "Easy",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 313,
-    "question": "Microbiology Q15: Which is a gram-positive coccus in clusters?",
-    "options": [
-      "Streptococcus pyogenes chains",
-      "Staphylococcus aureus",
-      "Neisseria",
-      "Escherichia coli"
-    ],
-    "correct": 1,
-    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Microbiology",
-    "topic": "Bacteriology",
-    "day": 1,
-    "difficulty": "Easy",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 314,
-    "question": "Microbiology Q16: Which is a gram-positive coccus in clusters?",
-    "options": [
-      "Streptococcus pyogenes chains",
-      "Staphylococcus aureus",
-      "Neisseria",
-      "Escherichia coli"
-    ],
-    "correct": 1,
-    "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Staph aureus: gram-positive cocci in clusters. Strep: chains.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Microbiology",
-    "topic": "Bacteriology",
-    "day": 1,
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "source": "Practice",
     "year": null,
     "qtype": "factual"

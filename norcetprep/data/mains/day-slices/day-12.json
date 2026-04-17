@@ -1,627 +1,752 @@
 [
   {
-    "id": 1,
-    "question": "The Parkland formula for fluid resuscitation in burns is:",
+    "id": 501,
+    "question": "Sarcopenia refers to:",
     "options": [
-      "2 mL × kg × %TBSA",
-      "3 mL × kg × %TBSA",
-      "4 mL × kg × %TBSA",
-      "5 mL × kg × %TBSA"
+      "Bone loss",
+      "Age-related loss of muscle mass and strength",
+      "Fat gain only",
+      "Joint inflammation"
     ],
-    "correct": 2,
-    "explanation": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+    "correct": 1,
+    "explanation": "• Sarcopenia = muscle loss with aging.\n• NORCET general science theme.",
     "explanations": {
-      "A": "2 mL×kg×%TBSA is the Modified Brooke formula, not Parkland.",
-      "B": "3 mL×kg×%TBSA is seen in pediatric modifications (Galveston) — not Parkland.",
-      "C": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
-      "D": "Exceeds standard resuscitation volume and risks over-resuscitation."
+      "A": "\"Bone loss\" is a plausible distractor but incorrect. The correct answer is B (\"Age-related loss of muscle mass and strength\") — Sarcopenia = muscle loss with aging. NORCET general science theme.",
+      "B": "Sarcopenia = muscle loss with aging. NORCET general science theme.",
+      "C": "\"Fat gain only\" is a plausible distractor but incorrect. The correct answer is B (\"Age-related loss of muscle mass and strength\") — Sarcopenia = muscle loss with aging. NORCET general science theme.",
+      "D": "\"Joint inflammation\" is a plausible distractor but incorrect. The correct answer is B (\"Age-related loss of muscle mass and strength\") — Sarcopenia = muscle loss with aging. NORCET general science theme."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Burns",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
+    "subject": "Mixed",
+    "topic": "Med-Surg",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
     "qtype": "factual"
   },
   {
-    "id": 2,
-    "question": "Most common electrolyte abnormality in chronic kidney disease is:",
+    "id": 502,
+    "question": "Synthetic form of vitamin K often referenced in exams:",
+    "options": [
+      "Phylloquinone",
+      "Menadione (synthetic K3)",
+      "Cholecalciferol",
+      "Tocopherol"
+    ],
+    "correct": 1,
+    "explanation": "• Menadione is synthetic vitamin K3; phylloquinone is K1 natural.\n• Verify with standard texts.",
+    "explanations": {
+      "A": "\"Phylloquinone\" is a plausible distractor but incorrect. The correct answer is B (\"Menadione (synthetic K3)\") — Menadione is synthetic vitamin K3; phylloquinone is K1 natural. Verify with standard texts.",
+      "B": "Menadione is synthetic vitamin K3; phylloquinone is K1 natural. Verify with standard texts.",
+      "C": "\"Cholecalciferol\" is a plausible distractor but incorrect. The correct answer is B (\"Menadione (synthetic K3)\") — Menadione is synthetic vitamin K3; phylloquinone is K1 natural. Verify with standard texts.",
+      "D": "\"Tocopherol\" is a plausible distractor but incorrect. The correct answer is B (\"Menadione (synthetic K3)\") — Menadione is synthetic vitamin K3; phylloquinone is K1 natural. Verify with standard texts."
+    },
+    "subject": "Mixed",
+    "topic": "Nutrition",
+    "day": 12,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 504,
+    "question": "Ventilator-associated pneumonia (VAP) typically occurs after intubation for at least:",
+    "options": [
+      "6 hours",
+      "48–72 hours",
+      "1 hour",
+      "30 days always"
+    ],
+    "correct": 1,
+    "explanation": "• VAP definitions often use ventilation >48–72 hours.\n• Guidelines vary slightly; this is exam-oriented.",
+    "explanations": {
+      "A": "\"6 hours\" is a plausible distractor but incorrect. The correct answer is B (\"48–72 hours\") — VAP definitions often use ventilation >48–72 hours. Guidelines vary slightly; this is exam-oriented.",
+      "B": "VAP definitions often use ventilation >48–72 hours. Guidelines vary slightly; this is exam-oriented.",
+      "C": "\"1 hour\" is a plausible distractor but incorrect. The correct answer is B (\"48–72 hours\") — VAP definitions often use ventilation >48–72 hours. Guidelines vary slightly; this is exam-oriented.",
+      "D": "\"30 days always\" is a plausible distractor but incorrect. The correct answer is B (\"48–72 hours\") — VAP definitions often use ventilation >48–72 hours. Guidelines vary slightly; this is exam-oriented."
+    },
+    "subject": "Mixed",
+    "topic": "ICU",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 215,
+    "question": "A patient with chronic kidney disease is on hemodialysis. Which electrolyte imbalance is most commonly associated with renal failure?",
     "options": [
       "Hypokalemia",
       "Hyperkalemia",
       "Hyponatremia",
-      "Hypercalcemia"
+      "Hypocalcemia"
     ],
     "correct": 1,
-    "explanation": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
+    "explanation": "• Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium.\n• This can lead to life-threatening cardiac arrhythmias.",
     "explanations": {
-      "A": "Hypokalemia is seen in loop diuretic over-use, not typical of CKD.",
-      "B": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
-      "C": "Hyponatremia can occur but not the hallmark finding.",
-      "D": "Hypercalcemia is atypical; CKD typically causes hypocalcemia."
+      "A": "\"Hypokalemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hyperkalemia\") — Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium. This can lead to life-threatening cardiac arrhythmias.",
+      "B": "Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium. This can lead to life-threatening cardiac arrhythmias.",
+      "C": "\"Hyponatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Hyperkalemia\") — Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium. This can lead to life-threatening cardiac arrhythmias.",
+      "D": "\"Hypocalcemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hyperkalemia\") — Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium. This can lead to life-threatening cardiac arrhythmias."
     },
     "subject": "Medical-Surgical",
-    "topic": "Renal",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 3,
-    "question": "In BLS (AHA 2020), the correct sequence for adults is:",
-    "options": [
-      "A-B-C",
-      "C-A-B",
-      "B-C-A",
-      "Call-Check-Compress"
-    ],
-    "correct": 1,
-    "explanation": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
-    "explanations": {
-      "A": "Older Airway-Breathing-Compressions sequence has been superseded.",
-      "B": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
-      "C": "Incorrect ordering.",
-      "D": "Describes the pre-BLS check, not the CPR sequence itself."
-    },
-    "subject": "Fundamentals",
-    "topic": "BLS/ACLS",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 4,
-    "question": "Correct depth of chest compression in adult CPR is:",
-    "options": [
-      "1-2 cm",
-      "3-4 cm",
-      "5-6 cm",
-      "7-8 cm"
-    ],
-    "correct": 2,
-    "explanation": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
-    "explanations": {
-      "A": "Too shallow — insufficient coronary perfusion pressure.",
-      "B": "Still below AHA recommendation.",
-      "C": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
-      "D": "Excessive depth increases rib-fracture/internal-injury risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "BLS/ACLS",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 5,
-    "question": "IV infusion of 1 L at 125 mL/hr — duration is:",
-    "options": [
-      "6 hr",
-      "8 hr",
-      "10 hr",
-      "12 hr"
-    ],
-    "correct": 1,
-    "explanation": "1000 ÷ 125 = 8 hours.",
-    "explanations": {
-      "A": "6 hr × 125 = 750 mL, not 1 L.",
-      "B": "1000 ÷ 125 = 8 hours.",
-      "C": "10 hr × 125 = 1250 mL, too much.",
-      "D": "12 hr × 125 = 1500 mL, too much."
-    },
-    "subject": "Pharmacology",
-    "topic": "Drug calculation",
-    "day": 2,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "calculation"
-  },
-  {
-    "id": 6,
-    "question": "First-line drug for severe pre-eclampsia / eclampsia prophylaxis:",
-    "options": [
-      "Hydralazine",
-      "Magnesium sulfate",
-      "Labetalol",
-      "Diazepam"
-    ],
-    "correct": 1,
-    "explanation": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
-    "explanations": {
-      "A": "BP control adjunct, not seizure prophylaxis.",
-      "B": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
-      "C": "Antihypertensive only, not seizure prevention.",
-      "D": "Older practice, now supplanted by MgSO4."
-    },
-    "subject": "OBG",
-    "topic": "Eclampsia",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 7,
-    "question": "Normal APGAR score range is:",
-    "options": [
-      "0–5",
-      "0–10",
-      "0–15",
-      "1–10"
-    ],
-    "correct": 1,
-    "explanation": "5 criteria × 0–2 each → total 0–10.",
-    "explanations": {
-      "A": "Maximum is 10, not 5.",
-      "B": "5 criteria × 0–2 each → total 0–10.",
-      "C": "Incorrect.",
-      "D": "Minimum is 0, not 1."
-    },
-    "subject": "Pediatric",
-    "topic": "APGAR",
-    "day": 4,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 8,
-    "question": "Exclusive breastfeeding WHO recommendation:",
-    "options": [
-      "3 months",
-      "4 months",
-      "6 months",
-      "12 months"
-    ],
-    "correct": 2,
-    "explanation": "WHO: exclusive breastfeeding first 6 months of life.",
-    "explanations": {
-      "A": "Too short per WHO.",
-      "B": "Below current WHO guidance.",
-      "C": "WHO: exclusive breastfeeding first 6 months of life.",
-      "D": "Complementary feeding should start by 6 months."
-    },
-    "subject": "Community Health",
-    "topic": "MCH",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 9,
-    "question": "Which antipsychotic requires weekly CBC monitoring?",
-    "options": [
-      "Haloperidol",
-      "Clozapine",
-      "Risperidone",
-      "Olanzapine"
-    ],
-    "correct": 1,
-    "explanation": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
-    "explanations": {
-      "A": "EPS risk but no mandatory CBC protocol.",
-      "B": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
-      "C": "Routine CBC not mandated.",
-      "D": "Metabolic monitoring needed; not weekly CBC."
-    },
-    "subject": "Psychiatric",
-    "topic": "Antipsychotics",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 10,
-    "question": "Yellow-coded BMW bag contains:",
-    "options": [
-      "General waste",
-      "Sharps",
-      "Human anatomical / soiled / micro / chem",
-      "Discarded medicines"
-    ],
-    "correct": 2,
-    "explanation": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
-    "explanations": {
-      "A": "General goes in black, not yellow.",
-      "B": "Sharps → white translucent puncture-proof.",
-      "C": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
-      "D": "Discarded meds go in yellow sub-category but whole bag label is broader — best answer is the full yellow list (C)."
-    },
-    "subject": "Community Health",
-    "topic": "BMW",
-    "day": 7,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 11,
-    "question": "MTP Act (2021 amendment) allows termination up to:",
-    "options": [
-      "12 weeks",
-      "20 weeks",
-      "24 weeks",
-      "28 weeks"
-    ],
-    "correct": 2,
-    "explanation": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
-    "explanations": {
-      "A": "Previous lower limit without conditions.",
-      "B": "Up to 20 wk with one RMP opinion.",
-      "C": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
-      "D": "Only beyond 24 wk with Medical Board approval for substantial fetal abnormalities."
-    },
-    "subject": "OBG",
-    "topic": "MTP Act",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 12,
-    "question": "PM-JAY coverage per family per year:",
-    "options": [
-      "₹1 lakh",
-      "₹3 lakh",
-      "₹5 lakh",
-      "₹10 lakh"
-    ],
-    "correct": 2,
-    "explanation": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
-    "explanations": {
-      "A": "Too low.",
-      "B": "Too low.",
-      "C": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
-      "D": "Incorrect."
-    },
-    "subject": "Community Health",
-    "topic": "National Programs",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 13,
-    "question": "Most common method of suicide in India:",
-    "options": [
-      "Poisoning",
-      "Hanging",
-      "Firearms",
-      "Drowning"
-    ],
-    "correct": 1,
-    "explanation": "NCRB data: hanging is the leading method (>55%).",
-    "explanations": {
-      "A": "Second most common but not leading.",
-      "B": "NCRB data: hanging is the leading method (>55%).",
-      "C": "Rare due to low firearms penetration.",
-      "D": "Uncommon method."
-    },
-    "subject": "Psychiatric",
-    "topic": "Epidemiology",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 14,
-    "question": "Article 21A deals with:",
-    "options": [
-      "Right to equality",
-      "Right to education",
-      "Right to life",
-      "Right to speech"
-    ],
-    "correct": 1,
-    "explanation": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
-    "explanations": {
-      "A": "Article 14.",
-      "B": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
-      "C": "Article 21.",
-      "D": "Article 19."
-    },
-    "subject": "Community Health",
-    "topic": "Constitution",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 15,
-    "question": "Drug of choice for status epilepticus (first-line IV):",
-    "options": [
-      "Phenytoin",
-      "Lorazepam",
-      "Phenobarbital",
-      "Valproate"
-    ],
-    "correct": 1,
-    "explanation": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
-    "explanations": {
-      "A": "Used as second-line after benzodiazepines.",
-      "B": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
-      "C": "Third-line option.",
-      "D": "Alternative second-line."
-    },
-    "subject": "Pharmacology",
-    "topic": "Neurology",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 16,
-    "question": "DBT stands for (in nursing / govt scheme context):",
-    "options": [
-      "Direct Bank Transfer",
-      "Direct Benefit Transfer",
-      "Digital Benefit Transfer",
-      "Direct Beneficiary Transaction"
-    ],
-    "correct": 1,
-    "explanation": "Direct Benefit Transfer — government cash-scheme mechanism.",
-    "explanations": {
-      "A": "Common misreading.",
-      "B": "Direct Benefit Transfer — government cash-scheme mechanism.",
-      "C": "Incorrect expansion.",
-      "D": "Incorrect expansion."
-    },
-    "subject": "Community Health",
-    "topic": "Schemes",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 17,
-    "question": "Tetralogy of Fallot — classic components do NOT include:",
-    "options": [
-      "VSD",
-      "Overriding aorta",
-      "RV hypertrophy",
-      "ASD"
-    ],
-    "correct": 3,
-    "explanation": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH.",
-    "explanations": {
-      "A": "Part of TOF.",
-      "B": "Part of TOF.",
-      "C": "Part of TOF.",
-      "D": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
-    },
-    "subject": "Pediatric",
-    "topic": "Congenital Heart",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 18,
-    "question": "Leopold's maneuver 1st step detects:",
-    "options": [
-      "Fetal lie",
-      "Fundal content (breech/cephalic)",
-      "Engagement",
-      "Position"
-    ],
-    "correct": 1,
-    "explanation": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
-    "explanations": {
-      "A": "Overall finding, but 1st step focuses on the fundus.",
-      "B": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
-      "C": "4th maneuver (Pawlik).",
-      "D": "3rd maneuver."
-    },
-    "subject": "OBG",
-    "topic": "Leopold",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 19,
-    "question": "Normal pH of arterial blood is:",
-    "options": [
-      "7.25–7.35",
-      "7.35–7.45",
-      "7.45–7.55",
-      "7.40–7.60"
-    ],
-    "correct": 1,
-    "explanation": "Physiological 7.35–7.45.",
-    "explanations": {
-      "A": "Acidemic range.",
-      "B": "Physiological 7.35–7.45.",
-      "C": "Alkalemic.",
-      "D": "Incorrect band."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "ABG",
-    "day": 1,
-    "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 20,
-    "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
-    "options": [
-      "HOB flat",
-      "HOB elevation 30–45°",
-      "Continuous sedation",
-      "Paralytic infusion"
-    ],
-    "correct": 1,
-    "explanation": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
-    "explanations": {
-      "A": "Increases aspiration risk.",
-      "B": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
-      "C": "Over-sedation delays extubation and increases VAP risk.",
-      "D": "Paralytics have no routine VAP-prevention role."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "ICU care",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
+    "topic": "Renal System",
+    "day": 12,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
     "qtype": "scenario"
   },
   {
-    "id": 21,
-    "question": "Coombs test is used to diagnose:",
+    "id": 227,
+    "question": "A patient with cancer is receiving chemotherapy. Which side effect requires immediate medical attention?",
     "options": [
-      "Hemophilia",
-      "Autoimmune hemolytic anemia",
-      "G6PD deficiency",
-      "Aplastic anemia"
+      "Hair loss",
+      "Nausea and vomiting",
+      "Fever above 38.5°C",
+      "Fatigue"
     ],
-    "correct": 1,
-    "explanation": "Direct Coombs detects antibody on RBCs — AIHA.",
+    "correct": 2,
+    "explanation": "• Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening.\n• Immediate medical attention is required.",
     "explanations": {
-      "A": "Coagulation factor assays used.",
-      "B": "Direct Coombs detects antibody on RBCs — AIHA.",
-      "C": "Enzyme assay, not Coombs.",
-      "D": "Bone marrow biopsy, not Coombs."
+      "A": "\"Hair loss\" is a plausible distractor but incorrect. The correct answer is C (\"Fever above 38.5°C\") — Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening. Immediate medical attention is required.",
+      "B": "\"Nausea and vomiting\" is a plausible distractor but incorrect. The correct answer is C (\"Fever above 38.5°C\") — Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening. Immediate medical attention is required.",
+      "C": "Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening. Immediate medical attention is required.",
+      "D": "\"Fatigue\" is a plausible distractor but incorrect. The correct answer is C (\"Fever above 38.5°C\") — Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening. Immediate medical attention is required."
     },
     "subject": "Medical-Surgical",
-    "topic": "Hematology",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
+    "topic": "Oncology",
+    "day": 12,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "scenario"
+  },
+  {
+    "id": 231,
+    "question": "A patient with sepsis is in septic shock. What is the priority nursing intervention?",
+    "options": [
+      "Administering antibiotics",
+      "Fluid resuscitation",
+      "Oxygen administration",
+      "Pain management"
+    ],
+    "correct": 1,
+    "explanation": "• Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion.\n• This should be done immediately.",
+    "explanations": {
+      "A": "\"Administering antibiotics\" is a plausible distractor but incorrect. The correct answer is B (\"Fluid resuscitation\") — Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion. This should be done immediately.",
+      "B": "Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion. This should be done immediately.",
+      "C": "\"Oxygen administration\" is a plausible distractor but incorrect. The correct answer is B (\"Fluid resuscitation\") — Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion. This should be done immediately.",
+      "D": "\"Pain management\" is a plausible distractor but incorrect. The correct answer is B (\"Fluid resuscitation\") — Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion. This should be done immediately."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Critical Care",
+    "day": 12,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
     "qtype": "factual"
   },
   {
-    "id": 22,
-    "question": "Episiotomy most commonly used in India:",
+    "id": 250,
+    "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
     "options": [
-      "Mediolateral",
-      "Midline",
-      "J-shaped",
-      "Lateral"
+      "Hyperkalemia",
+      "Hypokalemia",
+      "Hypercalcemia",
+      "Hypocalcemia"
     ],
     "correct": 0,
-    "explanation": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
+    "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death.\n• Hyperkalemia is the most dangerous.",
     "explanations": {
-      "A": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
-      "B": "Preferred in the USA but not standard in India due to higher tear risk.",
-      "C": "Rarely used.",
-      "D": "Obsolete; abandoned due to high complications."
-    },
-    "subject": "OBG",
-    "topic": "Episiotomy",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
-    "qtype": "factual"
-  },
-  {
-    "id": 23,
-    "question": "Triple-lumen catheter typically has:",
-    "options": [
-      "1 port",
-      "2 ports",
-      "3 ports",
-      "4 ports"
-    ],
-    "correct": 2,
-    "explanation": "Triple-lumen = 3 ports (distal/middle/proximal).",
-    "explanations": {
-      "A": "Single-lumen.",
-      "B": "Double-lumen.",
-      "C": "Triple-lumen = 3 ports (distal/middle/proximal).",
-      "D": "Quadruple-lumen, less common."
-    },
-    "subject": "Fundamentals",
-    "topic": "Central line",
-    "day": 8,
-    "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
-    "qtype": "factual"
-  },
-  {
-    "id": 24,
-    "question": "First intervention in hypovolemic shock:",
-    "options": [
-      "Antibiotics",
-      "Vasopressors",
-      "IV fluid bolus",
-      "Inotropes"
-    ],
-    "correct": 2,
-    "explanation": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
-    "explanations": {
-      "A": "Only for septic source.",
-      "B": "Second line after fluid challenge.",
-      "C": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
-      "D": "For cardiogenic, not hypovolemic shock."
+      "A": "Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death. Hyperkalemia is the most dangerous.",
+      "B": "\"Hypokalemia\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia\") — Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death. Hyperkalemia is the most dangerous.",
+      "C": "\"Hypercalcemia\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia\") — Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death. Hyperkalemia is the most dangerous.",
+      "D": "\"Hypocalcemia\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia\") — Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death. Hyperkalemia is the most dangerous."
     },
     "subject": "Medical-Surgical",
-    "topic": "Shock",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
+    "topic": "Oncology",
+    "day": 12,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2021",
     "qtype": "factual"
   },
   {
-    "id": 25,
-    "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 wk GA:",
+    "id": 254,
+    "question": "A patient with Cushing's syndrome is at risk for which complication?",
     "options": [
-      "≥130/80 mmHg",
-      "≥140/90 mmHg",
-      "≥150/95 mmHg",
-      "≥160/110 mmHg"
+      "Hypoglycemia",
+      "Hyperglycemia",
+      "Hypokalemia",
+      "Hypercalcemia"
     ],
     "correct": 1,
-    "explanation": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
+    "explanation": "• Cushing's syndrome causes hyperglycemia due to cortisol's effect on glucose metabolism.\n• Patients may develop steroid-induced diabetes.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
     "explanations": {
-      "A": "Stage 1 hypertension cutoff, not pre-eclampsia.",
-      "B": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
-      "C": "Not a standard cutoff.",
-      "D": "That level defines severe features, not the diagnosis itself."
+      "A": "\"Hypoglycemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hyperglycemia\") — Cushing's syndrome causes hyperglycemia due to cortisol's effect on glucose metabolism. Patients may develop steroid-induced diabetes.",
+      "B": "Cushing's syndrome causes hyperglycemia due to cortisol's effect on glucose metabolism. Patients may develop steroid-induced diabetes.",
+      "C": "\"Hypokalemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hyperglycemia\") — Cushing's syndrome causes hyperglycemia due to cortisol's effect on glucose metabolism. Patients may develop steroid-induced diabetes.",
+      "D": "\"Hypercalcemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hyperglycemia\") — Cushing's syndrome causes hyperglycemia due to cortisol's effect on glucose metabolism. Patients may develop steroid-induced diabetes."
     },
-    "subject": "OBG",
-    "topic": "Pre-eclampsia",
-    "day": 3,
+    "subject": "Medical-Surgical",
+    "topic": "Endocrine System",
+    "day": 12,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "factual"
+  },
+  {
+    "id": 276,
+    "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
+    "options": [
+      "Hyperkalemia",
+      "Hypokalemia",
+      "Hypercalcemia",
+      "Hypocalcemia"
+    ],
+    "correct": 0,
+    "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents.\n• Hyperkalemia is the most dangerous and can cause fatal arrhythmias.\n• Understanding oncologic emergencies is critical for safe chemotherapy administration and monitoring.",
+    "explanations": {
+      "A": "Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents. Hyperkalemia is the most dangerous and can cause fatal arrhythmias.",
+      "B": "\"Hypokalemia\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia\") — Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents. Hyperkalemia is the most dangerous and can cause fatal arrhythmias.",
+      "C": "\"Hypercalcemia\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia\") — Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents. Hyperkalemia is the most dangerous and can cause fatal arrhythmias.",
+      "D": "\"Hypocalcemia\" is a plausible distractor but incorrect. The correct answer is A (\"Hyperkalemia\") — Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death releasing intracellular contents. Hyperkalemia is the most dangerous and can cause fatal arrhythmias."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Oncology - Tumor Lysis Syndrome",
+    "day": 12,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 327,
+    "question": "Vitamin B12 deficiency causes:",
+    "options": [
+      "Scurvy",
+      "Megaloblastic anemia",
+      "Rickets",
+      "Night blindness"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"Scurvy\" is a plausible distractor but incorrect. The correct answer is B (\"Megaloblastic anemia\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Rickets\" is a plausible distractor but incorrect. The correct answer is B (\"Megaloblastic anemia\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"Night blindness\" is a plausible distractor but incorrect. The correct answer is B (\"Megaloblastic anemia\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamins",
+    "day": 12,
     "difficulty": "Medium",
-    "source": "NORCET 6 Mains",
-    "year": 2024,
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 328,
+    "question": "Vitamin C deficiency causes:",
+    "options": [
+      "Beriberi",
+      "Scurvy",
+      "Pellagra",
+      "Coagulopathy only"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"Beriberi\" is a plausible distractor but incorrect. The correct answer is B (\"Scurvy\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Pellagra\" is a plausible distractor but incorrect. The correct answer is B (\"Scurvy\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"Coagulopathy only\" is a plausible distractor but incorrect. The correct answer is B (\"Scurvy\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamins",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 329,
+    "question": "Iron deficiency typically presents with:",
+    "options": [
+      "Macrocytic anemia",
+      "Microcytic hypochromic anemia",
+      "Hemolytic picture",
+      "Polycythemia"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"Macrocytic anemia\" is a plausible distractor but incorrect. The correct answer is B (\"Microcytic hypochromic anemia\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Hemolytic picture\" is a plausible distractor but incorrect. The correct answer is B (\"Microcytic hypochromic anemia\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"Polycythemia\" is a plausible distractor but incorrect. The correct answer is B (\"Microcytic hypochromic anemia\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Minerals",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 330,
+    "question": "Diabetic diet planning emphasizes:",
+    "options": [
+      "Unlimited simple sugars",
+      "Carbohydrate counting and consistent timing",
+      "Zero protein",
+      "High saturated fat"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"Unlimited simple sugars\" is a plausible distractor but incorrect. The correct answer is B (\"Carbohydrate counting and consistent timing\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Zero protein\" is a plausible distractor but incorrect. The correct answer is B (\"Carbohydrate counting and consistent timing\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"High saturated fat\" is a plausible distractor but incorrect. The correct answer is B (\"Carbohydrate counting and consistent timing\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Therapeutic diet",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 331,
+    "question": "Fasting plasma glucose diagnostic for diabetes (classic cut-off) is:",
+    "options": [
+      "≥100 mg/dL",
+      "≥126 mg/dL",
+      "≥140 mg/dL random",
+      "≥200 always"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"≥100 mg/dL\" is a plausible distractor but incorrect. The correct answer is B (\"≥126 mg/dL\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"≥140 mg/dL random\" is a plausible distractor but incorrect. The correct answer is B (\"≥126 mg/dL\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"≥200 always\" is a plausible distractor but incorrect. The correct answer is B (\"≥126 mg/dL\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Labs",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 332,
+    "question": "Glycolysis occurs in:",
+    "options": [
+      "Mitochondria only",
+      "Cytoplasm",
+      "Nucleus",
+      "Lysosomes"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"Mitochondria only\" is a plausible distractor but incorrect. The correct answer is B (\"Cytoplasm\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Nucleus\" is a plausible distractor but incorrect. The correct answer is B (\"Cytoplasm\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"Lysosomes\" is a plausible distractor but incorrect. The correct answer is B (\"Cytoplasm\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Biochemistry",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 333,
+    "question": "Vitamin D deficiency in children causes:",
+    "options": [
+      "Pellagra",
+      "Rickets",
+      "Beriberi",
+      "Pernicious anemia"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"Pellagra\" is a plausible distractor but incorrect. The correct answer is B (\"Rickets\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Beriberi\" is a plausible distractor but incorrect. The correct answer is B (\"Rickets\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"Pernicious anemia\" is a plausible distractor but incorrect. The correct answer is B (\"Rickets\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamins",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 334,
+    "question": "Iodine deficiency can lead to:",
+    "options": [
+      "Diabetes insipidus",
+      "Goiter",
+      "Scurvy",
+      "Hemochromatosis"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"Diabetes insipidus\" is a plausible distractor but incorrect. The correct answer is B (\"Goiter\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Scurvy\" is a plausible distractor but incorrect. The correct answer is B (\"Goiter\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"Hemochromatosis\" is a plausible distractor but incorrect. The correct answer is B (\"Goiter\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Minerals",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 335,
+    "question": "Renal diet often restricts:",
+    "options": [
+      "Protein, sodium, potassium, phosphorus as needed",
+      "Only water",
+      "Only fat",
+      "Only fiber"
+    ],
+    "correct": 0,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "Nutrition/biochemistry for NORCET nursing.",
+      "B": "\"Only water\" is a plausible distractor but incorrect. The correct answer is A (\"Protein, sodium, potassium, phosphorus as needed\") — Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"Only fat\" is a plausible distractor but incorrect. The correct answer is A (\"Protein, sodium, potassium, phosphorus as needed\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"Only fiber\" is a plausible distractor but incorrect. The correct answer is A (\"Protein, sodium, potassium, phosphorus as needed\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Therapeutic diet",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 336,
+    "question": "Normal serum sodium approximate range (mEq/L):",
+    "options": [
+      "120–125",
+      "135–145",
+      "150–160",
+      "100–110"
+    ],
+    "correct": 1,
+    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanations": {
+      "A": "\"120–125\" is a plausible distractor but incorrect. The correct answer is B (\"135–145\") — Nutrition/biochemistry for NORCET nursing.",
+      "B": "Nutrition/biochemistry for NORCET nursing.",
+      "C": "\"150–160\" is a plausible distractor but incorrect. The correct answer is B (\"135–145\") — Nutrition/biochemistry for NORCET nursing.",
+      "D": "\"100–110\" is a plausible distractor but incorrect. The correct answer is B (\"135–145\") — Nutrition/biochemistry for NORCET nursing."
+    },
+    "subject": "Nutrition",
+    "topic": "Labs",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 337,
+    "question": "Biochemistry Q11: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 338,
+    "question": "Biochemistry Q12: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 339,
+    "question": "Biochemistry Q13: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 340,
+    "question": "Biochemistry Q14: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 341,
+    "question": "Biochemistry Q15: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 342,
+    "question": "Biochemistry Q16: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 343,
+    "question": "Biochemistry Q17: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 344,
+    "question": "Biochemistry Q18: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 345,
+    "question": "Biochemistry Q19: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 346,
+    "question": "Biochemistry Q20: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 347,
+    "question": "Biochemistry Q21: Ketone bodies increase in:",
+    "options": [
+      "Fed state",
+      "Prolonged fasting / uncontrolled diabetes",
+      "After high-carb meal",
+      "After IV dextrose only"
+    ],
+    "correct": 1,
+    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanations": {
+      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "B": "Ketogenesis rises when carbohydrate availability is low.",
+      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
+      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
+    },
+    "subject": "Nutrition",
+    "topic": "Metabolism",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
     "qtype": "factual"
   }
 ]

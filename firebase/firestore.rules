@@ -1,0 +1,49 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create: if request.auth != null && request.auth.uid == uid;
+      allow update: if request.auth != null && request.auth.uid == uid
+        && !request.resource.data.diff(resource.data).affectedKeys()
+            .hasAny(['isPaid', 'paidAt', 'razorpayPaymentId']);
+    }
+
+    match /questions/{topicSlug} {
+      allow read: if request.auth != null
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isPaid == true;
+    }
+
+    match /leaderboard/{docId} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    match /payments/{orderId} {
+      allow read, write: if false;
+    }
+
+    // NORCET Mains — cross-device sync codes (self-expire after 15 min)
+    match /syncCodes/{code} {
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(['payload', 'createdAt', 'consumed'])
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.consumed == false;
+      allow read: if request.auth != null
+        && resource.data.createdAt > request.time - duration.value(15, 'm');
+      allow update: if request.auth != null
+        && resource.data.createdAt > request.time - duration.value(15, 'm')
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['consumed']);
+      allow delete: if request.auth != null
+        && resource.data.createdAt > request.time - duration.value(15, 'm');
+    }
+
+    // NORCET Mains — user-submitted question reports (write-only from client)
+    match /reports/{id} {
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(['qid','subject','topic','question','issue','note','ua','ts','createdAt']);
+      allow read, update, delete: if false;
+    }
+  }
+}

@@ -1,627 +1,752 @@
 [
   {
-    "id": 1,
-    "question": "The Parkland formula for fluid resuscitation in burns is:",
+    "id": 506,
+    "question": "T lymphocytes mature primarily in:",
     "options": [
-      "2 mL × kg × %TBSA",
-      "3 mL × kg × %TBSA",
-      "4 mL × kg × %TBSA",
-      "5 mL × kg × %TBSA"
+      "Bone marrow",
+      "Thymus",
+      "Spleen",
+      "Liver"
     ],
-    "correct": 2,
-    "explanation": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
+    "correct": 1,
+    "explanation": "• T cells mature in thymus; B cells in bone marrow.\n• Very high yield.",
     "explanations": {
-      "A": "2 mL×kg×%TBSA is the Modified Brooke formula, not Parkland.",
-      "B": "3 mL×kg×%TBSA is seen in pediatric modifications (Galveston) — not Parkland.",
-      "C": "Parkland = 4 mL × kg × %TBSA, lactated Ringer's over 24 h; half in first 8 h.",
-      "D": "Exceeds standard resuscitation volume and risks over-resuscitation."
+      "A": "\"Bone marrow\" is a plausible distractor but incorrect. The correct answer is B (\"Thymus\") — T cells mature in thymus; B cells in bone marrow. Very high yield.",
+      "B": "T cells mature in thymus; B cells in bone marrow. Very high yield.",
+      "C": "\"Spleen\" is a plausible distractor but incorrect. The correct answer is B (\"Thymus\") — T cells mature in thymus; B cells in bone marrow. Very high yield.",
+      "D": "\"Liver\" is a plausible distractor but incorrect. The correct answer is B (\"Thymus\") — T cells mature in thymus; B cells in bone marrow. Very high yield."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Burns",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
+    "subject": "Mixed",
+    "topic": "Immunology",
+    "day": 11,
+    "difficulty": "Easy",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 5 (2023)",
     "qtype": "factual"
   },
   {
-    "id": 2,
-    "question": "Most common electrolyte abnormality in chronic kidney disease is:",
+    "id": 523,
+    "question": "Liver is located mainly in:",
     "options": [
-      "Hypokalemia",
-      "Hyperkalemia",
-      "Hyponatremia",
-      "Hypercalcemia"
+      "Left hypochondrium",
+      "Right upper quadrant",
+      "Pelvis",
+      "Retroperitoneum only"
     ],
     "correct": 1,
-    "explanation": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
     "explanations": {
-      "A": "Hypokalemia is seen in loop diuretic over-use, not typical of CKD.",
-      "B": "CKD impairs K+ excretion → hyperkalemia; leading cause of arrhythmic death.",
-      "C": "Hyponatremia can occur but not the hallmark finding.",
-      "D": "Hypercalcemia is atypical; CKD typically causes hypocalcemia."
+      "A": "\"Left hypochondrium\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Pelvis\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Retroperitoneum only\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Renal",
-    "day": 5,
+    "subject": "Mixed",
+    "topic": "Anatomy",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
     "qtype": "factual"
   },
   {
-    "id": 3,
-    "question": "In BLS (AHA 2020), the correct sequence for adults is:",
+    "id": 533,
+    "question": "Liver is located mainly in:",
     "options": [
-      "A-B-C",
-      "C-A-B",
-      "B-C-A",
-      "Call-Check-Compress"
+      "Left hypochondrium",
+      "Right upper quadrant",
+      "Pelvis",
+      "Retroperitoneum only"
     ],
     "correct": 1,
-    "explanation": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
     "explanations": {
-      "A": "Older Airway-Breathing-Compressions sequence has been superseded.",
-      "B": "Current AHA: Compressions first (C-A-B) to minimise chest-compression delay.",
-      "C": "Incorrect ordering.",
-      "D": "Describes the pre-BLS check, not the CPR sequence itself."
+      "A": "\"Left hypochondrium\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Pelvis\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Retroperitoneum only\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
     },
-    "subject": "Fundamentals",
-    "topic": "BLS/ACLS",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 4,
-    "question": "Correct depth of chest compression in adult CPR is:",
-    "options": [
-      "1-2 cm",
-      "3-4 cm",
-      "5-6 cm",
-      "7-8 cm"
-    ],
-    "correct": 2,
-    "explanation": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
-    "explanations": {
-      "A": "Too shallow — insufficient coronary perfusion pressure.",
-      "B": "Still below AHA recommendation.",
-      "C": "AHA recommends 5–6 cm (2–2.4 inches) at 100–120/min.",
-      "D": "Excessive depth increases rib-fracture/internal-injury risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "BLS/ACLS",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 5,
-    "question": "IV infusion of 1 L at 125 mL/hr — duration is:",
-    "options": [
-      "6 hr",
-      "8 hr",
-      "10 hr",
-      "12 hr"
-    ],
-    "correct": 1,
-    "explanation": "1000 ÷ 125 = 8 hours.",
-    "explanations": {
-      "A": "6 hr × 125 = 750 mL, not 1 L.",
-      "B": "1000 ÷ 125 = 8 hours.",
-      "C": "10 hr × 125 = 1250 mL, too much.",
-      "D": "12 hr × 125 = 1500 mL, too much."
-    },
-    "subject": "Pharmacology",
-    "topic": "Drug calculation",
-    "day": 2,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "calculation"
-  },
-  {
-    "id": 6,
-    "question": "First-line drug for severe pre-eclampsia / eclampsia prophylaxis:",
-    "options": [
-      "Hydralazine",
-      "Magnesium sulfate",
-      "Labetalol",
-      "Diazepam"
-    ],
-    "correct": 1,
-    "explanation": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
-    "explanations": {
-      "A": "BP control adjunct, not seizure prophylaxis.",
-      "B": "MgSO4 is the drug of choice — superior seizure prevention (MAGPIE trial).",
-      "C": "Antihypertensive only, not seizure prevention.",
-      "D": "Older practice, now supplanted by MgSO4."
-    },
-    "subject": "OBG",
-    "topic": "Eclampsia",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 7,
-    "question": "Normal APGAR score range is:",
-    "options": [
-      "0–5",
-      "0–10",
-      "0–15",
-      "1–10"
-    ],
-    "correct": 1,
-    "explanation": "5 criteria × 0–2 each → total 0–10.",
-    "explanations": {
-      "A": "Maximum is 10, not 5.",
-      "B": "5 criteria × 0–2 each → total 0–10.",
-      "C": "Incorrect.",
-      "D": "Minimum is 0, not 1."
-    },
-    "subject": "Pediatric",
-    "topic": "APGAR",
-    "day": 4,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 8,
-    "question": "Exclusive breastfeeding WHO recommendation:",
-    "options": [
-      "3 months",
-      "4 months",
-      "6 months",
-      "12 months"
-    ],
-    "correct": 2,
-    "explanation": "WHO: exclusive breastfeeding first 6 months of life.",
-    "explanations": {
-      "A": "Too short per WHO.",
-      "B": "Below current WHO guidance.",
-      "C": "WHO: exclusive breastfeeding first 6 months of life.",
-      "D": "Complementary feeding should start by 6 months."
-    },
-    "subject": "Community Health",
-    "topic": "MCH",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 9,
-    "question": "Which antipsychotic requires weekly CBC monitoring?",
-    "options": [
-      "Haloperidol",
-      "Clozapine",
-      "Risperidone",
-      "Olanzapine"
-    ],
-    "correct": 1,
-    "explanation": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
-    "explanations": {
-      "A": "EPS risk but no mandatory CBC protocol.",
-      "B": "Clozapine → agranulocytosis risk → weekly CBC × 6 mo, then fortnightly.",
-      "C": "Routine CBC not mandated.",
-      "D": "Metabolic monitoring needed; not weekly CBC."
-    },
-    "subject": "Psychiatric",
-    "topic": "Antipsychotics",
-    "day": 9,
+    "subject": "Mixed",
+    "topic": "Anatomy",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
     "qtype": "factual"
   },
   {
-    "id": 10,
-    "question": "Yellow-coded BMW bag contains:",
+    "id": 543,
+    "question": "Liver is located mainly in:",
     "options": [
-      "General waste",
-      "Sharps",
-      "Human anatomical / soiled / micro / chem",
-      "Discarded medicines"
+      "Left hypochondrium",
+      "Right upper quadrant",
+      "Pelvis",
+      "Retroperitoneum only"
     ],
-    "correct": 2,
-    "explanation": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
     "explanations": {
-      "A": "General goes in black, not yellow.",
-      "B": "Sharps → white translucent puncture-proof.",
-      "C": "Per BMW Rules 2016: yellow = anatomical, soiled, microbiological, pharmaceutical, chemical liquid waste.",
-      "D": "Discarded meds go in yellow sub-category but whole bag label is broader — best answer is the full yellow list (C)."
+      "A": "\"Left hypochondrium\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Pelvis\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Retroperitoneum only\" is a plausible distractor but incorrect. The correct answer is B (\"Right upper quadrant\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
     },
-    "subject": "Community Health",
-    "topic": "BMW",
-    "day": 7,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 11,
-    "question": "MTP Act (2021 amendment) allows termination up to:",
-    "options": [
-      "12 weeks",
-      "20 weeks",
-      "24 weeks",
-      "28 weeks"
-    ],
-    "correct": 2,
-    "explanation": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
-    "explanations": {
-      "A": "Previous lower limit without conditions.",
-      "B": "Up to 20 wk with one RMP opinion.",
-      "C": "Up to 24 wk for specified categories with 2 RMP opinions (rape survivors, minors, etc.).",
-      "D": "Only beyond 24 wk with Medical Board approval for substantial fetal abnormalities."
-    },
-    "subject": "OBG",
-    "topic": "MTP Act",
-    "day": 3,
+    "subject": "Mixed",
+    "topic": "Anatomy",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
     "qtype": "factual"
   },
   {
-    "id": 12,
-    "question": "PM-JAY coverage per family per year:",
+    "id": 57,
+    "question": "First heart sound (S1) is primarily associated with:",
     "options": [
-      "₹1 lakh",
-      "₹3 lakh",
-      "₹5 lakh",
-      "₹10 lakh"
-    ],
-    "correct": 2,
-    "explanation": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
-    "explanations": {
-      "A": "Too low.",
-      "B": "Too low.",
-      "C": "Ayushman Bharat PM-JAY provides ₹5 lakh health cover per family per year.",
-      "D": "Incorrect."
-    },
-    "subject": "Community Health",
-    "topic": "National Programs",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 13,
-    "question": "Most common method of suicide in India:",
-    "options": [
-      "Poisoning",
-      "Hanging",
-      "Firearms",
-      "Drowning"
+      "Semilunar valve closure",
+      "AV valve closure",
+      "Atrial contraction",
+      "Ventricular filling"
     ],
     "correct": 1,
-    "explanation": "NCRB data: hanging is the leading method (>55%).",
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
     "explanations": {
-      "A": "Second most common but not leading.",
-      "B": "NCRB data: hanging is the leading method (>55%).",
-      "C": "Rare due to low firearms penetration.",
-      "D": "Uncommon method."
+      "A": "\"Semilunar valve closure\" is a plausible distractor but incorrect. The correct answer is B (\"AV valve closure\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Atrial contraction\" is a plausible distractor but incorrect. The correct answer is B (\"AV valve closure\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Ventricular filling\" is a plausible distractor but incorrect. The correct answer is B (\"AV valve closure\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
     },
-    "subject": "Psychiatric",
-    "topic": "Epidemiology",
-    "day": 9,
+    "subject": "Anatomy",
+    "topic": "Cardiovascular",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
+    "source": "Practice",
+    "year": null,
     "qtype": "factual"
   },
   {
-    "id": 14,
-    "question": "Article 21A deals with:",
+    "id": 58,
+    "question": "Normal stroke volume is approximately:",
     "options": [
-      "Right to equality",
-      "Right to education",
-      "Right to life",
-      "Right to speech"
+      "20–40 mL",
+      "60–100 mL",
+      "150–200 mL",
+      "250 mL"
     ],
     "correct": 1,
-    "explanation": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
     "explanations": {
-      "A": "Article 14.",
-      "B": "Article 21A → Right to Education 6–14 yrs (86th Amendment).",
-      "C": "Article 21.",
-      "D": "Article 19."
+      "A": "\"20–40 mL\" is a plausible distractor but incorrect. The correct answer is B (\"60–100 mL\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"150–200 mL\" is a plausible distractor but incorrect. The correct answer is B (\"60–100 mL\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"250 mL\" is a plausible distractor but incorrect. The correct answer is B (\"60–100 mL\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
     },
-    "subject": "Community Health",
-    "topic": "Constitution",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 15,
-    "question": "Drug of choice for status epilepticus (first-line IV):",
-    "options": [
-      "Phenytoin",
-      "Lorazepam",
-      "Phenobarbital",
-      "Valproate"
-    ],
-    "correct": 1,
-    "explanation": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
-    "explanations": {
-      "A": "Used as second-line after benzodiazepines.",
-      "B": "IV lorazepam 0.1 mg/kg is first-line per ACEP/ILAE.",
-      "C": "Third-line option.",
-      "D": "Alternative second-line."
-    },
-    "subject": "Pharmacology",
-    "topic": "Neurology",
-    "day": 9,
+    "subject": "Anatomy",
+    "topic": "Cardiovascular",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
+    "source": "Practice",
+    "year": null,
     "qtype": "factual"
   },
   {
-    "id": 16,
-    "question": "DBT stands for (in nursing / govt scheme context):",
+    "id": 59,
+    "question": "Tidal volume is:",
     "options": [
-      "Direct Bank Transfer",
-      "Direct Benefit Transfer",
-      "Digital Benefit Transfer",
-      "Direct Beneficiary Transaction"
+      "Volume after maximal inspiration",
+      "Normal breath in and out",
+      "Reserve after normal expiration",
+      "Air left after maximal expiration"
     ],
     "correct": 1,
-    "explanation": "Direct Benefit Transfer — government cash-scheme mechanism.",
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
     "explanations": {
-      "A": "Common misreading.",
-      "B": "Direct Benefit Transfer — government cash-scheme mechanism.",
-      "C": "Incorrect expansion.",
-      "D": "Incorrect expansion."
+      "A": "\"Volume after maximal inspiration\" is a plausible distractor but incorrect. The correct answer is B (\"Normal breath in and out\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Reserve after normal expiration\" is a plausible distractor but incorrect. The correct answer is B (\"Normal breath in and out\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Air left after maximal expiration\" is a plausible distractor but incorrect. The correct answer is B (\"Normal breath in and out\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
     },
-    "subject": "Community Health",
-    "topic": "Schemes",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 17,
-    "question": "Tetralogy of Fallot — classic components do NOT include:",
-    "options": [
-      "VSD",
-      "Overriding aorta",
-      "RV hypertrophy",
-      "ASD"
-    ],
-    "correct": 3,
-    "explanation": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH.",
-    "explanations": {
-      "A": "Part of TOF.",
-      "B": "Part of TOF.",
-      "C": "Part of TOF.",
-      "D": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
-    },
-    "subject": "Pediatric",
-    "topic": "Congenital Heart",
-    "day": 5,
+    "subject": "Anatomy",
+    "topic": "Respiratory",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
+    "source": "Practice",
+    "year": null,
     "qtype": "factual"
   },
   {
-    "id": 18,
-    "question": "Leopold's maneuver 1st step detects:",
+    "id": 60,
+    "question": "Functional residual capacity (FRC) equals:",
     "options": [
-      "Fetal lie",
-      "Fundal content (breech/cephalic)",
-      "Engagement",
-      "Position"
+      "IRV + TV",
+      "ERV + RV",
+      "TV + IRV",
+      "VC + RV"
     ],
     "correct": 1,
-    "explanation": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
     "explanations": {
-      "A": "Overall finding, but 1st step focuses on the fundus.",
-      "B": "Fundal grip → identifies what part (head vs breech) occupies the fundus.",
-      "C": "4th maneuver (Pawlik).",
-      "D": "3rd maneuver."
+      "A": "\"IRV + TV\" is a plausible distractor but incorrect. The correct answer is B (\"ERV + RV\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"TV + IRV\" is a plausible distractor but incorrect. The correct answer is B (\"ERV + RV\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"VC + RV\" is a plausible distractor but incorrect. The correct answer is B (\"ERV + RV\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
     },
-    "subject": "OBG",
-    "topic": "Leopold",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 19,
-    "question": "Normal pH of arterial blood is:",
-    "options": [
-      "7.25–7.35",
-      "7.35–7.45",
-      "7.45–7.55",
-      "7.40–7.60"
-    ],
-    "correct": 1,
-    "explanation": "Physiological 7.35–7.45.",
-    "explanations": {
-      "A": "Acidemic range.",
-      "B": "Physiological 7.35–7.45.",
-      "C": "Alkalemic.",
-      "D": "Incorrect band."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "ABG",
-    "day": 1,
-    "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "factual"
-  },
-  {
-    "id": 20,
-    "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
-    "options": [
-      "HOB flat",
-      "HOB elevation 30–45°",
-      "Continuous sedation",
-      "Paralytic infusion"
-    ],
-    "correct": 1,
-    "explanation": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
-    "explanations": {
-      "A": "Increases aspiration risk.",
-      "B": "Semi-Fowler 30–45° is a core VAP-bundle element (reduces reflux/aspiration).",
-      "C": "Over-sedation delays extubation and increases VAP risk.",
-      "D": "Paralytics have no routine VAP-prevention role."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "ICU care",
-    "day": 1,
+    "subject": "Anatomy",
+    "topic": "Respiratory",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
-    "qtype": "scenario"
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
   },
   {
-    "id": 21,
-    "question": "Coombs test is used to diagnose:",
+    "id": 61,
+    "question": "Cranial nerve III supplies:",
     "options": [
-      "Hemophilia",
-      "Autoimmune hemolytic anemia",
-      "G6PD deficiency",
-      "Aplastic anemia"
+      "Lateral rectus",
+      "Most extraocular muscles and pupillary constriction",
+      "Facial sensation V1",
+      "Tongue muscles"
     ],
     "correct": 1,
-    "explanation": "Direct Coombs detects antibody on RBCs — AIHA.",
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
     "explanations": {
-      "A": "Coagulation factor assays used.",
-      "B": "Direct Coombs detects antibody on RBCs — AIHA.",
-      "C": "Enzyme assay, not Coombs.",
-      "D": "Bone marrow biopsy, not Coombs."
+      "A": "\"Lateral rectus\" is a plausible distractor but incorrect. The correct answer is B (\"Most extraocular muscles and pupillary constriction\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Facial sensation V1\" is a plausible distractor but incorrect. The correct answer is B (\"Most extraocular muscles and pupillary constriction\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Tongue muscles\" is a plausible distractor but incorrect. The correct answer is B (\"Most extraocular muscles and pupillary constriction\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Hematology",
-    "day": 5,
+    "subject": "Anatomy",
+    "topic": "Nervous System",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
+    "source": "Practice",
+    "year": null,
     "qtype": "factual"
   },
   {
-    "id": 22,
-    "question": "Episiotomy most commonly used in India:",
+    "id": 62,
+    "question": "Facial nerve (CN VII) motor nucleus innervates:",
     "options": [
-      "Mediolateral",
-      "Midline",
-      "J-shaped",
-      "Lateral"
-    ],
-    "correct": 0,
-    "explanation": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
-    "explanations": {
-      "A": "Mediolateral → reduced 3rd/4th-degree tear risk compared with midline.",
-      "B": "Preferred in the USA but not standard in India due to higher tear risk.",
-      "C": "Rarely used.",
-      "D": "Obsolete; abandoned due to high complications."
-    },
-    "subject": "OBG",
-    "topic": "Episiotomy",
-    "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
-    "qtype": "factual"
-  },
-  {
-    "id": 23,
-    "question": "Triple-lumen catheter typically has:",
-    "options": [
-      "1 port",
-      "2 ports",
-      "3 ports",
-      "4 ports"
-    ],
-    "correct": 2,
-    "explanation": "Triple-lumen = 3 ports (distal/middle/proximal).",
-    "explanations": {
-      "A": "Single-lumen.",
-      "B": "Double-lumen.",
-      "C": "Triple-lumen = 3 ports (distal/middle/proximal).",
-      "D": "Quadruple-lumen, less common."
-    },
-    "subject": "Fundamentals",
-    "topic": "Central line",
-    "day": 8,
-    "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
-    "qtype": "factual"
-  },
-  {
-    "id": 24,
-    "question": "First intervention in hypovolemic shock:",
-    "options": [
-      "Antibiotics",
-      "Vasopressors",
-      "IV fluid bolus",
-      "Inotropes"
-    ],
-    "correct": 2,
-    "explanation": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
-    "explanations": {
-      "A": "Only for septic source.",
-      "B": "Second line after fluid challenge.",
-      "C": "Crystalloid bolus 20–30 mL/kg is first action in hypovolemia.",
-      "D": "For cardiogenic, not hypovolemic shock."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Shock",
-    "day": 9,
-    "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
-    "qtype": "factual"
-  },
-  {
-    "id": 25,
-    "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 wk GA:",
-    "options": [
-      "≥130/80 mmHg",
-      "≥140/90 mmHg",
-      "≥150/95 mmHg",
-      "≥160/110 mmHg"
+      "Masseter",
+      "Muscles of facial expression",
+      "Superior oblique",
+      "Stylopharyngeus"
     ],
     "correct": 1,
-    "explanation": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
     "explanations": {
-      "A": "Stage 1 hypertension cutoff, not pre-eclampsia.",
-      "B": "BP ≥140/90 on two occasions ≥4 h apart after 20 wk + proteinuria/end-organ.",
-      "C": "Not a standard cutoff.",
-      "D": "That level defines severe features, not the diagnosis itself."
+      "A": "\"Masseter\" is a plausible distractor but incorrect. The correct answer is B (\"Muscles of facial expression\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Superior oblique\" is a plausible distractor but incorrect. The correct answer is B (\"Muscles of facial expression\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Stylopharyngeus\" is a plausible distractor but incorrect. The correct answer is B (\"Muscles of facial expression\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
     },
-    "subject": "OBG",
-    "topic": "Pre-eclampsia",
-    "day": 3,
+    "subject": "Anatomy",
+    "topic": "Nervous System",
+    "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 6 Mains",
-    "year": 2024,
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 63,
+    "question": "Insulin is secreted by:",
+    "options": [
+      "Alpha cells of pancreas",
+      "Beta cells of pancreatic islets",
+      "Delta cells only",
+      "Adrenal medulla"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Alpha cells of pancreas\" is a plausible distractor but incorrect. The correct answer is B (\"Beta cells of pancreatic islets\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Delta cells only\" is a plausible distractor but incorrect. The correct answer is B (\"Beta cells of pancreatic islets\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Adrenal medulla\" is a plausible distractor but incorrect. The correct answer is B (\"Beta cells of pancreatic islets\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Endocrine",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 65,
+    "question": "Parietal cells secrete:",
+    "options": [
+      "Pepsinogen",
+      "Intrinsic factor and HCl",
+      "Mucus",
+      "Secretin"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Pepsinogen\" is a plausible distractor but incorrect. The correct answer is B (\"Intrinsic factor and HCl\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Mucus\" is a plausible distractor but incorrect. The correct answer is B (\"Intrinsic factor and HCl\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Secretin\" is a plausible distractor but incorrect. The correct answer is B (\"Intrinsic factor and HCl\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "GI",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 66,
+    "question": "O negative blood is considered universal donor for:",
+    "options": [
+      "Plasma only",
+      "Packed RBCs in emergency",
+      "Platelets only",
+      "Never used"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Plasma only\" is a plausible distractor but incorrect. The correct answer is B (\"Packed RBCs in emergency\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Platelets only\" is a plausible distractor but incorrect. The correct answer is B (\"Packed RBCs in emergency\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Never used\" is a plausible distractor but incorrect. The correct answer is B (\"Packed RBCs in emergency\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Blood",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 67,
+    "question": "Cardiac output equals:",
+    "options": [
+      "MAP × TPR",
+      "Heart rate × stroke volume",
+      "EDV – ESV",
+      "CVP × SVR"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"MAP × TPR\" is a plausible distractor but incorrect. The correct answer is B (\"Heart rate × stroke volume\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"EDV – ESV\" is a plausible distractor but incorrect. The correct answer is B (\"Heart rate × stroke volume\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"CVP × SVR\" is a plausible distractor but incorrect. The correct answer is B (\"Heart rate × stroke volume\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Cardiovascular",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 68,
+    "question": "Main site of gas exchange:",
+    "options": [
+      "Trachea",
+      "Alveoli",
+      "Bronchi",
+      "Larynx"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Trachea\" is a plausible distractor but incorrect. The correct answer is B (\"Alveoli\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Bronchi\" is a plausible distractor but incorrect. The correct answer is B (\"Alveoli\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Larynx\" is a plausible distractor but incorrect. The correct answer is B (\"Alveoli\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Respiratory",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 69,
+    "question": "CSF is mainly produced in:",
+    "options": [
+      "Arachnoid granulations",
+      "Choroid plexus in ventricles",
+      "Pia mater",
+      "Dural sinuses"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Arachnoid granulations\" is a plausible distractor but incorrect. The correct answer is B (\"Choroid plexus in ventricles\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Pia mater\" is a plausible distractor but incorrect. The correct answer is B (\"Choroid plexus in ventricles\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Dural sinuses\" is a plausible distractor but incorrect. The correct answer is B (\"Choroid plexus in ventricles\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Nervous System",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 70,
+    "question": "TSH is secreted by:",
+    "options": [
+      "Thyroid",
+      "Anterior pituitary",
+      "Posterior pituitary",
+      "Parathyroid"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Thyroid\" is a plausible distractor but incorrect. The correct answer is B (\"Anterior pituitary\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Posterior pituitary\" is a plausible distractor but incorrect. The correct answer is B (\"Anterior pituitary\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Parathyroid\" is a plausible distractor but incorrect. The correct answer is B (\"Anterior pituitary\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Endocrine",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 71,
+    "question": "Ball-and-socket joint example:",
+    "options": [
+      "Elbow",
+      "Shoulder",
+      "Knee patellofemoral only",
+      "Ankle only"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Elbow\" is a plausible distractor but incorrect. The correct answer is B (\"Shoulder\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Knee patellofemoral only\" is a plausible distractor but incorrect. The correct answer is B (\"Shoulder\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Ankle only\" is a plausible distractor but incorrect. The correct answer is B (\"Shoulder\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Musculoskeletal",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 72,
+    "question": "Antibody-mediated immunity is called:",
+    "options": [
+      "Cell-mediated",
+      "Humoral immunity",
+      "Innate phagocytosis only",
+      "NK cell only"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Cell-mediated\" is a plausible distractor but incorrect. The correct answer is B (\"Humoral immunity\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Innate phagocytosis only\" is a plausible distractor but incorrect. The correct answer is B (\"Humoral immunity\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"NK cell only\" is a plausible distractor but incorrect. The correct answer is B (\"Humoral immunity\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 74,
+    "question": "Hypoxemia with normal A-a gradient suggests:",
+    "options": [
+      "Shunt",
+      "Hypoventilation",
+      "Diffusion limitation always",
+      "PE always"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Shunt\" is a plausible distractor but incorrect. The correct answer is B (\"Hypoventilation\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Diffusion limitation always\" is a plausible distractor but incorrect. The correct answer is B (\"Hypoventilation\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"PE always\" is a plausible distractor but incorrect. The correct answer is B (\"Hypoventilation\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "Respiratory",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 76,
+    "question": "Common bile duct joins pancreatic duct at:",
+    "options": [
+      "Duodenal bulb",
+      "Ampulla of Vater",
+      "Ileocecal valve",
+      "Cardia"
+    ],
+    "correct": 1,
+    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
+    "explanations": {
+      "A": "\"Duodenal bulb\" is a plausible distractor but incorrect. The correct answer is B (\"Ampulla of Vater\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "C": "\"Ileocecal valve\" is a plausible distractor but incorrect. The correct answer is B (\"Ampulla of Vater\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
+      "D": "\"Cardia\" is a plausible distractor but incorrect. The correct answer is B (\"Ampulla of Vater\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
+    },
+    "subject": "Anatomy",
+    "topic": "GI",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 77,
+    "question": "Anatomy & Physiology Q21: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 78,
+    "question": "Anatomy & Physiology Q22: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 79,
+    "question": "Anatomy & Physiology Q23: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 80,
+    "question": "Anatomy & Physiology Q24: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 81,
+    "question": "Anatomy & Physiology Q25: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 82,
+    "question": "Anatomy & Physiology Q26: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 83,
+    "question": "Anatomy & Physiology Q27: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 84,
+    "question": "Anatomy & Physiology Q28: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
+    "qtype": "factual"
+  },
+  {
+    "id": 85,
+    "question": "Anatomy & Physiology Q29: The thymus is primarily important for:",
+    "options": [
+      "B cell maturation",
+      "T cell maturation",
+      "Red blood cell production",
+      "Insulin secretion"
+    ],
+    "correct": 1,
+    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
+    "explanations": {
+      "A": "\"B cell maturation\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "B": "T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "C": "\"Red blood cell production\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow.",
+      "D": "\"Insulin secretion\" is a plausible distractor but incorrect. The correct answer is B (\"T cell maturation\") — T lymphocytes mature in the thymus. B cells mature in bone marrow."
+    },
+    "subject": "Anatomy",
+    "topic": "Immunity",
+    "day": 11,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "NORCET PYQ theme",
     "qtype": "factual"
   }
 ]

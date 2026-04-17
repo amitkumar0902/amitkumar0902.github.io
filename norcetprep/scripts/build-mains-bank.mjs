@@ -28,19 +28,54 @@ const SUBJECT_MAP = {
   'previous-years': 'Mixed'
 };
 
-// ---------- Day keywords (question text + topic) ----------
-const DAY_KEYWORDS = [
-  { day: 1, words: ['abg', 'arterial blood gas', 'ph ', 'bicarbonate', 'hco3', 'ecg', 'electrocardio', 'heart block', 'av block', 'vt', 'ventricular tachy', 'vf', 'ventricular fib', 'wpw', 'burn', 'parkland', 'rule of nine', 'tbsa', 'tachycardia', 'bradycardia', 'asystole', 'pvc', 'st elevation', 'myocardial infarction', 'arrhythm'] },
-  { day: 2, words: ['et tube', 'endotracheal', 'drug calculation', 'iv fluid', 'normal saline', 'ringer', 'dns ', 'd5w', 'dextrose', '0.9%', 'drip rate', 'drops per minute', 'mcg/kg', 'mg/kg', 'infusion rate'] },
-  { day: 3, words: ['labour', 'labor', 'eclampsia', 'pre-eclampsia', 'mgso4', 'magnesium sulfate', 'placenta previa', 'abruptio', 'placental abruption', 'oxytocin', 'pitocin', 'third stage', '3rd stage', 'hydatidiform', 'molar pregnancy', 'postpartum hemorrhage', 'pph', 'contraction'] },
-  { day: 4, words: ['milestone', 'developmental', 'nrp', 'newborn resuscitation', 'apgar', 'rds', 'respiratory distress syndrome', 'surfactant', 'preterm', 'neonate'] },
-  { day: 5, words: ['tef', 'tracheoesophageal', 'croup', 'epiglottitis', 'g6pd', 'sickle cell', 'hemophilia', 'thalassemia', 'pediatric anemia'] },
-  { day: 6, words: ['national health', 'nhp', 'icds', 'polio', 'family planning', 'hpv', 'vaccin', 'immuniz', 'aids', 'hiv', 'nacp', 'poshan', 'nhm', 'jsy', 'pmjay', 'ayushman', 'u-win', 'abdm', 'mission indradhanush', 'rmnch', 'logo'] },
-  { day: 7, words: ['hand wash', 'handwash', 'hand hygiene', 'who 5', 'five moments', 'bmw', 'biomedical waste', 'yellow bag', 'red bag', 'blue bag', 'venturi', 'oxygen mask', 'nasal cannula', 'nrb ', 'non-rebreather'] },
-  { day: 8, words: ['cmv', 'cytomegalovirus', 'toxoplasm', 'candid', 'bacterial vaginosis', 'enema', 'tpn', 'total parenteral', 'central line', 'central venous', 'cvc'] },
-  { day: 9, words: ['priority', 'triage', 'airway-breathing', 'abc', 'maslow', 'bls', 'acls', 'cpr', 'defibril', 'cardiac arrest', 'code blue'] },
-  { day: 5, words: ['respiratory syncytial', 'pneumonia', 'asthma', 'bronchitis'] }
+// ---------- Day keywords (strict; tuned to 13-day plan topics) ----------
+// Order matters: more specific first. Each rule is a regex tested against
+// the lowercased question + topic + explanation blob.
+const DAY_RULES = [
+  // Day 1 — ABG · ECG · arrhythmias · burns
+  { day: 1, rx: /\b(abg|arterial blood gas|bicarbonate|hco3|ph\s*(7\.\d|<7|>7)|ecg|electrocardio|heart block|av\s*block|\bvt\b|ventricular tachy|\bvf\b|ventricular fib|wpw|\bburn(s|ed)?\b|parkland|rule of nine|tbsa|asystole|\bpvc\b|st[-\s]?(elevation|depress)|myocardial infarction|arrhythm|sinus brady|sinus tachy|atrial fib|a\.?\s*fib|a\.?\s*flutter)\b/ },
+  // Day 2 — Fluids, drug calc, ET tubes
+  { day: 2, rx: /\b(et\s*tube|endotracheal|drug\s+calc|iv\s*fluid|\bns\b|normal saline|ringer|d5w|d5ns|dextrose|0\.9\s*%|drip\s*rate|drops per minute|gtts|microdrip|mcg\/kg|mg\/kg|infusion rate)\b/ },
+  // Day 3 — Labour, eclampsia, OBG emergencies, MTP
+  { day: 3, rx: /\b(labou?r|eclampsia|pre-?eclampsia|mgso4|magnesium sulfate|placenta previa|abruptio|placental abruption|oxytocin|pitocin|third stage|3rd stage|hydatidiform|molar pregnancy|postpartum hemorrhage|\bpph\b|leopold|mtp act|episiotomy|cesarean|c-?section)\b/ },
+  // Day 4 — Newborn / NRP / APGAR / preterm
+  { day: 4, rx: /\b(apgar|neonat(e|al)|newborn resuscitation|\bnrp\b|respiratory distress syndrome|\brds\b|surfactant|preterm|premature infant|kangaroo mother|kmc|cord care|primitive reflex)\b/ },
+  // Day 5 — Peds cardiac / hemato / respiratory
+  { day: 5, rx: /\b(tetralogy|fallot|\btof\b|vsd\b|asd\b|pda\b|\btef\b|tracheoesophag|croup|epiglottitis|g6pd|sickle cell|hemophilia|thalassemia|pediatric anemia|rsv|respiratory syncytial|bronchiolit|pediatric asthma|pediatric pneumonia|kawasaki|rheumatic fever|milestone|developmental)\b/ },
+  // Day 6 — Community Health / programmes / schemes
+  { day: 6, rx: /\b(nhp\b|national health|\bicds\b|polio|pulse polio|opv\b|ipv\b|family planning|\bhpv\b|vaccin|immuniz|\bhiv\b|\baids\b|nacp\b|poshan|\bnhm\b|\bjsy\b|pmjay|ayushman|u-?win|abdm|mission indradhanush|rmnch|article 21|rti act|\bntep\b|\brntcp\b|leprosy|\bncdc\b|iddcp|mdm scheme|mid[-\s]?day meal|cpi|epidemi|incidence|prevalence)\b/ },
+  // Day 7 — Infection control · BMW · O2 therapy · hand hygiene
+  { day: 7, rx: /\b(hand\s*wash|handwash|hand hygiene|who\s*5|five moments|\bbmw\b|biomedical waste|yellow bag|red bag|blue bag|white bag|sharps|venturi|oxygen mask|oxygen therapy|nasal cannula|\bnrb\b|non-?rebreather|ppe|mask fit|autoclav|sterilizat|disinfect)\b/ },
+  // Day 8 — Microbiology / TPN / central lines
+  { day: 8, rx: /\b(cmv\b|cytomegalovirus|toxoplasm|candidi?|bacterial vaginosis|\btpn\b|total parenteral|central line|central venous|\bcvc\b|gram[-\s]?(pos|neg)|coagulase|mrsa|vre\b|\btb\b|tuberculos|malaria|dengue|chikun|leptospir|typhoid)\b/ },
+  // Day 9 — Emergency / triage / BLS · ACLS · psych emergencies
+  { day: 9, rx: /\b(triage|airway[-\s]?breathing|mass casualty|\bbls\b|\bacls\b|\bcpr\b|defibril|cardiac arrest|code blue|status epilepticus|suicide|neuroleptic malignant|serotonin syndrome|lithium toxicity|clozapine|antipsychotic|restraint)\b/ },
+  // Day 10 — Revision mix (admin, legal, ethics) — catches what Day 6 didn't
+  { day: 10, rx: /\b(nursing admin|management|delegation|staffing|budget|leader|theory of nursing|henderson|orem|roy adaptation|watson|ethical|code of ethics|informed consent|legal|liability|nclex)\b/ },
+  // Day 11 — Anatomy revision
+  { day: 11, rx: /\b(anatomy|histolog|cranial nerve|brachial plexus|cervical plexus|vertebra|vertebral column|thoracic cage|lumbar|dermatome|myotome|bone fossa|coronary artery|hepatic flexure|splenic flexure)\b/ },
+  // Day 12 — Nutrition revision
+  { day: 12, rx: /\b(vitamin [abcdek]|iron deficienc|protein energy|pem\b|kwashiorkor|marasmus|\brda\b|balanced diet|caloric|kilocalor|bmi\b|obesity|macronutrient|micronutrient|food pyramid)\b/ },
+  // Day 13 — Pharma revision (fallback)
+  { day: 13, rx: /\b(pharmacolog|mechanism of action|moa\b|pharmacokinet|half[-\s]?life|bioavailab|antidote|receptor|agonist|antagonist|drug interaction)\b/ }
 ];
+
+// Topic → day mapping (authoritative when q.topic is present in a banked form)
+const TOPIC_DAY_MAP = {
+  'ABG': 1, 'ECG': 1, 'Burns': 1, 'Cardiac Arrhythmias': 1, 'ICU care': 1, 'Arrhythmia': 1,
+  'Drug calculation': 2, 'ET tube': 2, 'IV Fluids': 2, 'Fluid Therapy': 2,
+  'Eclampsia': 3, 'Pre-eclampsia': 3, 'MgSO4': 3, 'Leopold': 3, 'MTP Act': 3,
+  'Episiotomy': 3, 'PPH': 3, 'Placenta Previa': 3, 'Third Stage': 3, 'Labour': 3,
+  'APGAR': 4, 'NRP': 4, 'Neonatal': 4, 'RDS': 4, 'Developmental': 4,
+  'Congenital Heart': 5, 'Pediatric Respiratory': 5, 'Pediatric Anemia': 5, 'Renal': 5,
+  'Hematology': 5,
+  'ICDS': 6, 'National Programs': 6, 'Schemes': 6, 'MCH': 6, 'Constitution': 6,
+  'Epidemiology': 6, 'Vaccines': 6, 'Family Planning': 6,
+  'Hand hygiene': 7, 'BMW': 7, 'Oxygen therapy': 7, 'Infection Control': 7,
+  'Central line': 8, 'TPN': 8, 'Microbiology': 8,
+  'BLS': 9, 'BLS/ACLS': 9, 'ACLS': 9, 'Shock': 9, 'Psychiatric Emergency': 9,
+  'Antipsychotics': 9, 'Neurology': 9
+};
 
 // Scenario detection
 const SCENARIO_CUES = [/^\s*a\s+\d/i, /^\s*a\s+patient/i, /^\s*a\s+client/i, /^\s*the\s+nurse/i, /^\s*which\s+of\s+the\s+following\s+is\s+the\s+best\s+response/i, /develops?\s+/i, /admitted\s+/i, /is\s+admitted/i];
@@ -56,20 +91,31 @@ function detectQtype(q) {
 }
 
 function detectDay(q, subject) {
+  // 1. Topic authority
+  if (q.topic && TOPIC_DAY_MAP[q.topic]) return TOPIC_DAY_MAP[q.topic];
+  // 2. Regex rules
   const blob = ((q.question || '') + ' ' + (q.topic || '') + ' ' + (q.explanation || '')).toLowerCase();
-  for (const d of DAY_KEYWORDS) {
-    if (d.words.some(w => blob.includes(w))) return d.day;
+  for (const d of DAY_RULES) {
+    if (d.rx.test(blob)) return d.day;
   }
-  // Subject fallback
+  // 3. Subject fallback — distribute across days 10-13 for revision
   if (subject === 'OBG') return 3;
   if (subject === 'Pediatric') return 4;
   if (subject === 'Community Health') return 6;
   if (subject === 'Microbiology') return 8;
   if (subject === 'Psychiatric') return 9;
-  if (subject === 'Pharmacology') return 2;
+  if (subject === 'Pharmacology') return 13;
   if (subject === 'Fundamentals') return 7;
-  if (subject === 'Anatomy' || subject === 'Nutrition' || subject === 'Admin') return 10;
-  return 10;
+  if (subject === 'Admin') return 10;
+  if (subject === 'Anatomy') return 11;
+  if (subject === 'Nutrition') return 12;
+  // Medical-Surgical without hint → scatter evenly by id to avoid Day 10 pileup
+  return 1 + (Math.abs(hashString(q.question || '')) % 13);
+}
+function hashString(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) { h = (h * 31 + s.charCodeAt(i)) | 0; }
+  return h;
 }
 
 // ---------- Expand `explanation` → `explanations` {A,B,C,D} ----------
@@ -77,12 +123,20 @@ function buildExplanations(q) {
   if (q.explanations && typeof q.explanations === 'object') return q.explanations;
   const exp = q.explanation || 'Refer to concept note.';
   const letters = ['A','B','C','D'];
+  const correctLetter = letters[q.correct] || 'A';
+  const correctText = (q.options && q.options[q.correct]) ? String(q.options[q.correct]).trim() : '';
+  const correctExp = (exp.replace(/^•\s*/gm, '').split('\n').filter(Boolean).slice(0,2).join(' ')) || 'Correct.';
   const out = {};
   for (let i = 0; i < 4; i++) {
     if (i === q.correct) {
-      out[letters[i]] = (exp.replace(/^•\s*/gm, '').split('\n').filter(Boolean).slice(0,2).join(' ')) || 'Correct.';
+      out[letters[i]] = correctExp;
     } else {
-      out[letters[i]] = 'Not the best response in this clinical context; see the explanation for the correct choice.';
+      // Better placeholder: names the correct option so the reader learns something
+      // even before we hand-enrich the 1:4 distractor explanations.
+      const optText = (q.options && q.options[i]) ? String(q.options[i]).trim() : '';
+      out[letters[i]] = (optText ? '"' + optText + '" is a plausible distractor but incorrect. ' : 'Incorrect. ') +
+        'The correct answer is ' + correctLetter + (correctText ? ' ("' + correctText + '")' : '') +
+        ' — ' + correctExp;
     }
   }
   return out;
@@ -114,7 +168,7 @@ function loadAllTopicBanks() {
         options,
         correct: q.correct,
         explanation: q.explanation || '',
-        explanations: buildExplanations(q),
+        explanations: buildExplanations({ ...q, options }),
         subject,
         topic: q.topic || subject,
         day,
@@ -363,7 +417,7 @@ function buildBank() {
   for (let d = 1; d <= 13; d++) {
     const inDay = bank.filter(q => q.day === d);
     inDay.sort((a, b) => {
-      const score = (x) => (x.source && x.source.includes('NORCET Mains') ? 0 : (x.source === 'AIIMS NO legacy' ? 1 : 2));
+      const score = (x) => (isPyq(x.source) ? 0 : (x.source === 'AIIMS NO legacy' ? 1 : 2));
       return score(a) - score(b);
     });
     let slice = inDay.slice(0, 30);
@@ -436,10 +490,13 @@ function buildBank() {
   }
   fs.writeFileSync(path.join(OUT, 'mocks', 'index.json'), JSON.stringify(mocksIndex, null, 2));
 
+  // Strict-mode audit for 1:4 explanation rule (Track 5a)
+  writeExplanationAudit(bank);
+
   // Stats
   const stats = {
     totalQs: bank.length,
-    pyqCount: bank.filter(q => (q.source || '').includes('NORCET Mains')).length,
+    pyqCount: bank.filter(q => isPyq(q.source)).length,
     legacyCount: bank.filter(q => q.source === 'AIIMS NO legacy').length,
     practiceCount: bank.filter(q => q.source === 'Practice').length,
     bySubject: bySubjectCount(bank),
@@ -448,6 +505,50 @@ function buildBank() {
   };
   fs.writeFileSync(path.join(OUT, 'stats.json'), JSON.stringify(stats, null, 2));
   console.log('Stats:', stats);
+}
+
+// ---------- PYQ source matcher (works for "NORCET 6 Mains", "NORCET 9 Mains", etc.) ----------
+function isPyq(src) {
+  return !!src && /^NORCET\s+\d+\s+Mains/i.test(src);
+}
+
+// ---------- Strict 1:4 explanations audit (Track 5a) ----------
+const PLACEHOLDER_RX = /(Not the best response in this clinical context|Refer to concept note|Correct per AIIMS Nursing standard)/i;
+function writeExplanationAudit(bank) {
+  const dir = path.join(OUT, '_audit');
+  fs.mkdirSync(dir, { recursive: true });
+  const needs = [];
+  const letters = ['A', 'B', 'C', 'D'];
+  for (const q of bank) {
+    if (!q.explanations) { needs.push(auditRow(q, 'missing-object')); continue; }
+    const bad = [];
+    for (let i = 0; i < 4; i++) {
+      const text = q.explanations[letters[i]] || '';
+      if (!text) bad.push(letters[i] + '-missing');
+      else if (PLACEHOLDER_RX.test(text)) bad.push(letters[i] + '-placeholder');
+      else if (text.length < 8) bad.push(letters[i] + '-too-short');
+    }
+    if (bad.length > 0) needs.push(auditRow(q, bad.join(',')));
+  }
+  fs.writeFileSync(path.join(dir, 'needs_explanations.json'), JSON.stringify(needs, null, 2));
+  console.log('Explanation audit: ' + needs.length + ' / ' + bank.length + ' questions need real 1:4 rationales. See data/mains/_audit/needs_explanations.json');
+  if (process.env.STRICT === '1' && needs.length > 0) {
+    console.error('STRICT mode: failing build — run fact-check pass to fill explanations, then rebuild.');
+    process.exit(2);
+  }
+}
+function auditRow(q, reason) {
+  return {
+    id: q.id,
+    source: q.source,
+    subject: q.subject,
+    topic: q.topic,
+    question: q.question,
+    options: q.options,
+    correct: q.correct,
+    existing: q.explanations || null,
+    reason
+  };
 }
 
 function bySubjectCount(bank) {

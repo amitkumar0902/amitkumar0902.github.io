@@ -65,14 +65,125 @@
     <tr><td><kbd>?</kbd></td><td>Keyboard help</td></tr>
   </table>
 
+  <h2>Sync across devices</h2>
+  <p class="muted">Move your progress (mock scores, streak, SRS, daily completion, settings) between phone and laptop without creating an account. Codes auto-expire after 15 minutes.</p>
+
+  <div class="sync-panel">
+    <h3>Send to another device</h3>
+    <p class="small muted">On your <em>current</em> device, generate a code. Then on the <em>other</em> device, open this page and paste the code below.</p>
+    <div class="btn-row">
+      <button class="btn btn--accent" id="sync-send">Generate code</button>
+    </div>
+    <div id="sync-send-out"></div>
+  </div>
+
+  <div class="sync-panel">
+    <h3>Receive from another device</h3>
+    <p class="small muted">Enter the 6-character code shown on your other device.</p>
+    <input class="sync-code-input" id="sync-code-in" placeholder="AB2C3D" maxlength="6" autocapitalize="characters" autocomplete="off">
+    <div class="btn-row">
+      <button class="btn btn--accent" id="sync-recv">Import progress</button>
+    </div>
+    <div id="sync-recv-out"></div>
+  </div>
+
+  <div class="sync-panel">
+    <h3>Manual export &amp; import (no-internet fallback)</h3>
+    <p class="small muted">Save progress as a JSON file; then open the file on the other device. Works without sign-in.</p>
+    <div class="btn-row">
+      <button class="btn btn--ghost" id="sync-export">Download JSON</button>
+      <label class="btn btn--ghost" for="sync-import-file" style="cursor:pointer">Import JSON…</label>
+      <input type="file" id="sync-import-file" accept="application/json" style="display:none">
+    </div>
+    <div id="sync-export-out"></div>
+  </div>
+
   <h2>Data</h2>
-  <p>All progress is stored privately in this browser. Nothing is sent to any server.</p>
+  <p>All progress is stored privately in this browser unless you explicitly share a sync code. Nothing else is sent to any server.</p>
   <div class="btn-row">
     <button class="btn btn--ghost" id="reset">Clear all progress</button>
   </div>
 
   <h2>Install as app</h2>
   <p class="muted">On mobile: tap Share → Add to Home Screen. On desktop Chrome: click the install icon in the address bar. Works offline once cached.</p>
+
+  <script>
+    (function () {
+      function onReady(fn) {
+        if (document.readyState === 'complete' || document.readyState === 'interactive') setTimeout(fn, 1);
+        else document.addEventListener('DOMContentLoaded', fn);
+      }
+      function waitFor(test, cb, attempts) {
+        attempts = attempts || 0;
+        if (test()) return cb();
+        if (attempts > 60) return cb();
+        setTimeout(function () { waitFor(test, cb, attempts + 1); }, 100);
+      }
+      function el(id) { return document.getElementById(id); }
+      function status(host, cls, msg) {
+        host.innerHTML = '<div class="sync-status ' + cls + '">' + msg + '</div>';
+      }
+      function qrUrl(code) {
+        // Public QR API (free, https). Falls back silently if offline.
+        return 'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=norcet-sync%3A' + encodeURIComponent(code);
+      }
+      onReady(function () {
+        waitFor(function () { return window.NM && NM.sync; }, function () {
+          el('sync-send').addEventListener('click', function () {
+            const out = el('sync-send-out');
+            if (!window.NM_FIREBASE_CONFIGURED) {
+              status(out, 'err', 'Sync service not configured on this build. Use <strong>Download JSON</strong> below instead.');
+              return;
+            }
+            if (!navigator.onLine) {
+              status(out, 'err', 'You\'re offline. Use <strong>Download JSON</strong> below instead.');
+              return;
+            }
+            status(out, 'ok', 'Generating code…');
+            NM.sync.push().then(function (r) {
+              out.innerHTML =
+                '<div class="sync-code-display">' + r.code + '</div>' +
+                '<img class="sync-qr" src="' + qrUrl(r.code) + '" alt="QR for code ' + r.code + '">' +
+                '<p class="sync-expiry">Valid for ' + r.expiresInMin + ' minutes. Enter this on the other device.</p>';
+            }).catch(function (e) {
+              status(out, 'err', 'Failed to generate code (' + (e && e.message ? e.message : 'unknown') + '). Use <strong>Download JSON</strong> instead.');
+            });
+          });
+          el('sync-recv').addEventListener('click', function () {
+            const code = el('sync-code-in').value.trim();
+            const out = el('sync-recv-out');
+            if (!code || code.length !== 6) { status(out, 'err', 'Enter the 6-character code.'); return; }
+            if (!window.NM_FIREBASE_CONFIGURED) {
+              status(out, 'err', 'Sync service not configured on this build. Use Import JSON below instead.');
+              return;
+            }
+            status(out, 'ok', 'Fetching…');
+            NM.sync.pull(code).then(function () {
+              status(out, 'ok', 'Merged. Reloading…');
+              setTimeout(function () { location.reload(); }, 900);
+            }).catch(function (e) {
+              const msg = e && e.message || 'unknown';
+              status(out, 'err', 'Import failed: ' + msg);
+            });
+          });
+          el('sync-export').addEventListener('click', function () {
+            NM.sync.downloadExport();
+            status(el('sync-export-out'), 'ok', 'Saved to your Downloads folder.');
+          });
+          el('sync-import-file').addEventListener('change', function (e) {
+            const f = e.target.files && e.target.files[0];
+            if (!f) return;
+            NM.sync.importFromFile(f).then(function () {
+              status(el('sync-export-out'), 'ok', 'Merged. Reloading…');
+              setTimeout(function () { location.reload(); }, 900);
+            }).catch(function (err) {
+              status(el('sync-export-out'), 'err', 'Import failed: ' + (err && err.message || 'unknown'));
+            });
+          });
+        });
+      });
+    })();
+  </script>
 </main>
 </body>
 </html>

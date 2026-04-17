@@ -111,10 +111,36 @@
     renderRunner();
     renderQ();
     startTimer();
-    if (document.body.requestFullscreen) {
-      document.body.requestFullscreen().catch(()=>{});
+    if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen().catch(()=>{});
     }
     window.addEventListener('beforeunload', beforeUnload);
+    installFocusExit();
+  }
+
+  function installFocusExit() {
+    if (document.getElementById('focus-exit-btn')) return;
+    const btn = document.createElement('button');
+    btn.id = 'focus-exit-btn';
+    btn.className = 'btn btn--ghost focus-exit';
+    btn.textContent = 'Exit focus';
+    btn.addEventListener('click', function () {
+      if (!confirm('Exit focus mode?\n\nThe mock stays in progress and auto-saves. You can resume from the mocks page.')) return;
+      try { if (document.exitFullscreen) document.exitFullscreen().catch(()=>{}); } catch (e) {}
+      document.body.classList.remove('focus-mode');
+      btn.remove();
+    });
+    document.body.appendChild(btn);
+  }
+
+  function showTenMinToast() {
+    if (document.getElementById('focus-10-toast')) return;
+    const t = document.createElement('div');
+    t.id = 'focus-10-toast';
+    t.className = 'focus-warn-toast';
+    t.innerHTML = '10 minutes remaining — review your flagged questions.<br><button class="btn btn--ghost btn--sm" style="margin-top:6px" id="dismiss-10">Dismiss</button>';
+    document.body.appendChild(t);
+    document.getElementById('dismiss-10').addEventListener('click', function () { t.remove(); });
   }
 
   function beforeUnload(e) {
@@ -141,6 +167,7 @@
       state.secs -= 1;
       persist();
       renderTimer();
+      if (state.secs === 600) showTenMinToast();
       if (state.secs <= 0) { clearInterval(state.timer); submit(true); }
     }, 1000);
   }
@@ -265,8 +292,10 @@
     state.submitted = true;
     clearInterval(state.timer);
     window.removeEventListener('beforeunload', beforeUnload);
-    if (document.exitFullscreen) document.exitFullscreen().catch(()=>{});
+    try { if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen().catch(()=>{}); } catch (e) {}
     document.body.classList.remove('focus-mode');
+    const x = document.getElementById('focus-exit-btn'); if (x) x.remove();
+    const tt = document.getElementById('focus-10-toast'); if (tt) tt.remove();
 
     // Score
     const total = state.questions.length;
@@ -360,12 +389,20 @@
         return '<li class="'+cls+'"><span class="letter">'+letters[j]+'</span><span class="text">'+NM.escape(o)+'</span></li>';
       }).join('');
       const expl = q.explanations ? '<ul>' + letters.map(L => '<li class="'+(L===letters[q.correct]?'ok':'bad')+'"><strong>'+L+':</strong> '+NM.escape(q.explanations[L]||'')+'</li>').join('') + '</ul>' : '<p>'+NM.escape(q.explanation||'')+'</p>';
-      return '<details style="margin:14px 0;border:1px solid var(--rule);padding:10px"><summary><strong>Q'+(i+1)+'.</strong> '+NM.escape(q.question.slice(0,120))+(q.question.length>120?'…':'')+' <span class="badge">'+NM.escape(q.subject)+'</span></summary>' +
+      return '<details style="margin:14px 0;border:1px solid var(--rule);padding:10px" data-qid="'+q.id+'"><summary><strong>Q'+(i+1)+'.</strong> '+NM.escape(q.question.slice(0,120))+(q.question.length>120?'…':'')+' <span class="badge">'+NM.escape(q.subject)+'</span></summary>' +
         '<div class="q-stem">'+NM.escape(q.question)+'</div>' +
         '<ul class="options">'+opts+'</ul>' +
         '<div class="explanations"><h4>Explanations</h4>'+expl+'</div>' +
+        '<div class="btn-row" style="justify-content:flex-end"><button class="btn btn--ghost btn--sm" data-act="report" data-qid="'+q.id+'">Report</button></div>' +
       '</details>';
     }).join('');
+    host.querySelectorAll('[data-act="report"]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        const qid = +b.dataset.qid;
+        const q = state.questions.find(function (x) { return x.id === qid; });
+        if (q && window.NMReport) window.NMReport.open(q);
+      });
+    });
   }
 
   function shareScoreCard(r) {

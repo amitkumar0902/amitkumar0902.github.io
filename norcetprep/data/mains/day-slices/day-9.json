@@ -1,30 +1,5 @@
 [
   {
-    "id": 507,
-    "question": "BLS sequence for unresponsive adult without pulse:",
-    "options": [
-      "A-B-C",
-      "C-A-B (compressions first)",
-      "D-A-B",
-      "R-A-B"
-    ],
-    "correct": 1,
-    "explanation": "• AHA BLS: start chest compressions first (C-A-B) for adults.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "AHA BLS: start chest compressions first (C-A-B) for adults.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Emergency",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
     "id": 3,
     "question": "In BLS (AHA 2020), the correct sequence for adults is:",
     "options": [
@@ -200,6 +175,56 @@
     "qtype": "factual"
   },
   {
+    "id": 500,
+    "question": "A marker associated with neural tube defects in amniotic fluid includes:",
+    "options": [
+      "Bilirubin",
+      "Acetylcholinesterase / AFP context",
+      "Glucose only",
+      "Urea"
+    ],
+    "correct": 1,
+    "explanation": "• Elevated AFP and AChE patterns support NTD screening context.\n• Simplified for MCQ practice.",
+    "explanations": {
+      "A": "\"Bilirubin\" is a plausible distractor but incorrect. The correct answer is B (\"Acetylcholinesterase / AFP context\") — Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice.",
+      "B": "Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice.",
+      "C": "\"Glucose only\" is a plausible distractor but incorrect. The correct answer is B (\"Acetylcholinesterase / AFP context\") — Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice.",
+      "D": "\"Urea\" is a plausible distractor but incorrect. The correct answer is B (\"Acetylcholinesterase / AFP context\") — Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice."
+    },
+    "subject": "Mixed",
+    "topic": "OBG / Genetics",
+    "day": 9,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 507,
+    "question": "BLS sequence for unresponsive adult without pulse:",
+    "options": [
+      "A-B-C",
+      "C-A-B (compressions first)",
+      "D-A-B",
+      "R-A-B"
+    ],
+    "correct": 1,
+    "explanation": "• AHA BLS: start chest compressions first (C-A-B) for adults.",
+    "explanations": {
+      "A": "\"A-B-C\" is a plausible distractor but incorrect. The correct answer is B (\"C-A-B (compressions first)\") — AHA BLS: start chest compressions first (C-A-B) for adults.",
+      "B": "AHA BLS: start chest compressions first (C-A-B) for adults.",
+      "C": "\"D-A-B\" is a plausible distractor but incorrect. The correct answer is B (\"C-A-B (compressions first)\") — AHA BLS: start chest compressions first (C-A-B) for adults.",
+      "D": "\"R-A-B\" is a plausible distractor but incorrect. The correct answer is B (\"C-A-B (compressions first)\") — AHA BLS: start chest compressions first (C-A-B) for adults."
+    },
+    "subject": "Mixed",
+    "topic": "Emergency",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 6 Mains (2024)",
+    "qtype": "factual"
+  },
+  {
     "id": 137,
     "question": "Adult BLS compression-to-ventilation ratio with 2 rescuers:",
     "options": [
@@ -211,10 +236,10 @@
     "correct": 1,
     "explanation": "• First aid / emergency nursing for NORCET.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"15:2\" is a plausible distractor but incorrect. The correct answer is B (\"30:2\") — First aid / emergency nursing for NORCET.",
       "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"5:1\" is a plausible distractor but incorrect. The correct answer is B (\"30:2\") — First aid / emergency nursing for NORCET.",
+      "D": "\"50:2\" is a plausible distractor but incorrect. The correct answer is B (\"30:2\") — First aid / emergency nursing for NORCET."
     },
     "subject": "Fundamentals",
     "topic": "BLS",
@@ -236,38 +261,13 @@
     "correct": 1,
     "explanation": "• First aid / emergency nursing for NORCET.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"1 inch\" is a plausible distractor but incorrect. The correct answer is B (\"At least 2 inches (5 cm)\") — First aid / emergency nursing for NORCET.",
       "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"3 cm only\" is a plausible distractor but incorrect. The correct answer is B (\"At least 2 inches (5 cm)\") — First aid / emergency nursing for NORCET.",
+      "D": "\"As shallow as possible\" is a plausible distractor but incorrect. The correct answer is B (\"At least 2 inches (5 cm)\") — First aid / emergency nursing for NORCET."
     },
     "subject": "Fundamentals",
     "topic": "BLS",
-    "day": 9,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 142,
-    "question": "Open fracture priority includes:",
-    "options": [
-      "Immediate ROM exercises",
-      "Cover with sterile dressing, immobilize, urgent care",
-      "Massage the wound",
-      "Apply heat"
-    ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Fractures",
     "day": 9,
     "difficulty": "Hard",
     "source": "Practice",
@@ -286,10 +286,10 @@
     "correct": 1,
     "explanation": "• First aid / emergency nursing for NORCET.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Asystole\" is a plausible distractor but incorrect. The correct answer is B (\"VF and pulseless VT\") — First aid / emergency nursing for NORCET.",
       "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"PEA\" is a plausible distractor but incorrect. The correct answer is B (\"VF and pulseless VT\") — First aid / emergency nursing for NORCET.",
+      "D": "\"Bradycardia only\" is a plausible distractor but incorrect. The correct answer is B (\"VF and pulseless VT\") — First aid / emergency nursing for NORCET."
     },
     "subject": "Fundamentals",
     "topic": "ACLS",
@@ -300,178 +300,28 @@
     "qtype": "factual"
   },
   {
-    "id": 157,
-    "question": "Which vital sign should be assessed first in an emergency situation?",
+    "id": 219,
+    "question": "A patient with peptic ulcer disease is prescribed proton pump inhibitors. What should the nurse teach about administration?",
     "options": [
-      "Blood pressure",
-      "Temperature",
-      "Respiratory rate",
-      "Pulse rate"
-    ],
-    "correct": 2,
-    "explanation": "• In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach.\n• Airway and breathing take priority.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Vital Signs",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 168,
-    "question": "What is the priority nursing intervention for a patient at risk for falls?",
-    "options": [
-      "Restrain the patient",
-      "Keep bed in lowest position",
-      "Administer sedatives",
-      "Limit visitors"
+      "Take with meals",
+      "Take 30 minutes before breakfast",
+      "Take at bedtime",
+      "Take with antacids"
     ],
     "correct": 1,
-    "explanation": "• Keeping the bed in the lowest position reduces fall risk.\n• Restraints should be avoided, and other measures like bed alarms and frequent checks are used.",
+    "explanation": "• Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Keeping the bed in the lowest position reduces fall risk. Restraints should be avoided, and other measures like bed alarms and frequent checks are used.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Patient Safety",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 178,
-    "question": "What is the priority when a patient has a medication error?",
-    "options": [
-      "Document the error",
-      "Assess patient condition",
-      "Notify the physician",
-      "Complete incident report"
-    ],
-    "correct": 1,
-    "explanation": "• Patient safety is the priority.\n• First assess the patient's condition, then notify the physician, document, and complete incident report.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Patient safety is the priority. First assess the patient's condition, then notify the physician, document, and complete incident report.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Patient Safety",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 184,
-    "question": "What is the priority when a patient falls?",
-    "options": [
-      "Document the incident",
-      "Assess patient condition",
-      "Notify physician",
-      "Complete incident report"
-    ],
-    "correct": 1,
-    "explanation": "• Patient safety is priority.\n• First assess the patient's condition for injuries, then notify physician, document, and complete incident report.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Patient safety is priority. First assess the patient's condition for injuries, then notify physician, document, and complete incident report.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Patient Safety",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
-  },
-  {
-    "id": 188,
-    "question": "What is the priority nursing intervention for a patient at risk for falls?",
-    "options": [
-      "Use restraints",
-      "Implement fall prevention protocol",
-      "Administer sedatives",
-      "Limit mobility"
-    ],
-    "correct": 1,
-    "explanation": "• Fall prevention protocol includes bed alarms, non-slip footwear, adequate lighting, and frequent checks.\n• Restraints should be avoided.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Fall prevention protocol includes bed alarms, non-slip footwear, adequate lighting, and frequent checks. Restraints should be avoided.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Patient Safety",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 231,
-    "question": "A patient with sepsis is in septic shock. What is the priority nursing intervention?",
-    "options": [
-      "Administering antibiotics",
-      "Fluid resuscitation",
-      "Oxygen administration",
-      "Pain management"
-    ],
-    "correct": 1,
-    "explanation": "• Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion.\n• This should be done immediately.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion. This should be done immediately.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Take with meals\" is a plausible distractor but incorrect. The correct answer is B (\"Take 30 minutes before breakfast\") — Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
+      "B": "Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
+      "C": "\"Take at bedtime\" is a plausible distractor but incorrect. The correct answer is B (\"Take 30 minutes before breakfast\") — Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
+      "D": "\"Take with antacids\" is a plausible distractor but incorrect. The correct answer is B (\"Take 30 minutes before breakfast\") — Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production."
     },
     "subject": "Medical-Surgical",
-    "topic": "Critical Care",
+    "topic": "Gastrointestinal System",
     "day": 9,
-    "difficulty": "Critical",
+    "difficulty": "Medium",
     "source": "Practice",
     "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 233,
-    "question": "A patient with acute kidney injury is receiving continuous renal replacement therapy (CRRT). What is the priority nursing assessment?",
-    "options": [
-      "Blood pressure",
-      "Access site patency",
-      "Urine output",
-      "Weight"
-    ],
-    "correct": 1,
-    "explanation": "• Access site patency is critical for CRRT.\n• Clotting or dislodgement can cause treatment interruption and complications.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Renal System",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
     "qtype": "scenario"
   },
   {
@@ -486,10 +336,10 @@
     "correct": 1,
     "explanation": "• Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Insulin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
       "B": "Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Epinephrine\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
+      "D": "\"Vasopressin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving."
     },
     "subject": "Medical-Surgical",
     "topic": "Endocrine System",
@@ -500,179 +350,54 @@
     "qtype": "scenario"
   },
   {
-    "id": 241,
-    "question": "A patient with acute coronary syndrome is receiving dual antiplatelet therapy (aspirin + clopidogrel). What is the priority teaching?",
+    "id": 247,
+    "question": "A patient with pernicious anemia is receiving vitamin B12 injections. What is the expected response?",
     "options": [
-      "Report signs of bleeding",
-      "Take with food",
-      "Avoid sunlight",
-      "Increase fluid intake"
+      "Immediate improvement",
+      "Improvement in 1-2 weeks",
+      "Improvement in 4-6 weeks",
+      "No improvement expected"
     ],
-    "correct": 0,
-    "explanation": "• Dual antiplatelet therapy significantly increases bleeding risk.\n• Patients must be taught to recognize and report signs of bleeding immediately.",
+    "correct": 1,
+    "explanation": "• Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment.\n• Reticulocyte count increases, and neurological symptoms improve gradually.",
     "explanations": {
-      "A": "Dual antiplatelet therapy significantly increases bleeding risk. Patients must be taught to recognize and report signs of bleeding immediately.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Immediate improvement\" is a plausible distractor but incorrect. The correct answer is B (\"Improvement in 1-2 weeks\") — Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually.",
+      "B": "Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually.",
+      "C": "\"Improvement in 4-6 weeks\" is a plausible distractor but incorrect. The correct answer is B (\"Improvement in 1-2 weeks\") — Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually.",
+      "D": "\"No improvement expected\" is a plausible distractor but incorrect. The correct answer is B (\"Improvement in 1-2 weeks\") — Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually."
     },
     "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
+    "topic": "Hematological System",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2018",
+    "qtype": "scenario"
+  },
+  {
+    "id": 262,
+    "question": "A patient with Bell's palsy is receiving corticosteroids. What is the most important teaching?",
+    "options": [
+      "Eye protection",
+      "Facial exercises",
+      "Medication timing",
+      "Diet modification"
+    ],
+    "correct": 0,
+    "explanation": "• Bell's palsy causes inability to close the eye, leading to corneal damage.\n• Eye protection (artificial tears, eye patch) is critical.",
+    "explanations": {
+      "A": "Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical.",
+      "B": "\"Facial exercises\" is a plausible distractor but incorrect. The correct answer is A (\"Eye protection\") — Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical.",
+      "C": "\"Medication timing\" is a plausible distractor but incorrect. The correct answer is A (\"Eye protection\") — Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical.",
+      "D": "\"Diet modification\" is a plausible distractor but incorrect. The correct answer is A (\"Eye protection\") — Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neurological System",
     "day": 9,
     "difficulty": "High",
     "source": "Practice",
     "year": "2023",
     "qtype": "scenario"
-  },
-  {
-    "id": 243,
-    "question": "A patient with Guillain-Barré syndrome is in the acute phase. What is the priority nursing intervention?",
-    "options": [
-      "Respiratory monitoring",
-      "Physical therapy",
-      "Pain management",
-      "Nutritional support"
-    ],
-    "correct": 0,
-    "explanation": "• Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-    "explanations": {
-      "A": "Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological System",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
-  },
-  {
-    "id": 244,
-    "question": "A patient with tension pneumothorax requires immediate intervention. What is the priority action?",
-    "options": [
-      "Administer oxygen",
-      "Insert chest tube",
-      "Needle decompression",
-      "Prepare for surgery"
-    ],
-    "correct": 2,
-    "explanation": "• Tension pneumothorax is a medical emergency.\n• Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Respiratory System",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "scenario"
-  },
-  {
-    "id": 251,
-    "question": "A patient with spinal cord compression from cancer requires immediate treatment. What is the priority?",
-    "options": [
-      "Chemotherapy",
-      "High-dose steroids",
-      "Radiation therapy",
-      "Surgery"
-    ],
-    "correct": 1,
-    "explanation": "• High-dose dexamethasone is given immediately for spinal cord compression to reduce edema and preserve neurological function, followed by radiation or surgery.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "High-dose dexamethasone is given immediately for spinal cord compression to reduce edema and preserve neurological function, followed by radiation or surgery.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Oncology",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
-  },
-  {
-    "id": 255,
-    "question": "A patient with myasthenia gravis is experiencing a crisis. What is the priority assessment?",
-    "options": [
-      "Muscle strength",
-      "Respiratory function",
-      "Swallowing ability",
-      "Vision"
-    ],
-    "correct": 1,
-    "explanation": "• Myasthenic crisis can cause respiratory failure.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Myasthenic crisis can cause respiratory failure. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological System",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "scenario"
-  },
-  {
-    "id": 265,
-    "question": "A patient with STEMI receives 300 mg aspirin loading dose. What is the priority after administration?",
-    "options": [
-      "Monitor for bleeding",
-      "Administer dual antiplatelet therapy",
-      "Prepare for PCI",
-      "Assess pain level"
-    ],
-    "correct": 1,
-    "explanation": "• After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI.\n• This combination significantly reduces thrombotic events but increases bleeding risk.\n• Monitoring for signs of bleeding is essential, but initiating DAPT is the immediate priority after aspirin in STEMI management.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "scenario"
-  },
-  {
-    "id": 272,
-    "question": "A patient with myasthenia gravis is experiencing crisis. What is the priority assessment?",
-    "options": [
-      "Muscle strength",
-      "Respiratory function",
-      "Swallowing ability",
-      "Vision"
-    ],
-    "correct": 1,
-    "explanation": "• Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.\n• Respiratory failure can occur rapidly and is life-threatening.\n• This knowledge is essential for managing neuromuscular disorders.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Myasthenic crisis can cause respiratory failure due to respiratory muscle weakness. Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological - Myasthenia Gravis",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2020",
-    "qtype": "factual"
   },
   {
     "id": 273,
@@ -686,10 +411,10 @@
     "correct": 1,
     "explanation": "• Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.\n• Also need fluid resuscitation for hypotension.\n• Delay in treatment can be fatal.\n• Understanding endocrine emergencies is critical for rapid response and patient survival.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Insulin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
       "B": "Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Epinephrine\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
+      "D": "\"Vasopressin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving."
     },
     "subject": "Medical-Surgical",
     "topic": "Endocrine - Adrenal Crisis",
@@ -700,51 +425,326 @@
     "qtype": "scenario"
   },
   {
-    "id": 274,
-    "question": "A patient with acute MI receives tPA. What is the most critical monitoring in first 24 hours?",
+    "id": 292,
+    "question": "[IMAGE-BASED] On the chest X-ray image, the tip of the NG tube is visible. Where should it lie to confirm gastric placement?",
     "options": [
-      "Cardiac enzymes",
-      "Signs of bleeding",
-      "ECG changes",
-      "Blood pressure"
+      "In the trachea",
+      "Below the diaphragm, in the stomach",
+      "In the esophagus above diaphragm",
+      "In the lung"
     ],
     "correct": 1,
-    "explanation": "• tPA is a thrombolytic that significantly increases bleeding risk.\n• Intracranial hemorrhage is the most serious complication requiring immediate monitoring.\n• Continuous assessment for signs of bleeding (gums, bruising, hematuria, melena) is critical.\n• This is a priority nursing intervention because patient safety depends on timely recognition of complications.",
+    "explanation": "• Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach.\n• Esophageal or tracheal placement is incorrect and unsafe.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "tPA is a thrombolytic that significantly increases bleeding risk. Intracranial hemorrhage is the most serious complication requiring immediate monitoring.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"In the trachea\" is a plausible distractor but incorrect. The correct answer is B (\"Below the diaphragm, in the stomach\") — Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe.",
+      "B": "Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe.",
+      "C": "\"In the esophagus above diaphragm\" is a plausible distractor but incorrect. The correct answer is B (\"Below the diaphragm, in the stomach\") — Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe.",
+      "D": "\"In the lung\" is a plausible distractor but incorrect. The correct answer is B (\"Below the diaphragm, in the stomach\") — Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe."
     },
     "subject": "Medical-Surgical",
-    "topic": "Cardiovascular - Thrombolytics",
+    "topic": "Image-Based - X-ray",
+    "day": 9,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2018",
+    "qtype": "factual"
+  },
+  {
+    "id": 427,
+    "question": "Clozapine is primarily classified as:",
+    "options": [
+      "Typical antipsychotic",
+      "Atypical antipsychotic",
+      "Mood stabilizer",
+      "Benzodiazepine"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "\"Typical antipsychotic\" is a plausible distractor but incorrect. The correct answer is B (\"Atypical antipsychotic\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "\"Mood stabilizer\" is a plausible distractor but incorrect. The correct answer is B (\"Atypical antipsychotic\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "D": "\"Benzodiazepine\" is a plausible distractor but incorrect. The correct answer is B (\"Atypical antipsychotic\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug Classification",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 442,
+    "question": "Adult dose of adrenaline (epinephrine) in cardiac arrest (1:10000 IV) is typically:",
+    "options": [
+      "0.1 mg",
+      "1 mg",
+      "5 mg",
+      "10 mg"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanations": {
+      "A": "\"0.1 mg\" is a plausible distractor but incorrect. The correct answer is B (\"1 mg\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "C": "\"5 mg\" is a plausible distractor but incorrect. The correct answer is B (\"1 mg\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
+      "D": "\"10 mg\" is a plausible distractor but incorrect. The correct answer is B (\"1 mg\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+    },
+    "subject": "Pharmacology",
+    "topic": "Emergency Drugs",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "calculation"
+  },
+  {
+    "id": 447,
+    "question": "Which antipsychotic requires regular CBC monitoring for agranulocytosis risk?",
+    "options": [
+      "Haloperidol",
+      "Clozapine",
+      "Olanzapine",
+      "Risperidone"
+    ],
+    "correct": 1,
+    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanations": {
+      "A": "\"Haloperidol\" is a plausible distractor but incorrect. The correct answer is B (\"Clozapine\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+      "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+      "C": "\"Olanzapine\" is a plausible distractor but incorrect. The correct answer is B (\"Clozapine\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
+      "D": "\"Risperidone\" is a plausible distractor but incorrect. The correct answer is B (\"Clozapine\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antipsychotics",
+    "day": 9,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 485,
+    "question": "Serotonin syndrome is most associated with combining:",
+    "options": [
+      "Beta-blocker + diuretic",
+      "SSRI with another serotonergic drug (e.g. MAOI or tramadol)",
+      "ACE inhibitor + ARB",
+      "Metformin + sulfonylurea"
+    ],
+    "correct": 1,
+    "explanation": "• Excess serotonergic activity causes autonomic and neuromuscular signs.\n• Avoid dangerous combinations; recognize hyperthermia and clonus.",
+    "explanations": {
+      "A": "\"Beta-blocker + diuretic\" is a plausible distractor but incorrect. The correct answer is B (\"SSRI with another serotonergic drug (e.g. MAOI or tramadol)\") — Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus.",
+      "B": "Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus.",
+      "C": "\"ACE inhibitor + ARB\" is a plausible distractor but incorrect. The correct answer is B (\"SSRI with another serotonergic drug (e.g. MAOI or tramadol)\") — Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus.",
+      "D": "\"Metformin + sulfonylurea\" is a plausible distractor but incorrect. The correct answer is B (\"SSRI with another serotonergic drug (e.g. MAOI or tramadol)\") — Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus."
+    },
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "day": 9,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 495,
+    "question": "Which lab is classically monitored with clozapine due to agranulocytosis risk?",
+    "options": [
+      "Serum amylase weekly",
+      "Absolute neutrophil count / WBC per program",
+      "INR daily for all patients",
+      "TSH only"
+    ],
+    "correct": 1,
+    "explanation": "• Clozapine requires structured hematologic monitoring.\n• Stop and follow protocol if neutropenia.",
+    "explanations": {
+      "A": "\"Serum amylase weekly\" is a plausible distractor but incorrect. The correct answer is B (\"Absolute neutrophil count / WBC per program\") — Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia.",
+      "B": "Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia.",
+      "C": "\"INR daily for all patients\" is a plausible distractor but incorrect. The correct answer is B (\"Absolute neutrophil count / WBC per program\") — Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia.",
+      "D": "\"TSH only\" is a plausible distractor but incorrect. The correct answer is B (\"Absolute neutrophil count / WBC per program\") — Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia."
+    },
+    "subject": "Pharmacology",
+    "topic": "Psychiatry",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 551,
+    "question": "A patient with schizophrenia is experiencing auditory hallucinations. What is the priority nursing intervention?",
+    "options": [
+      "Confront the patient about delusions",
+      "Acknowledge feelings and focus on reality",
+      "Ignore the hallucinations",
+      "Agree with the patient"
+    ],
+    "correct": 1,
+    "explanation": "• Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality.\n• Confrontation can increase anxiety.",
+    "explanations": {
+      "A": "\"Confront the patient about delusions\" is a plausible distractor but incorrect. The correct answer is B (\"Acknowledge feelings and focus on reality\") — Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety.",
+      "B": "Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety.",
+      "C": "\"Ignore the hallucinations\" is a plausible distractor but incorrect. The correct answer is B (\"Acknowledge feelings and focus on reality\") — Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety.",
+      "D": "\"Agree with the patient\" is a plausible distractor but incorrect. The correct answer is B (\"Acknowledge feelings and focus on reality\") — Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety."
+    },
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia",
+    "day": 9,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 552,
+    "question": "A patient with major depressive disorder expresses suicidal ideation. What is the priority nursing action?",
+    "options": [
+      "Leave patient alone to think",
+      "Provide one-to-one supervision",
+      "Administer antidepressant",
+      "Schedule therapy session"
+    ],
+    "correct": 1,
+    "explanation": "• Patients with suicidal ideation require constant one-to-one supervision to ensure safety.\n• Remove harmful objects and notify the treatment team immediately.",
+    "explanations": {
+      "A": "\"Leave patient alone to think\" is a plausible distractor but incorrect. The correct answer is B (\"Provide one-to-one supervision\") — Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately.",
+      "B": "Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately.",
+      "C": "\"Administer antidepressant\" is a plausible distractor but incorrect. The correct answer is B (\"Provide one-to-one supervision\") — Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately.",
+      "D": "\"Schedule therapy session\" is a plausible distractor but incorrect. The correct answer is B (\"Provide one-to-one supervision\") — Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately."
+    },
+    "subject": "Psychiatric",
+    "topic": "Depression",
     "day": 9,
     "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
+  },
+  {
+    "id": 553,
+    "question": "What is the primary side effect of typical antipsychotics (haloperidol)?",
+    "options": [
+      "Weight gain",
+      "Extrapyramidal symptoms",
+      "Sedation",
+      "Dry mouth"
+    ],
+    "correct": 1,
+    "explanation": "• Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics.\n• Atypical antipsychotics have lower EPS risk.",
+    "explanations": {
+      "A": "\"Weight gain\" is a plausible distractor but incorrect. The correct answer is B (\"Extrapyramidal symptoms\") — Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
+      "B": "Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
+      "C": "\"Sedation\" is a plausible distractor but incorrect. The correct answer is B (\"Extrapyramidal symptoms\") — Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
+      "D": "\"Dry mouth\" is a plausible distractor but incorrect. The correct answer is B (\"Extrapyramidal symptoms\") — Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk."
+    },
+    "subject": "Psychiatric",
+    "topic": "Psychopharmacology",
+    "day": 9,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 554,
+    "question": "A patient with bipolar disorder is in manic phase. What is the priority nursing intervention?",
+    "options": [
+      "Encourage activity",
+      "Provide quiet environment and limit stimulation",
+      "Engage in group activities",
+      "Allow unlimited visitors"
+    ],
+    "correct": 1,
+    "explanation": "• Manic patients are overstimulated.\n• Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
+    "explanations": {
+      "A": "\"Encourage activity\" is a plausible distractor but incorrect. The correct answer is B (\"Provide quiet environment and limit stimulation\") — Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
+      "B": "Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
+      "C": "\"Engage in group activities\" is a plausible distractor but incorrect. The correct answer is B (\"Provide quiet environment and limit stimulation\") — Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
+      "D": "\"Allow unlimited visitors\" is a plausible distractor but incorrect. The correct answer is B (\"Provide quiet environment and limit stimulation\") — Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms."
+    },
+    "subject": "Psychiatric",
+    "topic": "Bipolar Disorder",
+    "day": 9,
+    "difficulty": "High",
     "source": "Practice",
     "year": "2022",
     "qtype": "scenario"
   },
   {
-    "id": 275,
-    "question": "A patient with Guillain-Barré syndrome is in acute phase. What is the priority nursing intervention?",
+    "id": 555,
+    "question": "What is the therapeutic communication technique of reflecting?",
     "options": [
-      "Respiratory monitoring",
-      "Physical therapy",
-      "Pain management",
-      "Nutritional support"
+      "Repeating what patient said",
+      "Directing conversation",
+      "Giving advice",
+      "Redirecting patient's statement back for clarification"
     ],
-    "correct": 0,
-    "explanation": "• Guillain-Barré syndrome causes ascending paralysis that can affect respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.\n• May require mechanical ventilation.\n• This knowledge is essential for managing autoimmune neurological disorders and preventing complications.",
+    "correct": 3,
+    "explanation": "• Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
     "explanations": {
-      "A": "Guillain-Barré syndrome causes ascending paralysis that can affect respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Repeating what patient said\" is a plausible distractor but incorrect. The correct answer is D (\"Redirecting patient's statement back for clarification\") — Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
+      "B": "\"Directing conversation\" is a plausible distractor but incorrect. The correct answer is D (\"Redirecting patient's statement back for clarification\") — Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
+      "C": "\"Giving advice\" is a plausible distractor but incorrect. The correct answer is D (\"Redirecting patient's statement back for clarification\") — Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
+      "D": "Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological - GBS",
+    "subject": "Psychiatric",
+    "topic": "Therapeutic Communication",
     "day": 9,
-    "difficulty": "Critical",
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 556,
+    "question": "A patient with anxiety disorder is experiencing panic attack. What is the priority intervention?",
+    "options": [
+      "Administer benzodiazepine",
+      "Stay with patient, speak calmly",
+      "Leave patient alone",
+      "Encourage physical activity"
+    ],
+    "correct": 1,
+    "explanation": "• During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques.\n• Medication may be needed if severe.",
+    "explanations": {
+      "A": "\"Administer benzodiazepine\" is a plausible distractor but incorrect. The correct answer is B (\"Stay with patient, speak calmly\") — During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe.",
+      "B": "During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe.",
+      "C": "\"Leave patient alone\" is a plausible distractor but incorrect. The correct answer is B (\"Stay with patient, speak calmly\") — During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe.",
+      "D": "\"Encourage physical activity\" is a plausible distractor but incorrect. The correct answer is B (\"Stay with patient, speak calmly\") — During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe."
+    },
+    "subject": "Psychiatric",
+    "topic": "Anxiety Disorders",
+    "day": 9,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 558,
+    "question": "A patient with obsessive-compulsive disorder (OCD) is performing rituals. What is the therapeutic approach?",
+    "options": [
+      "Prevent all rituals",
+      "Gradually limit rituals with exposure therapy",
+      "Allow unlimited rituals",
+      "Ignore the behavior"
+    ],
+    "correct": 1,
+    "explanation": "• OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety.\n• Sudden prevention increases distress.",
+    "explanations": {
+      "A": "\"Prevent all rituals\" is a plausible distractor but incorrect. The correct answer is B (\"Gradually limit rituals with exposure therapy\") — OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress.",
+      "B": "OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress.",
+      "C": "\"Allow unlimited rituals\" is a plausible distractor but incorrect. The correct answer is B (\"Gradually limit rituals with exposure therapy\") — OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress.",
+      "D": "\"Ignore the behavior\" is a plausible distractor but incorrect. The correct answer is B (\"Gradually limit rituals with exposure therapy\") — OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress."
+    },
+    "subject": "Psychiatric",
+    "topic": "Anxiety Disorders",
+    "day": 9,
+    "difficulty": "High",
     "source": "Practice",
     "year": "2023",
     "qtype": "scenario"

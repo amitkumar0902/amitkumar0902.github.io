@@ -1,55 +1,5 @@
 [
   {
-    "id": 509,
-    "question": "PM-JAY provides health coverage up to (approx) per family per year:",
-    "options": [
-      "₹1 lakh",
-      "₹3 lakh",
-      "₹5 lakh",
-      "₹10 lakh"
-    ],
-    "correct": 2,
-    "explanation": "• Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year.\n• Verify official updates.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "GK / Health Programs",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 515,
-    "question": "Pulse polio immunization is an example of:",
-    "options": [
-      "Passive immunity",
-      "Active immunization campaign",
-      "Chemoprophylaxis",
-      "Herd treatment with antibiotics"
-    ],
-    "correct": 1,
-    "explanation": "• Oral polio vaccine campaigns provide active immunity.\n• CHN program classic.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Oral polio vaccine campaigns provide active immunity. CHN program classic.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Community Health",
-    "day": 6,
-    "difficulty": "Easy",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023",
-    "qtype": "factual"
-  },
-  {
     "id": 8,
     "question": "Exclusive breastfeeding WHO recommendation:",
     "options": [
@@ -175,6 +125,231 @@
     "qtype": "factual"
   },
   {
+    "id": 509,
+    "question": "PM-JAY provides health coverage up to (approx) per family per year:",
+    "options": [
+      "₹1 lakh",
+      "₹3 lakh",
+      "₹5 lakh",
+      "₹10 lakh"
+    ],
+    "correct": 2,
+    "explanation": "• Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year.\n• Verify official updates.",
+    "explanations": {
+      "A": "\"₹1 lakh\" is a plausible distractor but incorrect. The correct answer is C (\"₹5 lakh\") — Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates.",
+      "B": "\"₹3 lakh\" is a plausible distractor but incorrect. The correct answer is C (\"₹5 lakh\") — Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates.",
+      "C": "Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates.",
+      "D": "\"₹10 lakh\" is a plausible distractor but incorrect. The correct answer is C (\"₹5 lakh\") — Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates."
+    },
+    "subject": "Mixed",
+    "topic": "GK / Health Programs",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 515,
+    "question": "Pulse polio immunization is an example of:",
+    "options": [
+      "Passive immunity",
+      "Active immunization campaign",
+      "Chemoprophylaxis",
+      "Herd treatment with antibiotics"
+    ],
+    "correct": 1,
+    "explanation": "• Oral polio vaccine campaigns provide active immunity.\n• CHN program classic.",
+    "explanations": {
+      "A": "\"Passive immunity\" is a plausible distractor but incorrect. The correct answer is B (\"Active immunization campaign\") — Oral polio vaccine campaigns provide active immunity. CHN program classic.",
+      "B": "Oral polio vaccine campaigns provide active immunity. CHN program classic.",
+      "C": "\"Chemoprophylaxis\" is a plausible distractor but incorrect. The correct answer is B (\"Active immunization campaign\") — Oral polio vaccine campaigns provide active immunity. CHN program classic.",
+      "D": "\"Herd treatment with antibiotics\" is a plausible distractor but incorrect. The correct answer is B (\"Active immunization campaign\") — Oral polio vaccine campaigns provide active immunity. CHN program classic."
+    },
+    "subject": "Mixed",
+    "topic": "Community Health",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 520,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "Hospital specialist doctor",
+      "Community health volunteer under NRHM",
+      "Lab technician",
+      "Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"Hospital specialist doctor\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Lab technician\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Pharmacist\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "CHN",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 524,
+    "question": "Article 21 of Indian Constitution relates to:",
+    "options": [
+      "Education",
+      "Protection of life and personal liberty",
+      "Freedom of speech",
+      "Right to property"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"Education\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Freedom of speech\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Right to property\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "GK",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 530,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "Hospital specialist doctor",
+      "Community health volunteer under NRHM",
+      "Lab technician",
+      "Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"Hospital specialist doctor\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Lab technician\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Pharmacist\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "CHN",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 534,
+    "question": "Article 21 of Indian Constitution relates to:",
+    "options": [
+      "Education",
+      "Protection of life and personal liberty",
+      "Freedom of speech",
+      "Right to property"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"Education\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Freedom of speech\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Right to property\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "GK",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 540,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "Hospital specialist doctor",
+      "Community health volunteer under NRHM",
+      "Lab technician",
+      "Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"Hospital specialist doctor\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Lab technician\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Pharmacist\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "CHN",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 544,
+    "question": "Article 21 of Indian Constitution relates to:",
+    "options": [
+      "Education",
+      "Protection of life and personal liberty",
+      "Freedom of speech",
+      "Right to property"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"Education\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Freedom of speech\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Right to property\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "GK",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 550,
+    "question": "ASHA worker is primarily:",
+    "options": [
+      "Hospital specialist doctor",
+      "Community health volunteer under NRHM",
+      "Lab technician",
+      "Pharmacist"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"Hospital specialist doctor\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Lab technician\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Pharmacist\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "CHN",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2021",
+    "qtype": "factual"
+  },
+  {
     "id": 99,
     "question": "What is the primary goal of the National Health Mission (NHM)?",
     "options": [
@@ -186,10 +361,10 @@
     "correct": 1,
     "explanation": "• NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Provide tertiary care\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
       "B": "NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Establish medical colleges\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
+      "D": "\"Train specialist doctors\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations."
     },
     "subject": "Community Health",
     "topic": "National Health Programs",
@@ -212,9 +387,9 @@
     "explanation": "• BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
     "explanations": {
       "A": "BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"At 6 weeks\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
+      "C": "\"At 2 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
+      "D": "\"At 6 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children."
     },
     "subject": "Community Health",
     "topic": "Immunization",
@@ -222,56 +397,6 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 101,
-    "question": "What is the target for reducing Maternal Mortality Ratio (MMR) under Sustainable Development Goals?",
-    "options": [
-      "Less than 70 per 100,000 live births",
-      "Less than 100 per 100,000 live births",
-      "Less than 150 per 100,000 live births",
-      "Less than 200 per 100,000 live births"
-    ],
-    "correct": 0,
-    "explanation": "• SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030.\n• India's current MMR is around 97.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Community Health",
-    "topic": "Maternal Health",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 102,
-    "question": "What is the primary method of preventing malaria in endemic areas?",
-    "options": [
-      "Vaccination",
-      "Insecticide-treated bed nets",
-      "Antibiotic prophylaxis",
-      "Quarantine"
-    ],
-    "correct": 1,
-    "explanation": "• Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites.\n• There is no widely available malaria vaccine yet.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites. There is no widely available malaria vaccine yet.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Community Health",
-    "topic": "Communicable Diseases",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
     "qtype": "factual"
   },
   {
@@ -287,9 +412,9 @@
     "explanation": "• WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
     "explanations": {
       "A": "WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"At 2 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
+      "C": "\"At 5 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
+      "D": "\"Only when symptomatic\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes."
     },
     "subject": "Community Health",
     "topic": "HIV/AIDS",
@@ -311,10 +436,10 @@
     "correct": 1,
     "explanation": "• Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Medical education\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
       "B": "Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hospital construction\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
+      "D": "\"Drug manufacturing\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families."
     },
     "subject": "Community Health",
     "topic": "National Health Programs",
@@ -337,9 +462,9 @@
     "explanation": "• DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
     "explanations": {
       "A": "DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"6 months continuous treatment\" is a plausible distractor but incorrect. The correct answer is A (\"2 months intensive phase + 4 months continuation\") — DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
+      "C": "\"9 months treatment\" is a plausible distractor but incorrect. The correct answer is A (\"2 months intensive phase + 4 months continuation\") — DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
+      "D": "\"12 months treatment\" is a plausible distractor but incorrect. The correct answer is A (\"2 months intensive phase + 4 months continuation\") — DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total."
     },
     "subject": "Community Health",
     "topic": "Tuberculosis",
@@ -361,10 +486,10 @@
     "correct": 1,
     "explanation": "• Cataract is the leading cause of blindness in India, accounting for about 62% of cases.\n• It's treatable with surgery.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Glaucoma\" is a plausible distractor but incorrect. The correct answer is B (\"Cataract\") — Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
       "B": "Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Diabetic retinopathy\" is a plausible distractor but incorrect. The correct answer is B (\"Cataract\") — Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
+      "D": "\"Trachoma\" is a plausible distractor but incorrect. The correct answer is B (\"Cataract\") — Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery."
     },
     "subject": "Community Health",
     "topic": "Eye Health",
@@ -386,9 +511,9 @@
     "correct": 3,
     "explanation": "• India aims for 100% immunization coverage under Mission Indradhanush.\n• Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"80%\" is a plausible distractor but incorrect. The correct answer is D (\"100%\") — India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
+      "B": "\"85%\" is a plausible distractor but incorrect. The correct answer is D (\"100%\") — India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
+      "C": "\"90%\" is a plausible distractor but incorrect. The correct answer is D (\"100%\") — India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
       "D": "India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B."
     },
     "subject": "Community Health",
@@ -411,10 +536,10 @@
     "correct": 1,
     "explanation": "• Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Iodine supplements\" is a plausible distractor but incorrect. The correct answer is B (\"Iodized salt\") — Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
       "B": "Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Iodine-rich foods\" is a plausible distractor but incorrect. The correct answer is B (\"Iodized salt\") — Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
+      "D": "\"Iodine injections\" is a plausible distractor but incorrect. The correct answer is B (\"Iodized salt\") — Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism."
     },
     "subject": "Community Health",
     "topic": "Nutrition",
@@ -422,56 +547,6 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 110,
-    "question": "What is the recommended frequency for antenatal care visits?",
-    "options": [
-      "2 visits",
-      "4 visits",
-      "6 visits",
-      "8 visits"
-    ],
-    "correct": 1,
-    "explanation": "• WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks.\n• More visits are better for high-risk pregnancies.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks. More visits are better for high-risk pregnancies.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Community Health",
-    "topic": "Maternal Health",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 111,
-    "question": "What is the primary vector for dengue fever?",
-    "options": [
-      "Anopheles mosquito",
-      "Aedes aegypti mosquito",
-      "Culex mosquito",
-      "Sandfly"
-    ],
-    "correct": 1,
-    "explanation": "• Aedes aegypti mosquito is the primary vector for dengue, chikungunya, and Zika viruses.\n• It breeds in clean water and bites during daytime.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Aedes aegypti mosquito is the primary vector for dengue, chikungunya, and Zika viruses. It breeds in clean water and bites during daytime.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Community Health",
-    "topic": "Vector-Borne Diseases",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
     "qtype": "factual"
   },
   {
@@ -486,10 +561,10 @@
     "correct": 1,
     "explanation": "• ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Provide medical treatment\" is a plausible distractor but incorrect. The correct answer is B (\"Act as link between community and health system\") — ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
       "B": "ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Conduct surgeries\" is a plausible distractor but incorrect. The correct answer is B (\"Act as link between community and health system\") — ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
+      "D": "\"Manage hospitals\" is a plausible distractor but incorrect. The correct answer is B (\"Act as link between community and health system\") — ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services."
     },
     "subject": "Community Health",
     "topic": "Health Workers",
@@ -511,10 +586,10 @@
     "correct": 2,
     "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond.\n• Early or late introduction has risks.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"2-3 months\" is a plausible distractor but incorrect. The correct answer is C (\"6 months\") — WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks.",
+      "B": "\"4-6 months\" is a plausible distractor but incorrect. The correct answer is C (\"6 months\") — WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks.",
       "C": "WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"8-10 months\" is a plausible distractor but incorrect. The correct answer is C (\"6 months\") — WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks."
     },
     "subject": "Community Health",
     "topic": "Nutrition",
@@ -536,10 +611,10 @@
     "correct": 1,
     "explanation": "• National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025.\n• Current rate is around 35%.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Less than 20%\" is a plausible distractor but incorrect. The correct answer is B (\"Less than 25%\") — National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%.",
       "B": "National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Less than 30%\" is a plausible distractor but incorrect. The correct answer is B (\"Less than 25%\") — National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%.",
+      "D": "\"Less than 35%\" is a plausible distractor but incorrect. The correct answer is B (\"Less than 25%\") — National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%."
     },
     "subject": "Community Health",
     "topic": "Nutrition",
@@ -547,31 +622,6 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 117,
-    "question": "What is the primary method of preventing waterborne diseases?",
-    "options": [
-      "Boiling water",
-      "Chlorination",
-      "Filtration",
-      "All of the above"
-    ],
-    "correct": 3,
-    "explanation": "• Waterborne diseases (cholera, typhoid, diarrhea) are prevented by ensuring safe water through boiling, chlorination, filtration, or using safe water sources.\n• Psychiatric nursing requires therapeutic communication skills, understanding of mental health conditions, and knowledge of psychopharmacology.\n• Creating a safe, therapeutic environment is essential for patient recovery.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Waterborne diseases (cholera, typhoid, diarrhea) are prevented by ensuring safe water through boiling, chlorination, filtration, or using safe water sources. Psychiatric nursing requires therapeutic communication skills, understanding of mental health conditions, and knowledge of psychopharmacology."
-    },
-    "subject": "Community Health",
-    "topic": "Environmental Health",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
     "qtype": "factual"
   },
   {
@@ -587,9 +637,9 @@
     "explanation": "• Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
     "explanations": {
       "A": "Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"Home-based care only\" is a plausible distractor but incorrect. The correct answer is A (\"Hospitalization and therapeutic feeding\") — Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
+      "C": "\"Vitamin supplements\" is a plausible distractor but incorrect. The correct answer is A (\"Hospitalization and therapeutic feeding\") — Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
+      "D": "\"Increased food intake\" is a plausible distractor but incorrect. The correct answer is A (\"Hospitalization and therapeutic feeding\") — Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring."
     },
     "subject": "Community Health",
     "topic": "Nutrition",
@@ -611,10 +661,10 @@
     "correct": 1,
     "explanation": "• NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Provide tertiary care\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
       "B": "NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Establish medical colleges\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
+      "D": "\"Train specialist doctors\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations."
     },
     "subject": "Community Health",
     "topic": "National Health Programs",
@@ -637,9 +687,9 @@
     "explanation": "• BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
     "explanations": {
       "A": "BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"At 6 weeks\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
+      "C": "\"At 2 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
+      "D": "\"At 6 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children."
     },
     "subject": "Community Health",
     "topic": "Immunization",
@@ -647,56 +697,6 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2016",
-    "qtype": "factual"
-  },
-  {
-    "id": 121,
-    "question": "What is the target for reducing Maternal Mortality Ratio (MMR) under Sustainable Development Goals?",
-    "options": [
-      "Less than 70 per 100,000 live births",
-      "Less than 100 per 100,000 live births",
-      "Less than 150 per 100,000 live births",
-      "Less than 200 per 100,000 live births"
-    ],
-    "correct": 0,
-    "explanation": "• SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030.\n• India's current MMR is around 97.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Community Health",
-    "topic": "Maternal Health",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2017",
-    "qtype": "factual"
-  },
-  {
-    "id": 122,
-    "question": "What is the primary method of preventing malaria in endemic areas?",
-    "options": [
-      "Vaccination",
-      "Insecticide-treated bed nets",
-      "Antibiotic prophylaxis",
-      "Quarantine"
-    ],
-    "correct": 1,
-    "explanation": "• Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites.\n• There is no widely available malaria vaccine yet.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Insecticide-treated bed nets (ITNs) are the primary preventive measure for malaria, reducing mosquito bites. There is no widely available malaria vaccine yet.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Community Health",
-    "topic": "Communicable Diseases",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2018",
     "qtype": "factual"
   },
   {
@@ -712,9 +712,9 @@
     "explanation": "• WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
     "explanations": {
       "A": "WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"At 2 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
+      "C": "\"At 5 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
+      "D": "\"Only when symptomatic\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes."
     },
     "subject": "Community Health",
     "topic": "HIV/AIDS",
@@ -736,10 +736,10 @@
     "correct": 1,
     "explanation": "• Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Medical education\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
       "B": "Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hospital construction\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
+      "D": "\"Drug manufacturing\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families."
     },
     "subject": "Community Health",
     "topic": "National Health Programs",

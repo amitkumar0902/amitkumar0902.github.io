@@ -1,205 +1,5 @@
 [
   {
-    "id": 496,
-    "question": "Hysterosalpingogram (HSG) primarily uses which type of radiation imaging?",
-    "options": [
-      "MRI",
-      "X-ray with contrast",
-      "Ultrasound only",
-      "CT PET"
-    ],
-    "correct": 1,
-    "explanation": "• HSG is an X-ray fluoroscopic study with contrast to assess tubal patency.\n• Memory-based NORCET theme.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "OBG / Radiology",
-    "day": 10,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 497,
-    "question": "Whole blood stored in blood bank is typically kept at approximately:",
-    "options": [
-      "0°C",
-      "2–6°C",
-      "15°C",
-      "25°C"
-    ],
-    "correct": 1,
-    "explanation": "• RBC storage: 2–6°C is standard cold chain.\n• Frequently asked in competitive nursing exams.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Med-Surg",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 498,
-    "question": "Thanatology is the study of:",
-    "options": [
-      "Birth",
-      "Death and dying",
-      "Sleep",
-      "Aging only"
-    ],
-    "correct": 1,
-    "explanation": "• Thanatology relates to death, dying, and bereavement.\n• NORCET memory-based recall question.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Thanatology relates to death, dying, and bereavement. NORCET memory-based recall question.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Psychiatric / Fundamentals",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 499,
-    "question": "Honey should be introduced in infant weaning typically:",
-    "options": [
-      "Before 6 months",
-      "After 12 months",
-      "Only day 1 of life",
-      "Never"
-    ],
-    "correct": 1,
-    "explanation": "• Honey is avoided <12 months due to infant botulism risk.\n• Aligns with common PYQ discussions.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Pediatric",
-    "day": 10,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 500,
-    "question": "A marker associated with neural tube defects in amniotic fluid includes:",
-    "options": [
-      "Bilirubin",
-      "Acetylcholinesterase / AFP context",
-      "Glucose only",
-      "Urea"
-    ],
-    "correct": 1,
-    "explanation": "• Elevated AFP and AChE patterns support NTD screening context.\n• Simplified for MCQ practice.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "OBG / Genetics",
-    "day": 10,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 501,
-    "question": "Sarcopenia refers to:",
-    "options": [
-      "Bone loss",
-      "Age-related loss of muscle mass and strength",
-      "Fat gain only",
-      "Joint inflammation"
-    ],
-    "correct": 1,
-    "explanation": "• Sarcopenia = muscle loss with aging.\n• NORCET general science theme.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Sarcopenia = muscle loss with aging. NORCET general science theme.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Med-Surg",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 502,
-    "question": "Synthetic form of vitamin K often referenced in exams:",
-    "options": [
-      "Phylloquinone",
-      "Menadione (synthetic K3)",
-      "Cholecalciferol",
-      "Tocopherol"
-    ],
-    "correct": 1,
-    "explanation": "• Menadione is synthetic vitamin K3; phylloquinone is K1 natural.\n• Verify with standard texts.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Menadione is synthetic vitamin K3; phylloquinone is K1 natural. Verify with standard texts.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Nutrition",
-    "day": 10,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 503,
-    "question": "Direct Coombs test detects:",
-    "options": [
-      "Antibody in serum",
-      "Antibody attached to RBC surface",
-      "Platelet antibodies only",
-      "HIV antibodies"
-    ],
-    "correct": 1,
-    "explanation": "• Direct antiglobulin test detects antibodies on RBCs.\n• High-yield hematology.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Direct antiglobulin test detects antibodies on RBCs. High-yield hematology.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Med-Surg",
-    "day": 10,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
     "id": 505,
     "question": "Log roll technique for spinal precautions typically needs at least:",
     "options": [
@@ -211,10 +11,10 @@
     "correct": 2,
     "explanation": "• Log roll for spinal injury: usually 3–4 staff to maintain alignment.\n• Some sources cite minimum 3; option reflects coordinated team roll.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"1 person\" is a plausible distractor but incorrect. The correct answer is C (\"3–4 people coordinated\") — Log roll for spinal injury: usually 3–4 staff to maintain alignment. Some sources cite minimum 3; option reflects coordinated team roll.",
+      "B": "\"2 people\" is a plausible distractor but incorrect. The correct answer is C (\"3–4 people coordinated\") — Log roll for spinal injury: usually 3–4 staff to maintain alignment. Some sources cite minimum 3; option reflects coordinated team roll.",
       "C": "Log roll for spinal injury: usually 3–4 staff to maintain alignment. Some sources cite minimum 3; option reflects coordinated team roll.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"No assistance\" is a plausible distractor but incorrect. The correct answer is C (\"3–4 people coordinated\") — Log roll for spinal injury: usually 3–4 staff to maintain alignment. Some sources cite minimum 3; option reflects coordinated team roll."
     },
     "subject": "Mixed",
     "topic": "Emergency",
@@ -225,528 +25,728 @@
     "qtype": "factual"
   },
   {
-    "id": 506,
-    "question": "T lymphocytes mature primarily in:",
+    "id": 33,
+    "question": "What is the primary function of a nurse manager?",
     "options": [
-      "Bone marrow",
-      "Thymus",
-      "Spleen",
-      "Liver"
+      "Direct patient care only",
+      "Planning, organizing, directing, and controlling nursing services",
+      "Administrative work only",
+      "Teaching only"
     ],
     "correct": 1,
-    "explanation": "• T cells mature in thymus; B cells in bone marrow.\n• Very high yield.",
+    "explanation": "• Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "T cells mature in thymus; B cells in bone marrow. Very high yield.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "B": "Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "C": "\"Administrative work only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "D": "\"Teaching only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
     },
-    "subject": "Mixed",
-    "topic": "Immunology",
+    "subject": "Admin",
+    "topic": "Management Functions",
     "day": 10,
-    "difficulty": "Easy",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 5 (2023)",
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
     "qtype": "factual"
   },
   {
-    "id": 510,
-    "question": "MTP Act (as commonly tested) allows termination up to:",
+    "id": 34,
+    "question": "What is the recommended nurse-to-patient ratio in ICU?",
     "options": [
-      "12 weeks only",
-      "20 weeks",
-      "24 weeks in many specified situations",
-      "36 weeks"
+      "1:1",
+      "1:2",
+      "1:3",
+      "1:4"
+    ],
+    "correct": 0,
+    "explanation": "• ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+    "explanations": {
+      "A": "ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+      "B": "\"1:2\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+      "C": "\"1:3\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+      "D": "\"1:4\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed."
+    },
+    "subject": "Admin",
+    "topic": "Staffing",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 35,
+    "question": "What is the purpose of quality assurance in nursing?",
+    "options": [
+      "Reduce costs only",
+      "Ensure standards of care are met",
+      "Increase patient numbers",
+      "Reduce staff"
+    ],
+    "correct": 1,
+    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "explanations": {
+      "A": "\"Reduce costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "C": "\"Increase patient numbers\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "D": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence."
+    },
+    "subject": "Admin",
+    "topic": "Quality Assurance",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 36,
+    "question": "What is the first step in the problem-solving process?",
+    "options": [
+      "Implement solution",
+      "Identify the problem",
+      "Evaluate outcomes",
+      "Generate alternatives"
+    ],
+    "correct": 1,
+    "explanation": "• Problem identification is the first step.\n• You must clearly define the problem before generating solutions, implementing, and evaluating.",
+    "explanations": {
+      "A": "\"Implement solution\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
+      "B": "Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
+      "C": "\"Evaluate outcomes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
+      "D": "\"Generate alternatives\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating."
+    },
+    "subject": "Admin",
+    "topic": "Problem Solving",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 37,
+    "question": "What is delegation in nursing?",
+    "options": [
+      "Transferring responsibility and authority",
+      "Avoiding work",
+      "Only assigning tasks",
+      "Not accountable for outcomes"
+    ],
+    "correct": 0,
+    "explanation": "• Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability.\n• The delegating nurse remains accountable.",
+    "explanations": {
+      "A": "Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
+      "B": "\"Avoiding work\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
+      "C": "\"Only assigning tasks\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
+      "D": "\"Not accountable for outcomes\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable."
+    },
+    "subject": "Admin",
+    "topic": "Delegation",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 38,
+    "question": "What is the purpose of incident reporting?",
+    "options": [
+      "Blame staff",
+      "Identify system problems and prevent recurrence",
+      "Document errors only",
+      "Punish mistakes"
+    ],
+    "correct": 1,
+    "explanation": "• Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence.\n• It's not for blaming individuals.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "\"Blame staff\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
+      "B": "Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
+      "C": "\"Document errors only\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
+      "D": "\"Punish mistakes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals."
+    },
+    "subject": "Admin",
+    "topic": "Risk Management",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 39,
+    "question": "What is the recommended span of control for a nurse manager?",
+    "options": [
+      "3-5 staff",
+      "5-8 staff",
+      "8-12 staff",
+      "15-20 staff"
+    ],
+    "correct": 1,
+    "explanation": "• Optimal span of control is 5-8 staff members.\n• Too many reduces supervision quality, too few is inefficient.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "\"3-5 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
+      "B": "Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
+      "C": "\"8-12 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
+      "D": "\"15-20 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient."
+    },
+    "subject": "Admin",
+    "topic": "Management",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 40,
+    "question": "What is the primary purpose of performance appraisal?",
+    "options": [
+      "Punish poor performance",
+      "Provide feedback and development",
+      "Reduce salaries",
+      "Terminate staff"
+    ],
+    "correct": 1,
+    "explanation": "• Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+    "explanations": {
+      "A": "\"Punish poor performance\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+      "B": "Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+      "C": "\"Reduce salaries\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+      "D": "\"Terminate staff\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development."
+    },
+    "subject": "Admin",
+    "topic": "Human Resources",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 41,
+    "question": "What is the chain of command in nursing?",
+    "options": [
+      "Horizontal communication",
+      "Vertical hierarchy of authority",
+      "Informal structure",
+      "No structure"
+    ],
+    "correct": 1,
+    "explanation": "• Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+    "explanations": {
+      "A": "\"Horizontal communication\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+      "B": "Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+      "C": "\"Informal structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+      "D": "\"No structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability."
+    },
+    "subject": "Admin",
+    "topic": "Organizational Structure",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 42,
+    "question": "What is the purpose of budgeting in nursing?",
+    "options": [
+      "Control costs only",
+      "Plan and allocate resources",
+      "Reduce staff",
+      "Increase charges"
+    ],
+    "correct": 1,
+    "explanation": "• Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "\"Control costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "B": "Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "C": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "D": "\"Increase charges\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
+    },
+    "subject": "Admin",
+    "topic": "Financial Management",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 43,
+    "question": "What is the primary role of a charge nurse?",
+    "options": [
+      "Administrative tasks only",
+      "Coordinate unit activities and supervise staff",
+      "Direct patient care only",
+      "Teaching only"
+    ],
+    "correct": 1,
+    "explanation": "• Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
+    "explanations": {
+      "A": "\"Administrative tasks only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
+      "B": "Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
+      "C": "\"Direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
+      "D": "\"Teaching only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care."
+    },
+    "subject": "Admin",
+    "topic": "Leadership",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of continuing education in nursing?",
+    "options": [
+      "Maintain licensure only",
+      "Update knowledge and maintain competence",
+      "Increase salary",
+      "Change jobs"
+    ],
+    "correct": 1,
+    "explanation": "• Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
+    "explanations": {
+      "A": "\"Maintain licensure only\" is a plausible distractor but incorrect. The correct answer is B (\"Update knowledge and maintain competence\") — Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
+      "B": "Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
+      "C": "\"Increase salary\" is a plausible distractor but incorrect. The correct answer is B (\"Update knowledge and maintain competence\") — Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
+      "D": "\"Change jobs\" is a plausible distractor but incorrect. The correct answer is B (\"Update knowledge and maintain competence\") — Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal."
+    },
+    "subject": "Admin",
+    "topic": "Professional Development",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 45,
+    "question": "What is the primary function of a nurse manager?",
+    "options": [
+      "Direct patient care only",
+      "Planning, organizing, directing, and controlling nursing services",
+      "Administrative work only",
+      "Teaching only"
+    ],
+    "correct": 1,
+    "explanation": "• Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "\"Direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "B": "Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "C": "\"Administrative work only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "D": "\"Teaching only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
+    },
+    "subject": "Admin",
+    "topic": "Management Functions",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "factual"
+  },
+  {
+    "id": 46,
+    "question": "What is the recommended nurse-to-patient ratio in ICU?",
+    "options": [
+      "1:1",
+      "1:2",
+      "1:3",
+      "1:4"
+    ],
+    "correct": 0,
+    "explanation": "• ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+    "explanations": {
+      "A": "ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+      "B": "\"1:2\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+      "C": "\"1:3\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+      "D": "\"1:4\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed."
+    },
+    "subject": "Admin",
+    "topic": "Staffing",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2016",
+    "qtype": "factual"
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of quality assurance in nursing?",
+    "options": [
+      "Reduce costs only",
+      "Ensure standards of care are met",
+      "Increase patient numbers",
+      "Reduce staff"
+    ],
+    "correct": 1,
+    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "explanations": {
+      "A": "\"Reduce costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "C": "\"Increase patient numbers\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+      "D": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence."
+    },
+    "subject": "Admin",
+    "topic": "Quality Assurance",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2017",
+    "qtype": "factual"
+  },
+  {
+    "id": 48,
+    "question": "What is the first step in the problem-solving process?",
+    "options": [
+      "Implement solution",
+      "Identify the problem",
+      "Evaluate outcomes",
+      "Generate alternatives"
+    ],
+    "correct": 1,
+    "explanation": "• Problem identification is the first step.\n• You must clearly define the problem before generating solutions, implementing, and evaluating.",
+    "explanations": {
+      "A": "\"Implement solution\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
+      "B": "Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
+      "C": "\"Evaluate outcomes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
+      "D": "\"Generate alternatives\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating."
+    },
+    "subject": "Admin",
+    "topic": "Problem Solving",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2018",
+    "qtype": "factual"
+  },
+  {
+    "id": 49,
+    "question": "What is delegation in nursing?",
+    "options": [
+      "Transferring responsibility and authority",
+      "Avoiding work",
+      "Only assigning tasks",
+      "Not accountable for outcomes"
+    ],
+    "correct": 0,
+    "explanation": "• Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability.\n• The delegating nurse remains accountable.",
+    "explanations": {
+      "A": "Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
+      "B": "\"Avoiding work\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
+      "C": "\"Only assigning tasks\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
+      "D": "\"Not accountable for outcomes\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable."
+    },
+    "subject": "Admin",
+    "topic": "Delegation",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2019",
+    "qtype": "factual"
+  },
+  {
+    "id": 50,
+    "question": "What is the purpose of incident reporting?",
+    "options": [
+      "Blame staff",
+      "Identify system problems and prevent recurrence",
+      "Document errors only",
+      "Punish mistakes"
+    ],
+    "correct": 1,
+    "explanation": "• Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence.\n• It's not for blaming individuals.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "\"Blame staff\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
+      "B": "Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
+      "C": "\"Document errors only\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
+      "D": "\"Punish mistakes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals."
+    },
+    "subject": "Admin",
+    "topic": "Risk Management",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2020",
+    "qtype": "factual"
+  },
+  {
+    "id": 51,
+    "question": "What is the recommended span of control for a nurse manager?",
+    "options": [
+      "3-5 staff",
+      "5-8 staff",
+      "8-12 staff",
+      "15-20 staff"
+    ],
+    "correct": 1,
+    "explanation": "• Optimal span of control is 5-8 staff members.\n• Too many reduces supervision quality, too few is inefficient.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "\"3-5 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
+      "B": "Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
+      "C": "\"8-12 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
+      "D": "\"15-20 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient."
+    },
+    "subject": "Admin",
+    "topic": "Management",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 52,
+    "question": "What is the primary purpose of performance appraisal?",
+    "options": [
+      "Punish poor performance",
+      "Provide feedback and development",
+      "Reduce salaries",
+      "Terminate staff"
+    ],
+    "correct": 1,
+    "explanation": "• Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+    "explanations": {
+      "A": "\"Punish poor performance\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+      "B": "Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+      "C": "\"Reduce salaries\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+      "D": "\"Terminate staff\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development."
+    },
+    "subject": "Admin",
+    "topic": "Human Resources",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 53,
+    "question": "What is the chain of command in nursing?",
+    "options": [
+      "Horizontal communication",
+      "Vertical hierarchy of authority",
+      "Informal structure",
+      "No structure"
+    ],
+    "correct": 1,
+    "explanation": "• Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+    "explanations": {
+      "A": "\"Horizontal communication\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+      "B": "Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+      "C": "\"Informal structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+      "D": "\"No structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability."
+    },
+    "subject": "Admin",
+    "topic": "Organizational Structure",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 54,
+    "question": "What is the purpose of budgeting in nursing?",
+    "options": [
+      "Control costs only",
+      "Plan and allocate resources",
+      "Reduce staff",
+      "Increase charges"
+    ],
+    "correct": 1,
+    "explanation": "• Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanations": {
+      "A": "\"Control costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "B": "Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "C": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
+      "D": "\"Increase charges\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
+    },
+    "subject": "Admin",
+    "topic": "Financial Management",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 55,
+    "question": "What is the primary role of a charge nurse during a shift?",
+    "options": [
+      "Provide direct patient care only",
+      "Coordinate unit activities and supervise staff",
+      "Handle administrative tasks only",
+      "Teach students only"
+    ],
+    "correct": 1,
+    "explanation": "• Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.\n• This role requires leadership, communication, and clinical skills.\n• Charge nurses are responsible for resource allocation, staff assignment, and maintaining unit operations.\n• Nursing management skills are essential for effective healthcare delivery.",
+    "explanations": {
+      "A": "\"Provide direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills.",
+      "B": "Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills.",
+      "C": "\"Handle administrative tasks only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills.",
+      "D": "\"Teach students only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills."
+    },
+    "subject": "Admin",
+    "topic": "Leadership",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2025",
+    "qtype": "factual"
+  },
+  {
+    "id": 56,
+    "question": "What is the recommended nurse-to-patient ratio in medical-surgical unit?",
+    "options": [
+      "1:3",
+      "1:4",
+      "1:5",
+      "1:6"
+    ],
+    "correct": 1,
+    "explanation": "• Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care.\n• ICU requires 1:1-1:2.\n• Proper staffing ratios ensure quality care and patient safety.\n• Understanding staffing requirements is essential for nursing management and resource allocation.",
+    "explanations": {
+      "A": "\"1:3\" is a plausible distractor but incorrect. The correct answer is B (\"1:4\") — Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2.",
+      "B": "Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2.",
+      "C": "\"1:5\" is a plausible distractor but incorrect. The correct answer is B (\"1:4\") — Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2.",
+      "D": "\"1:6\" is a plausible distractor but incorrect. The correct answer is B (\"1:4\") — Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2."
+    },
+    "subject": "Admin",
+    "topic": "Staffing",
+    "day": 10,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2015",
+    "qtype": "factual"
+  },
+  {
+    "id": 207,
+    "question": "What is the correct method for testing blood glucose using glucometer?",
+    "options": [
+      "Use first drop of blood",
+      "Wipe first drop, use second drop",
+      "Use any drop",
+      "Mix with water"
+    ],
+    "correct": 1,
+    "explanation": "• For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop.\n• Clean site with alcohol, let dry, use lancet, apply drop to test strip.\n• Proper technique ensures accurate results for diabetes management.\n• This knowledge is essential for patient education and monitoring.",
+    "explanations": {
+      "A": "\"Use first drop of blood\" is a plausible distractor but incorrect. The correct answer is B (\"Wipe first drop, use second drop\") — For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip.",
+      "B": "For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip.",
+      "C": "\"Use any drop\" is a plausible distractor but incorrect. The correct answer is B (\"Wipe first drop, use second drop\") — For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip.",
+      "D": "\"Mix with water\" is a plausible distractor but incorrect. The correct answer is B (\"Wipe first drop, use second drop\") — For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip."
+    },
+    "subject": "Fundamentals",
+    "topic": "Diagnostic Equipment",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 216,
+    "question": "A patient with diabetes mellitus develops diabetic ketoacidosis (DKA). What is the primary nursing intervention?",
+    "options": [
+      "Administering oral glucose",
+      "Starting IV insulin infusion",
+      "Encouraging fluid intake",
+      "Monitoring blood pressure"
+    ],
+    "correct": 1,
+    "explanation": "• IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose.\n• This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
+    "explanations": {
+      "A": "\"Administering oral glucose\" is a plausible distractor but incorrect. The correct answer is B (\"Starting IV insulin infusion\") — IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
+      "B": "IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
+      "C": "\"Encouraging fluid intake\" is a plausible distractor but incorrect. The correct answer is B (\"Starting IV insulin infusion\") — IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
+      "D": "\"Monitoring blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Starting IV insulin infusion\") — IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Endocrine System",
+    "day": 10,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 217,
+    "question": "A patient with stroke (CVA) is unable to swallow. What is the most appropriate initial nursing action?",
+    "options": [
+      "Start nasogastric tube feeding",
+      "Provide oral care only",
+      "NPO status with IV fluids",
+      "Encourage small sips of water"
     ],
     "correct": 2,
-    "explanation": "• Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context.\n• Cross-check latest statute for your exam cycle.",
+    "explanation": "• Patients with dysphagia after stroke are at high risk for aspiration.\n• NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.\n• IV fluids maintain hydration.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Start nasogastric tube feeding\" is a plausible distractor but incorrect. The correct answer is C (\"NPO status with IV fluids\") — Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.",
+      "B": "\"Provide oral care only\" is a plausible distractor but incorrect. The correct answer is C (\"NPO status with IV fluids\") — Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.",
+      "C": "Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.",
+      "D": "\"Encourage small sips of water\" is a plausible distractor but incorrect. The correct answer is C (\"NPO status with IV fluids\") — Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed."
     },
-    "subject": "Mixed",
-    "topic": "OBG / Legal",
+    "subject": "Medical-Surgical",
+    "topic": "Neurological System",
     "day": 10,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2021",
-    "qtype": "factual"
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "scenario"
   },
   {
-    "id": 512,
-    "question": "Hand rub with alcohol-based sanitizer effective duration commonly taught:",
+    "id": 233,
+    "question": "A patient with acute kidney injury is receiving continuous renal replacement therapy (CRRT). What is the priority nursing assessment?",
     "options": [
-      "5 seconds",
-      "20–30 seconds until dry",
-      "2 minutes always",
-      "1 hour"
+      "Blood pressure",
+      "Access site patency",
+      "Urine output",
+      "Weight"
     ],
     "correct": 1,
-    "explanation": "• WHO: rub until dry, ~20–30 seconds.\n• Fundamentals high yield.",
+    "explanation": "• Access site patency is critical for CRRT.\n• Clotting or dislodgement can cause treatment interruption and complications.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "WHO: rub until dry, ~20–30 seconds. Fundamentals high yield.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Access site patency\") — Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications.",
+      "B": "Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications.",
+      "C": "\"Urine output\" is a plausible distractor but incorrect. The correct answer is B (\"Access site patency\") — Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications.",
+      "D": "\"Weight\" is a plausible distractor but incorrect. The correct answer is B (\"Access site patency\") — Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications."
     },
-    "subject": "Mixed",
-    "topic": "Infection Control",
+    "subject": "Medical-Surgical",
+    "topic": "Renal System",
     "day": 10,
-    "difficulty": "Easy",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2024",
-    "qtype": "factual"
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "scenario"
   },
   {
-    "id": 514,
-    "question": "Exclusive breastfeeding recommended for:",
+    "id": 265,
+    "question": "A patient with STEMI receives 300 mg aspirin loading dose. What is the priority after administration?",
     "options": [
-      "3 months",
-      "6 months",
-      "9 months",
-      "12 months"
+      "Monitor for bleeding",
+      "Administer dual antiplatelet therapy",
+      "Prepare for PCI",
+      "Assess pain level"
     ],
     "correct": 1,
-    "explanation": "• WHO: exclusive breastfeeding for 6 months.\n• Standard CHN question.",
+    "explanation": "• After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI.\n• This combination significantly reduces thrombotic events but increases bleeding risk.\n• Monitoring for signs of bleeding is essential, but initiating DAPT is the immediate priority after aspirin in STEMI management.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "WHO: exclusive breastfeeding for 6 months. Standard CHN question.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Monitor for bleeding\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
+      "B": "After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
+      "C": "\"Prepare for PCI\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
+      "D": "\"Assess pain level\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk."
     },
-    "subject": "Mixed",
-    "topic": "Pediatric",
+    "subject": "Medical-Surgical",
+    "topic": "Cardiovascular System",
     "day": 10,
-    "difficulty": "Easy",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 516,
-    "question": "Early sign of hypovolemic shock may include:",
-    "options": [
-      "Bounding pulse",
-      "Tachycardia",
-      "Hypertension",
-      "Warm flushed skin"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Med-Surg",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 5 (2023)",
-    "qtype": "factual"
-  },
-  {
-    "id": 517,
-    "question": "Sterile field is considered contaminated if:",
-    "options": [
-      "Wet gauze placed dry",
-      "Sterile gloved hand drops below waist level",
-      "Talking quietly",
-      "Using forceps"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Fundamentals",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 518,
-    "question": "Antidote for opioid overdose:",
-    "options": [
-      "Flumazenil",
-      "Naloxone",
-      "Atropine",
-      "Vitamin K"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Pharmacology",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 519,
-    "question": "Normal fetal heart rate baseline typically:",
-    "options": [
-      "80–100 bpm",
-      "110–160 bpm",
-      "170–190 bpm",
-      "60–90 bpm"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "OBG",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 520,
-    "question": "ASHA worker is primarily:",
-    "options": [
-      "Hospital specialist doctor",
-      "Community health volunteer under NRHM",
-      "Lab technician",
-      "Pharmacist"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "CHN",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2021",
-    "qtype": "factual"
-  },
-  {
-    "id": 521,
-    "question": "Therapeutic communication includes:",
-    "options": [
-      "Giving false reassurance",
-      "Active listening",
-      "Changing topic abruptly",
-      "Criticizing patient"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Psychiatric",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 5 (2023)",
-    "qtype": "factual"
-  },
-  {
-    "id": 522,
-    "question": "Weight doubles by approximately:",
-    "options": [
-      "3 months",
-      "5 months",
-      "12 months",
-      "2 years"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Pediatric",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 523,
-    "question": "Liver is located mainly in:",
-    "options": [
-      "Left hypochondrium",
-      "Right upper quadrant",
-      "Pelvis",
-      "Retroperitoneum only"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 524,
-    "question": "Article 21 of Indian Constitution relates to:",
-    "options": [
-      "Education",
-      "Protection of life and personal liberty",
-      "Freedom of speech",
-      "Right to property"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "GK",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 525,
-    "question": "Acid-fast bacillus seen in:",
-    "options": [
-      "Staphylococcus",
-      "Mycobacterium tuberculosis",
-      "E. coli",
-      "Candida"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Microbiology",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2021",
-    "qtype": "factual"
-  },
-  {
-    "id": 526,
-    "question": "Early sign of hypovolemic shock may include:",
-    "options": [
-      "Bounding pulse",
-      "Tachycardia",
-      "Hypertension",
-      "Warm flushed skin"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Med-Surg",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 5 (2023)",
-    "qtype": "factual"
-  },
-  {
-    "id": 527,
-    "question": "Sterile field is considered contaminated if:",
-    "options": [
-      "Wet gauze placed dry",
-      "Sterile gloved hand drops below waist level",
-      "Talking quietly",
-      "Using forceps"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Fundamentals",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 528,
-    "question": "Antidote for opioid overdose:",
-    "options": [
-      "Flumazenil",
-      "Naloxone",
-      "Atropine",
-      "Vitamin K"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Pharmacology",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 529,
-    "question": "Normal fetal heart rate baseline typically:",
-    "options": [
-      "80–100 bpm",
-      "110–160 bpm",
-      "170–190 bpm",
-      "60–90 bpm"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "OBG",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 530,
-    "question": "ASHA worker is primarily:",
-    "options": [
-      "Hospital specialist doctor",
-      "Community health volunteer under NRHM",
-      "Lab technician",
-      "Pharmacist"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "CHN",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2021",
-    "qtype": "factual"
-  },
-  {
-    "id": 531,
-    "question": "Therapeutic communication includes:",
-    "options": [
-      "Giving false reassurance",
-      "Active listening",
-      "Changing topic abruptly",
-      "Criticizing patient"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Psychiatric",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 5 (2023)",
-    "qtype": "factual"
-  },
-  {
-    "id": 532,
-    "question": "Weight doubles by approximately:",
-    "options": [
-      "3 months",
-      "5 months",
-      "12 months",
-      "2 years"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Pediatric",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2016",
+    "qtype": "scenario"
   }
 ]

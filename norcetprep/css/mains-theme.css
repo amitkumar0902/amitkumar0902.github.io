@@ -549,3 +549,104 @@ th { background: var(--bg-alt); font-weight: 700; }
 
 /* Old dog-motivation / emoji-rich blocks cleaned up */
 .motivation-quote, .dog-motivation, .motivation-dog, .dog-caption { display: none; }
+
+/* ==========================================================================
+   v2 additions — Track 1/2/4/5 (bank modes, sync, flashcard images, focus mode)
+   ========================================================================== */
+
+/* Smaller ghost/accent buttons for card actions */
+.btn--sm { padding: 4px 10px; font-size: var(--fz-xs); }
+
+/* Browse/Try toggle */
+.mode-toggle { display: inline-flex; gap: 0; border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; }
+.mode-toggle .btn { border-radius: 0; border: 0; margin: 0; padding: 6px 12px; font-size: var(--fz-xs); }
+
+/* Bank-card option states */
+.option--btn { cursor: pointer; }
+.option.muted { opacity: 0.55; }
+.option.muted .letter { background: var(--rule-soft); color: var(--ink-mute); border-color: var(--rule); }
+.bank-card .options { margin: 10px 0 14px; }
+.bank-card .explanations { margin-top: 10px; }
+.bank-card details > summary { cursor: pointer; font-size: var(--fz-sm); color: var(--ink-soft); padding: 4px 0; }
+
+/* Report modal (used by bank/practice/mock) */
+.nm-report-modal .overlay-panel { max-width: 480px; padding: 20px 22px; }
+.nm-report-modal textarea {
+  width: 100%; min-height: 80px; padding: 8px 10px;
+  border: 1px solid var(--rule); background: var(--bg); color: var(--ink);
+  font-family: var(--sans); font-size: var(--fz-sm); resize: vertical;
+}
+.nm-report-modal .issue-choices { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0; }
+.nm-report-modal .issue-choices label {
+  border: 1px solid var(--rule); padding: 4px 10px; font-size: var(--fz-xs);
+  cursor: pointer; border-radius: 2px;
+}
+.nm-report-modal .issue-choices input { display: none; }
+.nm-report-modal .issue-choices input:checked + span { background: var(--accent); color: #fff; padding: 3px 9px; border-radius: 2px; }
+
+/* Flashcard image */
+.fc-image {
+  max-width: 100%; max-height: 180px; display: block; margin: 0 auto 14px;
+  border: 1px solid var(--rule); background: var(--bg);
+}
+.fc-deck-status { font-size: var(--fz-xs); color: var(--ink-mute); font-family: var(--mono); margin-left: 8px; }
+
+/* Day progress strip (Track 5b) */
+.day-progress {
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 6px 24px; font-family: var(--mono); font-size: var(--fz-xs);
+  color: var(--ink-mute); background: var(--bg-alt);
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.day-progress .day-progress__bar {
+  flex: 1 1 160px; max-width: 280px; height: 4px;
+  background: var(--rule-soft); overflow: hidden;
+}
+.day-progress .day-progress__fill { height: 100%; background: var(--accent); }
+.day-progress .day-progress__countdown { color: var(--ink-soft); }
+
+/* Sync panel (Track 2d) */
+.sync-panel { border: 1px solid var(--rule); padding: 18px 20px; margin: 16px 0; background: var(--bg-alt); }
+.sync-panel h3 { margin-top: 0; }
+.sync-code-display {
+  font-family: var(--mono); font-size: 36px; letter-spacing: 8px;
+  text-align: center; padding: 20px 10px; margin: 14px 0;
+  border: 2px solid var(--accent); color: var(--accent); background: var(--bg);
+  user-select: all;
+}
+.sync-qr { display: block; margin: 14px auto; max-width: 200px; }
+.sync-expiry { text-align: center; font-size: var(--fz-xs); color: var(--ink-mute); font-family: var(--mono); }
+.sync-code-input {
+  display: block; width: 100%; max-width: 260px; margin: 10px 0;
+  padding: 14px; font-family: var(--mono); font-size: 24px; letter-spacing: 6px;
+  text-align: center; border: 1px solid var(--rule); background: var(--bg); color: var(--ink);
+  text-transform: uppercase;
+}
+.sync-status { margin: 10px 0; padding: 8px 12px; font-size: var(--fz-sm); }
+.sync-status.ok { background: var(--ok-soft); color: var(--ok); border-left: 3px solid var(--ok); }
+.sync-status.err { background: var(--err-soft); color: var(--err); border-left: 3px solid var(--err); }
+
+/* Focus mode (Track 5e) */
+body.focus-mode .topnav,
+body.focus-mode .day-progress,
+body.focus-mode .skip-link,
+body.focus-mode .page-nav { display: none !important; }
+body.focus-mode { padding-top: 0; }
+.focus-exit {
+  position: fixed; bottom: 14px; left: 14px; z-index: 50;
+  font-size: var(--fz-xs);
+}
+.focus-warn-toast {
+  position: fixed; bottom: 70px; right: 14px; z-index: 60;
+  padding: 12px 16px; background: var(--warn-soft); color: var(--warn);
+  border: 1px solid var(--warn); font-family: var(--mono); font-size: var(--fz-sm);
+  max-width: 280px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* Resume-where-left-off inline hint (Track 5f) */
+.resume-hint {
+  font-size: var(--fz-sm); color: var(--ink-soft);
+  padding: 10px 14px; margin: 10px 0; background: var(--bg-alt);
+  border-left: 3px solid var(--accent);
+}
+.resume-hint a { margin-right: 14px; }

@@ -139,9 +139,7 @@
 
   // ==== Celebrations ====
   NM.confettiBurst = function () {
-    if (NM.get('settings', {}).animOff) return;
-    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    // lazy-load canvas-confetti
+    if (!NM.motionAllowed()) return;
     if (window.confetti) { window.confetti({ spread: 80, particleCount: 120, origin: { y: 0.6 } }); return; }
     var s = document.createElement('script');
     s.src = 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js';
@@ -149,7 +147,7 @@
     document.head.appendChild(s);
   };
   NM.shake = function (el) {
-    if (NM.get('settings', {}).animOff) return;
+    if (!NM.motionAllowed()) return;
     if (!el) return;
     el.classList.remove('shake');
     void el.offsetWidth;
@@ -319,26 +317,174 @@
     });
   };
 
-  // ==== Boot ====
-  NM.boot = function (currentKey) {
-    NM.initTheme();
-    NM.installGlobalKeys();
-    if (document.body) {
-      NM.installTopnav(currentKey);
-      registerSW();
-    } else {
-      document.addEventListener('DOMContentLoaded', function () {
-        NM.installTopnav(currentKey);
-        registerSW();
-      });
+  // ==== Motion allowance (master override) ====
+  NM.motionAllowed = function () {
+    var s = NM.get('settings', {}) || {};
+    if (s.animMaster === 'off') return false;
+    if (s.animMaster === 'on') return true;
+    var mqReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (s.animOff === true) return false;
+    return !mqReduced;
+  };
+
+  // ==== Day progress strip + countdown banner (Track 5b/5c) ====
+  NM.dayProgressStrip = function (currentDay) {
+    if (document.querySelector('.day-progress')) return;
+    var done = NM.get('daysCompleted', {}) || {};
+    var doneCount = 0;
+    for (var i = 1; i <= NM.TOTAL_DAYS; i++) if (done[i]) doneCount++;
+    var pct = Math.round((doneCount / NM.TOTAL_DAYS) * 100);
+    var strip = document.createElement('div');
+    strip.className = 'day-progress';
+    strip.innerHTML =
+      (currentDay ? '<span><strong>Day ' + currentDay + '</strong> of ' + NM.TOTAL_DAYS + '</span>' : '<span>' + NM.TOTAL_DAYS + '-day intensive</span>') +
+      '<span class="day-progress__bar"><span class="day-progress__fill" style="width:' + pct + '%"></span></span>' +
+      '<span>' + pct + '% complete (' + doneCount + '/' + NM.TOTAL_DAYS + ')</span>' +
+      '<span class="day-progress__countdown" id="nm-day-countdown">' + NM.countdownText() + '</span>';
+    var nav = document.querySelector('.topnav');
+    if (nav && nav.parentNode) nav.parentNode.insertBefore(strip, nav.nextSibling);
+    else document.body.insertBefore(strip, document.body.firstChild);
+    setInterval(function () {
+      var el = document.getElementById('nm-day-countdown');
+      if (el) el.textContent = NM.countdownText();
+    }, 30000);
+  };
+
+  // Mark a day as opened (auto-called on day notes / practice pages).
+  NM.markDayOpened = function (day) {
+    if (!day) return;
+    var opened = NM.get('daysOpened', {}) || {};
+    opened[day] = true;
+    NM.set('daysOpened', opened);
+    // Back-compat: the landing checklist reads `notesDone[d]`.
+    if (/\/day-\d+\.html/.test(location.pathname)) {
+      var notes = NM.get('notesDone', {}) || {};
+      notes[day] = true;
+      NM.set('notesDone', notes);
     }
   };
+  // Mark a day as completed (auto-called on practice submit).
+  NM.markDayCompleted = function (day) {
+    if (!day) return;
+    var done = NM.get('daysCompleted', {}) || {};
+    done[day] = true;
+    NM.set('daysCompleted', done);
+  };
+
+  // ==== Resume hint (Track 5f) ====
+  NM.installResumeHint = function (opts) {
+    var host = opts.mountTarget || document.getElementById('main') || document.body;
+    var existing = document.querySelector('.resume-hint[data-key="' + opts.key + '"]');
+    if (existing) existing.remove();
+    var saved = NM.get(opts.key);
+    if (!saved) return;
+    if (typeof opts.shouldShow === 'function' && !opts.shouldShow(saved)) return;
+    var div = document.createElement('div');
+    div.className = 'resume-hint'; div.setAttribute('data-key', opts.key);
+    div.innerHTML = '<a href="#" data-act="resume">' + (opts.resumeLabel || 'Continue where you left off') + '</a>' +
+      (opts.freshLabel ? '<a href="#" data-act="fresh">' + opts.freshLabel + '</a>' : '');
+    host.insertBefore(div, host.firstChild);
+    div.addEventListener('click', function (e) {
+      var a = e.target.closest('a'); if (!a) return;
+      e.preventDefault();
+      if (a.dataset.act === 'resume' && typeof opts.onResume === 'function') opts.onResume(saved);
+      if (a.dataset.act === 'fresh' && typeof opts.onFresh === 'function') opts.onFresh();
+    });
+  };
+
+  // ==== Boot ====
+  // currentKey can be a string (nav key) or an options object:
+  //   NM.boot('today', { day: 3 })  →  also installs day-progress strip + marks day opened
+  NM.boot = function (currentKey, opts) {
+    NM.initTheme();
+    NM.installGlobalKeys();
+    opts = opts || {};
+    function mount() {
+      NM.installTopnav(currentKey);
+      registerSW();
+      loadAddOns();
+      var day = opts.day || detectDayFromPath();
+      if (day) {
+        NM.markDayOpened(day);
+        NM.dayProgressStrip(day);
+        installDayNotesScrollResume(day);
+      } else if (opts.showProgress !== false && shouldShowProgress()) {
+        NM.dayProgressStrip(null);
+      }
+    }
+    if (document.body) mount();
+    else document.addEventListener('DOMContentLoaded', mount);
+  };
+
+  // Lightweight scroll-resume for day notes pages.
+  function installDayNotesScrollResume(day) {
+    if (!/\/mains-plan\/day-\d+\.html/.test(location.pathname)) return;
+    var key = 'notes.scroll.day-' + day;
+    var savedY = NM.get(key, 0) | 0;
+    if (savedY > 400) {
+      var host = document.querySelector('.container') || document.getElementById('main') || document.body;
+      var hint = document.createElement('div');
+      hint.className = 'resume-hint';
+      hint.innerHTML = '<a href="#" data-act="resume">Continue where you left off</a><a href="#" data-act="fresh">Start from top</a>';
+      host.insertBefore(hint, host.firstChild);
+      hint.addEventListener('click', function (e) {
+        var a = e.target.closest('a'); if (!a) return;
+        e.preventDefault();
+        if (a.dataset.act === 'resume') window.scrollTo({ top: savedY, behavior: NM.motionAllowed() ? 'smooth' : 'auto' });
+        else { NM.del(key); hint.remove(); window.scrollTo({ top: 0 }); }
+      });
+    }
+    var last = 0;
+    window.addEventListener('scroll', function () {
+      var now = Date.now();
+      if (now - last < 800) return;
+      last = now;
+      NM.set(key, Math.round(window.scrollY));
+    }, { passive: true });
+  }
+
+  function detectDayFromPath() {
+    var p = location.pathname;
+    var m = p.match(/\/day-(\d{1,2})\.html?$/);
+    if (m) return parseInt(m[1], 10);
+    return null;
+  }
+  function shouldShowProgress() {
+    var p = location.pathname;
+    return /\/mains-plan\//.test(p) && !/\/mocks\//.test(p) && !/\/flashcards\//.test(p) && !/\/settings\.html/.test(p) && !/\/index\.html?$/.test(p);
+  }
 
   function registerSW() {
     if ('serviceWorker' in navigator) {
       var root = NM.rootPath();
       navigator.serviceWorker.register(root + 'sw.js').catch(function () {});
     }
+  }
+
+  function loadScript(src) {
+    return new Promise(function (resolve) {
+      var existing = document.querySelector('script[data-nm-src="' + src + '"]');
+      if (existing) { resolve(); return; }
+      var s = document.createElement('script');
+      s.src = src; s.async = false; s.setAttribute('data-nm-src', src);
+      s.onload = resolve; s.onerror = function () { resolve(); };
+      document.head.appendChild(s);
+    });
+  }
+  function loadAddOns() {
+    var root = NM.rootPath();
+    // Firebase compat SDKs + config → anonymous auth for sync + reports.
+    if (!window.firebase) {
+      loadScript('https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js').then(function () {
+        return loadScript('https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js');
+      }).then(function () {
+        return loadScript('https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js');
+      }).then(function () {
+        loadScript(root + 'js/firebase-config.js');
+      });
+    }
+    if (!window.NMReport) loadScript(root + 'js/report.js');
+    if (!NM.sync) loadScript(root + 'js/sync.js');
   }
 
   // Simple shuffle helper (seeded deterministic ok for UI, Math.random for mocks)

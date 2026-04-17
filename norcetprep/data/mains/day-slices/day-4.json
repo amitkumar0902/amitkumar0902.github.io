@@ -50,24 +50,174 @@
     "qtype": "factual"
   },
   {
-    "id": 35,
-    "question": "What is the purpose of quality assurance in nursing?",
+    "id": 503,
+    "question": "Direct Coombs test detects:",
     "options": [
-      "Reduce costs only",
-      "Ensure standards of care are met",
-      "Increase patient numbers",
-      "Reduce staff"
+      "Antibody in serum",
+      "Antibody attached to RBC surface",
+      "Platelet antibodies only",
+      "HIV antibodies"
     ],
     "correct": 1,
-    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "explanation": "• Direct antiglobulin test detects antibodies on RBCs.\n• High-yield hematology.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Antibody in serum\" is a plausible distractor but incorrect. The correct answer is B (\"Antibody attached to RBC surface\") — Direct antiglobulin test detects antibodies on RBCs. High-yield hematology.",
+      "B": "Direct antiglobulin test detects antibodies on RBCs. High-yield hematology.",
+      "C": "\"Platelet antibodies only\" is a plausible distractor but incorrect. The correct answer is B (\"Antibody attached to RBC surface\") — Direct antiglobulin test detects antibodies on RBCs. High-yield hematology.",
+      "D": "\"HIV antibodies\" is a plausible distractor but incorrect. The correct answer is B (\"Antibody attached to RBC surface\") — Direct antiglobulin test detects antibodies on RBCs. High-yield hematology."
     },
-    "subject": "Admin",
-    "topic": "Quality Assurance",
+    "subject": "Mixed",
+    "topic": "Med-Surg",
+    "day": 4,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 514,
+    "question": "Exclusive breastfeeding recommended for:",
+    "options": [
+      "3 months",
+      "6 months",
+      "9 months",
+      "12 months"
+    ],
+    "correct": 1,
+    "explanation": "• WHO: exclusive breastfeeding for 6 months.\n• Standard CHN question.",
+    "explanations": {
+      "A": "\"3 months\" is a plausible distractor but incorrect. The correct answer is B (\"6 months\") — WHO: exclusive breastfeeding for 6 months. Standard CHN question.",
+      "B": "WHO: exclusive breastfeeding for 6 months. Standard CHN question.",
+      "C": "\"9 months\" is a plausible distractor but incorrect. The correct answer is B (\"6 months\") — WHO: exclusive breastfeeding for 6 months. Standard CHN question.",
+      "D": "\"12 months\" is a plausible distractor but incorrect. The correct answer is B (\"6 months\") — WHO: exclusive breastfeeding for 6 months. Standard CHN question."
+    },
+    "subject": "Mixed",
+    "topic": "Pediatric",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 519,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "80–100 bpm",
+      "110–160 bpm",
+      "170–190 bpm",
+      "60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"80–100 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"170–190 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"60–90 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "OBG",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 529,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "80–100 bpm",
+      "110–160 bpm",
+      "170–190 bpm",
+      "60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"80–100 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"170–190 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"60–90 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "OBG",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 539,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "80–100 bpm",
+      "110–160 bpm",
+      "170–190 bpm",
+      "60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"80–100 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"170–190 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"60–90 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "OBG",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 549,
+    "question": "Normal fetal heart rate baseline typically:",
+    "options": [
+      "80–100 bpm",
+      "110–160 bpm",
+      "170–190 bpm",
+      "60–90 bpm"
+    ],
+    "correct": 1,
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
+    "explanations": {
+      "A": "\"80–100 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"170–190 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"60–90 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110–160 bpm\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
+    },
+    "subject": "Mixed",
+    "topic": "OBG",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 101,
+    "question": "What is the target for reducing Maternal Mortality Ratio (MMR) under Sustainable Development Goals?",
+    "options": [
+      "Less than 70 per 100,000 live births",
+      "Less than 100 per 100,000 live births",
+      "Less than 150 per 100,000 live births",
+      "Less than 200 per 100,000 live births"
+    ],
+    "correct": 0,
+    "explanation": "• SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030.\n• India's current MMR is around 97.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
+      "B": "\"Less than 100 per 100,000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 70 per 100,000 live births\") — SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
+      "C": "\"Less than 150 per 100,000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 70 per 100,000 live births\") — SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
+      "D": "\"Less than 200 per 100,000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 70 per 100,000 live births\") — SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97."
+    },
+    "subject": "Community Health",
+    "topic": "Maternal Health",
     "day": 4,
     "difficulty": "High",
     "source": "Practice",
@@ -75,78 +225,28 @@
     "qtype": "factual"
   },
   {
-    "id": 47,
-    "question": "What is the purpose of quality assurance in nursing?",
+    "id": 110,
+    "question": "What is the recommended frequency for antenatal care visits?",
     "options": [
-      "Reduce costs only",
-      "Ensure standards of care are met",
-      "Increase patient numbers",
-      "Reduce staff"
+      "2 visits",
+      "4 visits",
+      "6 visits",
+      "8 visits"
     ],
     "correct": 1,
-    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "explanation": "• WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks.\n• More visits are better for high-risk pregnancies.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Admin",
-    "topic": "Quality Assurance",
-    "day": 4,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2017",
-    "qtype": "factual"
-  },
-  {
-    "id": 104,
-    "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
-    "options": [
-      "Less than 20 per 1000 live births",
-      "Less than 25 per 1000 live births",
-      "Less than 30 per 1000 live births",
-      "Less than 35 per 1000 live births"
-    ],
-    "correct": 0,
-    "explanation": "• India aims to reduce IMR to less than 20 per 1000 live births.\n• Current IMR is around 28.\n• Key interventions include immunization, nutrition, and safe delivery.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
-    "explanations": {
-      "A": "India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"2 visits\" is a plausible distractor but incorrect. The correct answer is B (\"4 visits\") — WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks. More visits are better for high-risk pregnancies.",
+      "B": "WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks. More visits are better for high-risk pregnancies.",
+      "C": "\"6 visits\" is a plausible distractor but incorrect. The correct answer is B (\"4 visits\") — WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks. More visits are better for high-risk pregnancies.",
+      "D": "\"8 visits\" is a plausible distractor but incorrect. The correct answer is B (\"4 visits\") — WHO recommends minimum 4 antenatal care visits: first visit by 12 weeks, then at 20, 26, and 32 weeks. More visits are better for high-risk pregnancies."
     },
     "subject": "Community Health",
-    "topic": "Child Health",
+    "topic": "Maternal Health",
     "day": 4,
     "difficulty": "High",
     "source": "Practice",
     "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 112,
-    "question": "What is the target for reducing Under-5 Mortality Rate?",
-    "options": [
-      "Less than 25 per 1000",
-      "Less than 30 per 1000",
-      "Less than 35 per 1000",
-      "Less than 40 per 1000"
-    ],
-    "correct": 0,
-    "explanation": "• SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030.\n• Key interventions include immunization, nutrition, and safe water.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
-    "explanations": {
-      "A": "SDG target is to reduce Under-5 Mortality Rate to less than 25 per 1000 live births by 2030. Key interventions include immunization, nutrition, and safe water.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Community Health",
-    "topic": "Child Health",
-    "day": 4,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
     "qtype": "factual"
   },
   {
@@ -161,9 +261,9 @@
     "correct": 3,
     "explanation": "• Neonatal tetanus prevention requires both clean delivery practices (sterile cord cutting) and tetanus toxoid vaccination of pregnant women (2 doses).\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Clean delivery practices\" is a plausible distractor but incorrect. The correct answer is D (\"Both A and B\") — Neonatal tetanus prevention requires both clean delivery practices (sterile cord cutting) and tetanus toxoid vaccination of pregnant women (2 doses). Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.",
+      "B": "\"Tetanus toxoid vaccination of mother\" is a plausible distractor but incorrect. The correct answer is D (\"Both A and B\") — Neonatal tetanus prevention requires both clean delivery practices (sterile cord cutting) and tetanus toxoid vaccination of pregnant women (2 doses). Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.",
+      "C": "\"Antibiotic prophylaxis\" is a plausible distractor but incorrect. The correct answer is D (\"Both A and B\") — Neonatal tetanus prevention requires both clean delivery practices (sterile cord cutting) and tetanus toxoid vaccination of pregnant women (2 doses). Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.",
       "D": "Neonatal tetanus prevention requires both clean delivery practices (sterile cord cutting) and tetanus toxoid vaccination of pregnant women (2 doses). Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs."
     },
     "subject": "Community Health",
@@ -175,29 +275,54 @@
     "qtype": "factual"
   },
   {
-    "id": 124,
-    "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
+    "id": 121,
+    "question": "What is the target for reducing Maternal Mortality Ratio (MMR) under Sustainable Development Goals?",
     "options": [
-      "Less than 20 per 1000 live births",
-      "Less than 25 per 1000 live births",
-      "Less than 30 per 1000 live births",
-      "Less than 35 per 1000 live births"
+      "Less than 70 per 100,000 live births",
+      "Less than 100 per 100,000 live births",
+      "Less than 150 per 100,000 live births",
+      "Less than 200 per 100,000 live births"
     ],
     "correct": 0,
-    "explanation": "• India aims to reduce IMR to less than 20 per 1000 live births.\n• Current IMR is around 28.\n• Key interventions include immunization, nutrition, and safe delivery.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
+    "explanation": "• SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030.\n• India's current MMR is around 97.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
     "explanations": {
-      "A": "India aims to reduce IMR to less than 20 per 1000 live births. Current IMR is around 28.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
+      "B": "\"Less than 100 per 100,000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 70 per 100,000 live births\") — SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
+      "C": "\"Less than 150 per 100,000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 70 per 100,000 live births\") — SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97.",
+      "D": "\"Less than 200 per 100,000 live births\" is a plausible distractor but incorrect. The correct answer is A (\"Less than 70 per 100,000 live births\") — SDG target 3.1 aims to reduce global MMR to less than 70 per 100,000 live births by 2030. India's current MMR is around 97."
     },
     "subject": "Community Health",
-    "topic": "Child Health",
+    "topic": "Maternal Health",
     "day": 4,
     "difficulty": "High",
     "source": "Practice",
-    "year": "2020",
+    "year": "2017",
     "qtype": "factual"
+  },
+  {
+    "id": 222,
+    "question": "A patient with liver cirrhosis develops hepatic encephalopathy. What dietary modification is most important?",
+    "options": [
+      "High protein diet",
+      "Low protein diet",
+      "High sodium diet",
+      "High fat diet"
+    ],
+    "correct": 1,
+    "explanation": "• Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy.\n• Protein restriction helps manage symptoms.",
+    "explanations": {
+      "A": "\"High protein diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low protein diet\") — Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy. Protein restriction helps manage symptoms.",
+      "B": "Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy. Protein restriction helps manage symptoms.",
+      "C": "\"High sodium diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low protein diet\") — Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy. Protein restriction helps manage symptoms.",
+      "D": "\"High fat diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low protein diet\") — Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy. Protein restriction helps manage symptoms."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Hepatic System",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
   },
   {
     "id": 225,
@@ -211,10 +336,10 @@
     "correct": 1,
     "explanation": "• Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Suctioning every hour\" is a plausible distractor but incorrect. The correct answer is B (\"Monitoring ventilator settings\") — Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
       "B": "Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Positioning patient prone\" is a plausible distractor but incorrect. The correct answer is B (\"Monitoring ventilator settings\") — Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
+      "D": "\"Administering sedatives\" is a plausible distractor but incorrect. The correct answer is B (\"Monitoring ventilator settings\") — Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma."
     },
     "subject": "Medical-Surgical",
     "topic": "Critical Care",
@@ -225,29 +350,29 @@
     "qtype": "scenario"
   },
   {
-    "id": 260,
-    "question": "A patient with ARDS is receiving prone positioning. What is the primary benefit?",
+    "id": 232,
+    "question": "A patient with glaucoma is prescribed timolol eye drops. What is the most important teaching point?",
     "options": [
-      "Improved comfort",
-      "Better oxygenation",
-      "Reduced pressure ulcers",
-      "Easier suctioning"
+      "Apply pressure to lacrimal duct after instillation",
+      "Use drops only in affected eye",
+      "Store in refrigerator",
+      "Use before meals"
     ],
-    "correct": 1,
-    "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+    "correct": 0,
+    "explanation": "• Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
+      "B": "\"Use drops only in affected eye\" is a plausible distractor but incorrect. The correct answer is A (\"Apply pressure to lacrimal duct after instillation\") — Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
+      "C": "\"Store in refrigerator\" is a plausible distractor but incorrect. The correct answer is A (\"Apply pressure to lacrimal duct after instillation\") — Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
+      "D": "\"Use before meals\" is a plausible distractor but incorrect. The correct answer is A (\"Apply pressure to lacrimal duct after instillation\") — Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension."
     },
     "subject": "Medical-Surgical",
-    "topic": "Critical Care",
+    "topic": "Ophthalmology",
     "day": 4,
-    "difficulty": "High",
+    "difficulty": "Medium",
     "source": "Practice",
-    "year": "2021",
-    "qtype": "factual"
+    "year": "2023",
+    "qtype": "scenario"
   },
   {
     "id": 266,
@@ -261,10 +386,10 @@
     "correct": 1,
     "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.\n• This positioning helps recruit collapsed alveoli and improves gas exchange.\n• Prone positioning is an evidence-based intervention for moderate to severe ARDS that can significantly improve patient outcomes.\n• Respiratory assessment is critical as inadequate oxygenation can lead to organ damage.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Improved comfort\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch. This positioning helps recruit collapsed alveoli and improves gas exchange.",
       "B": "Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch. This positioning helps recruit collapsed alveoli and improves gas exchange.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Reduced pressure ulcers\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch. This positioning helps recruit collapsed alveoli and improves gas exchange.",
+      "D": "\"Easier suctioning\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch. This positioning helps recruit collapsed alveoli and improves gas exchange."
     },
     "subject": "Medical-Surgical",
     "topic": "Critical Care",
@@ -275,28 +400,28 @@
     "qtype": "scenario"
   },
   {
-    "id": 280,
-    "question": "A patient with ARDS is on mechanical ventilation. What is the target PaO2?",
+    "id": 294,
+    "question": "[IMAGE-BASED] The abdominal X-ray shows free air under the diaphragm. This suggests:",
     "options": [
-      "60-80 mmHg",
-      "80-100 mmHg",
-      "100-120 mmHg",
-      "120-140 mmHg"
+      "Normal finding",
+      "Bowel obstruction only",
+      "Perforated viscus / pneumoperitoneum",
+      "Ascites"
     ],
-    "correct": 0,
-    "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.\n• Higher levels increase risk of oxygen toxicity and don't significantly improve outcomes.\n• Understanding ventilator management is critical for respiratory care.",
+    "correct": 2,
+    "explanation": "• Free air under the diaphragm on erect abdominal or chest X-ray indicates pneumoperitoneum, commonly from perforated ulcer or bowel.\n• Image-based X-ray interpretation is commonly asked.",
     "explanations": {
-      "A": "Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation. Higher levels increase risk of oxygen toxicity and don't significantly improve outcomes.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "A": "\"Normal finding\" is a plausible distractor but incorrect. The correct answer is C (\"Perforated viscus / pneumoperitoneum\") — Free air under the diaphragm on erect abdominal or chest X-ray indicates pneumoperitoneum, commonly from perforated ulcer or bowel. Image-based X-ray interpretation is commonly asked.",
+      "B": "\"Bowel obstruction only\" is a plausible distractor but incorrect. The correct answer is C (\"Perforated viscus / pneumoperitoneum\") — Free air under the diaphragm on erect abdominal or chest X-ray indicates pneumoperitoneum, commonly from perforated ulcer or bowel. Image-based X-ray interpretation is commonly asked.",
+      "C": "Free air under the diaphragm on erect abdominal or chest X-ray indicates pneumoperitoneum, commonly from perforated ulcer or bowel. Image-based X-ray interpretation is commonly asked.",
+      "D": "\"Ascites\" is a plausible distractor but incorrect. The correct answer is C (\"Perforated viscus / pneumoperitoneum\") — Free air under the diaphragm on erect abdominal or chest X-ray indicates pneumoperitoneum, commonly from perforated ulcer or bowel. Image-based X-ray interpretation is commonly asked."
     },
     "subject": "Medical-Surgical",
-    "topic": "Ventilator Management",
+    "topic": "Image-Based - X-ray",
     "day": 4,
     "difficulty": "High",
     "source": "Practice",
-    "year": "2018",
+    "year": "2017",
     "qtype": "factual"
   },
   {
@@ -311,15 +436,40 @@
     "correct": 1,
     "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Cut the umbilical cord\" is a plausible distractor but incorrect. The correct answer is B (\"Dry and stimulate the newborn\") — Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
       "B": "Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Administer oxytocin\" is a plausible distractor but incorrect. The correct answer is B (\"Dry and stimulate the newborn\") — Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
+      "D": "\"Deliver the placenta\" is a plausible distractor but incorrect. The correct answer is B (\"Dry and stimulate the newborn\") — Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes."
     },
     "subject": "OBG",
     "topic": "Immediate Postpartum",
     "day": 4,
     "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 355,
+    "question": "A woman at 28 weeks gestation is diagnosed with gestational diabetes. What is the priority teaching?",
+    "options": [
+      "Dietary modifications",
+      "Insulin administration",
+      "Exercise restrictions",
+      "Delivery planning"
+    ],
+    "correct": 0,
+    "explanation": "• Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes.\n• Most cases can be managed with diet alone.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone.",
+      "B": "\"Insulin administration\" is a plausible distractor but incorrect. The correct answer is A (\"Dietary modifications\") — Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone.",
+      "C": "\"Exercise restrictions\" is a plausible distractor but incorrect. The correct answer is A (\"Dietary modifications\") — Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone.",
+      "D": "\"Delivery planning\" is a plausible distractor but incorrect. The correct answer is A (\"Dietary modifications\") — Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 4,
+    "difficulty": "High",
     "source": "Practice",
     "year": "2022",
     "qtype": "factual"
@@ -336,9 +486,9 @@
     "correct": 3,
     "explanation": "• Apgar score of 3 indicates severe depression requiring immediate resuscitation.\n• Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Provide warmth\" is a plausible distractor but incorrect. The correct answer is D (\"Begin resuscitation\") — Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+      "B": "\"Suction airway\" is a plausible distractor but incorrect. The correct answer is D (\"Begin resuscitation\") — Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+      "C": "\"Administer oxygen\" is a plausible distractor but incorrect. The correct answer is D (\"Begin resuscitation\") — Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
       "D": "Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation."
     },
     "subject": "OBG",
@@ -347,6 +497,56 @@
     "difficulty": "Critical",
     "source": "Practice",
     "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 361,
+    "question": "A woman with ectopic pregnancy presents with severe abdominal pain. What is the priority assessment?",
+    "options": [
+      "Blood pressure",
+      "Abdominal examination",
+      "Urine pregnancy test",
+      "Ultrasound"
+    ],
+    "correct": 0,
+    "explanation": "• Ectopic pregnancy can cause rupture and hemorrhage.\n• Checking blood pressure assesses for shock.\n• This is a medical emergency requiring immediate intervention.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Ectopic pregnancy can cause rupture and hemorrhage. Checking blood pressure assesses for shock.",
+      "B": "\"Abdominal examination\" is a plausible distractor but incorrect. The correct answer is A (\"Blood pressure\") — Ectopic pregnancy can cause rupture and hemorrhage. Checking blood pressure assesses for shock.",
+      "C": "\"Urine pregnancy test\" is a plausible distractor but incorrect. The correct answer is A (\"Blood pressure\") — Ectopic pregnancy can cause rupture and hemorrhage. Checking blood pressure assesses for shock.",
+      "D": "\"Ultrasound\" is a plausible distractor but incorrect. The correct answer is A (\"Blood pressure\") — Ectopic pregnancy can cause rupture and hemorrhage. Checking blood pressure assesses for shock."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 371,
+    "question": "A newborn has jaundice at 24 hours of age. What does this indicate?",
+    "options": [
+      "Physiological jaundice",
+      "Pathological jaundice",
+      "Breastfeeding jaundice",
+      "Normal finding"
+    ],
+    "correct": 1,
+    "explanation": "• Jaundice appearing within 24 hours is pathological and requires investigation.\n• Physiological jaundice appears after 48-72 hours.\n• Early jaundice may indicate hemolytic disease or infection.",
+    "explanations": {
+      "A": "\"Physiological jaundice\" is a plausible distractor but incorrect. The correct answer is B (\"Pathological jaundice\") — Jaundice appearing within 24 hours is pathological and requires investigation. Physiological jaundice appears after 48-72 hours.",
+      "B": "Jaundice appearing within 24 hours is pathological and requires investigation. Physiological jaundice appears after 48-72 hours.",
+      "C": "\"Breastfeeding jaundice\" is a plausible distractor but incorrect. The correct answer is B (\"Pathological jaundice\") — Jaundice appearing within 24 hours is pathological and requires investigation. Physiological jaundice appears after 48-72 hours.",
+      "D": "\"Normal finding\" is a plausible distractor but incorrect. The correct answer is B (\"Pathological jaundice\") — Jaundice appearing within 24 hours is pathological and requires investigation. Physiological jaundice appears after 48-72 hours."
+    },
+    "subject": "OBG",
+    "topic": "Neonatal Conditions",
+    "day": 4,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2023",
     "qtype": "factual"
   },
   {
@@ -361,10 +561,10 @@
     "correct": 1,
     "explanation": "• Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia.\n• The 5 Apgar score is assessed at 1 and 5 minutes.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Cut the umbilical cord\" is a plausible distractor but incorrect. The correct answer is B (\"Dry and stimulate the newborn\") — Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
       "B": "Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Administer oxytocin\" is a plausible distractor but incorrect. The correct answer is B (\"Dry and stimulate the newborn\") — Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes.",
+      "D": "\"Deliver the placenta\" is a plausible distractor but incorrect. The correct answer is B (\"Dry and stimulate the newborn\") — Immediately after delivery, the priority is to dry and stimulate the newborn to establish breathing and prevent hypothermia. The 5 Apgar score is assessed at 1 and 5 minutes."
     },
     "subject": "OBG",
     "topic": "Immediate Postpartum",
@@ -372,6 +572,31 @@
     "difficulty": "Critical",
     "source": "Practice",
     "year": "2018",
+    "qtype": "factual"
+  },
+  {
+    "id": 380,
+    "question": "A woman at 28 weeks gestation is diagnosed with gestational diabetes. What is the priority teaching?",
+    "options": [
+      "Dietary modifications",
+      "Insulin administration",
+      "Exercise restrictions",
+      "Delivery planning"
+    ],
+    "correct": 0,
+    "explanation": "• Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes.\n• Most cases can be managed with diet alone.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "explanations": {
+      "A": "Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone.",
+      "B": "\"Insulin administration\" is a plausible distractor but incorrect. The correct answer is A (\"Dietary modifications\") — Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone.",
+      "C": "\"Exercise restrictions\" is a plausible distractor but incorrect. The correct answer is A (\"Dietary modifications\") — Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone.",
+      "D": "\"Delivery planning\" is a plausible distractor but incorrect. The correct answer is A (\"Dietary modifications\") — Dietary modifications (carbohydrate counting, meal timing) are the first-line treatment for gestational diabetes. Most cases can be managed with diet alone."
+    },
+    "subject": "OBG",
+    "topic": "Pregnancy Complications",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2021",
     "qtype": "factual"
   },
   {
@@ -386,9 +611,9 @@
     "correct": 3,
     "explanation": "• Apgar score of 3 indicates severe depression requiring immediate resuscitation.\n• Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Provide warmth\" is a plausible distractor but incorrect. The correct answer is D (\"Begin resuscitation\") — Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+      "B": "\"Suction airway\" is a plausible distractor but incorrect. The correct answer is D (\"Begin resuscitation\") — Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
+      "C": "\"Administer oxygen\" is a plausible distractor but incorrect. The correct answer is D (\"Begin resuscitation\") — Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation.",
       "D": "Apgar score of 3 indicates severe depression requiring immediate resuscitation. Follow NRP (Neonatal Resuscitation Program) protocol: airway, breathing, circulation."
     },
     "subject": "OBG",
@@ -412,9 +637,9 @@
     "explanation": "• Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort.\n• Assessed at 1 and 5 minutes after birth.\n• Understanding neonatal assessment equipment is critical for immediate newborn evaluation and identifying need for resuscitation.",
     "explanations": {
       "A": "Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort. Assessed at 1 and 5 minutes after birth.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"Blood pressure cuff\" is a plausible distractor but incorrect. The correct answer is A (\"Stethoscope and observation\") — Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort. Assessed at 1 and 5 minutes after birth.",
+      "C": "\"Thermometer only\" is a plausible distractor but incorrect. The correct answer is A (\"Stethoscope and observation\") — Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort. Assessed at 1 and 5 minutes after birth.",
+      "D": "\"No equipment needed\" is a plausible distractor but incorrect. The correct answer is A (\"Stethoscope and observation\") — Apgar score assessment requires stethoscope for heart rate and observation for color, tone, reflex, and respiratory effort. Assessed at 1 and 5 minutes after birth."
     },
     "subject": "OBG",
     "topic": "Neonatal Assessment Equipment",
@@ -423,31 +648,6 @@
     "source": "Practice",
     "year": "2018",
     "qtype": "factual"
-  },
-  {
-    "id": 390,
-    "question": "A 2-year-old child is brought to the emergency department with fever and difficulty breathing. What is the priority assessment?",
-    "options": [
-      "Temperature",
-      "Airway and breathing",
-      "Blood pressure",
-      "Weight"
-    ],
-    "correct": 1,
-    "explanation": "• In pediatric emergencies, airway and breathing are assessed first using the ABC approach.\n• Respiratory distress is common in children and can deteriorate rapidly.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "In pediatric emergencies, airway and breathing are assessed first using the ABC approach. Respiratory distress is common in children and can deteriorate rapidly.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Pediatric Assessment",
-    "day": 4,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
   },
   {
     "id": 391,
@@ -461,10 +661,10 @@
     "correct": 2,
     "explanation": "• Normal heart rate for infants (0-12 months) is 100-160 beats per minute.\n• Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"60-100 bpm\" is a plausible distractor but incorrect. The correct answer is C (\"100-160 bpm\") — Normal heart rate for infants (0-12 months) is 100-160 beats per minute. Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate.",
+      "B": "\"80-120 bpm\" is a plausible distractor but incorrect. The correct answer is C (\"100-160 bpm\") — Normal heart rate for infants (0-12 months) is 100-160 beats per minute. Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate.",
       "C": "Normal heart rate for infants (0-12 months) is 100-160 beats per minute. Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"120-180 bpm\" is a plausible distractor but incorrect. The correct answer is C (\"100-160 bpm\") — Normal heart rate for infants (0-12 months) is 100-160 beats per minute. Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate."
     },
     "subject": "Pediatric",
     "topic": "Vital Signs",
@@ -473,6 +673,56 @@
     "source": "Practice",
     "year": "2023",
     "qtype": "factual"
+  },
+  {
+    "id": 393,
+    "question": "What is the recommended immunization schedule for DPT (Diphtheria, Pertussis, Tetanus) in India?",
+    "options": [
+      "At birth, 6 weeks, 10 weeks, 14 weeks",
+      "At 6 weeks, 10 weeks, 14 weeks, 16-24 months",
+      "At 2 months, 4 months, 6 months",
+      "At 1 year only"
+    ],
+    "correct": 1,
+    "explanation": "• DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India.",
+    "explanations": {
+      "A": "\"At birth, 6 weeks, 10 weeks, 14 weeks\" is a plausible distractor but incorrect. The correct answer is B (\"At 6 weeks, 10 weeks, 14 weeks, 16-24 months\") — DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India.",
+      "B": "DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India.",
+      "C": "\"At 2 months, 4 months, 6 months\" is a plausible distractor but incorrect. The correct answer is B (\"At 6 weeks, 10 weeks, 14 weeks, 16-24 months\") — DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India.",
+      "D": "\"At 1 year only\" is a plausible distractor but incorrect. The correct answer is B (\"At 6 weeks, 10 weeks, 14 weeks, 16-24 months\") — DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India."
+    },
+    "subject": "Pediatric",
+    "topic": "Immunization",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2022",
+    "qtype": "factual"
+  },
+  {
+    "id": 394,
+    "question": "A 5-year-old child with asthma is using a metered-dose inhaler. What is the most important teaching?",
+    "options": [
+      "Use spacer device",
+      "Inhale quickly",
+      "Hold breath for 5 seconds",
+      "Use only when symptomatic"
+    ],
+    "correct": 0,
+    "explanation": "• Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects.\n• They make it easier for children to coordinate breathing.",
+    "explanations": {
+      "A": "Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects. They make it easier for children to coordinate breathing.",
+      "B": "\"Inhale quickly\" is a plausible distractor but incorrect. The correct answer is A (\"Use spacer device\") — Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects. They make it easier for children to coordinate breathing.",
+      "C": "\"Hold breath for 5 seconds\" is a plausible distractor but incorrect. The correct answer is A (\"Use spacer device\") — Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects. They make it easier for children to coordinate breathing.",
+      "D": "\"Use only when symptomatic\" is a plausible distractor but incorrect. The correct answer is A (\"Use spacer device\") — Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects. They make it easier for children to coordinate breathing."
+    },
+    "subject": "Pediatric",
+    "topic": "Respiratory Conditions",
+    "day": 4,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2023",
+    "qtype": "calculation"
   },
   {
     "id": 395,
@@ -486,10 +736,10 @@
     "correct": 2,
     "explanation": "• Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute.\n• Respiratory rates are higher in children than adults.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"12-20 breaths/min\" is a plausible distractor but incorrect. The correct answer is C (\"25-40 breaths/min\") — Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute. Respiratory rates are higher in children than adults.",
+      "B": "\"20-30 breaths/min\" is a plausible distractor but incorrect. The correct answer is C (\"25-40 breaths/min\") — Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute. Respiratory rates are higher in children than adults.",
       "C": "Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute. Respiratory rates are higher in children than adults.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"30-50 breaths/min\" is a plausible distractor but incorrect. The correct answer is C (\"25-40 breaths/min\") — Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute. Respiratory rates are higher in children than adults."
     },
     "subject": "Pediatric",
     "topic": "Vital Signs",
@@ -497,256 +747,6 @@
     "difficulty": "Medium",
     "source": "Practice",
     "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 396,
-    "question": "A 1-year-old child is diagnosed with intussusception. What is the classic clinical presentation?",
-    "options": [
-      "Projectile vomiting",
-      "Currant jelly stools",
-      "High-pitched cry",
-      "Bulging fontanelle"
-    ],
-    "correct": 1,
-    "explanation": "• Currant jelly stools (bloody, mucus-filled stools) are the classic sign of intussusception, along with colicky abdominal pain and vomiting.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Currant jelly stools (bloody, mucus-filled stools) are the classic sign of intussusception, along with colicky abdominal pain and vomiting.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Gastrointestinal Conditions",
-    "day": 4,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
-  },
-  {
-    "id": 397,
-    "question": "What is the priority nursing intervention for a child with febrile seizures?",
-    "options": [
-      "Restrain the child",
-      "Protect from injury",
-      "Insert oral airway",
-      "Administer antipyretics immediately"
-    ],
-    "correct": 1,
-    "explanation": "• During a seizure, the priority is to protect the child from injury by padding the area and removing hazards.\n• Never restrain or insert anything in the mouth.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "During a seizure, the priority is to protect the child from injury by padding the area and removing hazards. Never restrain or insert anything in the mouth.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Neurological Conditions",
-    "day": 4,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 398,
-    "question": "A 4-month-old infant is diagnosed with developmental hip dysplasia. What is the treatment?",
-    "options": [
-      "Surgery only",
-      "Pavlik harness",
-      "Physical therapy",
-      "Observation"
-    ],
-    "correct": 1,
-    "explanation": "• Pavlik harness is the first-line treatment for developmental hip dysplasia in infants.\n• It maintains the hip in proper position for normal development.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Pavlik harness is the first-line treatment for developmental hip dysplasia in infants. It maintains the hip in proper position for normal development.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Musculoskeletal Conditions",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 399,
-    "question": "What is the normal weight gain pattern for infants in the first 6 months?",
-    "options": [
-      "100-150 grams/week",
-      "150-200 grams/week",
-      "200-250 grams/week",
-      "250-300 grams/week"
-    ],
-    "correct": 1,
-    "explanation": "• Normal weight gain for infants in the first 6 months is approximately 150-200 grams per week.\n• This doubles birth weight by 6 months.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Normal weight gain for infants in the first 6 months is approximately 150-200 grams per week. This doubles birth weight by 6 months.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Growth and Development",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 400,
-    "question": "A 6-year-old child with type 1 diabetes is experiencing hypoglycemia. What is the immediate treatment?",
-    "options": [
-      "Administer insulin",
-      "Give 15g fast-acting carbohydrate",
-      "Encourage rest",
-      "Check blood glucose in 1 hour"
-    ],
-    "correct": 1,
-    "explanation": "• Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice).\n• Recheck blood glucose in 15 minutes.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice). Recheck blood glucose in 15 minutes.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Endocrine Conditions",
-    "day": 4,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 401,
-    "question": "What is the recommended age for starting complementary feeding in infants?",
-    "options": [
-      "2-3 months",
-      "4-6 months",
-      "6-8 months",
-      "8-10 months"
-    ],
-    "correct": 1,
-    "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding.\n• Some infants may be ready at 4-6 months with signs of readiness.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "WHO recommends starting complementary feeding at 6 months while continuing breastfeeding. Some infants may be ready at 4-6 months with signs of readiness.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Nutrition",
-    "day": 4,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 403,
-    "question": "What is the normal blood pressure for a 5-year-old child?",
-    "options": [
-      "70/40 mmHg",
-      "90/50 mmHg",
-      "100/60 mmHg",
-      "110/70 mmHg"
-    ],
-    "correct": 1,
-    "explanation": "• Normal blood pressure for a 5-year-old is approximately 90/50 mmHg.\n• Blood pressure increases with age.\n• Use age-appropriate cuff size for accurate measurement.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Normal blood pressure for a 5-year-old is approximately 90/50 mmHg. Blood pressure increases with age.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Vital Signs",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 405,
-    "question": "What is the normal head circumference growth rate for infants in first year?",
-    "options": [
-      "0.5 cm/month",
-      "1 cm/month",
-      "1.5 cm/month",
-      "2 cm/month"
-    ],
-    "correct": 1,
-    "explanation": "• Normal head circumference increases by approximately 1 cm per month in the first year.\n• Rapid or slow growth may indicate neurological problems.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Normal head circumference increases by approximately 1 cm per month in the first year. Rapid or slow growth may indicate neurological problems.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Growth and Development",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 407,
-    "question": "What is the recommended position for feeding a premature infant?",
-    "options": [
-      "Supine",
-      "Prone",
-      "Side-lying",
-      "Upright"
-    ],
-    "correct": 2,
-    "explanation": "• Side-lying position during feeding helps prevent aspiration in premature infants.\n• After feeding, place on back for sleep to reduce SIDS risk.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Side-lying position during feeding helps prevent aspiration in premature infants. After feeding, place on back for sleep to reduce SIDS risk.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Neonatal Care",
-    "day": 4,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 409,
-    "question": "What is the normal temperature range for infants?",
-    "options": [
-      "36.1-37.2°C",
-      "36.5-37.5°C",
-      "37.0-38.0°C",
-      "37.5-38.5°C"
-    ],
-    "correct": 1,
-    "explanation": "• Normal body temperature for infants is 36.5-37.5°C (97.7-99.5°F).\n• Infants have less ability to regulate temperature than adults.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Normal body temperature for infants is 36.5-37.5°C (97.7-99.5°F). Infants have less ability to regulate temperature than adults.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Pediatric",
-    "topic": "Vital Signs",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
     "qtype": "factual"
   }
 ]

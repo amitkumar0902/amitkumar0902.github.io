@@ -1,30 +1,5 @@
 [
   {
-    "id": 513,
-    "question": "Yellow bio-medical waste bag is used for:",
-    "options": [
-      "General waste",
-      "Infectious/pathological/certain contaminated wastes per BMW rules",
-      "Radioactive waste",
-      "Sharps"
-    ],
-    "correct": 1,
-    "explanation": "• BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual).\n• Follow latest national guidelines.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Mixed",
-    "topic": "Community / Legal",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
     "id": 10,
     "question": "Yellow-coded BMW bag contains:",
     "options": [
@@ -100,6 +75,106 @@
     "qtype": "factual"
   },
   {
+    "id": 497,
+    "question": "Whole blood stored in blood bank is typically kept at approximately:",
+    "options": [
+      "0°C",
+      "2–6°C",
+      "15°C",
+      "25°C"
+    ],
+    "correct": 1,
+    "explanation": "• RBC storage: 2–6°C is standard cold chain.\n• Frequently asked in competitive nursing exams.",
+    "explanations": {
+      "A": "\"0°C\" is a plausible distractor but incorrect. The correct answer is B (\"2–6°C\") — RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams.",
+      "B": "RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams.",
+      "C": "\"15°C\" is a plausible distractor but incorrect. The correct answer is B (\"2–6°C\") — RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams.",
+      "D": "\"25°C\" is a plausible distractor but incorrect. The correct answer is B (\"2–6°C\") — RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams."
+    },
+    "subject": "Mixed",
+    "topic": "Med-Surg",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 499,
+    "question": "Honey should be introduced in infant weaning typically:",
+    "options": [
+      "Before 6 months",
+      "After 12 months",
+      "Only day 1 of life",
+      "Never"
+    ],
+    "correct": 1,
+    "explanation": "• Honey is avoided <12 months due to infant botulism risk.\n• Aligns with common PYQ discussions.",
+    "explanations": {
+      "A": "\"Before 6 months\" is a plausible distractor but incorrect. The correct answer is B (\"After 12 months\") — Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions.",
+      "B": "Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions.",
+      "C": "\"Only day 1 of life\" is a plausible distractor but incorrect. The correct answer is B (\"After 12 months\") — Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions.",
+      "D": "\"Never\" is a plausible distractor but incorrect. The correct answer is B (\"After 12 months\") — Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions."
+    },
+    "subject": "Mixed",
+    "topic": "Pediatric",
+    "day": 7,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 512,
+    "question": "Hand rub with alcohol-based sanitizer effective duration commonly taught:",
+    "options": [
+      "5 seconds",
+      "20–30 seconds until dry",
+      "2 minutes always",
+      "1 hour"
+    ],
+    "correct": 1,
+    "explanation": "• WHO: rub until dry, ~20–30 seconds.\n• Fundamentals high yield.",
+    "explanations": {
+      "A": "\"5 seconds\" is a plausible distractor but incorrect. The correct answer is B (\"20–30 seconds until dry\") — WHO: rub until dry, ~20–30 seconds. Fundamentals high yield.",
+      "B": "WHO: rub until dry, ~20–30 seconds. Fundamentals high yield.",
+      "C": "\"2 minutes always\" is a plausible distractor but incorrect. The correct answer is B (\"20–30 seconds until dry\") — WHO: rub until dry, ~20–30 seconds. Fundamentals high yield.",
+      "D": "\"1 hour\" is a plausible distractor but incorrect. The correct answer is B (\"20–30 seconds until dry\") — WHO: rub until dry, ~20–30 seconds. Fundamentals high yield."
+    },
+    "subject": "Mixed",
+    "topic": "Infection Control",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 513,
+    "question": "Yellow bio-medical waste bag is used for:",
+    "options": [
+      "General waste",
+      "Infectious/pathological/certain contaminated wastes per BMW rules",
+      "Radioactive waste",
+      "Sharps"
+    ],
+    "correct": 1,
+    "explanation": "• BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual).\n• Follow latest national guidelines.",
+    "explanations": {
+      "A": "\"General waste\" is a plausible distractor but incorrect. The correct answer is B (\"Infectious/pathological/certain contaminated wastes per BMW rules\") — BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
+      "B": "BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
+      "C": "\"Radioactive waste\" is a plausible distractor but incorrect. The correct answer is B (\"Infectious/pathological/certain contaminated wastes per BMW rules\") — BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
+      "D": "\"Sharps\" is a plausible distractor but incorrect. The correct answer is B (\"Infectious/pathological/certain contaminated wastes per BMW rules\") — BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines."
+    },
+    "subject": "Mixed",
+    "topic": "Community / Legal",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2022",
+    "qtype": "factual"
+  },
+  {
     "id": 140,
     "question": "First-line drug for anaphylaxis:",
     "options": [
@@ -111,10 +186,10 @@
     "correct": 1,
     "explanation": "• First aid / emergency nursing for NORCET.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Oral antihistamine only\" is a plausible distractor but incorrect. The correct answer is B (\"IM adrenaline (epinephrine)\") — First aid / emergency nursing for NORCET.",
       "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"IV beta blocker\" is a plausible distractor but incorrect. The correct answer is B (\"IM adrenaline (epinephrine)\") — First aid / emergency nursing for NORCET.",
+      "D": "\"Oral steroid only\" is a plausible distractor but incorrect. The correct answer is B (\"IM adrenaline (epinephrine)\") — First aid / emergency nursing for NORCET."
     },
     "subject": "Fundamentals",
     "topic": "Anaphylaxis",
@@ -136,13 +211,38 @@
     "correct": 1,
     "explanation": "• First aid / emergency nursing for NORCET.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"10 g/dL\" is a plausible distractor but incorrect. The correct answer is B (\"12 g/dL\") — First aid / emergency nursing for NORCET.",
       "B": "First aid / emergency nursing for NORCET.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"14 g/dL\" is a plausible distractor but incorrect. The correct answer is B (\"12 g/dL\") — First aid / emergency nursing for NORCET.",
+      "D": "\"8 g/dL\" is a plausible distractor but incorrect. The correct answer is B (\"12 g/dL\") — First aid / emergency nursing for NORCET."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
+    "day": 7,
+    "difficulty": "Hard",
+    "source": "Practice",
+    "year": null,
+    "qtype": "factual"
+  },
+  {
+    "id": 142,
+    "question": "Open fracture priority includes:",
+    "options": [
+      "Immediate ROM exercises",
+      "Cover with sterile dressing, immobilize, urgent care",
+      "Massage the wound",
+      "Apply heat"
+    ],
+    "correct": 1,
+    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanations": {
+      "A": "\"Immediate ROM exercises\" is a plausible distractor but incorrect. The correct answer is B (\"Cover with sterile dressing, immobilize, urgent care\") — First aid / emergency nursing for NORCET.",
+      "B": "First aid / emergency nursing for NORCET.",
+      "C": "\"Massage the wound\" is a plausible distractor but incorrect. The correct answer is B (\"Cover with sterile dressing, immobilize, urgent care\") — First aid / emergency nursing for NORCET.",
+      "D": "\"Apply heat\" is a plausible distractor but incorrect. The correct answer is B (\"Cover with sterile dressing, immobilize, urgent care\") — First aid / emergency nursing for NORCET."
+    },
+    "subject": "Fundamentals",
+    "topic": "Fractures",
     "day": 7,
     "difficulty": "Hard",
     "source": "Practice",
@@ -161,10 +261,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -186,10 +286,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -211,10 +311,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -236,10 +336,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -261,10 +361,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -286,10 +386,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -311,10 +411,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -336,10 +436,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -361,10 +461,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -386,10 +486,10 @@
     "correct": 1,
     "explanation": "• Thrombocytopenia increases bleeding risk.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
       "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
+      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
     },
     "subject": "Fundamentals",
     "topic": "Labs",
@@ -411,10 +511,10 @@
     "correct": 1,
     "explanation": "• The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation.\n• This systematic approach ensures comprehensive patient care.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Assessment, Planning, Diagnosis, Implementation, Evaluation\" is a plausible distractor but incorrect. The correct answer is B (\"Assessment, Diagnosis, Planning, Implementation, Evaluation\") — The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care.",
       "B": "The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Diagnosis, Assessment, Planning, Implementation, Evaluation\" is a plausible distractor but incorrect. The correct answer is B (\"Assessment, Diagnosis, Planning, Implementation, Evaluation\") — The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care.",
+      "D": "\"Planning, Assessment, Diagnosis, Implementation, Evaluation\" is a plausible distractor but incorrect. The correct answer is B (\"Assessment, Diagnosis, Planning, Implementation, Evaluation\") — The correct sequence is ADPIE: Assessment, Diagnosis, Planning, Implementation, Evaluation. This systematic approach ensures comprehensive patient care."
     },
     "subject": "Fundamentals",
     "topic": "Nursing Process",
@@ -436,10 +536,10 @@
     "correct": 1,
     "explanation": "• Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry.\n• This is the WHO recommended duration for effective hand hygiene.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"10-15 seconds\" is a plausible distractor but incorrect. The correct answer is B (\"20-30 seconds\") — Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
       "B": "Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"40-60 seconds\" is a plausible distractor but incorrect. The correct answer is B (\"20-30 seconds\") — Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene.",
+      "D": "\"2-3 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"20-30 seconds\") — Alcohol-based hand rub requires 20-30 seconds of rubbing until hands are dry. This is the WHO recommended duration for effective hand hygiene."
     },
     "subject": "Fundamentals",
     "topic": "Infection Control",
@@ -447,6 +547,31 @@
     "difficulty": "Critical",
     "source": "Practice",
     "year": "2023",
+    "qtype": "factual"
+  },
+  {
+    "id": 157,
+    "question": "Which vital sign should be assessed first in an emergency situation?",
+    "options": [
+      "Blood pressure",
+      "Temperature",
+      "Respiratory rate",
+      "Pulse rate"
+    ],
+    "correct": 2,
+    "explanation": "• In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach.\n• Airway and breathing take priority.",
+    "explanations": {
+      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is C (\"Respiratory rate\") — In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
+      "B": "\"Temperature\" is a plausible distractor but incorrect. The correct answer is C (\"Respiratory rate\") — In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
+      "C": "In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority.",
+      "D": "\"Pulse rate\" is a plausible distractor but incorrect. The correct answer is C (\"Respiratory rate\") — In emergency situations, respiratory rate is assessed first using the ABC (Airway, Breathing, Circulation) approach. Airway and breathing take priority."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital Signs",
+    "day": 7,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
     "qtype": "factual"
   },
   {
@@ -461,10 +586,10 @@
     "correct": 2,
     "explanation": "• Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"45 degrees\" is a plausible distractor but incorrect. The correct answer is C (\"90 degrees\") — Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
+      "B": "\"60 degrees\" is a plausible distractor but incorrect. The correct answer is C (\"90 degrees\") — Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
       "C": "Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"30 degrees\" is a plausible distractor but incorrect. The correct answer is C (\"90 degrees\") — Intramuscular injections should be given at a 90-degree angle to ensure the medication reaches the muscle tissue, not subcutaneous tissue."
     },
     "subject": "Fundamentals",
     "topic": "Medication Administration",
@@ -486,10 +611,10 @@
     "correct": 1,
     "explanation": "• High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Supine\" is a plausible distractor but incorrect. The correct answer is B (\"High Fowler's position\") — High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
       "B": "High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Trendelenburg\" is a plausible distractor but incorrect. The correct answer is B (\"High Fowler's position\") — High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing.",
+      "D": "\"Lateral\" is a plausible distractor but incorrect. The correct answer is B (\"High Fowler's position\") — High Fowler's position (sitting upright at 90 degrees) maximizes lung expansion and reduces pressure on the diaphragm, improving breathing."
     },
     "subject": "Fundamentals",
     "topic": "Patient Positioning",
@@ -512,9 +637,9 @@
     "explanation": "• Normal adult blood pressure is typically 90/60 to 120/80 mmHg.\n• Values above 120/80 are considered elevated or hypertensive.",
     "explanations": {
       "A": "Normal adult blood pressure is typically 90/60 to 120/80 mmHg. Values above 120/80 are considered elevated or hypertensive.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"100/70 - 130/85 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"90/60 - 120/80 mmHg\") — Normal adult blood pressure is typically 90/60 to 120/80 mmHg. Values above 120/80 are considered elevated or hypertensive.",
+      "C": "\"110/75 - 140/90 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"90/60 - 120/80 mmHg\") — Normal adult blood pressure is typically 90/60 to 120/80 mmHg. Values above 120/80 are considered elevated or hypertensive.",
+      "D": "\"120/80 - 140/90 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"90/60 - 120/80 mmHg\") — Normal adult blood pressure is typically 90/60 to 120/80 mmHg. Values above 120/80 are considered elevated or hypertensive."
     },
     "subject": "Fundamentals",
     "topic": "Vital Signs",
@@ -536,10 +661,10 @@
     "correct": 2,
     "explanation": "• Tuberculosis requires airborne isolation because the bacteria can remain suspended in air for long periods.\n• N95 respirator masks are required.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Contact isolation\" is a plausible distractor but incorrect. The correct answer is C (\"Airborne isolation\") — Tuberculosis requires airborne isolation because the bacteria can remain suspended in air for long periods. N95 respirator masks are required.",
+      "B": "\"Droplet isolation\" is a plausible distractor but incorrect. The correct answer is C (\"Airborne isolation\") — Tuberculosis requires airborne isolation because the bacteria can remain suspended in air for long periods. N95 respirator masks are required.",
       "C": "Tuberculosis requires airborne isolation because the bacteria can remain suspended in air for long periods. N95 respirator masks are required.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"Standard precautions only\" is a plausible distractor but incorrect. The correct answer is C (\"Airborne isolation\") — Tuberculosis requires airborne isolation because the bacteria can remain suspended in air for long periods. N95 respirator masks are required."
     },
     "subject": "Fundamentals",
     "topic": "Infection Control",
@@ -561,10 +686,10 @@
     "correct": 1,
     "explanation": "• The blood pressure cuff should cover 80% of the arm circumference for accurate readings.\n• Too small or too large cuffs give inaccurate results.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Cuff should cover 40% of arm circumference\" is a plausible distractor but incorrect. The correct answer is B (\"Cuff should cover 80% of arm circumference\") — The blood pressure cuff should cover 80% of the arm circumference for accurate readings. Too small or too large cuffs give inaccurate results.",
       "B": "The blood pressure cuff should cover 80% of the arm circumference for accurate readings. Too small or too large cuffs give inaccurate results.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Cuff should cover 100% of arm circumference\" is a plausible distractor but incorrect. The correct answer is B (\"Cuff should cover 80% of arm circumference\") — The blood pressure cuff should cover 80% of the arm circumference for accurate readings. Too small or too large cuffs give inaccurate results.",
+      "D": "\"Cuff size doesn't matter\" is a plausible distractor but incorrect. The correct answer is B (\"Cuff should cover 80% of arm circumference\") — The blood pressure cuff should cover 80% of the arm circumference for accurate readings. Too small or too large cuffs give inaccurate results."
     },
     "subject": "Fundamentals",
     "topic": "Vital Signs",
@@ -586,10 +711,10 @@
     "correct": 2,
     "explanation": "• Using leg muscles while keeping the back straight distributes weight properly and prevents back injury.\n• Feet should be apart for stability.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Keep feet together\" is a plausible distractor but incorrect. The correct answer is C (\"Use leg muscles, keep back straight\") — Using leg muscles while keeping the back straight distributes weight properly and prevents back injury. Feet should be apart for stability.",
+      "B": "\"Bend at the waist\" is a plausible distractor but incorrect. The correct answer is C (\"Use leg muscles, keep back straight\") — Using leg muscles while keeping the back straight distributes weight properly and prevents back injury. Feet should be apart for stability.",
       "C": "Using leg muscles while keeping the back straight distributes weight properly and prevents back injury. Feet should be apart for stability.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"Lift quickly\" is a plausible distractor but incorrect. The correct answer is C (\"Use leg muscles, keep back straight\") — Using leg muscles while keeping the back straight distributes weight properly and prevents back injury. Feet should be apart for stability."
     },
     "subject": "Fundamentals",
     "topic": "Body Mechanics",
@@ -611,10 +736,10 @@
     "correct": 2,
     "explanation": "• Subcutaneous injections are given in fatty tissue.\n• The abdomen (2 inches from umbilicus) is a common site, along with upper arm and thigh.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Deltoid muscle\" is a plausible distractor but incorrect. The correct answer is C (\"Abdomen, 2 inches from umbilicus\") — Subcutaneous injections are given in fatty tissue. The abdomen (2 inches from umbilicus) is a common site, along with upper arm and thigh.",
+      "B": "\"Vastus lateralis\" is a plausible distractor but incorrect. The correct answer is C (\"Abdomen, 2 inches from umbilicus\") — Subcutaneous injections are given in fatty tissue. The abdomen (2 inches from umbilicus) is a common site, along with upper arm and thigh.",
       "C": "Subcutaneous injections are given in fatty tissue. The abdomen (2 inches from umbilicus) is a common site, along with upper arm and thigh.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"Gluteus maximus\" is a plausible distractor but incorrect. The correct answer is C (\"Abdomen, 2 inches from umbilicus\") — Subcutaneous injections are given in fatty tissue. The abdomen (2 inches from umbilicus) is a common site, along with upper arm and thigh."
     },
     "subject": "Fundamentals",
     "topic": "Medication Administration",
@@ -622,131 +747,6 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 165,
-    "question": "Which communication technique is therapeutic?",
-    "options": [
-      "Giving advice",
-      "False reassurance",
-      "Active listening",
-      "Changing the subject"
-    ],
-    "correct": 2,
-    "explanation": "• Active listening is a therapeutic communication technique that shows respect and allows patients to express themselves.\n• Other options are non-therapeutic.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Active listening is a therapeutic communication technique that shows respect and allows patients to express themselves. Other options are non-therapeutic.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Communication",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 166,
-    "question": "What is the normal adult respiratory rate?",
-    "options": [
-      "10-15 breaths/min",
-      "12-20 breaths/min",
-      "20-25 breaths/min",
-      "25-30 breaths/min"
-    ],
-    "correct": 1,
-    "explanation": "• Normal adult respiratory rate is 12-20 breaths per minute.\n• Rates outside this range may indicate respiratory distress or other conditions.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Normal adult respiratory rate is 12-20 breaths per minute. Rates outside this range may indicate respiratory distress or other conditions.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Vital Signs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 167,
-    "question": "Which sterilization method is used for heat-sensitive items?",
-    "options": [
-      "Autoclaving",
-      "Boiling",
-      "Chemical sterilization",
-      "Dry heat"
-    ],
-    "correct": 2,
-    "explanation": "• Chemical sterilization (ethylene oxide, hydrogen peroxide) is used for heat-sensitive items.\n• Autoclaving uses steam and high heat.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Chemical sterilization (ethylene oxide, hydrogen peroxide) is used for heat-sensitive items. Autoclaving uses steam and high heat.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Infection Control",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 169,
-    "question": "Which documentation format is most commonly used in nursing?",
-    "options": [
-      "SOAP",
-      "PIE",
-      "DAR",
-      "Narrative"
-    ],
-    "correct": 0,
-    "explanation": "• SOAP (Subjective, Objective, Assessment, Plan) is the most commonly used documentation format in nursing, providing structured documentation.",
-    "explanations": {
-      "A": "SOAP (Subjective, Objective, Assessment, Plan) is the most commonly used documentation format in nursing, providing structured documentation.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Documentation",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 171,
-    "question": "Which position prevents pressure ulcers on the sacrum?",
-    "options": [
-      "Supine",
-      "Prone",
-      "Lateral",
-      "Sitting"
-    ],
-    "correct": 2,
-    "explanation": "• Lateral position relieves pressure on the sacrum.\n• Regular position changes (every 2 hours) are essential to prevent pressure ulcers.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Lateral position relieves pressure on the sacrum. Regular position changes (every 2 hours) are essential to prevent pressure ulcers.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "Fundamentals",
-    "topic": "Patient Positioning",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
     "qtype": "factual"
   }
 ]

@@ -150,6 +150,256 @@
     "qtype": "factual"
   },
   {
+    "id": 496,
+    "question": "Hysterosalpingogram (HSG) primarily uses which type of radiation imaging?",
+    "options": [
+      "MRI",
+      "X-ray with contrast",
+      "Ultrasound only",
+      "CT PET"
+    ],
+    "correct": 1,
+    "explanation": "• HSG is an X-ray fluoroscopic study with contrast to assess tubal patency.\n• Memory-based NORCET theme.",
+    "explanations": {
+      "A": "\"MRI\" is a plausible distractor but incorrect. The correct answer is B (\"X-ray with contrast\") — HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme.",
+      "B": "HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme.",
+      "C": "\"Ultrasound only\" is a plausible distractor but incorrect. The correct answer is B (\"X-ray with contrast\") — HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme.",
+      "D": "\"CT PET\" is a plausible distractor but incorrect. The correct answer is B (\"X-ray with contrast\") — HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme."
+    },
+    "subject": "Mixed",
+    "topic": "OBG / Radiology",
+    "day": 3,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 510,
+    "question": "MTP Act (as commonly tested) allows termination up to:",
+    "options": [
+      "12 weeks only",
+      "20 weeks",
+      "24 weeks in many specified situations",
+      "36 weeks"
+    ],
+    "correct": 2,
+    "explanation": "• Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context.\n• Cross-check latest statute for your exam cycle.",
+    "explanations": {
+      "A": "\"12 weeks only\" is a plausible distractor but incorrect. The correct answer is C (\"24 weeks in many specified situations\") — Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle.",
+      "B": "\"20 weeks\" is a plausible distractor but incorrect. The correct answer is C (\"24 weeks in many specified situations\") — Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle.",
+      "C": "Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle.",
+      "D": "\"36 weeks\" is a plausible distractor but incorrect. The correct answer is C (\"24 weeks in many specified situations\") — Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle."
+    },
+    "subject": "Mixed",
+    "topic": "OBG / Legal",
+    "day": 3,
+    "difficulty": "Hard",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 511,
+    "question": "Spinal anesthesia monitoring should especially watch for:",
+    "options": [
+      "Hypertension only",
+      "Hypotension and bradycardia",
+      "Hyperglycemia",
+      "Seizures only"
+    ],
+    "correct": 1,
+    "explanation": "• Sympathetic block → hypotension/bradycardia common.\n• NORCET clinical theme.",
+    "explanations": {
+      "A": "\"Hypertension only\" is a plausible distractor but incorrect. The correct answer is B (\"Hypotension and bradycardia\") — Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
+      "B": "Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
+      "C": "\"Hyperglycemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hypotension and bradycardia\") — Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
+      "D": "\"Seizures only\" is a plausible distractor but incorrect. The correct answer is B (\"Hypotension and bradycardia\") — Sympathetic block → hypotension/bradycardia common. NORCET clinical theme."
+    },
+    "subject": "Mixed",
+    "topic": "Perioperative",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 2023 (memory-based)",
+    "qtype": "factual"
+  },
+  {
+    "id": 234,
+    "question": "A patient with pulmonary embolism is receiving alteplase (tPA). What is the most critical monitoring?",
+    "options": [
+      "Blood pressure",
+      "Signs of bleeding",
+      "Oxygen saturation",
+      "Heart rate"
+    ],
+    "correct": 1,
+    "explanation": "• tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk.\n• Continuous monitoring for signs of bleeding is critical.",
+    "explanations": {
+      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
+      "B": "tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
+      "C": "\"Oxygen saturation\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
+      "D": "\"Heart rate\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Respiratory System",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "scenario"
+  },
+  {
+    "id": 237,
+    "question": "A patient with esophageal varices is at risk for which complication?",
+    "options": [
+      "Aspiration",
+      "Upper GI bleeding",
+      "Perforation",
+      "Obstruction"
+    ],
+    "correct": 1,
+    "explanation": "• Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+    "explanations": {
+      "A": "\"Aspiration\" is a plausible distractor but incorrect. The correct answer is B (\"Upper GI bleeding\") — Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+      "B": "Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+      "C": "\"Perforation\" is a plausible distractor but incorrect. The correct answer is B (\"Upper GI bleeding\") — Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+      "D": "\"Obstruction\" is a plausible distractor but incorrect. The correct answer is B (\"Upper GI bleeding\") — Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Gastrointestinal System",
+    "day": 3,
+    "difficulty": "Critical",
+    "source": "Practice",
+    "year": "2024",
+    "qtype": "factual"
+  },
+  {
+    "id": 248,
+    "question": "A patient with Crohn's disease is experiencing a flare-up. What dietary modification is most appropriate?",
+    "options": [
+      "High fiber diet",
+      "Low residue diet",
+      "High protein diet",
+      "High fat diet"
+    ],
+    "correct": 1,
+    "explanation": "• During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms.\n• High fiber can worsen inflammation.",
+    "explanations": {
+      "A": "\"High fiber diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low residue diet\") — During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation.",
+      "B": "During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation.",
+      "C": "\"High protein diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low residue diet\") — During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation.",
+      "D": "\"High fat diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low residue diet\") — During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Gastrointestinal System",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2019",
+    "qtype": "scenario"
+  },
+  {
+    "id": 256,
+    "question": "A patient with acute kidney injury has a serum creatinine of 4.5 mg/dL. What stage of AKI is this?",
+    "options": [
+      "Stage 1",
+      "Stage 2",
+      "Stage 3",
+      "Stage 4"
+    ],
+    "correct": 2,
+    "explanation": "• AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
+    "explanations": {
+      "A": "\"Stage 1\" is a plausible distractor but incorrect. The correct answer is C (\"Stage 3\") — AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
+      "B": "\"Stage 2\" is a plausible distractor but incorrect. The correct answer is C (\"Stage 3\") — AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
+      "C": "AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
+      "D": "\"Stage 4\" is a plausible distractor but incorrect. The correct answer is C (\"Stage 3\") — AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Renal System",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2017",
+    "qtype": "scenario"
+  },
+  {
+    "id": 259,
+    "question": "A patient with acute pancreatitis has elevated serum amylase. What is the normal range?",
+    "options": [
+      "20-100 U/L",
+      "30-110 U/L",
+      "40-140 U/L",
+      "50-150 U/L"
+    ],
+    "correct": 1,
+    "explanation": "• Normal serum amylase is 30-110 U/L.\n• In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
+    "explanations": {
+      "A": "\"20-100 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
+      "B": "Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
+      "C": "\"40-140 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
+      "D": "\"50-150 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Gastrointestinal System",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2020",
+    "qtype": "factual"
+  },
+  {
+    "id": 260,
+    "question": "A patient with ARDS is receiving prone positioning. What is the primary benefit?",
+    "options": [
+      "Improved comfort",
+      "Better oxygenation",
+      "Reduced pressure ulcers",
+      "Easier suctioning"
+    ],
+    "correct": 1,
+    "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+    "explanations": {
+      "A": "\"Improved comfort\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+      "B": "Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+      "C": "\"Reduced pressure ulcers\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
+      "D": "\"Easier suctioning\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Critical Care",
+    "day": 3,
+    "difficulty": "High",
+    "source": "Practice",
+    "year": "2021",
+    "qtype": "factual"
+  },
+  {
+    "id": 271,
+    "question": "A patient with acute pancreatitis has elevated serum amylase. What is the normal range?",
+    "options": [
+      "20-100 U/L",
+      "30-110 U/L",
+      "40-140 U/L",
+      "50-150 U/L"
+    ],
+    "correct": 1,
+    "explanation": "• Normal serum amylase is 30-110 U/L.\n• In acute pancreatitis, levels are typically 3-10 times the upper limit.\n• Elevated amylase helps diagnose pancreatitis, though lipase is more specific.\n• Understanding lab values is essential for interpreting diagnostic tests and assessing disease severity.",
+    "explanations": {
+      "A": "\"20-100 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit.",
+      "B": "Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit.",
+      "C": "\"40-140 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit.",
+      "D": "\"50-150 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Gastrointestinal - Lab Values",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "Practice",
+    "year": "2019",
+    "qtype": "factual"
+  },
+  {
     "id": 349,
     "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
     "options": [
@@ -162,9 +412,9 @@
     "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
     "explanations": {
       "A": "Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"Administer pain medication\" is a plausible distractor but incorrect. The correct answer is A (\"Check blood pressure\") — Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
+      "C": "\"Encourage rest\" is a plausible distractor but incorrect. The correct answer is A (\"Check blood pressure\") — Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
+      "D": "\"Schedule routine appointment\" is a plausible distractor but incorrect. The correct answer is A (\"Check blood pressure\") — Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion."
     },
     "subject": "OBG",
     "topic": "Pregnancy Complications",
@@ -186,10 +436,10 @@
     "correct": 1,
     "explanation": "• Normal fetal heart rate is 110-160 beats per minute.\n• Rates outside this range may indicate fetal distress and require immediate intervention.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"100-120 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110-160 bpm\") — Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
       "B": "Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"120-180 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110-160 bpm\") — Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
+      "D": "\"140-200 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110-160 bpm\") — Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention."
     },
     "subject": "OBG",
     "topic": "Intrapartum Care",
@@ -212,9 +462,9 @@
     "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
     "explanations": {
       "A": "Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"Inadequate pain relief\" is a plausible distractor but incorrect. The correct answer is A (\"Cephalopelvic disproportion\") — Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
+      "C": "\"Maternal fatigue\" is a plausible distractor but incorrect. The correct answer is A (\"Cephalopelvic disproportion\") — Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
+      "D": "\"Fetal position\" is a plausible distractor but incorrect. The correct answer is A (\"Cephalopelvic disproportion\") — Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery."
     },
     "subject": "OBG",
     "topic": "Labor Complications",
@@ -237,9 +487,9 @@
     "explanation": "• Uterine massage helps contract the uterus and control bleeding.\n• This is the first intervention for postpartum hemorrhage.\n• Then assess for other causes if bleeding continues.",
     "explanations": {
       "A": "Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"Check vital signs\" is a plausible distractor but incorrect. The correct answer is A (\"Massage the fundus\") — Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
+      "C": "\"Administer oxytocin\" is a plausible distractor but incorrect. The correct answer is A (\"Massage the fundus\") — Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
+      "D": "\"Prepare for surgery\" is a plausible distractor but incorrect. The correct answer is A (\"Massage the fundus\") — Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage."
     },
     "subject": "OBG",
     "topic": "Postpartum Complications",
@@ -261,10 +511,10 @@
     "correct": 1,
     "explanation": "• WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia.\n• This should start in the second trimester and continue postpartum.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"30 mg elemental iron daily\" is a plausible distractor but incorrect. The correct answer is B (\"60 mg elemental iron daily\") — WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
       "B": "WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"100 mg elemental iron daily\" is a plausible distractor but incorrect. The correct answer is B (\"60 mg elemental iron daily\") — WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
+      "D": "\"Iron only if anemic\" is a plausible distractor but incorrect. The correct answer is B (\"60 mg elemental iron daily\") — WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum."
     },
     "subject": "OBG",
     "topic": "Antenatal Care",
@@ -286,10 +536,10 @@
     "correct": 2,
     "explanation": "• First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"2-4 hours\" is a plausible distractor but incorrect. The correct answer is C (\"12-18 hours\") — First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
+      "B": "\"6-12 hours\" is a plausible distractor but incorrect. The correct answer is C (\"12-18 hours\") — First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
       "C": "First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"18-24 hours\" is a plausible distractor but incorrect. The correct answer is C (\"12-18 hours\") — First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida."
     },
     "subject": "OBG",
     "topic": "Labor Stages",
@@ -311,10 +561,10 @@
     "correct": 1,
     "explanation": "• Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery.\n• This allows early detection of complications.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Monthly until 28 weeks, then biweekly\" is a plausible distractor but incorrect. The correct answer is B (\"Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly\") — Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
       "B": "Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Every 2 weeks throughout\" is a plausible distractor but incorrect. The correct answer is B (\"Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly\") — Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
+      "D": "\"Only when problems occur\" is a plausible distractor but incorrect. The correct answer is B (\"Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly\") — Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications."
     },
     "subject": "OBG",
     "topic": "Antenatal Care",
@@ -336,10 +586,10 @@
     "correct": 1,
     "explanation": "• Placenta previa requires bed rest to prevent bleeding.\n• Monitor for signs of hemorrhage.\n• Delivery is planned when fetus is mature or if bleeding is severe.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Prepare for immediate delivery\" is a plausible distractor but incorrect. The correct answer is B (\"Bed rest and monitor for bleeding\") — Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
       "B": "Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Administer tocolytics\" is a plausible distractor but incorrect. The correct answer is B (\"Bed rest and monitor for bleeding\") — Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
+      "D": "\"Encourage ambulation\" is a plausible distractor but incorrect. The correct answer is B (\"Bed rest and monitor for bleeding\") — Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage."
     },
     "subject": "OBG",
     "topic": "Pregnancy Complications",
@@ -361,10 +611,10 @@
     "correct": 1,
     "explanation": "• Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period.\n• Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Minimal, spotting only\" is a plausible distractor but incorrect. The correct answer is B (\"Moderate, like heavy menstrual period\") — Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
       "B": "Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Heavy, saturating pad in 1 hour\" is a plausible distractor but incorrect. The correct answer is B (\"Moderate, like heavy menstrual period\") — Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
+      "D": "\"No bleeding expected\" is a plausible distractor but incorrect. The correct answer is B (\"Moderate, like heavy menstrual period\") — Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage."
     },
     "subject": "OBG",
     "topic": "Postpartum Care",
@@ -387,9 +637,9 @@
     "explanation": "• WHO recommends initiating breastfeeding within the first hour after birth (golden hour).\n• Early initiation promotes bonding and establishes milk supply.",
     "explanations": {
       "A": "WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "B": "\"Within 2-4 hours\" is a plausible distractor but incorrect. The correct answer is A (\"Within 1 hour\") — WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply.",
+      "C": "\"Within 6 hours\" is a plausible distractor but incorrect. The correct answer is A (\"Within 1 hour\") — WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply.",
+      "D": "\"Within 24 hours\" is a plausible distractor but incorrect. The correct answer is A (\"Within 1 hour\") — WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply."
     },
     "subject": "OBG",
     "topic": "Breastfeeding",
@@ -411,10 +661,10 @@
     "correct": 1,
     "explanation": "• Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes.\n• Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Deep tendon reflexes\") — Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.",
       "B": "Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Urine output\" is a plausible distractor but incorrect. The correct answer is B (\"Deep tendon reflexes\") — Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.",
+      "D": "\"Respiratory rate\" is a plausible distractor but incorrect. The correct answer is B (\"Deep tendon reflexes\") — Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity."
     },
     "subject": "OBG",
     "topic": "Pregnancy Complications",
@@ -436,10 +686,10 @@
     "correct": 2,
     "explanation": "• Normal weight gain during pregnancy is 11-16 kg (25-35 pounds).\n• This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"5-7 kg\" is a plausible distractor but incorrect. The correct answer is C (\"11-16 kg\") — Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
+      "B": "\"8-12 kg\" is a plausible distractor but incorrect. The correct answer is C (\"11-16 kg\") — Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
       "C": "Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "D": "\"15-20 kg\" is a plausible distractor but incorrect. The correct answer is C (\"11-16 kg\") — Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores."
     },
     "subject": "OBG",
     "topic": "Antenatal Care",
@@ -461,10 +711,10 @@
     "correct": 1,
     "explanation": "• Abruptio placentae is a medical emergency.\n• The rigid, painful abdomen suggests concealed hemorrhage.\n• Emergency delivery is required to save mother and baby.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"Administer pain medication\" is a plausible distractor but incorrect. The correct answer is B (\"Prepare for emergency cesarean\") — Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage.",
       "B": "Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"Monitor fetal heart rate\" is a plausible distractor but incorrect. The correct answer is B (\"Prepare for emergency cesarean\") — Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage.",
+      "D": "\"Start IV fluids\" is a plausible distractor but incorrect. The correct answer is B (\"Prepare for emergency cesarean\") — Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage."
     },
     "subject": "OBG",
     "topic": "Pregnancy Complications",
@@ -486,10 +736,10 @@
     "correct": 1,
     "explanation": "• 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects.\n• Higher doses (4-5 mg) are needed if previous child had NTD.",
     "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
+      "A": "\"200 mcg daily\" is a plausible distractor but incorrect. The correct answer is B (\"400 mcg daily\") — 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
       "B": "400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
+      "C": "\"600 mcg daily\" is a plausible distractor but incorrect. The correct answer is B (\"400 mcg daily\") — 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
+      "D": "\"1000 mcg daily\" is a plausible distractor but incorrect. The correct answer is B (\"400 mcg daily\") — 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD."
     },
     "subject": "OBG",
     "topic": "Antenatal Care",
@@ -497,256 +747,6 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 368,
-    "question": "What is the normal duration of the third stage of labor?",
-    "options": [
-      "5-10 minutes",
-      "10-30 minutes",
-      "30-60 minutes",
-      "1-2 hours"
-    ],
-    "correct": 1,
-    "explanation": "• Third stage of labor (placental delivery) normally occurs within 10-30 minutes after birth.\n• If longer than 30 minutes, it's considered retained placenta.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Third stage of labor (placental delivery) normally occurs within 10-30 minutes after birth. If longer than 30 minutes, it's considered retained placenta.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Labor Stages",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 369,
-    "question": "A woman with polyhydramnios is at risk for which complication?",
-    "options": [
-      "Preterm labor",
-      "Post-term pregnancy",
-      "Fetal growth restriction",
-      "Gestational hypertension"
-    ],
-    "correct": 0,
-    "explanation": "• Polyhydramnios (excess amniotic fluid) can cause preterm labor due to uterine overdistension.\n• It's also associated with fetal anomalies and diabetes.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "Polyhydramnios (excess amniotic fluid) can cause preterm labor due to uterine overdistension. It's also associated with fetal anomalies and diabetes.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Pregnancy Complications",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 371,
-    "question": "A newborn has jaundice at 24 hours of age. What does this indicate?",
-    "options": [
-      "Physiological jaundice",
-      "Pathological jaundice",
-      "Breastfeeding jaundice",
-      "Normal finding"
-    ],
-    "correct": 1,
-    "explanation": "• Jaundice appearing within 24 hours is pathological and requires investigation.\n• Physiological jaundice appears after 48-72 hours.\n• Early jaundice may indicate hemolytic disease or infection.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Jaundice appearing within 24 hours is pathological and requires investigation. Physiological jaundice appears after 48-72 hours.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Neonatal Conditions",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 372,
-    "question": "What is the recommended calcium supplementation during pregnancy?",
-    "options": [
-      "500 mg daily",
-      "1000 mg daily",
-      "1500 mg daily",
-      "No supplementation needed"
-    ],
-    "correct": 1,
-    "explanation": "• Pregnant and lactating women need 1000-1200 mg calcium daily.\n• This can usually be met through diet, but supplementation may be needed if intake is inadequate.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Pregnant and lactating women need 1000-1200 mg calcium daily. This can usually be met through diet, but supplementation may be needed if intake is inadequate.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Antenatal Care",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 373,
-    "question": "A woman with cervical incompetence is at risk for which complication?",
-    "options": [
-      "Preterm labor",
-      "Post-term pregnancy",
-      "Placenta previa",
-      "Gestational diabetes"
-    ],
-    "correct": 0,
-    "explanation": "• Cervical incompetence (weak cervix) causes painless cervical dilation leading to preterm labor and delivery, usually in second trimester.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "Cervical incompetence (weak cervix) causes painless cervical dilation leading to preterm labor and delivery, usually in second trimester. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Pregnancy Complications",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 374,
-    "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
-    "options": [
-      "Check blood pressure",
-      "Administer pain medication",
-      "Encourage rest",
-      "Schedule routine appointment"
-    ],
-    "correct": 0,
-    "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Pregnancy Complications",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "factual"
-  },
-  {
-    "id": 375,
-    "question": "What is the normal fetal heart rate range during labor?",
-    "options": [
-      "100-120 bpm",
-      "110-160 bpm",
-      "120-180 bpm",
-      "140-200 bpm"
-    ],
-    "correct": 1,
-    "explanation": "• Normal fetal heart rate is 110-160 beats per minute.\n• Rates outside this range may indicate fetal distress and require immediate intervention.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Intrapartum Care",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "factual"
-  },
-  {
-    "id": 376,
-    "question": "A woman in active labor has been pushing for 2 hours without progress. What is the most likely cause?",
-    "options": [
-      "Cephalopelvic disproportion",
-      "Inadequate pain relief",
-      "Maternal fatigue",
-      "Fetal position"
-    ],
-    "correct": 0,
-    "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
-    "explanations": {
-      "A": "Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Labor Complications",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2017",
-    "qtype": "factual"
-  },
-  {
-    "id": 378,
-    "question": "A postpartum woman complains of heavy bleeding and passing large clots. What is the priority action?",
-    "options": [
-      "Massage the fundus",
-      "Check vital signs",
-      "Administer oxytocin",
-      "Prepare for surgery"
-    ],
-    "correct": 0,
-    "explanation": "• Uterine massage helps contract the uterus and control bleeding.\n• This is the first intervention for postpartum hemorrhage.\n• Then assess for other causes if bleeding continues.",
-    "explanations": {
-      "A": "Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
-      "B": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Complications",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
-  },
-  {
-    "id": 379,
-    "question": "What is the recommended iron supplementation during pregnancy?",
-    "options": [
-      "30 mg elemental iron daily",
-      "60 mg elemental iron daily",
-      "100 mg elemental iron daily",
-      "Iron only if anemic"
-    ],
-    "correct": 1,
-    "explanation": "• WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia.\n• This should start in the second trimester and continue postpartum.",
-    "explanations": {
-      "A": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "B": "WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
-      "C": "Not the best response in this clinical context; see the explanation for the correct choice.",
-      "D": "Not the best response in this clinical context; see the explanation for the correct choice."
-    },
-    "subject": "OBG",
-    "topic": "Antenatal Care",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2020",
     "qtype": "factual"
   }
 ]
