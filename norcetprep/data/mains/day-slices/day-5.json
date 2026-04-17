@@ -75,7 +75,7 @@
     "qtype": "factual"
   },
   {
-    "id": 521,
+    "id": 1131,
     "question": "Therapeutic communication includes:",
     "options": [
       "Giving false reassurance",
@@ -100,7 +100,7 @@
     "qtype": "factual"
   },
   {
-    "id": 531,
+    "id": 1141,
     "question": "Therapeutic communication includes:",
     "options": [
       "Giving false reassurance",
@@ -125,7 +125,7 @@
     "qtype": "factual"
   },
   {
-    "id": 541,
+    "id": 1151,
     "question": "Therapeutic communication includes:",
     "options": [
       "Giving false reassurance",
@@ -150,7 +150,487 @@
     "qtype": "factual"
   },
   {
-    "id": 64,
+    "id": 160,
+    "syllabusId": "child-30-respiratory-distress-syndrome",
+    "question": "30-wk preterm with tachypnea and grunting.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Vit D3 60,000 IU weekly + calcium; sunlight; diet",
+      "Tet spell — knee-chest position, 100% O2, morphine 0.1 mg/kg IV, phenylephrine, fluids; plan for early surgical repair",
+      "CPAP 5-8 cm, surfactant via INSURE if requirements rising, avoid high FiO2, thermoregulation, IV fluids",
+      "Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2"
+    ],
+    "correct": 2,
+    "explanation": "Priority: CPAP 5-8 cm, surfactant via INSURE if requirements rising, avoid high FiO2, thermoregulation, IV fluids",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: CPAP 5-8 cm, surfactant via INSURE if requirements rising, avoid high FiO2, thermoregulation, IV fluids. Usually <34 wk; grunting, retractions, tachypnea, nasal flaring",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Respiratory distress syndrome",
+    "section": "child",
+    "day": 5,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 171,
+    "syllabusId": "child-41-mitral-stenosis",
+    "question": "Young female with history of RF, DOE, hemoptysis, AF.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Mitral stenosis likely; echo, anticoagulate for AF, diuretics for congestion, refer for valvuloplasty",
+      "Protective isolation, transfusions as needed, refer for HSCT evaluation, immunosuppressive therapy",
+      "Sinus tachycardia in fever; treat fever with paracetamol, hydration, reassess",
+      "Suspect hemophilia — factor VIII/IX assays, avoid IM injections and aspirin, factor replacement, multi-d care, immunize subcutaneously"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Mitral stenosis likely; echo, anticoagulate for AF, diuretics for congestion, refer for valvuloplasty",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Mitral stenosis likely; echo, anticoagulate for AF, diuretics for congestion, refer for valvuloplasty. Diastolic rumble, loud S1, opening snap",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Mitral stenosis",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 174,
+    "syllabusId": "child-44-hemophilia",
+    "question": "Boy with recurrent knee hemarthrosis.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Within normal — document and continue routine care",
+      "Suspect hemophilia — factor VIII/IX assays, avoid IM injections and aspirin, factor replacement, multi-d care, immunize subcutaneously",
+      "Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
+      "Central cyanosis — hyperoxia test, echo, rule out cyanotic CHD, start PGE1 if suspected"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Suspect hemophilia — factor VIII/IX assays, avoid IM injections and aspirin, factor replacement, multi-d care, immunize subcutaneously",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Suspect hemophilia — factor VIII/IX assays, avoid IM injections and aspirin, factor replacement, multi-d care, immunize subcutaneously. A: factor VIII deficiency (85%)",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Hemophilia",
+    "section": "child",
+    "day": 5,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 176,
+    "syllabusId": "child-46-sequestration-crisis",
+    "question": "Sickle cell 2-y-old with sudden pallor and huge spleen.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Suspect hemophilia — factor VIII/IX assays, avoid IM injections and aspirin, factor replacement, multi-d care, immunize subcutaneously",
+      "Emergency — IV crystalloid, transfuse packed RBCs, admit to PICU, monitor for splenic recovery; discuss elective splenectomy",
+      "SAM with complications — admit to NRC/SNCU, start F-75 (stabilization), treat infections, electrolytes (K, Mg), vit A, gradual transition t…",
+      "Erythema toxicum — benign, self-resolves, no treatment"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Emergency — IV crystalloid, transfuse packed RBCs, admit to PICU, monitor for splenic recovery; discuss elective splenectomy",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Emergency — IV crystalloid, transfuse packed RBCs, admit to PICU, monitor for splenic recovery; discuss elective splenectomy. Children <5 y with sickle cell disease",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Sequestration crisis",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 178,
+    "syllabusId": "child-48-aplastic-anemia",
+    "question": "Adolescent with pancytopenia and hypocellular marrow.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Adult hematopoiesis: vertebrae, sternum, ribs, pelvis, proximal long bones",
+      "Suspect gonococcal — ceftriaxone 25-50 mg/kg single IV/IM, saline eye irrigation, isolate; test/treat mother and partner",
+      "Normal finding; document",
+      "Protective isolation, transfusions as needed, refer for HSCT evaluation, immunosuppressive therapy"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Protective isolation, transfusions as needed, refer for HSCT evaluation, immunosuppressive therapy",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Protective isolation, transfusions as needed, refer for HSCT evaluation, immunosuppressive therapy. Causes: idiopathic (most), drugs (chloramphenicol), radiation, viral (parvo B19, hepatitis)"
+    },
+    "subject": "Pediatric",
+    "topic": "Aplastic anemia",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 181,
+    "syllabusId": "child-51-spina-bifida-occulta",
+    "question": "Child with hairy patch on low back.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Needs ~1000 kcal/day; balanced IYCF: continued breastfeeding, 3 meals + 2 snacks of family food",
+      "Reduce warmer set point, check for overheating, rule out infection (sepsis fever)",
+      "Document, refer for spine MRI if any bladder/bowel symptoms, neurosurgical evaluation if tethering",
+      "Apply O2 via appropriate device (nasal cannula 1-2 L, mask 5-10 L as needed), reassess SpO2 target >=94%, investigate cause"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Document, refer for spine MRI if any bladder/bowel symptoms, neurosurgical evaluation if tethering",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Document, refer for spine MRI if any bladder/bowel symptoms, neurosurgical evaluation if tethering. Usually asymptomatic; tuft of hair, dimple, lipoma over lumbosacral region",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Spina bifida occulta",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 182,
+    "syllabusId": "child-52-babinski-sign",
+    "question": "6-mo baby with upgoing Babinski.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Resuscitate per NRP: if not breathing/limp, intubate and suction below cords only if airway obstructed; otherwise, standard resuscitation; …",
+      "Sweat chloride test to confirm; pulmonology referral, airway clearance, pancreatic enzymes, fat-soluble vit supplementation",
+      "Normal finding; document",
+      "Incentive spirometry, early ambulation, chest PT, pain control (to aid deep breathing), reassess with CXR"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Normal finding; document",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Normal finding; document. Normal infant to 2 y: extensor (upgoing)",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Babinski sign",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 183,
+    "syllabusId": "child-53-hydrocephalus",
+    "question": "Infant with VP shunt and fever + vomiting.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Teach cross-cradle position, assess latch, chin touches breast with lower lip everted and mouth wide; correct attachment; check for tongue-…",
+      "O2 if SpO2 <94%, salbutamol MDI via spacer 2-4 puffs q20 min x3, oral prednisolone 1-2 mg/kg, reassess, admit if incomplete response",
+      "Apply mask with C-E grip, deliver PPV 40-60/min at PIP 20; if chest not rising, run MR SOPA",
+      "Suspect shunt infection/blockage — neurosurgery urgent, CT head, blood/CSF cultures, start empiric antibiotics"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Suspect shunt infection/blockage — neurosurgery urgent, CT head, blood/CSF cultures, start empiric antibiotics",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Suspect shunt infection/blockage — neurosurgery urgent, CT head, blood/CSF cultures, start empiric antibiotics. Communicating vs non-communicating"
+    },
+    "subject": "Pediatric",
+    "topic": "Hydrocephalus",
+    "section": "child",
+    "day": 5,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 187,
+    "syllabusId": "child-57-cerebral-palsy",
+    "question": "2-y-old preterm survivor with spastic diplegia.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Refer pediatric hem-onc, tumor lysis prevention (hydration, allopurinol/rasburicase), infection prophylaxis, central line for induction che…",
+      "Reduce warmer set point, check for overheating, rule out infection (sepsis fever)",
+      "Johnson EFW = (36-12)x155 = 3720 g",
+      "MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support"
+    ],
+    "correct": 3,
+    "explanation": "Priority: MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support. Spastic (most common), dyskinetic, ataxic, mixed"
+    },
+    "subject": "Pediatric",
+    "topic": "Cerebral palsy",
+    "section": "child",
+    "day": 5,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 189,
+    "syllabusId": "child-59-craniosynostosis",
+    "question": "Infant with elongated head, palpable ridge.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Protective isolation, transfusions as needed, refer for HSCT evaluation, immunosuppressive therapy",
+      "CPAP 5-8 cm, surfactant via INSURE if requirements rising, avoid high FiO2, thermoregulation, IV fluids",
+      "First 28 days of life — classify mortality as NMR",
+      "Refer for imaging and pediatric neurosurgery; plan cranial remodeling surgery before 1 y"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Refer for imaging and pediatric neurosurgery; plan cranial remodeling surgery before 1 y",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Refer for imaging and pediatric neurosurgery; plan cranial remodeling surgery before 1 y. Sagittal: scaphocephaly (commonest)"
+    },
+    "subject": "Pediatric",
+    "topic": "Craniosynostosis",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 190,
+    "syllabusId": "child-60-pyloric-stenosis",
+    "question": "Same as surgery entry.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "MDT referral — PT, OT, speech; orthotics; treat spasticity (oral baclofen/botox); manage comorbidities, caregiver support",
+      "Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
+      "Severe dehydration — Plan C IV RL 100 mL/kg (30 in 30 min then 70 in 2.5 h), reassess q15-30 min",
+      "Severe wasting — acute malnutrition management, MUAC check, nutrition support"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected. Projectile non-bilious vomiting 4-6 wk",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Pyloric stenosis",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 192,
+    "syllabusId": "child-62-tracheoesophageal-fistula",
+    "question": "Newborn with excessive drooling and coughing on feeding.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Protective isolation, transfusions as needed, refer for HSCT evaluation, immunosuppressive therapy",
+      "Stop feeds, nasal/oral suction, Replogle tube continuous low-pressure suction of upper pouch, head up 30°, IV fluids, urgent pediatric surgery referral",
+      "Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm",
+      "Erythema toxicum — benign, self-resolves, no treatment"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Stop feeds, nasal/oral suction, Replogle tube continuous low-pressure suction of upper pouch, head up 30°, IV fluids, urgent pediatric surgery referral",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Stop feeds, nasal/oral suction, Replogle tube continuous low-pressure suction of upper pouch, head up 30°, IV fluids, urgent pediatric surgery referral. Type C (85%): proximal EA + distal TEF",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Tracheoesophageal fistula",
+    "section": "child",
+    "day": 5,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 194,
+    "syllabusId": "child-64-primary-apnea",
+    "question": "Newborn not breathing after drying and stimulation.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Blood cultures from CVC and peripheral, urine, CXR, start IV piperacillin-tazobactam within 1 h, isolate, avoid rectal temp/meds",
+      "Upright feeding with special bottle, genetic counseling, refer to cleft team, plan surgery per rule of 10s, MDT approach",
+      "Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm",
+      "Measure standing height with stadiometer in Frankfort plane, plot on growth chart"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Assume secondary apnea — start PPV within 60 s of birth, monitor HR, continue algorithm. Primary: responds to stimulation",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "Primary apnea",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 198,
+    "syllabusId": "child-68-bronchopulmonary-dysplasia",
+    "question": "10-mo ex-28-wk preterm on home O2.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "First 28 days of life — classify mortality as NMR",
+      "Adult hematopoiesis: vertebrae, sternum, ribs, pelvis, proximal long bones",
+      "Apply mask with C-E grip, deliver PPV 40-60/min at PIP 20; if chest not rising, run MR SOPA",
+      "Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2. Pathogenesis: baro/volutrauma + hyperoxia + inflammation"
+    },
+    "subject": "Pediatric",
+    "topic": "Bronchopulmonary dysplasia",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 205,
+    "syllabusId": "child-75-adhd",
+    "question": "7-y-old failing in school, cannot sit still.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Apply mask with C-E grip, deliver PPV 40-60/min at PIP 20; if chest not rising, run MR SOPA",
+      "Vanderbilt/Conners assessment, rule out hearing/vision/learning disability, behavioral interventions first-line; stimulants if severe",
+      "Measure standing height with stadiometer in Frankfort plane, plot on growth chart",
+      "SAM with complications — admit to NRC/SNCU, start F-75 (stabilization), treat infections, electrolytes (K, Mg), vit A, gradual transition t…"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Vanderbilt/Conners assessment, rule out hearing/vision/learning disability, behavioral interventions first-line; stimulants if severe",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Vanderbilt/Conners assessment, rule out hearing/vision/learning disability, behavioral interventions first-line; stimulants if severe. Inattention, hyperactivity, impulsivity for >=6 mo in >=2 settings before age 12",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Pediatric",
+    "topic": "ADHD",
+    "section": "child",
+    "day": 5,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 674,
     "question": "Primary site of tubular reabsorption:",
     "options": [
       "Collecting duct only",
@@ -175,7 +655,7 @@
     "qtype": "factual"
   },
   {
-    "id": 75,
+    "id": 685,
     "question": "Juxtaglomerular cells release:",
     "options": [
       "ADH",
@@ -200,7 +680,7 @@
     "qtype": "factual"
   },
   {
-    "id": 104,
+    "id": 714,
     "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
     "options": [
       "Less than 20 per 1000 live births",
@@ -225,7 +705,7 @@
     "qtype": "factual"
   },
   {
-    "id": 112,
+    "id": 722,
     "question": "What is the target for reducing Under-5 Mortality Rate?",
     "options": [
       "Less than 25 per 1000",
@@ -250,7 +730,7 @@
     "qtype": "factual"
   },
   {
-    "id": 124,
+    "id": 734,
     "question": "What is the target for reducing Infant Mortality Rate (IMR) in India?",
     "options": [
       "Less than 20 per 1000 live births",
@@ -275,7 +755,7 @@
     "qtype": "factual"
   },
   {
-    "id": 223,
+    "id": 833,
     "question": "A patient with deep vein thrombosis (DVT) is receiving heparin therapy. What is the most critical nursing assessment?",
     "options": [
       "Blood pressure",
@@ -300,7 +780,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 258,
+    "id": 868,
     "question": "A patient with hemophilia A is bleeding. What factor replacement is needed?",
     "options": [
       "Factor VII",
@@ -325,7 +805,7 @@
     "qtype": "factual"
   },
   {
-    "id": 272,
+    "id": 882,
     "question": "A patient with myasthenia gravis is experiencing crisis. What is the priority assessment?",
     "options": [
       "Muscle strength",
@@ -350,7 +830,7 @@
     "qtype": "factual"
   },
   {
-    "id": 390,
+    "id": 1000,
     "question": "A 2-year-old child is brought to the emergency department with fever and difficulty breathing. What is the priority assessment?",
     "options": [
       "Temperature",
@@ -373,155 +853,5 @@
     "source": "Practice",
     "year": "2024",
     "qtype": "scenario"
-  },
-  {
-    "id": 398,
-    "question": "A 4-month-old infant is diagnosed with developmental hip dysplasia. What is the treatment?",
-    "options": [
-      "Surgery only",
-      "Pavlik harness",
-      "Physical therapy",
-      "Observation"
-    ],
-    "correct": 1,
-    "explanation": "• Pavlik harness is the first-line treatment for developmental hip dysplasia in infants.\n• It maintains the hip in proper position for normal development.",
-    "explanations": {
-      "A": "\"Surgery only\" is a plausible distractor but incorrect. The correct answer is B (\"Pavlik harness\") — Pavlik harness is the first-line treatment for developmental hip dysplasia in infants. It maintains the hip in proper position for normal development.",
-      "B": "Pavlik harness is the first-line treatment for developmental hip dysplasia in infants. It maintains the hip in proper position for normal development.",
-      "C": "\"Physical therapy\" is a plausible distractor but incorrect. The correct answer is B (\"Pavlik harness\") — Pavlik harness is the first-line treatment for developmental hip dysplasia in infants. It maintains the hip in proper position for normal development.",
-      "D": "\"Observation\" is a plausible distractor but incorrect. The correct answer is B (\"Pavlik harness\") — Pavlik harness is the first-line treatment for developmental hip dysplasia in infants. It maintains the hip in proper position for normal development."
-    },
-    "subject": "Pediatric",
-    "topic": "Musculoskeletal Conditions",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 402,
-    "question": "A 3-year-old child with croup is admitted. What is the priority nursing intervention?",
-    "options": [
-      "Administer antibiotics",
-      "Provide cool mist humidification",
-      "Encourage oral fluids",
-      "Administer antipyretics"
-    ],
-    "correct": 1,
-    "explanation": "• Cool mist humidification helps reduce airway inflammation and ease breathing in croup.\n• This is the priority intervention along with monitoring respiratory status.",
-    "explanations": {
-      "A": "\"Administer antibiotics\" is a plausible distractor but incorrect. The correct answer is B (\"Provide cool mist humidification\") — Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
-      "B": "Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
-      "C": "\"Encourage oral fluids\" is a plausible distractor but incorrect. The correct answer is B (\"Provide cool mist humidification\") — Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
-      "D": "\"Administer antipyretics\" is a plausible distractor but incorrect. The correct answer is B (\"Provide cool mist humidification\") — Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status."
-    },
-    "subject": "Pediatric",
-    "topic": "Respiratory Conditions",
-    "day": 5,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 410,
-    "question": "A 4-month-old infant is diagnosed with developmental delay. What is the priority assessment?",
-    "options": [
-      "Head circumference",
-      "Weight gain",
-      "Milestone achievement",
-      "Feeding pattern"
-    ],
-    "correct": 2,
-    "explanation": "• Developmental milestones assessment is critical to identify delays early.\n• Compare with standard developmental charts for age.",
-    "explanations": {
-      "A": "\"Head circumference\" is a plausible distractor but incorrect. The correct answer is C (\"Milestone achievement\") — Developmental milestones assessment is critical to identify delays early. Compare with standard developmental charts for age.",
-      "B": "\"Weight gain\" is a plausible distractor but incorrect. The correct answer is C (\"Milestone achievement\") — Developmental milestones assessment is critical to identify delays early. Compare with standard developmental charts for age.",
-      "C": "Developmental milestones assessment is critical to identify delays early. Compare with standard developmental charts for age.",
-      "D": "\"Feeding pattern\" is a plausible distractor but incorrect. The correct answer is C (\"Milestone achievement\") — Developmental milestones assessment is critical to identify delays early. Compare with standard developmental charts for age."
-    },
-    "subject": "Pediatric",
-    "topic": "Growth and Development",
-    "day": 5,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "scenario"
-  },
-  {
-    "id": 411,
-    "question": "A 2-year-old child with croup is admitted. What is the priority nursing intervention?",
-    "options": [
-      "Administer antibiotics",
-      "Provide cool mist humidification",
-      "Encourage oral fluids",
-      "Administer antipyretics"
-    ],
-    "correct": 1,
-    "explanation": "• Cool mist humidification helps reduce airway inflammation and ease breathing in croup.\n• This is the priority intervention along with monitoring respiratory status.",
-    "explanations": {
-      "A": "\"Administer antibiotics\" is a plausible distractor but incorrect. The correct answer is B (\"Provide cool mist humidification\") — Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
-      "B": "Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
-      "C": "\"Encourage oral fluids\" is a plausible distractor but incorrect. The correct answer is B (\"Provide cool mist humidification\") — Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status.",
-      "D": "\"Administer antipyretics\" is a plausible distractor but incorrect. The correct answer is B (\"Provide cool mist humidification\") — Cool mist humidification helps reduce airway inflammation and ease breathing in croup. This is the priority intervention along with monitoring respiratory status."
-    },
-    "subject": "Pediatric",
-    "topic": "Respiratory Conditions",
-    "day": 5,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "factual"
-  },
-  {
-    "id": 423,
-    "question": "A 5-year-old child requires nebulization. What is the correct mask size?",
-    "options": [
-      "Adult mask",
-      "Pediatric mask",
-      "Infant mask",
-      "Any mask"
-    ],
-    "correct": 1,
-    "explanation": "• Pediatric patients require appropriately sized mask for effective nebulization.\n• Proper fit ensures medication delivery and prevents waste.\n• Understanding age-appropriate equipment is essential for pediatric care.\n• Pediatric nursing requires specialized knowledge of developmental considerations.",
-    "explanations": {
-      "A": "\"Adult mask\" is a plausible distractor but incorrect. The correct answer is B (\"Pediatric mask\") — Pediatric patients require appropriately sized mask for effective nebulization. Proper fit ensures medication delivery and prevents waste.",
-      "B": "Pediatric patients require appropriately sized mask for effective nebulization. Proper fit ensures medication delivery and prevents waste.",
-      "C": "\"Infant mask\" is a plausible distractor but incorrect. The correct answer is B (\"Pediatric mask\") — Pediatric patients require appropriately sized mask for effective nebulization. Proper fit ensures medication delivery and prevents waste.",
-      "D": "\"Any mask\" is a plausible distractor but incorrect. The correct answer is B (\"Pediatric mask\") — Pediatric patients require appropriately sized mask for effective nebulization. Proper fit ensures medication delivery and prevents waste."
-    },
-    "subject": "Pediatric",
-    "topic": "Pediatric Respiratory Equipment",
-    "day": 5,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2017",
-    "qtype": "factual"
-  },
-  {
-    "id": 469,
-    "question": "ACE inhibitors are relatively contraindicated in:",
-    "options": [
-      "Hypertension",
-      "Bilateral renal artery stenosis",
-      "Heart failure",
-      "Diabetes with proteinuria"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
-    "explanations": {
-      "A": "\"Hypertension\" is a plausible distractor but incorrect. The correct answer is B (\"Bilateral renal artery stenosis\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "C": "\"Heart failure\" is a plausible distractor but incorrect. The correct answer is B (\"Bilateral renal artery stenosis\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "D": "\"Diabetes with proteinuria\" is a plausible distractor but incorrect. The correct answer is B (\"Bilateral renal artery stenosis\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics."
-    },
-    "subject": "Pharmacology",
-    "topic": "Renal",
-    "day": 5,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
   }
 ]

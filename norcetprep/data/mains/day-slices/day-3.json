@@ -150,7 +150,7 @@
     "qtype": "factual"
   },
   {
-    "id": 496,
+    "id": 1106,
     "question": "Hysterosalpingogram (HSG) primarily uses which type of radiation imaging?",
     "options": [
       "MRI",
@@ -175,7 +175,7 @@
     "qtype": "factual"
   },
   {
-    "id": 510,
+    "id": 1120,
     "question": "MTP Act (as commonly tested) allows termination up to:",
     "options": [
       "12 weeks only",
@@ -200,7 +200,7 @@
     "qtype": "factual"
   },
   {
-    "id": 511,
+    "id": 1121,
     "question": "Spinal anesthesia monitoring should especially watch for:",
     "options": [
       "Hypertension only",
@@ -225,528 +225,675 @@
     "qtype": "factual"
   },
   {
-    "id": 234,
-    "question": "A patient with pulmonary embolism is receiving alteplase (tPA). What is the most critical monitoring?",
+    "id": 294,
+    "syllabusId": "gyn-1-vaginitis",
+    "question": "25-y-old with frothy yellow-green discharge, strawberry cervix on speculum.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Blood pressure",
-      "Signs of bleeding",
-      "Oxygen saturation",
-      "Heart rate"
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy"
     ],
-    "correct": 1,
-    "explanation": "• tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk.\n• Continuous monitoring for signs of bleeding is critical.",
+    "correct": 0,
+    "explanation": "Priority: Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs (Amsel criteria (3/4): homogeneous discharge, pH >4.5, +whiff test, clue cells.)",
     "explanations": {
-      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
-      "B": "tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
-      "C": "\"Oxygen saturation\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical.",
-      "D": "\"Heart rate\" is a plausible distractor but incorrect. The correct answer is B (\"Signs of bleeding\") — tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk. Continuous monitoring for signs of bleeding is critical."
+      "A": "Correct — per the note, the priority action is: Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs. BV (Gardnerella): gray fishy discharge, pH >4.5, clue cells — metronidazole.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Respiratory System",
+    "subject": "OBG",
+    "topic": "Vaginitis",
+    "section": "gyn",
     "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 237,
-    "question": "A patient with esophageal varices is at risk for which complication?",
+    "id": 295,
+    "syllabusId": "gyn-2-pelvic-inflammatory-disease-pid",
+    "question": "22-y-old with lower abdominal pain, fever 38.5, purulent cervical discharge, cervical motion tenderness.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Aspiration",
-      "Upper GI bleeding",
-      "Perforation",
-      "Obstruction"
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h"
     ],
     "correct": 1,
-    "explanation": "• Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
+    "explanation": "Priority: NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
     "explanations": {
-      "A": "\"Aspiration\" is a plausible distractor but incorrect. The correct answer is B (\"Upper GI bleeding\") — Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
-      "B": "Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
-      "C": "\"Perforation\" is a plausible distractor but incorrect. The correct answer is B (\"Upper GI bleeding\") — Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
-      "D": "\"Obstruction\" is a plausible distractor but incorrect. The correct answer is B (\"Upper GI bleeding\") — Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening. Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use. Organisms: N. gonorrhoeae, C. trachomatis, anaerobes.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Gastrointestinal System",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 248,
-    "question": "A patient with Crohn's disease is experiencing a flare-up. What dietary modification is most appropriate?",
-    "options": [
-      "High fiber diet",
-      "Low residue diet",
-      "High protein diet",
-      "High fat diet"
-    ],
-    "correct": 1,
-    "explanation": "• During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms.\n• High fiber can worsen inflammation.",
-    "explanations": {
-      "A": "\"High fiber diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low residue diet\") — During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation.",
-      "B": "During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation.",
-      "C": "\"High protein diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low residue diet\") — During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation.",
-      "D": "\"High fat diet\" is a plausible distractor but incorrect. The correct answer is B (\"Low residue diet\") — During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms. High fiber can worsen inflammation."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Gastrointestinal System",
+    "subject": "OBG",
+    "topic": "Pelvic inflammatory disease (PID)",
+    "section": "gyn",
     "day": 3,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "scenario"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 256,
-    "question": "A patient with acute kidney injury has a serum creatinine of 4.5 mg/dL. What stage of AKI is this?",
+    "id": 296,
+    "syllabusId": "gyn-3-syndromic-management-of-pid-and-vaginitis",
+    "question": "PHC: 24-y-old with lower abdominal pain and discharge.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Stage 1",
-      "Stage 2",
-      "Stage 3",
-      "Stage 4"
+      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days. Kit 1 (urethral/anorectal discharge): kanamycin + doxycycline.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Syndromic management of PID and vaginitis",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 297,
+    "syllabusId": "gyn-4-emergency-contraceptives",
+    "question": "20-y-old student 18 h after unprotected sex.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception (Not abortifacient — prevents ovulation/implantation.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception. Levonorgestrel 1.5 mg single dose within 72 h (best <24 h)."
+    },
+    "subject": "OBG",
+    "topic": "Emergency contraceptives",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 298,
+    "syllabusId": "gyn-5-intrauterine-device-cu-t",
+    "question": "P2 wants long-term reversible contraception.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks (Check threads monthly; PID risk highest first 3 weeks.)",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks. Cu-T 380A: 10 years; Cu-T 375: 5 years.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Intrauterine device (Cu-T)",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 299,
+    "syllabusId": "gyn-6-ocp-mala-d-mala-n-absolute-contraindications",
+    "question": "32-y-old smoker requests OCP.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC (Break-through bleeding common first 3 cycles.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC. MALA-D: subsidized COC — levonorgestrel 0.15 mg + ethinyl estradiol 0.03 mg (7 Fe tabs)."
+    },
+    "subject": "OBG",
+    "topic": "OCP — MALA-D, MALA-N, absolute contraindications",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 300,
+    "syllabusId": "gyn-7-pap-smear",
+    "question": "35-y-old for routine screening.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal",
+      "Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception"
     ],
     "correct": 2,
-    "explanation": "• AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
+    "explanation": "Priority: Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal (VIA (visual inspection with acetic acid) alternative in resource-limited settings.)",
     "explanations": {
-      "A": "\"Stage 1\" is a plausible distractor but incorrect. The correct answer is C (\"Stage 3\") — AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
-      "B": "\"Stage 2\" is a plausible distractor but incorrect. The correct answer is C (\"Stage 3\") — AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
-      "C": "AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
-      "D": "\"Stage 4\" is a plausible distractor but incorrect. The correct answer is C (\"Stage 3\") — AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal. Start at 21 y (USA); India: every 5 y from 30-65 y per screening program.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Renal System",
+    "subject": "OBG",
+    "topic": "Pap smear",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 301,
+    "syllabusId": "gyn-8-vasectomy-and-tubectomy",
+    "question": "40-y-old P3 husband consents for sterilization.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
+      "Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent. Vasectomy: bilateral vas deferens ligation under LA, 15-30 min; back-up method x3 months until azoospermia confirmed.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Vasectomy and tubectomy",
+    "section": "gyn",
     "day": 3,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2017",
-    "qtype": "scenario"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 259,
-    "question": "A patient with acute pancreatitis has elevated serum amylase. What is the normal range?",
+    "id": 302,
+    "syllabusId": "gyn-9-hpv-and-vaccine",
+    "question": "Mother of 12-y-old daughter asks about HPV vaccine.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "20-100 U/L",
-      "30-110 U/L",
-      "40-140 U/L",
-      "50-150 U/L"
-    ],
-    "correct": 1,
-    "explanation": "• Normal serum amylase is 30-110 U/L.\n• In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
-    "explanations": {
-      "A": "\"20-100 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
-      "B": "Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
-      "C": "\"40-140 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
-      "D": "\"50-150 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit of normal."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Gastrointestinal System",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2020",
-    "qtype": "factual"
-  },
-  {
-    "id": 260,
-    "question": "A patient with ARDS is receiving prone positioning. What is the primary benefit?",
-    "options": [
-      "Improved comfort",
-      "Better oxygenation",
-      "Reduced pressure ulcers",
-      "Easier suctioning"
-    ],
-    "correct": 1,
-    "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
-    "explanations": {
-      "A": "\"Improved comfort\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
-      "B": "Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
-      "C": "\"Reduced pressure ulcers\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
-      "D": "\"Easier suctioning\" is a plausible distractor but incorrect. The correct answer is B (\"Better oxygenation\") — Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Critical Care",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2021",
-    "qtype": "factual"
-  },
-  {
-    "id": 271,
-    "question": "A patient with acute pancreatitis has elevated serum amylase. What is the normal range?",
-    "options": [
-      "20-100 U/L",
-      "30-110 U/L",
-      "40-140 U/L",
-      "50-150 U/L"
-    ],
-    "correct": 1,
-    "explanation": "• Normal serum amylase is 30-110 U/L.\n• In acute pancreatitis, levels are typically 3-10 times the upper limit.\n• Elevated amylase helps diagnose pancreatitis, though lipase is more specific.\n• Understanding lab values is essential for interpreting diagnostic tests and assessing disease severity.",
-    "explanations": {
-      "A": "\"20-100 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit.",
-      "B": "Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit.",
-      "C": "\"40-140 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit.",
-      "D": "\"50-150 U/L\" is a plausible distractor but incorrect. The correct answer is B (\"30-110 U/L\") — Normal serum amylase is 30-110 U/L. In acute pancreatitis, levels are typically 3-10 times the upper limit."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Gastrointestinal - Lab Values",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
-  },
-  {
-    "id": 349,
-    "question": "A pregnant woman at 32 weeks gestation presents with severe headache and blurred vision. What is the priority nursing action?",
-    "options": [
-      "Check blood pressure",
-      "Administer pain medication",
-      "Encourage rest",
-      "Schedule routine appointment"
-    ],
-    "correct": 0,
-    "explanation": "• Headache and blurred vision are signs of preeclampsia.\n• Checking blood pressure is the priority as hypertension is a key diagnostic criterion.\n• This is a medical emergency.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
-      "B": "\"Administer pain medication\" is a plausible distractor but incorrect. The correct answer is A (\"Check blood pressure\") — Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
-      "C": "\"Encourage rest\" is a plausible distractor but incorrect. The correct answer is A (\"Check blood pressure\") — Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion.",
-      "D": "\"Schedule routine appointment\" is a plausible distractor but incorrect. The correct answer is A (\"Check blood pressure\") — Headache and blurred vision are signs of preeclampsia. Checking blood pressure is the priority as hypertension is a key diagnostic criterion."
-    },
-    "subject": "OBG",
-    "topic": "Pregnancy Complications",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 350,
-    "question": "What is the normal fetal heart rate range during labor?",
-    "options": [
-      "100-120 bpm",
-      "110-160 bpm",
-      "120-180 bpm",
-      "140-200 bpm"
-    ],
-    "correct": 1,
-    "explanation": "• Normal fetal heart rate is 110-160 beats per minute.\n• Rates outside this range may indicate fetal distress and require immediate intervention.",
-    "explanations": {
-      "A": "\"100-120 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110-160 bpm\") — Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
-      "B": "Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
-      "C": "\"120-180 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110-160 bpm\") — Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention.",
-      "D": "\"140-200 bpm\" is a plausible distractor but incorrect. The correct answer is B (\"110-160 bpm\") — Normal fetal heart rate is 110-160 beats per minute. Rates outside this range may indicate fetal distress and require immediate intervention."
-    },
-    "subject": "OBG",
-    "topic": "Intrapartum Care",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 351,
-    "question": "A woman in active labor has been pushing for 2 hours without progress. What is the most likely cause?",
-    "options": [
-      "Cephalopelvic disproportion",
-      "Inadequate pain relief",
-      "Maternal fatigue",
-      "Fetal position"
-    ],
-    "correct": 0,
-    "explanation": "• Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis.\n• This may require cesarean delivery.",
-    "explanations": {
-      "A": "Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
-      "B": "\"Inadequate pain relief\" is a plausible distractor but incorrect. The correct answer is A (\"Cephalopelvic disproportion\") — Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
-      "C": "\"Maternal fatigue\" is a plausible distractor but incorrect. The correct answer is A (\"Cephalopelvic disproportion\") — Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery.",
-      "D": "\"Fetal position\" is a plausible distractor but incorrect. The correct answer is A (\"Cephalopelvic disproportion\") — Prolonged second stage with no progress often indicates cephalopelvic disproportion (CPD) - when the fetal head is too large for the maternal pelvis. This may require cesarean delivery."
-    },
-    "subject": "OBG",
-    "topic": "Labor Complications",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 353,
-    "question": "A postpartum woman complains of heavy bleeding and passing large clots. What is the priority action?",
-    "options": [
-      "Massage the fundus",
-      "Check vital signs",
-      "Administer oxytocin",
-      "Prepare for surgery"
-    ],
-    "correct": 0,
-    "explanation": "• Uterine massage helps contract the uterus and control bleeding.\n• This is the first intervention for postpartum hemorrhage.\n• Then assess for other causes if bleeding continues.",
-    "explanations": {
-      "A": "Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
-      "B": "\"Check vital signs\" is a plausible distractor but incorrect. The correct answer is A (\"Massage the fundus\") — Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
-      "C": "\"Administer oxytocin\" is a plausible distractor but incorrect. The correct answer is A (\"Massage the fundus\") — Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage.",
-      "D": "\"Prepare for surgery\" is a plausible distractor but incorrect. The correct answer is A (\"Massage the fundus\") — Uterine massage helps contract the uterus and control bleeding. This is the first intervention for postpartum hemorrhage."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Complications",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 354,
-    "question": "What is the recommended iron supplementation during pregnancy?",
-    "options": [
-      "30 mg elemental iron daily",
-      "60 mg elemental iron daily",
-      "100 mg elemental iron daily",
-      "Iron only if anemic"
-    ],
-    "correct": 1,
-    "explanation": "• WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia.\n• This should start in the second trimester and continue postpartum.",
-    "explanations": {
-      "A": "\"30 mg elemental iron daily\" is a plausible distractor but incorrect. The correct answer is B (\"60 mg elemental iron daily\") — WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
-      "B": "WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
-      "C": "\"100 mg elemental iron daily\" is a plausible distractor but incorrect. The correct answer is B (\"60 mg elemental iron daily\") — WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum.",
-      "D": "\"Iron only if anemic\" is a plausible distractor but incorrect. The correct answer is B (\"60 mg elemental iron daily\") — WHO recommends 60 mg elemental iron daily during pregnancy to prevent anemia. This should start in the second trimester and continue postpartum."
-    },
-    "subject": "OBG",
-    "topic": "Antenatal Care",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 356,
-    "question": "What is the normal duration of the first stage of labor in primigravida?",
-    "options": [
-      "2-4 hours",
-      "6-12 hours",
-      "12-18 hours",
-      "18-24 hours"
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC"
     ],
     "correct": 2,
-    "explanation": "• First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
+    "explanation": "Priority: Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd (Vaccination does not replace screening.)",
     "explanations": {
-      "A": "\"2-4 hours\" is a plausible distractor but incorrect. The correct answer is C (\"12-18 hours\") — First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
-      "B": "\"6-12 hours\" is a plausible distractor but incorrect. The correct answer is C (\"12-18 hours\") — First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
-      "C": "First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida.",
-      "D": "\"18-24 hours\" is a plausible distractor but incorrect. The correct answer is C (\"12-18 hours\") — First stage of labor (from onset to full cervical dilation) typically lasts 12-18 hours in primigravida and 6-8 hours in multigravida."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd. Oncogenic types: 16, 18 (70%); low-risk: 6, 11 (warts).",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "OBG",
-    "topic": "Labor Stages",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 358,
-    "question": "What is the recommended frequency of antenatal visits in a normal pregnancy?",
-    "options": [
-      "Monthly until 28 weeks, then biweekly",
-      "Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly",
-      "Every 2 weeks throughout",
-      "Only when problems occur"
-    ],
-    "correct": 1,
-    "explanation": "• Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery.\n• This allows early detection of complications.",
-    "explanations": {
-      "A": "\"Monthly until 28 weeks, then biweekly\" is a plausible distractor but incorrect. The correct answer is B (\"Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly\") — Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
-      "B": "Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
-      "C": "\"Every 2 weeks throughout\" is a plausible distractor but incorrect. The correct answer is B (\"Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly\") — Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications.",
-      "D": "\"Only when problems occur\" is a plausible distractor but incorrect. The correct answer is B (\"Every 4 weeks until 28 weeks, then every 2 weeks until 36 weeks, then weekly\") — Standard antenatal care schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. This allows early detection of complications."
-    },
-    "subject": "OBG",
-    "topic": "Antenatal Care",
+    "topic": "HPV and vaccine",
+    "section": "gyn",
     "day": 3,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 359,
-    "question": "A woman with placenta previa is admitted at 34 weeks. What is the priority nursing intervention?",
+    "id": 303,
+    "syllabusId": "gyn-10-ovarian-tumors-and-tumor-markers",
+    "question": "55-y-old with pelvic mass and CA-125 500.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Prepare for immediate delivery",
-      "Bed rest and monitor for bleeding",
-      "Administer tocolytics",
-      "Encourage ambulation"
-    ],
-    "correct": 1,
-    "explanation": "• Placenta previa requires bed rest to prevent bleeding.\n• Monitor for signs of hemorrhage.\n• Delivery is planned when fetus is mature or if bleeding is severe.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "\"Prepare for immediate delivery\" is a plausible distractor but incorrect. The correct answer is B (\"Bed rest and monitor for bleeding\") — Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
-      "B": "Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
-      "C": "\"Administer tocolytics\" is a plausible distractor but incorrect. The correct answer is B (\"Bed rest and monitor for bleeding\") — Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage.",
-      "D": "\"Encourage ambulation\" is a plausible distractor but incorrect. The correct answer is B (\"Bed rest and monitor for bleeding\") — Placenta previa requires bed rest to prevent bleeding. Monitor for signs of hemorrhage."
-    },
-    "subject": "OBG",
-    "topic": "Pregnancy Complications",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 360,
-    "question": "What is the normal amount of lochia rubra in the first 3-4 days postpartum?",
-    "options": [
-      "Minimal, spotting only",
-      "Moderate, like heavy menstrual period",
-      "Heavy, saturating pad in 1 hour",
-      "No bleeding expected"
-    ],
-    "correct": 1,
-    "explanation": "• Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period.\n• Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
-    "explanations": {
-      "A": "\"Minimal, spotting only\" is a plausible distractor but incorrect. The correct answer is B (\"Moderate, like heavy menstrual period\") — Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
-      "B": "Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
-      "C": "\"Heavy, saturating pad in 1 hour\" is a plausible distractor but incorrect. The correct answer is B (\"Moderate, like heavy menstrual period\") — Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage.",
-      "D": "\"No bleeding expected\" is a plausible distractor but incorrect. The correct answer is B (\"Moderate, like heavy menstrual period\") — Lochia rubra (red, bloody discharge) is normal for 3-4 days postpartum and should be moderate, like a heavy menstrual period. Heavy bleeding (saturating pad in 1 hour) indicates hemorrhage."
-    },
-    "subject": "OBG",
-    "topic": "Postpartum Care",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 362,
-    "question": "What is the recommended time for initiating breastfeeding after delivery?",
-    "options": [
-      "Within 1 hour",
-      "Within 2-4 hours",
-      "Within 6 hours",
-      "Within 24 hours"
-    ],
-    "correct": 0,
-    "explanation": "• WHO recommends initiating breastfeeding within the first hour after birth (golden hour).\n• Early initiation promotes bonding and establishes milk supply.",
-    "explanations": {
-      "A": "WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply.",
-      "B": "\"Within 2-4 hours\" is a plausible distractor but incorrect. The correct answer is A (\"Within 1 hour\") — WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply.",
-      "C": "\"Within 6 hours\" is a plausible distractor but incorrect. The correct answer is A (\"Within 1 hour\") — WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply.",
-      "D": "\"Within 24 hours\" is a plausible distractor but incorrect. The correct answer is A (\"Within 1 hour\") — WHO recommends initiating breastfeeding within the first hour after birth (golden hour). Early initiation promotes bonding and establishes milk supply."
-    },
-    "subject": "OBG",
-    "topic": "Breastfeeding",
-    "day": 3,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 363,
-    "question": "A woman with preeclampsia is receiving magnesium sulfate. What is the priority monitoring?",
-    "options": [
-      "Blood pressure",
-      "Deep tendon reflexes",
-      "Urine output",
-      "Respiratory rate"
-    ],
-    "correct": 1,
-    "explanation": "• Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes.\n• Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
-    "explanations": {
-      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Deep tendon reflexes\") — Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.",
-      "B": "Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.",
-      "C": "\"Urine output\" is a plausible distractor but incorrect. The correct answer is B (\"Deep tendon reflexes\") — Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity.",
-      "D": "\"Respiratory rate\" is a plausible distractor but incorrect. The correct answer is B (\"Deep tendon reflexes\") — Magnesium sulfate can cause respiratory depression and loss of deep tendon reflexes. Monitoring reflexes, respiratory rate, and urine output is critical to detect toxicity."
-    },
-    "subject": "OBG",
-    "topic": "Pregnancy Complications",
-    "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 364,
-    "question": "What is the normal weight gain during pregnancy?",
-    "options": [
-      "5-7 kg",
-      "8-12 kg",
-      "11-16 kg",
-      "15-20 kg"
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …"
     ],
     "correct": 2,
-    "explanation": "• Normal weight gain during pregnancy is 11-16 kg (25-35 pounds).\n• This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
+    "explanation": "Priority: Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
     "explanations": {
-      "A": "\"5-7 kg\" is a plausible distractor but incorrect. The correct answer is C (\"11-16 kg\") — Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
-      "B": "\"8-12 kg\" is a plausible distractor but incorrect. The correct answer is C (\"11-16 kg\") — Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
-      "C": "Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores.",
-      "D": "\"15-20 kg\" is a plausible distractor but incorrect. The correct answer is C (\"11-16 kg\") — Normal weight gain during pregnancy is 11-16 kg (25-35 pounds). This includes fetus, placenta, amniotic fluid, increased blood volume, and maternal stores."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy. Epithelial (most common): serous, mucinous — CA-125.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "OBG",
-    "topic": "Antenatal Care",
+    "topic": "Ovarian tumors and tumor markers",
+    "section": "gyn",
     "day": 3,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 365,
-    "question": "A woman with abruptio placentae presents with painful, rigid abdomen. What is the priority intervention?",
+    "id": 304,
+    "syllabusId": "gyn-11-semen-analysis",
+    "question": "Couple with 2 y infertility.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Administer pain medication",
-      "Prepare for emergency cesarean",
-      "Monitor fetal heart rate",
-      "Start IV fluids"
+      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h"
     ],
-    "correct": 1,
-    "explanation": "• Abruptio placentae is a medical emergency.\n• The rigid, painful abdomen suggests concealed hemorrhage.\n• Emergency delivery is required to save mother and baby.\n• Maternal and newborn care requires comprehensive assessment skills and knowledge of normal and abnormal findings.\n• Early recognition of complications can prevent serious maternal and neonatal morbidity.",
+    "correct": 3,
+    "explanation": "Priority: Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h (Azoospermia: zero sperm on 2 separate samples.)",
     "explanations": {
-      "A": "\"Administer pain medication\" is a plausible distractor but incorrect. The correct answer is B (\"Prepare for emergency cesarean\") — Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage.",
-      "B": "Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage.",
-      "C": "\"Monitor fetal heart rate\" is a plausible distractor but incorrect. The correct answer is B (\"Prepare for emergency cesarean\") — Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage.",
-      "D": "\"Start IV fluids\" is a plausible distractor but incorrect. The correct answer is B (\"Prepare for emergency cesarean\") — Abruptio placentae is a medical emergency. The rigid, painful abdomen suggests concealed hemorrhage."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h. Volume >=1.4 mL, pH >=7.2, count >=16 million/mL."
     },
     "subject": "OBG",
-    "topic": "Pregnancy Complications",
+    "topic": "Semen analysis",
+    "section": "gyn",
     "day": 3,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 366,
-    "question": "What is the recommended folic acid supplementation before and during early pregnancy?",
+    "id": 499,
+    "syllabusId": "midwifery-1-obstetric-score-gpal-tpal",
+    "question": "A multipara comes for booking visit stating: \"2 live births at term, 1 preterm stillborn at 32 wk, 1 miscarriage at 10 wk; current pregnancy 12 wk.\"\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "200 mcg daily",
-      "400 mcg daily",
-      "600 mcg daily",
-      "1000 mcg daily"
+      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
+      "Document as active phase stage 1; continuous FHR monitoring, encourage position changes, oral fluids, partogram",
+      "Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only)",
+      "Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart"
     ],
-    "correct": 1,
-    "explanation": "• 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects.\n• Higher doses (4-5 mg) are needed if previous child had NTD.",
+    "correct": 2,
+    "explanation": "Priority: Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only) (G5 P3+2 L3 means 5 pregnancies, 3 viable deliveries, 2 abortions, 3 living children.)",
     "explanations": {
-      "A": "\"200 mcg daily\" is a plausible distractor but incorrect. The correct answer is B (\"400 mcg daily\") — 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
-      "B": "400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
-      "C": "\"600 mcg daily\" is a plausible distractor but incorrect. The correct answer is B (\"400 mcg daily\") — 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD.",
-      "D": "\"1000 mcg daily\" is a plausible distractor but incorrect. The correct answer is B (\"400 mcg daily\") — 400 mcg folic acid daily is recommended before conception and during first trimester to prevent neural tube defects. Higher doses (4-5 mg) are needed if previous child had NTD."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only). Gravida = total pregnancies including current.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "OBG",
-    "topic": "Antenatal Care",
+    "topic": "Obstetric score (GPAL/TPAL)",
+    "section": "midwifery",
     "day": 3,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 500,
+    "syllabusId": "midwifery-2-calculation-of-edd-naegele-rule",
+    "question": "Primigravida with regular 28-d cycles reports LMP on 10 Jan 2026.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
+      "Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother",
+      "EDD = 17 Oct 2026 (add 9 months + 7 days)",
+      "Admit, start MgSO4 loading 4 g IV over 20 min, labetalol IV for BP, urinary catheter, DTR q1h, deep tendon reflexes, plan delivery"
+    ],
+    "correct": 2,
+    "explanation": "Priority: EDD = 17 Oct 2026 (add 9 months + 7 days) (LMP 1 May 2025 → EDD 8 Feb 2026.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: EDD = 17 Oct 2026 (add 9 months + 7 days). Add 7 days and 9 months (or subtract 3 months and add 7 days plus a year) to LMP.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Calculation of EDD (Naegele rule)",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 501,
+    "syllabusId": "midwifery-3-antenatal-care",
+    "question": "A 24-y-old G2P1 at 12 wk presents for first ANC visit with no prior booking.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
+      "Admit, start MgSO4 loading 4 g IV over 20 min, labetalol IV for BP, urinary catheter, DTR q1h, deep tendon reflexes, plan delivery",
+      "Start IFA and calcium, give Td-1, order booking investigations, counsel on danger signs",
+      "Fundal massage first, then IV oxytocin 10 IU bolus, crystalloid bolus, cross-match 2 units, call obstetric team, monitor vitals q5 min"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Start IFA and calcium, give Td-1, order booking investigations, counsel on danger signs (Danger signs: severe headache, blurring, convulsions, decreased fetal movements, PV bleed, fever.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Start IFA and calcium, give Td-1, order booking investigations, counsel on danger signs. WHO 2016 model: 8 contacts (earlier 4-visit scheme).",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal care",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 502,
+    "syllabusId": "midwifery-4-anemia-in-pregnancy",
+    "question": "A 28-y-old G3P2 at 32 wk has Hb 6.8 g/dL, breathless on exertion, ankle edema.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "No vaginal exam, two large-bore IVs, oxygen, cross-match 2 units, urgent USG, prepare for emergent CS — this is abruption with fetal distre…",
+      "Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart",
+      "Identify DCDA twins; schedule growth scans q4 wk from 24 wk",
+      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart (Parenteral iron total dose = 2.4 x wt(kg) x (target - actual Hb) + 500 mg stores.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart. Commonest type: iron deficiency (microcytic hypochromic).",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Anemia in pregnancy",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 503,
+    "syllabusId": "midwifery-5-anemia-mukt-bharat-program",
+    "question": "ASHA visits a family with a 3-y-old, 8-y-old, and pregnant mother.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality",
+      "Identify vertex as SOB 9.5 cm — favorable for vaginal delivery",
+      "Identify Green-Armytage — haemostatic clamp used on uterine incision edges during CS",
+      "Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother (Pregnant women get IFA-red: 60 mg iron + 500 mcg folic acid.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Provide IFA-pink syrup biweekly for 3-y-old, IFA-blue tablet weekly for 8-y-old, IFA-red daily for mother. Target groups: children 6-59 mo, 5-9 y, adolescents 10-19 y, women of reproductive age, pregnant women, lactating mothers."
+    },
+    "subject": "OBG",
+    "topic": "Anemia Mukt Bharat Program",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 504,
+    "syllabusId": "midwifery-6-abortion-types-and-management",
+    "question": "A 26-y-old at 10 wk arrives with heavy PV bleeding, passing clots, BP 90/60, HR 110, cervical os open.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Document as G5 T2 P1 A1 L2 (with current pregnancy counted in Gravida only)",
+      "Summon obstetrician, prepare for assisted breech or emergency CS, assist with Lovset for shoulders and Mauriceau for head",
+      "Admit, start MgSO4 loading 4 g IV over 20 min, labetalol IV for BP, urinary catheter, DTR q1h, deep tendon reflexes, plan delivery",
+      "Start IV fluids, cross-match blood, prepare for MVA, give anti-D if Rh-negative, monitor for shock"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Start IV fluids, cross-match blood, prepare for MVA, give anti-D if Rh-negative, monitor for shock (Rh-negative women receive anti-D 300 mcg within 72 h of abortion.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Start IV fluids, cross-match blood, prepare for MVA, give anti-D if Rh-negative, monitor for shock. Types: threatened, inevitable, incomplete, complete, missed, septic, recurrent (>=3 consecutive)."
+    },
+    "subject": "OBG",
+    "topic": "Abortion — types and management",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 505,
+    "syllabusId": "midwifery-7-mtp-act-and-procedures",
+    "question": "A 19-y-old unmarried woman at 14 wk requests termination due to contraceptive failure.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance",
+      "Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality",
+      "Document as lochia serosa — normal finding; continue perineal care, monitor for return of bright red bleed",
+      "Knee-chest position, manually elevate presenting part, summon obstetric team, prepare for stat cesarean, oxygen by mask"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality (Record-keeping is confidential; only Form C sent to CMO.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Counsel, obtain her consent alone (no partner/guardian needed), arrange MVA/D&E with 2 RMP signatures, maintain confidentiality. Indications: risk to mother life/health, substantial fetal anomaly, rape/incest, contraceptive failure (married/unmarried), minor/mental illness.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "MTP — Act and procedures",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 506,
+    "syllabusId": "midwifery-8-ectopic-pregnancy-management",
+    "question": "A 27-y-old with 7-wk amenorrhea presents with sudden right iliac fossa pain, BP 80/50, HR 124, shoulder tip pain.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO",
+      "Empty bladder, supine with knees slightly flexed, perform Leopold 1-4 sequentially, document lie, presentation, position, engagement",
+      "Knee-chest position, manually elevate presenting part, summon obstetric team, prepare for stat cesarean, oxygen by mask",
+      "Start MNT with dietitian, initiate insulin (basal-bolus), self-monitor glucose 4x/day, counsel about hypoglycemia signs, plan growth USG"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO (Discriminatory zone: β-hCG >1500-2000 with empty uterus on TVS → strongly suspect ectopic.)",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO. Triad: amenorrhea + PV spotting + abdominal pain (often unilateral).",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Ectopic pregnancy management",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 507,
+    "syllabusId": "midwifery-9-hydatidiform-mole-snowstorm-appearance",
+    "question": "A 29-y-old G1 at 14 wk by dates has fundal height of 20 wk, PV bleed with grape-like tissue, BP 150/100, β-hCG 250,000.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Two large-bore IV lines with crystalloid, cross-match 2 units, notify on-call surgeon for emergency laparotomy, give oxygen, NPO",
+      "Document normal involution, reinforce breastfeeding, perineal care, early ambulation, contraception counselling",
+      "Administer oxytocin 10 IU IM within 1 min, await uterine contraction, apply controlled cord traction with counter-pressure, massage fundus …",
+      "Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance (Avoid pregnancy x1 year post-evacuation to allow β-hCG monitoring.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Prepare for urgent suction evacuation, control BP, save tissue for histopathology, start post-evacuation β-hCG surveillance. Clinical: vaginal bleeding in 1st trimester, uterus larger than dates, hyperemesis, early PIH."
+    },
+    "subject": "OBG",
+    "topic": "Hydatidiform mole — snowstorm appearance",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 508,
+    "syllabusId": "midwifery-10-chorionic-villi-sampling",
+    "question": "A 38-y-old G2 at 12 wk wants early karyotyping for Down risk.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Identify DCDA twins; schedule growth scans q4 wk from 24 wk",
+      "Document as active phase stage 1; continuous FHR monitoring, encourage position changes, oral fluids, partogram",
+      "Prepare for transabdominal CVS under USG, obtain consent, counsel about 0.5-1% miscarriage risk, instruct to report cramping/bleeding",
+      "Admit, arrange packed RBC transfusion with furosemide cover, start IV iron after stabilization, monitor fetal heart"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Prepare for transabdominal CVS under USG, obtain consent, counsel about 0.5-1% miscarriage risk, instruct to report cramping/bleeding (Cannot detect neural tube defects (no amniotic fluid analysis).)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Prepare for transabdominal CVS under USG, obtain consent, counsel about 0.5-1% miscarriage risk, instruct to report cramping/bleeding. Done transabdominally or transcervically under USG guidance.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Chorionic villi sampling",
+    "section": "midwifery",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   }
 ]

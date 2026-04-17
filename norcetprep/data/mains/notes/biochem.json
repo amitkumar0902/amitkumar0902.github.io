@@ -1,0 +1,543 @@
+[
+  {
+    "id": "biochem-1-vitamin-deficiency-and-excess-table",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Vitamin deficiency and excess — table",
+    "subtopic": null,
+    "day": 10,
+    "priority": "must",
+    "title": "Vitamin deficiency and excess — table",
+    "definition": "Fat-soluble (ADEK) and water-soluble (B, C).",
+    "keyPoints": [
+      "A: night blindness, xerophthalmia, Bitot spots; excess — pseudotumor cerebri, teratogen",
+      "D: rickets/osteomalacia; excess — hypercalcemia",
+      "E: hemolytic anemia neonates",
+      "K: bleeding, neonatal HDN; excess — hemolysis in G6PD",
+      "B1 thiamine: beri-beri, Wernicke",
+      "B2 riboflavin: angular stomatitis, cheilitis",
+      "B3 niacin: pellagra (3 Ds)",
+      "B6 pyridoxine: peripheral neuropathy (INH)",
+      "B9 folate: megaloblastic, NTD",
+      "B12: pernicious anemia, SACD",
+      "C: scurvy"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Harrison"
+    ],
+    "clinicalContext": "Chronic alcoholic with confusion, ataxia, ophthalmoplegia.",
+    "nursingPriority": "Thiamine (B1) 500 mg IV TDS x3 d to treat Wernicke before glucose.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-2-minerals-sources-and-deficiency",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Minerals — sources and deficiency",
+    "subtopic": null,
+    "day": 10,
+    "priority": "must",
+    "title": "Minerals — sources and deficiency",
+    "definition": "Essential minerals.",
+    "keyPoints": [
+      "Ca: bone, clotting, muscle; deficiency — tetany, rickets; food — dairy, green leafy, fish",
+      "Fe: Hb; IDA — microcytic",
+      "Iodine: thyroxine; goiter/cretinism",
+      "Zn: growth, wound healing; deficiency — growth retardation",
+      "Mg: cofactor many enzymes; hypomag — tetany, arrhythmia",
+      "Fluoride: teeth; excess — fluorosis",
+      "Selenium: antioxidant"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "ICMR"
+    ],
+    "clinicalContext": "Child from goiter belt with neck swelling.",
+    "nursingPriority": "Check thyroid function, iodized salt education, national iodine deficiency disorder program.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-3-food-related-diseases",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Food-related diseases",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Food-related diseases",
+    "definition": "Nutritional deficiencies.",
+    "keyPoints": [
+      "Beri-beri: B1 deficiency (polished rice)",
+      "Pellagra: B3 (maize diet)",
+      "Scurvy: C",
+      "Kwashiorkor: protein",
+      "Marasmus: calorie",
+      "Goiter: iodine",
+      "Rickets: vit D",
+      "Pernicious anemia: B12"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "ICMR"
+    ],
+    "clinicalContext": "Maize-only diet with dermatitis, diarrhea, dementia.",
+    "nursingPriority": "Pellagra — niacin (B3) supplementation, varied diet, treat dermatitis.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-4-major-anions-and-cations",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Major anions and cations",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Major anions and cations",
+    "definition": "Body fluids.",
+    "keyPoints": [
+      "ECF cations: Na+ (135-145), K+ (3.5-5), Ca++, Mg++",
+      "ECF anions: Cl- (98-106), HCO3- (22-26), proteins, phosphate",
+      "ICF: K+ major cation, phosphate, protein",
+      "Anion gap = Na - (Cl + HCO3); normal 8-12"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Harrison"
+    ],
+    "clinicalContext": "Elevated anion gap 22 in septic patient.",
+    "nursingPriority": "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-5-caloric-requirements-by-age",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Caloric requirements by age",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Caloric requirements by age",
+    "definition": "RDA per ICMR.",
+    "keyPoints": [
+      "0-6 mo: 550 kcal/d (breast milk)",
+      "6-12 mo: 670",
+      "1-3 y: 1010",
+      "4-6 y: 1360",
+      "7-10 y: 1700",
+      "Adolescent M: 2750",
+      "Adult M sedentary: 2320, F: 1900",
+      "Pregnancy +350, lactation +600 first 6 mo"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "ICMR 2020"
+    ],
+    "clinicalContext": "Pregnant 3rd trimester dietary counseling.",
+    "nursingPriority": "+350 kcal above pre-pregnancy requirement, 23 g additional protein, iron/folate/calcium supplementation.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-6-urine-specific-gravity-interpretation",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Urine specific gravity interpretation",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Urine specific gravity interpretation",
+    "definition": "Measure of solute concentration.",
+    "keyPoints": [
+      "Normal: 1.003-1.030",
+      "Concentrated (high): dehydration, SIADH, proteinuria, glycosuria",
+      "Dilute (low): overhydration, diabetes insipidus, CKD"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Harrison"
+    ],
+    "clinicalContext": "Polyuria patient with SG 1.001.",
+    "nursingPriority": "Dilute urine — suspect DI; water deprivation test + desmopressin challenge.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-7-ketone-bodies",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Ketone bodies",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Ketone bodies",
+    "definition": "Lipolysis products.",
+    "keyPoints": [
+      "Acetoacetate, beta-hydroxybutyrate, acetone (breath)",
+      "Produced in liver when glucose low (fasting, DM, starvation)",
+      "DKA: ketonuria + hyperglycemia + acidosis",
+      "Measured by urine dipstick (misses BHB) or serum BHB"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "ADA"
+    ],
+    "clinicalContext": "T1DM with fruity breath and glucose 500.",
+    "nursingPriority": "Suspect DKA — ABG, serum BHB, electrolytes, IV fluids, insulin infusion, K+ replacement.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-8-omega-3-pufa",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Omega-3 PUFA",
+    "subtopic": null,
+    "day": 10,
+    "priority": "nice",
+    "title": "Omega-3 PUFA",
+    "definition": "Polyunsaturated fatty acid.",
+    "keyPoints": [
+      "Sources: fish oil, flaxseed, walnut",
+      "EPA and DHA",
+      "Cardioprotective, reduce TG",
+      "DHA for brain and retinal development"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "AHA"
+    ],
+    "clinicalContext": "CV risk patient asks about supplements.",
+    "nursingPriority": "Mediterranean diet + fatty fish 2x/wk; omega-3 supplement 1 g/d for secondary prevention in some patients.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-9-triglyceride-transport-vldl",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Triglyceride transport (VLDL)",
+    "subtopic": null,
+    "day": 10,
+    "priority": "nice",
+    "title": "Triglyceride transport (VLDL)",
+    "definition": "Dietary lipid transport.",
+    "keyPoints": [
+      "Chylomicrons: dietary TG from gut",
+      "VLDL: endogenous TG from liver",
+      "LDL: cholesterol delivery",
+      "HDL: reverse cholesterol transport"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Harrison"
+    ],
+    "clinicalContext": "Item on endogenous TG carrier.",
+    "nursingPriority": "VLDL.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-10-prokaryotic-vs-eukaryotic-cell",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Prokaryotic vs eukaryotic cell",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Prokaryotic vs eukaryotic cell",
+    "definition": "Cell types.",
+    "keyPoints": [
+      "Prokaryote: no nucleus, 70S ribosome, single circular DNA, bacteria/archaea",
+      "Eukaryote: nucleus, 80S ribosome, membrane organelles, animals/plants/fungi/protists"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Alberts"
+    ],
+    "clinicalContext": "Item on prokaryote.",
+    "nursingPriority": "Bacteria have no nucleus.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-11-sequence-of-mitosis",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Sequence of mitosis",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Sequence of mitosis",
+    "definition": "Somatic cell division.",
+    "keyPoints": [
+      "Prophase: chromatin condenses, centrioles separate, NE dissolves",
+      "Metaphase: chromosomes align on equator",
+      "Anaphase: sister chromatids separate",
+      "Telophase: 2 daughter nuclei form",
+      "Cytokinesis completes division",
+      "PMAT mnemonic"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Alberts"
+    ],
+    "clinicalContext": "Item on chromosome alignment.",
+    "nursingPriority": "Metaphase.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-12-mitochondria-powerhouse",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Mitochondria — powerhouse",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Mitochondria — powerhouse",
+    "definition": "ATP powerhouse of the cell.",
+    "keyPoints": [
+      "Double membrane",
+      "Own circular DNA (maternal inheritance)",
+      "TCA cycle in matrix",
+      "Electron transport chain on inner membrane",
+      "Site of oxidative phosphorylation"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Alberts"
+    ],
+    "clinicalContext": "Item on energy source.",
+    "nursingPriority": "Mitochondrial oxidative phosphorylation generates ATP.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-13-protein-synthesis-translation",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Protein synthesis — translation",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Protein synthesis — translation",
+    "definition": "mRNA → protein via ribosome.",
+    "keyPoints": [
+      "Initiation: mRNA binds small ribosomal subunit at AUG",
+      "Elongation: tRNA brings amino acids, peptide bond forms",
+      "Termination: stop codon, release factor",
+      "Antibiotics target bacterial 30S/50S (aminoglycosides, tetracyclines, macrolides)"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Harper"
+    ],
+    "clinicalContext": "Item on antibiotic target.",
+    "nursingPriority": "Bacterial 70S ribosome (30S aminoglycoside, 50S macrolide).",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-14-cytoskeleton",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Cytoskeleton",
+    "subtopic": null,
+    "day": 10,
+    "priority": "nice",
+    "title": "Cytoskeleton",
+    "definition": "Cell shape and movement.",
+    "keyPoints": [
+      "Microfilaments (actin): muscle, cell division",
+      "Microtubules (tubulin): mitotic spindle, cilia, flagella",
+      "Intermediate filaments: cytokeratin, desmin, vimentin — structural"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Alberts"
+    ],
+    "clinicalContext": "Item on mitotic spindle.",
+    "nursingPriority": "Microtubules (tubulin dimers).",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-15-tca-cycle",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "TCA cycle",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "TCA cycle",
+    "definition": "Krebs/Citric acid cycle in mitochondrial matrix.",
+    "keyPoints": [
+      "Acetyl-CoA enters → citrate",
+      "8 steps",
+      "Per turn: 3 NADH, 1 FADH2, 1 GTP, 2 CO2",
+      "Rate-limiting: isocitrate dehydrogenase"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Harper"
+    ],
+    "clinicalContext": "Item on Krebs cycle location.",
+    "nursingPriority": "Mitochondrial matrix.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-16-lactose",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Lactose",
+    "subtopic": null,
+    "day": 10,
+    "priority": "nice",
+    "title": "Lactose",
+    "definition": "Disaccharide: glucose + galactose.",
+    "keyPoints": [
+      "Lactase in intestine",
+      "Lactose intolerance common in Asians (adult-onset hypolactasia)",
+      "Diagnosis: lactose tolerance test, breath hydrogen",
+      "Management: lactose-free diet, lactase supplement"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "IAP"
+    ],
+    "clinicalContext": "Bloating and diarrhea after milk.",
+    "nursingPriority": "Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-17-dna-structure",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "DNA structure",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "DNA structure",
+    "definition": "Double helix.",
+    "keyPoints": [
+      "Watson-Crick: antiparallel, sugar-phosphate backbone, complementary base pairing (A=T, G=C)",
+      "Deoxyribose sugar",
+      "Nucleus and mitochondria",
+      "Chargaff rule"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Alberts"
+    ],
+    "clinicalContext": "Item on base pairing.",
+    "nursingPriority": "A with T (2 H bonds); G with C (3 H bonds).",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-18-chromosome-number-46",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Chromosome number (46)",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Chromosome number (46)",
+    "definition": "Human chromosomes.",
+    "keyPoints": [
+      "46 total: 22 autosome pairs + 2 sex (XX or XY)",
+      "Gamete: 23 (haploid)",
+      "Aneuploidies: trisomy 21 (Down), 18 (Edward), 13 (Patau), XXY (Klinefelter), XO (Turner)"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Ghai"
+    ],
+    "clinicalContext": "Item on normal human chromosomes.",
+    "nursingPriority": "46 (23 pairs).",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-19-mutation-types",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Mutation types",
+    "subtopic": null,
+    "day": 10,
+    "priority": "nice",
+    "title": "Mutation types",
+    "definition": "DNA changes.",
+    "keyPoints": [
+      "Point: silent, missense, nonsense",
+      "Frameshift: insertion/deletion",
+      "Chromosomal: translocation, deletion, duplication, inversion",
+      "Spontaneous or induced"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Alberts"
+    ],
+    "clinicalContext": "Item on premature stop codon.",
+    "nursingPriority": "Nonsense mutation.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-20-keratin-structural-protein",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Keratin — structural protein",
+    "subtopic": null,
+    "day": 10,
+    "priority": "nice",
+    "title": "Keratin — structural protein",
+    "definition": "Structural protein in skin, hair, nails.",
+    "keyPoints": [
+      "Alpha-keratin: hair, nail",
+      "Beta-keratin: reptile",
+      "Fibrous protein",
+      "Intermediate filament"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Alberts"
+    ],
+    "clinicalContext": "Item on nail/hair protein.",
+    "nursingPriority": "Keratin.",
+    "videoIds": []
+  },
+  {
+    "id": "biochem-21-essential-amino-acids",
+    "section": "biochem",
+    "sectionLabel": "Biochemistry",
+    "topic": "Essential amino acids",
+    "subtopic": null,
+    "day": 10,
+    "priority": "should",
+    "title": "Essential amino acids",
+    "definition": "9 amino acids body cannot synthesize.",
+    "keyPoints": [
+      "Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine (PVT TIM HaLL)",
+      "Must come from diet",
+      "Complete proteins: meat, eggs, soy",
+      "Incomplete: combine (dal + rice)"
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "ICMR"
+    ],
+    "clinicalContext": "Vegetarian diet planning.",
+    "nursingPriority": "Combine cereal (rice/wheat) with pulse (dal) — complementary protein to ensure all essential amino acids.",
+    "videoIds": []
+  }
+]

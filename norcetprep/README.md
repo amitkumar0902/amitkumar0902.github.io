@@ -24,3 +24,63 @@ See **[SEO_PLAYBOOK.md](SEO_PLAYBOOK.md)** and **[.orchestrator/README.md](.orch
 
 - Google Search Console + sitemap submit
 - GitHub repo **About** description + website URL + topics
+
+---
+
+## Mains toolkit (NORCET 10 Mains 2026)
+
+The `norcetprep/mains-plan/` subsite is a self-contained 13-day program for
+the NORCET Mains 2026 exam, driven by the **High-Yield Topics NORCET** PDF
+and the companion NORCET High-Yield YouTube playlist.
+
+### Key pages
+
+- **13-Day Plan** · `mains-plan/index.html`
+- **High-Yield Syllabus checklist** · `mains-plan/syllabus.html` — all 610
+  PDF topics with notes + MCQ + video links; persists progress in
+  `localStorage` (key `syllabusDone`) and syncs to Firestore when
+  `js/firebase-config.js` is configured.
+- **Notes viewer** · `mains-plan/notes/index.html?section=<section>` —
+  scenario-first notes with `clinicalContext` + `nursingPriority` per topic.
+- **Watch** · `mains-plan/watch.html` — embedded YouTube playlist with
+  per-episode syllabus linkage.
+- **Bank** · `mains-plan/bank.html?syllabusId=<id>` (or `?tag=scenario`) —
+  filter the unified question bank by topic or tag.
+- **Mocks** · `mains-plan/mocks/` — 10 full-length mocks + a PYQ-only mock.
+
+### Regenerate the Mains bundle
+
+```bash
+cd norcetprep/scripts
+node build-syllabus.mjs           # rebuild syllabus.json from PDF topics
+node consolidate-notes.mjs        # merge notes-content*.mjs → data/mains/notes/<section>.json
+node gen-highyield.mjs            # per-topic scenario MCQs → data/mains/topics/high-yield/<section>.json
+node build-mains-bank.mjs         # unified bank + 10 mocks + PYQ mock + audits (runs audit-highyield.mjs at end)
+```
+
+### Enabling cross-device sync (Firebase) + remote reporting
+
+1. Create a Firebase project → enable **Authentication → Anonymous** and
+   **Cloud Firestore** (test-mode rules are fine for personal use).
+2. Copy your config object (Project settings → General → Your apps → SDK
+   config) into `norcetprep/js/firebase-config.js` — replace the
+   placeholder `REPLACE_ME` values. A minimal working example:
+
+   ```js
+   window.NM_FIREBASE_CONFIG = {
+     apiKey: 'AIza…',
+     authDomain: 'norcet-mains.firebaseapp.com',
+     projectId: 'norcet-mains',
+     storageBucket: 'norcet-mains.appspot.com',
+     appId: '1:…:web:…'
+   };
+   ```
+
+3. Deploy the site (`git push`). On next load, `js/sync.js` runs anonymous
+   auth and starts syncing `syllabusDone`, `notesDone`, `practiceDone`,
+   `bankMode`, and reviewed-SRS state under a user doc, so the same
+   progress is visible on phone and laptop. Question reports go to the
+   `reports` collection (fallback: `localStorage.reports`).
+
+If the Firebase config remains unset, the site continues to work entirely
+offline — progress simply stays on whichever device it was recorded on.

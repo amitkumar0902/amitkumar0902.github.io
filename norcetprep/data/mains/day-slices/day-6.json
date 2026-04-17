@@ -125,7 +125,7 @@
     "qtype": "factual"
   },
   {
-    "id": 509,
+    "id": 1119,
     "question": "PM-JAY provides health coverage up to (approx) per family per year:",
     "options": [
       "₹1 lakh",
@@ -150,7 +150,7 @@
     "qtype": "factual"
   },
   {
-    "id": 515,
+    "id": 1125,
     "question": "Pulse polio immunization is an example of:",
     "options": [
       "Passive immunity",
@@ -175,7 +175,7 @@
     "qtype": "factual"
   },
   {
-    "id": 520,
+    "id": 1130,
     "question": "ASHA worker is primarily:",
     "options": [
       "Hospital specialist doctor",
@@ -200,7 +200,7 @@
     "qtype": "factual"
   },
   {
-    "id": 524,
+    "id": 1134,
     "question": "Article 21 of Indian Constitution relates to:",
     "options": [
       "Education",
@@ -225,7 +225,7 @@
     "qtype": "factual"
   },
   {
-    "id": 530,
+    "id": 1140,
     "question": "ASHA worker is primarily:",
     "options": [
       "Hospital specialist doctor",
@@ -250,7 +250,7 @@
     "qtype": "factual"
   },
   {
-    "id": 534,
+    "id": 1144,
     "question": "Article 21 of Indian Constitution relates to:",
     "options": [
       "Education",
@@ -275,7 +275,7 @@
     "qtype": "factual"
   },
   {
-    "id": 540,
+    "id": 1150,
     "question": "ASHA worker is primarily:",
     "options": [
       "Hospital specialist doctor",
@@ -300,7 +300,7 @@
     "qtype": "factual"
   },
   {
-    "id": 544,
+    "id": 1154,
     "question": "Article 21 of Indian Constitution relates to:",
     "options": [
       "Education",
@@ -325,7 +325,7 @@
     "qtype": "factual"
   },
   {
-    "id": 550,
+    "id": 1160,
     "question": "ASHA worker is primarily:",
     "options": [
       "Hospital specialist doctor",
@@ -350,403 +350,515 @@
     "qtype": "factual"
   },
   {
-    "id": 99,
-    "question": "What is the primary goal of the National Health Mission (NHM)?",
+    "id": 209,
+    "syllabusId": "chn-1-national-immunization-schedule",
+    "question": "Nurse preparing 6-wk vaccination visit.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Provide tertiary care",
-      "Achieve universal health coverage",
-      "Establish medical colleges",
-      "Train specialist doctors"
-    ],
-    "correct": 1,
-    "explanation": "• NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-    "explanations": {
-      "A": "\"Provide tertiary care\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "B": "NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "C": "\"Establish medical colleges\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "D": "\"Train specialist doctors\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations."
-    },
-    "subject": "Community Health",
-    "topic": "National Health Programs",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 100,
-    "question": "What is the recommended schedule for BCG vaccination in India?",
-    "options": [
-      "At birth",
-      "At 6 weeks",
-      "At 2 months",
-      "At 6 months"
-    ],
-    "correct": 0,
-    "explanation": "• BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-    "explanations": {
-      "A": "BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "B": "\"At 6 weeks\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "C": "\"At 2 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "D": "\"At 6 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children."
-    },
-    "subject": "Community Health",
-    "topic": "Immunization",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 103,
-    "question": "What is the recommended age for starting Antiretroviral Therapy (ART) in HIV-positive children?",
-    "options": [
-      "Immediately after diagnosis, regardless of age",
-      "At 2 years of age",
-      "At 5 years of age",
-      "Only when symptomatic"
-    ],
-    "correct": 0,
-    "explanation": "• WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-    "explanations": {
-      "A": "WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "B": "\"At 2 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "C": "\"At 5 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "D": "\"Only when symptomatic\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes."
-    },
-    "subject": "Community Health",
-    "topic": "HIV/AIDS",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 105,
-    "question": "What is the primary focus of the Ayushman Bharat program?",
-    "options": [
-      "Medical education",
-      "Health insurance for poor",
-      "Hospital construction",
-      "Drug manufacturing"
-    ],
-    "correct": 1,
-    "explanation": "• Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-    "explanations": {
-      "A": "\"Medical education\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "B": "Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "C": "\"Hospital construction\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "D": "\"Drug manufacturing\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families."
-    },
-    "subject": "Community Health",
-    "topic": "National Health Programs",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 106,
-    "question": "What is the recommended treatment for tuberculosis under DOTS?",
-    "options": [
-      "2 months intensive phase + 4 months continuation",
-      "6 months continuous treatment",
-      "9 months treatment",
-      "12 months treatment"
-    ],
-    "correct": 0,
-    "explanation": "• DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
-    "explanations": {
-      "A": "DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
-      "B": "\"6 months continuous treatment\" is a plausible distractor but incorrect. The correct answer is A (\"2 months intensive phase + 4 months continuation\") — DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
-      "C": "\"9 months treatment\" is a plausible distractor but incorrect. The correct answer is A (\"2 months intensive phase + 4 months continuation\") — DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total.",
-      "D": "\"12 months treatment\" is a plausible distractor but incorrect. The correct answer is A (\"2 months intensive phase + 4 months continuation\") — DOTS (Directly Observed Treatment, Short-course) consists of 2 months intensive phase (4 drugs) + 4 months continuation phase (2 drugs) = 6 months total."
-    },
-    "subject": "Community Health",
-    "topic": "Tuberculosis",
-    "day": 6,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 107,
-    "question": "What is the primary cause of blindness in India?",
-    "options": [
-      "Glaucoma",
-      "Cataract",
-      "Diabetic retinopathy",
-      "Trachoma"
-    ],
-    "correct": 1,
-    "explanation": "• Cataract is the leading cause of blindness in India, accounting for about 62% of cases.\n• It's treatable with surgery.",
-    "explanations": {
-      "A": "\"Glaucoma\" is a plausible distractor but incorrect. The correct answer is B (\"Cataract\") — Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
-      "B": "Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
-      "C": "\"Diabetic retinopathy\" is a plausible distractor but incorrect. The correct answer is B (\"Cataract\") — Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery.",
-      "D": "\"Trachoma\" is a plausible distractor but incorrect. The correct answer is B (\"Cataract\") — Cataract is the leading cause of blindness in India, accounting for about 62% of cases. It's treatable with surgery."
-    },
-    "subject": "Community Health",
-    "topic": "Eye Health",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 108,
-    "question": "What is the target coverage for full immunization in India?",
-    "options": [
-      "80%",
-      "85%",
-      "90%",
-      "100%"
+      "Airborne + contact precautions, cool baths, calamine, avoid aspirin, acyclovir if severe/adult",
+      "My Health, My Right",
+      "Airborne isolation, vit A 100,000 IU day 1 and 2 (up to 200,000 IU in >=12 mo), supportive care, notify IDSP, catch-up MR",
+      "Administer OPV-1 (2 drops oral), Penta-1 (0.5 mL IM anterolateral thigh), Rota-1, fIPV-1, PCV-1; record in MCP card"
     ],
     "correct": 3,
-    "explanation": "• India aims for 100% immunization coverage under Mission Indradhanush.\n• Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
+    "explanation": "Priority: Administer OPV-1 (2 drops oral), Penta-1 (0.5 mL IM anterolateral thigh), Rota-1, fIPV-1, PCV-1; record in MCP card (Total doses by 1 year: BCG+4 OPV+3 penta+3 rota+2 fIPV+2 PCV+1 MR.)",
     "explanations": {
-      "A": "\"80%\" is a plausible distractor but incorrect. The correct answer is D (\"100%\") — India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
-      "B": "\"85%\" is a plausible distractor but incorrect. The correct answer is D (\"100%\") — India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
-      "C": "\"90%\" is a plausible distractor but incorrect. The correct answer is D (\"100%\") — India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B.",
-      "D": "India aims for 100% immunization coverage under Mission Indradhanush. Full immunization includes BCG, DPT, OPV, Measles, and Hepatitis B."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Administer OPV-1 (2 drops oral), Penta-1 (0.5 mL IM anterolateral thigh), Rota-1, fIPV-1, PCV-1; record in MCP card. Birth: BCG, OPV-0, Hep-B birth dose"
     },
     "subject": "Community Health",
-    "topic": "Immunization",
+    "topic": "National Immunization Schedule",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 109,
-    "question": "What is the primary method of preventing iodine deficiency disorders?",
+    "id": 210,
+    "syllabusId": "chn-2-cold-chain",
+    "question": "ANM at outreach session has vaccine carrier.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Iodine supplements",
-      "Iodized salt",
-      "Iodine-rich foods",
-      "Iodine injections"
+      "Airborne precautions — N95 respirator fit-tested, negative-pressure room, keep door closed, instruct cough etiquette",
+      "Source reduction — empty coolers weekly, cover water storage, use larvicide (temephos), long sleeves, repellents, fogging for adult vectors",
+      "80,000 plains, 30,000 hilly/tribal per CHC",
+      "Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle"
     ],
-    "correct": 1,
-    "explanation": "• Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
+    "correct": 3,
+    "explanation": "Priority: Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle (Top shelf of ILR: OPV, measles; bottom: DPT, TT, HepB.)",
     "explanations": {
-      "A": "\"Iodine supplements\" is a plausible distractor but incorrect. The correct answer is B (\"Iodized salt\") — Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
-      "B": "Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
-      "C": "\"Iodine-rich foods\" is a plausible distractor but incorrect. The correct answer is B (\"Iodized salt\") — Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism.",
-      "D": "\"Iodine injections\" is a plausible distractor but incorrect. The correct answer is B (\"Iodized salt\") — Universal iodization of salt is the most effective and sustainable method to prevent iodine deficiency disorders (IDD) like goiter and cretinism."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle. ILR (2-8°C): most vaccines"
     },
     "subject": "Community Health",
-    "topic": "Nutrition",
+    "topic": "Cold chain",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 113,
-    "question": "What is the primary purpose of ASHA (Accredited Social Health Activist)?",
+    "id": 211,
+    "syllabusId": "chn-3-family-planning-methods",
+    "question": "28-y-old P2 wants 5-year reversible method.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Provide medical treatment",
-      "Act as link between community and health system",
-      "Conduct surgeries",
-      "Manage hospitals"
-    ],
-    "correct": 1,
-    "explanation": "• ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
-    "explanations": {
-      "A": "\"Provide medical treatment\" is a plausible distractor but incorrect. The correct answer is B (\"Act as link between community and health system\") — ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
-      "B": "ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
-      "C": "\"Conduct surgeries\" is a plausible distractor but incorrect. The correct answer is B (\"Act as link between community and health system\") — ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services.",
-      "D": "\"Manage hospitals\" is a plausible distractor but incorrect. The correct answer is B (\"Act as link between community and health system\") — ASHA workers act as health activists and link workers between the community and public health system, promoting health awareness and facilitating access to services."
-    },
-    "subject": "Community Health",
-    "topic": "Health Workers",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 114,
-    "question": "What is the recommended age for starting complementary feeding?",
-    "options": [
-      "2-3 months",
-      "4-6 months",
-      "6 months",
-      "8-10 months"
+      "Register under JSY, ensure 2 ANC visits, institutional delivery, PNC; mother receives 1400 INR, ASHA 600 INR",
+      "Address airway + pain (physiological) first before psychosocial/belonging needs",
+      "Counsel Cu-T 380A (10 y) or LNG-IUS (5 y); rule out pregnancy, insert within 7 d of menses, teach thread check, 6-week follow-up",
+      "Apply iceberg concept — screen asymptomatic population to reveal hidden cases"
     ],
     "correct": 2,
-    "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond.\n• Early or late introduction has risks.",
+    "explanation": "Priority: Counsel Cu-T 380A (10 y) or LNG-IUS (5 y); rule out pregnancy, insert within 7 d of menses, teach thread check, 6-week follow-up",
     "explanations": {
-      "A": "\"2-3 months\" is a plausible distractor but incorrect. The correct answer is C (\"6 months\") — WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks.",
-      "B": "\"4-6 months\" is a plausible distractor but incorrect. The correct answer is C (\"6 months\") — WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks.",
-      "C": "WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks.",
-      "D": "\"8-10 months\" is a plausible distractor but incorrect. The correct answer is C (\"6 months\") — WHO recommends starting complementary feeding at 6 months while continuing breastfeeding until 2 years or beyond. Early or late introduction has risks."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Counsel Cu-T 380A (10 y) or LNG-IUS (5 y); rule out pregnancy, insert within 7 d of menses, teach thread check, 6-week follow-up. Barrier: condom (dual protection HIV+pregnancy), diaphragm, female condom",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "Community Health",
-    "topic": "Nutrition",
+    "topic": "Family planning methods",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 116,
-    "question": "What is the target for reducing stunting in children under 5 years?",
+    "id": 212,
+    "syllabusId": "chn-4-diarrhea-and-ors-management",
+    "question": "10-kg 14-mo-old with lethargy, sunken eyes, skin pinch goes back slowly, unable to drink.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Less than 20%",
-      "Less than 25%",
-      "Less than 30%",
-      "Less than 35%"
+      "Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle",
+      "Design is cohort; calculate relative risk as CI exposed / CI unexposed",
+      "Counsel Cu-T 380A (10 y) or LNG-IUS (5 y); rule out pregnancy, insert within 7 d of menses, teach thread check, 6-week follow-up",
+      "Severe dehydration — Plan C: IV RL 30 mL/kg (300 mL) in 30 min, then 70 mL/kg (700 mL) over 2.5 h; reassess q15-30 min; start ORS once able to drink"
     ],
-    "correct": 1,
-    "explanation": "• National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025.\n• Current rate is around 35%.",
+    "correct": 3,
+    "explanation": "Priority: Severe dehydration — Plan C: IV RL 30 mL/kg (300 mL) in 30 min, then 70 mL/kg (700 mL) over 2.5 h; reassess q15-30 min; start ORS once able to drink (Zinc reduces duration + severity + recurrence.)",
     "explanations": {
-      "A": "\"Less than 20%\" is a plausible distractor but incorrect. The correct answer is B (\"Less than 25%\") — National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%.",
-      "B": "National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%.",
-      "C": "\"Less than 30%\" is a plausible distractor but incorrect. The correct answer is B (\"Less than 25%\") — National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%.",
-      "D": "\"Less than 35%\" is a plausible distractor but incorrect. The correct answer is B (\"Less than 25%\") — National Nutrition Mission aims to reduce stunting (low height for age) to less than 25% by 2025. Current rate is around 35%."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Severe dehydration — Plan C: IV RL 30 mL/kg (300 mL) in 30 min, then 70 mL/kg (700 mL) over 2.5 h; reassess q15-30 min; start ORS once able to drink. Classify: no dehydration, some dehydration, severe"
     },
     "subject": "Community Health",
-    "topic": "Nutrition",
+    "topic": "Diarrhea and ORS management",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 118,
-    "question": "What is the recommended treatment for severe acute malnutrition (SAM)?",
+    "id": 213,
+    "syllabusId": "chn-5-child-growth-and-icds",
+    "question": "AWW notes 2-y-old weight below -3Z on growth chart.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Hospitalization and therapeutic feeding",
-      "Home-based care only",
-      "Vitamin supplements",
-      "Increased food intake"
+      "Suspect measles (incubation 10-14 d); isolate with airborne precautions, notify surveillance",
+      "31 May — WHO World No Tobacco Day",
+      "Start doxycycline empirically; notify; supportive care; Weil-Felix positive to OX-K in scrub typhus",
+      "Classify as SAM, refer to NRC, double ration supplementary nutrition, counsel mother on IYCF, deworm if not done"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Classify as SAM, refer to NRC, double ration supplementary nutrition, counsel mother on IYCF, deworm if not done",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Classify as SAM, refer to NRC, double ration supplementary nutrition, counsel mother on IYCF, deworm if not done. Launched 1975; target: 0-6 y children, pregnant women, lactating mothers, adolescent girls"
+    },
+    "subject": "Community Health",
+    "topic": "Child growth and ICDS",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 214,
+    "syllabusId": "chn-6-nutritional-guidelines-for-pregnant-and-lactating-females",
+    "question": "Lactating mother at 3 mo postpartum.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Airborne precautions — N95 respirator fit-tested, negative-pressure room, keep door closed, instruct cough etiquette",
+      "Suspect measles (incubation 10-14 d); isolate with airborne precautions, notify surveillance",
+      "Recommend +600 kcal, +25 g protein, IFA + calcium + iodine, adequate fluids, diverse diet",
+      "Isolate, start ciprofloxacin, report to public health authority, culture swab"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Recommend +600 kcal, +25 g protein, IFA + calcium + iodine, adequate fluids, diverse diet",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Recommend +600 kcal, +25 g protein, IFA + calcium + iodine, adequate fluids, diverse diet. Pregnancy: +350 kcal 2nd trimester, +350-500 3rd; +0.8 g protein/kg/d",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Community Health",
+    "topic": "Nutritional guidelines for pregnant and lactating females",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 215,
+    "syllabusId": "chn-7-mosquito-ticks-mites-louse-identification-and-prevention",
+    "question": "Aedes containment in dengue outbreak.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle",
+      "Identify smallpox as the only human disease eradicated by immunization",
+      "Design is cohort; calculate relative risk as CI exposed / CI unexposed",
+      "Source reduction — empty coolers weekly, cover water storage, use larvicide (temephos), long sleeves, repellents, fogging for adult vectors"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Source reduction — empty coolers weekly, cover water storage, use larvicide (temephos), long sleeves, repellents, fogging for adult vectors",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Source reduction — empty coolers weekly, cover water storage, use larvicide (temephos), long sleeves, repellents, fogging for adult vectors. Anopheles: malaria — breeds in clean water, female bites night"
+    },
+    "subject": "Community Health",
+    "topic": "Mosquito, ticks, mites, louse — identification and prevention",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 216,
+    "syllabusId": "chn-8-ntep-nacp-nlep",
+    "question": "Sputum AFB+ patient under NTEP.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "31 May — WHO World No Tobacco Day",
+      "5 lakh INR per family per year for empanelled secondary/tertiary hospitalization",
+      "Register in Nikshay, daily FDC 4-drug intensive 2 mo + 2-drug continuation 4 mo, monthly follow-up, Nikshay Poshan Yojana benefit, contact screening",
+      "Keep carrier closed; place vaccines above ice packs; use within 4 h; check VVM and discard if square darker than circle"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Register in Nikshay, daily FDC 4-drug intensive 2 mo + 2-drug continuation 4 mo, monthly follow-up, Nikshay Poshan Yojana benefit, contact screening",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Register in Nikshay, daily FDC 4-drug intensive 2 mo + 2-drug continuation 4 mo, monthly follow-up, Nikshay Poshan Yojana benefit, contact screening. NTEP (formerly RNTCP): DBT under Nikshay Poshan Yojana 500 INR/mo; new drug regimen 2023 daily FDC",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Community Health",
+    "topic": "NTEP, NACP, NLEP",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 217,
+    "syllabusId": "chn-9-malaria-and-vector-borne-diseases",
+    "question": "Child from endemic area with fever, P falciparum+ on RDT, GCS 10.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Admit, start IV artesunate 2.4 mg/kg at 0/12/24 h then daily, supportive care, blood sugar, avoid steroids; notify NVBDCP",
+      "Send blood for Brucella serology, start doxycycline + rifampicin, counsel pasteurization",
+      "Classify as secondary prevention (early diagnosis of asymptomatic disease)",
+      "Start doxycycline empirically; notify; supportive care; Weil-Felix positive to OX-K in scrub typhus"
     ],
     "correct": 0,
-    "explanation": "• Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
+    "explanation": "Priority: Admit, start IV artesunate 2.4 mg/kg at 0/12/24 h then daily, supportive care, blood sugar, avoid steroids; notify NVBDCP",
     "explanations": {
-      "A": "Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
-      "B": "\"Home-based care only\" is a plausible distractor but incorrect. The correct answer is A (\"Hospitalization and therapeutic feeding\") — Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
-      "C": "\"Vitamin supplements\" is a plausible distractor but incorrect. The correct answer is A (\"Hospitalization and therapeutic feeding\") — Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring.",
-      "D": "\"Increased food intake\" is a plausible distractor but incorrect. The correct answer is A (\"Hospitalization and therapeutic feeding\") — Severe acute malnutrition requires hospitalization with therapeutic feeding (ready-to-use therapeutic food - RUTF), treatment of infections, and careful monitoring."
+      "A": "Correct — per the note, the priority action is: Admit, start IV artesunate 2.4 mg/kg at 0/12/24 h then daily, supportive care, blood sugar, avoid steroids; notify NVBDCP. Malaria: P. vivax, P. falciparum (severe), P. malariae, P. ovale, P. knowlesi",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "Community Health",
-    "topic": "Nutrition",
+    "topic": "Malaria and vector-borne diseases",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 119,
-    "question": "What is the primary goal of the National Health Mission (NHM)?",
+    "id": 218,
+    "syllabusId": "chn-10-rickettsial-disease",
+    "question": "Child from hilly area with fever, eschar on thigh.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Provide tertiary care",
-      "Achieve universal health coverage",
-      "Establish medical colleges",
-      "Train specialist doctors"
+      "31 May — WHO World No Tobacco Day",
+      "Treat as Pf with ACT; severe cases IV artesunate; notify",
+      "Identify smallpox as the only human disease eradicated by immunization",
+      "Start doxycycline empirically; notify; supportive care; Weil-Felix positive to OX-K in scrub typhus"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Start doxycycline empirically; notify; supportive care; Weil-Felix positive to OX-K in scrub typhus",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Start doxycycline empirically; notify; supportive care; Weil-Felix positive to OX-K in scrub typhus. Scrub typhus (O. tsutsugamushi): chigger, eschar, rash, lymphadenopathy"
+    },
+    "subject": "Community Health",
+    "topic": "Rickettsial disease",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 219,
+    "syllabusId": "chn-11-epidemiology-and-study-design",
+    "question": "Study of 1000 smokers and 1000 non-smokers followed 10 y for lung cancer.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Recommend +600 kcal, +25 g protein, IFA + calcium + iodine, adequate fluids, diverse diet",
+      "Design is cohort; calculate relative risk as CI exposed / CI unexposed",
+      "Apply cultural anthropology; engage community leaders; myth-busting IEC",
+      "Identify smallpox as the only human disease eradicated by immunization"
     ],
     "correct": 1,
-    "explanation": "• NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
+    "explanation": "Priority: Design is cohort; calculate relative risk as CI exposed / CI unexposed",
     "explanations": {
-      "A": "\"Provide tertiary care\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "B": "NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "C": "\"Establish medical colleges\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations.",
-      "D": "\"Train specialist doctors\" is a plausible distractor but incorrect. The correct answer is B (\"Achieve universal health coverage\") — NHM aims to achieve universal access to equitable, affordable, and quality health care services, especially for rural and vulnerable populations."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Design is cohort; calculate relative risk as CI exposed / CI unexposed. Descriptive: case report, case series, cross-sectional",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "Community Health",
-    "topic": "National Health Programs",
+    "topic": "Epidemiology and study design",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 120,
-    "question": "What is the recommended schedule for BCG vaccination in India?",
+    "id": 220,
+    "syllabusId": "chn-12-mission-indradhanush",
+    "question": "AWW identifies 14 unimmunized children in village.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "At birth",
-      "At 6 weeks",
-      "At 2 months",
-      "At 6 months"
+      "Conduct MI session — OPV, BCG, Penta etc as per schedule, counsel parents, plan catch-up, Nikshay/UWin record",
+      "Cite India HDI 2022: rank 134/193, value 0.644",
+      "Source reduction — empty coolers weekly, cover water storage, use larvicide (temephos), long sleeves, repellents, fogging for adult vectors",
+      "Classify as SAM, refer to NRC, double ration supplementary nutrition, counsel mother on IYCF, deworm if not done"
     ],
     "correct": 0,
-    "explanation": "• BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
+    "explanation": "Priority: Conduct MI session — OPV, BCG, Penta etc as per schedule, counsel parents, plan catch-up, Nikshay/UWin record",
     "explanations": {
-      "A": "BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "B": "\"At 6 weeks\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "C": "\"At 2 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children.",
-      "D": "\"At 6 months\" is a plausible distractor but incorrect. The correct answer is A (\"At birth\") — BCG (Bacille Calmette-Guérin) vaccine is given at birth or as early as possible to protect against tuberculosis, especially severe forms in children."
+      "A": "Correct — per the note, the priority action is: Conduct MI session — OPV, BCG, Penta etc as per schedule, counsel parents, plan catch-up, Nikshay/UWin record. Target: children <2 y and pregnant women partially or unimmunized",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "Community Health",
-    "topic": "Immunization",
+    "topic": "Mission Indradhanush",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 123,
-    "question": "What is the recommended age for starting Antiretroviral Therapy (ART) in HIV-positive children?",
+    "id": 221,
+    "syllabusId": "chn-13-national-rural-health-mission-nrhm",
+    "question": "PHC under NRHM.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Immediately after diagnosis, regardless of age",
-      "At 2 years of age",
-      "At 5 years of age",
-      "Only when symptomatic"
-    ],
-    "correct": 0,
-    "explanation": "• WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-    "explanations": {
-      "A": "WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "B": "\"At 2 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "C": "\"At 5 years of age\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes.",
-      "D": "\"Only when symptomatic\" is a plausible distractor but incorrect. The correct answer is A (\"Immediately after diagnosis, regardless of age\") — WHO recommends immediate ART initiation for all HIV-positive children regardless of age or CD4 count to reduce mortality and improve outcomes."
-    },
-    "subject": "Community Health",
-    "topic": "HIV/AIDS",
-    "day": 6,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
-  },
-  {
-    "id": 125,
-    "question": "What is the primary focus of the Ayushman Bharat program?",
-    "options": [
-      "Medical education",
-      "Health insurance for poor",
-      "Hospital construction",
-      "Drug manufacturing"
+      "Consider Hepatitis E; admit to ICU, supportive care, watch for coagulopathy and encephalopathy, arrange transfer to tertiary with hepatology",
+      "Follow IPHS norms — 30-bed PHC covers 30,000 plains / 20,000 hilly population, 1 medical officer",
+      "Droplet isolation, azithromycin 10 mg/kg x5 d, oxygen PRN, gentle feeding, treat household contacts",
+      "Apply cultural anthropology; engage community leaders; myth-busting IEC"
     ],
     "correct": 1,
-    "explanation": "• Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
+    "explanation": "Priority: Follow IPHS norms — 30-bed PHC covers 30,000 plains / 20,000 hilly population, 1 medical officer",
     "explanations": {
-      "A": "\"Medical education\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "B": "Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "C": "\"Hospital construction\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families.",
-      "D": "\"Drug manufacturing\" is a plausible distractor but incorrect. The correct answer is B (\"Health insurance for poor\") — Ayushman Bharat provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to poor and vulnerable families."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Follow IPHS norms — 30-bed PHC covers 30,000 plains / 20,000 hilly population, 1 medical officer. Goal: accessible, affordable, quality healthcare to rural poor",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "Community Health",
-    "topic": "National Health Programs",
+    "topic": "National Rural Health Mission (NRHM)",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 222,
+    "syllabusId": "chn-14-janani-suraksha-yojana-jsy",
+    "question": "ASHA escorts BPL pregnant woman to PHC in UP (LPS state).\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Source reduction — empty coolers weekly, cover water storage, use larvicide (temephos), long sleeves, repellents, fogging for adult vectors",
+      "Apply cultural anthropology; engage community leaders; myth-busting IEC",
+      "Register under JSY, ensure 2 ANC visits, institutional delivery, PNC; mother receives 1400 INR, ASHA 600 INR",
+      "80,000 plains, 30,000 hilly/tribal per CHC"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Register under JSY, ensure 2 ANC visits, institutional delivery, PNC; mother receives 1400 INR, ASHA 600 INR",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Register under JSY, ensure 2 ANC visits, institutional delivery, PNC; mother receives 1400 INR, ASHA 600 INR. LPS states: 1400 rural, 1000 urban for mother; 600 rural, 200 urban for ASHA",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Community Health",
+    "topic": "Janani Suraksha Yojana (JSY)",
+    "section": "chn",
     "day": 6,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2021",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 223,
+    "syllabusId": "chn-15-disease-determinants",
+    "question": "Epidemic analysis.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Recommend +600 kcal, +25 g protein, IFA + calcium + iodine, adequate fluids, diverse diet",
+      "Identify agent-host-environment triad to plan intervention at weakest link",
+      "Refer to NRC, start supplementary nutrition, engage mother, weekly weight monitoring, ensure immunization catch-up",
+      "Azithromycin 20 mg/kg single dose (max 1 g), face washing, environmental hygiene, notify surveillance"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Identify agent-host-environment triad to plan intervention at weakest link",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Identify agent-host-environment triad to plan intervention at weakest link. Agent: biological, physical, chemical, nutritional, mechanical",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Community Health",
+    "topic": "Disease determinants",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 224,
+    "syllabusId": "chn-16-pathogenicity-vs-virulence",
+    "question": "100 exposed, 50 infected, 30 ill, 3 die.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Infectivity 50%, pathogenicity 60%, virulence 10% (CFR)",
+      "Airborne precautions — N95 respirator fit-tested, negative-pressure room, keep door closed, instruct cough etiquette",
+      "Severe dehydration — Plan C: IV RL 30 mL/kg (300 mL) in 30 min, then 70 mL/kg (700 mL) over 2.5 h; reassess q15-30 min; start ORS once able…",
+      "Airborne isolation, vit A 100,000 IU day 1 and 2 (up to 200,000 IU in >=12 mo), supportive care, notify IDSP, catch-up MR"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Infectivity 50%, pathogenicity 60%, virulence 10% (CFR)",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Infectivity 50%, pathogenicity 60%, virulence 10% (CFR). Pathogenicity: proportion of infected who become ill (secondary attack rate)",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Community Health",
+    "topic": "Pathogenicity vs virulence",
+    "section": "chn",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   }
 ]

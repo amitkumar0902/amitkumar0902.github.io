@@ -182,6 +182,40 @@ function loadAllTopicBanks() {
   return out;
 }
 
+// ---------- Load high-yield scenario MCQs (from data/mains/topics/high-yield/*.json) ----------
+function loadHighYieldTopics() {
+  const hyDir = path.join(OUT, 'topics', 'high-yield');
+  if (!fs.existsSync(hyDir)) return [];
+  const out = [];
+  let nextId = 1;
+  for (const f of fs.readdirSync(hyDir)) {
+    if (!f.endsWith('.json') || f === 'index.json') continue;
+    const arr = JSON.parse(fs.readFileSync(path.join(hyDir, f), 'utf8'));
+    for (const q of arr) {
+      if (!q.options || q.options.length !== 4 || typeof q.correct !== 'number') continue;
+      out.push({
+        id: 'H' + (nextId++),
+        syllabusId: q.syllabusId,
+        question: q.question,
+        options: q.options,
+        correct: q.correct,
+        explanation: q.explanation || '',
+        explanations: q.explanations || buildExplanations(q),
+        subject: q.subject || SUBJECT_MAP[q.section] || 'Mixed',
+        topic: q.topic,
+        section: q.section,
+        day: q.day,
+        difficulty: q.difficulty || 'Medium',
+        source: q.source || 'NORCET High-Yield',
+        year: q.year || 2025,
+        qtype: q.qtype || 'scenario',
+        tags: q.tags || ['scenario', 'highyield'],
+      });
+    }
+  }
+  return out;
+}
+
 // ---------- Curated NORCET Mains PYQ set (recall-based, high yield) ----------
 // These are memory-based / publicly compiled recalls from NORCET 6-9 Mains 2024-2025.
 const PYQS = [
@@ -406,8 +440,9 @@ function buildBank() {
 
   const topics = loadAllTopicBanks();
   const pyqs = pyqRows();
-  const bank = [...pyqs, ...topics];
-  console.log('Bank total:', bank.length, '| PYQ:', pyqs.length, '| Legacy+Practice:', topics.length);
+  const highYield = loadHighYieldTopics();
+  const bank = [...pyqs, ...highYield, ...topics];
+  console.log('Bank total:', bank.length, '| PYQ:', pyqs.length, '| HighYield:', highYield.length, '| Legacy+Practice:', topics.length);
 
   // Reassign ids sequentially
   bank.forEach((q, i) => q.id = i + 1);
@@ -480,6 +515,67 @@ function buildBank() {
     fs.writeFileSync(path.join(OUT, 'mocks', 'mock-' + m + '.json'), JSON.stringify({ id: m, title: 'Full Mock Test ' + m, count: 160, minutes: 180, questions: mock }, null, 2));
   }
 
+  // Ensure every must-cover syllabus topic appears in at least one of the 10 mocks.
+  // Rotate missing topics into a mock by swapping low-priority or duplicate items.
+  try {
+    const syllabusPath = path.join(OUT, 'syllabus.json');
+    if (fs.existsSync(syllabusPath)) {
+      const syllabus = JSON.parse(fs.readFileSync(syllabusPath, 'utf-8'));
+      const mustIds = syllabus.filter(s => s.priority === 'must').map(s => s.id);
+      const bySyl = {};
+      for (const q of bank) if (q.syllabusId) (bySyl[q.syllabusId] = bySyl[q.syllabusId] || []).push(q);
+
+      const mockPaths = [];
+      for (let m = 1; m <= 10; m++) mockPaths.push(path.join(OUT, 'mocks', 'mock-' + m + '.json'));
+      const mocks = mockPaths.map(p => JSON.parse(fs.readFileSync(p, 'utf-8')));
+
+      const coveredAcrossMocks = new Set();
+      mocks.forEach(m => m.questions.forEach(q => { if (q.syllabusId) coveredAcrossMocks.add(q.syllabusId); }));
+      const missing = mustIds.filter(id => !coveredAcrossMocks.has(id));
+
+      let rotated = 0;
+      let mockIdx = 0;
+      for (const id of missing) {
+        const candidates = bySyl[id];
+        if (!candidates || candidates.length === 0) continue;
+        const candidate = candidates[0];
+        // Find a mock slot: prefer mock with least must-cover, find a swappable question (low priority, no syllabusId)
+        for (let attempt = 0; attempt < mocks.length; attempt++) {
+          const mk = mocks[mockIdx % mocks.length];
+          mockIdx++;
+          const swapIdx = mk.questions.findIndex(q => !q.syllabusId && q.difficulty !== 'High');
+          if (swapIdx >= 0) {
+            const seq = mk.questions[swapIdx].mockSeq;
+            mk.questions[swapIdx] = { ...candidate, mockSeq: seq };
+            rotated++;
+            break;
+          }
+        }
+      }
+      mocks.forEach((m, i) => fs.writeFileSync(mockPaths[i], JSON.stringify(m, null, 2)));
+      console.log(`Rotated ${rotated}/${missing.length} must-cover topics into mocks.`);
+    }
+  } catch (e) {
+    console.warn('Mock rotation skipped:', e.message);
+  }
+
+  // PYQ-only mock — all 30+ recall questions from NORCET 6-9 Mains + fill with high-yield
+  const pyqOnly = bank.filter(q => isPyq(q.source));
+  const pyqMock = [...pyqOnly];
+  if (pyqMock.length < 160) {
+    const rng = mulberry32(9999);
+    const fillers = seededShuffle(bank.filter(q => q.qtype === 'scenario' && !pyqMock.includes(q)), rng);
+    for (const q of fillers) {
+      if (pyqMock.length >= 160) break;
+      pyqMock.push(q);
+    }
+  }
+  const pyqMockFinal = pyqMock.slice(0, 160).map((q, i) => ({ ...q, mockSeq: i + 1 }));
+  fs.writeFileSync(path.join(OUT, 'mocks', 'mock-pyq.json'), JSON.stringify({
+    id: 'pyq', title: 'PYQ-Only Mock (NORCET 6-9 Mains recalls + high-yield fills)',
+    count: pyqMockFinal.length, minutes: 180, questions: pyqMockFinal,
+  }, null, 2));
+
   // Mocks index (summary)
   const mocksIndex = [];
   for (let m = 1; m <= 10; m++) {
@@ -488,7 +584,13 @@ function buildBank() {
     mockData.questions.forEach(q => { bySubj[q.subject] = (bySubj[q.subject] || 0) + 1; });
     mocksIndex.push({ id: m, title: mockData.title, count: mockData.count, minutes: mockData.minutes, subjects: bySubj });
   }
+  const pyqMockSubj = {};
+  pyqMockFinal.forEach(q => { pyqMockSubj[q.subject] = (pyqMockSubj[q.subject] || 0) + 1; });
+  mocksIndex.push({ id: 'pyq', title: 'PYQ-Only Mock', count: pyqMockFinal.length, minutes: 180, subjects: pyqMockSubj });
   fs.writeFileSync(path.join(OUT, 'mocks', 'index.json'), JSON.stringify(mocksIndex, null, 2));
+
+  // Cross-mock coverage audit — every must-cover topic appears in >=1 mock.
+  writeMockCoverageAudit(bank);
 
   // Strict-mode audit for 1:4 explanation rule (Track 5a)
   writeExplanationAudit(bank);
@@ -551,6 +653,51 @@ function auditRow(q, reason) {
   };
 }
 
+function writeMockCoverageAudit(bank) {
+  const dir = path.join(OUT, '_audit');
+  fs.mkdirSync(dir, { recursive: true });
+  const syllabusPath = path.join(OUT, 'syllabus.json');
+  if (!fs.existsSync(syllabusPath)) return;
+  const syllabus = JSON.parse(fs.readFileSync(syllabusPath, 'utf-8'));
+  const mustCover = syllabus.filter(s => s.priority === 'must').map(s => s.id);
+
+  const mocksDir = path.join(OUT, 'mocks');
+  const mockFiles = fs.readdirSync(mocksDir).filter(f => f.startsWith('mock-') && f.endsWith('.json'));
+  const coverage = {};
+  for (const mf of mockFiles) {
+    const data = JSON.parse(fs.readFileSync(path.join(mocksDir, mf), 'utf-8'));
+    const ids = new Set();
+    for (const q of data.questions || []) {
+      if (q.syllabusId) ids.add(q.syllabusId);
+    }
+    coverage[mf] = ids;
+  }
+
+  const uncovered = [];
+  const perMock = {};
+  for (const id of mustCover) {
+    let inAny = false;
+    for (const mf of mockFiles) {
+      if (coverage[mf].has(id)) {
+        inAny = true;
+        perMock[mf] = (perMock[mf] || 0) + 1;
+      }
+    }
+    if (!inAny) uncovered.push(id);
+  }
+
+  const report = {
+    generated: new Date().toISOString(),
+    mustCoverTotal: mustCover.length,
+    coveredAcrossMocks: mustCover.length - uncovered.length,
+    uncoveredCount: uncovered.length,
+    uncovered: uncovered.slice(0, 50),
+    perMockCoverage: perMock,
+  };
+  fs.writeFileSync(path.join(dir, 'mock-coverage.json'), JSON.stringify(report, null, 2));
+  console.log(`Mock coverage: ${mustCover.length - uncovered.length}/${mustCover.length} must-cover topics in ≥1 mock`);
+}
+
 function bySubjectCount(bank) {
   const m = {}; bank.forEach(q => m[q.subject] = (m[q.subject] || 0) + 1); return m;
 }
@@ -582,4 +729,16 @@ function seededShuffle(arr, rng) {
 writeFlashcards();
 writeDrugCalc();
 buildBank();
+
+// Run high-yield audit (non-fatal).
+try {
+  const auditPath = path.join(__dirname, 'audit-highyield.mjs');
+  if (fs.existsSync(auditPath)) {
+    console.log('\n--- Running high-yield audit ---');
+    await import(auditPath);
+  }
+} catch (e) {
+  console.warn('High-yield audit skipped:', e.message);
+}
+
 console.log('Done. Output at', OUT);

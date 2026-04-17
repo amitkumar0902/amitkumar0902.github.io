@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "generated": "2026-04-17T04:45:09.481Z",
+    "syllabusTotal": 610,
+    "notesCoverage": "610/610 (100.0%)",
+    "scenarioFieldsCoverage": "610/610 (100.0%)",
+    "questionCoverage": "610/610 (100.0%)",
+    "scenarioRatios": {
+      "anatomy": {
+        "total": 77,
+        "scenarios": 77,
+        "ratio": 1,
+        "threshold": 0.4,
+        "pass": true
+      },
+      "biochem": {
+        "total": 21,
+        "scenarios": 21,
+        "ratio": 1,
+        "threshold": 0.4,
+        "pass": true
+      },
+      "child": {
+        "total": 78,
+        "scenarios": 78,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "chn": {
+        "total": 46,
+        "scenarios": 46,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "ent": {
+        "total": 9,
+        "scenarios": 9,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "foundation": {
+        "total": 30,
+        "scenarios": 30,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "gyn": {
+        "total": 11,
+        "scenarios": 11,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "medicine": {
+        "total": 111,
+        "scenarios": 111,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "mental": {
+        "total": 44,
+        "scenarios": 44,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "micro": {
+        "total": 39,
+        "scenarios": 39,
+        "ratio": 1,
+        "threshold": 0.4,
+        "pass": true
+      },
+      "midwifery": {
+        "total": 30,
+        "scenarios": 30,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "pharma": {
+        "total": 60,
+        "scenarios": 60,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      },
+      "surgery": {
+        "total": 54,
+        "scenarios": 54,
+        "ratio": 1,
+        "threshold": 0.7,
+        "pass": true
+      }
+    },
+    "issueCount": 0,
+    "firstIssues": []
+  },
+  "issues": []
+}

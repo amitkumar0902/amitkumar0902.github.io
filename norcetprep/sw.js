@@ -1,5 +1,5 @@
 // NORCET Mains service worker — network-first for HTML, stale-while-revalidate for JSON/CSS/JS
-const CACHE = 'norcet-mains-v1';
+const CACHE = 'norcet-mains-v2-highyield';
 const PRECACHE = [
   './',
   './index.html',
@@ -11,15 +11,34 @@ const PRECACHE = [
   './js/flashcards.js',
   './manifest.webmanifest',
   './data/mains/question-bank.json',
+  './data/mains/syllabus.json',
+  './data/mains/videos.json',
   './data/mains/drill-drug-calc.json',
   './data/mains/stats.json',
   './data/mains/mocks/index.json',
+  './data/mains/mocks/mock-pyq.json',
+  './data/mains/notes/midwifery.json',
+  './data/mains/notes/gyn.json',
+  './data/mains/notes/surgery.json',
+  './data/mains/notes/foundation.json',
+  './data/mains/notes/chn.json',
+  './data/mains/notes/medicine.json',
+  './data/mains/notes/ent.json',
+  './data/mains/notes/child.json',
+  './data/mains/notes/pharma.json',
+  './data/mains/notes/mental.json',
+  './data/mains/notes/micro.json',
+  './data/mains/notes/biochem.json',
+  './data/mains/notes/anatomy.json',
   './mains-plan/index.html',
   './mains-plan/bank.html',
   './mains-plan/dashboard.html',
   './mains-plan/review.html',
   './mains-plan/settings.html',
-  './mains-plan/pyqs.html'
+  './mains-plan/pyqs.html',
+  './mains-plan/syllabus.html',
+  './mains-plan/watch.html',
+  './mains-plan/notes/index.html'
 ];
 
 self.addEventListener('install', (e) => {

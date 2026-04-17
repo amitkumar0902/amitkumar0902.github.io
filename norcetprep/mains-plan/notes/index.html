@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes · NORCET High-Yield</title>
+  <meta name="description" content="Concise high-yield notes for every NORCET Mains syllabus topic.">
+  <link rel="canonical" href="https://amitkumar0902.github.io/norcetprep/mains-plan/notes/index.html">
+  <link rel="stylesheet" href="../../css/mains-theme.css">
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <script src="../../js/core.js" defer></script>
+  <style>
+    .section-nav { display: flex; gap: 0.35rem; flex-wrap: wrap; margin: 1rem 0; }
+    .section-nav a {
+      padding: 0.4rem 0.75rem; border-radius: 4px;
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      text-decoration: none; color: inherit; font-size: 0.85rem;
+    }
+    .section-nav a.active { background: var(--accent, #4ae); color: #fff; border-color: transparent; }
+    .note-card {
+      margin: 1rem 0; padding: 1rem; border-left: 4px solid var(--accent, #4ae);
+      background: rgba(255,255,255,0.02); border-radius: 0 6px 6px 0;
+    }
+    .note-card h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+    .note-meta { font-size: 0.78rem; color: var(--muted, #888); margin-bottom: 0.5rem; }
+    .note-meta .p-badge {
+      display: inline-block; padding: 0.12rem 0.4rem; border-radius: 3px;
+      font-weight: 600; text-transform: uppercase; font-size: 0.7rem;
+    }
+    .p-must { background: #c23a3a; color: #fff; }
+    .p-should { background: #4a7; color: #fff; }
+    .p-nice { background: #555; color: #eee; }
+    .note-card .def { font-size: 0.95rem; margin: 0.35rem 0 0.5rem; }
+    .note-card ul { font-size: 0.87rem; margin: 0.25rem 0 0.5rem 1.25rem; padding: 0; }
+    .note-card ul li { margin: 0.15rem 0; }
+    .note-card .scenario-box {
+      margin-top: 0.6rem; padding: 0.6rem 0.75rem; background: rgba(255,180,60,0.08);
+      border-left: 3px solid rgba(255,180,60,0.6); border-radius: 4px; font-size: 0.88rem;
+    }
+    .note-card .scenario-box strong { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: rgba(255,180,60,0.9); margin-bottom: 0.2rem; }
+    .note-card .priority-box {
+      margin-top: 0.35rem; padding: 0.5rem 0.75rem; background: rgba(60,180,120,0.08);
+      border-left: 3px solid rgba(60,180,120,0.6); border-radius: 4px; font-size: 0.88rem;
+    }
+    .note-card .priority-box strong { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: rgba(60,180,120,0.9); margin-bottom: 0.2rem; }
+    .note-card .red-flags {
+      margin-top: 0.35rem; padding: 0.4rem 0.6rem; background: rgba(220,60,60,0.08);
+      border-left: 3px solid rgba(220,60,60,0.6); border-radius: 4px; font-size: 0.86rem;
+    }
+    .note-card .sources { margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted, #888); font-style: italic; }
+    .note-card .topic-actions { margin-top: 0.6rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .note-card .topic-actions a {
+      font-size: 0.78rem; padding: 0.25rem 0.5rem; border-radius: 3px;
+      background: rgba(255,255,255,0.05); text-decoration: none; color: inherit;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .note-card .topic-actions a.video { background: rgba(255,60,60,0.15); border-color: rgba(255,60,60,0.3); }
+    .note-card:target { background: rgba(60,160,255,0.08); border-left-color: #4ae; }
+    .filter-row { margin: 0.75rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+    .filter-row input[type=search] { padding: 0.35rem 0.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: inherit; border-radius: 4px; min-width: 220px; }
+  </style>
+  <script defer>
+    const SECTIONS = [
+      { id: 'midwifery', label: 'Midwifery & OBG' },
+      { id: 'gyn', label: 'Gynecology' },
+      { id: 'surgery', label: 'Surgery' },
+      { id: 'foundation', label: 'Foundation' },
+      { id: 'chn', label: 'CHN' },
+      { id: 'medicine', label: 'Medicine' },
+      { id: 'ent', label: 'ENT' },
+      { id: 'child', label: 'Pediatrics' },
+      { id: 'pharma', label: 'Pharmacology' },
+      { id: 'mental', label: 'Mental Health' },
+      { id: 'micro', label: 'Microbiology' },
+      { id: 'biochem', label: 'Biochemistry' },
+      { id: 'anatomy', label: 'Anatomy' },
+    ];
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      NM.boot('notes');
+      const section = new URLSearchParams(location.search).get('section') || 'midwifery';
+      const videos = await fetch('../../data/mains/videos.json').then(r => r.json()).catch(() => ({ episodes: [] }));
+      const videoByTopic = {};
+      for (const ep of (videos.episodes || [])) {
+        for (const t of (ep.topics || [])) (videoByTopic[t] = videoByTopic[t] || []).push(ep);
+      }
+
+      // Build section tabs
+      const nav = document.getElementById('section-nav');
+      for (const s of SECTIONS) {
+        const a = document.createElement('a');
+        a.href = '?section=' + s.id;
+        a.textContent = s.label;
+        if (s.id === section) a.classList.add('active');
+        nav.appendChild(a);
+      }
+
+      const notes = await fetch('../../data/mains/notes/' + section + '.json').then(r => r.json());
+      const title = SECTIONS.find(s => s.id === section)?.label || section;
+      document.getElementById('section-title').textContent = title + ' · Notes';
+      document.title = title + ' Notes · NORCET Mains 2026';
+
+      const container = document.getElementById('notes-list');
+      let search = '';
+      let priorityFilter = { must: true, should: true, nice: true };
+
+      function render() {
+        container.innerHTML = '';
+        const filtered = notes.filter(n =>
+          priorityFilter[n.priority] &&
+          (!search || ((n.topic + ' ' + n.definition + ' ' + (n.keyPoints || []).join(' ')).toLowerCase().includes(search)))
+        );
+        for (const n of filtered) {
+          const card = document.createElement('article');
+          card.className = 'note-card';
+          card.id = n.id;
+          const eps = videoByTopic[n.id] || [];
+          const videoBtns = eps.map(ep => `<a class="video" href="../watch.html?v=${ep.videoId}">▶ Ep ${ep.episode}</a>`).join(' ');
+          card.innerHTML = `
+            <h3>${n.title || n.topic}</h3>
+            <div class="note-meta">
+              <span class="p-badge p-${n.priority}">${n.priority}</span>
+              · Day ${n.day}
+              ${n.subtopic ? ' · <em>' + n.subtopic + '</em>' : ''}
+            </div>
+            <p class="def">${n.definition || ''}</p>
+            ${n.keyPoints && n.keyPoints.length ? '<ul>' + n.keyPoints.map(k => '<li>' + k + '</li>').join('') + '</ul>' : ''}
+            ${n.pearls && n.pearls.length ? '<div class="scenario-box"><strong>Pearls</strong>' + n.pearls.map(p => '<div>• ' + p + '</div>').join('') + '</div>' : ''}
+            ${n.clinicalContext ? '<div class="scenario-box"><strong>Clinical scenario</strong>' + n.clinicalContext + '</div>' : ''}
+            ${n.nursingPriority ? '<div class="priority-box"><strong>Nursing priority</strong>' + n.nursingPriority + '</div>' : ''}
+            ${n.redFlags && n.redFlags.length ? '<div class="red-flags"><strong>Red flags:</strong> ' + n.redFlags.join('; ') + '</div>' : ''}
+            <div class="topic-actions">
+              <a href="../bank.html?syllabusId=${encodeURIComponent(n.id)}">🎯 Practice MCQs</a>
+              ${videoBtns || '<a href="../watch.html">▶ Playlist</a>'}
+              <a href="../syllabus.html#${n.id}">📋 Syllabus</a>
+            </div>
+            ${n.sources && n.sources.length ? '<div class="sources">Sources: ' + n.sources.join('; ') + '</div>' : ''}
+          `;
+          container.appendChild(card);
+        }
+        document.getElementById('count').textContent = `${filtered.length} of ${notes.length}`;
+      }
+
+      document.getElementById('search').addEventListener('input', (e) => { search = e.target.value.toLowerCase(); render(); });
+      document.querySelectorAll('.priority-filter').forEach(cb => cb.addEventListener('change', (e) => {
+        priorityFilter[e.target.value] = e.target.checked;
+        render();
+      }));
+      render();
+
+      // Scroll to hash if present
+      if (location.hash) {
+        setTimeout(() => {
+          const target = document.querySelector(location.hash);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 150);
+      }
+    });
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="../index.html">← Back to 13-Day Plan</a>
+  <h1 id="section-title">Notes</h1>
+  <p class="muted">Scenario-first high-yield notes. Switch section below. <span id="count" style="color: var(--accent, #4ae)"></span></p>
+
+  <nav class="section-nav" id="section-nav"></nav>
+
+  <div class="filter-row">
+    <input id="search" type="search" placeholder="Search within section..." autocomplete="off">
+    <label><input type="checkbox" class="priority-filter" value="must" checked> must</label>
+    <label><input type="checkbox" class="priority-filter" value="should" checked> should</label>
+    <label><input type="checkbox" class="priority-filter" value="nice" checked> nice</label>
+  </div>
+
+  <div id="notes-list"></div>
+</main>
+</body>
+</html>

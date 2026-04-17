@@ -23,6 +23,8 @@
     if (qs.get('day')) state.filters.day = qs.get('day');
     if (qs.get('subject')) state.filters.subject = qs.get('subject');
     if (qs.get('ids')) state.filters._ids = qs.get('ids').split(',').map(function (s) { return +s; });
+    if (qs.get('syllabusId')) state.filters._syllabusId = qs.get('syllabusId');
+    if (qs.get('tag')) state.filters._tag = qs.get('tag');
     fetch(ROOT + 'data/mains/question-bank.json')
       .then(r => r.json())
       .then(d => { state.all = d; state.view = d.slice(); renderFilters(); apply(); })
@@ -86,6 +88,8 @@
     const q = (f.q || '').toLowerCase().trim();
     state.view = state.all.filter(r =>
       (!f._ids || f._ids.indexOf(r.id) !== -1) &&
+      (!f._syllabusId || r.syllabusId === f._syllabusId) &&
+      (!f._tag || (Array.isArray(r.tags) && r.tags.indexOf(f._tag) !== -1)) &&
       (!f.subject || r.subject === f.subject) &&
       (!f.day || r.day === +f.day) &&
       (!f.source || r.source === f.source) &&

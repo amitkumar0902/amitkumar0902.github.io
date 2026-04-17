@@ -1,0 +1,297 @@
+[
+  {
+    "id": "gyn-1-vaginitis",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Vaginitis",
+    "subtopic": null,
+    "day": 3,
+    "priority": "should",
+    "title": "Vaginitis",
+    "definition": "Inflammation of vagina due to infection, irritation, or atrophy.",
+    "keyPoints": [
+      "BV (Gardnerella): gray fishy discharge, pH >4.5, clue cells — metronidazole.",
+      "Candidiasis: white curdy, itchy, pH normal — fluconazole.",
+      "Trichomoniasis: frothy yellow-green, strawberry cervix — metronidazole + treat partner."
+    ],
+    "pearls": [
+      "Amsel criteria (3/4): homogeneous discharge, pH >4.5, +whiff test, clue cells."
+    ],
+    "redFlags": [],
+    "sources": [
+      "CDC STI 2021",
+      "Dutta Gyne 7e"
+    ],
+    "clinicalContext": "25-y-old with frothy yellow-green discharge, strawberry cervix on speculum.",
+    "nursingPriority": "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-2-pelvic-inflammatory-disease-pid",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Pelvic inflammatory disease (PID)",
+    "subtopic": null,
+    "day": 3,
+    "priority": "must",
+    "title": "Pelvic inflammatory disease (PID)",
+    "definition": "Infection of upper genital tract — endometritis, salpingitis, tubo-ovarian abscess.",
+    "keyPoints": [
+      "Organisms: N. gonorrhoeae, C. trachomatis, anaerobes.",
+      "Clinical: lower abdominal pain, fever, cervical motion tenderness, adnexal tenderness.",
+      "Treatment (CDC): ceftriaxone 500 mg IM + doxy 100 mg BD x14d + metronidazole 500 mg BD x14d.",
+      "Complications: infertility, ectopic, chronic pelvic pain, Fitz-Hugh-Curtis (perihepatitis)."
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "CDC STI 2021"
+    ],
+    "clinicalContext": "22-y-old with lower abdominal pain, fever 38.5, purulent cervical discharge, cervical motion tenderness.",
+    "nursingPriority": "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-3-syndromic-management-of-pid-and-vaginitis",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Syndromic management of PID and vaginitis",
+    "subtopic": null,
+    "day": 3,
+    "priority": "should",
+    "title": "Syndromic management of PID and vaginitis",
+    "definition": "NACO kit-based syndromic approach in primary care without lab confirmation.",
+    "keyPoints": [
+      "Kit 1 (urethral/anorectal discharge): kanamycin + doxycycline.",
+      "Kit 2 (vaginitis): secnidazole + fluconazole.",
+      "Kit 6 (PID): cefixime + doxycycline + metronidazole.",
+      "Treat partner, advise condom, HIV/VDRL screening."
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "NACO STI/RTI guidelines"
+    ],
+    "clinicalContext": "PHC: 24-y-old with lower abdominal pain and discharge.",
+    "nursingPriority": "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-4-emergency-contraceptives",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Emergency contraceptives",
+    "subtopic": null,
+    "day": 3,
+    "priority": "must",
+    "title": "Emergency contraceptives",
+    "definition": "Prevent pregnancy after unprotected intercourse.",
+    "keyPoints": [
+      "Levonorgestrel 1.5 mg single dose within 72 h (best <24 h).",
+      "Ulipristal 30 mg within 120 h.",
+      "Copper IUD within 5 days — most effective (>99%).",
+      "Yuzpe: combined OC — high-dose estrogen + progestin (less preferred)."
+    ],
+    "pearls": [
+      "Not abortifacient — prevents ovulation/implantation."
+    ],
+    "redFlags": [],
+    "sources": [
+      "WHO EC guideline 2018",
+      "NFHS-5"
+    ],
+    "clinicalContext": "20-y-old student 18 h after unprotected sex.",
+    "nursingPriority": "Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-5-intrauterine-device-cu-t",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Intrauterine device (Cu-T)",
+    "subtopic": null,
+    "day": 3,
+    "priority": "must",
+    "title": "Intrauterine device (Cu-T)",
+    "definition": "Long-acting reversible contraceptive (LARC).",
+    "keyPoints": [
+      "Cu-T 380A: 10 years; Cu-T 375: 5 years.",
+      "Mechanism: spermicidal + endometrial change.",
+      "Insertion within 7 days of menses or immediately post-abortal/postpartum.",
+      "Side effects: heavier bleeding, cramping first months.",
+      "Contraindications: pregnancy, active PID, distorted uterus, Wilson disease."
+    ],
+    "pearls": [
+      "Check threads monthly; PID risk highest first 3 weeks."
+    ],
+    "redFlags": [],
+    "sources": [
+      "MoHFW FP Guidelines"
+    ],
+    "clinicalContext": "P2 wants long-term reversible contraception.",
+    "nursingPriority": "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-6-ocp-mala-d-mala-n-absolute-contraindications",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "OCP — MALA-D, MALA-N, absolute contraindications",
+    "subtopic": null,
+    "day": 3,
+    "priority": "must",
+    "title": "OCP — MALA-D, MALA-N, absolute contraindications",
+    "definition": "Combined or progestin-only oral contraceptives.",
+    "keyPoints": [
+      "MALA-D: subsidized COC — levonorgestrel 0.15 mg + ethinyl estradiol 0.03 mg (7 Fe tabs).",
+      "MALA-N: free COC distributed via sub-centres.",
+      "Absolute contraindications: pregnancy, breast cancer, migraine with aura, smoker >=35 y, DVT/PE, CAD, active liver disease, uncontrolled HTN.",
+      "Start: day 1-5 of cycle, back-up x7 days if started later."
+    ],
+    "pearls": [
+      "Break-through bleeding common first 3 cycles."
+    ],
+    "redFlags": [],
+    "sources": [
+      "MoHFW FP Guidelines",
+      "WHO MEC"
+    ],
+    "clinicalContext": "32-y-old smoker requests OCP.",
+    "nursingPriority": "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-7-pap-smear",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Pap smear",
+    "subtopic": null,
+    "day": 3,
+    "priority": "must",
+    "title": "Pap smear",
+    "definition": "Cervical cancer screening via Papanicolaou stain of cervical cells.",
+    "keyPoints": [
+      "Start at 21 y (USA); India: every 5 y from 30-65 y per screening program.",
+      "HPV co-testing preferred >30 y.",
+      "Bethesda system: ASCUS, LSIL, HSIL, AGC, AIS.",
+      "Sample from transformation zone using Ayre spatula + cytobrush.",
+      "No douche, tampons, intercourse 48 h prior; not during menses."
+    ],
+    "pearls": [
+      "VIA (visual inspection with acetic acid) alternative in resource-limited settings."
+    ],
+    "redFlags": [],
+    "sources": [
+      "ICMR 2016",
+      "ACOG 2020"
+    ],
+    "clinicalContext": "35-y-old for routine screening.",
+    "nursingPriority": "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-8-vasectomy-and-tubectomy",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Vasectomy and tubectomy",
+    "subtopic": null,
+    "day": 3,
+    "priority": "should",
+    "title": "Vasectomy and tubectomy",
+    "definition": "Permanent sterilization procedures.",
+    "keyPoints": [
+      "Vasectomy: bilateral vas deferens ligation under LA, 15-30 min; back-up method x3 months until azoospermia confirmed.",
+      "Tubectomy: Pomeroy, Parkland, Irving, Kroener techniques; interval or post-partum.",
+      "Failure: tubectomy ~1/200; vasectomy ~1/2000.",
+      "Counselling: irreversibility, failure rate, regret."
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "MoHFW Sterilization Standards 2014"
+    ],
+    "clinicalContext": "40-y-old P3 husband consents for sterilization.",
+    "nursingPriority": "Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-9-hpv-and-vaccine",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "HPV and vaccine",
+    "subtopic": null,
+    "day": 3,
+    "priority": "must",
+    "title": "HPV and vaccine",
+    "definition": "HPV causes >90% cervical cancer; vaccines are preventive.",
+    "keyPoints": [
+      "Oncogenic types: 16, 18 (70%); low-risk: 6, 11 (warts).",
+      "Vaccines: bivalent (16,18), quadrivalent (6,11,16,18), nonavalent (9-valent).",
+      "Schedule: 9-14 y → 2 doses 6-12 mo apart; >=15 y → 3 doses (0, 1-2, 6 mo).",
+      "India: CERVAVAC (indigenous quadrivalent) launched 2022."
+    ],
+    "pearls": [
+      "Vaccination does not replace screening."
+    ],
+    "redFlags": [],
+    "sources": [
+      "WHO HPV 2022",
+      "FOGSI"
+    ],
+    "clinicalContext": "Mother of 12-y-old daughter asks about HPV vaccine.",
+    "nursingPriority": "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-10-ovarian-tumors-and-tumor-markers",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Ovarian tumors and tumor markers",
+    "subtopic": null,
+    "day": 3,
+    "priority": "should",
+    "title": "Ovarian tumors and tumor markers",
+    "definition": "Ovarian neoplasms classified by cell of origin.",
+    "keyPoints": [
+      "Epithelial (most common): serous, mucinous — CA-125.",
+      "Germ cell: dysgerminoma (LDH), yolk sac (AFP), choriocarcinoma (β-hCG), teratoma.",
+      "Sex-cord stromal: granulosa (inhibin, estrogen), Sertoli-Leydig (androgens).",
+      "Meigs syndrome: benign ovarian fibroma + ascites + right pleural effusion."
+    ],
+    "pearls": [],
+    "redFlags": [],
+    "sources": [
+      "Dutta Gyne 7e"
+    ],
+    "clinicalContext": "55-y-old with pelvic mass and CA-125 500.",
+    "nursingPriority": "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy.",
+    "videoIds": []
+  },
+  {
+    "id": "gyn-11-semen-analysis",
+    "section": "gyn",
+    "sectionLabel": "Gynecology",
+    "topic": "Semen analysis",
+    "subtopic": null,
+    "day": 3,
+    "priority": "should",
+    "title": "Semen analysis",
+    "definition": "WHO 2021 reference values for seminal fluid.",
+    "keyPoints": [
+      "Volume >=1.4 mL, pH >=7.2, count >=16 million/mL.",
+      "Motility: >=42% total, >=30% progressive.",
+      "Morphology: >=4% normal forms.",
+      "Abstinence 2-7 days; collect into sterile container; analyze within 1 h."
+    ],
+    "pearls": [
+      "Azoospermia: zero sperm on 2 separate samples."
+    ],
+    "redFlags": [],
+    "sources": [
+      "WHO Manual 2021"
+    ],
+    "clinicalContext": "Couple with 2 y infertility.",
+    "nursingPriority": "Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h.",
+    "videoIds": []
+  }
+]

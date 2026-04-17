@@ -5,15 +5,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 36,
+      "OBG": 19,
+      "Pharmacology": 17,
+      "Psychiatric": 11,
+      "Anatomy": 5,
       "Community Health": 22,
-      "OBG": 18,
       "Pediatric": 18,
       "Fundamentals": 20,
-      "Pharmacology": 16,
-      "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -24,15 +24,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pharmacology": 17,
+      "Psychiatric": 11,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
       "Pediatric": 18,
       "Fundamentals": 20,
-      "Pharmacology": 16,
-      "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -43,15 +43,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pharmacology": 17,
+      "Microbiology": 9,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
       "Pediatric": 18,
       "Fundamentals": 20,
-      "Pharmacology": 16,
       "Psychiatric": 10,
-      "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -62,15 +62,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pharmacology": 17,
+      "Microbiology": 9,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
       "Pediatric": 18,
       "Fundamentals": 20,
-      "Pharmacology": 16,
       "Psychiatric": 10,
-      "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -81,16 +81,16 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pharmacology": 17,
+      "Nutrition": 3,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
       "Pediatric": 18,
       "Fundamentals": 20,
-      "Pharmacology": 16,
       "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
-      "Nutrition": 2,
       "Admin": 2
     }
   },
@@ -100,15 +100,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pediatric": 19,
+      "Pharmacology": 17,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
-      "Pediatric": 18,
       "Fundamentals": 20,
-      "Pharmacology": 16,
       "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -119,15 +119,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 36,
+      "Fundamentals": 21,
+      "Pediatric": 19,
+      "Pharmacology": 17,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
-      "Pediatric": 18,
-      "Fundamentals": 20,
-      "Pharmacology": 16,
       "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -138,15 +138,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pediatric": 19,
+      "Psychiatric": 11,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
-      "Pediatric": 18,
       "Fundamentals": 20,
       "Pharmacology": 16,
-      "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -157,15 +157,15 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pediatric": 19,
+      "Psychiatric": 11,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
-      "Pediatric": 18,
       "Fundamentals": 20,
       "Pharmacology": 16,
-      "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
     }
@@ -176,17 +176,34 @@
     "count": 160,
     "minutes": 180,
     "subjects": {
-      "Medical-Surgical": 40,
+      "Medical-Surgical": 37,
+      "Pediatric": 19,
+      "Psychiatric": 11,
+      "Anatomy": 5,
       "Community Health": 22,
       "OBG": 18,
-      "Pediatric": 18,
       "Fundamentals": 20,
       "Pharmacology": 16,
-      "Psychiatric": 10,
       "Microbiology": 8,
-      "Anatomy": 4,
       "Nutrition": 2,
       "Admin": 2
+    }
+  },
+  {
+    "id": "pyq",
+    "title": "PYQ-Only Mock",
+    "count": 160,
+    "minutes": 180,
+    "subjects": {
+      "Medical-Surgical": 49,
+      "Fundamentals": 11,
+      "Pharmacology": 12,
+      "OBG": 17,
+      "Pediatric": 32,
+      "Community Health": 12,
+      "Psychiatric": 9,
+      "Microbiology": 4,
+      "Anatomy": 14
     }
   }
 ]

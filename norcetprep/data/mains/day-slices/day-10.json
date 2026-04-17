@@ -1,6 +1,6 @@
 [
   {
-    "id": 505,
+    "id": 1115,
     "question": "Log roll technique for spinal precautions typically needs at least:",
     "options": [
       "1 person",
@@ -26,727 +26,930 @@
   },
   {
     "id": 33,
-    "question": "What is the primary function of a nurse manager?",
+    "syllabusId": "anatomy-1-types-of-solutions-isotonic-hyper-hypo",
+    "question": "Hyponatremia with seizure Na 115.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Direct patient care only",
-      "Planning, organizing, directing, and controlling nursing services",
-      "Administrative work only",
-      "Teaching only"
+      "Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling",
+      "Femur",
+      "Phrenic nerve C3, C4, C5",
+      "3% hypertonic saline 100 mL over 10 min, repeat if seizures persist, raise Na ~1-2 mEq/L/h for symptomatic only, careful monitoring to avoid osmotic demyelinat…"
     ],
-    "correct": 1,
-    "explanation": "• Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "correct": 3,
+    "explanation": "Priority: 3% hypertonic saline 100 mL over 10 min, repeat if seizures persist, raise Na ~1-2 mEq/L/h for symptomatic only, careful monitoring to avoid osmotic demyelinat…",
     "explanations": {
-      "A": "\"Direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "B": "Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "C": "\"Administrative work only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "D": "\"Teaching only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: 3% hypertonic saline 100 mL over 10 min, repeat if seizures persist, raise Na ~1-2 mEq/L/h for symptomatic only, careful monitoring to avoid osmotic demyelinat…. Isotonic (270-310 mOsm): NS 0.9%, RL, D5W (after glucose metabolized becomes hypotonic free water)"
     },
-    "subject": "Admin",
-    "topic": "Management Functions",
+    "subject": "Anatomy",
+    "topic": "Types of solutions — isotonic/hyper/hypo",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
     "id": 34,
-    "question": "What is the recommended nurse-to-patient ratio in ICU?",
+    "syllabusId": "anatomy-2-body-fluid-compartments",
+    "question": "Item on ICF volume.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "1:1",
-      "1:2",
-      "1:3",
-      "1:4"
+      "Radial nerve palsy — splint, PT, EMG, usually recovers 2-3 mo",
+      "Expected post-viral — usually recovers; educate; olfactory training may help",
+      "C1 — has no vertebral body",
+      "2/3 of total body water"
     ],
-    "correct": 0,
-    "explanation": "• ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+    "correct": 3,
+    "explanation": "Priority: 2/3 of total body water",
     "explanations": {
-      "A": "ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
-      "B": "\"1:2\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
-      "C": "\"1:3\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
-      "D": "\"1:4\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: 2/3 of total body water. Total body water: 60% body weight adult (infants 75%, elderly 50%)"
     },
-    "subject": "Admin",
-    "topic": "Staffing",
+    "subject": "Anatomy",
+    "topic": "Body fluid compartments",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 35,
-    "question": "What is the purpose of quality assurance in nursing?",
+    "syllabusId": "anatomy-3-diffusion",
+    "question": "Item on O2 exchange in alveoli.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Reduce costs only",
-      "Ensure standards of care are met",
-      "Increase patient numbers",
-      "Reduce staff"
+      "Primary hypothyroidism — levothyroxine 1.6 mcg/kg/d empty stomach, recheck TSH 6 wk",
+      "Hypothalamus",
+      "Prosopagnosia — inferior temporal/occipital lesion; OT for compensatory strategies, family education",
+      "Simple diffusion across alveolar-capillary membrane"
     ],
-    "correct": 1,
-    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "correct": 3,
+    "explanation": "Priority: Simple diffusion across alveolar-capillary membrane",
     "explanations": {
-      "A": "\"Reduce costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "C": "\"Increase patient numbers\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "D": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Simple diffusion across alveolar-capillary membrane. Simple: lipid-soluble, small molecules (O2, CO2)"
     },
-    "subject": "Admin",
-    "topic": "Quality Assurance",
+    "subject": "Anatomy",
+    "topic": "Diffusion",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 36,
-    "question": "What is the first step in the problem-solving process?",
+    "syllabusId": "anatomy-4-plasma-composition",
+    "question": "Item on major plasma protein.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Implement solution",
-      "Identify the problem",
-      "Evaluate outcomes",
-      "Generate alternatives"
+      "Albumin (maintains oncotic pressure)",
+      "Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling",
+      "Synthesized in hypothalamus, stored/released from posterior pituitary",
+      "C3-C5"
     ],
-    "correct": 1,
-    "explanation": "• Problem identification is the first step.\n• You must clearly define the problem before generating solutions, implementing, and evaluating.",
+    "correct": 0,
+    "explanation": "Priority: Albumin (maintains oncotic pressure)",
     "explanations": {
-      "A": "\"Implement solution\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
-      "B": "Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
-      "C": "\"Evaluate outcomes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
-      "D": "\"Generate alternatives\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating."
+      "A": "Correct — per the note, the priority action is: Albumin (maintains oncotic pressure). Water 92%",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Problem Solving",
+    "subject": "Anatomy",
+    "topic": "Plasma composition",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 37,
-    "question": "What is delegation in nursing?",
+    "syllabusId": "anatomy-5-osmosis",
+    "question": "Item on water shift direction.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Transferring responsibility and authority",
-      "Avoiding work",
-      "Only assigning tasks",
-      "Not accountable for outcomes"
+      "Synthesized in hypothalamus, stored/released from posterior pituitary",
+      "Osteoclast",
+      "Origin: scapula; insertion: radial tuberosity; flexes and supinates",
+      "Toward higher solute (from dilute to concentrated)"
     ],
-    "correct": 0,
-    "explanation": "• Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability.\n• The delegating nurse remains accountable.",
+    "correct": 3,
+    "explanation": "Priority: Toward higher solute (from dilute to concentrated)",
     "explanations": {
-      "A": "Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
-      "B": "\"Avoiding work\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
-      "C": "\"Only assigning tasks\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
-      "D": "\"Not accountable for outcomes\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Toward higher solute (from dilute to concentrated). From low to high solute concentration"
     },
-    "subject": "Admin",
-    "topic": "Delegation",
+    "subject": "Anatomy",
+    "topic": "Osmosis",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 38,
-    "question": "What is the purpose of incident reporting?",
+    "syllabusId": "anatomy-6-lower-limb-osteology",
+    "question": "Item on largest bone.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Blame staff",
-      "Identify system problems and prevent recurrence",
-      "Document errors only",
-      "Punish mistakes"
+      "Great saphenous",
+      "Frontal lobe precentral gyrus (Brodmann area 4)",
+      "Femur",
+      "Simple diffusion across alveolar-capillary membrane"
     ],
-    "correct": 1,
-    "explanation": "• Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence.\n• It's not for blaming individuals.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "correct": 2,
+    "explanation": "Priority: Femur",
     "explanations": {
-      "A": "\"Blame staff\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
-      "B": "Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
-      "C": "\"Document errors only\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
-      "D": "\"Punish mistakes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Femur. Pelvic girdle: ilium, ischium, pubis",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Risk Management",
+    "subject": "Anatomy",
+    "topic": "Lower limb osteology",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 39,
-    "question": "What is the recommended span of control for a nurse manager?",
+    "syllabusId": "anatomy-7-longest-vein-great-saphenous",
+    "question": "Item on longest vein.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "3-5 staff",
-      "5-8 staff",
-      "8-12 staff",
-      "15-20 staff"
+      "Albumin (maintains oncotic pressure)",
+      "Beta cells of islets of Langerhans",
+      "Radial nerve palsy — splint, PT, EMG, usually recovers 2-3 mo",
+      "Great saphenous"
     ],
-    "correct": 1,
-    "explanation": "• Optimal span of control is 5-8 staff members.\n• Too many reduces supervision quality, too few is inefficient.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "correct": 3,
+    "explanation": "Priority: Great saphenous",
     "explanations": {
-      "A": "\"3-5 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
-      "B": "Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
-      "C": "\"8-12 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
-      "D": "\"15-20 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Great saphenous. From medial foot to femoral vein at saphenofemoral junction"
     },
-    "subject": "Admin",
-    "topic": "Management",
+    "subject": "Anatomy",
+    "topic": "Longest vein — great saphenous",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 40,
-    "question": "What is the primary purpose of performance appraisal?",
+    "syllabusId": "anatomy-8-plantar-flexion",
+    "question": "Item on ankle movement.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Punish poor performance",
-      "Provide feedback and development",
-      "Reduce salaries",
-      "Terminate staff"
+      "Plantar flexion — toes down, calf muscles",
+      "Colon (majority in SI but colon final concentration)",
+      "Phrenic nerve C3, C4, C5",
+      "Recurrent laryngeal nerve injury — voice rest, speech therapy, scope to assess cord movement"
     ],
-    "correct": 1,
-    "explanation": "• Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+    "correct": 0,
+    "explanation": "Priority: Plantar flexion — toes down, calf muscles",
     "explanations": {
-      "A": "\"Punish poor performance\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
-      "B": "Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
-      "C": "\"Reduce salaries\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
-      "D": "\"Terminate staff\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development."
+      "A": "Correct — per the note, the priority action is: Plantar flexion — toes down, calf muscles. Opposite to dorsiflexion",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Human Resources",
+    "subject": "Anatomy",
+    "topic": "Plantar flexion",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   },
   {
     "id": 41,
-    "question": "What is the chain of command in nursing?",
+    "syllabusId": "anatomy-9-upper-limb-nerve-supply",
+    "question": "Patient with wrist drop post-crutch injury.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Horizontal communication",
-      "Vertical hierarchy of authority",
-      "Informal structure",
-      "No structure"
+      "Radial nerve palsy — splint, PT, EMG, usually recovers 2-3 mo",
+      "Pheochromocytoma workup — plasma/urinary metanephrines, imaging; alpha-block first, then beta",
+      "Orbicularis oris (facial nerve VII)",
+      "Osteoclast"
     ],
-    "correct": 1,
-    "explanation": "• Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+    "correct": 0,
+    "explanation": "Priority: Radial nerve palsy — splint, PT, EMG, usually recovers 2-3 mo",
     "explanations": {
-      "A": "\"Horizontal communication\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
-      "B": "Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
-      "C": "\"Informal structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
-      "D": "\"No structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability."
+      "A": "Correct — per the note, the priority action is: Radial nerve palsy — splint, PT, EMG, usually recovers 2-3 mo. Axillary: deltoid (shoulder abduction)",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Organizational Structure",
+    "subject": "Anatomy",
+    "topic": "Upper limb — nerve supply",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 42,
-    "question": "What is the purpose of budgeting in nursing?",
+    "syllabusId": "anatomy-10-muscle-origin-and-insertion",
+    "question": "Item on biceps.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Control costs only",
-      "Plan and allocate resources",
-      "Reduce staff",
-      "Increase charges"
+      "13.5-17.5 g/dL",
+      "Abduction",
+      "Plantar flexion — toes down, calf muscles",
+      "Origin: scapula; insertion: radial tuberosity; flexes and supinates"
     ],
-    "correct": 1,
-    "explanation": "• Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "correct": 3,
+    "explanation": "Priority: Origin: scapula; insertion: radial tuberosity; flexes and supinates",
     "explanations": {
-      "A": "\"Control costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "B": "Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "C": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "D": "\"Increase charges\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Origin: scapula; insertion: radial tuberosity; flexes and supinates. Origin: fixed attachment"
     },
-    "subject": "Admin",
-    "topic": "Financial Management",
+    "subject": "Anatomy",
+    "topic": "Muscle origin and insertion",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   },
   {
     "id": 43,
-    "question": "What is the primary role of a charge nurse?",
+    "syllabusId": "anatomy-11-mouth-muscles",
+    "question": "Item on facial expression muscle.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Administrative tasks only",
-      "Coordinate unit activities and supervise staff",
-      "Direct patient care only",
-      "Teaching only"
+      "Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
+      "Abduction",
+      "Osteoclast",
+      "Orbicularis oris (facial nerve VII)"
     ],
-    "correct": 1,
-    "explanation": "• Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
+    "correct": 3,
+    "explanation": "Priority: Orbicularis oris (facial nerve VII)",
     "explanations": {
-      "A": "\"Administrative tasks only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
-      "B": "Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
-      "C": "\"Direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.",
-      "D": "\"Teaching only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Orbicularis oris (facial nerve VII). Orbicularis oris: lip closure"
     },
-    "subject": "Admin",
-    "topic": "Leadership",
+    "subject": "Anatomy",
+    "topic": "Mouth muscles",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   },
   {
     "id": 44,
-    "question": "What is the purpose of continuing education in nursing?",
+    "syllabusId": "anatomy-12-anterior-thoracic-wall",
+    "question": "Item on landmark at sternal angle.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Maintain licensure only",
-      "Update knowledge and maintain competence",
-      "Increase salary",
-      "Change jobs"
+      "Angle of Louis = T4/T5 disc, 2nd costal cartilage",
+      "Long thoracic nerve injury — physical therapy, shoulder support, usually recovers",
+      "Bronchial artery from descending aorta",
+      "Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling"
     ],
-    "correct": 1,
-    "explanation": "• Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
+    "correct": 0,
+    "explanation": "Priority: Angle of Louis = T4/T5 disc, 2nd costal cartilage",
     "explanations": {
-      "A": "\"Maintain licensure only\" is a plausible distractor but incorrect. The correct answer is B (\"Update knowledge and maintain competence\") — Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
-      "B": "Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
-      "C": "\"Increase salary\" is a plausible distractor but incorrect. The correct answer is B (\"Update knowledge and maintain competence\") — Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal.",
-      "D": "\"Change jobs\" is a plausible distractor but incorrect. The correct answer is B (\"Update knowledge and maintain competence\") — Continuing education updates knowledge, maintains competence, ensures quality care, and may be required for license renewal."
+      "A": "Correct — per the note, the priority action is: Angle of Louis = T4/T5 disc, 2nd costal cartilage. Sternum: manubrium, body, xiphoid",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Professional Development",
+    "subject": "Anatomy",
+    "topic": "Anterior thoracic wall",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   },
   {
     "id": 45,
-    "question": "What is the primary function of a nurse manager?",
+    "syllabusId": "anatomy-13-abduction-adduction-eversion",
+    "question": "Item on moving leg away from body.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Direct patient care only",
-      "Planning, organizing, directing, and controlling nursing services",
-      "Administrative work only",
-      "Teaching only"
+      "206 in adult",
+      "Pancreatic lipase with bile salt emulsification",
+      "Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
+      "Abduction"
     ],
-    "correct": 1,
-    "explanation": "• Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "correct": 3,
+    "explanation": "Priority: Abduction",
     "explanations": {
-      "A": "\"Direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "B": "Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "C": "\"Administrative work only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "D": "\"Teaching only\" is a plausible distractor but incorrect. The correct answer is B (\"Planning, organizing, directing, and controlling nursing services\") — Nurse managers perform all management functions: planning, organizing, directing (leading), and controlling nursing services to ensure quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Abduction. Abduction: away from midline"
     },
-    "subject": "Admin",
-    "topic": "Management Functions",
+    "subject": "Anatomy",
+    "topic": "Abduction, adduction, eversion",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 46,
-    "question": "What is the recommended nurse-to-patient ratio in ICU?",
+    "syllabusId": "anatomy-14-boxer-muscle-serratus-anterior",
+    "question": "Winged scapula after radical mastectomy.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "1:1",
-      "1:2",
-      "1:3",
-      "1:4"
+      "Long thoracic nerve injury — physical therapy, shoulder support, usually recovers",
+      "Calcium + vitamin K",
+      "LAD (left anterior descending)",
+      "206 in adult"
     ],
     "correct": 0,
-    "explanation": "• ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
+    "explanation": "Priority: Long thoracic nerve injury — physical therapy, shoulder support, usually recovers",
     "explanations": {
-      "A": "ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
-      "B": "\"1:2\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
-      "C": "\"1:3\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed.",
-      "D": "\"1:4\" is a plausible distractor but incorrect. The correct answer is A (\"1:1\") — ICU requires 1:1 nurse-to-patient ratio due to critical nature of care, continuous monitoring, and complex interventions needed."
+      "A": "Correct — per the note, the priority action is: Long thoracic nerve injury — physical therapy, shoulder support, usually recovers. Long thoracic nerve innervation",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Staffing",
+    "subject": "Anatomy",
+    "topic": "Boxer muscle (serratus anterior)",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   },
   {
     "id": 47,
-    "question": "What is the purpose of quality assurance in nursing?",
+    "syllabusId": "anatomy-15-retroperitoneal-structures",
+    "question": "Item on retroperitoneal organ.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Reduce costs only",
-      "Ensure standards of care are met",
-      "Increase patient numbers",
-      "Reduce staff"
+      "AV valve closure at start of systole",
+      "Wernicke aphasia — speech therapy, stroke workup (temporal lobe), caregiver education on comprehension strategies",
+      "Kidneys, pancreas (head/body), duodenum",
+      "Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk"
     ],
-    "correct": 1,
-    "explanation": "• Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
+    "correct": 2,
+    "explanation": "Priority: Kidneys, pancreas (head/body), duodenum",
     "explanations": {
-      "A": "\"Reduce costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "B": "Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "C": "\"Increase patient numbers\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence.",
-      "D": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Ensure standards of care are met\") — Quality assurance ensures that nursing care meets established standards, improves patient outcomes, and maintains professional excellence."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Kidneys, pancreas (head/body), duodenum. Suprarenal gland, Aorta/IVC, Duodenum (2nd, 3rd, 4th), Pancreas (except tail), Ureters, Colon (ascending, descending), Kidneys, Esophagus (lower), Rectum",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Quality Assurance",
+    "subject": "Anatomy",
+    "topic": "Retroperitoneal structures",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2017",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 48,
-    "question": "What is the first step in the problem-solving process?",
+    "syllabusId": "anatomy-16-adrenal-gland",
+    "question": "Young patient with BP swings, headache, sweating, palpitations.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Implement solution",
-      "Identify the problem",
-      "Evaluate outcomes",
-      "Generate alternatives"
+      "Periosteum",
+      "Preload, afterload, contractility",
+      "Pheochromocytoma workup — plasma/urinary metanephrines, imaging; alpha-block first, then beta",
+      "Toward higher solute (from dilute to concentrated)"
     ],
-    "correct": 1,
-    "explanation": "• Problem identification is the first step.\n• You must clearly define the problem before generating solutions, implementing, and evaluating.",
+    "correct": 2,
+    "explanation": "Priority: Pheochromocytoma workup — plasma/urinary metanephrines, imaging; alpha-block first, then beta",
     "explanations": {
-      "A": "\"Implement solution\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
-      "B": "Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
-      "C": "\"Evaluate outcomes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating.",
-      "D": "\"Generate alternatives\" is a plausible distractor but incorrect. The correct answer is B (\"Identify the problem\") — Problem identification is the first step. You must clearly define the problem before generating solutions, implementing, and evaluating."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Pheochromocytoma workup — plasma/urinary metanephrines, imaging; alpha-block first, then beta. Cortex (GFR) — Glomerulosa (aldosterone), Fasciculata (cortisol), Reticularis (androgens)",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Problem Solving",
+    "subject": "Anatomy",
+    "topic": "Adrenal gland",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2018",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 49,
-    "question": "What is delegation in nursing?",
+    "syllabusId": "anatomy-17-growth-hormone",
+    "question": "Adult with prominent jaw, enlarged hands, ring size change.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Transferring responsibility and authority",
-      "Avoiding work",
-      "Only assigning tasks",
-      "Not accountable for outcomes"
+      "Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
+      "Wrist splint night-time, ergonomic modification, NSAIDs, steroid injection if refractory, EMG, surgery",
+      "Plantar flexion — toes down, calf muscles",
+      "Cones (3 types — R, G, B)"
     ],
     "correct": 0,
-    "explanation": "• Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability.\n• The delegating nurse remains accountable.",
+    "explanation": "Priority: Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
     "explanations": {
-      "A": "Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
-      "B": "\"Avoiding work\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
-      "C": "\"Only assigning tasks\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable.",
-      "D": "\"Not accountable for outcomes\" is a plausible distractor but incorrect. The correct answer is A (\"Transferring responsibility and authority\") — Delegation involves transferring responsibility and authority to perform tasks while maintaining accountability. The delegating nurse remains accountable."
+      "A": "Correct — per the note, the priority action is: Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery. Excess childhood: gigantism",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Delegation",
+    "subject": "Anatomy",
+    "topic": "Growth hormone",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 50,
-    "question": "What is the purpose of incident reporting?",
+    "syllabusId": "anatomy-18-pituitary-anterior-vs-posterior",
+    "question": "Item on ADH source.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Blame staff",
-      "Identify system problems and prevent recurrence",
-      "Document errors only",
-      "Punish mistakes"
+      "Prosopagnosia — inferior temporal/occipital lesion; OT for compensatory strategies, family education",
+      "LH surge mid-cycle",
+      "Long thoracic nerve injury — physical therapy to strengthen remaining muscles, usually recovers",
+      "Synthesized in hypothalamus, stored/released from posterior pituitary"
     ],
-    "correct": 1,
-    "explanation": "• Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence.\n• It's not for blaming individuals.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "correct": 3,
+    "explanation": "Priority: Synthesized in hypothalamus, stored/released from posterior pituitary",
     "explanations": {
-      "A": "\"Blame staff\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
-      "B": "Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
-      "C": "\"Document errors only\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals.",
-      "D": "\"Punish mistakes\" is a plausible distractor but incorrect. The correct answer is B (\"Identify system problems and prevent recurrence\") — Incident reporting identifies system problems, analyzes root causes, and implements changes to prevent recurrence. It's not for blaming individuals."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Synthesized in hypothalamus, stored/released from posterior pituitary. Anterior (adenohypophysis): GH, ACTH, TSH, LH/FSH, prolactin, MSH — glandular"
     },
-    "subject": "Admin",
-    "topic": "Risk Management",
+    "subject": "Anatomy",
+    "topic": "Pituitary — anterior vs posterior",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2020",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
     "id": 51,
-    "question": "What is the recommended span of control for a nurse manager?",
+    "syllabusId": "anatomy-19-thyroid-hormones",
+    "question": "Hypothyroid with TSH high T4 low.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "3-5 staff",
-      "5-8 staff",
-      "8-12 staff",
-      "15-20 staff"
+      "Pancreatic lipase with bile salt emulsification",
+      "Primary hypothyroidism — levothyroxine 1.6 mcg/kg/d empty stomach, recheck TSH 6 wk",
+      "Voltage-gated Na+ channels initiate depolarization",
+      "Kidneys, pancreas (head/body), duodenum"
     ],
     "correct": 1,
-    "explanation": "• Optimal span of control is 5-8 staff members.\n• Too many reduces supervision quality, too few is inefficient.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanation": "Priority: Primary hypothyroidism — levothyroxine 1.6 mcg/kg/d empty stomach, recheck TSH 6 wk",
     "explanations": {
-      "A": "\"3-5 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
-      "B": "Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
-      "C": "\"8-12 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient.",
-      "D": "\"15-20 staff\" is a plausible distractor but incorrect. The correct answer is B (\"5-8 staff\") — Optimal span of control is 5-8 staff members. Too many reduces supervision quality, too few is inefficient."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Primary hypothyroidism — levothyroxine 1.6 mcg/kg/d empty stomach, recheck TSH 6 wk. T4 (thyroxine) most secreted; T3 more active",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Management",
+    "subject": "Anatomy",
+    "topic": "Thyroid hormones",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2021",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 52,
-    "question": "What is the primary purpose of performance appraisal?",
+    "syllabusId": "anatomy-20-reproductive-hormones",
+    "question": "Item on ovulation trigger.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Punish poor performance",
-      "Provide feedback and development",
-      "Reduce salaries",
-      "Terminate staff"
+      "Norepinephrine (post-ganglionic)",
+      "Femur",
+      "LAD (left anterior descending)",
+      "LH surge mid-cycle"
     ],
-    "correct": 1,
-    "explanation": "• Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
+    "correct": 3,
+    "explanation": "Priority: LH surge mid-cycle",
     "explanations": {
-      "A": "\"Punish poor performance\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
-      "B": "Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
-      "C": "\"Reduce salaries\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development.",
-      "D": "\"Terminate staff\" is a plausible distractor but incorrect. The correct answer is B (\"Provide feedback and development\") — Performance appraisal provides feedback, identifies strengths and areas for improvement, and supports professional development."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: LH surge mid-cycle. GnRH → LH/FSH → ovary (E2, progesterone) / testis (testosterone)"
     },
-    "subject": "Admin",
-    "topic": "Human Resources",
+    "subject": "Anatomy",
+    "topic": "Reproductive hormones",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 53,
-    "question": "What is the chain of command in nursing?",
+    "syllabusId": "anatomy-21-embryonic-testis-to-scrotum-descent",
+    "question": "1-y-old with absent right testis in scrotum.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Horizontal communication",
-      "Vertical hierarchy of authority",
-      "Informal structure",
-      "No structure"
+      "Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk",
+      "Albumin (maintains oncotic pressure)",
+      "Parietal pleura — somatic, sharp",
+      "Great saphenous"
     ],
-    "correct": 1,
-    "explanation": "• Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
+    "correct": 0,
+    "explanation": "Priority: Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk",
     "explanations": {
-      "A": "\"Horizontal communication\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
-      "B": "Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
-      "C": "\"Informal structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability.",
-      "D": "\"No structure\" is a plausible distractor but incorrect. The correct answer is B (\"Vertical hierarchy of authority\") — Chain of command is the vertical hierarchy showing lines of authority from top management to staff nurses, ensuring clear communication and accountability."
+      "A": "Correct — per the note, the priority action is: Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk. 8th month gestation reaches scrotum",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Organizational Structure",
+    "subject": "Anatomy",
+    "topic": "Embryonic testis to scrotum descent",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   },
   {
     "id": 54,
-    "question": "What is the purpose of budgeting in nursing?",
+    "syllabusId": "anatomy-22-motilin",
+    "question": "Gastroparesis patient.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Control costs only",
-      "Plan and allocate resources",
-      "Reduce staff",
-      "Increase charges"
+      "Type II pneumocyte",
+      "Low-dose erythromycin (motilin agonist) 3 mg/kg PO TDS, dietary modification, metoclopramide",
+      "H-K ATPase (proton pump) on parietal cell",
+      "Long thoracic nerve injury — physical therapy, shoulder support, usually recovers"
     ],
     "correct": 1,
-    "explanation": "• Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
+    "explanation": "Priority: Low-dose erythromycin (motilin agonist) 3 mg/kg PO TDS, dietary modification, metoclopramide",
     "explanations": {
-      "A": "\"Control costs only\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "B": "Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "C": "\"Reduce staff\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery.",
-      "D": "\"Increase charges\" is a plausible distractor but incorrect. The correct answer is B (\"Plan and allocate resources\") — Budgeting helps plan and allocate financial resources effectively, control costs, and ensure adequate funding for quality patient care. Nursing management and administration skills are essential for effective healthcare delivery."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Low-dose erythromycin (motilin agonist) 3 mg/kg PO TDS, dietary modification, metoclopramide. From M cells of duodenum",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Financial Management",
+    "subject": "Anatomy",
+    "topic": "Motilin",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   },
   {
     "id": 55,
-    "question": "What is the primary role of a charge nurse during a shift?",
+    "syllabusId": "anatomy-23-intrinsic-factor-of-castle",
+    "question": "Post-gastrectomy with megaloblastic anemia.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Provide direct patient care only",
-      "Coordinate unit activities and supervise staff",
-      "Handle administrative tasks only",
-      "Teach students only"
+      "PT (extrinsic) — INR monitors warfarin via vit K-dependent factors",
+      "Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling",
+      "LH surge mid-cycle",
+      "Osteoclast"
     ],
     "correct": 1,
-    "explanation": "• Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care.\n• This role requires leadership, communication, and clinical skills.\n• Charge nurses are responsible for resource allocation, staff assignment, and maintaining unit operations.\n• Nursing management skills are essential for effective healthcare delivery.",
+    "explanation": "Priority: Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling",
     "explanations": {
-      "A": "\"Provide direct patient care only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills.",
-      "B": "Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills.",
-      "C": "\"Handle administrative tasks only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills.",
-      "D": "\"Teach students only\" is a plausible distractor but incorrect. The correct answer is B (\"Coordinate unit activities and supervise staff\") — Charge nurse coordinates unit activities, supervises staff, manages patient flow, and ensures quality care while may also provide direct care. This role requires leadership, communication, and clinical skills."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling. Pernicious anemia: autoimmune destruction of parietal cells → IF deficiency → B12 deficiency",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Admin",
-    "topic": "Leadership",
+    "subject": "Anatomy",
+    "topic": "Intrinsic factor of Castle",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2025",
-    "qtype": "factual"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 56,
-    "question": "What is the recommended nurse-to-patient ratio in medical-surgical unit?",
+    "syllabusId": "anatomy-24-hcl-secretion",
+    "question": "Item on PPI target.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "1:3",
-      "1:4",
-      "1:5",
-      "1:6"
+      "B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status",
+      "Prosopagnosia — inferior temporal/occipital lesion; OT for compensatory strategies, family education",
+      "Orbicularis oris (facial nerve VII)",
+      "H-K ATPase (proton pump) on parietal cell"
     ],
-    "correct": 1,
-    "explanation": "• Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care.\n• ICU requires 1:1-1:2.\n• Proper staffing ratios ensure quality care and patient safety.\n• Understanding staffing requirements is essential for nursing management and resource allocation.",
+    "correct": 3,
+    "explanation": "Priority: H-K ATPase (proton pump) on parietal cell",
     "explanations": {
-      "A": "\"1:3\" is a plausible distractor but incorrect. The correct answer is B (\"1:4\") — Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2.",
-      "B": "Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2.",
-      "C": "\"1:5\" is a plausible distractor but incorrect. The correct answer is B (\"1:4\") — Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2.",
-      "D": "\"1:6\" is a plausible distractor but incorrect. The correct answer is B (\"1:4\") — Medical-surgical units typically require 1:4-1:5 nurse-to-patient ratio for safe care. ICU requires 1:1-1:2."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: H-K ATPase (proton pump) on parietal cell. Stimulated by: gastrin (G cells), histamine (ECL, H2), ACh (vagus)"
     },
-    "subject": "Admin",
-    "topic": "Staffing",
-    "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "factual"
-  },
-  {
-    "id": 207,
-    "question": "What is the correct method for testing blood glucose using glucometer?",
-    "options": [
-      "Use first drop of blood",
-      "Wipe first drop, use second drop",
-      "Use any drop",
-      "Mix with water"
-    ],
-    "correct": 1,
-    "explanation": "• For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop.\n• Clean site with alcohol, let dry, use lancet, apply drop to test strip.\n• Proper technique ensures accurate results for diabetes management.\n• This knowledge is essential for patient education and monitoring.",
-    "explanations": {
-      "A": "\"Use first drop of blood\" is a plausible distractor but incorrect. The correct answer is B (\"Wipe first drop, use second drop\") — For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip.",
-      "B": "For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip.",
-      "C": "\"Use any drop\" is a plausible distractor but incorrect. The correct answer is B (\"Wipe first drop, use second drop\") — For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip.",
-      "D": "\"Mix with water\" is a plausible distractor but incorrect. The correct answer is B (\"Wipe first drop, use second drop\") — For accurate glucometer reading, wipe first drop of blood (may contain tissue fluid), use second drop. Clean site with alcohol, let dry, use lancet, apply drop to test strip."
-    },
-    "subject": "Fundamentals",
-    "topic": "Diagnostic Equipment",
+    "subject": "Anatomy",
+    "topic": "HCl secretion",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 216,
-    "question": "A patient with diabetes mellitus develops diabetic ketoacidosis (DKA). What is the primary nursing intervention?",
+    "id": 57,
+    "syllabusId": "anatomy-25-mineral-absorption-sites",
+    "question": "Ileal resection patient.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Administering oral glucose",
-      "Starting IV insulin infusion",
-      "Encouraging fluid intake",
-      "Monitoring blood pressure"
-    ],
-    "correct": 1,
-    "explanation": "• IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose.\n• This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
-    "explanations": {
-      "A": "\"Administering oral glucose\" is a plausible distractor but incorrect. The correct answer is B (\"Starting IV insulin infusion\") — IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
-      "B": "IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
-      "C": "\"Encouraging fluid intake\" is a plausible distractor but incorrect. The correct answer is B (\"Starting IV insulin infusion\") — IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
-      "D": "\"Monitoring blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Starting IV insulin infusion\") — IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose. This must be done carefully with frequent monitoring of blood glucose and electrolytes."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Endocrine System",
-    "day": 10,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
-  },
-  {
-    "id": 217,
-    "question": "A patient with stroke (CVA) is unable to swallow. What is the most appropriate initial nursing action?",
-    "options": [
-      "Start nasogastric tube feeding",
-      "Provide oral care only",
-      "NPO status with IV fluids",
-      "Encourage small sips of water"
+      "Origin: scapula; insertion: radial tuberosity; flexes and supinates",
+      "Wernicke aphasia — speech therapy, stroke workup (temporal lobe), caregiver education on comprehension strategies",
+      "B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status",
+      "C3-C5"
     ],
     "correct": 2,
-    "explanation": "• Patients with dysphagia after stroke are at high risk for aspiration.\n• NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.\n• IV fluids maintain hydration.",
+    "explanation": "Priority: B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status",
     "explanations": {
-      "A": "\"Start nasogastric tube feeding\" is a plausible distractor but incorrect. The correct answer is C (\"NPO status with IV fluids\") — Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.",
-      "B": "\"Provide oral care only\" is a plausible distractor but incorrect. The correct answer is C (\"NPO status with IV fluids\") — Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.",
-      "C": "Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.",
-      "D": "\"Encourage small sips of water\" is a plausible distractor but incorrect. The correct answer is C (\"NPO status with IV fluids\") — Patients with dysphagia after stroke are at high risk for aspiration. NPO (nothing by mouth) status should be maintained until swallowing assessment is completed."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status. Fe: duodenum + proximal jejunum",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological System",
+    "subject": "Anatomy",
+    "topic": "Mineral absorption sites",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 233,
-    "question": "A patient with acute kidney injury is receiving continuous renal replacement therapy (CRRT). What is the priority nursing assessment?",
+    "id": 58,
+    "syllabusId": "anatomy-26-gi-enzymes",
+    "question": "Item on fat digestion.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Blood pressure",
-      "Access site patency",
-      "Urine output",
-      "Weight"
+      "Wernicke aphasia — speech therapy, stroke workup (temporal lobe), caregiver education on comprehension strategies",
+      "Pancreatic lipase with bile salt emulsification",
+      "CKD stage 4 — nephrology referral, avoid nephrotoxins, dose-adjust drugs, prepare for RRT",
+      "Temporal lobe (Brodmann 41-42)"
     ],
     "correct": 1,
-    "explanation": "• Access site patency is critical for CRRT.\n• Clotting or dislodgement can cause treatment interruption and complications.",
+    "explanation": "Priority: Pancreatic lipase with bile salt emulsification",
     "explanations": {
-      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is B (\"Access site patency\") — Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications.",
-      "B": "Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications.",
-      "C": "\"Urine output\" is a plausible distractor but incorrect. The correct answer is B (\"Access site patency\") — Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications.",
-      "D": "\"Weight\" is a plausible distractor but incorrect. The correct answer is B (\"Access site patency\") — Access site patency is critical for CRRT. Clotting or dislodgement can cause treatment interruption and complications."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Pancreatic lipase with bile salt emulsification. Saliva: amylase (starch)",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Renal System",
+    "subject": "Anatomy",
+    "topic": "GI enzymes",
+    "section": "anatomy",
     "day": 10,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 265,
-    "question": "A patient with STEMI receives 300 mg aspirin loading dose. What is the priority after administration?",
+    "id": 59,
+    "syllabusId": "anatomy-27-large-intestine-functions",
+    "question": "Item on water absorption site.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Monitor for bleeding",
-      "Administer dual antiplatelet therapy",
-      "Prepare for PCI",
-      "Assess pain level"
+      "Pancreatic lipase with bile salt emulsification",
+      "H-K ATPase (proton pump) on parietal cell",
+      "Colon (majority in SI but colon final concentration)",
+      "Kidneys, pancreas (head/body), duodenum"
     ],
-    "correct": 1,
-    "explanation": "• After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI.\n• This combination significantly reduces thrombotic events but increases bleeding risk.\n• Monitoring for signs of bleeding is essential, but initiating DAPT is the immediate priority after aspirin in STEMI management.",
+    "correct": 2,
+    "explanation": "Priority: Colon (majority in SI but colon final concentration)",
     "explanations": {
-      "A": "\"Monitor for bleeding\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
-      "B": "After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
-      "C": "\"Prepare for PCI\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk.",
-      "D": "\"Assess pain level\" is a plausible distractor but incorrect. The correct answer is B (\"Administer dual antiplatelet therapy\") — After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI. This combination significantly reduces thrombotic events but increases bleeding risk."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Colon (majority in SI but colon final concentration). Water and electrolyte absorption",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
+    "subject": "Anatomy",
+    "topic": "Large intestine functions",
+    "section": "anatomy",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 60,
+    "syllabusId": "anatomy-28-islets-of-langerhans",
+    "question": "Item on insulin source.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Pancreatic lipase with bile salt emulsification",
+      "Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
+      "Beta cells of islets of Langerhans",
+      "Stapes (middle ear)"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Beta cells of islets of Langerhans",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Beta cells of islets of Langerhans. Alpha (20%): glucagon",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Anatomy",
+    "topic": "Islets of Langerhans",
+    "section": "anatomy",
     "day": 10,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "scenario"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 61,
+    "syllabusId": "anatomy-29-cervical-vertebrae",
+    "question": "Item on atlas.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Angle of Louis = T4/T5 disc, 2nd costal cartilage",
+      "Frontal lobe precentral gyrus (Brodmann area 4)",
+      "Cricoid ring (subglottic) — implications for uncuffed ETT",
+      "C1 — has no vertebral body"
+    ],
+    "correct": 3,
+    "explanation": "Priority: C1 — has no vertebral body",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: C1 — has no vertebral body. C1 atlas: no body, supports skull"
+    },
+    "subject": "Anatomy",
+    "topic": "Cervical vertebrae",
+    "section": "anatomy",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
   }
 ]

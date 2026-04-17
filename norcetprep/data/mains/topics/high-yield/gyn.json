@@ -1,0 +1,354 @@
+[
+  {
+    "id": 100031,
+    "syllabusId": "gyn-1-vaginitis",
+    "qtype": "scenario",
+    "question": "25-y-old with frothy yellow-green discharge, strawberry cervix on speculum.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs (Amsel criteria (3/4): homogeneous discharge, pH >4.5, +whiff test, clue cells.)",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs. BV (Gardnerella): gray fishy discharge, pH >4.5, clue cells — metronidazole.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Vaginitis",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100032,
+    "syllabusId": "gyn-2-pelvic-inflammatory-disease-pid",
+    "qtype": "scenario",
+    "question": "22-y-old with lower abdominal pain, fever 38.5, purulent cervical discharge, cervical motion tenderness.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h"
+    ],
+    "correct": 1,
+    "explanation": "Priority: NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use. Organisms: N. gonorrhoeae, C. trachomatis, anaerobes.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Pelvic inflammatory disease (PID)",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100033,
+    "syllabusId": "gyn-3-syndromic-management-of-pid-and-vaginitis",
+    "qtype": "scenario",
+    "question": "PHC: 24-y-old with lower abdominal pain and discharge.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days. Kit 1 (urethral/anorectal discharge): kanamycin + doxycycline.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Syndromic management of PID and vaginitis",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100034,
+    "syllabusId": "gyn-4-emergency-contraceptives",
+    "qtype": "scenario",
+    "question": "20-y-old student 18 h after unprotected sex.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception (Not abortifacient — prevents ovulation/implantation.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception. Levonorgestrel 1.5 mg single dose within 72 h (best <24 h)."
+    },
+    "subject": "OBG",
+    "topic": "Emergency contraceptives",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100035,
+    "syllabusId": "gyn-5-intrauterine-device-cu-t",
+    "qtype": "scenario",
+    "question": "P2 wants long-term reversible contraception.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks (Check threads monthly; PID risk highest first 3 weeks.)",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks. Cu-T 380A: 10 years; Cu-T 375: 5 years.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Intrauterine device (Cu-T)",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100036,
+    "syllabusId": "gyn-6-ocp-mala-d-mala-n-absolute-contraindications",
+    "qtype": "scenario",
+    "question": "32-y-old smoker requests OCP.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC (Break-through bleeding common first 3 cycles.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC. MALA-D: subsidized COC — levonorgestrel 0.15 mg + ethinyl estradiol 0.03 mg (7 Fe tabs)."
+    },
+    "subject": "OBG",
+    "topic": "OCP — MALA-D, MALA-N, absolute contraindications",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100037,
+    "syllabusId": "gyn-7-pap-smear",
+    "qtype": "scenario",
+    "question": "35-y-old for routine screening.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal",
+      "Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal (VIA (visual inspection with acetic acid) alternative in resource-limited settings.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal. Start at 21 y (USA); India: every 5 y from 30-65 y per screening program.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Pap smear",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100038,
+    "syllabusId": "gyn-8-vasectomy-and-tubectomy",
+    "qtype": "scenario",
+    "question": "40-y-old P3 husband consents for sterilization.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
+      "Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent. Vasectomy: bilateral vas deferens ligation under LA, 15-30 min; back-up method x3 months until azoospermia confirmed.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Vasectomy and tubectomy",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100039,
+    "syllabusId": "gyn-9-hpv-and-vaccine",
+    "qtype": "scenario",
+    "question": "Mother of 12-y-old daughter asks about HPV vaccine.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd (Vaccination does not replace screening.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd. Oncogenic types: 16, 18 (70%); low-risk: 6, 11 (warts).",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "HPV and vaccine",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100040,
+    "syllabusId": "gyn-10-ovarian-tumors-and-tumor-markers",
+    "qtype": "scenario",
+    "question": "55-y-old with pelvic mass and CA-125 500.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy. Epithelial (most common): serous, mucinous — CA-125.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "OBG",
+    "topic": "Ovarian tumors and tumor markers",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100041,
+    "syllabusId": "gyn-11-semen-analysis",
+    "qtype": "scenario",
+    "question": "Couple with 2 y infertility.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
+      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC",
+      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
+      "Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h (Azoospermia: zero sperm on 2 separate samples.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h. Volume >=1.4 mL, pH >=7.2, count >=16 million/mL."
+    },
+    "subject": "OBG",
+    "topic": "Semen analysis",
+    "section": "gyn",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  }
+]

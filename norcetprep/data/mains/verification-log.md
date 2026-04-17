@@ -164,3 +164,81 @@ the corrected inputs:
    configured.
 3. A future pass will import reported-question feedback into this log and
    apply corrections via a targeted rebuild.
+
+---
+
+## Addendum — 2026-04-17 · High-Yield PDF Integration
+
+This pass integrates the **High Yield Topics NORCET** PDF
+(`norcetprep/High Yield Topics NORCET.pdf`) and the companion YouTube
+playlist `PLZp9HDOU30kNVofF7QtpP6lX-EHn4nRts` (anchor episode
+`QNQK5gccmkM` — PPH + Lochia) into the Mains toolkit.
+
+### Artefacts generated
+
+| File | Purpose | Entries |
+|------|---------|---------|
+| `data/mains/syllabus.json` | Canonical PDF-derived syllabus: `{id, section, topic, day, priority}` | **610** |
+| `data/mains/videos.json` | Playlist manifest with per-topic linkage | 1 playlist, 1 anchor episode (more to be mapped) |
+| `data/mains/notes/<section>.json` | Per-section concise notes with `clinicalContext` + `nursingPriority` | **610** |
+| `data/mains/topics/high-yield/<section>.json` | Auto-generated scenario MCQs (one per topic) | **610** |
+| `data/mains/_audit/highyield-audit.json` | Coverage + scenario-ratio audit | 0 issues |
+| `data/mains/_audit/mock-coverage.json` | Every `must`-priority topic appears in ≥1 mock | **275 / 275** |
+| `data/mains/mocks/mock-pyq.json` | PYQ-only mock (NORCET 6–9 Mains + high-yield fill) | 160 items |
+
+### Build pipeline
+
+```
+scripts/build-syllabus.mjs           → syllabus.json
+scripts/notes-content*.mjs           → raw note sources (authored)
+scripts/consolidate-notes.mjs        → data/mains/notes/<section>.json
+scripts/gen-highyield.mjs            → data/mains/topics/high-yield/<section>.json
+scripts/build-mains-bank.mjs         → unified question-bank + day slices + 10 mocks + PYQ mock + audits
+scripts/audit-highyield.mjs          → per-section scenario-ratio + coverage audit (run at end of build)
+```
+
+### Scenario ratio (per-section, minimum threshold)
+
+| Section | Ratio | Threshold | Pass |
+|---------|-------|-----------|------|
+| Medicine | 100% | 70% | ✅ |
+| Midwifery | 100% | 70% | ✅ |
+| Surgery | 100% | 70% | ✅ |
+| Foundation | 100% | 70% | ✅ |
+| CHN | 100% | 70% | ✅ |
+| Pediatrics | 100% | 70% | ✅ |
+| Pharma | 100% | 70% | ✅ |
+| Mental | 100% | 70% | ✅ |
+| Anatomy | 100% | 40% | ✅ |
+| Biochem | 100% | 40% | ✅ |
+| Microbiology | 100% | 40% | ✅ |
+
+All sections exceed the minimum scenario ratio mandated by the NORCET Mains
+exam pattern.
+
+### Overall stats (post-integration)
+
+- **Question bank total**: 1 189 items (prev 579)
+- **Scenario items**: 693 (58% of total bank; 100% of high-yield set)
+- **PYQ items**: 32 (NORCET 6–9 Mains recall)
+- **High-yield items**: 610 (auto-generated, one per PDF topic)
+- **Legacy practice items**: 547
+
+### User-facing additions
+
+- `mains-plan/syllabus.html` — interactive checklist of all 610 topics,
+  filter by priority, search, with deep links to notes + MCQs + video.
+- `mains-plan/notes/index.html` — scenario-first notes viewer with
+  per-section tabs and hash-anchored topic navigation.
+- `mains-plan/watch.html` — embedded playlist player with per-episode
+  topic linkage.
+- `js/bank.js` now accepts `?syllabusId=` and `?tag=` query params, used
+  by the syllabus + notes pages to drill into topic-specific MCQs.
+
+### Audit commitments
+
+- Every syllabus topic has ≥1 note and ≥1 scenario MCQ.
+- Every note carries `clinicalContext` + `nursingPriority` fields.
+- Every `must`-priority topic appears in at least one of the ten mocks.
+- Build pipeline re-runs audits on every `scripts/build-mains-bank.mjs`
+  invocation.

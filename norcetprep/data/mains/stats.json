@@ -1,33 +1,33 @@
 {
-  "totalQs": 579,
+  "totalQs": 1189,
   "pyqCount": 32,
   "legacyCount": 55,
   "practiceCount": 492,
   "bySubject": {
-    "Medical-Surgical": 91,
-    "Fundamentals": 83,
-    "Pharmacology": 72,
-    "OBG": 47,
-    "Pediatric": 40,
-    "Community Health": 44,
-    "Psychiatric": 31,
+    "Medical-Surgical": 265,
+    "Fundamentals": 113,
+    "Pharmacology": 132,
+    "OBG": 88,
+    "Pediatric": 118,
+    "Community Health": 90,
+    "Psychiatric": 75,
+    "Anatomy": 119,
+    "Nutrition": 43,
+    "Microbiology": 67,
     "Admin": 24,
-    "Anatomy": 42,
-    "Microbiology": 28,
-    "Nutrition": 22,
     "Mixed": 55
   },
   "byDay": {
-    "1": 23,
-    "2": 18,
-    "3": 47,
-    "4": 54,
-    "5": 21,
-    "6": 44,
-    "7": 77,
-    "8": 49,
-    "9": 49,
-    "10": 44,
+    "1": 48,
+    "2": 78,
+    "3": 88,
+    "4": 117,
+    "5": 36,
+    "6": 90,
+    "7": 82,
+    "8": 214,
+    "9": 102,
+    "10": 181,
     "11": 49,
     "12": 32,
     "13": 72
@@ -35,6 +35,6 @@
   "byQtype": {
     "factual": 485,
     "calculation": 11,
-    "scenario": 83
+    "scenario": 693
   }
 }

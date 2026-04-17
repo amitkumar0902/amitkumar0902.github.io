@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High-Yield Syllabus · NORCET Mains 2026</title>
+  <meta name="description" content="Every topic from the High-Yield NORCET PDF — with notes, practice MCQs, video lectures, and a completion checkbox.">
+  <link rel="canonical" href="https://amitkumar0902.github.io/norcetprep/mains-plan/syllabus.html">
+  <link rel="stylesheet" href="../css/mains-theme.css">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <script src="../js/core.js" defer></script>
+  <style>
+    .section-block { margin: 1.5rem 0; border-top: 1px solid var(--border, #2a2a30); padding-top: 1rem; }
+    .section-block h2 { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+    .section-stats { font-size: 0.85rem; color: var(--muted, #888); font-weight: normal; }
+    .topic-row {
+      display: grid;
+      grid-template-columns: auto 1fr auto auto auto auto;
+      gap: 0.75rem;
+      align-items: center;
+      padding: 0.5rem 0.25rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .topic-row:hover { background: rgba(255,255,255,0.02); }
+    .topic-row .p-badge {
+      display: inline-block; font-size: 0.7rem; padding: 0.15rem 0.45rem;
+      border-radius: 3px; font-weight: 600; text-transform: uppercase;
+    }
+    .p-must { background: #c23a3a; color: #fff; }
+    .p-should { background: #4a7; color: #fff; }
+    .p-nice { background: #555; color: #eee; }
+    .topic-row .title-col { font-size: 0.95rem; }
+    .topic-row .day-col { font-size: 0.8rem; color: var(--muted, #888); min-width: 3rem; text-align: right; }
+    .topic-row a.minibtn {
+      font-size: 0.78rem; padding: 0.25rem 0.5rem; border-radius: 3px;
+      background: rgba(255,255,255,0.05); text-decoration: none; color: inherit;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .topic-row a.minibtn:hover { background: rgba(255,255,255,0.12); }
+    .topic-row a.minibtn.video { background: rgba(255,60,60,0.15); border-color: rgba(255,60,60,0.3); }
+    .topic-row input[type=checkbox] { width: 1.1rem; height: 1.1rem; cursor: pointer; }
+    .filters { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1rem 0; padding: 0.75rem; background: rgba(255,255,255,0.03); border-radius: 6px; }
+    .filters label { font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; cursor: pointer; }
+    .filters input[type=search] { padding: 0.35rem 0.5rem; font-size: 0.9rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: inherit; border-radius: 4px; min-width: 220px; }
+    .progress-bar { height: 4px; background: rgba(255,255,255,0.08); border-radius: 2px; overflow: hidden; margin-top: 0.25rem; }
+    .progress-fill { height: 100%; background: var(--accent, #4ae); transition: width 0.2s; }
+    @media (max-width: 640px) {
+      .topic-row { grid-template-columns: auto 1fr auto; }
+      .topic-row .day-col, .topic-row a.minibtn { font-size: 0.72rem; }
+      .topic-row a.minibtn:not(:first-of-type) { display: none; }
+    }
+  </style>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', async () => {
+      NM.boot('syllabus');
+      const syllabus = await fetch('../data/mains/syllabus.json').then(r => r.json());
+      const videos = await fetch('../data/mains/videos.json').then(r => r.json()).catch(() => ({ episodes: [] }));
+
+      const videoByTopic = {};
+      for (const ep of (videos.episodes || [])) {
+        for (const t of (ep.topics || [])) {
+          (videoByTopic[t] = videoByTopic[t] || []).push(ep);
+        }
+      }
+
+      const done = NM.get('syllabusDone', {});
+      const priorityFilter = { must: true, should: true, nice: true };
+      let search = '';
+
+      const sections = [...new Set(syllabus.map(s => s.section))];
+      const sectionLabels = {};
+      for (const s of syllabus) sectionLabels[s.section] = s.sectionLabel;
+
+      function render() {
+        const root = document.getElementById('sections');
+        root.innerHTML = '';
+        for (const section of sections) {
+          const filtered = syllabus.filter(s =>
+            s.section === section &&
+            priorityFilter[s.priority] &&
+            (!search || (s.topic + ' ' + (s.subtopic || '')).toLowerCase().includes(search))
+          );
+          if (filtered.length === 0) continue;
+          const completed = filtered.filter(s => done[s.id]).length;
+          const total = filtered.length;
+          const block = document.createElement('section');
+          block.className = 'section-block';
+          block.innerHTML = `
+            <h2>
+              <span>${sectionLabels[section]}</span>
+              <span class="section-stats">${completed}/${total} complete (${Math.round(100*completed/total)}%)</span>
+            </h2>
+            <div class="progress-bar"><div class="progress-fill" style="width:${100*completed/total}%"></div></div>
+          `;
+          for (const s of filtered) {
+            const row = document.createElement('div');
+            row.className = 'topic-row';
+            const priorityClass = 'p-' + s.priority;
+            const videoEp = (videoByTopic[s.id] || [])[0];
+            const videoBtn = videoEp ? `<a class="minibtn video" href="watch.html?v=${videoEp.videoId}" title="${videoEp.title}">▶ Watch</a>` : `<a class="minibtn" href="watch.html">▶ Playlist</a>`;
+            row.innerHTML = `
+              <input type="checkbox" data-id="${s.id}" ${done[s.id] ? 'checked' : ''} aria-label="Mark ${s.topic} complete">
+              <div class="title-col">
+                <span class="p-badge ${priorityClass}">${s.priority}</span>
+                ${s.topic}${s.subtopic ? ' — <span class="muted">' + s.subtopic + '</span>' : ''}
+              </div>
+              <div class="day-col">Day ${s.day}</div>
+              <a class="minibtn" href="notes/index.html?section=${section}#${s.id}">📖 Notes</a>
+              <a class="minibtn" href="bank.html?syllabusId=${encodeURIComponent(s.id)}">🎯 MCQs</a>
+              ${videoBtn}
+            `;
+            block.appendChild(row);
+          }
+          root.appendChild(block);
+        }
+
+        const overallDone = Object.keys(done).filter(k => done[k]).length;
+        document.getElementById('overall-stat').textContent = `${overallDone}/${syllabus.length} topics complete (${Math.round(100*overallDone/syllabus.length)}%)`;
+      }
+
+      document.addEventListener('change', (e) => {
+        if (e.target.matches('input[type=checkbox][data-id]')) {
+          const id = e.target.dataset.id;
+          if (e.target.checked) done[id] = true; else delete done[id];
+          NM.set('syllabusDone', done);
+          render();
+        }
+        if (e.target.matches('input.priority-filter')) {
+          priorityFilter[e.target.value] = e.target.checked;
+          render();
+        }
+      });
+      document.getElementById('search').addEventListener('input', (e) => {
+        search = e.target.value.toLowerCase().trim();
+        render();
+      });
+
+      render();
+    });
+  </script>
+</head>
+<body>
+<main class="page" id="main">
+  <a class="back" href="index.html">← Back to 13-Day Plan</a>
+  <h1>High-Yield Syllabus</h1>
+  <p class="muted">Every topic from the <em>High-Yield Topics NORCET</em> PDF. Check off each topic as you finish its notes + MCQs + video. <span id="overall-stat" style="color: var(--accent, #4ae); font-weight: 600;"></span></p>
+
+  <div class="filters">
+    <input id="search" type="search" placeholder="Search topics..." autocomplete="off">
+    <label><input type="checkbox" class="priority-filter" value="must" checked> <span class="p-badge p-must">must</span></label>
+    <label><input type="checkbox" class="priority-filter" value="should" checked> <span class="p-badge p-should">should</span></label>
+    <label><input type="checkbox" class="priority-filter" value="nice" checked> <span class="p-badge p-nice">nice</span></label>
+  </div>
+
+  <div id="sections"></div>
+</main>
+</body>
+</html>

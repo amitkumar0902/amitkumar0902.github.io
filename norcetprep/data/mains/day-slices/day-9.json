@@ -175,7 +175,7 @@
     "qtype": "factual"
   },
   {
-    "id": 500,
+    "id": 1110,
     "question": "A marker associated with neural tube defects in amniotic fluid includes:",
     "options": [
       "Bilirubin",
@@ -200,7 +200,7 @@
     "qtype": "factual"
   },
   {
-    "id": 507,
+    "id": 1117,
     "question": "BLS sequence for unresponsive adult without pulse:",
     "options": [
       "A-B-C",
@@ -225,528 +225,675 @@
     "qtype": "factual"
   },
   {
-    "id": 137,
-    "question": "Adult BLS compression-to-ventilation ratio with 2 rescuers:",
+    "id": 255,
+    "syllabusId": "ent-1-presbycusis",
+    "question": "72-y-old with progressive hearing loss worse in crowded rooms.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "15:2",
-      "30:2",
-      "5:1",
-      "50:2"
+      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
+      "Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise",
+      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
+      "Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until i…"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "Priority: Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise",
     "explanations": {
-      "A": "\"15:2\" is a plausible distractor but incorrect. The correct answer is B (\"30:2\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"5:1\" is a plausible distractor but incorrect. The correct answer is B (\"30:2\") — First aid / emergency nursing for NORCET.",
-      "D": "\"50:2\" is a plausible distractor but incorrect. The correct answer is B (\"30:2\") — First aid / emergency nursing for NORCET."
-    },
-    "subject": "Fundamentals",
-    "topic": "BLS",
-    "day": 9,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 138,
-    "question": "Adult compression depth (approx):",
-    "options": [
-      "1 inch",
-      "At least 2 inches (5 cm)",
-      "3 cm only",
-      "As shallow as possible"
-    ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
-    "explanations": {
-      "A": "\"1 inch\" is a plausible distractor but incorrect. The correct answer is B (\"At least 2 inches (5 cm)\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"3 cm only\" is a plausible distractor but incorrect. The correct answer is B (\"At least 2 inches (5 cm)\") — First aid / emergency nursing for NORCET.",
-      "D": "\"As shallow as possible\" is a plausible distractor but incorrect. The correct answer is B (\"At least 2 inches (5 cm)\") — First aid / emergency nursing for NORCET."
-    },
-    "subject": "Fundamentals",
-    "topic": "BLS",
-    "day": 9,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 144,
-    "question": "Shockable rhythms in cardiac arrest include:",
-    "options": [
-      "Asystole",
-      "VF and pulseless VT",
-      "PEA",
-      "Bradycardia only"
-    ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
-    "explanations": {
-      "A": "\"Asystole\" is a plausible distractor but incorrect. The correct answer is B (\"VF and pulseless VT\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"PEA\" is a plausible distractor but incorrect. The correct answer is B (\"VF and pulseless VT\") — First aid / emergency nursing for NORCET.",
-      "D": "\"Bradycardia only\" is a plausible distractor but incorrect. The correct answer is B (\"VF and pulseless VT\") — First aid / emergency nursing for NORCET."
-    },
-    "subject": "Fundamentals",
-    "topic": "ACLS",
-    "day": 9,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 219,
-    "question": "A patient with peptic ulcer disease is prescribed proton pump inhibitors. What should the nurse teach about administration?",
-    "options": [
-      "Take with meals",
-      "Take 30 minutes before breakfast",
-      "Take at bedtime",
-      "Take with antacids"
-    ],
-    "correct": 1,
-    "explanation": "• Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
-    "explanations": {
-      "A": "\"Take with meals\" is a plausible distractor but incorrect. The correct answer is B (\"Take 30 minutes before breakfast\") — Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
-      "B": "Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
-      "C": "\"Take at bedtime\" is a plausible distractor but incorrect. The correct answer is B (\"Take 30 minutes before breakfast\") — Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
-      "D": "\"Take with antacids\" is a plausible distractor but incorrect. The correct answer is B (\"Take 30 minutes before breakfast\") — Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise. Bilateral, symmetrical, high-frequency first",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
     "subject": "Medical-Surgical",
-    "topic": "Gastrointestinal System",
+    "topic": "Presbycusis",
+    "section": "ent",
     "day": 9,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
-    "id": 239,
-    "question": "A patient with Addison's disease is experiencing an adrenal crisis. What is the priority medication?",
+    "id": 256,
+    "syllabusId": "ent-2-otoscope-examination",
+    "question": "Toddler with ear pain.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Insulin",
-      "Hydrocortisone",
-      "Epinephrine",
-      "Vasopressin"
+      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
+      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
+      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
+      "Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy"
     ],
-    "correct": 1,
-    "explanation": "• Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.",
+    "correct": 3,
+    "explanation": "Priority: Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy",
     "explanations": {
-      "A": "\"Insulin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "B": "Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "C": "\"Epinephrine\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "D": "\"Vasopressin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy. Pull pinna up-back (adult), down-back (child <3 y)"
     },
     "subject": "Medical-Surgical",
-    "topic": "Endocrine System",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
-  },
-  {
-    "id": 247,
-    "question": "A patient with pernicious anemia is receiving vitamin B12 injections. What is the expected response?",
-    "options": [
-      "Immediate improvement",
-      "Improvement in 1-2 weeks",
-      "Improvement in 4-6 weeks",
-      "No improvement expected"
-    ],
-    "correct": 1,
-    "explanation": "• Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment.\n• Reticulocyte count increases, and neurological symptoms improve gradually.",
-    "explanations": {
-      "A": "\"Immediate improvement\" is a plausible distractor but incorrect. The correct answer is B (\"Improvement in 1-2 weeks\") — Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually.",
-      "B": "Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually.",
-      "C": "\"Improvement in 4-6 weeks\" is a plausible distractor but incorrect. The correct answer is B (\"Improvement in 1-2 weeks\") — Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually.",
-      "D": "\"No improvement expected\" is a plausible distractor but incorrect. The correct answer is B (\"Improvement in 1-2 weeks\") — Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment. Reticulocyte count increases, and neurological symptoms improve gradually."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Hematological System",
+    "topic": "Otoscope examination",
+    "section": "ent",
     "day": 9,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2018",
-    "qtype": "scenario"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 257,
+    "syllabusId": "ent-3-laryngoscope",
+    "question": "Infant requiring intubation.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoco…",
+      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
+      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
+      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT. Indirect: mirror via oropharynx",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Laryngoscope",
+    "section": "ent",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 258,
+    "syllabusId": "ent-4-acute-epiglottitis",
+    "question": "4-y-old unimmunized, drooling, tripod, stridor, fever 39.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
+      "Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until intubated",
+      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
+      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until intubated (Hib vaccine has dramatically reduced incidence.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until intubated. 4 Ds: Drooling, Dysphagia, Dysphonia, Distress",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Acute epiglottitis",
+    "section": "ent",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 259,
+    "syllabusId": "ent-5-meniere-disease",
+    "question": "45-y-old with episodic vertigo, tinnitus, low-frequency hearing loss.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
+      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
+      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
+      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry. Triad: vertigo + sensorineural hearing loss + tinnitus"
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Meniere disease",
+    "section": "ent",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 260,
+    "syllabusId": "ent-6-epistaxis-management",
+    "question": "Adult with active anterior nose bleed.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
+      "Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy",
+      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoconstrictor (oxymetazo…",
+      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoconstrictor (oxymetazo… (Do NOT lean head back — aspiration risk.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoconstrictor (oxymetazo…. First aid: lean forward, pinch cartilaginous nose 10-15 min, ice pack on bridge",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Epistaxis — management",
+    "section": "ent",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 261,
+    "syllabusId": "ent-7-tinnitus",
+    "question": "Patient on furosemide with new tinnitus.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
+      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
+      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoco…",
+      "Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral. Subjective (common) vs objective (vascular)",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Tinnitus",
+    "section": "ent",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   },
   {
     "id": 262,
-    "question": "A patient with Bell's palsy is receiving corticosteroids. What is the most important teaching?",
+    "syllabusId": "ent-8-profound-hearing-loss",
+    "question": "1-y-old failed OAE screen twice.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Eye protection",
-      "Facial exercises",
-      "Medication timing",
-      "Diet modification"
+      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
+      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
+      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
+      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y). Classification: mild 26-40, moderate 41-55, mod-severe 56-70, severe 71-90, profound >90 dB",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Profound hearing loss",
+    "section": "ent",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 263,
+    "syllabusId": "ent-9-rinne-and-weber-tests",
+    "question": "Weber lateralizes right, Rinne negative right (BC>AC).\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoco…",
+      "Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy",
+      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
+      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry. Rinne: AC vs BC at mastoid; normal AC>BC (positive)"
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Rinne and Weber tests",
+    "section": "ent",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 416,
+    "syllabusId": "mental-1-erikson-psychosocial-stages",
+    "question": "Hospitalized 2-y-old clinging to parent, resists strangers.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, light…",
+      "Identify anal stage (1-3 y)",
+      "Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice",
+      "Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine. Trust vs mistrust (0-1)"
+    },
+    "subject": "Psychiatric",
+    "topic": "Erikson psychosocial stages",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 417,
+    "syllabusId": "mental-2-ego-defense-mechanisms",
+    "question": "Recently divorced man blames ex for his alcoholism.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "MDD — safety assess (hospitalize if active suicidality), start SSRI (sertraline), schedule psychotherapy, close follow-up",
+      "ECT indicated — consult psychiatry, informed consent, pre-anesthesia clearance, baseline MMSE, post-ECT monitoring",
+      "Identify projection; psychotherapy — explore feelings, identify healthier coping, refer to counselor",
+      "Identify anal stage (1-3 y)"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Identify projection; psychotherapy — explore feelings, identify healthier coping, refer to counselor",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Identify projection; psychotherapy — explore feelings, identify healthier coping, refer to counselor. Mature: sublimation, humor, altruism",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Psychiatric",
+    "topic": "Ego defense mechanisms",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 418,
+    "syllabusId": "mental-3-psychoanalytic-theory-freud",
+    "question": "Item on stage associated with toilet training conflicts.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Identify anal stage (1-3 y)",
+      "Avoid codeine in children post-T&A; use non-opioid or other opioid cautiously",
+      "Check level, stop offending drugs, hydrate",
+      "CBT with graded exposure, consider short-term benzo for acute flight, SSRI if disabling"
     ],
     "correct": 0,
-    "explanation": "• Bell's palsy causes inability to close the eye, leading to corneal damage.\n• Eye protection (artificial tears, eye patch) is critical.",
+    "explanation": "Priority: Identify anal stage (1-3 y)",
     "explanations": {
-      "A": "Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical.",
-      "B": "\"Facial exercises\" is a plausible distractor but incorrect. The correct answer is A (\"Eye protection\") — Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical.",
-      "C": "\"Medication timing\" is a plausible distractor but incorrect. The correct answer is A (\"Eye protection\") — Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical.",
-      "D": "\"Diet modification\" is a plausible distractor but incorrect. The correct answer is A (\"Eye protection\") — Bell's palsy causes inability to close the eye, leading to corneal damage. Eye protection (artificial tears, eye patch) is critical."
+      "A": "Correct — per the note, the priority action is: Identify anal stage (1-3 y). Oral (0-1), Anal (1-3), Phallic (3-6), Latent (6-12), Genital (12+)",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological System",
+    "subject": "Psychiatric",
+    "topic": "Psychoanalytic theory — Freud",
+    "section": "mental",
     "day": 9,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
-    "id": 273,
-    "question": "A patient with Addison's disease is experiencing adrenal crisis. What is the priority medication?",
+    "id": 419,
+    "syllabusId": "mental-4-freud-structural-theory-of-mind-id-ego-superego",
+    "question": "Patient repeatedly steals despite guilt.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Insulin",
-      "Hydrocortisone",
-      "Epinephrine",
-      "Vasopressin"
+      "Refer for formal diagnostic evaluation (ADOS), start early intervention (speech + ABA), parent training, rule out hearing loss",
+      "Recognize as corrugator furrow in severe depression",
+      "Id-superego conflict; therapy to address underlying drives",
+      "Mania — hospital admission for safety, start mood stabilizer (lithium or valproate) + atypical antipsychotic, educate about sleep hygiene a…"
     ],
-    "correct": 1,
-    "explanation": "• Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.\n• Also need fluid resuscitation for hypotension.\n• Delay in treatment can be fatal.\n• Understanding endocrine emergencies is critical for rapid response and patient survival.",
+    "correct": 2,
+    "explanation": "Priority: Id-superego conflict; therapy to address underlying drives",
     "explanations": {
-      "A": "\"Insulin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "B": "Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "C": "\"Epinephrine\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving.",
-      "D": "\"Vasopressin\" is a plausible distractor but incorrect. The correct answer is B (\"Hydrocortisone\") — Adrenal crisis requires immediate IV hydrocortisone (glucocorticoid) to replace deficient cortisol. This is life-saving."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Id-superego conflict; therapy to address underlying drives. Id: unconscious pleasure principle",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Endocrine - Adrenal Crisis",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2021",
-    "qtype": "scenario"
-  },
-  {
-    "id": 292,
-    "question": "[IMAGE-BASED] On the chest X-ray image, the tip of the NG tube is visible. Where should it lie to confirm gastric placement?",
-    "options": [
-      "In the trachea",
-      "Below the diaphragm, in the stomach",
-      "In the esophagus above diaphragm",
-      "In the lung"
-    ],
-    "correct": 1,
-    "explanation": "• Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach.\n• Esophageal or tracheal placement is incorrect and unsafe.",
-    "explanations": {
-      "A": "\"In the trachea\" is a plausible distractor but incorrect. The correct answer is B (\"Below the diaphragm, in the stomach\") — Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe.",
-      "B": "Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe.",
-      "C": "\"In the esophagus above diaphragm\" is a plausible distractor but incorrect. The correct answer is B (\"Below the diaphragm, in the stomach\") — Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe.",
-      "D": "\"In the lung\" is a plausible distractor but incorrect. The correct answer is B (\"Below the diaphragm, in the stomach\") — Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach. Esophageal or tracheal placement is incorrect and unsafe."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Image-Based - X-ray",
+    "subject": "Psychiatric",
+    "topic": "Freud structural theory of mind (id/ego/superego)",
+    "section": "mental",
     "day": 9,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2018",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 420,
+    "syllabusId": "mental-5-delirium",
+    "question": "Post-op elderly with fluctuating confusion, pulling lines.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, lighting), low-dose halop…",
+      "Id-superego conflict; therapy to address underlying drives",
+      "ECT indicated — consult psychiatry, informed consent, pre-anesthesia clearance, baseline MMSE, post-ECT monitoring",
+      "Admit if medically unstable; slow refeeding to avoid refeeding syndrome, CBT, family therapy, SSRI for comorbid depression"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, lighting), low-dose halop…",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Screen with CAM, identify cause (infection, meds, pain, dehydration, hypoxia), non-pharmacologic first (reorientation, family, sleep, lighting), low-dose halop…. Abrupt onset, fluctuating course, inattention, disorganized thinking, altered LOC",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Psychiatric",
+    "topic": "Delirium",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 421,
+    "syllabusId": "mental-6-delirium-vs-dementia",
+    "question": "Elderly with 2-day confusion on background of Alzheimer.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Admit ICU/HDU, IV lorazepam per CIWA titration, thiamine IV, fluids, monitor electrolytes/Mg, sitter/restraints if needed",
+      "Suspect superimposed delirium — full workup for reversible causes, avoid restraints",
+      "CIWA-triggered benzodiazepine",
+      "Consider complicated grief or MDD — screen with PHQ-9, safety assess, counseling, consider SSRI"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Suspect superimposed delirium — full workup for reversible causes, avoid restraints",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Suspect superimposed delirium — full workup for reversible causes, avoid restraints. Delirium: acute, fluctuating, reversible, LOC altered, attention impaired",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Psychiatric",
+    "topic": "Delirium vs dementia",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 422,
+    "syllabusId": "mental-7-parkinson-disease-psych-features",
+    "question": "Parkinson patient with visual hallucinations.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Id-superego conflict; therapy to address underlying drives",
+      "Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens)",
+      "Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines",
+      "Check level, stop offending drugs, hydrate"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens). Depression (40%)",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Psychiatric",
+    "topic": "Parkinson disease — psych features",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 423,
+    "syllabusId": "mental-8-extrapyramidal-symptoms-eps",
+    "question": "Schizophrenia patient on haloperidol with torticollis and oculogyric crisis.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Admit, urine toxicology, rule out organic cause, cessation support, risperidone if psychotic",
+      "Cite decreased 5-HT, NE, DA",
+      "Admit if medically unstable; slow refeeding to avoid refeeding syndrome, CBT, family therapy, SSRI for comorbid depression",
+      "Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice. Acute dystonia: minutes-hours — IM diphenhydramine or benztropine"
+    },
+    "subject": "Psychiatric",
+    "topic": "Extrapyramidal symptoms (EPS)",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 424,
+    "syllabusId": "mental-9-vascular-dementia",
+    "question": "Stepwise memory decline with multiple strokes on MRI.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Avoid codeine in children post-T&A; use non-opioid or other opioid cautiously",
+      "Identify as added behaviors (hallucinations, delusions)",
+      "Photosensitivity — sun protection, hat, sunscreen, consider alternative antipsychotic",
+      "Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Optimize vascular risk factors (BP, DM, statin, aspirin), rehabilitation, treat depression, avoid benzodiazepines. Stepwise cognitive decline with each stroke"
+    },
+    "subject": "Psychiatric",
+    "topic": "Vascular dementia",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 425,
+    "syllabusId": "mental-10-bender-gestalt-test",
+    "question": "Item on projective vs objective.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Thiamine 100 mg IV TDS x3 d, then oral, cognitive rehabilitation, social services, abstinence support",
+      "Bender-Gestalt is a projective/visuomotor test",
+      "Hypertensive crisis — IV phentolamine or nitroprusside, monitor BP, ICU",
+      "Check ANC urgently — discontinue if agranulocytosis (<1500), protective isolation, blood cultures, broad-spectrum antibiotics"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Bender-Gestalt is a projective/visuomotor test",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Bender-Gestalt is a projective/visuomotor test. Copy 9 designs; score for errors, distortions",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Psychiatric",
+    "topic": "Bender-Gestalt test",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 426,
+    "syllabusId": "mental-11-antipsychotic-medications-side-effects",
+    "question": "Schizophrenia on olanzapine gains 10 kg.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Age-appropriate autonomy vs shame — encourage autonomy in age-appropriate care, parent presence, predictable routine",
+      "Review dopaminergic dose, consider clozapine or pimavanserin; avoid haloperidol (EPS worsens)",
+      "Metabolic side effect — lifestyle counseling, monitor lipids/FBS, consider switching to aripiprazole if severe",
+      "Admit if medically unstable; slow refeeding to avoid refeeding syndrome, CBT, family therapy, SSRI for comorbid depression"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Metabolic side effect — lifestyle counseling, monitor lipids/FBS, consider switching to aripiprazole if severe",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Metabolic side effect — lifestyle counseling, monitor lipids/FBS, consider switching to aripiprazole if severe. Typical (haloperidol, chlorpromazine, fluphenazine): high D2 block — EPS risk",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Psychiatric",
+    "topic": "Antipsychotic medications — side effects",
+    "section": "mental",
+    "day": 9,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
     "id": 427,
-    "question": "Clozapine is primarily classified as:",
+    "syllabusId": "mental-12-tricyclic-antidepressants-side-effects",
+    "question": "TCA overdose with wide QRS 140 ms, seizure.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Typical antipsychotic",
-      "Atypical antipsychotic",
-      "Mood stabilizer",
-      "Benzodiazepine"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Typical antipsychotic\" is a plausible distractor but incorrect. The correct answer is B (\"Atypical antipsychotic\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Mood stabilizer\" is a plausible distractor but incorrect. The correct answer is B (\"Atypical antipsychotic\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Benzodiazepine\" is a plausible distractor but incorrect. The correct answer is B (\"Atypical antipsychotic\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Drug Classification",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 442,
-    "question": "Adult dose of adrenaline (epinephrine) in cardiac arrest (1:10000 IV) is typically:",
-    "options": [
-      "0.1 mg",
-      "1 mg",
-      "5 mg",
-      "10 mg"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"0.1 mg\" is a plausible distractor but incorrect. The correct answer is B (\"1 mg\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"5 mg\" is a plausible distractor but incorrect. The correct answer is B (\"1 mg\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"10 mg\" is a plausible distractor but incorrect. The correct answer is B (\"1 mg\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Emergency Drugs",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "calculation"
-  },
-  {
-    "id": 447,
-    "question": "Which antipsychotic requires regular CBC monitoring for agranulocytosis risk?",
-    "options": [
-      "Haloperidol",
-      "Clozapine",
-      "Olanzapine",
-      "Risperidone"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
-    "explanations": {
-      "A": "\"Haloperidol\" is a plausible distractor but incorrect. The correct answer is B (\"Clozapine\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "B": "Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "C": "\"Olanzapine\" is a plausible distractor but incorrect. The correct answer is B (\"Clozapine\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics.",
-      "D": "\"Risperidone\" is a plausible distractor but incorrect. The correct answer is B (\"Clozapine\") — Correct option matches standard pharmacology references. Relates to AIIMS NORCET high-yield topics."
-    },
-    "subject": "Pharmacology",
-    "topic": "Antipsychotics",
-    "day": 9,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 485,
-    "question": "Serotonin syndrome is most associated with combining:",
-    "options": [
-      "Beta-blocker + diuretic",
-      "SSRI with another serotonergic drug (e.g. MAOI or tramadol)",
-      "ACE inhibitor + ARB",
-      "Metformin + sulfonylurea"
-    ],
-    "correct": 1,
-    "explanation": "• Excess serotonergic activity causes autonomic and neuromuscular signs.\n• Avoid dangerous combinations; recognize hyperthermia and clonus.",
-    "explanations": {
-      "A": "\"Beta-blocker + diuretic\" is a plausible distractor but incorrect. The correct answer is B (\"SSRI with another serotonergic drug (e.g. MAOI or tramadol)\") — Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus.",
-      "B": "Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus.",
-      "C": "\"ACE inhibitor + ARB\" is a plausible distractor but incorrect. The correct answer is B (\"SSRI with another serotonergic drug (e.g. MAOI or tramadol)\") — Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus.",
-      "D": "\"Metformin + sulfonylurea\" is a plausible distractor but incorrect. The correct answer is B (\"SSRI with another serotonergic drug (e.g. MAOI or tramadol)\") — Excess serotonergic activity causes autonomic and neuromuscular signs. Avoid dangerous combinations; recognize hyperthermia and clonus."
-    },
-    "subject": "Pharmacology",
-    "topic": "CNS",
-    "day": 9,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 495,
-    "question": "Which lab is classically monitored with clozapine due to agranulocytosis risk?",
-    "options": [
-      "Serum amylase weekly",
-      "Absolute neutrophil count / WBC per program",
-      "INR daily for all patients",
-      "TSH only"
-    ],
-    "correct": 1,
-    "explanation": "• Clozapine requires structured hematologic monitoring.\n• Stop and follow protocol if neutropenia.",
-    "explanations": {
-      "A": "\"Serum amylase weekly\" is a plausible distractor but incorrect. The correct answer is B (\"Absolute neutrophil count / WBC per program\") — Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia.",
-      "B": "Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia.",
-      "C": "\"INR daily for all patients\" is a plausible distractor but incorrect. The correct answer is B (\"Absolute neutrophil count / WBC per program\") — Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia.",
-      "D": "\"TSH only\" is a plausible distractor but incorrect. The correct answer is B (\"Absolute neutrophil count / WBC per program\") — Clozapine requires structured hematologic monitoring. Stop and follow protocol if neutropenia."
-    },
-    "subject": "Pharmacology",
-    "topic": "Psychiatry",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 551,
-    "question": "A patient with schizophrenia is experiencing auditory hallucinations. What is the priority nursing intervention?",
-    "options": [
-      "Confront the patient about delusions",
-      "Acknowledge feelings and focus on reality",
-      "Ignore the hallucinations",
-      "Agree with the patient"
-    ],
-    "correct": 1,
-    "explanation": "• Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality.\n• Confrontation can increase anxiety.",
-    "explanations": {
-      "A": "\"Confront the patient about delusions\" is a plausible distractor but incorrect. The correct answer is B (\"Acknowledge feelings and focus on reality\") — Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety.",
-      "B": "Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety.",
-      "C": "\"Ignore the hallucinations\" is a plausible distractor but incorrect. The correct answer is B (\"Acknowledge feelings and focus on reality\") — Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety.",
-      "D": "\"Agree with the patient\" is a plausible distractor but incorrect. The correct answer is B (\"Acknowledge feelings and focus on reality\") — Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality. Confrontation can increase anxiety."
-    },
-    "subject": "Psychiatric",
-    "topic": "Schizophrenia",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
-  },
-  {
-    "id": 552,
-    "question": "A patient with major depressive disorder expresses suicidal ideation. What is the priority nursing action?",
-    "options": [
-      "Leave patient alone to think",
-      "Provide one-to-one supervision",
-      "Administer antidepressant",
-      "Schedule therapy session"
-    ],
-    "correct": 1,
-    "explanation": "• Patients with suicidal ideation require constant one-to-one supervision to ensure safety.\n• Remove harmful objects and notify the treatment team immediately.",
-    "explanations": {
-      "A": "\"Leave patient alone to think\" is a plausible distractor but incorrect. The correct answer is B (\"Provide one-to-one supervision\") — Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately.",
-      "B": "Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately.",
-      "C": "\"Administer antidepressant\" is a plausible distractor but incorrect. The correct answer is B (\"Provide one-to-one supervision\") — Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately.",
-      "D": "\"Schedule therapy session\" is a plausible distractor but incorrect. The correct answer is B (\"Provide one-to-one supervision\") — Patients with suicidal ideation require constant one-to-one supervision to ensure safety. Remove harmful objects and notify the treatment team immediately."
-    },
-    "subject": "Psychiatric",
-    "topic": "Depression",
-    "day": 9,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 553,
-    "question": "What is the primary side effect of typical antipsychotics (haloperidol)?",
-    "options": [
-      "Weight gain",
-      "Extrapyramidal symptoms",
-      "Sedation",
-      "Dry mouth"
-    ],
-    "correct": 1,
-    "explanation": "• Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics.\n• Atypical antipsychotics have lower EPS risk.",
-    "explanations": {
-      "A": "\"Weight gain\" is a plausible distractor but incorrect. The correct answer is B (\"Extrapyramidal symptoms\") — Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
-      "B": "Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
-      "C": "\"Sedation\" is a plausible distractor but incorrect. The correct answer is B (\"Extrapyramidal symptoms\") — Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk.",
-      "D": "\"Dry mouth\" is a plausible distractor but incorrect. The correct answer is B (\"Extrapyramidal symptoms\") — Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics. Atypical antipsychotics have lower EPS risk."
-    },
-    "subject": "Psychiatric",
-    "topic": "Psychopharmacology",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 554,
-    "question": "A patient with bipolar disorder is in manic phase. What is the priority nursing intervention?",
-    "options": [
-      "Encourage activity",
-      "Provide quiet environment and limit stimulation",
-      "Engage in group activities",
-      "Allow unlimited visitors"
-    ],
-    "correct": 1,
-    "explanation": "• Manic patients are overstimulated.\n• Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
-    "explanations": {
-      "A": "\"Encourage activity\" is a plausible distractor but incorrect. The correct answer is B (\"Provide quiet environment and limit stimulation\") — Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
-      "B": "Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
-      "C": "\"Engage in group activities\" is a plausible distractor but incorrect. The correct answer is B (\"Provide quiet environment and limit stimulation\") — Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
-      "D": "\"Allow unlimited visitors\" is a plausible distractor but incorrect. The correct answer is B (\"Provide quiet environment and limit stimulation\") — Manic patients are overstimulated. Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms."
-    },
-    "subject": "Psychiatric",
-    "topic": "Bipolar Disorder",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
-  },
-  {
-    "id": 555,
-    "question": "What is the therapeutic communication technique of reflecting?",
-    "options": [
-      "Repeating what patient said",
-      "Directing conversation",
-      "Giving advice",
-      "Redirecting patient's statement back for clarification"
+      "Acute dystonia — IM diphenhydramine 50 mg or benztropine 1-2 mg; reassurance; review antipsychotic choice",
+      "Wernicke encephalopathy — IV thiamine 500 mg TDS x3 d before glucose, magnesium, supportive care",
+      "Bender-Gestalt is a projective/visuomotor test",
+      "Sodium bicarbonate 1-2 mEq/kg IV bolus, continuous cardiac monitoring, control seizure with benzodiazepine, avoid procainamide"
     ],
     "correct": 3,
-    "explanation": "• Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
+    "explanation": "Priority: Sodium bicarbonate 1-2 mEq/kg IV bolus, continuous cardiac monitoring, control seizure with benzodiazepine, avoid procainamide",
     "explanations": {
-      "A": "\"Repeating what patient said\" is a plausible distractor but incorrect. The correct answer is D (\"Redirecting patient's statement back for clarification\") — Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
-      "B": "\"Directing conversation\" is a plausible distractor but incorrect. The correct answer is D (\"Redirecting patient's statement back for clarification\") — Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
-      "C": "\"Giving advice\" is a plausible distractor but incorrect. The correct answer is D (\"Redirecting patient's statement back for clarification\") — Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
-      "D": "Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Sodium bicarbonate 1-2 mEq/kg IV bolus, continuous cardiac monitoring, control seizure with benzodiazepine, avoid procainamide. Amitriptyline, nortriptyline, imipramine, clomipramine"
     },
     "subject": "Psychiatric",
-    "topic": "Therapeutic Communication",
+    "topic": "Tricyclic antidepressants — side effects",
+    "section": "mental",
     "day": 9,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 556,
-    "question": "A patient with anxiety disorder is experiencing panic attack. What is the priority intervention?",
-    "options": [
-      "Administer benzodiazepine",
-      "Stay with patient, speak calmly",
-      "Leave patient alone",
-      "Encourage physical activity"
-    ],
-    "correct": 1,
-    "explanation": "• During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques.\n• Medication may be needed if severe.",
-    "explanations": {
-      "A": "\"Administer benzodiazepine\" is a plausible distractor but incorrect. The correct answer is B (\"Stay with patient, speak calmly\") — During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe.",
-      "B": "During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe.",
-      "C": "\"Leave patient alone\" is a plausible distractor but incorrect. The correct answer is B (\"Stay with patient, speak calmly\") — During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe.",
-      "D": "\"Encourage physical activity\" is a plausible distractor but incorrect. The correct answer is B (\"Stay with patient, speak calmly\") — During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques. Medication may be needed if severe."
-    },
-    "subject": "Psychiatric",
-    "topic": "Anxiety Disorders",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
-  },
-  {
-    "id": 558,
-    "question": "A patient with obsessive-compulsive disorder (OCD) is performing rituals. What is the therapeutic approach?",
-    "options": [
-      "Prevent all rituals",
-      "Gradually limit rituals with exposure therapy",
-      "Allow unlimited rituals",
-      "Ignore the behavior"
-    ],
-    "correct": 1,
-    "explanation": "• OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety.\n• Sudden prevention increases distress.",
-    "explanations": {
-      "A": "\"Prevent all rituals\" is a plausible distractor but incorrect. The correct answer is B (\"Gradually limit rituals with exposure therapy\") — OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress.",
-      "B": "OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress.",
-      "C": "\"Allow unlimited rituals\" is a plausible distractor but incorrect. The correct answer is B (\"Gradually limit rituals with exposure therapy\") — OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress.",
-      "D": "\"Ignore the behavior\" is a plausible distractor but incorrect. The correct answer is B (\"Gradually limit rituals with exposure therapy\") — OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety. Sudden prevention increases distress."
-    },
-    "subject": "Psychiatric",
-    "topic": "Anxiety Disorders",
-    "day": 9,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
   }
 ]

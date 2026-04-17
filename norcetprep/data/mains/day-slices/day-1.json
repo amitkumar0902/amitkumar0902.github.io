@@ -75,7 +75,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 508,
+    "id": 1118,
     "question": "Parkland formula for fluid resuscitation in burns uses:",
     "options": [
       "2 mL × kg × %TBSA",
@@ -100,7 +100,7 @@
     "qtype": "factual"
   },
   {
-    "id": 522,
+    "id": 1132,
     "question": "Weight doubles by approximately:",
     "options": [
       "3 months",
@@ -125,7 +125,7 @@
     "qtype": "factual"
   },
   {
-    "id": 532,
+    "id": 1142,
     "question": "Weight doubles by approximately:",
     "options": [
       "3 months",
@@ -150,7 +150,7 @@
     "qtype": "factual"
   },
   {
-    "id": 542,
+    "id": 1152,
     "question": "Weight doubles by approximately:",
     "options": [
       "3 months",
@@ -173,405 +173,741 @@
     "source": "AIIMS NO legacy",
     "year": "NORCET 6 Mains (2024)",
     "qtype": "factual"
-  },
-  {
-    "id": 73,
-    "question": "P wave on ECG represents:",
-    "options": [
-      "Ventricular depolarization",
-      "Atrial depolarization",
-      "Ventricular repolarization",
-      "AV delay only"
-    ],
-    "correct": 1,
-    "explanation": "• Core A&P concept for NORCET.\n• Link structure to clinical nursing care.",
-    "explanations": {
-      "A": "\"Ventricular depolarization\" is a plausible distractor but incorrect. The correct answer is B (\"Atrial depolarization\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "B": "Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "C": "\"Ventricular repolarization\" is a plausible distractor but incorrect. The correct answer is B (\"Atrial depolarization\") — Core A&P concept for NORCET. Link structure to clinical nursing care.",
-      "D": "\"AV delay only\" is a plausible distractor but incorrect. The correct answer is B (\"Atrial depolarization\") — Core A&P concept for NORCET. Link structure to clinical nursing care."
-    },
-    "subject": "Anatomy",
-    "topic": "Cardiovascular",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 139,
-    "question": "Rule of Nines: adult anterior trunk is about:",
-    "options": [
-      "9%",
-      "18%",
-      "27%",
-      "36%"
-    ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
-    "explanations": {
-      "A": "\"9%\" is a plausible distractor but incorrect. The correct answer is B (\"18%\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"27%\" is a plausible distractor but incorrect. The correct answer is B (\"18%\") — First aid / emergency nursing for NORCET.",
-      "D": "\"36%\" is a plausible distractor but incorrect. The correct answer is B (\"18%\") — First aid / emergency nursing for NORCET."
-    },
-    "subject": "Fundamentals",
-    "topic": "Burns",
-    "day": 1,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 143,
-    "question": "Respiratory acidosis shows:",
-    "options": [
-      "Low CO2",
-      "High CO2 with acidic pH",
-      "High HCO3 with alkalemia",
-      "Always normal pH"
-    ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
-    "explanations": {
-      "A": "\"Low CO2\" is a plausible distractor but incorrect. The correct answer is B (\"High CO2 with acidic pH\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"High HCO3 with alkalemia\" is a plausible distractor but incorrect. The correct answer is B (\"High CO2 with acidic pH\") — First aid / emergency nursing for NORCET.",
-      "D": "\"Always normal pH\" is a plausible distractor but incorrect. The correct answer is B (\"High CO2 with acidic pH\") — First aid / emergency nursing for NORCET."
-    },
-    "subject": "Fundamentals",
-    "topic": "ABG",
-    "day": 1,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 214,
-    "question": "A patient with myocardial infarction is admitted to the ICU. What is the priority nursing intervention in the first 24 hours?",
-    "options": [
-      "Administering pain medication",
-      "Continuous cardiac monitoring",
-      "Providing emotional support",
-      "Teaching about lifestyle modifications"
-    ],
-    "correct": 1,
-    "explanation": "• Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period.\n• While pain management and other interventions are important, cardiac monitoring takes priority.",
-    "explanations": {
-      "A": "\"Administering pain medication\" is a plausible distractor but incorrect. The correct answer is B (\"Continuous cardiac monitoring\") — Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
-      "B": "Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
-      "C": "\"Providing emotional support\" is a plausible distractor but incorrect. The correct answer is B (\"Continuous cardiac monitoring\") — Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority.",
-      "D": "\"Teaching about lifestyle modifications\" is a plausible distractor but incorrect. The correct answer is B (\"Continuous cardiac monitoring\") — Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period. While pain management and other interventions are important, cardiac monitoring takes priority."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 226,
-    "question": "A patient with burns covering 40% of body surface area is in the fluid resuscitation phase. What is the priority assessment?",
-    "options": [
-      "Pain level",
-      "Urine output",
-      "Wound appearance",
-      "Temperature"
-    ],
-    "correct": 1,
-    "explanation": "• Urine output is the best indicator of adequate fluid resuscitation in burn patients.\n• Target is 30-50 ml/hour in adults.",
-    "explanations": {
-      "A": "\"Pain level\" is a plausible distractor but incorrect. The correct answer is B (\"Urine output\") — Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
-      "B": "Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
-      "C": "\"Wound appearance\" is a plausible distractor but incorrect. The correct answer is B (\"Urine output\") — Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults.",
-      "D": "\"Temperature\" is a plausible distractor but incorrect. The correct answer is B (\"Urine output\") — Urine output is the best indicator of adequate fluid resuscitation in burn patients. Target is 30-50 ml/hour in adults."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Emergency Care",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 235,
-    "question": "A patient with hypothyroidism is prescribed levothyroxine. What is the best time to take this medication?",
-    "options": [
-      "With breakfast",
-      "On empty stomach in morning",
-      "At bedtime",
-      "With evening meal"
-    ],
-    "correct": 1,
-    "explanation": "• Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption.\n• Food can interfere with absorption.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
-    "explanations": {
-      "A": "\"With breakfast\" is a plausible distractor but incorrect. The correct answer is B (\"On empty stomach in morning\") — Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption.",
-      "B": "Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption.",
-      "C": "\"At bedtime\" is a plausible distractor but incorrect. The correct answer is B (\"On empty stomach in morning\") — Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption.",
-      "D": "\"With evening meal\" is a plausible distractor but incorrect. The correct answer is B (\"On empty stomach in morning\") — Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption. Food can interfere with absorption."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Endocrine System",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 253,
-    "question": "A patient with acute respiratory failure is on mechanical ventilation. What is the target PaO2?",
-    "options": [
-      "60-80 mmHg",
-      "80-100 mmHg",
-      "100-120 mmHg",
-      "120-140 mmHg"
-    ],
-    "correct": 0,
-    "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
-    "explanations": {
-      "A": "Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
-      "B": "\"80-100 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"60-80 mmHg\") — Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
-      "C": "\"100-120 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"60-80 mmHg\") — Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
-      "D": "\"120-140 mmHg\" is a plausible distractor but incorrect. The correct answer is A (\"60-80 mmHg\") — Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Critical Care",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
-  },
-  {
-    "id": 257,
-    "question": "A patient with acute cholecystitis is scheduled for surgery. What is the most important pre-operative assessment?",
-    "options": [
-      "Liver function tests",
-      "Coagulation studies",
-      "Cardiac function",
-      "Renal function"
-    ],
-    "correct": 0,
-    "explanation": "• Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
-    "explanations": {
-      "A": "Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
-      "B": "\"Coagulation studies\" is a plausible distractor but incorrect. The correct answer is A (\"Liver function tests\") — Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
-      "C": "\"Cardiac function\" is a plausible distractor but incorrect. The correct answer is A (\"Liver function tests\") — Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
-      "D": "\"Renal function\" is a plausible distractor but incorrect. The correct answer is A (\"Liver function tests\") — Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Gastrointestinal System",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2018",
-    "qtype": "scenario"
   },
   {
     "id": 264,
-    "question": "A patient with acute coronary syndrome requires primary PCI. What is the target time from ECG to PCI?",
+    "syllabusId": "foundation-1-infection-control-standard-precautions",
+    "question": "Nurse caring for multiple patients in a ward.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Within 60 minutes",
-      "Within 90 minutes",
-      "Within 120 minutes",
-      "Within 180 minutes"
+      "4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL",
+      "Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact, after contact with…",
+      "Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
+      "Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after"
     ],
     "correct": 1,
-    "explanation": "• For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits.\n• Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.\n• Time to reperfusion is critical - every minute counts in preserving myocardial function.",
+    "explanation": "Priority: Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact, after contact with… (Alcohol-based hand rub if hands not visibly soiled; soap+water if soiled.)",
     "explanations": {
-      "A": "\"Within 60 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"Within 90 minutes\") — For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.",
-      "B": "For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.",
-      "C": "\"Within 120 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"Within 90 minutes\") — For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.",
-      "D": "\"Within 180 minutes\" is a plausible distractor but incorrect. The correct answer is B (\"Within 90 minutes\") — For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits. Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact, after contact with…. Hand hygiene before/after every patient contact",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
+    "subject": "Fundamentals",
+    "topic": "Infection control — standard precautions",
+    "section": "foundation",
     "day": 1,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "scenario"
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 265,
+    "syllabusId": "foundation-2-code-of-ethics-icn-inc",
+    "question": "Patient refuses blood transfusion on religious grounds despite severe anemia.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Drops/min = (100 x 20) / 30 = 67 gtt/min",
+      "Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%",
+      "Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
+      "Document expected newborn: HR 120-160, RR 30-60, axillary T 36.5-37.5"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee. ICN code: promote health, prevent illness, restore health, alleviate suffering",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Code of ethics — ICN/INC",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 266,
+    "syllabusId": "foundation-3-lines-and-tubes-suctioning-ett-ng-tracheostomy-cvp",
+    "question": "Patient on ventilator needs suctioning for thick secretions.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transpor…",
+      "Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact…",
+      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
+      "Pre-oxygenate to 100% x 30 sec, sterile technique, insert without suction, apply suction while withdrawing <15 sec, reassess SpO2"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Pre-oxygenate to 100% x 30 sec, sterile technique, insert without suction, apply suction while withdrawing <15 sec, reassess SpO2 (Never instill saline as a routine in closed suction.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Pre-oxygenate to 100% x 30 sec, sterile technique, insert without suction, apply suction while withdrawing <15 sec, reassess SpO2. Suctioning: pre-oxygenate 100% O2, sterile technique, <15 sec, negative pressure 80-150 adult"
+    },
+    "subject": "Fundamentals",
+    "topic": "Lines and tubes — suctioning, ETT, NG, tracheostomy, CVP",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
     "id": 267,
-    "question": "A patient with acute kidney injury has serum potassium of 6.5 mEq/L and peaked T-waves on ECG. What is the immediate treatment?",
+    "syllabusId": "foundation-4-oxygen-therapy-devices-and-flow-rates",
+    "question": "COPD patient needs precise FiO2 28% due to CO2 retention risk.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Administer potassium supplements",
-      "Administer calcium gluconate IV",
-      "Encourage potassium-rich foods",
-      "Monitor only"
+      "Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after",
+      "Try de-escalation, then least-restrictive restraint if needed, physician order within 1 h, assess q15 min, release q2h for ROM/toileting",
+      "Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%",
+      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92% (Target SpO2 88-92% in COPD, 94-98% in most adults.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%. Nasal cannula: 1-6 L/min → 24-44% FiO2 (rule: 4% per L)",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Oxygen therapy devices and flow rates",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 268,
+    "syllabusId": "foundation-5-blood-transfusion-and-sampling",
+    "question": "Patient starts chills, lower back pain, fever 15 min into transfusion.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance",
+      "Position sitting leaning forward, assist with aspiration above rib, monitor for cough/dyspnea (pneumothorax), send fluid to lab, CXR post-p…",
+      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
+      "STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemolytic reaction"
+    ],
+    "correct": 3,
+    "explanation": "Priority: STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemolytic reaction (Anti-D within 72 h for Rh-negative who receives Rh+ blood.)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemolytic reaction. Bedside double-check: patient ID, blood group/Rh, crossmatch, product expiry"
+    },
+    "subject": "Fundamentals",
+    "topic": "Blood transfusion and sampling",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 269,
+    "syllabusId": "foundation-6-iv-fluids-types-and-indications",
+    "question": "70-kg adult needs maintenance fluids.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL",
+      "STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemoly…",
+      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation",
+      "Wear PPE, cover with absorbent paper, apply 1% NaOCl for 10 min, wipe from outside toward center, discard in yellow bag, document"
+    ],
+    "correct": 0,
+    "explanation": "Priority: 4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: 4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL. Isotonic: NS 0.9%, RL, Plasmalyte — resuscitation",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "IV fluids — types and indications",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 270,
+    "syllabusId": "foundation-7-oral-care-unconscious-patient",
+    "question": "ICU patient intubated needs oral care.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Allow to bleed, wash with soap+water, report within 2 h, start PEP TDF+FTC+DTG within 2 h, test at 0/6 wk/3 mo/6 mo, counselling",
+      "Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
+      "Position side-lying, suction prepared, use soft swab with CHG 0.12%, clean tongue to reduce biofilm, moisten lips",
+      "Drops/min = (100 x 20) / 30 = 67 gtt/min"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Position side-lying, suction prepared, use soft swab with CHG 0.12%, clean tongue to reduce biofilm, moisten lips",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Position side-lying, suction prepared, use soft swab with CHG 0.12%, clean tongue to reduce biofilm, moisten lips. Side-lying or head turned",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Oral care (unconscious patient)",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 271,
+    "syllabusId": "foundation-8-airway-management",
+    "question": "Unconscious patient with snoring respiration.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Head-tilt chin-lift, insert OPA sized mouth corner to mandibular angle, check breathing, bag-valve-mask if inadequate",
+      "4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL",
+      "Check patient ID with 2 identifiers (name + DOB/MRN), right drug/dose/route/time, educate, document",
+      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Head-tilt chin-lift, insert OPA sized mouth corner to mandibular angle, check breathing, bag-valve-mask if inadequate",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Head-tilt chin-lift, insert OPA sized mouth corner to mandibular angle, check breathing, bag-valve-mask if inadequate. Head-tilt chin-lift (no trauma); jaw thrust if C-spine",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Airway management",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 272,
+    "syllabusId": "foundation-9-iv-cannula-gauges-and-colour-coding",
+    "question": "Unstable trauma adult.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance",
+      "Assess pain with FLACC; sum 0-10; >=4 intervene with analgesic",
+      "Allow to bleed, wash with soap+water, report within 2 h, start PEP TDF+FTC+DTG within 2 h, test at 0/6 wk/3 mo/6 mo, counselling",
+      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation. 14G orange: trauma/rapid infusion"
+    },
+    "subject": "Fundamentals",
+    "topic": "IV cannula — gauges and colour coding",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 273,
+    "syllabusId": "foundation-10-cardiopulmonary-resuscitation-cpr",
+    "question": "Adult collapse in ward, no pulse, no breathing.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Start chest compressions immediately 100-120/min depth 5-6 cm, call code, attach AED, shock if VF/VT, continue 30:2 with bag-mask",
+      "Assess pain with FLACC; sum 0-10; >=4 intervene with analgesic",
+      "Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin",
+      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Start chest compressions immediately 100-120/min depth 5-6 cm, call code, attach AED, shock if VF/VT, continue 30:2 with bag-mask (Hands-only CPR if untrained or unwilling to ventilate.)",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Start chest compressions immediately 100-120/min depth 5-6 cm, call code, attach AED, shock if VF/VT, continue 30:2 with bag-mask. Compression rate 100-120/min, depth 5-6 cm, full recoil",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Cardiopulmonary resuscitation (CPR)",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 274,
+    "syllabusId": "foundation-11-drug-calculation-basics",
+    "question": "Give 1 g cefazolin in 100 mL NS over 30 min using 20 gtt/mL set.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Position lateral with knees-to-chest, prep L3-L4 site, assist with sterile technique, label tubes sequentially (typically 1-cell count, 2-b…",
+      "Try de-escalation, then least-restrictive restraint if needed, physician order within 1 h, assess q15 min, release q2h for ROM/toileting",
+      "Check patient ID with 2 identifiers (name + DOB/MRN), right drug/dose/route/time, educate, document",
+      "Drops/min = (100 x 20) / 30 = 67 gtt/min"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Drops/min = (100 x 20) / 30 = 67 gtt/min",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Drops/min = (100 x 20) / 30 = 67 gtt/min. Dose: (desired/have) x volume"
+    },
+    "subject": "Fundamentals",
+    "topic": "Drug calculation basics",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 275,
+    "syllabusId": "foundation-12-bandaging",
+    "question": "Ankle sprain — apply compression bandage.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Teach 3-point gait: both crutches forward + injured leg, then hop good leg through; \"good up, bad down\" for stairs",
+      "Head-tilt chin-lift, insert OPA sized mouth corner to mandibular angle, check breathing, bag-valve-mask if inadequate",
+      "Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after",
+      "Assess pain with FLACC; sum 0-10; >=4 intervene with analgesic"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after. Types: spiral, reverse spiral, figure-of-8, spica, recurrent",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Bandaging",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 276,
+    "syllabusId": "foundation-13-patient-positioning",
+    "question": "ARDS patient with P/F ratio 140.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Assess stoma colour (pink/red healthy), measure output, empty when 1/3 full, apply skin barrier, provide psychological support",
+      "Daily assessment of need, perineal care BD, ensure unobstructed drainage, bag below bladder, document output; plan removal ASAP",
+      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance",
+      "Drops/min = (100 x 20) / 30 = 67 gtt/min"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance. Semi-Fowler (30°): respiratory, cardiac, NG feeding",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Patient positioning",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 277,
+    "syllabusId": "foundation-14-assessment-scales-gcs-braden-norton-flacc",
+    "question": "Non-verbal 3-y-old post-op.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%",
+      "Wear PPE, cover with absorbent paper, apply 1% NaOCl for 10 min, wipe from outside toward center, discard in yellow bag, document",
+      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation",
+      "Assess pain with FLACC; sum 0-10; >=4 intervene with analgesic"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Assess pain with FLACC; sum 0-10; >=4 intervene with analgesic",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Assess pain with FLACC; sum 0-10; >=4 intervene with analgesic. GCS: E4V5M6 max 15, coma <=8"
+    },
+    "subject": "Fundamentals",
+    "topic": "Assessment scales — GCS, Braden, Norton, FLACC",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 278,
+    "syllabusId": "foundation-15-enema-types-and-procedure",
+    "question": "Pre-op patient needs bowel prep.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Check patient ID with 2 identifiers (name + DOB/MRN), right drug/dose/route/time, educate, document",
+      "Left lateral Sim, lubricate tip, insert 7-10 cm, allow fluid to flow by gravity 30-45 cm height, encourage retention 5-10 min",
+      "Head-tilt chin-lift, insert OPA sized mouth corner to mandibular angle, check breathing, bag-valve-mask if inadequate",
+      "Ensure transducer at phlebostatic axis (4th ICS mid-axillary), zero regularly, monitor waveform, report dampening (thrombus) or high pressu…"
     ],
     "correct": 1,
-    "explanation": "• Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias.\n• Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.\n• This is a medical emergency.\n• Understanding electrolyte emergencies is critical for critical care nursing.",
+    "explanation": "Priority: Left lateral Sim, lubricate tip, insert 7-10 cm, allow fluid to flow by gravity 30-45 cm height, encourage retention 5-10 min",
     "explanations": {
-      "A": "\"Administer potassium supplements\" is a plausible distractor but incorrect. The correct answer is B (\"Administer calcium gluconate IV\") — Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.",
-      "B": "Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.",
-      "C": "\"Encourage potassium-rich foods\" is a plausible distractor but incorrect. The correct answer is B (\"Administer calcium gluconate IV\") — Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium.",
-      "D": "\"Monitor only\" is a plausible distractor but incorrect. The correct answer is B (\"Administer calcium gluconate IV\") — Severe hyperkalemia (>6.0) with ECG changes requires immediate IV calcium gluconate to stabilize cardiac membranes and prevent fatal arrhythmias. Then administer insulin+dextrose and sodium bicarbonate to shift potassium into cells, followed by kayexalate or dialysis to remove potassium."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Left lateral Sim, lubricate tip, insert 7-10 cm, allow fluid to flow by gravity 30-45 cm height, encourage retention 5-10 min. Cleansing: tap water, NS, soap-suds",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Electrolyte Imbalance - Hyperkalemia",
+    "subject": "Fundamentals",
+    "topic": "Enema — types and procedure",
+    "section": "foundation",
     "day": 1,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "scenario"
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 279,
+    "syllabusId": "foundation-16-care-of-colostomy-patient",
+    "question": "Post-op day 3 colostomy patient.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Document expected newborn: HR 120-160, RR 30-60, axillary T 36.5-37.5",
+      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation",
+      "Assess stoma colour (pink/red healthy), measure output, empty when 1/3 full, apply skin barrier, provide psychological support",
+      "Position lateral with knees-to-chest, prep L3-L4 site, assist with sterile technique, label tubes sequentially (typically 1-cell count, 2-b…"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Assess stoma colour (pink/red healthy), measure output, empty when 1/3 full, apply skin barrier, provide psychological support",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Assess stoma colour (pink/red healthy), measure output, empty when 1/3 full, apply skin barrier, provide psychological support. Types: ileostomy (liquid output, skin excoriation risk), transverse/descending/sigmoid colostomy (more formed)",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Care of colostomy patient",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 280,
+    "syllabusId": "foundation-17-medication-administration-rights-and-routes",
+    "question": "About to give metformin 500 mg PO to patient.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Check patient ID with 2 identifiers (name + DOB/MRN), right drug/dose/route/time, educate, document",
+      "Ensure transducer at phlebostatic axis (4th ICS mid-axillary), zero regularly, monitor waveform, report dampening (thrombus) or high pressu…",
+      "Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
+      "Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Check patient ID with 2 identifiers (name + DOB/MRN), right drug/dose/route/time, educate, document",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Check patient ID with 2 identifiers (name + DOB/MRN), right drug/dose/route/time, educate, document. 10 rights: patient, drug, dose, route, time, documentation, reason, response, education, right to refuse",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Medication administration — rights and routes",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
     "id": 281,
-    "question": "A patient with peritoneal dialysis has cloudy dialysate. What does this indicate?",
+    "syllabusId": "foundation-18-patient-safety-speak-up-and-npsg",
+    "question": "Handing over to night shift.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Normal",
-      "Peritonitis",
-      "Dehydration",
-      "Overhydration"
+      "Allow to bleed, wash with soap+water, report within 2 h, start PEP TDF+FTC+DTG within 2 h, test at 0/6 wk/3 mo/6 mo, counselling",
+      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance",
+      "Use SBAR: state situation (post-op day 1), background (diabetic, CKD), assessment (stable but pain 7/10), recommendation (PRN analgesia q4h)",
+      "Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin"
     ],
-    "correct": 1,
-    "explanation": "• Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis.\n• Other signs include abdominal pain, fever, and elevated WBC count.\n• Requires immediate treatment with antibiotics.\n• This knowledge is critical for managing dialysis patients and preventing complications.",
+    "correct": 2,
+    "explanation": "Priority: Use SBAR: state situation (post-op day 1), background (diabetic, CKD), assessment (stable but pain 7/10), recommendation (PRN analgesia q4h)",
     "explanations": {
-      "A": "\"Normal\" is a plausible distractor but incorrect. The correct answer is B (\"Peritonitis\") — Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count.",
-      "B": "Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count.",
-      "C": "\"Dehydration\" is a plausible distractor but incorrect. The correct answer is B (\"Peritonitis\") — Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count.",
-      "D": "\"Overhydration\" is a plausible distractor but incorrect. The correct answer is B (\"Peritonitis\") — Cloudy dialysate indicates peritonitis, a serious complication of peritoneal dialysis. Other signs include abdominal pain, fever, and elevated WBC count."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Use SBAR: state situation (post-op day 1), background (diabetic, CKD), assessment (stable but pain 7/10), recommendation (PRN analgesia q4h). NPSG (Joint Commission 2024): identify correctly, communicate effectively (SBAR), medications safely, alarms, prevent infections, falls, suicide",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Dialysis Equipment",
+    "subject": "Fundamentals",
+    "topic": "Patient safety — SPEAK UP and NPSG",
+    "section": "foundation",
     "day": 1,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
     "id": 282,
-    "question": "A patient with pacemaker requires which type of monitoring?",
+    "syllabusId": "foundation-19-crutch-walking-gaits",
+    "question": "Post-ORIF right femur patient, non-weight-bearing right.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "ECG monitoring",
-      "Blood pressure only",
-      "No special monitoring",
-      "Temperature only"
+      "Wear PPE, cover with absorbent paper, apply 1% NaOCl for 10 min, wipe from outside toward center, discard in yellow bag, document",
+      "Teach 3-point gait: both crutches forward + injured leg, then hop good leg through; \"good up, bad down\" for stairs",
+      "Left lateral Sim, lubricate tip, insert 7-10 cm, allow fluid to flow by gravity 30-45 cm height, encourage retention 5-10 min",
+      "Allow to bleed, wash with soap+water, report within 2 h, start PEP TDF+FTC+DTG within 2 h, test at 0/6 wk/3 mo/6 mo, counselling"
     ],
-    "correct": 0,
-    "explanation": "• Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing.\n• Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.\n• Understanding cardiac devices is essential for managing patients with implanted devices.",
+    "correct": 1,
+    "explanation": "Priority: Teach 3-point gait: both crutches forward + injured leg, then hop good leg through; \"good up, bad down\" for stairs",
     "explanations": {
-      "A": "Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.",
-      "B": "\"Blood pressure only\" is a plausible distractor but incorrect. The correct answer is A (\"ECG monitoring\") — Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.",
-      "C": "\"No special monitoring\" is a plausible distractor but incorrect. The correct answer is A (\"ECG monitoring\") — Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias.",
-      "D": "\"Temperature only\" is a plausible distractor but incorrect. The correct answer is A (\"ECG monitoring\") — Pacemaker patients require continuous ECG monitoring to assess pacemaker function, capture, and sensing. Monitor for pacemaker spikes, appropriate capture, and any arrhythmias."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Teach 3-point gait: both crutches forward + injured leg, then hop good leg through; \"good up, bad down\" for stairs. 4-point: maximum support, slowest (R crutch → L foot → L crutch → R foot)",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiac Devices",
+    "subject": "Fundamentals",
+    "topic": "Crutch walking — gaits",
+    "section": "foundation",
     "day": 1,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2020",
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 283,
+    "syllabusId": "foundation-20-restraint-types-and-care",
+    "question": "Agitated post-ICU patient pulling at IV lines.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Position sitting leaning forward, assist with aspiration above rib, monitor for cough/dyspnea (pneumothorax), send fluid to lab, CXR post-p…",
+      "Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin",
+      "Try de-escalation, then least-restrictive restraint if needed, physician order within 1 h, assess q15 min, release q2h for ROM/toileting",
+      "STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemoly…"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Try de-escalation, then least-restrictive restraint if needed, physician order within 1 h, assess q15 min, release q2h for ROM/toileting",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Try de-escalation, then least-restrictive restraint if needed, physician order within 1 h, assess q15 min, release q2h for ROM/toileting. Types: physical (wrist, vest, mitt), chemical (sedatives), environmental (locked unit)",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Restraint — types and care",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 288,
+    "syllabusId": "foundation-25-lumbar-puncture-procedure-and-position",
+    "question": "Suspected meningitis, no signs of raised ICP.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Ensure transducer at phlebostatic axis (4th ICS mid-axillary), zero regularly, monitor waveform, report dampening (thrombus) or high pressu…",
+      "Position lateral with knees-to-chest, prep L3-L4 site, assist with sterile technique, label tubes sequentially (typically 1-cell count, 2-biochem, 3-microbio, …",
+      "Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transpor…",
+      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Position lateral with knees-to-chest, prep L3-L4 site, assist with sterile technique, label tubes sequentially (typically 1-cell count, 2-biochem, 3-microbio, …",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Position lateral with knees-to-chest, prep L3-L4 site, assist with sterile technique, label tubes sequentially (typically 1-cell count, 2-biochem, 3-microbio, …. Position: lateral recumbent knees-to-chest or sitting leaning forward",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Lumbar puncture — procedure and position",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 290,
+    "syllabusId": "foundation-27-pressure-ulcer-stages",
+    "question": "Braden 14 in elderly bedridden patient.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Try de-escalation, then least-restrictive restraint if needed, physician order within 1 h, assess q15 min, release q2h for ROM/toileting",
+      "Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin",
+      "Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%",
+      "Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin. Risk assessment: Braden (6 subscales, total 6-23; <=18 at risk)",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Fundamentals",
+    "topic": "Pressure ulcer stages",
+    "section": "foundation",
+    "day": 1,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   },
   {
     "id": 291,
-    "question": "[IMAGE-BASED] The X-ray shows a chest with a visible lung edge and absence of lung markings beyond it. This is most consistent with:",
+    "syllabusId": "foundation-28-vital-signs",
+    "question": "Newborn vital signs.\n\nWhat is the nurse's immediate priority action?",
     "options": [
-      "Consolidation",
-      "Pleural effusion",
-      "Pneumothorax",
-      "Cardiomegaly"
+      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
+      "Teach 3-point gait: both crutches forward + injured leg, then hop good leg through; \"good up, bad down\" for stairs",
+      "Document expected newborn: HR 120-160, RR 30-60, axillary T 36.5-37.5",
+      "Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin"
     ],
     "correct": 2,
-    "explanation": "• A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax.\n• Image-based CXR interpretation is commonly tested in NORCET.",
+    "explanation": "Priority: Document expected newborn: HR 120-160, RR 30-60, axillary T 36.5-37.5",
     "explanations": {
-      "A": "\"Consolidation\" is a plausible distractor but incorrect. The correct answer is C (\"Pneumothorax\") — A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET.",
-      "B": "\"Pleural effusion\" is a plausible distractor but incorrect. The correct answer is C (\"Pneumothorax\") — A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET.",
-      "C": "A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET.",
-      "D": "\"Cardiomegaly\" is a plausible distractor but incorrect. The correct answer is C (\"Pneumothorax\") — A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax. Image-based CXR interpretation is commonly tested in NORCET."
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Document expected newborn: HR 120-160, RR 30-60, axillary T 36.5-37.5. Adult: T 36.5-37.5, HR 60-100, RR 12-20, BP <120/<80 optimal",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
     },
-    "subject": "Medical-Surgical",
-    "topic": "Image-Based - X-ray",
+    "subject": "Fundamentals",
+    "topic": "Vital signs",
+    "section": "foundation",
     "day": 1,
     "difficulty": "High",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
-  },
-  {
-    "id": 422,
-    "question": "A newborn requires phototherapy for jaundice. What is the correct distance of phototherapy light?",
-    "options": [
-      "10-15 cm",
-      "30-45 cm",
-      "50-75 cm",
-      "100 cm"
-    ],
-    "correct": 1,
-    "explanation": "• Phototherapy light should be 30-45 cm above infant.\n• Closer increases risk of burns, farther reduces effectiveness.\n• Monitor temperature, cover eyes, rotate position.\n• Understanding neonatal equipment is essential for managing jaundice and preventing complications.\n• Pediatric nursing requires specialized knowledge.",
-    "explanations": {
-      "A": "\"10-15 cm\" is a plausible distractor but incorrect. The correct answer is B (\"30-45 cm\") — Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness.",
-      "B": "Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness.",
-      "C": "\"50-75 cm\" is a plausible distractor but incorrect. The correct answer is B (\"30-45 cm\") — Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness.",
-      "D": "\"100 cm\" is a plausible distractor but incorrect. The correct answer is B (\"30-45 cm\") — Phototherapy light should be 30-45 cm above infant. Closer increases risk of burns, farther reduces effectiveness."
-    },
-    "subject": "Pediatric",
-    "topic": "Neonatal Equipment",
-    "day": 1,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "factual"
-  },
-  {
-    "id": 437,
-    "question": "Digoxin toxicity can cause characteristic ECG finding of:",
-    "options": [
-      "Prolonged QT",
-      "Scooping ST depression (reverse tick)",
-      "Delta wave",
-      "Osborn wave"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Prolonged QT\" is a plausible distractor but incorrect. The correct answer is B (\"Scooping ST depression (reverse tick)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Delta wave\" is a plausible distractor but incorrect. The correct answer is B (\"Scooping ST depression (reverse tick)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Osborn wave\" is a plausible distractor but incorrect. The correct answer is B (\"Scooping ST depression (reverse tick)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Cardiovascular",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 492,
-    "question": "Calcium gluconate IV may be used in hyperkalemia with:",
-    "options": [
-      "Only if potassium is below 3.5",
-      "ECG changes / cardiac membrane stabilization while other measures proceed",
-      "Always instead of insulin-dextrose",
-      "Chronic hypocalcemia only"
-    ],
-    "correct": 1,
-    "explanation": "• Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes.\n• Does not lower total body K; combine with shift/excretion strategies.",
-    "explanations": {
-      "A": "\"Only if potassium is below 3.5\" is a plausible distractor but incorrect. The correct answer is B (\"ECG changes / cardiac membrane stabilization while other measures proceed\") — Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies.",
-      "B": "Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies.",
-      "C": "\"Always instead of insulin-dextrose\" is a plausible distractor but incorrect. The correct answer is B (\"ECG changes / cardiac membrane stabilization while other measures proceed\") — Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies.",
-      "D": "\"Chronic hypocalcemia only\" is a plausible distractor but incorrect. The correct answer is B (\"ECG changes / cardiac membrane stabilization while other measures proceed\") — Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes. Does not lower total body K; combine with shift/excretion strategies."
-    },
-    "subject": "Pharmacology",
-    "topic": "Electrolytes",
-    "day": 1,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "qtype": "scenario",
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
   }
 ]

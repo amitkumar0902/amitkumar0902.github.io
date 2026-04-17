@@ -1,0 +1,674 @@
+[
+  {
+    "id": 100513,
+    "syllabusId": "biochem-1-vitamin-deficiency-and-excess-table",
+    "qtype": "scenario",
+    "question": "Chronic alcoholic with confusion, ataxia, ophthalmoplegia.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Thiamine (B1) 500 mg IV TDS x3 d to treat Wernicke before glucose",
+      "Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+      "Pellagra — niacin (B3) supplementation, varied diet, treat dermatitis",
+      "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Thiamine (B1) 500 mg IV TDS x3 d to treat Wernicke before glucose",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Thiamine (B1) 500 mg IV TDS x3 d to treat Wernicke before glucose. A: night blindness, xerophthalmia, Bitot spots; excess — pseudotumor cerebri, teratogen",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamin deficiency and excess — table",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100514,
+    "syllabusId": "biochem-2-minerals-sources-and-deficiency",
+    "qtype": "scenario",
+    "question": "Child from goiter belt with neck swelling.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+      "Thiamine (B1) 500 mg IV TDS x3 d to treat Wernicke before glucose",
+      "Mitochondrial oxidative phosphorylation generates ATP",
+      "Dilute urine — suspect DI; water deprivation test + desmopressin challenge"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Check thyroid function, iodized salt education, national iodine deficiency disorder program. Ca: bone, clotting, muscle; deficiency — tetany, rickets; food — dairy, green leafy, fish",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Minerals — sources and deficiency",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "High",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "must"
+    ]
+  },
+  {
+    "id": 100515,
+    "syllabusId": "biochem-3-food-related-diseases",
+    "qtype": "scenario",
+    "question": "Maize-only diet with dermatitis, diarrhea, dementia.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Thiamine (B1) 500 mg IV TDS x3 d to treat Wernicke before glucose",
+      "VLDL",
+      "Bacteria have no nucleus",
+      "Pellagra — niacin (B3) supplementation, varied diet, treat dermatitis"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Pellagra — niacin (B3) supplementation, varied diet, treat dermatitis",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Pellagra — niacin (B3) supplementation, varied diet, treat dermatitis. Beri-beri: B1 deficiency (polished rice)"
+    },
+    "subject": "Nutrition",
+    "topic": "Food-related diseases",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100516,
+    "syllabusId": "biochem-4-major-anions-and-cations",
+    "qtype": "scenario",
+    "question": "Elevated anion gap 22 in septic patient.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Nonsense mutation",
+      "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source",
+      "Microtubules (tubulin dimers)",
+      "Bacterial 70S ribosome (30S aminoglycoside, 50S macrolide)"
+    ],
+    "correct": 1,
+    "explanation": "Priority: MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source. ECF cations: Na+ (135-145), K+ (3.5-5), Ca++, Mg++",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Major anions and cations",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100517,
+    "syllabusId": "biochem-5-caloric-requirements-by-age",
+    "qtype": "scenario",
+    "question": "Pregnant 3rd trimester dietary counseling.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "+350 kcal above pre-pregnancy requirement, 23 g additional protein, iron/folate/calcium supplementation",
+      "46 (23 pairs)",
+      "Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources",
+      "VLDL"
+    ],
+    "correct": 0,
+    "explanation": "Priority: +350 kcal above pre-pregnancy requirement, 23 g additional protein, iron/folate/calcium supplementation",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: +350 kcal above pre-pregnancy requirement, 23 g additional protein, iron/folate/calcium supplementation. 0-6 mo: 550 kcal/d (breast milk)",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Caloric requirements by age",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100518,
+    "syllabusId": "biochem-6-urine-specific-gravity-interpretation",
+    "qtype": "scenario",
+    "question": "Polyuria patient with SG 1.001.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Bacteria have no nucleus",
+      "Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+      "Dilute urine — suspect DI; water deprivation test + desmopressin challenge",
+      "+350 kcal above pre-pregnancy requirement, 23 g additional protein, iron/folate/calcium supplementation"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Dilute urine — suspect DI; water deprivation test + desmopressin challenge",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Dilute urine — suspect DI; water deprivation test + desmopressin challenge. Normal: 1.003-1.030",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Urine specific gravity interpretation",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100519,
+    "syllabusId": "biochem-7-ketone-bodies",
+    "qtype": "scenario",
+    "question": "T1DM with fruity breath and glucose 500.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Metaphase",
+      "A with T (2 H bonds); G with C (3 H bonds)",
+      "Pellagra — niacin (B3) supplementation, varied diet, treat dermatitis",
+      "Suspect DKA — ABG, serum BHB, electrolytes, IV fluids, insulin infusion, K+ replacement"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Suspect DKA — ABG, serum BHB, electrolytes, IV fluids, insulin infusion, K+ replacement",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Suspect DKA — ABG, serum BHB, electrolytes, IV fluids, insulin infusion, K+ replacement. Acetoacetate, beta-hydroxybutyrate, acetone (breath)"
+    },
+    "subject": "Nutrition",
+    "topic": "Ketone bodies",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100520,
+    "syllabusId": "biochem-8-omega-3-pufa",
+    "qtype": "scenario",
+    "question": "CV risk patient asks about supplements.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources",
+      "Mediterranean diet + fatty fish 2x/wk; omega-3 supplement 1 g/d for secondary prevention in some patients",
+      "Combine cereal (rice/wheat) with pulse (dal) — complementary protein to ensure all essential amino acids",
+      "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Mediterranean diet + fatty fish 2x/wk; omega-3 supplement 1 g/d for secondary prevention in some patients",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Mediterranean diet + fatty fish 2x/wk; omega-3 supplement 1 g/d for secondary prevention in some patients. Sources: fish oil, flaxseed, walnut",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Omega-3 PUFA",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 100521,
+    "syllabusId": "biochem-9-triglyceride-transport-vldl",
+    "qtype": "scenario",
+    "question": "Item on endogenous TG carrier.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "VLDL",
+      "Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources",
+      "Bacterial 70S ribosome (30S aminoglycoside, 50S macrolide)",
+      "Bacteria have no nucleus"
+    ],
+    "correct": 0,
+    "explanation": "Priority: VLDL",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: VLDL. Chylomicrons: dietary TG from gut",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Triglyceride transport (VLDL)",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 100522,
+    "syllabusId": "biochem-10-prokaryotic-vs-eukaryotic-cell",
+    "qtype": "scenario",
+    "question": "Item on prokaryote.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Bacteria have no nucleus",
+      "Combine cereal (rice/wheat) with pulse (dal) — complementary protein to ensure all essential amino acids",
+      "Keratin",
+      "Bacterial 70S ribosome (30S aminoglycoside, 50S macrolide)"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Bacteria have no nucleus",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Bacteria have no nucleus. Prokaryote: no nucleus, 70S ribosome, single circular DNA, bacteria/archaea",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Prokaryotic vs eukaryotic cell",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100523,
+    "syllabusId": "biochem-11-sequence-of-mitosis",
+    "qtype": "scenario",
+    "question": "Item on chromosome alignment.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Metaphase",
+      "Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+      "46 (23 pairs)",
+      "Microtubules (tubulin dimers)"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Metaphase",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Metaphase. Prophase: chromatin condenses, centrioles separate, NE dissolves",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Sequence of mitosis",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100524,
+    "syllabusId": "biochem-12-mitochondria-powerhouse",
+    "qtype": "scenario",
+    "question": "Item on energy source.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Microtubules (tubulin dimers)",
+      "Mitochondrial oxidative phosphorylation generates ATP",
+      "Nonsense mutation",
+      "Metaphase"
+    ],
+    "correct": 1,
+    "explanation": "Priority: Mitochondrial oxidative phosphorylation generates ATP",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Correct — per the note, the priority action is: Mitochondrial oxidative phosphorylation generates ATP. Double membrane",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Mitochondria — powerhouse",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100525,
+    "syllabusId": "biochem-13-protein-synthesis-translation",
+    "qtype": "scenario",
+    "question": "Item on antibiotic target.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "VLDL",
+      "Dilute urine — suspect DI; water deprivation test + desmopressin challenge",
+      "Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+      "Bacterial 70S ribosome (30S aminoglycoside, 50S macrolide)"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Bacterial 70S ribosome (30S aminoglycoside, 50S macrolide)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Bacterial 70S ribosome (30S aminoglycoside, 50S macrolide). Initiation: mRNA binds small ribosomal subunit at AUG"
+    },
+    "subject": "Nutrition",
+    "topic": "Protein synthesis — translation",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100526,
+    "syllabusId": "biochem-14-cytoskeleton",
+    "qtype": "scenario",
+    "question": "Item on mitotic spindle.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source",
+      "Keratin",
+      "Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+      "Microtubules (tubulin dimers)"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Microtubules (tubulin dimers)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Microtubules (tubulin dimers). Microfilaments (actin): muscle, cell division"
+    },
+    "subject": "Nutrition",
+    "topic": "Cytoskeleton",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 100527,
+    "syllabusId": "biochem-15-tca-cycle",
+    "qtype": "scenario",
+    "question": "Item on Krebs cycle location.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Mitochondrial matrix",
+      "Suspect DKA — ABG, serum BHB, electrolytes, IV fluids, insulin infusion, K+ replacement",
+      "Keratin",
+      "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Mitochondrial matrix",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Mitochondrial matrix. Acetyl-CoA enters → citrate",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "TCA cycle",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100528,
+    "syllabusId": "biochem-16-lactose",
+    "qtype": "scenario",
+    "question": "Bloating and diarrhea after milk.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Mitochondrial matrix",
+      "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source",
+      "VLDL",
+      "Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources. Lactase in intestine"
+    },
+    "subject": "Nutrition",
+    "topic": "Lactose",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 100529,
+    "syllabusId": "biochem-17-dna-structure",
+    "qtype": "scenario",
+    "question": "Item on base pairing.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Empiric lactose-free trial, lactase enzyme supplement, alternative Ca sources",
+      "Check thyroid function, iodized salt education, national iodine deficiency disorder program",
+      "Nonsense mutation",
+      "A with T (2 H bonds); G with C (3 H bonds)"
+    ],
+    "correct": 3,
+    "explanation": "Priority: A with T (2 H bonds); G with C (3 H bonds)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: A with T (2 H bonds); G with C (3 H bonds). Watson-Crick: antiparallel, sugar-phosphate backbone, complementary base pairing (A=T, G=C)"
+    },
+    "subject": "Nutrition",
+    "topic": "DNA structure",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100530,
+    "syllabusId": "biochem-18-chromosome-number-46",
+    "qtype": "scenario",
+    "question": "Item on normal human chromosomes.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "MUDPILES differential — lactic acidosis commonest in sepsis, check lactate, resuscitate, address source",
+      "Mediterranean diet + fatty fish 2x/wk; omega-3 supplement 1 g/d for secondary prevention in some patients",
+      "46 (23 pairs)",
+      "Suspect DKA — ABG, serum BHB, electrolytes, IV fluids, insulin infusion, K+ replacement"
+    ],
+    "correct": 2,
+    "explanation": "Priority: 46 (23 pairs)",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: 46 (23 pairs). 46 total: 22 autosome pairs + 2 sex (XX or XY)",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Chromosome number (46)",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  },
+  {
+    "id": 100531,
+    "syllabusId": "biochem-19-mutation-types",
+    "qtype": "scenario",
+    "question": "Item on premature stop codon.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Nonsense mutation",
+      "A with T (2 H bonds); G with C (3 H bonds)",
+      "Metaphase",
+      "Combine cereal (rice/wheat) with pulse (dal) — complementary protein to ensure all essential amino acids"
+    ],
+    "correct": 0,
+    "explanation": "Priority: Nonsense mutation",
+    "explanations": {
+      "A": "Correct — per the note, the priority action is: Nonsense mutation. Point: silent, missense, nonsense",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Mutation types",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 100532,
+    "syllabusId": "biochem-20-keratin-structural-protein",
+    "qtype": "scenario",
+    "question": "Item on nail/hair protein.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Bacteria have no nucleus",
+      "Nonsense mutation",
+      "Pellagra — niacin (B3) supplementation, varied diet, treat dermatitis",
+      "Keratin"
+    ],
+    "correct": 3,
+    "explanation": "Priority: Keratin",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Reflects management of a different scenario; not the priority for the stem described.",
+      "D": "Correct — per the note, the priority action is: Keratin. Alpha-keratin: hair, nail"
+    },
+    "subject": "Nutrition",
+    "topic": "Keratin — structural protein",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "nice"
+    ]
+  },
+  {
+    "id": 100533,
+    "syllabusId": "biochem-21-essential-amino-acids",
+    "qtype": "scenario",
+    "question": "Vegetarian diet planning.\n\nWhat is the nurse's immediate priority action?",
+    "options": [
+      "Bacteria have no nucleus",
+      "Suspect DKA — ABG, serum BHB, electrolytes, IV fluids, insulin infusion, K+ replacement",
+      "Combine cereal (rice/wheat) with pulse (dal) — complementary protein to ensure all essential amino acids",
+      "Keratin"
+    ],
+    "correct": 2,
+    "explanation": "Priority: Combine cereal (rice/wheat) with pulse (dal) — complementary protein to ensure all essential amino acids",
+    "explanations": {
+      "A": "Reflects management of a different scenario; not the priority for the stem described.",
+      "B": "Reflects management of a different scenario; not the priority for the stem described.",
+      "C": "Correct — per the note, the priority action is: Combine cereal (rice/wheat) with pulse (dal) — complementary protein to ensure all essential amino acids. Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine (PVT TIM HaLL)",
+      "D": "Reflects management of a different scenario; not the priority for the stem described."
+    },
+    "subject": "Nutrition",
+    "topic": "Essential amino acids",
+    "section": "biochem",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET High-Yield Generator v1",
+    "year": 2025,
+    "tags": [
+      "scenario",
+      "highyield",
+      "should"
+    ]
+  }
+]
