@@ -13,7 +13,8 @@
     pageSize: 20,
     filters: { subject: '', day: '', source: '', difficulty: '', qtype: '', q: '' },
     mode: NM.get('bankMode', 'try'),
-    picks: {}
+    picks: {},
+    syllabusById: {}
   };
 
   document.addEventListener('DOMContentLoaded', () => {
@@ -25,9 +26,17 @@
     if (qs.get('ids')) state.filters._ids = qs.get('ids').split(',').map(function (s) { return +s; });
     if (qs.get('syllabusId')) state.filters._syllabusId = qs.get('syllabusId');
     if (qs.get('tag')) state.filters._tag = qs.get('tag');
-    fetch(ROOT + 'data/mains/question-bank.json')
-      .then(r => r.json())
-      .then(d => { state.all = d; state.view = d.slice(); renderFilters(); apply(); })
+    Promise.all([
+      fetch(ROOT + 'data/mains/question-bank.json').then(r => r.json()),
+      fetch(ROOT + 'data/mains/syllabus.json').then(r => r.json()).catch(() => [])
+    ])
+      .then(([bank, syllabus]) => {
+        state.all = bank;
+        state.view = bank.slice();
+        (syllabus || []).forEach(s => { if (s && s.id) state.syllabusById[s.id] = s; });
+        renderFilters();
+        apply();
+      })
       .catch(() => { document.getElementById('bank-list').innerHTML = '<p>Failed to load bank.</p>'; });
   });
 
@@ -100,18 +109,70 @@
     renderList();
   }
 
+  function syllabusBanner() {
+    if (!state.filters._syllabusId) return '';
+    const sid = state.filters._syllabusId;
+    const meta = state.syllabusById[sid];
+    const topic = meta ? (meta.topic + (meta.sectionLabel ? ' · ' + meta.sectionLabel : '')) : sid;
+    return '<div class="info-box" style="display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px;padding:10px 14px;border:1px solid var(--rule);background:var(--bg-alt);">' +
+      '<span><strong>Topic filter:</strong> ' + NM.escape(topic) + '</span>' +
+      '<button class="btn btn--ghost btn--sm" id="clear-syllabus-filter">Clear topic filter</button>' +
+      '</div>';
+  }
+
+  function wireSyllabusBanner() {
+    const btn = document.getElementById('clear-syllabus-filter');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      delete state.filters._syllabusId;
+      const url = new URL(location.href);
+      url.searchParams.delete('syllabusId');
+      history.replaceState(null, '', url.toString());
+      state.page = 0;
+      apply();
+    });
+  }
+
   function renderList() {
     const v = state.view;
     const page = state.page, size = state.pageSize;
     const start = page * size;
     const slice = v.slice(start, start + size);
     const host = document.getElementById('bank-list');
+    const banner = syllabusBanner();
     if (v.length === 0) {
-      host.innerHTML = '<p class="muted">No questions match. Try clearing filters.</p>';
+      if (state.filters._syllabusId) {
+        const sid = state.filters._syllabusId;
+        const meta = state.syllabusById[sid];
+        const topic = meta ? meta.topic : sid;
+        host.innerHTML = banner +
+          '<div class="empty-state" style="padding:24px;border:1px dashed var(--rule);text-align:center;background:var(--bg-alt);">' +
+            '<p><strong>No MCQs are tagged to “' + NM.escape(topic) + '” yet.</strong></p>' +
+            '<p class="small muted">About 47% of the bank is currently tagged to syllabus topics. Clear this filter to browse everything, or jump to the notes/syllabus for this topic.</p>' +
+            '<div class="btn-row" style="justify-content:center;gap:10px;margin-top:10px;">' +
+              '<button class="btn btn--accent" id="clear-syllabus-filter-empty">Clear topic filter</button>' +
+              (meta ? '<a class="btn btn--ghost" href="notes/index.html?section=' + encodeURIComponent(meta.section || '') + '#' + encodeURIComponent(sid) + '">Open topic notes</a>' : '') +
+              (meta ? '<a class="btn btn--ghost" href="syllabus.html#' + encodeURIComponent(sid) + '">View in syllabus</a>' : '') +
+            '</div>' +
+          '</div>';
+        const clear = document.getElementById('clear-syllabus-filter-empty');
+        if (clear) clear.addEventListener('click', () => {
+          delete state.filters._syllabusId;
+          const url = new URL(location.href);
+          url.searchParams.delete('syllabusId');
+          history.replaceState(null, '', url.toString());
+          state.page = 0;
+          apply();
+        });
+        wireSyllabusBanner();
+      } else {
+        host.innerHTML = '<p class="muted">No questions match. Try clearing filters.</p>';
+      }
       document.getElementById('bank-pager').innerHTML = '';
       return;
     }
-    host.innerHTML = slice.map(renderCard).join('');
+    host.innerHTML = banner + slice.map(renderCard).join('');
+    wireSyllabusBanner();
     slice.forEach(wireCard);
     const total = v.length;
     const pages = Math.ceil(total / size);

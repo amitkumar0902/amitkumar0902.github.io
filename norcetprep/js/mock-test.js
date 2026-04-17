@@ -6,7 +6,9 @@
   const NM = window.NM;
 
   const params = new URLSearchParams(location.search);
-  const MOCK_ID = parseInt(params.get('id') || '1', 10);
+  const rawId = params.get('id') || '1';
+  const MOCK_ID = rawId;
+  const IS_NUMERIC = /^\d+$/.test(rawId);
   const ROOT = NM.rootPath();
   const MOCK_KEY = 'mock.' + MOCK_ID;
 
@@ -20,7 +22,7 @@
     cur: 0,
     secs: 180 * 60,
     timer: null,
-    title: 'Full Mock Test ' + MOCK_ID,
+    title: IS_NUMERIC ? ('Full Mock Test ' + MOCK_ID) : ('Mock ' + MOCK_ID),
     startedAt: null
   };
 
@@ -38,6 +40,7 @@
         state.questions = d.questions;
         state.answers = new Array(d.questions.length).fill(null);
         state.secs = (d.minutes || 180) * 60;
+        state.totalSecs = state.secs;
         state.title = d.title || state.title;
         state.loaded = true;
         const saved = NM.get(MOCK_KEY);
@@ -58,10 +61,12 @@
     const mix = {};
     state.questions.forEach(q => mix[q.subject] = (mix[q.subject] || 0) + 1);
     const rows = Object.entries(mix).sort((a,b)=>b[1]-a[1]).map(([s,n]) => '<tr><td>'+NM.escape(s)+'</td><td>'+n+'</td></tr>').join('');
+    const totalQs = state.questions.length;
+    const totalMins = Math.round(state.secs / 60);
     root.innerHTML =
       '<a class="back" href="index.html">← Back to Mocks</a>' +
       '<h1>' + NM.escape(state.title) + '</h1>' +
-      '<p class="muted">160 questions · 180 minutes · +1 for correct · −1/3 for wrong · 0 for unattempted.</p>' +
+      '<p class="muted">' + totalQs + ' questions · ' + totalMins + ' minutes · +1 for correct · −1/3 for wrong · 0 for unattempted.</p>' +
       '<h2>Subject mix</h2>' +
       '<table><thead><tr><th>Subject</th><th>Qs</th></tr></thead><tbody>' + rows + '</tbody></table>' +
       '<h2>Before you start</h2>' +
@@ -71,7 +76,7 @@
         '<li>Progress auto-saves — you can refresh without losing answers.</li>' +
       '</ul>' +
       '<div class="btn-row">' +
-        '<button class="btn btn--accent btn--big" id="mock-start">Start Mock · 180:00</button>' +
+        '<button class="btn btn--accent btn--big" id="mock-start">Start Mock · ' + fmt(state.secs) + '</button>' +
         '<a class="btn btn--ghost" href="index.html">Cancel</a>' +
       '</div>';
     $('#mock-start').addEventListener('click', start);
@@ -315,7 +320,7 @@
     const neg = wrong / 3;
     const finalScore = Math.max(0, raw - neg);
     const pct = (finalScore / total) * 100;
-    const durationSecs = 180*60 - state.secs;
+    const durationSecs = (state.totalSecs || 180*60) - state.secs;
     const avgTime = durationSecs / Math.max(1, total - skipped);
 
     // Persist result
