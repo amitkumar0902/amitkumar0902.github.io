@@ -283,5 +283,13 @@
       const newCard = document.querySelector('.bank-card[data-qid="' + q.id + '"]');
       if (newCard) NM.shake(newCard);
     }
+    if (NM.Hella) NM.Hella.react(i === q.correct ? 'correct' : 'wrong');
   }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.NM && NM.Hella) {
+      NM.Hella.mount();
+      if (state.mode === 'try') NM.Hella.react('waiting');
+    }
+  });
 })();

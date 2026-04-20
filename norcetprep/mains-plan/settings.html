@@ -15,6 +15,19 @@
       document.getElementById('haptic').checked = !s.hapticOff;
       document.getElementById('anim').addEventListener('change', (e) => save('animOff', !e.target.checked));
       document.getElementById('haptic').addEventListener('change', (e) => save('hapticOff', !e.target.checked));
+      const hellaCheckbox = document.getElementById('hella-toggle');
+      if (hellaCheckbox) {
+        const hellaSettings = NM.get('hella.settings', {}) || {};
+        hellaCheckbox.checked = hellaSettings.enabled !== false;
+        hellaCheckbox.addEventListener('change', (e) => {
+          if (window.NM && NM.Hella && NM.Hella.setEnabled) NM.Hella.setEnabled(e.target.checked);
+          else {
+            const next = NM.get('hella.settings', {}) || {};
+            next.enabled = e.target.checked;
+            NM.set('hella.settings', next);
+          }
+        });
+      }
       document.querySelectorAll('input[name="fs"]').forEach(r => {
         r.checked = (NM.get('fontsize', 'md') === r.value);
         r.addEventListener('change', () => { NM.set('fontsize', r.value); document.documentElement.setAttribute('data-fs', r.value); });
@@ -54,6 +67,7 @@
   <h2>Accessibility &amp; feedback</h2>
   <p><label><input type="checkbox" id="anim"> Animations &amp; celebrations</label></p>
   <p><label><input type="checkbox" id="haptic"> Haptic feedback on mobile</label></p>
+  <p><label><input type="checkbox" id="hella-toggle"> Show Hella (the cute puppy coach) on question pages</label></p>
 
   <h2>Keyboard shortcuts</h2>
   <table>

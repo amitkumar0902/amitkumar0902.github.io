@@ -1,14 +1,19 @@
 // NORCET Mains service worker — network-first for HTML, stale-while-revalidate for JSON/CSS/JS
-const CACHE = 'norcet-mains-v10-sitemap-jump';
+const CACHE = 'norcet-mains-v11-hella';
 const PRECACHE = [
   './',
   './index.html',
   './css/mains-theme.css',
+  './css/hella.css',
   './js/core.js',
   './js/mock-test.js',
   './js/practice.js',
   './js/bank.js',
   './js/flashcards.js',
+  './js/hella.js',
+  './img/hella-waiting.svg',
+  './img/hella-correct.svg',
+  './img/hella-wrong.svg',
   './manifest.webmanifest',
   './data/mains/question-bank.json',
   './data/mains/syllabus.json',

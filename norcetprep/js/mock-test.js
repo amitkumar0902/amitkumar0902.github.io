@@ -113,6 +113,7 @@
     state.started = true;
     if (!resuming) state.startedAt = Date.now();
     document.body.classList.add('focus-mode');
+    if (NM.Hella) NM.Hella.hide();
     renderRunner();
     renderQ();
     startTimer();
@@ -342,6 +343,11 @@
 
     if (pct >= 80) NM.confettiBurst();
     renderReport({ right, wrong, skipped, finalScore, pct, bySubj, avgTime, wrongIds, flaggedIds, total, autoTime });
+    if (NM.Hella) {
+      NM.Hella.show();
+      NM.Hella.mount();
+      NM.Hella.react(pct >= 70 ? 'correct' : 'wrong');
+    }
   }
 
   function renderReport(r) {
@@ -406,6 +412,16 @@
         const qid = +b.dataset.qid;
         const q = state.questions.find(function (x) { return x.id === qid; });
         if (q && window.NMReport) window.NMReport.open(q);
+      });
+    });
+    host.querySelectorAll('details[data-qid]').forEach(function (d) {
+      d.addEventListener('toggle', function () {
+        if (!d.open || !NM.Hella) return;
+        const qid = +d.dataset.qid;
+        const idx = state.questions.findIndex(function (x) { return x.id === qid; });
+        if (idx < 0) return;
+        const wasCorrect = state.answers[idx] === state.questions[idx].correct;
+        NM.Hella.react(wasCorrect ? 'correct' : 'wrong');
       });
     });
   }

@@ -126,6 +126,15 @@
       state.mode = state.mode === 'practice' ? 'test' : 'practice';
       persist(); render();
     });
+    if (window.NM && NM.Hella) {
+      NM.Hella.mount();
+      if (done) {
+        const wasCorrect = state.answers[state.cur] === q.correct;
+        NM.Hella.react(wasCorrect ? 'correct' : 'wrong');
+      } else {
+        NM.Hella.react('waiting');
+      }
+    }
   }
 
   function renderExplanations(q) {
@@ -148,6 +157,7 @@
       const opts = document.getElementById('opts');
       if (opts) NM.shake(opts);
     }
+    if (NM.Hella) NM.Hella.react(correct ? 'correct' : 'wrong');
     persist();
     render();
   }
@@ -226,6 +236,11 @@
           const qid = +b.dataset.qid;
           const q = state.questions.find(function (x) { return x.id === qid; });
           if (q && window.NMReport) window.NMReport.open(q);
+        });
+      });
+      document.querySelectorAll('#wrong-list details[data-qid]').forEach(function (d) {
+        d.addEventListener('toggle', function () {
+          if (d.open && NM.Hella) NM.Hella.react('wrong');
         });
       });
     }

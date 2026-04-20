@@ -102,6 +102,10 @@
         document.getElementById('right').addEventListener('click', function () { mark(true); });
         document.getElementById('wrong').addEventListener('click', function () { mark(false); });
       }
+      if (NM.Hella) {
+        NM.Hella.mount();
+        NM.Hella.react('waiting');
+      }
     }
 
     function flip() {
@@ -118,6 +122,7 @@
         mastered.delete(state.cur._id);
         NM.haptic(60);
       }
+      if (NM.Hella) NM.Hella.react(ok ? 'correct' : 'wrong');
       save();
       draw();
     }

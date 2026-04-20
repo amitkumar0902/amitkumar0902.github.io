@@ -485,6 +485,15 @@
     }
     if (!window.NMReport) loadScript(root + 'js/report.js');
     if (!NM.sync) loadScript(root + 'js/sync.js');
+    // Hella (cute puppy coach mascot). Gated by the per-user setting; hella.js handles disabled state itself.
+    if (!document.querySelector('link[data-nm-hella]')) {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = root + 'css/hella.css?v=11';
+      link.setAttribute('data-nm-hella', 'css');
+      document.head.appendChild(link);
+    }
+    if (!window.NM.Hella) loadScript(root + 'js/hella.js?v=11');
   }
 
   // Simple shuffle helper (seeded deterministic ok for UI, Math.random for mocks)
