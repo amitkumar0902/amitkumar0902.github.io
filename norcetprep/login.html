@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#a83232">
   <meta name="robots" content="noindex">
   <link rel="stylesheet" href="css/mains-theme.css">
+  <script src="js/allowlist.js"></script>
   <style>
     .login-card { max-width: 380px; margin: 80px auto 0; }
     .login-card h1 { margin: 0 0 6px; }
@@ -47,8 +48,8 @@
   'use strict';
   var AUTH_KEY = 'nm.auth';
   var EMAIL_KEY = 'nm.email';
-  var ACCOUNTS_KEY = 'nm.accounts';
   var HASH = '4aa75efe4468d7a1186ab25fc17946faeda13c0b7d2c5fb703a85820a9ef47aa';
+  var ALLOW = (window.NM_ALLOWLIST || []).map(function (e) { return String(e).toLowerCase(); });
 
   function safeNext() {
     var raw = new URLSearchParams(location.search).get('next');
@@ -60,14 +61,6 @@
       if (/\/(login|signup)\.html$/.test(u.pathname)) return 'index.html';
       return u.pathname + u.search;
     } catch (e) { return 'index.html'; }
-  }
-
-  function getAccounts() {
-    try {
-      var raw = localStorage.getItem(ACCOUNTS_KEY);
-      var list = raw ? JSON.parse(raw) : [];
-      return Array.isArray(list) ? list : [];
-    } catch (e) { return []; }
   }
 
   // Already signed in? Bounce straight to destination.
@@ -110,23 +103,22 @@
     var emailVal = (email.value || '').trim().toLowerCase();
     var pwVal = pw.value;
     if (!emailVal || !pwVal) return;
-    var accounts = getAccounts();
-    if (accounts.indexOf(emailVal) === -1) {
-      err.innerHTML = 'No account for this email on this device. <a href="' + document.getElementById('signup-link').getAttribute('href') + '">Sign up</a> first.';
-      pw.value = '';
-      return;
-    }
     try {
       var h = await sha256hex(pwVal);
-      if (h === HASH) {
-        sessionStorage.setItem(AUTH_KEY, '1');
-        localStorage.setItem(EMAIL_KEY, emailVal);
-        location.replace(safeNext());
-      } else {
+      if (h !== HASH) {
         err.textContent = 'Wrong password. Try again.';
         pw.value = '';
         pw.focus();
+        return;
       }
+      if (ALLOW.indexOf(emailVal) === -1) {
+        err.innerHTML = 'This email is not approved yet. <a href="' + document.getElementById('signup-link').getAttribute('href') + '">Sign up</a> to request access.';
+        pw.value = '';
+        return;
+      }
+      sessionStorage.setItem(AUTH_KEY, '1');
+      localStorage.setItem(EMAIL_KEY, emailVal);
+      location.replace(safeNext());
     } catch (ex) {
       err.textContent = 'Browser does not support secure hashing. Use a modern browser.';
     }

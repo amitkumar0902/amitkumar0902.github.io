@@ -1,5 +1,5 @@
 // NORCET Mains service worker — network-first for HTML, stale-while-revalidate for JSON/CSS/JS
-const CACHE = 'norcet-mains-v13-signup';
+const CACHE = 'norcet-mains-v14-allowlist';
 const PRECACHE = [
   './',
   './index.html',
@@ -8,6 +8,7 @@ const PRECACHE = [
   './css/mains-theme.css',
   './css/hella.css',
   './js/core.js',
+  './js/allowlist.js',
   './js/mock-test.js',
   './js/practice.js',
   './js/bank.js',
