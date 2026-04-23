@@ -3,6 +3,24 @@
 (function () {
   'use strict';
 
+  // ==== Auth gate (static client-side; obfuscation only, not real security) ====
+  // Redirects to /norcetprep/login.html unless sessionStorage has nm.auth set.
+  var _p = location.pathname;
+  var _idx = _p.lastIndexOf('/norcetprep/');
+  if (_idx !== -1) {
+    var _rest = _p.slice(_idx + '/norcetprep/'.length);
+    var _onAuthPage = /(^|\/)(login|signup)\.html$/.test(_rest);
+    var _authed = false;
+    try { _authed = !!sessionStorage.getItem('nm.auth'); } catch (e) { _authed = true; }
+    if (!_onAuthPage && !_authed) {
+      var _slashes = (_rest.match(/\//g) || []).length;
+      var _up = _slashes === 0 ? '' : new Array(_slashes + 1).join('../');
+      if (document.documentElement) document.documentElement.style.visibility = 'hidden';
+      location.replace(_up + 'login.html?next=' + encodeURIComponent(location.pathname + location.search));
+      return;
+    }
+  }
+
   var NM = {};
   window.NM = NM;
 

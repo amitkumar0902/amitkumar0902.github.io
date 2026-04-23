@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up · NORCET Mains 2026</title>
+  <meta name="theme-color" content="#a83232">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="css/mains-theme.css">
+  <style>
+    .login-card { max-width: 380px; margin: 80px auto 0; }
+    .login-card h1 { margin: 0 0 6px; }
+    .login-card .muted { margin-top: 0; }
+    .login-card form { margin-top: 22px; display: flex; flex-direction: column; gap: 12px; }
+    .login-card input[type="email"],
+    .login-card input[type="password"] {
+      font: inherit; padding: 10px 12px; border: 1px solid var(--rule);
+      background: var(--bg); color: var(--ink); border-radius: 3px;
+    }
+    .login-card input[type="email"]:focus,
+    .login-card input[type="password"]:focus {
+      outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent);
+    }
+    .login-error { color: var(--accent); font-size: var(--fz-sm); min-height: 1.2em; }
+    .login-alt { margin-top: 18px; font-size: var(--fz-sm); }
+  </style>
+</head>
+<body>
+<main class="page">
+  <section class="login-card">
+    <div class="hero__kicker">NORCET Mains 2026</div>
+    <h1>Sign up</h1>
+    <p class="muted small">Create an account with your email and the shared access password.</p>
+    <form id="signup-form" autocomplete="on">
+      <label for="email" class="small muted">Email</label>
+      <input type="email" id="email" name="email" autocomplete="email" autofocus required>
+      <label for="pw" class="small muted">Password</label>
+      <input type="password" id="pw" name="password" autocomplete="new-password" required>
+      <div class="login-error" id="err" role="alert" aria-live="polite"></div>
+      <button class="btn btn--accent" type="submit">Create account</button>
+    </form>
+    <p class="login-alt muted">Already have an account? <a id="login-link" href="login.html">Log in</a>.</p>
+  </section>
+</main>
+<script>
+(function () {
+  'use strict';
+  var AUTH_KEY = 'nm.auth';
+  var EMAIL_KEY = 'nm.email';
+  var ACCOUNTS_KEY = 'nm.accounts';
+  var HASH = '4aa75efe4468d7a1186ab25fc17946faeda13c0b7d2c5fb703a85820a9ef47aa';
+
+  function safeNext() {
+    var raw = new URLSearchParams(location.search).get('next');
+    if (!raw) return 'index.html';
+    try {
+      var u = new URL(raw, location.href);
+      if (u.origin !== location.origin) return 'index.html';
+      if (u.pathname.indexOf('/norcetprep/') === -1) return 'index.html';
+      if (/\/(login|signup)\.html$/.test(u.pathname)) return 'index.html';
+      return u.pathname + u.search;
+    } catch (e) { return 'index.html'; }
+  }
+
+  function getAccounts() {
+    try {
+      var raw = localStorage.getItem(ACCOUNTS_KEY);
+      var list = raw ? JSON.parse(raw) : [];
+      return Array.isArray(list) ? list : [];
+    } catch (e) { return []; }
+  }
+  function addAccount(email) {
+    var list = getAccounts();
+    if (list.indexOf(email) === -1) list.push(email);
+    try { localStorage.setItem(ACCOUNTS_KEY, JSON.stringify(list)); } catch (e) {}
+  }
+
+  // Already signed in? Skip the form.
+  try {
+    if (sessionStorage.getItem(AUTH_KEY)) {
+      location.replace(safeNext());
+      return;
+    }
+  } catch (e) {}
+
+  // Preserve ?next= when linking to login.
+  try {
+    var nextParam = new URLSearchParams(location.search).get('next');
+    if (nextParam) {
+      var a = document.getElementById('login-link');
+      a.href = 'login.html?next=' + encodeURIComponent(nextParam);
+    }
+  } catch (e) {}
+
+  async function sha256hex(s) {
+    var buf = new TextEncoder().encode(s);
+    var h = await crypto.subtle.digest('SHA-256', buf);
+    return Array.from(new Uint8Array(h)).map(function (b) { return b.toString(16).padStart(2, '0'); }).join('');
+  }
+
+  var form = document.getElementById('signup-form');
+  var email = document.getElementById('email');
+  var pw = document.getElementById('pw');
+  var err = document.getElementById('err');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    err.textContent = '';
+    var emailVal = (email.value || '').trim().toLowerCase();
+    var pwVal = pw.value;
+    if (!emailVal || !pwVal) return;
+    try {
+      var h = await sha256hex(pwVal);
+      if (h === HASH) {
+        addAccount(emailVal);
+        sessionStorage.setItem(AUTH_KEY, '1');
+        localStorage.setItem(EMAIL_KEY, emailVal);
+        location.replace(safeNext());
+      } else {
+        err.textContent = 'Wrong access password. Ask the owner for the shared password.';
+        pw.value = '';
+        pw.focus();
+      }
+    } catch (ex) {
+      err.textContent = 'Browser does not support secure hashing. Use a modern browser.';
+    }
+  });
+})();
+</script>
+</body>
+</html>

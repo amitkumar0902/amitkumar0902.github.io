@@ -44,6 +44,16 @@
           location.reload();
         }
       });
+      const accountLine = document.getElementById('account-line');
+      const currentEmail = (function () { try { return localStorage.getItem('nm.email') || ''; } catch (e) { return ''; } })();
+      if (currentEmail) {
+        accountLine.innerHTML = 'Signed in as <strong></strong>. Log out of this browser session — you\'ll be asked to log in again next time.';
+        accountLine.querySelector('strong').textContent = currentEmail;
+      }
+      document.getElementById('logout').addEventListener('click', () => {
+        try { sessionStorage.removeItem('nm.auth'); } catch (e) {}
+        location.replace('../login.html');
+      });
     });
     function save(k, v) {
       const s = NM.get('settings', {}); s[k] = v; NM.set('settings', s);
@@ -120,6 +130,12 @@
 
   <h2>Install as app</h2>
   <p class="muted">On mobile: tap Share → Add to Home Screen. On desktop Chrome: click the install icon in the address bar. Works offline once cached.</p>
+
+  <h2>Account</h2>
+  <p class="muted" id="account-line">Sign out of this browser session. You'll be asked for the access password next time.</p>
+  <div class="btn-row">
+    <button class="btn btn--ghost" id="logout">Log out</button>
+  </div>
 
   <script>
     (function () {
