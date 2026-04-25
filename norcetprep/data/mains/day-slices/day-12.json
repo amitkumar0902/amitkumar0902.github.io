@@ -1,6 +1,285 @@
 [
   {
-    "id": 72,
+    "id": 20,
+    "_origId": "AIIMS-20",
+    "question": "The safest method of milk sterilisation in community use is:",
+    "options": [
+      "Boiling once",
+      "Pasteurization",
+      "Microwaving",
+      "UV exposure"
+    ],
+    "correct": 1,
+    "explanation": "Pasteurization (HTST/LTLT) destroys pathogens while preserving nutrients.",
+    "explanations": {
+      "A": "Boiling alters taste and protein quality.",
+      "B": "Pasteurization (HTST/LTLT) destroys pathogens while preserving nutrients.",
+      "C": "Uneven heating; not used for bulk sterilization.",
+      "D": "UV is unreliable for opaque liquids like milk."
+    },
+    "subject": "Community Health",
+    "topic": "Food hygiene",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 30,
+    "_origId": "DSSSB-6",
+    "question": "Which vitamin deficiency causes night blindness?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 0,
+    "explanation": "Vitamin A (retinol) deficiency impairs rhodopsin synthesis in rods → night blindness (nyctalopia), Bitot's spots, xerophthalmia.",
+    "explanations": {
+      "A": "Vitamin A (retinol) deficiency impairs rhodopsin synthesis in rods → night blindness (nyctalopia), Bitot's spots, xerophthalmia.",
+      "B": "B12 deficiency causes megaloblastic anemia and neuropathy.",
+      "C": "Vitamin C deficiency causes scurvy.",
+      "D": "Vitamin D deficiency causes rickets/osteomalacia."
+    },
+    "subject": "Nutrition",
+    "topic": "Fat-soluble vitamins",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 57,
+    "_origId": "ESIC-13",
+    "question": "Iron is best absorbed in the:",
+    "options": [
+      "Stomach",
+      "Duodenum and upper jejunum",
+      "Ileum",
+      "Colon"
+    ],
+    "correct": 1,
+    "explanation": "Iron is preferentially absorbed in the duodenum and proximal jejunum via DMT-1 transporter.",
+    "explanations": {
+      "A": "Stomach acid converts ferric to ferrous form but absorption occurs distally.",
+      "B": "Iron is preferentially absorbed in the duodenum and proximal jejunum via DMT-1 transporter.",
+      "C": "Ileum absorbs vitamin B12 and bile salts, not iron.",
+      "D": "Colon absorbs water/electrolytes, not iron."
+    },
+    "subject": "Nutrition",
+    "topic": "Micronutrient absorption",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 65,
+    "_origId": "JIPMER-1",
+    "question": "Anti-sterility vitamin is:",
+    "options": [
+      "Vitamin B1",
+      "Vitamin B2",
+      "Vitamin E",
+      "Vitamin K"
+    ],
+    "correct": 2,
+    "explanation": "Vitamin E (tocopherol) is the anti-sterility/antioxidant vitamin.",
+    "explanations": {
+      "A": "B1 (thiamine) prevents beri-beri.",
+      "B": "B2 (riboflavin) prevents cheilosis.",
+      "C": "Vitamin E (tocopherol) is the anti-sterility/antioxidant vitamin.",
+      "D": "K is the clotting (anti-haemorrhagic) vitamin."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamins",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2017",
+    "year": 2017,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 67,
+    "_origId": "JIPMER-3",
+    "question": "The photolabile vitamin (destroyed by light) is:",
+    "options": [
+      "Thiamine",
+      "Riboflavin",
+      "Niacin",
+      "Cholecalciferol"
+    ],
+    "correct": 1,
+    "explanation": "Riboflavin (B2) is destroyed by exposure to light, hence photolabile.",
+    "explanations": {
+      "A": "Thiamine is heat-labile, not light.",
+      "B": "Riboflavin (B2) is destroyed by exposure to light, hence photolabile.",
+      "C": "Niacin is the most stable B vitamin.",
+      "D": "Cholecalciferol (D3) is actually formed BY light, not destroyed."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamins properties",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2017",
+    "year": 2017,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 151,
+    "_origId": "N4-3",
+    "question": "Which vitamin deficiency causes night blindness?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correct": 0,
+    "explanation": "Vitamin A (retinol) is essential for rhodopsin synthesis in rod cells; deficiency causes nyctalopia (night blindness).",
+    "explanations": {
+      "A": "Vitamin A (retinol) is essential for rhodopsin synthesis in rod cells; deficiency causes nyctalopia (night blindness).",
+      "B": "B12 deficiency causes megaloblastic anemia and neuropathy.",
+      "C": "Vitamin C deficiency causes scurvy.",
+      "D": "Vitamin D deficiency causes rickets/osteomalacia."
+    },
+    "subject": "Nutrition",
+    "topic": "Fat-soluble vitamins",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 173,
+    "_origId": "N4-25",
+    "question": "Which is the protein-energy malnutrition disorder characterized by edema?",
+    "options": [
+      "Marasmus",
+      "Kwashiorkor",
+      "Marasmic-Kwashiorkor",
+      "Cachexia"
+    ],
+    "correct": 1,
+    "explanation": "Kwashiorkor is protein deficiency presenting with bilateral pitting edema, hair changes, hepatomegaly.",
+    "explanations": {
+      "A": "Marasmus is severe wasting without edema, due to overall calorie deficiency.",
+      "B": "Kwashiorkor is protein deficiency presenting with bilateral pitting edema, hair changes, hepatomegaly.",
+      "C": "Mixed picture has both wasting and edema.",
+      "D": "Cachexia is wasting due to chronic disease, not specifically a PEM category."
+    },
+    "subject": "Nutrition",
+    "topic": "Protein energy malnutrition",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 189,
+    "_origId": "N5-16",
+    "question": "Recommended daily allowance of iron for an adult woman of reproductive age in India is:",
+    "options": [
+      "10 mg",
+      "21 mg",
+      "30 mg",
+      "60 mg"
+    ],
+    "correct": 1,
+    "explanation": "ICMR 2020 RDA for adult Indian women (reproductive age) is 21 mg/day of iron.",
+    "explanations": {
+      "A": "10 mg is RDA for adult men (older guidelines).",
+      "B": "ICMR 2020 RDA for adult Indian women (reproductive age) is 21 mg/day of iron.",
+      "C": "30 mg is closer to pregnancy supplementation under Anemia Mukt Bharat.",
+      "D": "60 mg is the daily IFA tablet content (therapeutic), not RDA."
+    },
+    "subject": "Nutrition",
+    "topic": "ICMR RDA",
+    "day": 12,
+    "difficulty": "Hard",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 193,
+    "_origId": "N5-20",
+    "question": "Which nutrient deficiency causes pellagra?",
+    "options": [
+      "Niacin (B3)",
+      "Thiamine (B1)",
+      "Riboflavin (B2)",
+      "Pyridoxine (B6)"
+    ],
+    "correct": 0,
+    "explanation": "Niacin (B3) deficiency causes pellagra: dermatitis, diarrhea, dementia (3 D's).",
+    "explanations": {
+      "A": "Niacin (B3) deficiency causes pellagra: dermatitis, diarrhea, dementia (3 D's).",
+      "B": "Thiamine deficiency causes beriberi.",
+      "C": "Riboflavin deficiency causes angular stomatitis, glossitis.",
+      "D": "B6 deficiency causes peripheral neuropathy."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamin deficiencies",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 270,
     "_origId": "N9-55",
     "question": "Among the following, which food provides the highest amount of protein per 100 grams?",
     "options": [
@@ -29,7 +308,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 88,
+    "id": 286,
     "_origId": "N9-71",
     "question": "Which food contains the highest amount of protein per serving?",
     "options": [
@@ -58,7 +337,193 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 1225,
+    "id": 346,
+    "_origId": "RRB-10",
+    "question": "Deficiency of which vitamin causes scurvy?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B6",
+      "Vitamin K",
+      "Vitamin C"
+    ],
+    "correct": 3,
+    "explanation": "Vitamin C deficiency impairs collagen synthesis, causing scurvy with bleeding gums.",
+    "explanations": {
+      "A": "Vitamin A deficiency causes night blindness.",
+      "B": "B6 deficiency causes peripheral neuropathy and dermatitis.",
+      "C": "Vitamin K deficiency causes bleeding tendencies.",
+      "D": "Vitamin C deficiency impairs collagen synthesis, causing scurvy with bleeding gums."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamin deficiency",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 347,
+    "_origId": "RRB-11",
+    "question": "Night blindness is caused by deficiency of vitamin:",
+    "options": [
+      "A",
+      "D",
+      "E",
+      "K"
+    ],
+    "correct": 0,
+    "explanation": "Vitamin A is required to form rhodopsin in rod cells; deficiency causes night blindness.",
+    "explanations": {
+      "A": "Vitamin A is required to form rhodopsin in rod cells; deficiency causes night blindness.",
+      "B": "Vitamin D deficiency causes rickets/osteomalacia.",
+      "C": "Vitamin E deficiency causes haemolytic anaemia in newborns.",
+      "D": "Vitamin K deficiency causes bleeding."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamin deficiency",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "RRB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 356,
+    "_origId": "RRB-20",
+    "question": "Vitamin D is synthesized in human skin with the help of:",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Sunlight (UV)",
+      "Vitamin C"
+    ],
+    "correct": 2,
+    "explanation": "UV-B converts 7-dehydrocholesterol in skin to cholecalciferol (vitamin D3).",
+    "explanations": {
+      "A": "Vitamin A is unrelated to dermal vitamin D synthesis.",
+      "B": "B-complex vitamins are not involved.",
+      "C": "UV-B converts 7-dehydrocholesterol in skin to cholecalciferol (vitamin D3).",
+      "D": "Vitamin C is involved in collagen, not vitamin D synthesis."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamin metabolism",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 372,
+    "_origId": "RRB-36",
+    "question": "A patient with iron deficiency anaemia is best advised to take iron supplements with:",
+    "options": [
+      "Milk",
+      "Tea",
+      "Orange juice",
+      "Antacid"
+    ],
+    "correct": 2,
+    "explanation": "Vitamin C in orange juice enhances absorption of non-haem iron.",
+    "explanations": {
+      "A": "Calcium in milk reduces iron absorption.",
+      "B": "Tannins in tea inhibit non-haem iron absorption.",
+      "C": "Vitamin C in orange juice enhances absorption of non-haem iron.",
+      "D": "Antacids raise gastric pH and impair iron absorption."
+    },
+    "subject": "Nutrition",
+    "topic": "Iron absorption",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 396,
+    "_origId": "YT-22",
+    "question": "Vitamin deficiency causing night blindness is:",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin K"
+    ],
+    "correct": 0,
+    "explanation": "Vitamin A (retinol) is required for rhodopsin synthesis in rod cells; deficiency causes nyctalopia, Bitot's spots and xerophthalmia.",
+    "explanations": {
+      "A": "Vitamin A (retinol) is required for rhodopsin synthesis in rod cells; deficiency causes nyctalopia, Bitot's spots and xerophthalmia.",
+      "B": "B12 deficiency causes megaloblastic anaemia and subacute combined degeneration.",
+      "C": "Vitamin C deficiency causes scurvy.",
+      "D": "Vitamin K deficiency causes bleeding disorders."
+    },
+    "subject": "Nutrition",
+    "topic": "Vitamin deficiency",
+    "day": 12,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 397,
+    "_origId": "YT-23",
+    "question": "A patient with chronic kidney disease should restrict which of the following?",
+    "options": [
+      "Potassium-rich foods",
+      "Vitamin C",
+      "Iron",
+      "Carbohydrate"
+    ],
+    "correct": 0,
+    "explanation": "In CKD the kidneys cannot excrete K+ well; hyperkalaemia can cause fatal arrhythmia, so banana, orange, coconut water, dry fruits and tomato are restricted.",
+    "explanations": {
+      "A": "In CKD the kidneys cannot excrete K+ well; hyperkalaemia can cause fatal arrhythmia, so banana, orange, coconut water, dry fruits and tomato are restricted.",
+      "B": "Often supplemented as it is water-soluble and dialysed away.",
+      "C": "Iron is usually given (IV/oral) with erythropoietin.",
+      "D": "Carbohydrate is the major energy source in renal diet."
+    },
+    "subject": "Nutrition",
+    "topic": "Therapeutic diet",
+    "day": 12,
+    "difficulty": "Medium",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "nutrition",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 1491,
     "question": "Sarcopenia refers to:",
     "options": [
       "Bone loss",
@@ -83,7 +548,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1226,
+    "id": 1492,
     "question": "Synthetic form of vitamin K often referenced in exams:",
     "options": [
       "Phylloquinone",
@@ -108,7 +573,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1228,
+    "id": 1494,
     "question": "Ventilator-associated pneumonia (VAP) typically occurs after intubation for at least:",
     "options": [
       "6 hours",
@@ -133,7 +598,7 @@
     "qtype": "factual"
   },
   {
-    "id": 939,
+    "id": 1205,
     "question": "A patient with chronic kidney disease is on hemodialysis. Which electrolyte imbalance is most commonly associated with renal failure?",
     "options": [
       "Hypokalemia",
@@ -158,7 +623,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 951,
+    "id": 1217,
     "question": "A patient with cancer is receiving chemotherapy. Which side effect requires immediate medical attention?",
     "options": [
       "Hair loss",
@@ -183,7 +648,7 @@
     "qtype": "scenario"
   },
   {
-    "id": 955,
+    "id": 1221,
     "question": "A patient with sepsis is in septic shock. What is the priority nursing intervention?",
     "options": [
       "Administering antibiotics",
@@ -208,7 +673,7 @@
     "qtype": "factual"
   },
   {
-    "id": 974,
+    "id": 1240,
     "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
     "options": [
       "Hyperkalemia",
@@ -233,7 +698,7 @@
     "qtype": "factual"
   },
   {
-    "id": 978,
+    "id": 1244,
     "question": "A patient with Cushing's syndrome is at risk for which complication?",
     "options": [
       "Hypoglycemia",
@@ -258,7 +723,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1000,
+    "id": 1266,
     "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
     "options": [
       "Hyperkalemia",
@@ -283,7 +748,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1051,
+    "id": 1317,
     "question": "Vitamin B12 deficiency causes:",
     "options": [
       "Scurvy",
@@ -308,7 +773,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1052,
+    "id": 1318,
     "question": "Vitamin C deficiency causes:",
     "options": [
       "Beriberi",
@@ -333,7 +798,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1053,
+    "id": 1319,
     "question": "Iron deficiency typically presents with:",
     "options": [
       "Macrocytic anemia",
@@ -358,7 +823,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1054,
+    "id": 1320,
     "question": "Diabetic diet planning emphasizes:",
     "options": [
       "Unlimited simple sugars",
@@ -376,381 +841,6 @@
     },
     "subject": "Nutrition",
     "topic": "Therapeutic diet",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1055,
-    "question": "Fasting plasma glucose diagnostic for diabetes (classic cut-off) is:",
-    "options": [
-      "≥100 mg/dL",
-      "≥126 mg/dL",
-      "≥140 mg/dL random",
-      "≥200 always"
-    ],
-    "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
-    "explanations": {
-      "A": "\"≥100 mg/dL\" is a plausible distractor but incorrect. The correct answer is B (\"≥126 mg/dL\") — Nutrition/biochemistry for NORCET nursing.",
-      "B": "Nutrition/biochemistry for NORCET nursing.",
-      "C": "\"≥140 mg/dL random\" is a plausible distractor but incorrect. The correct answer is B (\"≥126 mg/dL\") — Nutrition/biochemistry for NORCET nursing.",
-      "D": "\"≥200 always\" is a plausible distractor but incorrect. The correct answer is B (\"≥126 mg/dL\") — Nutrition/biochemistry for NORCET nursing."
-    },
-    "subject": "Nutrition",
-    "topic": "Labs",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1056,
-    "question": "Glycolysis occurs in:",
-    "options": [
-      "Mitochondria only",
-      "Cytoplasm",
-      "Nucleus",
-      "Lysosomes"
-    ],
-    "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
-    "explanations": {
-      "A": "\"Mitochondria only\" is a plausible distractor but incorrect. The correct answer is B (\"Cytoplasm\") — Nutrition/biochemistry for NORCET nursing.",
-      "B": "Nutrition/biochemistry for NORCET nursing.",
-      "C": "\"Nucleus\" is a plausible distractor but incorrect. The correct answer is B (\"Cytoplasm\") — Nutrition/biochemistry for NORCET nursing.",
-      "D": "\"Lysosomes\" is a plausible distractor but incorrect. The correct answer is B (\"Cytoplasm\") — Nutrition/biochemistry for NORCET nursing."
-    },
-    "subject": "Nutrition",
-    "topic": "Biochemistry",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1057,
-    "question": "Vitamin D deficiency in children causes:",
-    "options": [
-      "Pellagra",
-      "Rickets",
-      "Beriberi",
-      "Pernicious anemia"
-    ],
-    "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
-    "explanations": {
-      "A": "\"Pellagra\" is a plausible distractor but incorrect. The correct answer is B (\"Rickets\") — Nutrition/biochemistry for NORCET nursing.",
-      "B": "Nutrition/biochemistry for NORCET nursing.",
-      "C": "\"Beriberi\" is a plausible distractor but incorrect. The correct answer is B (\"Rickets\") — Nutrition/biochemistry for NORCET nursing.",
-      "D": "\"Pernicious anemia\" is a plausible distractor but incorrect. The correct answer is B (\"Rickets\") — Nutrition/biochemistry for NORCET nursing."
-    },
-    "subject": "Nutrition",
-    "topic": "Vitamins",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1058,
-    "question": "Iodine deficiency can lead to:",
-    "options": [
-      "Diabetes insipidus",
-      "Goiter",
-      "Scurvy",
-      "Hemochromatosis"
-    ],
-    "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
-    "explanations": {
-      "A": "\"Diabetes insipidus\" is a plausible distractor but incorrect. The correct answer is B (\"Goiter\") — Nutrition/biochemistry for NORCET nursing.",
-      "B": "Nutrition/biochemistry for NORCET nursing.",
-      "C": "\"Scurvy\" is a plausible distractor but incorrect. The correct answer is B (\"Goiter\") — Nutrition/biochemistry for NORCET nursing.",
-      "D": "\"Hemochromatosis\" is a plausible distractor but incorrect. The correct answer is B (\"Goiter\") — Nutrition/biochemistry for NORCET nursing."
-    },
-    "subject": "Nutrition",
-    "topic": "Minerals",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1059,
-    "question": "Renal diet often restricts:",
-    "options": [
-      "Protein, sodium, potassium, phosphorus as needed",
-      "Only water",
-      "Only fat",
-      "Only fiber"
-    ],
-    "correct": 0,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
-    "explanations": {
-      "A": "Nutrition/biochemistry for NORCET nursing.",
-      "B": "\"Only water\" is a plausible distractor but incorrect. The correct answer is A (\"Protein, sodium, potassium, phosphorus as needed\") — Nutrition/biochemistry for NORCET nursing.",
-      "C": "\"Only fat\" is a plausible distractor but incorrect. The correct answer is A (\"Protein, sodium, potassium, phosphorus as needed\") — Nutrition/biochemistry for NORCET nursing.",
-      "D": "\"Only fiber\" is a plausible distractor but incorrect. The correct answer is A (\"Protein, sodium, potassium, phosphorus as needed\") — Nutrition/biochemistry for NORCET nursing."
-    },
-    "subject": "Nutrition",
-    "topic": "Therapeutic diet",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1060,
-    "question": "Normal serum sodium approximate range (mEq/L):",
-    "options": [
-      "120–125",
-      "135–145",
-      "150–160",
-      "100–110"
-    ],
-    "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
-    "explanations": {
-      "A": "\"120–125\" is a plausible distractor but incorrect. The correct answer is B (\"135–145\") — Nutrition/biochemistry for NORCET nursing.",
-      "B": "Nutrition/biochemistry for NORCET nursing.",
-      "C": "\"150–160\" is a plausible distractor but incorrect. The correct answer is B (\"135–145\") — Nutrition/biochemistry for NORCET nursing.",
-      "D": "\"100–110\" is a plausible distractor but incorrect. The correct answer is B (\"135–145\") — Nutrition/biochemistry for NORCET nursing."
-    },
-    "subject": "Nutrition",
-    "topic": "Labs",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1061,
-    "question": "Biochemistry Q11: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1062,
-    "question": "Biochemistry Q12: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1063,
-    "question": "Biochemistry Q13: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1064,
-    "question": "Biochemistry Q14: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1065,
-    "question": "Biochemistry Q15: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1066,
-    "question": "Biochemistry Q16: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1067,
-    "question": "Biochemistry Q17: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1068,
-    "question": "Biochemistry Q18: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
-    "day": 12,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1069,
-    "question": "Biochemistry Q19: Ketone bodies increase in:",
-    "options": [
-      "Fed state",
-      "Prolonged fasting / uncontrolled diabetes",
-      "After high-carb meal",
-      "After IV dextrose only"
-    ],
-    "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
-    "explanations": {
-      "A": "\"Fed state\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "B": "Ketogenesis rises when carbohydrate availability is low.",
-      "C": "\"After high-carb meal\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low.",
-      "D": "\"After IV dextrose only\" is a plausible distractor but incorrect. The correct answer is B (\"Prolonged fasting / uncontrolled diabetes\") — Ketogenesis rises when carbohydrate availability is low."
-    },
-    "subject": "Nutrition",
-    "topic": "Metabolism",
     "day": 12,
     "difficulty": "Medium",
     "source": "Practice",

@@ -1,35 +1,533 @@
 [
   {
-    "id": 9,
-    "_origId": "N7-3",
-    "question": "First intervention in hypovolemic shock:",
+    "id": 2,
+    "_origId": "AIIMS-2",
+    "question": "The compression-to-ventilation ratio during CPR on an adult victim is:",
     "options": [
-      "Antibiotics",
-      "Vasopressors",
-      "IV fluid bolus",
-      "Inotropes"
+      "5:1",
+      "15:2",
+      "30:1",
+      "30:2"
     ],
-    "correct": 2,
-    "explanation": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
+    "correct": 3,
+    "explanation": "AHA recommends 30 compressions to 2 breaths for single-rescuer adult CPR.",
     "explanations": {
-      "A": "Antibiotics are only for suspected sepsis, not hypovolemia.",
-      "B": "Vasopressors are second-line after fluid resuscitation.",
-      "C": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
-      "D": "Inotropes are for cardiogenic shock, not hypovolemic."
+      "A": "5:1 was the old neonatal ratio, not adult.",
+      "B": "15:2 applies to two-rescuer pediatric CPR.",
+      "C": "30:1 is not a recognized AHA ratio.",
+      "D": "AHA recommends 30 compressions to 2 breaths for single-rescuer adult CPR."
     },
     "subject": "Medical-Surgical",
-    "topic": "Shock",
+    "topic": "Adult BLS",
     "day": 9,
     "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
-    "qtype": "scenario",
+    "source": "AIIMS SN 2017",
+    "year": 2017,
+    "qtype": "recall",
     "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
   },
   {
-    "id": 15,
+    "id": 35,
+    "_origId": "DSSSB-11",
+    "question": "The first vital sign to change with increasing intracranial pressure is:",
+    "options": [
+      "Blood pressure",
+      "Pulse",
+      "Respirations",
+      "Level of consciousness"
+    ],
+    "correct": 3,
+    "explanation": "A change in level of consciousness (LOC) is the EARLIEST and most sensitive sign of increased ICP — must be detected before Cushing's triad appears.",
+    "explanations": {
+      "A": "BP changes (widened pulse pressure as part of Cushing's triad) are LATE signs.",
+      "B": "Bradycardia is a late component of Cushing's triad.",
+      "C": "Irregular respirations (Cheyne-Stokes) are late.",
+      "D": "A change in level of consciousness (LOC) is the EARLIEST and most sensitive sign of increased ICP — must be detected before Cushing's triad appears."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neuro assessment",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 39,
+    "_origId": "DSSSB-15",
+    "question": "Tracheostomy tube is changed first time after:",
+    "options": [
+      "24 hours",
+      "48 hours",
+      "72 hours / 7 days",
+      "30 days"
+    ],
+    "correct": 2,
+    "explanation": "The first tracheostomy tube change is typically performed after 7 days (some references cite ≥72 h with surgical), allowing the tract to mature and reduce risk of accidental decannulation.",
+    "explanations": {
+      "A": "Too early — stoma tract not yet matured; risk of false passage.",
+      "B": "Stoma still immature.",
+      "C": "The first tracheostomy tube change is typically performed after 7 days (some references cite ≥72 h with surgical), allowing the tract to mature and reduce risk of accidental decannulation.",
+      "D": "Too long — risk of biofilm and obstruction."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Tracheostomy care",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 56,
+    "_origId": "ESIC-12",
+    "question": "The recommended chest compression to ventilation ratio in adult CPR (single rescuer) is:",
+    "options": [
+      "15:2",
+      "30:2",
+      "5:1",
+      "3:1"
+    ],
+    "correct": 1,
+    "explanation": "Adult CPR (any rescuer count) uses 30:2 compressions to breaths until advanced airway is placed (then continuous compressions).",
+    "explanations": {
+      "A": "15:2 is the two-rescuer ratio for children/infants, not adults.",
+      "B": "Adult CPR (any rescuer count) uses 30:2 compressions to breaths until advanced airway is placed (then continuous compressions).",
+      "C": "Old guideline (pre-2005), no longer used.",
+      "D": "3:1 is used in neonatal resuscitation."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "BLS / emergency",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2022",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 91,
+    "_origId": "N1-3",
+    "question": "Which type of shock results from a severe allergic reaction?",
+    "options": [
+      "Cardiogenic shock",
+      "Anaphylactic shock",
+      "Hypovolemic shock",
+      "Septic shock"
+    ],
+    "correct": 1,
+    "explanation": "Anaphylactic (distributive) shock is an IgE-mediated hypersensitivity causing massive vasodilation, capillary leak and bronchospasm; first-line treatment is IM adrenaline 0.5 mg in the anterolateral thigh.",
+    "explanations": {
+      "A": "Pump failure (e.g., post-MI), not allergy.",
+      "B": "Anaphylactic (distributive) shock is an IgE-mediated hypersensitivity causing massive vasodilation, capillary leak and bronchospasm; first-line treatment is IM adrenaline 0.5 mg in the anterolateral thigh.",
+      "C": "Caused by blood/fluid loss.",
+      "D": "Caused by overwhelming infection and dysregulated host response."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Shock classification",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 92,
+    "_origId": "N1-4",
+    "question": "Mannitol is given to a head-injury patient mainly to:",
+    "options": [
+      "Reduce blood pressure",
+      "Reduce pulse rate",
+      "Decrease intracranial pressure",
+      "Decrease body temperature"
+    ],
+    "correct": 2,
+    "explanation": "Mannitol is an osmotic diuretic that draws fluid from brain tissue into the intravascular space, lowering ICP. Typical dose 0.25-1 g/kg IV over 15-30 min; monitor serum osmolality and urine output.",
+    "explanations": {
+      "A": "Not its primary indication.",
+      "B": "Not a chronotropic drug.",
+      "C": "Mannitol is an osmotic diuretic that draws fluid from brain tissue into the intravascular space, lowering ICP. Typical dose 0.25-1 g/kg IV over 15-30 min; monitor serum osmolality and urine output.",
+      "D": "Antipyretics or cooling, not mannitol."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neuro emergency",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 94,
+    "_origId": "N1-6",
+    "question": "First aid for a chemical splash to the eye is to:",
+    "options": [
+      "Wash the eye thoroughly with water",
+      "Apply antibiotic eye drops",
+      "Cover the eye with a sterile pad",
+      "Refer immediately without first aid"
+    ],
+    "correct": 0,
+    "explanation": "Immediate copious irrigation with clean water or saline for at least 15-20 minutes dilutes the chemical, neutralises pH and is the single most important measure to limit corneal damage.",
+    "explanations": {
+      "A": "Immediate copious irrigation with clean water or saline for at least 15-20 minutes dilutes the chemical, neutralises pH and is the single most important measure to limit corneal damage.",
+      "B": "Done after irrigation and ophthalmology review.",
+      "C": "Trapping chemical against the eye worsens injury.",
+      "D": "Delaying irrigation allows continuing chemical burn."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Eye emergency",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 127,
+    "_origId": "N3-9",
+    "question": "Which of the following is a NEGATIVE symptom of schizophrenia?",
+    "options": [
+      "Anhedonia",
+      "Hallucination",
+      "Delusion",
+      "Disorganised speech"
+    ],
+    "correct": 0,
+    "explanation": "Anhedonia (inability to feel pleasure), avolition, alogia, blunted affect and asociality are negative symptoms — deficits of normal function.",
+    "explanations": {
+      "A": "Anhedonia (inability to feel pleasure), avolition, alogia, blunted affect and asociality are negative symptoms — deficits of normal function.",
+      "B": "Hallucinations are positive symptoms (excess of normal experience).",
+      "C": "Delusions are positive symptoms.",
+      "D": "Disorganised speech/behaviour is a positive symptom."
+    },
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia symptoms",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 129,
+    "_origId": "N3-11",
+    "question": "According to Freud's structural model, which part of the mind operates on the 'reality principle'?",
+    "options": [
+      "Ego",
+      "Id",
+      "Superego",
+      "Preconscious"
+    ],
+    "correct": 0,
+    "explanation": "The Ego mediates between Id and Superego using the 'reality principle' to delay gratification until socially acceptable.",
+    "explanations": {
+      "A": "The Ego mediates between Id and Superego using the 'reality principle' to delay gratification until socially acceptable.",
+      "B": "Id operates on the 'pleasure principle' (immediate gratification).",
+      "C": "Superego operates on the 'morality principle'.",
+      "D": "Preconscious is a level of awareness, not a structural component."
+    },
+    "subject": "Psychiatric",
+    "topic": "Freudian theory",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 147,
+    "_origId": "N3-29",
+    "question": "Bleuler's classic '4 A's' of schizophrenia include all of the following EXCEPT:",
+    "options": [
+      "Anhedonia",
+      "Affect (blunted)",
+      "Associations (loose)",
+      "Ambivalence"
+    ],
+    "correct": 0,
+    "explanation": "Bleuler's 4 A's are Affect (blunted), Associations (loose), Ambivalence, Autism — NOT anhedonia (which is a modern negative symptom but not in Bleuler's list).",
+    "explanations": {
+      "A": "Bleuler's 4 A's are Affect (blunted), Associations (loose), Ambivalence, Autism — NOT anhedonia (which is a modern negative symptom but not in Bleuler's list).",
+      "B": "Blunted Affect is one of Bleuler's 4 A's.",
+      "C": "Loose Associations (formal thought disorder) is included.",
+      "D": "Ambivalence (simultaneous opposite feelings) is included; the 4th is Autism (withdrawal into inner world)."
+    },
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia — Bleuler",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 148,
+    "_origId": "N3-30",
+    "question": "An adult patient is found unresponsive and pulseless. According to current BLS guidelines, what is the recommended chest compression rate?",
+    "options": [
+      "100–120/min",
+      "60–80/min",
+      "30–50/min",
+      "140–160/min"
+    ],
+    "correct": 0,
+    "explanation": "AHA 2020 BLS: compress at 100–120/min, depth 5–6 cm (2–2.4 in), allow full recoil, minimise interruptions; compression-to-ventilation 30:2 (single rescuer adult).",
+    "explanations": {
+      "A": "AHA 2020 BLS: compress at 100–120/min, depth 5–6 cm (2–2.4 in), allow full recoil, minimise interruptions; compression-to-ventilation 30:2 (single rescuer adult).",
+      "B": "Too slow — yields inadequate cardiac output.",
+      "C": "Far too slow.",
+      "D": "Too fast — reduces depth and recoil, lowering perfusion."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "BLS / CPR",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 162,
+    "_origId": "N4-14",
+    "question": "Compression-to-ventilation ratio in adult CPR (single rescuer) is:",
+    "options": [
+      "15:2",
+      "30:2",
+      "5:1",
+      "10:2"
+    ],
+    "correct": 1,
+    "explanation": "30:2 is the standard adult CPR ratio (single or two rescuer) per AHA 2020 guidelines.",
+    "explanations": {
+      "A": "15:2 is used for two-rescuer pediatric CPR.",
+      "B": "30:2 is the standard adult CPR ratio (single or two rescuer) per AHA 2020 guidelines.",
+      "C": "5:1 was an old guideline, no longer recommended.",
+      "D": "Not a current recommended ratio."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "BLS/CPR",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 164,
+    "_origId": "N4-16",
+    "question": "Glasgow Coma Scale lowest possible score is:",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "5"
+    ],
+    "correct": 2,
+    "explanation": "GCS minimum total is 3 (1 each for eye, verbal, motor); maximum is 15.",
+    "explanations": {
+      "A": "GCS minimum is not 0; each component scores at least 1.",
+      "B": "Single component minimum, but total minimum is 3.",
+      "C": "GCS minimum total is 3 (1 each for eye, verbal, motor); maximum is 15.",
+      "D": "Not the minimum total."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Neurological assessment",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 176,
+    "_origId": "N5-3",
+    "question": "Cushing's triad consists of:",
+    "options": [
+      "Hypertension, bradycardia, irregular respirations",
+      "Hypotension, tachycardia, tachypnea",
+      "Hypertension, tachycardia, tachypnea",
+      "Hypotension, bradycardia, bradypnea"
+    ],
+    "correct": 0,
+    "explanation": "Cushing's triad (sign of raised ICP): hypertension with widened pulse pressure, bradycardia, and irregular/Cheyne-Stokes respirations.",
+    "explanations": {
+      "A": "Cushing's triad (sign of raised ICP): hypertension with widened pulse pressure, bradycardia, and irregular/Cheyne-Stokes respirations.",
+      "B": "Suggests shock, not raised ICP.",
+      "C": "Inconsistent with raised ICP.",
+      "D": "Not Cushing's triad."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Increased intracranial pressure",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 177,
+    "_origId": "N5-4",
+    "question": "Standard adult endotracheal tube size for males is:",
+    "options": [
+      "6.0-6.5 mm",
+      "7.0-7.5 mm",
+      "8.0-8.5 mm",
+      "9.0-9.5 mm"
+    ],
+    "correct": 2,
+    "explanation": "Standard adult male ETT size is 8.0-8.5 mm internal diameter.",
+    "explanations": {
+      "A": "Pediatric range.",
+      "B": "Standard for adult females (7.0-7.5 mm).",
+      "C": "Standard adult male ETT size is 8.0-8.5 mm internal diameter.",
+      "D": "Larger than usual; rarely used."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Airway management",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 180,
+    "_origId": "N5-7",
+    "question": "Which is the most reliable site for assessing pulse during CPR in an adult?",
+    "options": [
+      "Radial",
+      "Brachial",
+      "Carotid",
+      "Femoral"
+    ],
+    "correct": 2,
+    "explanation": "Carotid pulse is the recommended site for adult pulse check during CPR (no more than 10 seconds).",
+    "explanations": {
+      "A": "Radial may be absent in shock; not reliable.",
+      "B": "Brachial is used for infants.",
+      "C": "Carotid pulse is the recommended site for adult pulse check during CPR (no more than 10 seconds).",
+      "D": "Femoral may be used but carotid is standard per AHA."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "BLS",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 198,
+    "_origId": "N5-25",
+    "question": "Sengstaken-Blakemore tube is used in:",
+    "options": [
+      "Nasogastric feeding",
+      "Esophageal variceal bleeding",
+      "Tracheostomy care",
+      "Gastric lavage"
+    ],
+    "correct": 1,
+    "explanation": "Sengstaken-Blakemore is a triple-lumen tube with gastric and esophageal balloons used to tamponade bleeding esophageal varices.",
+    "explanations": {
+      "A": "Standard NG tube (Ryle's) is used for feeding.",
+      "B": "Sengstaken-Blakemore is a triple-lumen tube with gastric and esophageal balloons used to tamponade bleeding esophageal varices.",
+      "C": "Tracheostomy uses a different tube system.",
+      "D": "Gastric lavage uses an Ewald tube or wide-bore orogastric tube."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "GI emergencies",
+    "day": 9,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 204,
     "_origId": "N6-6",
     "question": "CPR compression:ventilation ratio in adults (single rescuer):",
     "options": [
@@ -55,10 +553,39 @@
     "qtype": "recall",
     "section": "foundations",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 20,
+    "id": 209,
+    "_origId": "N7-3",
+    "question": "First intervention in hypovolemic shock:",
+    "options": [
+      "Antibiotics",
+      "Vasopressors",
+      "IV fluid bolus",
+      "Inotropes"
+    ],
+    "correct": 2,
+    "explanation": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
+    "explanations": {
+      "A": "Antibiotics are only for suspected sepsis, not hypovolemia.",
+      "B": "Vasopressors are second-line after fluid resuscitation.",
+      "C": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
+      "D": "Inotropes are for cardiogenic shock, not hypovolemic."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Shock",
+    "day": 9,
+    "difficulty": "Easy",
+    "source": "NORCET 7 Mains",
+    "year": 2024,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [],
+    "_sourceFile": "norcet-7-mains-2024-recalls.json"
+  },
+  {
+    "id": 218,
     "_origId": "N9-3",
     "question": "A case of road traffic accident (RTA) develops neuropathic pain. Which drug is most appropriate for the management of neuropathic pain?",
     "options": [
@@ -87,7 +614,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 22,
+    "id": 220,
     "_origId": "N9-5",
     "question": "Which of the following is NOT typically seen in a patient with heat stroke?",
     "options": [
@@ -116,7 +643,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 24,
+    "id": 222,
     "_origId": "N9-7",
     "question": "In a patient with a shockable cardiac rhythm, after how many shocks should adrenaline be administered?",
     "options": [
@@ -145,7 +672,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 29,
+    "id": 227,
     "_origId": "N9-12",
     "question": "What is the recommended breathing rate during CPR in a patient with an advanced airway?",
     "options": [
@@ -174,7 +701,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 47,
+    "id": 245,
     "_origId": "N9-30",
     "question": "A patient is unconscious after trauma with suspected cervical spine injury. What is the priority nursing intervention?",
     "options": [
@@ -203,7 +730,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 50,
+    "id": 248,
     "_origId": "N9-33",
     "question": "Patients on monoamine oxidase inhibitors (MAOIs) should avoid which of the following?",
     "options": [
@@ -232,7 +759,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 98,
+    "id": 296,
     "_origId": "N9-81",
     "question": "A 25-year-old expresses a persistent urge to wear female clothing and identifies with a gender different from assigned sex at birth. What is the most appropriate term?",
     "options": [
@@ -261,7 +788,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 99,
+    "id": 297,
     "_origId": "N9-82",
     "question": "A 30-year-old with suspected schizophrenia has disorganized thinking and reports hearing voices commenting on his actions. Which is a first-rank symptom of schizophrenia?",
     "options": [
@@ -290,7 +817,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 100,
+    "id": 298,
     "_origId": "N9-83",
     "question": "A 35-year-old on antipsychotic medication reports a constant urge to move and an inability to stay seated. Which condition is most likely?",
     "options": [
@@ -319,7 +846,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 102,
+    "id": 300,
     "_origId": "N9-85",
     "question": "A 40-year-old on disulfiram therapy for alcohol dependence — what is the most critical advice?",
     "options": [
@@ -348,7 +875,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 103,
+    "id": 301,
     "_origId": "N9-86",
     "question": "A 28-year-old with borderline personality disorder exhibits emotional instability and impulsive behavior. Which therapy is first-line?",
     "options": [
@@ -375,508 +902,5 @@
     "section": "psychiatric",
     "tags": [],
     "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 104,
-    "_origId": "N9-87",
-    "question": "A patient reports 3 months of low mood followed by a recent period of excessive energy, talkativeness, and reckless behavior. Bipolar I disorder is suspected. What is the most likely current diagnosis?",
-    "options": [
-      "Major depressive disorder",
-      "Bipolar I disorder with current manic episode",
-      "Generalized anxiety disorder",
-      "Bipolar II disorder with hypomania"
-    ],
-    "correct": 1,
-    "explanation": "Past depression + current manic episode (excessive energy, reckless behavior) = Bipolar I with current manic episode.",
-    "explanations": {
-      "A": "MDD has no manic/hypomanic episode.",
-      "B": "Past depression + current manic episode (excessive energy, reckless behavior) = Bipolar I with current manic episode.",
-      "C": "GAD involves chronic worry, not mood cycling.",
-      "D": "Bipolar II requires hypomania (less severe, <1 week, no functional impairment)."
-    },
-    "subject": "Psychiatric",
-    "topic": "Bipolar disorder",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 105,
-    "_origId": "N9-88",
-    "question": "A patient reports persistent low mood, low energy, and hopelessness for several years without episodes of major depression. What is the most likely diagnosis?",
-    "options": [
-      "Major depressive disorder",
-      "Dysthymia",
-      "Bipolar II disorder",
-      "Cyclothymic disorder"
-    ],
-    "correct": 1,
-    "explanation": "Dysthymia (now Persistent Depressive Disorder) = chronic low mood ≥2 years without MDE.",
-    "explanations": {
-      "A": "MDD requires ≥2-week episodes meeting 5+ criteria.",
-      "B": "Dysthymia (now Persistent Depressive Disorder) = chronic low mood ≥2 years without MDE.",
-      "C": "Bipolar II has hypomanic episodes, absent here.",
-      "D": "Cyclothymia requires hypomanic + depressive symptoms alternating for ≥2 years."
-    },
-    "subject": "Psychiatric",
-    "topic": "Chronic mood disorders",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 106,
-    "_origId": "N9-89",
-    "question": "A 45-year-old on opioid therapy for post-surgical pain has a respiratory rate of 10 breaths/min. What is the primary concern?",
-    "options": [
-      "Hypertension",
-      "Respiratory depression",
-      "Tachycardia",
-      "Hyperglycemia"
-    ],
-    "correct": 1,
-    "explanation": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
-    "explanations": {
-      "A": "Opioids cause hypotension, not hypertension.",
-      "B": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
-      "C": "Opioids cause bradycardia, not tachycardia.",
-      "D": "Hyperglycemia is not an opioid effect."
-    },
-    "subject": "Psychiatric",
-    "topic": "Opioid toxicity",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 107,
-    "_origId": "N9-90",
-    "question": "A patient with schizophrenia speaks in a way that frequently drifts off-topic. This is identified as a disorder of thought form. Which term best describes it?",
-    "options": [
-      "Flight of ideas",
-      "Tangentiality",
-      "Thought blocking",
-      "Loose associations"
-    ],
-    "correct": 1,
-    "explanation": "Tangentiality — replies veer off-topic and never return to the original point.",
-    "explanations": {
-      "A": "Flight of ideas involves rapid, pressured speech jumping between related ideas (mania).",
-      "B": "Tangentiality — replies veer off-topic and never return to the original point.",
-      "C": "Thought blocking is abrupt stoppage of speech/thoughts.",
-      "D": "Loose associations involve disconnected ideas with no logical link — more severe than tangentiality."
-    },
-    "subject": "Psychiatric",
-    "topic": "Thought disorder",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 108,
-    "_origId": "N9-91",
-    "question": "A 12-year-old with conduct disorder exhibits aggressive behavior and disregard for rules. What is a key nursing role?",
-    "options": [
-      "Encourage free expression without boundaries",
-      "Implement strict rules and regulations with consistent enforcement",
-      "Avoid setting limits to reduce confrontations",
-      "Focus solely on medication administration"
-    ],
-    "correct": 1,
-    "explanation": "Structured environment with firm, consistent rules is the evidence-based behavioral strategy.",
-    "explanations": {
-      "A": "Lack of limits worsens impulsive behavior.",
-      "B": "Structured environment with firm, consistent rules is the evidence-based behavioral strategy.",
-      "C": "Avoiding limits reinforces disruptive behavior.",
-      "D": "Medication is adjunctive; psychosocial structure is primary."
-    },
-    "subject": "Psychiatric",
-    "topic": "Conduct disorder",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 109,
-    "_origId": "N9-92",
-    "question": "Which of the following is NOT considered a negative symptom of schizophrenia?",
-    "options": [
-      "Apathy",
-      "Alogia",
-      "Ambivalence",
-      "Anhedonia"
-    ],
-    "correct": 2,
-    "explanation": "Ambivalence — per Bleuler's four A's it's considered a primary (cognitive) feature, not classified among standard negative symptoms (apathy, alogia, anhedonia, asociality, avolition).",
-    "explanations": {
-      "A": "Apathy (avolition) is a classic negative symptom.",
-      "B": "Alogia (poverty of speech) is negative.",
-      "C": "Ambivalence — per Bleuler's four A's it's considered a primary (cognitive) feature, not classified among standard negative symptoms (apathy, alogia, anhedonia, asociality, avolition).",
-      "D": "Anhedonia is a negative symptom."
-    },
-    "subject": "Psychiatric",
-    "topic": "Schizophrenia symptoms",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 111,
-    "_origId": "N9-94",
-    "question": "A 45-year-old with schizophrenia stable on a typical antipsychotic × 5 years now exhibits involuntary lip smacking and tongue protrusion (Tardive Dyskinesia). What is the priority management?",
-    "options": [
-      "Initiate Propranolol to control motor movements",
-      "Increase the dose of the current antipsychotic",
-      "Substitute with Trihexyphenidyl for symptom control",
-      "Decrease the dose of current antipsychotic or switch to an atypical agent"
-    ],
-    "correct": 3,
-    "explanation": "First step is to lower or discontinue the typical antipsychotic and switch to an atypical (clozapine has lowest TD risk). VMAT2 inhibitors (valbenazine/deutetrabenazine) are approved for symptomatic control.",
-    "explanations": {
-      "A": "Propranolol is for akathisia, not TD.",
-      "B": "Increasing the offending drug may transiently mask TD but worsens long-term severity.",
-      "C": "Anticholinergics (trihexyphenidyl) actually worsen TD.",
-      "D": "First step is to lower or discontinue the typical antipsychotic and switch to an atypical (clozapine has lowest TD risk). VMAT2 inhibitors (valbenazine/deutetrabenazine) are approved for symptomatic control."
-    },
-    "subject": "Psychiatric",
-    "topic": "Tardive Dyskinesia",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 112,
-    "_origId": "N9-95",
-    "question": "A 38-year-old believes his neighbors are plotting to harm him and are constantly monitoring his activities. Which term best describes this belief?",
-    "options": [
-      "Delusion of grandeur",
-      "Delusion of persecution",
-      "Delusion of reference",
-      "Delusion of control"
-    ],
-    "correct": 1,
-    "explanation": "Persecutory delusion = belief others are conspiring/plotting harm — commonest type in schizophrenia.",
-    "explanations": {
-      "A": "Grandiose delusion = inflated self-importance.",
-      "B": "Persecutory delusion = belief others are conspiring/plotting harm — commonest type in schizophrenia.",
-      "C": "Reference delusion = innocuous stimuli (TV, news) believed to refer to self.",
-      "D": "Delusion of control = belief that one's thoughts/actions are controlled by external force."
-    },
-    "subject": "Psychiatric",
-    "topic": "Delusions",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "psychiatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 119,
-    "_origId": "N9-102",
-    "question": "A pediatric client on HFNC shows SpO2 of 50%. What is the most appropriate and immediate action?",
-    "options": [
-      "Increase HFNC flow rate by 5 L/min",
-      "Call the Respiratory Therapist to adjust the FiO2",
-      "Immediately discontinue HFNC and switch to BVM with 100% oxygen",
-      "Reposition the child prone and reassess SpO2 after 15 minutes"
-    ],
-    "correct": 2,
-    "explanation": "Critical hypoxia (SpO2 50%) requires immediate bag-valve-mask ventilation with 100% O2 — rescue ventilation takes precedence over device titration.",
-    "explanations": {
-      "A": "Simply increasing flow is insufficient with critical hypoxia.",
-      "B": "Waiting for RT will waste precious seconds.",
-      "C": "Critical hypoxia (SpO2 50%) requires immediate bag-valve-mask ventilation with 100% O2 — rescue ventilation takes precedence over device titration.",
-      "D": "Repositioning with 15-minute wait is unacceptably dangerous at SpO2 50%."
-    },
-    "subject": "Pediatric",
-    "topic": "Pediatric emergency airway",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "pediatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 1224,
-    "question": "A marker associated with neural tube defects in amniotic fluid includes:",
-    "options": [
-      "Bilirubin",
-      "Acetylcholinesterase / AFP context",
-      "Glucose only",
-      "Urea"
-    ],
-    "correct": 1,
-    "explanation": "• Elevated AFP and AChE patterns support NTD screening context.\n• Simplified for MCQ practice.",
-    "explanations": {
-      "A": "\"Bilirubin\" is a plausible distractor but incorrect. The correct answer is B (\"Acetylcholinesterase / AFP context\") — Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice.",
-      "B": "Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice.",
-      "C": "\"Glucose only\" is a plausible distractor but incorrect. The correct answer is B (\"Acetylcholinesterase / AFP context\") — Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice.",
-      "D": "\"Urea\" is a plausible distractor but incorrect. The correct answer is B (\"Acetylcholinesterase / AFP context\") — Elevated AFP and AChE patterns support NTD screening context. Simplified for MCQ practice."
-    },
-    "subject": "Mixed",
-    "topic": "OBG / Genetics",
-    "day": 9,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1231,
-    "question": "BLS sequence for unresponsive adult without pulse:",
-    "options": [
-      "A-B-C",
-      "C-A-B (compressions first)",
-      "D-A-B",
-      "R-A-B"
-    ],
-    "correct": 1,
-    "explanation": "• AHA BLS: start chest compressions first (C-A-B) for adults.",
-    "explanations": {
-      "A": "\"A-B-C\" is a plausible distractor but incorrect. The correct answer is B (\"C-A-B (compressions first)\") — AHA BLS: start chest compressions first (C-A-B) for adults.",
-      "B": "AHA BLS: start chest compressions first (C-A-B) for adults.",
-      "C": "\"D-A-B\" is a plausible distractor but incorrect. The correct answer is B (\"C-A-B (compressions first)\") — AHA BLS: start chest compressions first (C-A-B) for adults.",
-      "D": "\"R-A-B\" is a plausible distractor but incorrect. The correct answer is B (\"C-A-B (compressions first)\") — AHA BLS: start chest compressions first (C-A-B) for adults."
-    },
-    "subject": "Mixed",
-    "topic": "Emergency",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 361,
-    "syllabusId": "ent-1-presbycusis",
-    "question": "72-y-old with progressive hearing loss worse in crowded rooms.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
-      "Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise",
-      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
-      "Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until i…"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Refer for pure-tone audiometry, hearing-aid assessment; counsel face-to-face communication, reduced background noise. Bilateral, symmetrical, high-frequency first",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Presbycusis",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 362,
-    "syllabusId": "ent-2-otoscope-examination",
-    "question": "Toddler with ear pain.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)",
-      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
-      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
-      "Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy. Pull pinna up-back (adult), down-back (child <3 y)"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Otoscope examination",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 363,
-    "syllabusId": "ent-3-laryngoscope",
-    "question": "Infant requiring intubation.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoco…",
-      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
-      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
-      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT. Indirect: mirror via oropharynx",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Laryngoscope",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 364,
-    "syllabusId": "ent-4-acute-epiglottitis",
-    "question": "4-y-old unimmunized, drooling, tripod, stridor, fever 39.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
-      "Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until intubated",
-      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
-      "Refer for BERA; if profound SNHL, evaluate for cochlear implantation (best outcome before 3 y)"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until intubated (Hib vaccine has dramatically reduced incidence.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Do NOT examine throat or put in supine; summon anesthetist for OT controlled intubation, IV ceftriaxone, keep child in mother's lap until intubated. 4 Ds: Drooling, Dysphagia, Dysphonia, Distress",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Acute epiglottitis",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 365,
-    "syllabusId": "ent-5-meniere-disease",
-    "question": "45-y-old with episodic vertigo, tinnitus, low-frequency hearing loss.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT",
-      "Interpret: right conductive hearing loss; ENT referral, otoscopy, audiometry",
-      "Review dose (furosemide ototoxicity especially IV bolus), slow infusion, audiology referral",
-      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry. Triad: vertigo + sensorineural hearing loss + tinnitus"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Meniere disease",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 366,
-    "syllabusId": "ent-6-epistaxis-management",
-    "question": "Adult with active anterior nose bleed.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Low-salt diet (<2 g/d), betahistine 16 mg TDS, prochlorperazine for acute attack, refer for audiometry",
-      "Pull pinna down-back for straightening canal, examine for red bulging TM, assess mobility with pneumatic otoscopy",
-      "Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoconstrictor (oxymetazo…",
-      "Use Miller 0 or 1 straight blade to lift epiglottis, visualize cords, 3.5-4.0 uncuffed ETT"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoconstrictor (oxymetazo… (Do NOT lean head back — aspiration risk.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Sit upright leaning forward, pinch cartilaginous nose 10-15 min, ice on bridge; if persists, anterior pack with silver nitrate after vasoconstrictor (oxymetazo…. First aid: lean forward, pinch cartilaginous nose 10-15 min, ice pack on bridge",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Epistaxis — management",
-    "section": "ent",
-    "day": 9,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
   }
 ]

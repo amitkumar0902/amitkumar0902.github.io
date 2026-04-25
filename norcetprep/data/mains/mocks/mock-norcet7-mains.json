@@ -1,0 +1,105 @@
+{
+  "id": "norcet7-mains",
+  "title": "NORCET 7 Mains 2024 — Recalls",
+  "count": 3,
+  "minutes": 60,
+  "source": "NORCET 7 Mains 2024 — Recalls",
+  "verbatim": true,
+  "subjects": {
+    "OBG": 1,
+    "Fundamentals": 1,
+    "Medical-Surgical": 1
+  },
+  "questions": [
+    {
+      "id": 207,
+      "_origId": "N7-1",
+      "question": "Episiotomy most commonly used in India:",
+      "options": [
+        "Mediolateral",
+        "Midline",
+        "J-shaped",
+        "Lateral"
+      ],
+      "correct": 0,
+      "explanation": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
+      "explanations": {
+        "A": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
+        "B": "Preferred in the USA but not standard in India due to higher severe-tear risk.",
+        "C": "J-shaped is rarely used.",
+        "D": "Lateral episiotomy is obsolete; abandoned due to complications."
+      },
+      "subject": "OBG",
+      "topic": "Episiotomy",
+      "day": 3,
+      "difficulty": "Easy",
+      "source": "NORCET 7 Mains",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [],
+      "_sourceFile": "norcet-7-mains-2024-recalls.json",
+      "mockSeq": 1
+    },
+    {
+      "id": 208,
+      "_origId": "N7-2",
+      "question": "Triple-lumen catheter typically has:",
+      "options": [
+        "1 port",
+        "2 ports",
+        "3 ports",
+        "4 ports"
+      ],
+      "correct": 2,
+      "explanation": "Triple-lumen = 3 ports (distal, middle, proximal).",
+      "explanations": {
+        "A": "Single-lumen.",
+        "B": "Double-lumen.",
+        "C": "Triple-lumen = 3 ports (distal, middle, proximal).",
+        "D": "Quadruple-lumen is rare and has 4 ports."
+      },
+      "subject": "Fundamentals",
+      "topic": "Central line",
+      "day": 8,
+      "difficulty": "Easy",
+      "source": "NORCET 7 Mains",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [],
+      "_sourceFile": "norcet-7-mains-2024-recalls.json",
+      "mockSeq": 2
+    },
+    {
+      "id": 209,
+      "_origId": "N7-3",
+      "question": "First intervention in hypovolemic shock:",
+      "options": [
+        "Antibiotics",
+        "Vasopressors",
+        "IV fluid bolus",
+        "Inotropes"
+      ],
+      "correct": 2,
+      "explanation": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
+      "explanations": {
+        "A": "Antibiotics are only for suspected sepsis, not hypovolemia.",
+        "B": "Vasopressors are second-line after fluid resuscitation.",
+        "C": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
+        "D": "Inotropes are for cardiogenic shock, not hypovolemic."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Shock",
+      "day": 9,
+      "difficulty": "Easy",
+      "source": "NORCET 7 Mains",
+      "year": 2024,
+      "qtype": "scenario",
+      "section": "medical-surgical",
+      "tags": [],
+      "_sourceFile": "norcet-7-mains-2024-recalls.json",
+      "mockSeq": 3
+    }
+  ]
+}

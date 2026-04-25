@@ -1,6 +1,192 @@
 [
   {
-    "id": 11,
+    "id": 14,
+    "_origId": "AIIMS-14",
+    "question": "Phototherapy is indicated in neonates with:",
+    "options": [
+      "Hypoglycemia",
+      "Hyperbilirubinemia",
+      "Hypothermia",
+      "Hypocalcemia"
+    ],
+    "correct": 1,
+    "explanation": "Phototherapy converts unconjugated bilirubin to water-soluble isomers, treating neonatal hyperbilirubinemia.",
+    "explanations": {
+      "A": "Hypoglycemia is treated with feeds/IV dextrose.",
+      "B": "Phototherapy converts unconjugated bilirubin to water-soluble isomers, treating neonatal hyperbilirubinemia.",
+      "C": "Hypothermia is treated with warmer/skin-to-skin care.",
+      "D": "Hypocalcemia needs calcium replacement, not light."
+    },
+    "subject": "Pediatric",
+    "topic": "Neonatal jaundice",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 54,
+    "_origId": "ESIC-10",
+    "question": "The Apgar score is assessed at:",
+    "options": [
+      "1 and 5 minutes after birth",
+      "Immediately after birth only",
+      "10 and 20 minutes after birth",
+      "30 minutes after birth"
+    ],
+    "correct": 0,
+    "explanation": "Apgar (Appearance, Pulse, Grimace, Activity, Respiration) is scored at 1 and 5 minutes; if <7 at 5 min, repeat every 5 min up to 20.",
+    "explanations": {
+      "A": "Apgar (Appearance, Pulse, Grimace, Activity, Respiration) is scored at 1 and 5 minutes; if <7 at 5 min, repeat every 5 min up to 20.",
+      "B": "Single immediate assessment is incorrect; serial scoring is required.",
+      "C": "Done only if 5-min score is low; not the routine timing.",
+      "D": "Too late for primary scoring."
+    },
+    "subject": "Pediatric",
+    "topic": "NRP / newborn assessment",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 100,
+    "_origId": "N1-12",
+    "question": "Touching the cheek of a newborn elicits which reflex?",
+    "options": [
+      "Moro reflex",
+      "Rooting reflex",
+      "Babinski reflex",
+      "Tonic neck reflex"
+    ],
+    "correct": 1,
+    "explanation": "Stroking the cheek/corner of mouth makes the baby turn head toward the stimulus and open mouth — a feeding reflex present until ~3-4 months.",
+    "explanations": {
+      "A": "Triggered by sudden loss of support or loud noise (startle response).",
+      "B": "Stroking the cheek/corner of mouth makes the baby turn head toward the stimulus and open mouth — a feeding reflex present until ~3-4 months.",
+      "C": "Elicited by stroking the sole of the foot.",
+      "D": "Elicited by turning the head while supine ('fencer' posture)."
+    },
+    "subject": "Pediatric",
+    "topic": "Newborn reflexes",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 138,
+    "_origId": "N3-20",
+    "question": "What is the normal respiratory rate of a healthy newborn?",
+    "options": [
+      "40–60/min",
+      "20–30/min",
+      "12–20/min",
+      "70–90/min"
+    ],
+    "correct": 0,
+    "explanation": "Normal newborn RR is 40–60/min; <30 or >60 is abnormal and suggests respiratory distress or apnoea.",
+    "explanations": {
+      "A": "Normal newborn RR is 40–60/min; <30 or >60 is abnormal and suggests respiratory distress or apnoea.",
+      "B": "20–30/min is the rate in school-age children.",
+      "C": "12–20/min is the adult rate.",
+      "D": "70–90/min represents severe tachypnoea and is pathological."
+    },
+    "subject": "Pediatric",
+    "topic": "Newborn vitals",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 154,
+    "_origId": "N4-6",
+    "question": "Which of the following is NOT a part of APGAR score?",
+    "options": [
+      "Heart rate",
+      "Respiratory effort",
+      "Birth weight",
+      "Muscle tone"
+    ],
+    "correct": 2,
+    "explanation": "Birth weight is NOT part of APGAR; the 5 are Appearance, Pulse, Grimace, Activity, Respiration.",
+    "explanations": {
+      "A": "Heart rate is one of the 5 APGAR components.",
+      "B": "Respiratory effort is part of APGAR.",
+      "C": "Birth weight is NOT part of APGAR; the 5 are Appearance, Pulse, Grimace, Activity, Respiration.",
+      "D": "Muscle tone (Activity) is part of APGAR."
+    },
+    "subject": "Pediatric",
+    "topic": "Newborn assessment",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 165,
+    "_origId": "N4-17",
+    "question": "Most common organism causing neonatal sepsis in India is:",
+    "options": [
+      "E. coli",
+      "Klebsiella",
+      "Group B Streptococcus",
+      "Staphylococcus aureus"
+    ],
+    "correct": 1,
+    "explanation": "In India, Klebsiella pneumoniae is the leading cause of neonatal sepsis (NNPD data).",
+    "explanations": {
+      "A": "E. coli is common globally but Klebsiella predominates in Indian NICUs.",
+      "B": "In India, Klebsiella pneumoniae is the leading cause of neonatal sepsis (NNPD data).",
+      "C": "GBS is leading cause in Western countries, less common in India.",
+      "D": "Staph aureus is more common in late-onset hospital-acquired sepsis."
+    },
+    "subject": "Pediatric",
+    "topic": "Neonatal infections",
+    "day": 4,
+    "difficulty": "Hard",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 200,
     "_origId": "N6-2",
     "question": "First step in Neonatal Resuscitation Program after birth:",
     "options": [
@@ -26,10 +212,10 @@
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 113,
+    "id": 311,
     "_origId": "N9-96",
     "question": "Identify the below given image (specialized bottle with elongated teat used in cleft lip/palate feeding).",
     "options": [
@@ -58,7 +244,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 114,
+    "id": 312,
     "_origId": "N9-97",
     "question": "What is the full form of INAP?",
     "options": [
@@ -87,7 +273,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 117,
+    "id": 315,
     "_origId": "N9-100",
     "question": "In NICU, which respiratory distress assessment score is used?",
     "options": [
@@ -116,7 +302,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 123,
+    "id": 321,
     "_origId": "N9-106",
     "question": "A newborn at 1 minute shows HR 120, irregular respirations, some flexion, weak cry, SpO2 62%. What should the nurse do next?",
     "options": [
@@ -145,7 +331,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 124,
+    "id": 322,
     "_origId": "N9-107",
     "question": "What is the correct description of the ductus venosus in fetal circulation?",
     "options": [
@@ -174,7 +360,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 129,
+    "id": 327,
     "_origId": "N9-112",
     "question": "A preterm newborn is evaluated for respiratory distress syndrome (RDS) using grunting, nasal flaring, retractions. Which scale is used?",
     "options": [
@@ -203,7 +389,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 134,
+    "id": 332,
     "_origId": "N9-117",
     "question": "A 14-day-old neonate has fast breathing, irritability, and poor feeding. What is the most appropriate initial action?",
     "options": [
@@ -232,7 +418,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 136,
+    "id": 334,
     "_origId": "N9-119",
     "question": "A 3-day-old neonate with bilirubin 15 mg/dL starts phototherapy. With expected reduction 1–2 mg/dL every 4–6 h, what is the anticipated bilirubin level after 12 hours of effective phototherapy?",
     "options": [
@@ -261,7 +447,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 137,
+    "id": 335,
     "_origId": "N9-120",
     "question": "A preterm neonate in NICU is monitored for hypoxia. Which clinical manifestation is a LATE sign of hypoxia?",
     "options": [
@@ -290,7 +476,100 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 1227,
+    "id": 339,
+    "_origId": "RRB-3",
+    "question": "Exchange transfusion in erythroblastosis fetalis is performed primarily to prevent damage to the:",
+    "options": [
+      "Liver",
+      "Lungs",
+      "Kidneys",
+      "Brain"
+    ],
+    "correct": 3,
+    "explanation": "Unconjugated bilirubin crosses the blood-brain barrier and deposits in the basal ganglia causing kernicterus, which exchange transfusion prevents.",
+    "explanations": {
+      "A": "Liver conjugates bilirubin but is not the target organ harmed by unconjugated bilirubin.",
+      "B": "Lungs are not affected by unconjugated hyperbilirubinemia.",
+      "C": "Kidneys excrete conjugated bilirubin and are not the main concern.",
+      "D": "Unconjugated bilirubin crosses the blood-brain barrier and deposits in the basal ganglia causing kernicterus, which exchange transfusion prevents."
+    },
+    "subject": "Pediatric",
+    "topic": "Hyperbilirubinemia / kernicterus",
+    "day": 4,
+    "difficulty": "Medium",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 367,
+    "_origId": "RRB-31",
+    "question": "APGAR score is assessed at which time intervals after birth?",
+    "options": [
+      "1 and 5 minutes",
+      "5 and 10 minutes",
+      "30 and 60 minutes",
+      "Immediately and at 1 hour"
+    ],
+    "correct": 0,
+    "explanation": "Standard APGAR is recorded at 1 and 5 minutes; if <7 at 5 min, every 5 min up to 20 min.",
+    "explanations": {
+      "A": "Standard APGAR is recorded at 1 and 5 minutes; if <7 at 5 min, every 5 min up to 20 min.",
+      "B": "Skips the crucial 1-minute score.",
+      "C": "Too late to guide resuscitation.",
+      "D": "Not the standard timing."
+    },
+    "subject": "Pediatric",
+    "topic": "Neonatal assessment",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "RRB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 382,
+    "_origId": "YT-8",
+    "question": "The first step in neonatal resuscitation after delivery of a non-vigorous baby is:",
+    "options": [
+      "Start chest compressions",
+      "Provide warmth, position, clear airway, dry, stimulate",
+      "Give 100% oxygen",
+      "Administer adrenaline"
+    ],
+    "correct": 1,
+    "explanation": "NRP 'initial steps' (within the Golden Minute): warm, position airway, suction if needed, dry, stimulate; reassess breathing and HR.",
+    "explanations": {
+      "A": "Compressions only after 30 sec of effective PPV with persistent HR <60.",
+      "B": "NRP 'initial steps' (within the Golden Minute): warm, position airway, suction if needed, dry, stimulate; reassess breathing and HR.",
+      "C": "Free-flow O2 only if cyanotic with adequate respirations.",
+      "D": "Adrenaline reserved for HR <60 despite 30 sec compressions + ventilation."
+    },
+    "subject": "Pediatric",
+    "topic": "NRP",
+    "day": 4,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "pediatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 1493,
     "question": "Direct Coombs test detects:",
     "options": [
       "Antibody in serum",
@@ -315,7 +594,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1238,
+    "id": 1504,
     "question": "Exclusive breastfeeding recommended for:",
     "options": [
       "3 months",
@@ -340,7 +619,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1243,
+    "id": 1509,
     "question": "Normal fetal heart rate baseline typically:",
     "options": [
       "80–100 bpm",
@@ -365,7 +644,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1253,
+    "id": 1519,
     "question": "Normal fetal heart rate baseline typically:",
     "options": [
       "80–100 bpm",
@@ -390,7 +669,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1263,
+    "id": 1529,
     "question": "Normal fetal heart rate baseline typically:",
     "options": [
       "80–100 bpm",
@@ -415,7 +694,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1273,
+    "id": 1539,
     "question": "Normal fetal heart rate baseline typically:",
     "options": [
       "80–100 bpm",
@@ -440,7 +719,7 @@
     "qtype": "factual"
   },
   {
-    "id": 237,
+    "id": 503,
     "syllabusId": "child-1-weech-formula-birth-weight-and-height",
     "question": "5-y-old emergency resuscitation, weight unknown.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -472,7 +751,7 @@
     ]
   },
   {
-    "id": 238,
+    "id": 504,
     "syllabusId": "child-2-gomez-classification-of-malnutrition",
     "question": "2-y-old at 60% expected weight.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -504,7 +783,7 @@
     ]
   },
   {
-    "id": 239,
+    "id": 505,
     "syllabusId": "child-3-fetal-weight-johnson-shepard-hadlock-formulas",
     "question": "SFH 36 cm, station -2.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -536,7 +815,7 @@
     ]
   },
   {
-    "id": 240,
+    "id": 506,
     "syllabusId": "child-4-teeth-eruption-timeline",
     "question": "7-mo-old has first tooth eruption.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -568,7 +847,7 @@
     ]
   },
   {
-    "id": 241,
+    "id": 507,
     "syllabusId": "child-5-fontanel-closure",
     "question": "2-mo-old post-viral illness has sunken fontanel.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -597,294 +876,6 @@
       "scenario",
       "highyield",
       "must"
-    ]
-  },
-  {
-    "id": 242,
-    "syllabusId": "child-6-integrated-child-development-services-icds",
-    "question": "AWW at AWC.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Persistent primitive reflex — red flag, refer for detailed neurodevelopmental assessment (cerebral palsy risk)",
-      "Deliver 6 ICDS services; conduct growth monitoring monthly",
-      "Nasogastric decompression, rectal exam reveals explosive decompression (classic), refer pediatric surgery, contrast enema, plan biopsy",
-      "Normal finding; document"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Deliver 6 ICDS services; conduct growth monitoring monthly",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Deliver 6 ICDS services; conduct growth monitoring monthly. 6 services: supplementary nutrition, immunization, health check-up, referral, pre-school education, nutrition-health education",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Integrated Child Development Services (ICDS)",
-    "section": "child",
-    "day": 4,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 243,
-    "syllabusId": "child-7-height-measurement-technique",
-    "question": "3-y-old for routine check.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Vit D3 60,000 IU weekly + calcium; sunlight; diet",
-      "Continue home O2, monitor growth, RSV prophylaxis palivizumab, feeding support, gradual wean of O2",
-      "Measure standing height with stadiometer in Frankfort plane, plot on growth chart",
-      "Plot W/H on growth chart, measure MUAC, clinical exam for pallor/edema, review dietary intake"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Measure standing height with stadiometer in Frankfort plane, plot on growth chart",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Measure standing height with stadiometer in Frankfort plane, plot on growth chart. <2 y: supine length with infantometer",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Height measurement technique",
-    "section": "child",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 244,
-    "syllabusId": "child-8-developmental-milestones",
-    "question": "9-mo-old not sitting independently.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "SAM-kwashiorkor — admit, F-75 cautious feeding, monitor for refeeding (P, Mg, K drop), vit A, zinc, deworm",
-      "Mongolian spots — benign, reassure parents, document to avoid later abuse concerns",
-      "Assess capillary refill, peripheral warmth, pulses, urine output as markers of recovery",
-      "Developmental delay concern — detailed history, physical exam, refer for intervention if delay confirmed"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Developmental delay concern — detailed history, physical exam, refer for intervention if delay confirmed",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Developmental delay concern — detailed history, physical exam, refer for intervention if delay confirmed. Social smile: 6-8 wk; head hold: 3 mo"
-    },
-    "subject": "Pediatric",
-    "topic": "Developmental milestones",
-    "section": "child",
-    "day": 4,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 245,
-    "syllabusId": "child-9-trisomy-21-down-syndrome",
-    "question": "Newborn with facial dysmorphism and poor tone.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Start PPV at 40-60/min with 21% O2 (term) or 21-30% preterm via bag-mask, reassess in 15 s; escalate if no improvement",
-      "Needs ~1000 kcal/day; balanced IYCF: continued breastfeeding, 3 meals + 2 snacks of family food",
-      "Karyotype to confirm, echocardiogram for AV canal, TSH screen, early intervention, parental counseling",
-      "Brown fat (interscapular, axillae, around kidneys) is primary heat source via non-shivering thermogenesis"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Karyotype to confirm, echocardiogram for AV canal, TSH screen, early intervention, parental counseling",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Karyotype to confirm, echocardiogram for AV canal, TSH screen, early intervention, parental counseling. Features: upslanting palpebral fissures, Brushfield spots, simian crease, sandal gap, hypotonia, short neck",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Trisomy 21 (Down syndrome)",
-    "section": "child",
-    "day": 4,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 246,
-    "syllabusId": "child-10-cystic-fibrosis",
-    "question": "Recurrent pneumonia + failure to thrive + salty sweat.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Sweat chloride test to confirm; pulmonology referral, airway clearance, pancreatic enzymes, fat-soluble vit supplementation",
-      "Initiate KMC — baby skin-to-skin on mother's chest, upright, covered with blanket, continuous as tolerated, monitor vitals initially",
-      "SAM with complications — admit to NRC/SNCU, start F-75 (stabilization), treat infections, electrolytes (K, Mg), vit A, gradual transition t…",
-      "Apply mask with C-E grip, deliver PPV 40-60/min at PIP 20; if chest not rising, run MR SOPA"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Sweat chloride test to confirm; pulmonology referral, airway clearance, pancreatic enzymes, fat-soluble vit supplementation",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Sweat chloride test to confirm; pulmonology referral, airway clearance, pancreatic enzymes, fat-soluble vit supplementation. Affects lungs (recurrent pneumonia, bronchiectasis), pancreas (malabsorption), sweat glands (salty)",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Cystic fibrosis",
-    "section": "child",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 247,
-    "syllabusId": "child-11-patau-syndrome-trisomy-13",
-    "question": "Newborn with cleft lip, cardiac defect, polydactyly.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Resuscitate per NRP: if not breathing/limp, intubate and suction below cords only if airway obstructed; otherwise, standard resuscitation; …",
-      "MFM referral, genetic counseling, plan CS, prepare for neurosurgical repair in first 24-48 h of life",
-      "Karyotype, genetic counseling, discuss with family about goals of care, supportive care",
-      "Severe wasting — acute malnutrition management, MUAC check, nutrition support"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Karyotype, genetic counseling, discuss with family about goals of care, supportive care",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Karyotype, genetic counseling, discuss with family about goals of care, supportive care. Holoprosencephaly, midline cleft lip/palate, polydactyly, cardiac defects, cutis aplasia",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Patau syndrome (Trisomy 13)",
-    "section": "child",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 248,
-    "syllabusId": "child-12-malnutrition-sam-and-mam",
-    "question": "2-y-old MUAC 10.8 cm, bilateral pitting edema, anorexia.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "SAM with complications — admit to NRC/SNCU, start F-75 (stabilization), treat infections, electrolytes (K, Mg), vit A, gradual transition to F-100",
-      "Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
-      "Mitral stenosis likely; echo, anticoagulate for AF, diuretics for congestion, refer for valvuloplasty",
-      "Nasogastric decompression, rectal exam reveals explosive decompression (classic), refer pediatric surgery, contrast enema, plan biopsy"
-    ],
-    "correct": 0,
-    "explanation": "Priority: SAM with complications — admit to NRC/SNCU, start F-75 (stabilization), treat infections, electrolytes (K, Mg), vit A, gradual transition to F-100",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: SAM with complications — admit to NRC/SNCU, start F-75 (stabilization), treat infections, electrolytes (K, Mg), vit A, gradual transition to F-100. SAM: W/H <-3 Z OR MUAC <11.5 cm OR bilateral pitting edema",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Malnutrition — SAM and MAM",
-    "section": "child",
-    "day": 4,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 249,
-    "syllabusId": "child-13-indicators-of-malnutrition",
-    "question": "5-y-old with W/H -3 Z.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Severe wasting — acute malnutrition management, MUAC check, nutrition support",
-      "Suspect classic HDN — vit K 1 mg IM, send PT/INR, fresh frozen plasma if severe bleed, verify vit K was given at birth",
-      "Vit D3 60,000 IU weekly + calcium; sunlight; diet",
-      "SAM-kwashiorkor — admit, F-75 cautious feeding, monitor for refeeding (P, Mg, K drop), vit A, zinc, deworm"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Severe wasting — acute malnutrition management, MUAC check, nutrition support",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Severe wasting — acute malnutrition management, MUAC check, nutrition support. Weight-for-age: underweight (chronic or acute)",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pediatric",
-    "topic": "Indicators of malnutrition",
-    "section": "child",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 250,
-    "syllabusId": "child-14-calorie-intake-of-1-year-old",
-    "question": "10 kg 1-y-old.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Sweat chloride test to confirm; pulmonology referral, airway clearance, pancreatic enzymes, fat-soluble vit supplementation",
-      "Incentive spirometry, early ambulation, chest PT, pain control (to aid deep breathing), reassess with CXR",
-      "Correct electrolytes with NS + KCl before surgery; plan pyloromyotomy once corrected",
-      "Needs ~1000 kcal/day; balanced IYCF: continued breastfeeding, 3 meals + 2 snacks of family food"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Needs ~1000 kcal/day; balanced IYCF: continued breastfeeding, 3 meals + 2 snacks of family food",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Needs ~1000 kcal/day; balanced IYCF: continued breastfeeding, 3 meals + 2 snacks of family food. 1 y: ~900-1000 kcal/d"
-    },
-    "subject": "Pediatric",
-    "topic": "Calorie intake of 1-year-old",
-    "section": "child",
-    "day": 4,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
     ]
   }
 ]

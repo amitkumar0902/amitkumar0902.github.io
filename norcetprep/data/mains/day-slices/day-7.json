@@ -1,6 +1,502 @@
 [
   {
-    "id": 14,
+    "id": 10,
+    "_origId": "AIIMS-10",
+    "question": "The correct position for giving an enema is:",
+    "options": [
+      "Right lateral",
+      "Sims (left lateral)",
+      "Prone",
+      "Sitting"
+    ],
+    "correct": 1,
+    "explanation": "Sim's (left lateral) position aligns with the descending/sigmoid colon for fluid flow.",
+    "explanations": {
+      "A": "Right lateral works against descending colon anatomy.",
+      "B": "Sim's (left lateral) position aligns with the descending/sigmoid colon for fluid flow.",
+      "C": "Prone is impractical and unsafe.",
+      "D": "Sitting prevents adequate fluid retention."
+    },
+    "subject": "Fundamentals",
+    "topic": "Enema technique",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2015",
+    "year": 2015,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 22,
+    "_origId": "AIIMS-22",
+    "question": "Immediate first-aid for a dog bite is:",
+    "options": [
+      "Apply antiseptic and cover",
+      "Suture the wound immediately",
+      "Wash the wound with soap and running water for 15 minutes",
+      "Send straight to hospital without washing"
+    ],
+    "correct": 2,
+    "explanation": "Copious washing with soap and running water is the WHO-recommended immediate step.",
+    "explanations": {
+      "A": "Antiseptic helps but only after thorough washing.",
+      "B": "Primary suturing is contraindicated in dog bites.",
+      "C": "Copious washing with soap and running water is the WHO-recommended immediate step.",
+      "D": "Time-critical washing should never be skipped."
+    },
+    "subject": "Community Health",
+    "topic": "Animal bite/rabies",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2015",
+    "year": 2015,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 24,
+    "_origId": "AIIMS-24",
+    "question": "The infectious non-sharp waste is collected in which colour bag (BMW Rules 2016)?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "Black"
+    ],
+    "correct": 0,
+    "explanation": "Red bin: contaminated recyclable plastics like IV sets, catheters.",
+    "explanations": {
+      "A": "Red bin: contaminated recyclable plastics like IV sets, catheters.",
+      "B": "Yellow bin: anatomical waste, soiled dressings, expired drugs.",
+      "C": "Blue (puncture-proof) for glassware/metal sharps.",
+      "D": "Black is general non-hazardous waste."
+    },
+    "subject": "Community Health",
+    "topic": "Biomedical waste",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 31,
+    "_origId": "DSSSB-7",
+    "question": "Which of the following is NOT a cardinal sign of inflammation?",
+    "options": [
+      "Rubor",
+      "Calor",
+      "Dolor",
+      "Pallor"
+    ],
+    "correct": 3,
+    "explanation": "The 4 cardinal signs are rubor, calor, dolor, tumor (swelling) — plus functio laesa (loss of function). Pallor is not on the list.",
+    "explanations": {
+      "A": "Rubor (redness) is a classic cardinal sign.",
+      "B": "Calor (heat) is a classic cardinal sign.",
+      "C": "Dolor (pain) is a classic cardinal sign.",
+      "D": "The 4 cardinal signs are rubor, calor, dolor, tumor (swelling) — plus functio laesa (loss of function). Pallor is not on the list."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Inflammation",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 49,
+    "_origId": "ESIC-5",
+    "question": "The most appropriate site for intramuscular injection in an infant is:",
+    "options": [
+      "Deltoid",
+      "Dorsogluteal",
+      "Vastus lateralis",
+      "Ventrogluteal"
+    ],
+    "correct": 2,
+    "explanation": "Vastus lateralis (anterolateral thigh) is preferred in infants <12 months — well-developed, free of major nerves/vessels.",
+    "explanations": {
+      "A": "Deltoid muscle mass is inadequate in infants for IM volumes.",
+      "B": "Dorsogluteal is avoided in infants/young children due to risk of sciatic nerve injury and underdeveloped gluteal muscle.",
+      "C": "Vastus lateralis (anterolateral thigh) is preferred in infants <12 months — well-developed, free of major nerves/vessels.",
+      "D": "Ventrogluteal is acceptable from toddler age but vastus lateralis remains the primary infant site."
+    },
+    "subject": "Fundamentals",
+    "topic": "IM injection sites",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2022",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 59,
+    "_origId": "ESIC-15",
+    "question": "Universal precautions were introduced primarily to prevent transmission of:",
+    "options": [
+      "Tuberculosis",
+      "Bloodborne pathogens (HIV/HBV)",
+      "Influenza",
+      "Measles"
+    ],
+    "correct": 1,
+    "explanation": "CDC introduced Universal Precautions (1987) to prevent occupational exposure to HIV, HBV, HCV and other bloodborne pathogens — treat all blood/body fluids as potentially infectious.",
+    "explanations": {
+      "A": "TB requires airborne precautions, not universal.",
+      "B": "CDC introduced Universal Precautions (1987) to prevent occupational exposure to HIV, HBV, HCV and other bloodborne pathogens — treat all blood/body fluids as potentially infectious.",
+      "C": "Influenza requires droplet precautions.",
+      "D": "Measles requires airborne precautions."
+    },
+    "subject": "Fundamentals",
+    "topic": "Infection control",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2022",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 69,
+    "_origId": "JIPMER-5",
+    "question": "Best technique for refuse (waste) disposal in a hospital is:",
+    "options": [
+      "Burning in open",
+      "Dumping at landfill",
+      "Composting",
+      "Incineration with engineered controls"
+    ],
+    "correct": 3,
+    "explanation": "Engineered incineration is the recommended hospital biomedical waste destruction method.",
+    "explanations": {
+      "A": "Open burning releases dioxins and is unsafe.",
+      "B": "Dumping is unsafe for biomedical waste.",
+      "C": "Composting is for biodegradable kitchen waste, not infectious.",
+      "D": "Engineered incineration is the recommended hospital biomedical waste destruction method."
+    },
+    "subject": "Community Health",
+    "topic": "Hospital waste disposal",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 70,
+    "_origId": "JIPMER-6",
+    "question": "Recommended maximum permissible level of community noise is:",
+    "options": [
+      "50 dB",
+      "60 dB",
+      "35 dB",
+      "85 dB"
+    ],
+    "correct": 3,
+    "explanation": "85 dB is the OSHA permissible occupational exposure limit before hearing protection is required.",
+    "explanations": {
+      "A": "50 dB is closer to a residential daytime guideline.",
+      "B": "60 dB is conversational level.",
+      "C": "35 dB is a hospital ward target.",
+      "D": "85 dB is the OSHA permissible occupational exposure limit before hearing protection is required."
+    },
+    "subject": "Community Health",
+    "topic": "Environmental health",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 73,
+    "_origId": "JIPMER-9",
+    "question": "Isolation duration for a measles client is approximately:",
+    "options": [
+      "2 days",
+      "5 days from rash onset",
+      "7 days",
+      "15 days"
+    ],
+    "correct": 1,
+    "explanation": "Isolation is recommended for ~4-5 days from rash onset (infectious 4 days before to 4-5 days after).",
+    "explanations": {
+      "A": "2 days is far too short.",
+      "B": "Isolation is recommended for ~4-5 days from rash onset (infectious 4 days before to 4-5 days after).",
+      "C": "7 days is beyond infectious period.",
+      "D": "15 days is for pertussis-like long-isolation diseases."
+    },
+    "subject": "Community Health",
+    "topic": "Communicable disease",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 96,
+    "_origId": "N1-8",
+    "question": "A pressure ulcer with exposed bone, tendon, or muscle is classified as:",
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "correct": 3,
+    "explanation": "NPIAP Stage IV is full-thickness loss with exposed bone, tendon or muscle, often with undermining/tunneling and high risk of osteomyelitis.",
+    "explanations": {
+      "A": "Non-blanchable erythema, intact skin.",
+      "B": "Partial-thickness loss of dermis (shallow open ulcer).",
+      "C": "Full-thickness skin loss with visible subcutaneous fat — bone/tendon NOT exposed.",
+      "D": "NPIAP Stage IV is full-thickness loss with exposed bone, tendon or muscle, often with undermining/tunneling and high risk of osteomyelitis."
+    },
+    "subject": "Fundamentals",
+    "topic": "Pressure injury staging",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 97,
+    "_origId": "N1-9",
+    "question": "Which procedure mandatorily requires surgical asepsis?",
+    "options": [
+      "Oral medication administration",
+      "Urinary catheterization",
+      "Bed bath",
+      "NG tube feeding"
+    ],
+    "correct": 1,
+    "explanation": "The bladder is normally sterile; introducing a Foley breaches that barrier and demands sterile gloves, sterile drape, sterile catheter and sterile lubricant to prevent CAUTI.",
+    "explanations": {
+      "A": "Clean (medical asepsis) only.",
+      "B": "The bladder is normally sterile; introducing a Foley breaches that barrier and demands sterile gloves, sterile drape, sterile catheter and sterile lubricant to prevent CAUTI.",
+      "C": "Clean technique sufficient.",
+      "D": "Clean technique sufficient; gut is non-sterile."
+    },
+    "subject": "Fundamentals",
+    "topic": "Asepsis",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 118,
+    "_origId": "N1-30",
+    "question": "Best position for a rectal examination is:",
+    "options": [
+      "Supine position",
+      "Fowler's position",
+      "Knee-chest position",
+      "Prone position"
+    ],
+    "correct": 2,
+    "explanation": "Knee-chest (genupectoral) position elevates the buttocks and uses gravity to displace abdominal viscera, giving the best exposure of the anus and rectum for proctoscopy/sigmoidoscopy. Left lateral (Sims) is the next best alternative.",
+    "explanations": {
+      "A": "Does not expose the anal canal adequately.",
+      "B": "Used for respiratory comfort — unsuitable for rectal access.",
+      "C": "Knee-chest (genupectoral) position elevates the buttocks and uses gravity to displace abdominal viscera, giving the best exposure of the anus and rectum for proctoscopy/sigmoidoscopy. Left lateral (Sims) is the next best alternative.",
+      "D": "Provides poor visualisation and patient access compared with knee-chest."
+    },
+    "subject": "Fundamentals",
+    "topic": "Patient positioning",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 119,
+    "_origId": "N3-1",
+    "question": "According to revised Bio-Medical Waste (BMW) management guidelines, in which colour bag should a placenta be discarded?",
+    "options": [
+      "Yellow",
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "correct": 0,
+    "explanation": "Anatomical/human tissue waste, including placenta and body parts, goes in the YELLOW non-chlorinated plastic bag and is disposed of by incineration / deep burial as per BMWM Rules 2016 (amended).",
+    "explanations": {
+      "A": "Anatomical/human tissue waste, including placenta and body parts, goes in the YELLOW non-chlorinated plastic bag and is disposed of by incineration / deep burial as per BMWM Rules 2016 (amended).",
+      "B": "Red bag is for contaminated recyclable plastic waste (IV sets, tubing, catheters), not anatomical tissue.",
+      "C": "Blue/white translucent puncture-proof container is for glass and metallic body implants.",
+      "D": "Black bag is no longer a category in current BMW colour coding."
+    },
+    "subject": "Community Health",
+    "topic": "BMW segregation",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 122,
+    "_origId": "N3-4",
+    "question": "What is the correct route for administering the Mantoux (PPD) tuberculin skin test?",
+    "options": [
+      "Intradermal",
+      "Subcutaneous",
+      "Intramuscular",
+      "Intravenous"
+    ],
+    "correct": 0,
+    "explanation": "0.1 mL of PPD is injected intradermally into the volar (flexor) surface of the forearm at a 5–15° angle to raise a 6–10 mm wheal; reading is taken at 48–72 h.",
+    "explanations": {
+      "A": "0.1 mL of PPD is injected intradermally into the volar (flexor) surface of the forearm at a 5–15° angle to raise a 6–10 mm wheal; reading is taken at 48–72 h.",
+      "B": "Subcutaneous deposit destroys the antigen depot and invalidates the reading.",
+      "C": "IM administration bypasses the dermal lymphatics needed for the delayed-type hypersensitivity reaction.",
+      "D": "IV is never used for skin testing."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Tuberculin testing",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 145,
+    "_origId": "N3-27",
+    "question": "An HIV-positive patient undergoing a Mantoux test — what minimum induration size is considered POSITIVE for tuberculosis infection?",
+    "options": [
+      "5 mm",
+      "10 mm",
+      "15 mm",
+      "20 mm"
+    ],
+    "correct": 0,
+    "explanation": "CDC criteria: ≥5 mm is positive in HIV-positive, recent TB contacts, organ transplant, immunosuppressed and CXR-fibrotic-TB patients.",
+    "explanations": {
+      "A": "CDC criteria: ≥5 mm is positive in HIV-positive, recent TB contacts, organ transplant, immunosuppressed and CXR-fibrotic-TB patients.",
+      "B": "≥10 mm threshold applies to recent immigrants, IV drug users, healthcare workers, children <4 y.",
+      "C": "≥15 mm is the cut-off in low-risk healthy individuals.",
+      "D": "20 mm is not a recognised cut-off."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "TB diagnosis in HIV",
+    "day": 7,
+    "difficulty": "Hard",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 183,
+    "_origId": "N5-10",
+    "question": "Color code for biomedical waste containing human anatomical waste is:",
+    "options": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "Black"
+    ],
+    "correct": 1,
+    "explanation": "Yellow bag is for human/animal anatomical waste, soiled waste, expired medicines (BMW Rules 2016).",
+    "explanations": {
+      "A": "Red bag is for contaminated recyclable waste (tubing, IV sets, gloves).",
+      "B": "Yellow bag is for human/animal anatomical waste, soiled waste, expired medicines (BMW Rules 2016).",
+      "C": "Blue/white translucent is for glassware and metallic implants.",
+      "D": "Black is no longer a category under BMW 2016 rules."
+    },
+    "subject": "Fundamentals",
+    "topic": "Biomedical waste management",
+    "day": 7,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 203,
     "_origId": "N6-5",
     "question": "Venturi mask color providing 24% FiO2 (low-concentration):",
     "options": [
@@ -26,10 +522,10 @@
     "qtype": "recall",
     "section": "foundations",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 16,
+    "id": 205,
     "_origId": "N6-7",
     "question": "Which does NOT belong to the 5 WHO moments of hand hygiene?",
     "options": [
@@ -55,10 +551,10 @@
     "qtype": "recall",
     "section": "foundations",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 49,
+    "id": 247,
     "_origId": "N9-32",
     "question": "A patient with central diabetes insipidus receives vasopressin. What is the expected effect on urine?",
     "options": [
@@ -87,7 +583,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 51,
+    "id": 249,
     "_origId": "N9-34",
     "question": "A patient presents with dilated pupils, elevated blood pressure, and tachycardia. What type of pain is this?",
     "options": [
@@ -116,7 +612,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 52,
+    "id": 250,
     "_origId": "N9-35",
     "question": "The passage of bright red blood per rectum is referred to as:",
     "options": [
@@ -145,7 +641,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 53,
+    "id": 251,
     "_origId": "N9-36",
     "question": "A patient's chest tube becomes accidentally dislodged. What is the most appropriate immediate nursing action?",
     "options": [
@@ -174,7 +670,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 54,
+    "id": 252,
     "_origId": "N9-37",
     "question": "During suctioning, a patient's oxygen saturation drops from 94% to 88%. What should be the immediate nursing action?",
     "options": [
@@ -203,7 +699,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 55,
+    "id": 253,
     "_origId": "N9-38",
     "question": "The patient's urine output is 100 mL in 24 hours. How is this classified?",
     "options": [
@@ -232,7 +728,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 135,
+    "id": 333,
     "_origId": "N9-118",
     "question": "A 4-year-old on 50% high-flow oxygen. What is the most appropriate method to provide humidification?",
     "options": [
@@ -261,563 +757,158 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 1221,
-    "question": "Whole blood stored in blood bank is typically kept at approximately:",
+    "id": 360,
+    "_origId": "RRB-24",
+    "question": "Mantoux test is read after how many hours of administration?",
     "options": [
-      "0°C",
-      "2–6°C",
-      "15°C",
-      "25°C"
-    ],
-    "correct": 1,
-    "explanation": "• RBC storage: 2–6°C is standard cold chain.\n• Frequently asked in competitive nursing exams.",
-    "explanations": {
-      "A": "\"0°C\" is a plausible distractor but incorrect. The correct answer is B (\"2–6°C\") — RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams.",
-      "B": "RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams.",
-      "C": "\"15°C\" is a plausible distractor but incorrect. The correct answer is B (\"2–6°C\") — RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams.",
-      "D": "\"25°C\" is a plausible distractor but incorrect. The correct answer is B (\"2–6°C\") — RBC storage: 2–6°C is standard cold chain. Frequently asked in competitive nursing exams."
-    },
-    "subject": "Mixed",
-    "topic": "Med-Surg",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1223,
-    "question": "Honey should be introduced in infant weaning typically:",
-    "options": [
-      "Before 6 months",
-      "After 12 months",
-      "Only day 1 of life",
-      "Never"
-    ],
-    "correct": 1,
-    "explanation": "• Honey is avoided <12 months due to infant botulism risk.\n• Aligns with common PYQ discussions.",
-    "explanations": {
-      "A": "\"Before 6 months\" is a plausible distractor but incorrect. The correct answer is B (\"After 12 months\") — Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions.",
-      "B": "Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions.",
-      "C": "\"Only day 1 of life\" is a plausible distractor but incorrect. The correct answer is B (\"After 12 months\") — Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions.",
-      "D": "\"Never\" is a plausible distractor but incorrect. The correct answer is B (\"After 12 months\") — Honey is avoided <12 months due to infant botulism risk. Aligns with common PYQ discussions."
-    },
-    "subject": "Mixed",
-    "topic": "Pediatric",
-    "day": 7,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1236,
-    "question": "Hand rub with alcohol-based sanitizer effective duration commonly taught:",
-    "options": [
-      "5 seconds",
-      "20–30 seconds until dry",
-      "2 minutes always",
-      "1 hour"
-    ],
-    "correct": 1,
-    "explanation": "• WHO: rub until dry, ~20–30 seconds.\n• Fundamentals high yield.",
-    "explanations": {
-      "A": "\"5 seconds\" is a plausible distractor but incorrect. The correct answer is B (\"20–30 seconds until dry\") — WHO: rub until dry, ~20–30 seconds. Fundamentals high yield.",
-      "B": "WHO: rub until dry, ~20–30 seconds. Fundamentals high yield.",
-      "C": "\"2 minutes always\" is a plausible distractor but incorrect. The correct answer is B (\"20–30 seconds until dry\") — WHO: rub until dry, ~20–30 seconds. Fundamentals high yield.",
-      "D": "\"1 hour\" is a plausible distractor but incorrect. The correct answer is B (\"20–30 seconds until dry\") — WHO: rub until dry, ~20–30 seconds. Fundamentals high yield."
-    },
-    "subject": "Mixed",
-    "topic": "Infection Control",
-    "day": 7,
-    "difficulty": "Easy",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2024",
-    "qtype": "factual"
-  },
-  {
-    "id": 1237,
-    "question": "Yellow bio-medical waste bag is used for:",
-    "options": [
-      "General waste",
-      "Infectious/pathological/certain contaminated wastes per BMW rules",
-      "Radioactive waste",
-      "Sharps"
-    ],
-    "correct": 1,
-    "explanation": "• BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual).\n• Follow latest national guidelines.",
-    "explanations": {
-      "A": "\"General waste\" is a plausible distractor but incorrect. The correct answer is B (\"Infectious/pathological/certain contaminated wastes per BMW rules\") — BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
-      "B": "BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
-      "C": "\"Radioactive waste\" is a plausible distractor but incorrect. The correct answer is B (\"Infectious/pathological/certain contaminated wastes per BMW rules\") — BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines.",
-      "D": "\"Sharps\" is a plausible distractor but incorrect. The correct answer is B (\"Infectious/pathological/certain contaminated wastes per BMW rules\") — BMW rule categories: yellow bag for specified infectious/soiled wastes (contextual). Follow latest national guidelines."
-    },
-    "subject": "Mixed",
-    "topic": "Community / Legal",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 390,
-    "syllabusId": "foundation-21-health-assessment",
-    "question": "New admission head-to-toe.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
-      "Daily assessment of need, perineal care BD, ensure unobstructed drainage, bag below bladder, document output; plan removal ASAP",
-      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation",
-      "Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transpor…"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities. Sequence: inspection → palpation → percussion → auscultation (abdomen: inspect → auscultate → percuss → palpate)",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Fundamentals",
-    "topic": "Health assessment",
-    "section": "foundation",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 391,
-    "syllabusId": "foundation-22-urinary-catheter-care",
-    "question": "Post-op with Foley 5 days.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Drops/min = (100 x 20) / 30 = 67 gtt/min",
-      "Allow to bleed, wash with soap+water, report within 2 h, start PEP TDF+FTC+DTG within 2 h, test at 0/6 wk/3 mo/6 mo, counselling",
-      "Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transpor…",
-      "Daily assessment of need, perineal care BD, ensure unobstructed drainage, bag below bladder, document output; plan removal ASAP"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Daily assessment of need, perineal care BD, ensure unobstructed drainage, bag below bladder, document output; plan removal ASAP",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Daily assessment of need, perineal care BD, ensure unobstructed drainage, bag below bladder, document output; plan removal ASAP. Insert only when necessary; remove as early as possible"
-    },
-    "subject": "Fundamentals",
-    "topic": "Urinary catheter care",
-    "section": "foundation",
-    "day": 7,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 392,
-    "syllabusId": "foundation-23-chest-tube-care",
-    "question": "Post-op thoracotomy with chest tube.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transport unless directed",
-      "Pre-oxygenate to 100% x 30 sec, sterile technique, insert without suction, apply suction while withdrawing <15 sec, reassess SpO2",
-      "Teach 3-point gait: both crutches forward + injured leg, then hop good leg through; \"good up, bad down\" for stairs",
-      "Daily assessment of need, perineal care BD, ensure unobstructed drainage, bag below bladder, document output; plan removal ASAP"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transport unless directed (Bubbling in water-seal during expiration only is normal.)",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transport unless directed. 3 chambers: collection, water-seal, suction control",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Fundamentals",
-    "topic": "Chest tube care",
-    "section": "foundation",
-    "day": 7,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 393,
-    "syllabusId": "foundation-24-thoracentesis",
-    "question": "Pleural effusion 1.5 L.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
-      "Teach 3-point gait: both crutches forward + injured leg, then hop good leg through; \"good up, bad down\" for stairs",
-      "Position sitting leaning forward, assist with aspiration above rib, monitor for cough/dyspnea (pneumothorax), send fluid to lab, CXR post-procedure",
-      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance"
+      "12-24 hours",
+      "24-36 hours",
+      "48-72 hours",
+      "5-7 days"
     ],
     "correct": 2,
-    "explanation": "Priority: Position sitting leaning forward, assist with aspiration above rib, monitor for cough/dyspnea (pneumothorax), send fluid to lab, CXR post-procedure",
+    "explanation": "Induration (not erythema) is read between 48 and 72 hours after intradermal PPD.",
     "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Position sitting leaning forward, assist with aspiration above rib, monitor for cough/dyspnea (pneumothorax), send fluid to lab, CXR post-procedure. Position: upright, leaning on table with arms resting",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
+      "A": "Too early to read induration.",
+      "B": "Still earlier than the standard reading window.",
+      "C": "Induration (not erythema) is read between 48 and 72 hours after intradermal PPD.",
+      "D": "By 5-7 days the reaction has faded."
     },
-    "subject": "Fundamentals",
-    "topic": "Thoracentesis",
-    "section": "foundation",
+    "subject": "Medical-Surgical",
+    "topic": "TB diagnosis",
     "day": 7,
     "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "medical-surgical",
     "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
   },
   {
-    "id": 395,
-    "syllabusId": "foundation-26-pulmonary-artery-catheter",
-    "question": "ICU patient with unclear fluid status.\n\nWhat is the nurse's immediate priority action?",
+    "id": 361,
+    "_origId": "RRB-25",
+    "question": "The most common method to maintain hand hygiene before patient contact when hands are visibly clean is:",
     "options": [
-      "Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transpor…",
-      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance",
-      "Turn q2h, air/foam mattress, heel offload, skin assessment per shift, nutritional review, moisturize dry skin",
-      "Ensure transducer at phlebostatic axis (4th ICS mid-axillary), zero regularly, monitor waveform, report dampening (thrombus) or high pressures"
+      "Soap and water for 1 minute",
+      "Alcohol-based hand rub for 20-30 seconds",
+      "Sterile gloves only",
+      "Chlorhexidine scrub for 5 minutes"
+    ],
+    "correct": 1,
+    "explanation": "WHO recommends alcohol-based hand rub for 20-30 seconds when hands are not visibly soiled.",
+    "explanations": {
+      "A": "Soap-and-water is needed when hands are visibly soiled or after C. difficile contact.",
+      "B": "WHO recommends alcohol-based hand rub for 20-30 seconds when hands are not visibly soiled.",
+      "C": "Gloves do not replace hand hygiene.",
+      "D": "5-minute chlorhexidine scrub is for surgical scrub, not routine care."
+    },
+    "subject": "Fundamentals",
+    "topic": "Infection control",
+    "day": 7,
+    "difficulty": "Easy",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 386,
+    "_origId": "YT-12",
+    "question": "Standard precautions include all EXCEPT:",
+    "options": [
+      "Hand hygiene",
+      "Use of PPE based on risk",
+      "Sharps safety",
+      "Routine antibiotic prophylaxis"
     ],
     "correct": 3,
-    "explanation": "Priority: Ensure transducer at phlebostatic axis (4th ICS mid-axillary), zero regularly, monitor waveform, report dampening (thrombus) or high pressures",
+    "explanation": "Routine antibiotics are not a standard precaution; they cause resistance and are not a CDC standard precaution component.",
     "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Ensure transducer at phlebostatic axis (4th ICS mid-axillary), zero regularly, monitor waveform, report dampening (thrombus) or high pressures. Normal CVP 2-8 mmHg; PA pressure 15-30/8-15; PCWP 6-12 (reflects LVEDP)"
+      "A": "Cornerstone of standard precautions.",
+      "B": "PPE selected by anticipated exposure to blood/body fluids.",
+      "C": "Safe injection practices and sharps disposal are part of standard precautions.",
+      "D": "Routine antibiotics are not a standard precaution; they cause resistance and are not a CDC standard precaution component."
     },
     "subject": "Fundamentals",
-    "topic": "Pulmonary artery catheter",
-    "section": "foundation",
+    "topic": "Infection control",
     "day": 7,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "foundations",
     "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
   },
   {
-    "id": 864,
-    "question": "First-line drug for anaphylaxis:",
+    "id": 387,
+    "_origId": "YT-13",
+    "question": "WHO recommended duration for hand washing with soap and water is at least:",
     "options": [
-      "Oral antihistamine only",
-      "IM adrenaline (epinephrine)",
-      "IV beta blocker",
-      "Oral steroid only"
+      "10 seconds",
+      "20-30 seconds",
+      "40-60 seconds",
+      "2 minutes"
     ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "correct": 2,
+    "explanation": "WHO 'How to handwash' technique specifies 40-60 seconds with soap and water across 11 steps.",
     "explanations": {
-      "A": "\"Oral antihistamine only\" is a plausible distractor but incorrect. The correct answer is B (\"IM adrenaline (epinephrine)\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"IV beta blocker\" is a plausible distractor but incorrect. The correct answer is B (\"IM adrenaline (epinephrine)\") — First aid / emergency nursing for NORCET.",
-      "D": "\"Oral steroid only\" is a plausible distractor but incorrect. The correct answer is B (\"IM adrenaline (epinephrine)\") — First aid / emergency nursing for NORCET."
+      "A": "Too short for effective mechanical removal of microbes.",
+      "B": "This is the time recommended for alcohol-based hand-rub.",
+      "C": "WHO 'How to handwash' technique specifies 40-60 seconds with soap and water across 11 steps.",
+      "D": "Surgical scrub timing, not routine handwash."
     },
     "subject": "Fundamentals",
-    "topic": "Anaphylaxis",
+    "topic": "Hand hygiene",
     "day": 7,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
   },
   {
-    "id": 865,
-    "question": "Typical adult Hb lower limit (female approx):",
+    "id": 403,
+    "_origId": "YT-29",
+    "question": "Korotkoff sound used to record diastolic BP is:",
     "options": [
-      "10 g/dL",
-      "12 g/dL",
-      "14 g/dL",
-      "8 g/dL"
+      "1st sound",
+      "3rd sound",
+      "4th sound",
+      "5th sound"
     ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "correct": 3,
+    "explanation": "Disappearance of sound (Phase V) is the standard adult diastolic reading per AHA guidelines.",
     "explanations": {
-      "A": "\"10 g/dL\" is a plausible distractor but incorrect. The correct answer is B (\"12 g/dL\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"14 g/dL\" is a plausible distractor but incorrect. The correct answer is B (\"12 g/dL\") — First aid / emergency nursing for NORCET.",
-      "D": "\"8 g/dL\" is a plausible distractor but incorrect. The correct answer is B (\"12 g/dL\") — First aid / emergency nursing for NORCET."
+      "A": "First Korotkoff sound (tapping) marks systolic BP.",
+      "B": "Crisp, intense thump; intermediate phase.",
+      "C": "Muffling of sound; used as diastolic in pregnancy/children when sounds persist to zero.",
+      "D": "Disappearance of sound (Phase V) is the standard adult diastolic reading per AHA guidelines."
     },
     "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 866,
-    "question": "Open fracture priority includes:",
-    "options": [
-      "Immediate ROM exercises",
-      "Cover with sterile dressing, immobilize, urgent care",
-      "Massage the wound",
-      "Apply heat"
-    ],
-    "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
-    "explanations": {
-      "A": "\"Immediate ROM exercises\" is a plausible distractor but incorrect. The correct answer is B (\"Cover with sterile dressing, immobilize, urgent care\") — First aid / emergency nursing for NORCET.",
-      "B": "First aid / emergency nursing for NORCET.",
-      "C": "\"Massage the wound\" is a plausible distractor but incorrect. The correct answer is B (\"Cover with sterile dressing, immobilize, urgent care\") — First aid / emergency nursing for NORCET.",
-      "D": "\"Apply heat\" is a plausible distractor but incorrect. The correct answer is B (\"Cover with sterile dressing, immobilize, urgent care\") — First aid / emergency nursing for NORCET."
-    },
-    "subject": "Fundamentals",
-    "topic": "Fractures",
-    "day": 7,
-    "difficulty": "Hard",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 869,
-    "question": "Clinical pathology Q9: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
+    "topic": "Vital signs",
     "day": 7,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 870,
-    "question": "Clinical pathology Q10: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
     ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 871,
-    "question": "Clinical pathology Q11: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 872,
-    "question": "Clinical pathology Q12: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 873,
-    "question": "Clinical pathology Q13: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 874,
-    "question": "Clinical pathology Q14: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 875,
-    "question": "Clinical pathology Q15: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 876,
-    "question": "Clinical pathology Q16: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 877,
-    "question": "Clinical pathology Q17: Platelet count very low increases risk of:",
-    "options": [
-      "Thrombosis",
-      "Bleeding",
-      "Hypernatremia",
-      "Metabolic alkalosis"
-    ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
-    "explanations": {
-      "A": "\"Thrombosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "B": "Thrombocytopenia increases bleeding risk.",
-      "C": "\"Hypernatremia\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk.",
-      "D": "\"Metabolic alkalosis\" is a plausible distractor but incorrect. The correct answer is B (\"Bleeding\") — Thrombocytopenia increases bleeding risk."
-    },
-    "subject": "Fundamentals",
-    "topic": "Labs",
-    "day": 7,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
+    "_sourceFile": "youtube-memory-recalls.json"
   }
 ]

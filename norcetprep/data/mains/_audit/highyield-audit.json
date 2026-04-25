@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated": "2026-04-17T05:49:30.944Z",
+    "generated": "2026-04-25T20:34:30.999Z",
     "syllabusTotal": 610,
     "notesCoverage": "610/610 (100.0%)",
     "scenarioFieldsCoverage": "610/610 (100.0%)",
@@ -114,9 +114,13 @@
       "criticalScenarioRatio": 1
     },
     "pyqBySource": {
-      "NORCET 8 Mains": 6,
-      "NORCET 7 Mains": 3,
+      "NORCET 1 Mains": 30,
+      "NORCET 3 Mains": 30,
+      "NORCET 4 Mains": 25,
+      "NORCET 5 Mains": 25,
       "NORCET 6 Mains": 8,
+      "NORCET 7 Mains": 3,
+      "NORCET 8 Mains": 6,
       "NORCET 9 Mains": 121
     },
     "issueCount": 0,

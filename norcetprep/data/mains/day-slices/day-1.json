@@ -1,6 +1,657 @@
 [
   {
+    "id": 1,
+    "_origId": "AIIMS-1",
+    "question": "After a thoracentesis, the nurse should observe the client primarily for:",
+    "options": [
+      "Periods of confusion",
+      "Expectoration of blood",
+      "Increased breath sounds",
+      "Decreased respiratory rate"
+    ],
+    "correct": 1,
+    "explanation": "Hemoptysis after thoracentesis indicates lung trauma or vascular puncture and must be reported immediately.",
+    "explanations": {
+      "A": "Confusion is non-specific and not the primary post-thoracentesis red flag.",
+      "B": "Hemoptysis after thoracentesis indicates lung trauma or vascular puncture and must be reported immediately.",
+      "C": "Breath sounds typically improve, not worsen, after fluid drainage.",
+      "D": "Tachypnea (not bradypnea) is the more concerning sign of pneumothorax."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Thoracentesis complications",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2017",
+    "year": 2017,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
     "id": 4,
+    "_origId": "AIIMS-4",
+    "question": "An increasing end-tidal CO2 reading on capnography during anaesthesia can be due to all EXCEPT:",
+    "options": [
+      "Hypoventilation",
+      "Exhausted soda lime",
+      "Pulmonary embolism",
+      "Hyperpyrexia"
+    ],
+    "correct": 2,
+    "explanation": "PE causes a sudden DROP in EtCO2 due to dead space ventilation.",
+    "explanations": {
+      "A": "Hypoventilation raises EtCO2 by retention.",
+      "B": "Exhausted soda lime causes rebreathing of CO2.",
+      "C": "PE causes a sudden DROP in EtCO2 due to dead space ventilation.",
+      "D": "Hyperpyrexia raises metabolic CO2 production and EtCO2."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Capnography",
+    "day": 1,
+    "difficulty": "Hard",
+    "source": "AIIMS SN 2017",
+    "year": 2017,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 8,
+    "_origId": "AIIMS-8",
+    "question": "The exact heart rate is best obtained at:",
+    "options": [
+      "Radial artery",
+      "Apex of the heart",
+      "Temporal vein",
+      "Femoral vein"
+    ],
+    "correct": 1,
+    "explanation": "Apical (heart) auscultation gives the most accurate true heart rate, especially in arrhythmias.",
+    "explanations": {
+      "A": "Radial pulse may miss a pulse deficit in arrhythmias.",
+      "B": "Apical (heart) auscultation gives the most accurate true heart rate, especially in arrhythmias.",
+      "C": "Temporal site is for temperature, not exact HR.",
+      "D": "Femoral is used in shock, not for routine accuracy."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital signs",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2015",
+    "year": 2015,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 37,
+    "_origId": "DSSSB-13",
+    "question": "Pulse oximeter measures:",
+    "options": [
+      "PaO2",
+      "Oxygen saturation of hemoglobin (SpO2)",
+      "PaCO2",
+      "Hemoglobin level"
+    ],
+    "correct": 1,
+    "explanation": "Pulse oximetry uses two wavelengths of light (660 nm red, 940 nm IR) to estimate the percentage of hemoglobin saturated with oxygen (SpO2).",
+    "explanations": {
+      "A": "PaO2 is measured by ABG, not pulse oximetry.",
+      "B": "Pulse oximetry uses two wavelengths of light (660 nm red, 940 nm IR) to estimate the percentage of hemoglobin saturated with oxygen (SpO2).",
+      "C": "PaCO2 requires ABG or capnography.",
+      "D": "Hemoglobin concentration requires lab CBC."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Monitoring",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 46,
+    "_origId": "ESIC-2",
+    "question": "The normal range of arterial blood pH is:",
+    "options": [
+      "7.25 – 7.35",
+      "7.35 – 7.45",
+      "7.45 – 7.55",
+      "7.20 – 7.40"
+    ],
+    "correct": 1,
+    "explanation": "Normal arterial pH is 7.35–7.45; tightly buffered by bicarbonate / respiratory compensation.",
+    "explanations": {
+      "A": "Below normal — represents acidemia.",
+      "B": "Normal arterial pH is 7.35–7.45; tightly buffered by bicarbonate / respiratory compensation.",
+      "C": "Above normal — represents alkalemia.",
+      "D": "Range is too broad and skewed acidic."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "ABG / acid-base",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 51,
+    "_origId": "ESIC-7",
+    "question": "Korotkoff sounds are heard during measurement of:",
+    "options": [
+      "Pulse rate",
+      "Respiratory rate",
+      "Blood pressure",
+      "Temperature"
+    ],
+    "correct": 2,
+    "explanation": "Korotkoff sounds (5 phases) are auscultated over the brachial artery during sphygmomanometric BP measurement; phase I = systolic, phase V = diastolic.",
+    "explanations": {
+      "A": "Pulse is palpated, not auscultated as Korotkoff sounds.",
+      "B": "Respirations are observed/auscultated as breath sounds.",
+      "C": "Korotkoff sounds (5 phases) are auscultated over the brachial artery during sphygmomanometric BP measurement; phase I = systolic, phase V = diastolic.",
+      "D": "Temperature is measured by thermometer."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital signs",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 55,
+    "_origId": "ESIC-11",
+    "question": "Which electrolyte abnormality causes peaked T waves on ECG?",
+    "options": [
+      "Hypokalemia",
+      "Hyperkalemia",
+      "Hypocalcemia",
+      "Hypernatremia"
+    ],
+    "correct": 1,
+    "explanation": "Hyperkalemia (K+ >5.5) classically produces tall, peaked, narrow-based T waves; later widened QRS and sine wave.",
+    "explanations": {
+      "A": "Hypokalemia produces flattened T waves and U waves.",
+      "B": "Hyperkalemia (K+ >5.5) classically produces tall, peaked, narrow-based T waves; later widened QRS and sine wave.",
+      "C": "Hypocalcemia prolongs QT interval.",
+      "D": "Hypernatremia has no specific characteristic ECG finding."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "ECG / electrolytes",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "ESIC SN 2022",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 84,
+    "_origId": "JIPMER-20",
+    "question": "A patient on mannitol for raised ICP requires priority monitoring of:",
+    "options": [
+      "Serum arginine vasopressin",
+      "Urine specific gravity",
+      "Serum creatinine",
+      "Serum osmolality"
+    ],
+    "correct": 3,
+    "explanation": "Serum osmolality (target <320 mOsm/kg) determines safe further dosing.",
+    "explanations": {
+      "A": "AVP is rarely measured at bedside.",
+      "B": "Urine SG changes but is not the dose-limiting parameter.",
+      "C": "Creatinine is monitored but lags.",
+      "D": "Serum osmolality (target <320 mOsm/kg) determines safe further dosing."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Mannitol therapy",
+    "day": 1,
+    "difficulty": "Hard",
+    "source": "JIPMER SN 2017",
+    "year": 2017,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 89,
+    "_origId": "N1-1",
+    "question": "Burn percentage in an adult is best estimated using:",
+    "options": [
+      "Rule of Nine",
+      "Lund-Browder chart",
+      "Palmar method",
+      "Parkland formula"
+    ],
+    "correct": 0,
+    "explanation": "Wallace's Rule of Nines divides adult body surface area into multiples of 9 (head 9%, each arm 9%, each leg 18%, anterior trunk 18%, posterior trunk 18%, perineum 1%) for rapid bedside burn estimation.",
+    "explanations": {
+      "A": "Wallace's Rule of Nines divides adult body surface area into multiples of 9 (head 9%, each arm 9%, each leg 18%, anterior trunk 18%, posterior trunk 18%, perineum 1%) for rapid bedside burn estimation.",
+      "B": "More accurate but used for children and detailed assessment, not the bedside default in adults.",
+      "C": "Patient's palm ≈ 1% TBSA — useful for small/scattered burns only.",
+      "D": "Calculates fluid volume after % TBSA is determined, not the % itself."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Burn assessment",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 90,
+    "_origId": "N1-2",
+    "question": "Cardiac troponin level is most useful in diagnosing:",
+    "options": [
+      "Myocardial infarction",
+      "Pulmonary embolism",
+      "Heart failure",
+      "Pericarditis"
+    ],
+    "correct": 0,
+    "explanation": "Troponin I and T are highly specific cardiac muscle proteins released after myocyte injury; they rise within 3-6 h, peak at 24 h, and remain elevated up to 10-14 days, making them the gold-standard MI marker.",
+    "explanations": {
+      "A": "Troponin I and T are highly specific cardiac muscle proteins released after myocyte injury; they rise within 3-6 h, peak at 24 h, and remain elevated up to 10-14 days, making them the gold-standard MI marker.",
+      "B": "D-dimer and CT pulmonary angiogram are the diagnostic tools.",
+      "C": "BNP/NT-proBNP is the failure-specific marker.",
+      "D": "Diagnosed by ECG (diffuse ST elevation) and echo, not troponin."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Cardiac biomarkers",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 95,
+    "_origId": "N1-7",
+    "question": "Universal blood donor group is:",
+    "options": [
+      "O positive",
+      "O negative",
+      "AB positive",
+      "AB negative"
+    ],
+    "correct": 1,
+    "explanation": "O-negative red cells carry neither A, B nor Rh(D) antigens, so they can be transfused to recipients of any ABO/Rh group in emergencies — hence 'universal donor'.",
+    "explanations": {
+      "A": "Lacks A/B antigens but Rh+ can sensitise Rh-negative recipients.",
+      "B": "O-negative red cells carry neither A, B nor Rh(D) antigens, so they can be transfused to recipients of any ABO/Rh group in emergencies — hence 'universal donor'.",
+      "C": "AB+ is the universal recipient, not donor.",
+      "D": "AB negative is universal plasma donor, not RBC donor."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Blood transfusion",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 108,
+    "_origId": "N1-20",
+    "question": "Abnormal accumulation of fluid in the pleural cavity is called:",
+    "options": [
+      "Pneumothorax",
+      "Pleural effusion",
+      "Hemothorax",
+      "Empyema"
+    ],
+    "correct": 1,
+    "explanation": "Pleural effusion is any abnormal collection of fluid (transudate or exudate) in the pleural cavity — the umbrella term being asked.",
+    "explanations": {
+      "A": "Air in the pleural space, not fluid.",
+      "B": "Pleural effusion is any abnormal collection of fluid (transudate or exudate) in the pleural cavity — the umbrella term being asked.",
+      "C": "Specifically blood in the pleural space.",
+      "D": "Specifically pus in the pleural space."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Respiratory disorders",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 125,
+    "_origId": "N3-7",
+    "question": "Which position is correct for a patient undergoing lumbar puncture?",
+    "options": [
+      "Lateral with knees flexed onto abdomen and chin to chest",
+      "Supine with knees extended",
+      "Prone with arms above head",
+      "Trendelenburg position"
+    ],
+    "correct": 0,
+    "explanation": "Left lateral decubitus with knees drawn to abdomen and chin to chest (fetal position) widens the L3–L4/L4–L5 interspinous space for needle entry.",
+    "explanations": {
+      "A": "Left lateral decubitus with knees drawn to abdomen and chin to chest (fetal position) widens the L3–L4/L4–L5 interspinous space for needle entry.",
+      "B": "Supine with extended knees closes the interspinous space.",
+      "C": "Prone is rarely used and reserved for fluoroscopy-guided LP.",
+      "D": "Trendelenburg is for shock, not LP."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Lumbar puncture",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 126,
+    "_origId": "N3-8",
+    "question": "Which gas is used for abdominal insufflation during laparoscopy?",
+    "options": [
+      "Carbon dioxide",
+      "Nitrous oxide",
+      "Oxygen",
+      "Helium"
+    ],
+    "correct": 0,
+    "explanation": "CO₂ is used because it is non-flammable, highly soluble in blood (low embolism risk), inexpensive, and rapidly cleared via the lungs.",
+    "explanations": {
+      "A": "CO₂ is used because it is non-flammable, highly soluble in blood (low embolism risk), inexpensive, and rapidly cleared via the lungs.",
+      "B": "N₂O supports combustion if electrocautery is used.",
+      "C": "Oxygen is highly combustible — contraindicated.",
+      "D": "Helium is more expensive and less soluble, raising embolism risk."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Laparoscopy",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 128,
+    "_origId": "N3-10",
+    "question": "What does the P wave on a normal ECG represent?",
+    "options": [
+      "Atrial depolarisation",
+      "Ventricular depolarisation",
+      "Ventricular repolarisation",
+      "Atrial repolarisation"
+    ],
+    "correct": 0,
+    "explanation": "P wave reflects atrial depolarisation initiated by the SA node; normal duration <0.12 s, amplitude <2.5 mm.",
+    "explanations": {
+      "A": "P wave reflects atrial depolarisation initiated by the SA node; normal duration <0.12 s, amplitude <2.5 mm.",
+      "B": "Ventricular depolarisation is the QRS complex.",
+      "C": "Ventricular repolarisation is the T wave.",
+      "D": "Atrial repolarisation is buried within the QRS and not normally visible."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "ECG basics",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 141,
+    "_origId": "N3-23",
+    "question": "A patient with a head injury opens eyes only to painful stimuli, withdraws from pain, and gives confused conversation. What is his GCS score?",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "Eye to pain = 2, withdraws from pain (motor) = 4, confused conversation (verbal) = 4. Total = 10.",
+    "explanations": {
+      "A": "Eye to pain = 2, withdraws from pain (motor) = 4, confused conversation (verbal) = 4. Total = 10.",
+      "B": "8 would require lower motor or verbal response — typically intubation threshold.",
+      "C": "12 would require eye opening to voice and oriented speech.",
+      "D": "6 implies almost no responses — this patient still localises and converses."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Glasgow Coma Scale",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 167,
+    "_origId": "N4-19",
+    "question": "Korotkoff sounds are heard during measurement of:",
+    "options": [
+      "Pulse",
+      "Respiratory rate",
+      "Blood pressure",
+      "Temperature"
+    ],
+    "correct": 2,
+    "explanation": "Korotkoff sounds (5 phases) are heard during auscultatory BP measurement; phase I = systolic, phase V = diastolic.",
+    "explanations": {
+      "A": "Pulse is palpated, not auscultated for Korotkoff.",
+      "B": "Respiratory rate is observed visually.",
+      "C": "Korotkoff sounds (5 phases) are heard during auscultatory BP measurement; phase I = systolic, phase V = diastolic.",
+      "D": "Temperature uses a thermometer."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital signs",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 174,
+    "_origId": "N5-1",
+    "question": "Normal pH range of arterial blood is:",
+    "options": [
+      "7.25-7.35",
+      "7.35-7.45",
+      "7.45-7.55",
+      "7.10-7.20"
+    ],
+    "correct": 1,
+    "explanation": "Normal arterial pH is 7.35-7.45.",
+    "explanations": {
+      "A": "Indicates acidosis.",
+      "B": "Normal arterial pH is 7.35-7.45.",
+      "C": "Indicates alkalosis.",
+      "D": "Severe acidosis."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "ABG interpretation",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 178,
+    "_origId": "N5-5",
+    "question": "Pulse oximetry measures:",
+    "options": [
+      "Partial pressure of oxygen",
+      "Oxygen saturation of hemoglobin",
+      "Carbon dioxide level",
+      "Hemoglobin concentration"
+    ],
+    "correct": 1,
+    "explanation": "Pulse oximetry (SpO2) measures the percentage of hemoglobin saturated with oxygen, normal 95-100%.",
+    "explanations": {
+      "A": "PaO2 is measured by ABG.",
+      "B": "Pulse oximetry (SpO2) measures the percentage of hemoglobin saturated with oxygen, normal 95-100%.",
+      "C": "Capnography measures CO2.",
+      "D": "Hb is measured via lab test."
+    },
+    "subject": "Fundamentals",
+    "topic": "Vital signs",
+    "day": 1,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 190,
+    "_origId": "N5-17",
+    "question": "Trendelenburg position is used for:",
+    "options": [
+      "Hypovolemic shock (older recommendation)",
+      "Increased intracranial pressure",
+      "Pulmonary edema",
+      "Spinal injury"
+    ],
+    "correct": 0,
+    "explanation": "Trendelenburg (head-low) was historically used for hypovolemic shock; now modified Trendelenburg/passive leg raise is preferred.",
+    "explanations": {
+      "A": "Trendelenburg (head-low) was historically used for hypovolemic shock; now modified Trendelenburg/passive leg raise is preferred.",
+      "B": "Raised ICP requires head elevation 30 degrees, not Trendelenburg.",
+      "C": "Pulmonary edema needs upright position.",
+      "D": "Spinal injury requires neutral alignment, not Trendelenburg."
+    },
+    "subject": "Fundamentals",
+    "topic": "Patient positioning",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 191,
+    "_origId": "N5-18",
+    "question": "Which acid-base disturbance is seen in prolonged vomiting?",
+    "options": [
+      "Metabolic acidosis",
+      "Metabolic alkalosis",
+      "Respiratory acidosis",
+      "Respiratory alkalosis"
+    ],
+    "correct": 1,
+    "explanation": "Prolonged vomiting causes loss of HCl from stomach leading to metabolic alkalosis (hypochloremic, hypokalemic).",
+    "explanations": {
+      "A": "Diarrhea causes metabolic acidosis due to bicarb loss.",
+      "B": "Prolonged vomiting causes loss of HCl from stomach leading to metabolic alkalosis (hypochloremic, hypokalemic).",
+      "C": "Respiratory acidosis is due to hypoventilation.",
+      "D": "Respiratory alkalosis is due to hyperventilation."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Acid-base balance",
+    "day": 1,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 213,
     "_origId": "N8-4",
     "question": "Normal pH of arterial blood is:",
     "options": [
@@ -26,10 +677,10 @@
     "qtype": "recall",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-8-mains-2025-recalls.json"
   },
   {
-    "id": 5,
+    "id": 214,
     "_origId": "N8-5",
     "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
     "options": [
@@ -55,10 +706,10 @@
     "qtype": "scenario",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-8-mains-2025-recalls.json"
   },
   {
-    "id": 18,
+    "id": 216,
     "_origId": "N9-1",
     "question": "A 65-year-old patient with a history of diabetes mellitus and coronary artery disease presents with dizziness and near syncope. ECG shows a wide-complex bradyarrhythmia. What is the most appropriate management?",
     "options": [
@@ -87,7 +738,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 19,
+    "id": 217,
     "_origId": "N9-2",
     "question": "Identify the type of anesthesia shown in the image (needle placed in the epidural space, catheter threaded, LOR-to-saline technique).",
     "options": [
@@ -116,7 +767,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 23,
+    "id": 221,
     "_origId": "N9-6",
     "question": "A patient on ECMO continues to have difficulty breathing despite adequate settings. What is the most appropriate next step?",
     "options": [
@@ -145,7 +796,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 30,
+    "id": 228,
     "_origId": "N9-13",
     "question": "A burn patient requires 4800 mL fluid in the first 24 hours as per the Parkland formula. How much fluid should be given in the first 8 hours?",
     "options": [
@@ -174,7 +825,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 31,
+    "id": 229,
     "_origId": "N9-14",
     "question": "Elevated jugular venous pressure is most commonly caused by:",
     "options": [
@@ -203,7 +854,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 32,
+    "id": 230,
     "_origId": "N9-15",
     "question": "A patient receiving heparin has an aPTT of 85 seconds. What is the most appropriate next action?",
     "options": [
@@ -232,7 +883,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 33,
+    "id": 231,
     "_origId": "N9-16",
     "question": "What is the primary purpose of a bougie during airway management?",
     "options": [
@@ -259,616 +910,5 @@
     "section": "medical-surgical",
     "tags": [],
     "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 35,
-    "_origId": "N9-18",
-    "question": "Which of the following is an EARLY sign of increased intracranial pressure (ICP)?",
-    "options": [
-      "Bradycardia",
-      "Irregular respiration",
-      "Headache and vomiting",
-      "Hypertension"
-    ],
-    "correct": 2,
-    "explanation": "Morning headache, vomiting (often projectile, non-bilious), and visual changes are early ICP features.",
-    "explanations": {
-      "A": "Bradycardia is part of Cushing's triad — a late, pre-herniation sign.",
-      "B": "Irregular (Cheyne-Stokes/ataxic) respiration is a late Cushing triad component.",
-      "C": "Morning headache, vomiting (often projectile, non-bilious), and visual changes are early ICP features.",
-      "D": "Hypertension with widened pulse pressure is late (Cushing response)."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Raised ICP",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 36,
-    "_origId": "N9-19",
-    "question": "A COPD patient develops respiratory acidosis. Which intervention is most appropriate?",
-    "options": [
-      "Administer oxygen via BiPAP",
-      "Start mechanical ventilation",
-      "Give sodium bicarbonate IV",
-      "Restrict fluids"
-    ],
-    "correct": 0,
-    "explanation": "BiPAP (NIV) is first-line for COPD exacerbation with respiratory acidosis — it unloads work of breathing and improves CO2 clearance.",
-    "explanations": {
-      "A": "BiPAP (NIV) is first-line for COPD exacerbation with respiratory acidosis — it unloads work of breathing and improves CO2 clearance.",
-      "B": "Invasive ventilation is reserved for NIV failure or contraindication.",
-      "C": "Bicarbonate does not treat the underlying hypoventilation and can cause paradoxical CSF acidosis.",
-      "D": "Fluid restriction doesn't address respiratory failure."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "COPD / NIV",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 37,
-    "_origId": "N9-20",
-    "question": "During dialysis, a patient's potassium level rises to 6.8 mEq/L. What is the immediate life-saving intervention?",
-    "options": [
-      "Administer calcium gluconate IV",
-      "Start potassium-restricted diet",
-      "Administer furosemide",
-      "Restrict IV fluids"
-    ],
-    "correct": 0,
-    "explanation": "IV calcium gluconate immediately stabilises myocardial membrane against lethal arrhythmia — first step in life-threatening hyperkalemia.",
-    "explanations": {
-      "A": "IV calcium gluconate immediately stabilises myocardial membrane against lethal arrhythmia — first step in life-threatening hyperkalemia.",
-      "B": "Dietary restriction is long-term prevention, not acute rescue.",
-      "C": "Furosemide requires functioning kidneys; useless in dialysis-dependent anuria.",
-      "D": "Fluid restriction doesn't lower serum K+ acutely."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Hyperkalemia",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 38,
-    "_origId": "N9-21",
-    "question": "Atropine is given before abdominal surgery to:",
-    "options": [
-      "Reduce gastric secretions",
-      "Increase peristalsis",
-      "Prevent infection",
-      "Increase urine output"
-    ],
-    "correct": 0,
-    "explanation": "Atropine is an antimuscarinic — reduces salivary, bronchial and gastric secretions, preventing aspiration during anesthesia.",
-    "explanations": {
-      "A": "Atropine is an antimuscarinic — reduces salivary, bronchial and gastric secretions, preventing aspiration during anesthesia.",
-      "B": "Atropine decreases peristalsis (paralytic effect on GI smooth muscle).",
-      "C": "Atropine has no antimicrobial property.",
-      "D": "Atropine causes urinary retention, not diuresis."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Pre-op medications",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 39,
-    "_origId": "N9-22",
-    "question": "A patient presents with pelvic trauma associated with testicular injury. What is the priority nursing action?",
-    "options": [
-      "Insert Foley catheter immediately",
-      "Avoid urethral catheterization",
-      "Apply ice packs and reassurance only",
-      "Start antibiotics and send urine culture"
-    ],
-    "correct": 1,
-    "explanation": "Blood at meatus, scrotal/perineal hematoma → avoid Foley until retrograde urethrogram rules out urethral injury; supra-pubic cystostomy preferred.",
-    "explanations": {
-      "A": "Blind catheterization can convert a partial urethral tear into complete disruption.",
-      "B": "Blood at meatus, scrotal/perineal hematoma → avoid Foley until retrograde urethrogram rules out urethral injury; supra-pubic cystostomy preferred.",
-      "C": "Pain relief alone ignores possible urethral disruption and bladder retention.",
-      "D": "Antibiotics and culture are secondary to ruling out urethral injury."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Urethral injury / Pelvic trauma",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 40,
-    "_origId": "N9-23",
-    "question": "Which finding in a patient receiving opioid analgesics indicates the most serious concern and requires immediate intervention?",
-    "options": [
-      "Constipation",
-      "Nausea and vomiting",
-      "Respiratory rate 10/min",
-      "Urinary retention"
-    ],
-    "correct": 2,
-    "explanation": "Respiratory rate <12 signals opioid-induced respiratory depression — life-threatening; prepare naloxone and stimulate patient.",
-    "explanations": {
-      "A": "Constipation is common, chronic, and managed with bowel regimen.",
-      "B": "Nausea/vomiting is expected and treated with antiemetics.",
-      "C": "Respiratory rate <12 signals opioid-induced respiratory depression — life-threatening; prepare naloxone and stimulate patient.",
-      "D": "Retention is a side effect but not immediately life-threatening."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Opioid toxicity",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 41,
-    "_origId": "N9-24",
-    "question": "A patient on mechanical ventilation shows sudden desaturation and increased peak airway pressure. What is the immediate nursing action?",
-    "options": [
-      "Increase the oxygen flow",
-      "Perform suctioning",
-      "Administer bronchodilator",
-      "Notify the physician"
-    ],
-    "correct": 1,
-    "explanation": "Sudden ↑peak pressure + desaturation is typically secretions or kinked tube — suction first (DOPES: Displacement, Obstruction, Pneumothorax, Equipment, Stacking).",
-    "explanations": {
-      "A": "Increasing FiO2 doesn't remove obstruction causing high peak pressures.",
-      "B": "Sudden ↑peak pressure + desaturation is typically secretions or kinked tube — suction first (DOPES: Displacement, Obstruction, Pneumothorax, Equipment, Stacking).",
-      "C": "Bronchodilators help if wheeze-driven; addressed after clearing the airway.",
-      "D": "Notifying the physician comes after the first-line nursing intervention to rescue the patient."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Ventilator troubleshooting",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 43,
-    "_origId": "N9-26",
-    "question": "A patient develops headache and dizziness after a lumbar puncture. What is the most appropriate immediate nursing action?",
-    "options": [
-      "Send sample to laboratory",
-      "Position patient in prone",
-      "Notify physician",
-      "Encourage deep breathing"
-    ],
-    "correct": 1,
-    "explanation": "Post-LP headache is managed by keeping the patient flat (supine or prone) for several hours with fluids; reduces CSF leak symptoms.",
-    "explanations": {
-      "A": "The CSF sample is usually already sent; the focus now is patient comfort/safety.",
-      "B": "Post-LP headache is managed by keeping the patient flat (supine or prone) for several hours with fluids; reduces CSF leak symptoms.",
-      "C": "Notify after addressing positioning and fluids if pain is severe/persistent.",
-      "D": "Deep breathing doesn't resolve low-pressure headache."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Post-LP headache",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 45,
-    "_origId": "N9-28",
-    "question": "A patient is suspected of having acute pancreatitis. Which laboratory values are most commonly elevated?",
-    "options": [
-      "Amylase and lipase",
-      "Triglycerides",
-      "ALT and AST",
-      "Creatinine"
-    ],
-    "correct": 0,
-    "explanation": "Serum amylase and especially lipase (>3× upper limit) are the diagnostic biomarkers of acute pancreatitis.",
-    "explanations": {
-      "A": "Serum amylase and especially lipase (>3× upper limit) are the diagnostic biomarkers of acute pancreatitis.",
-      "B": "Triglycerides are a cause of pancreatitis but not the diagnostic marker.",
-      "C": "ALT/AST rise in biliary pancreatitis but are not specific to pancreas.",
-      "D": "Creatinine rises if AKI complicates severe disease but isn't primary."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Pancreatitis / Enzymes",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 46,
-    "_origId": "N9-29",
-    "question": "A patient's ABG shows pH 7.50, PaCO2 28 mmHg, HCO3 24 mEq/L. Which of the following is the most likely cause?",
-    "options": [
-      "Chronic obstructive pulmonary disease",
-      "Pulmonary embolism",
-      "Air embolism",
-      "Hypoxia"
-    ],
-    "correct": 1,
-    "explanation": "ABG shows acute respiratory alkalosis (↑pH, ↓PaCO2, normal HCO3) — typical of PE-induced hyperventilation.",
-    "explanations": {
-      "A": "COPD classically produces respiratory acidosis (↑PaCO2), not alkalosis.",
-      "B": "ABG shows acute respiratory alkalosis (↑pH, ↓PaCO2, normal HCO3) — typical of PE-induced hyperventilation.",
-      "C": "Air embolism is rarer; PE fits the hyperventilation pattern best here.",
-      "D": "Pure hypoxia may drive hyperventilation but PE is the best clinical fit."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "ABG / Respiratory alkalosis",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 48,
-    "_origId": "N9-31",
-    "question": "A patient with chronic kidney disease presents with hyponatremia. What is the most appropriate initial nursing intervention?",
-    "options": [
-      "Administer 0.9% NS",
-      "Restrict fluids",
-      "Administer 3% hypertonic saline",
-      "Start diuretics"
-    ],
-    "correct": 0,
-    "explanation": "In symptomatic hyponatremia with CKD, isotonic saline (0.9% NS) is the safest initial step to restore sodium gradually.",
-    "explanations": {
-      "A": "In symptomatic hyponatremia with CKD, isotonic saline (0.9% NS) is the safest initial step to restore sodium gradually.",
-      "B": "Fluid restriction suits SIADH-type dilutional hyponatremia, not hypovolemic or CKD-related loss.",
-      "C": "3% saline is reserved for severe symptomatic hyponatremia with neurological signs; requires close monitoring.",
-      "D": "Diuretics can worsen hyponatremia in CKD."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Hyponatremia / CKD",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "medical-surgical",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 1232,
-    "question": "Parkland formula for fluid resuscitation in burns uses:",
-    "options": [
-      "2 mL × kg × %TBSA",
-      "3 mL × kg × %TBSA",
-      "4 mL × kg × %TBSA lactated Ringer’s in 24h",
-      "5 mL × kg × %TBSA"
-    ],
-    "correct": 2,
-    "explanation": "• Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h).\n• Classic NORCET style.",
-    "explanations": {
-      "A": "\"2 mL × kg × %TBSA\" is a plausible distractor but incorrect. The correct answer is C (\"4 mL × kg × %TBSA lactated Ringer’s in 24h\") — Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
-      "B": "\"3 mL × kg × %TBSA\" is a plausible distractor but incorrect. The correct answer is C (\"4 mL × kg × %TBSA lactated Ringer’s in 24h\") — Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
-      "C": "Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style.",
-      "D": "\"5 mL × kg × %TBSA\" is a plausible distractor but incorrect. The correct answer is C (\"4 mL × kg × %TBSA lactated Ringer’s in 24h\") — Parkland: 4 mL × kg × %TBSA LR (half in 8h, half in 16h). Classic NORCET style."
-    },
-    "subject": "Mixed",
-    "topic": "Emergency",
-    "day": 1,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1246,
-    "question": "Weight doubles by approximately:",
-    "options": [
-      "3 months",
-      "5 months",
-      "12 months",
-      "2 years"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"3 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"12 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"2 years\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "Pediatric",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1256,
-    "question": "Weight doubles by approximately:",
-    "options": [
-      "3 months",
-      "5 months",
-      "12 months",
-      "2 years"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"3 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"12 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"2 years\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "Pediatric",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1266,
-    "question": "Weight doubles by approximately:",
-    "options": [
-      "3 months",
-      "5 months",
-      "12 months",
-      "2 years"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"3 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"12 months\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"2 years\" is a plausible distractor but incorrect. The correct answer is B (\"5 months\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "Pediatric",
-    "day": 1,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 370,
-    "syllabusId": "foundation-1-infection-control-standard-precautions",
-    "question": "Nurse caring for multiple patients in a ward.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL",
-      "Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact, after contact with…",
-      "Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
-      "Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact, after contact with… (Alcohol-based hand rub if hands not visibly soiled; soap+water if soiled.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact, after contact with…. Hand hygiene before/after every patient contact",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Fundamentals",
-    "topic": "Infection control — standard precautions",
-    "section": "foundation",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 371,
-    "syllabusId": "foundation-2-code-of-ethics-icn-inc",
-    "question": "Patient refuses blood transfusion on religious grounds despite severe anemia.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Drops/min = (100 x 20) / 30 = 67 gtt/min",
-      "Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%",
-      "Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
-      "Document expected newborn: HR 120-160, RR 30-60, axillary T 36.5-37.5"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Respect autonomy after verifying informed refusal, document, involve multi-disciplinary team including ethics committee. ICN code: promote health, prevent illness, restore health, alleviate suffering",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Fundamentals",
-    "topic": "Code of ethics — ICN/INC",
-    "section": "foundation",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 372,
-    "syllabusId": "foundation-3-lines-and-tubes-suctioning-ett-ng-tracheostomy-cvp",
-    "question": "Patient on ventilator needs suctioning for thick secretions.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Keep drainage unit below chest, monitor tidaling, report continuous bubbling (air leak), measure output hourly, never clamp during transpor…",
-      "Perform hand hygiene at 5 moments (WHO): before patient contact, before aseptic task, after body fluid exposure risk, after patient contact…",
-      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
-      "Pre-oxygenate to 100% x 30 sec, sterile technique, insert without suction, apply suction while withdrawing <15 sec, reassess SpO2"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Pre-oxygenate to 100% x 30 sec, sterile technique, insert without suction, apply suction while withdrawing <15 sec, reassess SpO2 (Never instill saline as a routine in closed suction.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Pre-oxygenate to 100% x 30 sec, sterile technique, insert without suction, apply suction while withdrawing <15 sec, reassess SpO2. Suctioning: pre-oxygenate 100% O2, sterile technique, <15 sec, negative pressure 80-150 adult"
-    },
-    "subject": "Fundamentals",
-    "topic": "Lines and tubes — suctioning, ETT, NG, tracheostomy, CVP",
-    "section": "foundation",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 373,
-    "syllabusId": "foundation-4-oxygen-therapy-devices-and-flow-rates",
-    "question": "COPD patient needs precise FiO2 28% due to CO2 retention risk.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Figure-of-8 from foot distal to leg proximal, 50% overlap, check capillary refill and toe colour after",
-      "Try de-escalation, then least-restrictive restraint if needed, physician order within 1 h, assess q15 min, release q2h for ROM/toileting",
-      "Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%",
-      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92% (Target SpO2 88-92% in COPD, 94-98% in most adults.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Apply Venturi mask with white/28% adapter, flow as labeled on device (typically 4 L), monitor SpO2 88-92%. Nasal cannula: 1-6 L/min → 24-44% FiO2 (rule: 4% per L)",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Fundamentals",
-    "topic": "Oxygen therapy devices and flow rates",
-    "section": "foundation",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 374,
-    "syllabusId": "foundation-5-blood-transfusion-and-sampling",
-    "question": "Patient starts chills, lower back pain, fever 15 min into transfusion.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Prone positioning for >=12 h/day, protect pressure points, secure all lines, airway clearance",
-      "Position sitting leaning forward, assist with aspiration above rib, monitor for cough/dyspnea (pneumothorax), send fluid to lab, CXR post-p…",
-      "Take vitals, collect history, perform head-to-toe in IPPA order (except abdomen), document findings, report abnormalities",
-      "STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemolytic reaction"
-    ],
-    "correct": 3,
-    "explanation": "Priority: STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemolytic reaction (Anti-D within 72 h for Rh-negative who receives Rh+ blood.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemolytic reaction. Bedside double-check: patient ID, blood group/Rh, crossmatch, product expiry"
-    },
-    "subject": "Fundamentals",
-    "topic": "Blood transfusion and sampling",
-    "section": "foundation",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 375,
-    "syllabusId": "foundation-6-iv-fluids-types-and-indications",
-    "question": "70-kg adult needs maintenance fluids.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL",
-      "STOP transfusion, keep line open with NS, notify physician, send blood bag + tubing + patient blood/urine for workup — suspect acute hemoly…",
-      "Insert 14G or 16G in antecubital; 2 large-bore for rapid fluid/blood resuscitation",
-      "Wear PPE, cover with absorbent paper, apply 1% NaOCl for 10 min, wipe from outside toward center, discard in yellow bag, document"
-    ],
-    "correct": 0,
-    "explanation": "Priority: 4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: 4-2-1 rule: 100 mL/h for first 10 kg, 50 for next 10, 20 for rest → ~110 mL/h of NS or RL. Isotonic: NS 0.9%, RL, Plasmalyte — resuscitation",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Fundamentals",
-    "topic": "IV fluids — types and indications",
-    "section": "foundation",
-    "day": 1,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
   }
 ]

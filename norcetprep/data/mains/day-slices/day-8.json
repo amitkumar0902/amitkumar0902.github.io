@@ -1,6 +1,471 @@
 [
   {
-    "id": 8,
+    "id": 15,
+    "_origId": "AIIMS-15",
+    "question": "The causative organism of gas gangrene is:",
+    "options": [
+      "Clostridium tetani",
+      "Clostridium perfringens",
+      "Clostridium botulinum",
+      "Clostridium difficile"
+    ],
+    "correct": 1,
+    "explanation": "C. perfringens (welchii) is the principal cause of gas gangrene/myonecrosis.",
+    "explanations": {
+      "A": "C. tetani causes tetanus (lockjaw).",
+      "B": "C. perfringens (welchii) is the principal cause of gas gangrene/myonecrosis.",
+      "C": "C. botulinum causes botulism (flaccid paralysis).",
+      "D": "C. difficile causes pseudomembranous colitis."
+    },
+    "subject": "Microbiology",
+    "topic": "Anaerobes",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 19,
+    "_origId": "AIIMS-19",
+    "question": "A direct stomach feeding tube placed surgically is called a:",
+    "options": [
+      "Nasogastric tube",
+      "Jejunostomy tube",
+      "Gastrostomy tube",
+      "Orogastric tube"
+    ],
+    "correct": 2,
+    "explanation": "Gastrostomy is a direct surgical/endoscopic stoma into the stomach.",
+    "explanations": {
+      "A": "NG goes through the nose into stomach (not direct).",
+      "B": "Jejunostomy enters the jejunum, bypassing the stomach.",
+      "C": "Gastrostomy is a direct surgical/endoscopic stoma into the stomach.",
+      "D": "OG tube goes through the mouth, not direct."
+    },
+    "subject": "Fundamentals",
+    "topic": "Enteral access",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 42,
+    "_origId": "DSSSB-18",
+    "question": "Which type of immunity is provided by breast milk to a newborn?",
+    "options": [
+      "Active natural",
+      "Active artificial",
+      "Passive natural",
+      "Passive artificial"
+    ],
+    "correct": 2,
+    "explanation": "Maternal IgA in breast milk and IgG transferred transplacentally provide passive natural immunity to the newborn.",
+    "explanations": {
+      "A": "Active natural occurs after natural infection.",
+      "B": "Active artificial is via vaccination.",
+      "C": "Maternal IgA in breast milk and IgG transferred transplacentally provide passive natural immunity to the newborn.",
+      "D": "Passive artificial is via immunoglobulin injections (e.g., Anti-D, Hep B Ig)."
+    },
+    "subject": "Microbiology",
+    "topic": "Types of immunity",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 53,
+    "_origId": "ESIC-9",
+    "question": "Which of the following is a live attenuated vaccine?",
+    "options": [
+      "Hepatitis B",
+      "DPT",
+      "BCG",
+      "Tetanus toxoid"
+    ],
+    "correct": 2,
+    "explanation": "BCG is a live attenuated strain of Mycobacterium bovis. Other live attenuated: OPV, MMR, Varicella, Yellow fever.",
+    "explanations": {
+      "A": "Hep B is recombinant (subunit) vaccine.",
+      "B": "DPT contains inactivated/toxoid components.",
+      "C": "BCG is a live attenuated strain of Mycobacterium bovis. Other live attenuated: OPV, MMR, Varicella, Yellow fever.",
+      "D": "Tetanus toxoid is an inactivated toxoid."
+    },
+    "subject": "Microbiology",
+    "topic": "Vaccines / immunology",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 74,
+    "_origId": "JIPMER-10",
+    "question": "Koplik's spots are characteristic of:",
+    "options": [
+      "Rubella",
+      "Typhoid",
+      "Measles (rubeola)",
+      "Mumps"
+    ],
+    "correct": 2,
+    "explanation": "Bluish-white Koplik spots on buccal mucosa are pathognomonic of measles.",
+    "explanations": {
+      "A": "Rubella has Forschheimer spots, not Koplik.",
+      "B": "Typhoid shows rose spots on trunk.",
+      "C": "Bluish-white Koplik spots on buccal mucosa are pathognomonic of measles.",
+      "D": "Mumps causes parotid swelling, not oral spots."
+    },
+    "subject": "Microbiology",
+    "topic": "Eruptive fevers",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 75,
+    "_origId": "JIPMER-11",
+    "question": "Causative organism of chickenpox is:",
+    "options": [
+      "Variola virus",
+      "Varicella zoster virus",
+      "Myxovirus",
+      "Paramyxovirus"
+    ],
+    "correct": 1,
+    "explanation": "Varicella zoster virus (HHV-3) causes chickenpox and shingles.",
+    "explanations": {
+      "A": "Variola caused smallpox (eradicated).",
+      "B": "Varicella zoster virus (HHV-3) causes chickenpox and shingles.",
+      "C": "Myxovirus (influenza) is unrelated.",
+      "D": "Paramyxovirus causes measles/mumps."
+    },
+    "subject": "Microbiology",
+    "topic": "Viral exanthems",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 76,
+    "_origId": "JIPMER-12",
+    "question": "Schick test is used in the diagnosis of:",
+    "options": [
+      "Measles susceptibility",
+      "Rubella immunity",
+      "Mumps",
+      "Diphtheria susceptibility"
+    ],
+    "correct": 3,
+    "explanation": "Schick test detects susceptibility to diphtheria toxin (intradermal toxin).",
+    "explanations": {
+      "A": "No skin test for measles.",
+      "B": "Rubella is tested serologically.",
+      "C": "No skin test for mumps.",
+      "D": "Schick test detects susceptibility to diphtheria toxin (intradermal toxin)."
+    },
+    "subject": "Microbiology",
+    "topic": "Skin tests",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 77,
+    "_origId": "JIPMER-13",
+    "question": "Causative agent of swine flu is:",
+    "options": [
+      "H1N1",
+      "H2N2",
+      "H3N2",
+      "H5N1"
+    ],
+    "correct": 0,
+    "explanation": "H1N1 is the swine flu strain (2009 pandemic).",
+    "explanations": {
+      "A": "H1N1 is the swine flu strain (2009 pandemic).",
+      "B": "H2N2 caused the 1957 Asian flu pandemic.",
+      "C": "H3N2 causes seasonal flu.",
+      "D": "H5N1 is avian (bird) flu."
+    },
+    "subject": "Microbiology",
+    "topic": "Influenza",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 87,
+    "_origId": "JIPMER-23",
+    "question": "Initial site for chickenpox rash is typically:",
+    "options": [
+      "Trunk (centripetal)",
+      "Face only",
+      "Palms and soles",
+      "Lower limbs"
+    ],
+    "correct": 0,
+    "explanation": "Chickenpox rash is centripetal — starts on the trunk and spreads to face/limbs.",
+    "explanations": {
+      "A": "Chickenpox rash is centripetal — starts on the trunk and spreads to face/limbs.",
+      "B": "Face-first is more characteristic of smallpox (centrifugal).",
+      "C": "Palms/soles distribution is uncommon.",
+      "D": "Lower-limb-first is atypical."
+    },
+    "subject": "Microbiology",
+    "topic": "Chickenpox distribution",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 88,
+    "_origId": "JIPMER-24",
+    "question": "Mumps primarily affects which gland?",
+    "options": [
+      "Submandibular",
+      "Sublingual",
+      "Parotid",
+      "Thyroid"
+    ],
+    "correct": 2,
+    "explanation": "Parotid swelling is the hallmark of mumps.",
+    "explanations": {
+      "A": "Submandibular involvement is uncommon and secondary.",
+      "B": "Sublingual is rarely affected.",
+      "C": "Parotid swelling is the hallmark of mumps.",
+      "D": "Thyroid is unaffected."
+    },
+    "subject": "Microbiology",
+    "topic": "Mumps clinical",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 109,
+    "_origId": "N1-21",
+    "question": "VDRL test is used to diagnose:",
+    "options": [
+      "Gonorrhoea",
+      "AIDS",
+      "Syphilis",
+      "Diphtheria"
+    ],
+    "correct": 2,
+    "explanation": "VDRL (Venereal Disease Research Laboratory) is a non-treponemal flocculation test that detects reagin antibodies against cardiolipin, used to screen for syphilis (Treponema pallidum).",
+    "explanations": {
+      "A": "Diagnosed by Gram stain and culture/NAAT for Neisseria gonorrhoeae.",
+      "B": "ELISA/Western blot detects HIV antibodies.",
+      "C": "VDRL (Venereal Disease Research Laboratory) is a non-treponemal flocculation test that detects reagin antibodies against cardiolipin, used to screen for syphilis (Treponema pallidum).",
+      "D": "Schick test is for diphtheria immunity, not VDRL."
+    },
+    "subject": "Microbiology",
+    "topic": "Serological tests",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 110,
+    "_origId": "N1-22",
+    "question": "Schick test is used to diagnose susceptibility to:",
+    "options": [
+      "Tuberculosis",
+      "Tetanus",
+      "Pertussis",
+      "Diphtheria"
+    ],
+    "correct": 3,
+    "explanation": "Schick test injects diphtheria toxin intradermally; lack of erythema/induration after 48-72 h indicates immunity — historically used to assess diphtheria susceptibility.",
+    "explanations": {
+      "A": "Mantoux/PPD detects TB exposure.",
+      "B": "No analogous skin test — antibody titres used.",
+      "C": "Diagnosed clinically and by PCR/culture.",
+      "D": "Schick test injects diphtheria toxin intradermally; lack of erythema/induration after 48-72 h indicates immunity — historically used to assess diphtheria susceptibility."
+    },
+    "subject": "Microbiology",
+    "topic": "Skin tests",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 115,
+    "_origId": "N1-27",
+    "question": "Receiving readymade antibodies from another source represents:",
+    "options": [
+      "Natural active immunity",
+      "Natural passive immunity",
+      "Artificial active immunity",
+      "Artificial passive immunity"
+    ],
+    "correct": 3,
+    "explanation": "Administered preformed antibodies (e.g., anti-tetanus serum, anti-rabies immunoglobulin, monoclonal antibodies) give rapid but short-lived protection — artificial passive immunity.",
+    "explanations": {
+      "A": "Antibodies produced after natural infection.",
+      "B": "Maternal IgG across placenta or via breast milk.",
+      "C": "Antibodies produced by host after vaccination.",
+      "D": "Administered preformed antibodies (e.g., anti-tetanus serum, anti-rabies immunoglobulin, monoclonal antibodies) give rapid but short-lived protection — artificial passive immunity."
+    },
+    "subject": "Microbiology",
+    "topic": "Types of immunity",
+    "day": 8,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 158,
+    "_origId": "N4-10",
+    "question": "Mantoux test is read after:",
+    "options": [
+      "24 hours",
+      "48-72 hours",
+      "1 week",
+      "2 weeks"
+    ],
+    "correct": 1,
+    "explanation": "Mantoux (tuberculin) test is read 48-72 hours after intradermal injection of PPD.",
+    "explanations": {
+      "A": "Too early; induration may not have developed.",
+      "B": "Mantoux (tuberculin) test is read 48-72 hours after intradermal injection of PPD.",
+      "C": "Too late; reaction begins to fade.",
+      "D": "Not appropriate timing."
+    },
+    "subject": "Microbiology",
+    "topic": "Tuberculosis diagnosis",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 192,
+    "_origId": "N5-19",
+    "question": "The most common organism causing UTI is:",
+    "options": [
+      "Klebsiella",
+      "E. coli",
+      "Pseudomonas",
+      "Staphylococcus saprophyticus"
+    ],
+    "correct": 1,
+    "explanation": "Escherichia coli causes ~80-85% of community-acquired UTIs.",
+    "explanations": {
+      "A": "Klebsiella is second most common, especially nosocomial.",
+      "B": "Escherichia coli causes ~80-85% of community-acquired UTIs.",
+      "C": "Pseudomonas is associated with catheter-related/hospital UTIs.",
+      "D": "Staph saprophyticus causes UTI mainly in young sexually active women but is less common overall."
+    },
+    "subject": "Microbiology",
+    "topic": "UTI",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 208,
     "_origId": "N7-2",
     "question": "Triple-lumen catheter typically has:",
     "options": [
@@ -26,10 +491,10 @@
     "qtype": "recall",
     "section": "foundations",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-7-mains-2024-recalls.json"
   },
   {
-    "id": 34,
+    "id": 232,
     "_origId": "N9-17",
     "question": "During central venous catheter (CVC) insertion, a patient develops sudden dyspnea and diminished breath sounds on one side. What is the most likely complication?",
     "options": [
@@ -58,7 +523,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 76,
+    "id": 274,
     "_origId": "N9-59",
     "question": "A 30-year-old presents with fever, weight loss, and skin lesions after traveling to a rural area. The nurse suspects leishmaniasis. Which vector is most likely responsible?",
     "options": [
@@ -87,7 +552,69 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 1240,
+    "id": 388,
+    "_origId": "YT-14",
+    "question": "Gram-positive cocci in clusters on Gram stain typically indicate:",
+    "options": [
+      "Streptococcus pyogenes",
+      "Staphylococcus aureus",
+      "Neisseria meningitidis",
+      "Escherichia coli"
+    ],
+    "correct": 1,
+    "explanation": "Staphylococci appear as gram-positive cocci in grape-like clusters; S. aureus is the classic catalase- and coagulase-positive species.",
+    "explanations": {
+      "A": "Streptococci appear in chains, not clusters.",
+      "B": "Staphylococci appear as gram-positive cocci in grape-like clusters; S. aureus is the classic catalase- and coagulase-positive species.",
+      "C": "Gram-negative diplococci.",
+      "D": "Gram-negative bacilli."
+    },
+    "subject": "Microbiology",
+    "topic": "Gram stain",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 389,
+    "_origId": "YT-15",
+    "question": "The vector for malaria is:",
+    "options": [
+      "Culex mosquito",
+      "Aedes mosquito",
+      "Female Anopheles mosquito",
+      "Sandfly"
+    ],
+    "correct": 2,
+    "explanation": "Female Anopheles is the definitive host for Plasmodium and bites mostly between dusk and dawn.",
+    "explanations": {
+      "A": "Culex transmits filariasis and Japanese encephalitis.",
+      "B": "Aedes transmits dengue, chikungunya, Zika, yellow fever.",
+      "C": "Female Anopheles is the definitive host for Plasmodium and bites mostly between dusk and dawn.",
+      "D": "Sandfly transmits leishmaniasis (kala-azar)."
+    },
+    "subject": "Microbiology",
+    "topic": "Vector-borne disease",
+    "day": 8,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "microbiology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 1506,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -112,7 +639,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1249,
+    "id": 1515,
     "question": "Acid-fast bacillus seen in:",
     "options": [
       "Staphylococcus",
@@ -137,7 +664,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1250,
+    "id": 1516,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -162,7 +689,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1259,
+    "id": 1525,
     "question": "Acid-fast bacillus seen in:",
     "options": [
       "Staphylococcus",
@@ -187,7 +714,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1260,
+    "id": 1526,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -212,7 +739,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1269,
+    "id": 1535,
     "question": "Acid-fast bacillus seen in:",
     "options": [
       "Staphylococcus",
@@ -237,7 +764,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1270,
+    "id": 1536,
     "question": "Early sign of hypovolemic shock may include:",
     "options": [
       "Bounding pulse",
@@ -262,7 +789,7 @@
     "qtype": "factual"
   },
   {
-    "id": 419,
+    "id": 685,
     "syllabusId": "medicine-1-fluid-and-electrolyte-imbalance-with-ecg-changes",
     "question": "CKD patient with K+ 6.8, peaked T waves.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -294,7 +821,7 @@
     ]
   },
   {
-    "id": 420,
+    "id": 686,
     "syllabusId": "medicine-2-vagal-maneuver",
     "question": "Hemodynamically stable SVT 180/min.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -326,7 +853,7 @@
     ]
   },
   {
-    "id": 421,
+    "id": 687,
     "syllabusId": "medicine-3-basic-ecg-interpretation",
     "question": "ECG shows ST elevation V1-V4 with reciprocal depression in II III aVF.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -355,550 +882,6 @@
       "scenario",
       "highyield",
       "must"
-    ]
-  },
-  {
-    "id": 422,
-    "syllabusId": "medicine-4-heart-sounds-rhonchi-wheezes-pleural-rub-crackles",
-    "question": "COPD patient with polyphonic expiratory wheeze.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Measure cortisol, TSH, fT4, prolactin, FSH/LH, start hydrocortisone before levothyroxine, endocrine referral",
-      "Salbutamol nebulization, O2 titrated 88-92%, reassess breath sounds",
-      "Rule out fecal impaction with overflow — disimpact, start bulk-forming laxative and scheduled toileting, refer for evaluation",
-      "Avoid heavy arm movement for 4-6 wk on implant side, monitor pocket for hematoma/infection, no MRI unless MRI-conditional, carry device card"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Salbutamol nebulization, O2 titrated 88-92%, reassess breath sounds",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Salbutamol nebulization, O2 titrated 88-92%, reassess breath sounds. Crackles (rales): discontinuous; fine (interstitial fibrosis, early CHF), coarse (pneumonia, bronchiectasis)",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Heart sounds — rhonchi, wheezes, pleural rub, crackles",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 423,
-    "syllabusId": "medicine-5-pulse-pressure",
-    "question": "BP 160/60 with collapsing pulse.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Diuretics (furosemide), vasodilator (nitroglycerin), supplemental O2, reassess PCWP",
-      "Graduated compression stockings 20-30 mmHg, elevate legs, weight management, refer for duplex USG and consider endovenous ablation",
-      "MRI brain/cord, LP (oligoclonal bands), IV methylprednisolone 1 g x5 d for acute relapse, neuro referral for DMT",
-      "Wide pulse pressure suggests aortic regurgitation — auscultate for diastolic murmur, echo, refer to cardiology"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Wide pulse pressure suggests aortic regurgitation — auscultate for diastolic murmur, echo, refer to cardiology",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Wide pulse pressure suggests aortic regurgitation — auscultate for diastolic murmur, echo, refer to cardiology. Widened (>50): aortic regurgitation, hyperthyroidism, anemia, thiamine deficiency, AV fistula"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Pulse pressure",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 424,
-    "syllabusId": "medicine-6-myocardial-infarction-and-enzyme-markers",
-    "question": "Crushing chest pain 2 h, ECG ST elevation II III aVF, troponin positive.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "ASA 325 chew, ticagrelor 180 mg loading, heparin bolus, morphine PRN, nitroglycerin SL, O2 if hypoxic, call cath lab, prep for PCI",
-      "Inferior STEMI — aspirin 325 mg chew, clopidogrel/ticagrelor loading, heparin, morphine for pain, activate cath lab",
-      "Testicular cancer until proven otherwise — do NOT biopsy transscrotally; order USG, tumor markers (AFP, β-hCG, LDH), refer urology",
-      "Respiratory distress — O2, upright, minimal handling, consider CPAP, NBM if severe, monitor for deterioration"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Inferior STEMI — aspirin 325 mg chew, clopidogrel/ticagrelor loading, heparin, morphine for pain, activate cath lab (No nitrates in inferior MI with RV involvement.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Inferior STEMI — aspirin 325 mg chew, clopidogrel/ticagrelor loading, heparin, morphine for pain, activate cath lab. Troponin I/T: rises 3-6 h, peaks 18-24 h, remains 7-14 d — most sensitive and specific",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Myocardial infarction and enzyme markers",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 425,
-    "syllabusId": "medicine-7-rheumatic-fever",
-    "question": "10-y-old with migratory arthritis, carditis, recent pharyngitis.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Throat culture/ASO, ECG (PR prolongation), admit for benzathine penicillin IM + aspirin, start secondary prophylaxis q3 wk",
-      "NPO, NG tube, IV fluids, broad-spectrum antibiotics, urgent surgical consult for Graham patch repair, H pylori treat later",
-      "ICU, norepinephrine + dobutamine titrate MAP >=65, urgent PCI for underlying MI, consider IABP, strict I/O, avoid excess fluid",
-      "COPD GOLD 2 moderate; bronchodilators, smoking cessation, pulmonary rehab, vaccines, check ABG if severe"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Throat culture/ASO, ECG (PR prolongation), admit for benzathine penicillin IM + aspirin, start secondary prophylaxis q3 wk",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Throat culture/ASO, ECG (PR prolongation), admit for benzathine penicillin IM + aspirin, start secondary prophylaxis q3 wk. Jones criteria: 2 major OR 1 major + 2 minor + evidence of recent strep",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Rheumatic fever",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 426,
-    "syllabusId": "medicine-8-varicose-vein",
-    "question": "Teacher with leg heaviness and visible bulging veins.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Graduated compression stockings 20-30 mmHg, elevate legs, weight management, refer for duplex USG and consider endovenous ablation",
-      "Increase PEEP per table (likely 10-15 based on FiO2), monitor plateau <30, lung-protective Vt 6 mL/kg, prone if P/F <150",
-      "Anterior STEMI — activate cath lab, MONA-B, start aspirin 325 mg + ticagrelor 180 mg + heparin, target FMC-to-balloon <90 min",
-      "IV calcium gluconate 10 mL 10% over 5 min (stabilize myocardium), insulin+dextrose, nebulized salbutamol, plan dialysis"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Graduated compression stockings 20-30 mmHg, elevate legs, weight management, refer for duplex USG and consider endovenous ablation",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Graduated compression stockings 20-30 mmHg, elevate legs, weight management, refer for duplex USG and consider endovenous ablation. Great saphenous most commonly",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Varicose vein",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 427,
-    "syllabusId": "medicine-9-ventricular-fibrillation-defibrillation",
-    "question": "Witnessed collapse, monitor shows VF.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Wheals in urticaria — stop allergen, antihistamine cetirizine 10 mg, watch for anaphylaxis (wheeze, hypotension, airway swelling)",
-      "Tachypnea for age — assess for respiratory distress, pneumonia, fever; count for full minute",
-      "Nebulized salbutamol + ipratropium, oral prednisolone 40 mg x5 d, antibiotic if purulent sputum, controlled O2 SpO2 88-92%, assess need for…",
-      "Deliver shock 200 J biphasic immediately, resume CPR 2 min, reassess, epi 1 mg after 2nd shock"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Deliver shock 200 J biphasic immediately, resume CPR 2 min, reassess, epi 1 mg after 2nd shock",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Deliver shock 200 J biphasic immediately, resume CPR 2 min, reassess, epi 1 mg after 2nd shock. Defibrillation immediately: biphasic 120-200 J, monophasic 360 J"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Ventricular fibrillation — defibrillation",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 428,
-    "syllabusId": "medicine-10-coronary-artery-bypass-grafting-cabg",
-    "question": "POD 2 CABG patient ready for ambulation.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "High-output — loperamide, oral rehydration with WHO ORS, IV fluid if necessary, dietary adjustments, monitor for dehydration and Na+/K+ loss",
-      "Send sputum for CBNAAT (detects MTB + rifampicin resistance in 2 h), register under NTEP if positive, start 4-drug regimen",
-      "Sternal precautions, incentive spirometry, cough with pillow, gradual ambulation, monitor for sternal instability (clicking, pain)",
-      "O2 high-flow, salbutamol + ipratropium nebulization back-to-back, IV hydrocortisone 100 mg, magnesium sulfate 2 g IV if no response, monito…"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Sternal precautions, incentive spirometry, cough with pillow, gradual ambulation, monitor for sternal instability (clicking, pain)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Sternal precautions, incentive spirometry, cough with pillow, gradual ambulation, monitor for sternal instability (clicking, pain). LIMA to LAD — best patency (>90% at 10 y)",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Coronary artery bypass grafting (CABG)",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 429,
-    "syllabusId": "medicine-11-angina-types-variant-prinzmetal",
-    "question": "Young man with nocturnal chest pain and transient ST elevation.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Prinzmetal — diltiazem or amlodipine, isosorbide dinitrate, avoid non-selective beta-blockers, cocaine screen",
-      "Testicular cancer until proven otherwise — do NOT biopsy transscrotally; order USG, tumor markers (AFP, β-hCG, LDH), refer urology",
-      "Explain arthroplasty; precautions: avoid hip flexion >90°, adduction past midline, internal rotation for 6-12 wk",
-      "Head up 30°, mannitol 1 g/kg bolus, short hyperventilation to PaCO2 30-35, sedation, avoid hypotonic fluids, consider 3% saline, ICP monitor"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Prinzmetal — diltiazem or amlodipine, isosorbide dinitrate, avoid non-selective beta-blockers, cocaine screen",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Prinzmetal — diltiazem or amlodipine, isosorbide dinitrate, avoid non-selective beta-blockers, cocaine screen. Stable: reproducible with exertion, relieved by rest/nitrates",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Angina — types (variant/Prinzmetal)",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 430,
-    "syllabusId": "medicine-12-bacterial-endocarditis",
-    "question": "IVDU with fever, new murmur, Osler nodes.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Draw 3 sets of blood cultures before antibiotics, echocardiogram (TEE), start vancomycin + gentamicin, cardiology/ID consult",
-      "Send sputum for CBNAAT (detects MTB + rifampicin resistance in 2 h), register under NTEP if positive, start 4-drug regimen",
-      "Urgent echo, prepare pericardiocentesis tray, IV fluids to maintain preload, call cardiology",
-      "RDS (hyaline membrane disease) — surfactant via ETT, CPAP/ventilation, thermoregulation"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Draw 3 sets of blood cultures before antibiotics, echocardiogram (TEE), start vancomycin + gentamicin, cardiology/ID consult",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Draw 3 sets of blood cultures before antibiotics, echocardiogram (TEE), start vancomycin + gentamicin, cardiology/ID consult. Modified Duke criteria: 2 major OR 1 major + 3 minor OR 5 minor",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Bacterial endocarditis",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 431,
-    "syllabusId": "medicine-13-constrictive-pericarditis",
-    "question": "Post-TB patient with elevated JVP rising on inspiration and ascites.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Head up 30°, mannitol 1 g/kg bolus, short hyperventilation to PaCO2 30-35, sedation, avoid hypotonic fluids, consider 3% saline, ICP monitor",
-      "Measure cortisol, TSH, fT4, prolactin, FSH/LH, start hydrocortisone before levothyroxine, endocrine referral",
-      "Within window — confirm no contraindications, IV alteplase 0.9 mg/kg (10% bolus over 1 min, rest over 60 min), BP <185/110, monitor q15 min…",
-      "Refer for echo/CT, diuretics for symptoms, plan pericardiectomy"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Refer for echo/CT, diuretics for symptoms, plan pericardiectomy",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Refer for echo/CT, diuretics for symptoms, plan pericardiectomy. Causes: TB (common in India), post-cardiac surgery, radiation"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Constrictive pericarditis",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Easy",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "nice"
-    ]
-  },
-  {
-    "id": 432,
-    "syllabusId": "medicine-14-intra-aortic-balloon-pump-iabp",
-    "question": "Cardiogenic shock patient on IABP.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Prone positioning 2-3x/day to prevent hip flexion contracture, elevate stump first 24 h then avoid, bandage in figure-8 toward proximal, ph…",
-      "Suspect hepatic encephalopathy; rule out precipitants (GI bleed, SBP, electrolyte), lactulose to 3 loose stools/day, low-protein in acute o…",
-      "Analgesia (diclofenac IM), hydration, tamsulosin 0.4 mg OD (MET), strain urine; urology follow-up; imaging reassessment",
-      "Monitor distal limb pulses (ischemia), MAP, urine output, platelet count; keep knee straight; check balloon timing"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Monitor distal limb pulses (ischemia), MAP, urine output, platelet count; keep knee straight; check balloon timing",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Monitor distal limb pulses (ischemia), MAP, urine output, platelet count; keep knee straight; check balloon timing. Inflates in diastole (coronary perfusion), deflates in systole (afterload reduction)"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Intra-aortic balloon pump (IABP)",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 433,
-    "syllabusId": "medicine-15-cardiac-tamponade",
-    "question": "Post-MI patient with sudden hypotension, distended neck veins, muffled sounds.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Urgent echo, prepare pericardiocentesis tray, IV fluids to maintain preload, call cardiology",
-      "Sternal precautions, incentive spirometry, cough with pillow, gradual ambulation, monitor for sternal instability (clicking, pain)",
-      "Suspect latex allergy — switch to nitrile gloves, topical hydrocortisone, oral antihistamine, patch test to confirm, document",
-      "Diagnostic + therapeutic air or barium enema under fluoroscopy; contraindicated if perforation; surgical standby"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Urgent echo, prepare pericardiocentesis tray, IV fluids to maintain preload, call cardiology",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Urgent echo, prepare pericardiocentesis tray, IV fluids to maintain preload, call cardiology. Beck triad: hypotension + muffled heart sounds + distended neck veins",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiac tamponade",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 434,
-    "syllabusId": "medicine-16-pacemaker-types-and-settings",
-    "question": "Recent pacemaker implant patient.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Confirm with bone scan; start zoledronate 5 mg IV, ensure adequate Ca/vit D, audiology follow-up",
-      "Implement central line bundle — hand hygiene, maximum sterile barrier, CHG skin prep, optimal site (subclavian > IJ > femoral), daily revie…",
-      "Suspect latex allergy — switch to nitrile gloves, topical hydrocortisone, oral antihistamine, patch test to confirm, document",
-      "Avoid heavy arm movement for 4-6 wk on implant side, monitor pocket for hematoma/infection, no MRI unless MRI-conditional, carry device card"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Avoid heavy arm movement for 4-6 wk on implant side, monitor pocket for hematoma/infection, no MRI unless MRI-conditional, carry device card",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Avoid heavy arm movement for 4-6 wk on implant side, monitor pocket for hematoma/infection, no MRI unless MRI-conditional, carry device card. NBG code 5-letter: chamber paced/sensed/response/rate modulation/multisite"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Pacemaker — types and settings",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 435,
-    "syllabusId": "medicine-17-cardioversion-vs-defibrillation",
-    "question": "AF with rapid ventricular response, unstable, BP 80/50.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Prinzmetal — diltiazem or amlodipine, isosorbide dinitrate, avoid non-selective beta-blockers, cocaine screen",
-      "Synchronized cardioversion 120-150 J biphasic after brief sedation",
-      "Acetylcholine receptor antibody test, EMG, CT chest for thymoma, start pyridostigmine, avoid aminoglycosides/quinolones/beta-blockers that …",
-      "Testicular cancer until proven otherwise — do NOT biopsy transscrotally; order USG, tumor markers (AFP, β-hCG, LDH), refer urology"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Synchronized cardioversion 120-150 J biphasic after brief sedation",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Synchronized cardioversion 120-150 J biphasic after brief sedation. Cardioversion: synchronized with R wave; for stable tachyarrhythmias with pulse (AF, SVT, VT with pulse); starting energy 50-200 J biphasic",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardioversion vs defibrillation",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 436,
-    "syllabusId": "medicine-18-defibrillator-aed",
-    "question": "Public cardiac arrest, bystander with AED.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Inferior STEMI — aspirin 325 mg chew, clopidogrel/ticagrelor loading, heparin, morphine for pain, activate cath lab",
-      "Fluid challenge 500 mL, bladder scan for obstruction, review nephrotoxic drugs, send urinalysis, consider nephrology if no response",
-      "Turn AED on, attach pads right upper chest + left mid-axilla, let it analyze, deliver shock if advised, resume CPR immediately",
-      "Tachypnea for age — assess for respiratory distress, pneumonia, fever; count for full minute"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Turn AED on, attach pads right upper chest + left mid-axilla, let it analyze, deliver shock if advised, resume CPR immediately",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Turn AED on, attach pads right upper chest + left mid-axilla, let it analyze, deliver shock if advised, resume CPR immediately. Deliver shock in VF/pulseless VT only",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Defibrillator — AED",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 437,
-    "syllabusId": "medicine-19-cardiac-monitor",
-    "question": "Cardiac monitor shows flat line.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Refer for polysomnography; if AHI >=5 and symptomatic, start CPAP, weight loss, counsel driving risk",
-      "Positive (HIV cutoff >=5 mm); refer for active TB workup (CXR, sputum) and IGRA if available",
-      "Check patient first (asystole vs lead off), verify pulse, if asystole start CPR and check lead placement",
-      "Permethrin 5% to all household members simultaneously, wash linen >60°C or bag 72 h, repeat in 1 wk"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Check patient first (asystole vs lead off), verify pulse, if asystole start CPR and check lead placement",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Check patient first (asystole vs lead off), verify pulse, if asystole start CPR and check lead placement. Lead placement 3-lead: white right, black left, red chest (lower left)",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiac monitor",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 438,
-    "syllabusId": "medicine-20-pcwp-pulmonary-capillary-wedge-pressure",
-    "question": "Pulmonary edema patient with PCWP 28.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Acute gout — NSAID (naproxen) or colchicine, rest, ice, do NOT start allopurinol during acute attack; start urate-lowering after resolution",
-      "Biopsy for histology and molecular testing, staging PET-CT, pulmonary function, multidisciplinary oncology review, smoking cessation support",
-      "Prinzmetal — diltiazem or amlodipine, isosorbide dinitrate, avoid non-selective beta-blockers, cocaine screen",
-      "Diuretics (furosemide), vasodilator (nitroglycerin), supplemental O2, reassess PCWP"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Diuretics (furosemide), vasodilator (nitroglycerin), supplemental O2, reassess PCWP",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Diuretics (furosemide), vasodilator (nitroglycerin), supplemental O2, reassess PCWP. Normal 6-12 mmHg"
-    },
-    "subject": "Medical-Surgical",
-    "topic": "PCWP (pulmonary capillary wedge pressure)",
-    "section": "medicine",
-    "day": 8,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
     ]
   }
 ]

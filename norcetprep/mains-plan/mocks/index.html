@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Full Mock Tests · NORCET Mains 2026</title>
-  <meta name="description" content="Twelve NORCET Mains mocks — ten 160-Q simulations (180 min each), plus a PYQ-only mock and the 121-Q NORCET 9 Mains full replay. Subject-wise analysis and negative marking.">
+  <meta name="description" content="Full NORCET Mains mock suite — ten 160-Q balanced simulations (180 min each), a PYQ-only mock, plus per-paper verbatim replays for NORCET 1–9 Mains and sister staff-nurse exams (AIIMS / JIPMER / RRB / ESIC / DSSSB).">
   <link rel="stylesheet" href="../../css/mains-theme.css">
   <link rel="manifest" href="../../manifest.webmanifest">
   <script src="../../js/core.js" defer></script>
@@ -29,7 +29,15 @@
           const saved = NM.get('mock.' + m.id);
           const resumable = saved && !saved.submitted ? ' <span class="badge badge--warn">resume</span>' : '';
           const isNumeric = /^\d+$/.test(String(m.id));
-          const numLabel = isNumeric ? ('Mock ' + m.id) : (m.id === 'pyq' ? 'PYQ' : (m.id === 'norcet9-mains' ? 'Replay' : '★'));
+          const idStr = String(m.id);
+          let numLabel;
+          if (isNumeric) numLabel = 'Mock ' + m.id;
+          else if (idStr === 'pyq') numLabel = 'PYQ';
+          else if (idStr === 'norcet9-mains') numLabel = 'N9';
+          else if (/^norcet\d+-mains$/.test(idStr)) numLabel = 'N' + idStr.match(/\d+/)[0];
+          else if (/-sn$/.test(idStr)) numLabel = idStr.replace(/-sn$/, '').toUpperCase();
+          else if (idStr === 'yt-recalls') numLabel = 'YT';
+          else numLabel = '★';
           return '<li>' +
             '<span class="num">'+numLabel+'</span>' +
             '<span class="title">'+m.title+resumable+'<div class="small muted">'+m.count+' Q · '+m.minutes+' min · '+top+'</div>'+prog+'</span>' +
@@ -47,7 +55,7 @@
 <main class="page" id="main">
   <a class="back" href="../index.html">← Back to Plan</a>
   <h1>Full Mock Tests</h1>
-  <p class="muted">Twelve mocks in total: ten 160-Q full-length NORCET Mains simulations (180 min each, +1 correct / −1/3 wrong), plus a <strong>PYQ-only mock</strong> of high-yield recalls, and the <strong>121-Q NORCET 9 Mains 2025 full replay</strong> of the official paper. Results save locally with subject-wise analysis.</p>
+  <p class="muted">Three families of NORCET Mains mocks: ten 160-Q balanced simulations (180 min each, +1 correct / −1/3 wrong) drawn from the full PYQ + high-yield bank; a <strong>PYQ-only mock</strong> of verified NORCET recalls; and per-paper <strong>verbatim replays</strong> — one mock per NORCET 1–9 Mains paper, plus sister staff-nurse exams (AIIMS pre-NORCET, JIPMER, RRB, ESIC, DSSSB) and YouTube-mined memory recalls. Each replay holds only that paper's questions — no blending. Results save locally with subject-wise analysis.</p>
 
   <h2>All mocks</h2>
   <ul class="lecture-list" id="mocks-list"><li>Loading...</li></ul>
@@ -57,8 +65,9 @@
     <li><strong>Phase 1 (Days 1–5):</strong> Optional — attempt Mock 1 as a baseline only if time permits.</li>
     <li><strong>Phase 2 (Days 6–9):</strong> Mocks 2–4 at the end of each day.</li>
     <li><strong>Phase 3 (Days 10–13):</strong> Mocks 5–10, one per day; review wrong answers the same evening.</li>
-    <li><strong>PYQ-only mock:</strong> high-yield warm-up built from verified NORCET 6–9 recalls — great for Day 0 or a low-stakes confidence check.</li>
-    <li><strong>NORCET 9 Mains 2025 replay:</strong> 121 questions, identical to the official PDF. Use as a pre-exam timing rehearsal the day before NORCET 10 Mains.</li>
+    <li><strong>PYQ-only mock:</strong> warm-up built from every verified PYQ recall in the bank — good for Day 0 or a low-stakes confidence check.</li>
+    <li><strong>NORCET 1–9 per-paper replays:</strong> attempt these to study how a single year's paper actually felt. NORCET 9 is verbatim from the official PDF; NORCET 1–8 are memory-based recalls.</li>
+    <li><strong>Sister-exam replays (AIIMS / JIPMER / RRB / ESIC / DSSSB):</strong> useful to broaden exposure to the wider nursing-officer question style.</li>
     <li>Always submit even if you don't finish. The dashboard needs the data to triage weak areas.</li>
   </ul>
 </main>
