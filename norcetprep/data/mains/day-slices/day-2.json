@@ -1,6 +1,285 @@
 [
   {
-    "id": 12,
+    "id": 9,
+    "_origId": "AIIMS-9",
+    "question": "Normal specific gravity of urine is:",
+    "options": [
+      "1.010-1.020",
+      "1.000-1.005",
+      "1.030-1.040",
+      "0.800-1.000"
+    ],
+    "correct": 0,
+    "explanation": "Normal urine specific gravity is 1.010-1.020 (sometimes quoted up to 1.025).",
+    "explanations": {
+      "A": "Normal urine specific gravity is 1.010-1.020 (sometimes quoted up to 1.025).",
+      "B": "Below normal, suggesting dilute urine/diabetes insipidus.",
+      "C": "Concentrated, suggesting dehydration.",
+      "D": "Below 1.000 is impossible for urine."
+    },
+    "subject": "Fundamentals",
+    "topic": "Urinalysis",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2015",
+    "year": 2015,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 11,
+    "_origId": "AIIMS-11",
+    "question": "The universal blood donor is group:",
+    "options": [
+      "AB",
+      "B",
+      "A",
+      "O negative"
+    ],
+    "correct": 3,
+    "explanation": "O negative lacks A, B, and Rh antigens, making it the universal donor.",
+    "explanations": {
+      "A": "AB is the universal recipient, not donor.",
+      "B": "B has B antigen and is not universal.",
+      "C": "A has A antigen and is not universal.",
+      "D": "O negative lacks A, B, and Rh antigens, making it the universal donor."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Blood transfusion",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2015",
+    "year": 2015,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 43,
+    "_origId": "DSSSB-19",
+    "question": "Calculate the IV drip rate: 1000 ml of normal saline to be infused over 8 hours using a set with 15 drops/ml.",
+    "options": [
+      "21 drops/min",
+      "31 drops/min",
+      "42 drops/min",
+      "60 drops/min"
+    ],
+    "correct": 1,
+    "explanation": "(1000 ml × 15 gtts/ml) ÷ (8 h × 60 min) = 15000 ÷ 480 = 31.25 ≈ 31 drops/min.",
+    "explanations": {
+      "A": "Closer to a 10 drops/ml set; not this scenario.",
+      "B": "(1000 ml × 15 gtts/ml) ÷ (8 h × 60 min) = 15000 ÷ 480 = 31.25 ≈ 31 drops/min.",
+      "C": "Would correspond to a 20 drops/ml microdrip set, not 15.",
+      "D": "Far too high — would empty bag in ~4 hours."
+    },
+    "subject": "Fundamentals",
+    "topic": "IV calculations",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "calculation",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 85,
+    "_origId": "JIPMER-21",
+    "question": "End-tidal CO2 reading of ~1 mmHg immediately after intubation most likely indicates:",
+    "options": [
+      "Pulmonary embolus",
+      "Right mainstem intubation",
+      "Correct tracheal position",
+      "Esophageal intubation"
+    ],
+    "correct": 3,
+    "explanation": "A near-zero EtCO2 strongly suggests esophageal intubation; immediate re-intubation is required.",
+    "explanations": {
+      "A": "PE drops EtCO2 but rarely to 1 mmHg.",
+      "B": "Mainstem still produces a tracing.",
+      "C": "Correct placement gives 35-45 mmHg.",
+      "D": "A near-zero EtCO2 strongly suggests esophageal intubation; immediate re-intubation is required."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Intubation verification",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2017",
+    "year": 2017,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 86,
+    "_origId": "JIPMER-22",
+    "question": "When administering massive transfusion with low fibrinogen (0.4 g/L), priority correction is:",
+    "options": [
+      "Potassium bolus",
+      "Octaplex (PCC)",
+      "Cryoprecipitate",
+      "Protamine sulphate"
+    ],
+    "correct": 2,
+    "explanation": "Cryoprecipitate replenishes fibrinogen (target >1.5-2 g/L) in massive haemorrhage.",
+    "explanations": {
+      "A": "Potassium bolus is dangerous and not indicated.",
+      "B": "PCC corrects warfarin/factor deficiency, not fibrinogen.",
+      "C": "Cryoprecipitate replenishes fibrinogen (target >1.5-2 g/L) in massive haemorrhage.",
+      "D": "Protamine reverses heparin, irrelevant here."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Massive transfusion",
+    "day": 2,
+    "difficulty": "Hard",
+    "source": "JIPMER SN 2017",
+    "year": 2017,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 123,
+    "_origId": "N3-5",
+    "question": "What is the correct angle of needle insertion for an intradermal injection?",
+    "options": [
+      "15°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 0,
+    "explanation": "Intradermal (ID) injections use a 5–15° angle, bevel up, with a tuberculin syringe to deposit the drug just under the epidermis.",
+    "explanations": {
+      "A": "Intradermal (ID) injections use a 5–15° angle, bevel up, with a tuberculin syringe to deposit the drug just under the epidermis.",
+      "B": "45° is for subcutaneous in thin patients.",
+      "C": "60° has no standard injection use.",
+      "D": "90° is the IM angle."
+    },
+    "subject": "Fundamentals",
+    "topic": "Injection technique",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 150,
+    "_origId": "N4-2",
+    "question": "Normal range of central venous pressure (CVP) is:",
+    "options": [
+      "0-2 cm H2O",
+      "2-6 cm H2O",
+      "8-12 cm H2O",
+      "15-20 cm H2O"
+    ],
+    "correct": 1,
+    "explanation": "Normal CVP is 2-6 cm H2O (or 2-8 mmHg depending on reference); reflects right atrial pressure.",
+    "explanations": {
+      "A": "Too low; would indicate severe hypovolemia.",
+      "B": "Normal CVP is 2-6 cm H2O (or 2-8 mmHg depending on reference); reflects right atrial pressure.",
+      "C": "Elevated CVP, suggests fluid overload or right heart failure.",
+      "D": "Markedly elevated; seen in cardiac tamponade or severe RV failure."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Hemodynamic monitoring",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 169,
+    "_origId": "N4-21",
+    "question": "Universal donor blood group is:",
+    "options": [
+      "A negative",
+      "B negative",
+      "AB positive",
+      "O negative"
+    ],
+    "correct": 3,
+    "explanation": "O negative has no A, B, or Rh antigens, hence universal donor for packed RBCs.",
+    "explanations": {
+      "A": "Has A antigen; not universal.",
+      "B": "Has B antigen; not universal.",
+      "C": "AB positive is the universal recipient, not donor.",
+      "D": "O negative has no A, B, or Rh antigens, hence universal donor for packed RBCs."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Blood transfusion",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 196,
+    "_origId": "N5-23",
+    "question": "Fluid of choice for resuscitation in burns (Parkland formula) is:",
+    "options": [
+      "Normal saline",
+      "Ringer's lactate",
+      "5% Dextrose",
+      "Dextrose-saline"
+    ],
+    "correct": 1,
+    "explanation": "Ringer's lactate is the fluid of choice in Parkland formula (4 mL x kg x %TBSA over 24 hours, half in first 8 hours).",
+    "explanations": {
+      "A": "NS can cause hyperchloremic acidosis with large volumes.",
+      "B": "Ringer's lactate is the fluid of choice in Parkland formula (4 mL x kg x %TBSA over 24 hours, half in first 8 hours).",
+      "C": "Dextrose is not used for burn resuscitation due to lack of electrolytes.",
+      "D": "Dextrose-saline is hypotonic; not used for burn resuscitation."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Burns management",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 201,
     "_origId": "N6-3",
     "question": "Normal ET tube size for full-term newborn (uncuffed) is:",
     "options": [
@@ -26,10 +305,10 @@
     "qtype": "recall",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 27,
+    "id": 225,
     "_origId": "N9-10",
     "question": "A patient is prescribed an inhaler with 200 puffs; the order is 2 puffs every 6 hours. For how many days will one inhaler last?",
     "options": [
@@ -58,7 +337,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 56,
+    "id": 254,
     "_origId": "N9-39",
     "question": "A nurse is instructed to infuse 1000 mL of IV fluid over 8 hours using an IV set with a drop factor of 15 gtt/mL. What should be the correct infusion rate in drops per minute?",
     "options": [
@@ -87,7 +366,100 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 1222,
+    "id": 371,
+    "_origId": "RRB-35",
+    "question": "Which of the following is the universal recipient blood group?",
+    "options": [
+      "O-",
+      "A+",
+      "B+",
+      "AB+"
+    ],
+    "correct": 3,
+    "explanation": "AB+ has neither anti-A, anti-B nor anti-D antibodies, so all ABO/Rh groups can be received.",
+    "explanations": {
+      "A": "O- is the universal donor.",
+      "B": "A+ has anti-B antibodies.",
+      "C": "B+ has anti-A antibodies.",
+      "D": "AB+ has neither anti-A, anti-B nor anti-D antibodies, so all ABO/Rh groups can be received."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Blood groups",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 377,
+    "_origId": "YT-3",
+    "question": "Maintenance fluid of choice in an adult with isotonic dehydration is:",
+    "options": [
+      "0.45% NaCl",
+      "Ringer's Lactate",
+      "5% Dextrose in water",
+      "3% NaCl"
+    ],
+    "correct": 1,
+    "explanation": "RL is isotonic, contains Na, K, Ca, Cl and lactate that converts to bicarbonate, ideal for replacing isotonic losses.",
+    "explanations": {
+      "A": "Hypotonic; used for hypernatremic dehydration.",
+      "B": "RL is isotonic, contains Na, K, Ca, Cl and lactate that converts to bicarbonate, ideal for replacing isotonic losses.",
+      "C": "Becomes hypotonic once dextrose is metabolized; used for free-water deficit.",
+      "D": "Hypertonic saline; used only in severe symptomatic hyponatremia."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "IV fluids",
+    "day": 2,
+    "difficulty": "Medium",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 378,
+    "_origId": "YT-4",
+    "question": "Total body water in a normal adult male is approximately what percentage of body weight?",
+    "options": [
+      "40%",
+      "50%",
+      "60%",
+      "75%"
+    ],
+    "correct": 2,
+    "explanation": "Adult male TBW is about 60% of body weight; 2/3 ICF and 1/3 ECF.",
+    "explanations": {
+      "A": "Closer to elderly female value.",
+      "B": "Closer to adult female (~50-55%).",
+      "C": "Adult male TBW is about 60% of body weight; 2/3 ICF and 1/3 ECF.",
+      "D": "Approximate value for a newborn, not adult."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Body fluids",
+    "day": 2,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 1488,
     "question": "Thanatology is the study of:",
     "options": [
       "Birth",
@@ -112,7 +484,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1241,
+    "id": 1507,
     "question": "Sterile field is considered contaminated if:",
     "options": [
       "Wet gauze placed dry",
@@ -137,7 +509,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1251,
+    "id": 1517,
     "question": "Sterile field is considered contaminated if:",
     "options": [
       "Wet gauze placed dry",
@@ -162,7 +534,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1261,
+    "id": 1527,
     "question": "Sterile field is considered contaminated if:",
     "options": [
       "Wet gauze placed dry",
@@ -187,7 +559,7 @@
     "qtype": "factual"
   },
   {
-    "id": 1271,
+    "id": 1537,
     "question": "Sterile field is considered contaminated if:",
     "options": [
       "Wet gauze placed dry",
@@ -212,7 +584,7 @@
     "qtype": "factual"
   },
   {
-    "id": 643,
+    "id": 909,
     "syllabusId": "pharma-1-cocaine-toxicity",
     "question": "Young cocaine user with chest pain, BP 200/120, HR 140, agitation.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -244,7 +616,7 @@
     ]
   },
   {
-    "id": 644,
+    "id": 910,
     "syllabusId": "pharma-2-acetaminophen-paracetamol-toxicity",
     "question": "Intentional overdose of 30 x 500 mg paracetamol tablets 2 h ago.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -276,7 +648,7 @@
     ]
   },
   {
-    "id": 645,
+    "id": 911,
     "syllabusId": "pharma-3-carbon-monoxide-poisoning",
     "question": "Family rescued from house fire, confused, cherry-red skin, SpO2 98% on RA.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -308,7 +680,7 @@
     ]
   },
   {
-    "id": 646,
+    "id": 912,
     "syllabusId": "pharma-4-digoxin-toxicity",
     "question": "Elderly on digoxin + furosemide with nausea, yellow vision, HR 40, level 4.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -340,7 +712,7 @@
     ]
   },
   {
-    "id": 647,
+    "id": 913,
     "syllabusId": "pharma-5-magnesium-toxicity-in-eclampsia",
     "question": "Eclamptic on MgSO4 with RR 10, absent DTR.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -372,7 +744,7 @@
     ]
   },
   {
-    "id": 648,
+    "id": 914,
     "syllabusId": "pharma-6-organophosphorus-poisoning",
     "question": "Farmer with miosis, drooling, fasciculations, bradycardia, pesticide smell.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -404,7 +776,7 @@
     ]
   },
   {
-    "id": 649,
+    "id": 915,
     "syllabusId": "pharma-7-antidotes-table",
     "question": "Narcotic overdose with RR 6.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -436,7 +808,7 @@
     ]
   },
   {
-    "id": 650,
+    "id": 916,
     "syllabusId": "pharma-8-antiplatelet-drugs",
     "question": "Post-PCI with drug-eluting stent.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -468,7 +840,7 @@
     ]
   },
   {
-    "id": 651,
+    "id": 917,
     "syllabusId": "pharma-9-thrombolytic-therapy-side-effects",
     "question": "STEMI within 2 h, no cath lab, no contraindications.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -500,7 +872,7 @@
     ]
   },
   {
-    "id": 652,
+    "id": 918,
     "syllabusId": "pharma-10-emergency-treatment-of-hypotension",
     "question": "Septic patient BP 75/40 after 30 mL/kg crystalloid.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -529,390 +901,6 @@
       "scenario",
       "highyield",
       "must"
-    ]
-  },
-  {
-    "id": 653,
-    "syllabusId": "pharma-11-vasoconstrictor-vs-vasodilator",
-    "question": "Flash pulmonary edema needing afterload reduction.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Avoid nitroglycerin (severe hypotension with PDE-5 inhibitors); use alternative (morphine, O2, assessment)",
-      "Excellent dental hygiene, dental review, consider alternative agent, check drug level",
-      "Naloxone 0.4 mg IV (titrate), support ventilation, continuous monitoring — antidote half-life shorter than opioids may require redosing",
-      "IV nitroglycerin (venous + arterial), titrate, monitor BP"
-    ],
-    "correct": 3,
-    "explanation": "Priority: IV nitroglycerin (venous + arterial), titrate, monitor BP",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: IV nitroglycerin (venous + arterial), titrate, monitor BP. Vasoconstrictors: NE, epinephrine, phenylephrine, vasopressin, ergotamine"
-    },
-    "subject": "Pharmacology",
-    "topic": "Vasoconstrictor vs vasodilator",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 654,
-    "syllabusId": "pharma-12-digoxin",
-    "question": "AF with HR 140 despite beta-blocker.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Recall as per indication table",
-      "Atropine 0.5 mg IV push, repeat q3-5 min up to 3 mg, monitor rhythm, consider transcutaneous pacing if no response",
-      "Basal glargine OD bedtime + rapid (aspart) before meals, carb counting, monitor BG 4x/d, rotate sites",
-      "Add digoxin loading dose IV, monitor ECG continuously, check baseline K+/Mg+/creatinine"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Add digoxin loading dose IV, monitor ECG continuously, check baseline K+/Mg+/creatinine",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Add digoxin loading dose IV, monitor ECG continuously, check baseline K+/Mg+/creatinine. Indications: HF with reduced EF, rate control in AF"
-    },
-    "subject": "Pharmacology",
-    "topic": "Digoxin",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 655,
-    "syllabusId": "pharma-13-routes-of-drug-administration",
-    "question": "Need rapid anticoagulation.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Activated charcoal if <1-2 h, 4-h acetaminophen level, start IV NAC 150 mg/kg in 200 mL D5W over 60 min, then 50 mg/kg over 4 h, then 100 m…",
-      "IV heparin gives immediate effect; LMWH SC slower onset; PO anticoagulants slower still",
-      "Do not recap, drop directly into white translucent sharps bin, never fill >3/4",
-      "IV tenecteplase weight-based bolus over 5 s, then aspirin + clopidogrel + enoxaparin, monitor for bleeding, transfer for rescue PCI if fail…"
-    ],
-    "correct": 1,
-    "explanation": "Priority: IV heparin gives immediate effect; LMWH SC slower onset; PO anticoagulants slower still",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: IV heparin gives immediate effect; LMWH SC slower onset; PO anticoagulants slower still. Enteral: PO, SL, buccal, PR",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Routes of drug administration",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 656,
-    "syllabusId": "pharma-14-adrenaline-dose-ratios",
-    "question": "Anaphylaxis patient.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Start 4-FDC (HRZE) as per 56-70 kg band daily x2 mo intensive, then 2 drug continuation 4 mo, Nikshay, follow-up sputum at 2 and 6 mo",
-      "1:1000 epinephrine 0.5 mg IM lateral thigh (adult), repeat q5-15 min, call rapid response, IV crystalloid, O2, antihistamine + steroid adjunct",
-      "IV artesunate 2.4 mg/kg at 0, 12, 24 h then daily; ICU support; avoid artesunate monotherapy oral",
-      "Start norepinephrine 0.05-0.1 mcg/kg/min via central line, titrate to MAP >=65, add vasopressin if needed; look for source control"
-    ],
-    "correct": 1,
-    "explanation": "Priority: 1:1000 epinephrine 0.5 mg IM lateral thigh (adult), repeat q5-15 min, call rapid response, IV crystalloid, O2, antihistamine + steroid adjunct",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: 1:1000 epinephrine 0.5 mg IM lateral thigh (adult), repeat q5-15 min, call rapid response, IV crystalloid, O2, antihistamine + steroid adjunct. 1:1000 (1 mg/mL): IM/SC, anaphylaxis 0.3-0.5 mg IM",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Adrenaline dose ratios",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 657,
-    "syllabusId": "pharma-15-mydriasis-and-miotics",
-    "question": "Acute angle closure glaucoma.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Apply 100% non-rebreather mask regardless of SpO2, send COHb level, consider HBOT if severe/pregnant/LOC",
-      "Pilocarpine 2% drops, timolol, IV acetazolamide, analgesia; urgent ophthalmology",
-      "Atropine 0.5 mg IV push, repeat q3-5 min up to 3 mg, monitor rhythm, consider transcutaneous pacing if no response",
-      "Ondansetron 4 mg IV, hydration, consider dexamethasone IV in non-diabetic; monitor for QT"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Pilocarpine 2% drops, timolol, IV acetazolamide, analgesia; urgent ophthalmology",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Pilocarpine 2% drops, timolol, IV acetazolamide, analgesia; urgent ophthalmology. Mydriatics (dilate): atropine, tropicamide, phenylephrine",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Mydriasis and miotics",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 658,
-    "syllabusId": "pharma-16-anticholinergic-drugs",
-    "question": "OP poisoning treatment.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Give correction per institutional basal-bolus protocol, reassess in 2-4 h, adjust basal if persistent hyperglycemia",
-      "Atropine IV 2-4 mg, repeat doubling until secretions dry; pralidoxime",
-      "IM epinephrine 0.5 mg lateral mid-thigh immediately, call rapid response, high-flow O2, IV crystalloid 1 L bolus, supine with legs up, repe…",
-      "Monitor BP q15 min, assess sensory level, check for urinary retention, left lateral tilt, maternal positioning"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Atropine IV 2-4 mg, repeat doubling until secretions dry; pralidoxime",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Atropine IV 2-4 mg, repeat doubling until secretions dry; pralidoxime. Examples: atropine, scopolamine, tropicamide, glycopyrrolate, ipratropium, tiotropium, benztropine, oxybutynin",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Anticholinergic drugs",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 659,
-    "syllabusId": "pharma-17-atropine",
-    "question": "Symptomatic bradycardia HR 38, BP 80/50.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Atropine 0.5 mg IV push, repeat q3-5 min up to 3 mg, monitor rhythm, consider transcutaneous pacing if no response",
-      "Naloxone 0.4 mg IV (titrate), support ventilation, continuous monitoring — antidote half-life shorter than opioids may require redosing",
-      "Remove patch, naloxone 0.04-0.4 mg IV titrated, support ventilation, continuous monitoring (opioid t1/2 longer than naloxone)",
-      "Left lateral tilt (avoid aortocaval compression), IV fluid bolus, phenylephrine or ephedrine, O2, call anesthetist"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Atropine 0.5 mg IV push, repeat q3-5 min up to 3 mg, monitor rhythm, consider transcutaneous pacing if no response",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Atropine 0.5 mg IV push, repeat q3-5 min up to 3 mg, monitor rhythm, consider transcutaneous pacing if no response. Bradyarrhythmia: 0.5 mg IV q3-5 min (max 3 mg adult)",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Atropine",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 660,
-    "syllabusId": "pharma-18-anaphylaxis-treatment",
-    "question": "Wasp sting with urticaria, wheeze, BP 80/50.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Do not recap, drop directly into white translucent sharps bin, never fill >3/4",
-      "IM epinephrine 0.5 mg lateral mid-thigh immediately, call rapid response, high-flow O2, IV crystalloid 1 L bolus, supine with legs up, repeat epi q5-15 min PRN",
-      "IV tenecteplase weight-based bolus over 5 s, then aspirin + clopidogrel + enoxaparin, monitor for bleeding, transfer for rescue PCI if fail…",
-      "Titrated naloxone 0.04 mg IV, support ventilation, reassess, reconsider pain regimen"
-    ],
-    "correct": 1,
-    "explanation": "Priority: IM epinephrine 0.5 mg lateral mid-thigh immediately, call rapid response, high-flow O2, IV crystalloid 1 L bolus, supine with legs up, repeat epi q5-15 min PRN",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: IM epinephrine 0.5 mg lateral mid-thigh immediately, call rapid response, high-flow O2, IV crystalloid 1 L bolus, supine with legs up, repeat epi q5-15 min PRN. Criteria: airway/breathing + circulation + skin/mucosa, 2-organ within minutes-hours of exposure",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Anaphylaxis — treatment",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 661,
-    "syllabusId": "pharma-19-antidiarrheal-agents",
-    "question": "Traveller diarrhea non-bloody.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Atropine 0.5 mg IV push, repeat q3-5 min up to 3 mg, monitor rhythm, consider transcutaneous pacing if no response",
-      "Oral rehydration first, loperamide 4 mg then 2 mg per loose stool (max 16 mg/d), avoid if fever/bloody stool",
-      "IV lorazepam 2 mg for agitation + BP, avoid pure beta-blocker, consider phentolamine or nitroglycerin, cooling, ECG serial, troponin",
-      "CIWA-Ar score, thiamine 100 mg IV before glucose, benzodiazepine (lorazepam) per CIWA, IV fluid, monitor vitals"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Oral rehydration first, loperamide 4 mg then 2 mg per loose stool (max 16 mg/d), avoid if fever/bloody stool",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Oral rehydration first, loperamide 4 mg then 2 mg per loose stool (max 16 mg/d), avoid if fever/bloody stool. Loperamide: μ-opioid, slow motility; avoid in invasive diarrhea/IBD with toxic mega",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Antidiarrheal agents",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 662,
-    "syllabusId": "pharma-20-proton-pump-inhibitors-ppi",
-    "question": "GERD with nocturnal symptoms.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Avoid thiopental (histamine release); choose ketamine instead",
-      "Sevoflurane inhalational induction (non-pungent) with N2O, then IV access",
-      "PPI 30-60 min before breakfast, re-evaluate in 4-8 wk, step-down once controlled",
-      "Hold warfarin, low-dose oral vit K 1-2 mg, recheck INR in 24 h, investigate cause (diet, drug)"
-    ],
-    "correct": 2,
-    "explanation": "Priority: PPI 30-60 min before breakfast, re-evaluate in 4-8 wk, step-down once controlled",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: PPI 30-60 min before breakfast, re-evaluate in 4-8 wk, step-down once controlled. Examples: omeprazole, pantoprazole, esomeprazole, rabeprazole, lansoprazole",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Pharmacology",
-    "topic": "Proton pump inhibitors (PPI)",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 663,
-    "syllabusId": "pharma-21-carminatives",
-    "question": "Infantile colic.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Avoid nitroglycerin (severe hypotension with PDE-5 inhibitors); use alternative (morphine, O2, assessment)",
-      "Oral rehydration first, loperamide 4 mg then 2 mg per loose stool (max 16 mg/d), avoid if fever/bloody stool",
-      "IV nitroglycerin (venous + arterial), titrate, monitor BP",
-      "Simethicone 20-40 mg up to QID, parent reassurance, feeding review; rule out organic pathology"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Simethicone 20-40 mg up to QID, parent reassurance, feeding review; rule out organic pathology",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Simethicone 20-40 mg up to QID, parent reassurance, feeding review; rule out organic pathology. Simethicone: defoamer"
-    },
-    "subject": "Pharmacology",
-    "topic": "Carminatives",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "Easy",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "nice"
-    ]
-  },
-  {
-    "id": 664,
-    "syllabusId": "pharma-22-antiemetics-moa-and-use",
-    "question": "Post-op nausea.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Suspect HIT — stop all heparin, send HIT antibody + SRA, start non-heparin anticoagulant (argatroban or fondaparinux), avoid transfusion",
-      "Avoid nitroglycerin (severe hypotension with PDE-5 inhibitors); use alternative (morphine, O2, assessment)",
-      "Hold digoxin, correct K+/Mg+, atropine for bradycardia, digoxin-specific Fab for severe arrhythmia or K+ >5.5, avoid cardioversion unless e…",
-      "Ondansetron 4 mg IV, hydration, consider dexamethasone IV in non-diabetic; monitor for QT"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Ondansetron 4 mg IV, hydration, consider dexamethasone IV in non-diabetic; monitor for QT",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Ondansetron 4 mg IV, hydration, consider dexamethasone IV in non-diabetic; monitor for QT. 5-HT3 antagonists: ondansetron — CINV, PONV; QT prolongation"
-    },
-    "subject": "Pharmacology",
-    "topic": "Antiemetics — MOA and use",
-    "section": "pharma",
-    "day": 2,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
     ]
   }
 ]

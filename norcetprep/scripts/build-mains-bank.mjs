@@ -653,17 +653,42 @@ function buildBank() {
     count: pyqMockFinal.length, minutes: 180, questions: pyqMockFinal,
   }, null, 2));
 
+  // Per-paper verbatim replay mocks — one mock-<id>.json per source paper.
+  // Each replay contains only that paper's questions, in original order, with no
+  // filler or shuffling. Empty sources (no rows yet) are skipped silently.
+  const sortByOrigId = (a, b) => {
+    const na = Number(String(a._origId || a.id || '').replace(/^[A-Z]+-?/, '')) || 0;
+    const nb = Number(String(b._origId || b.id || '').replace(/^[A-Z]+-?/, '')) || 0;
+    return na - nb;
+  };
+  for (const paper of REPLAY_PAPERS) {
+    const rows = bank.filter(paper.match).slice().sort(sortByOrigId);
+    if (rows.length === 0) continue;
+    const mockArr = rows.map((q, i) => ({ ...q, mockSeq: i + 1 }));
+    const bySubj = {};
+    mockArr.forEach(q => { bySubj[q.subject] = (bySubj[q.subject] || 0) + 1; });
+    fs.writeFileSync(
+      path.join(OUT, 'mocks', 'mock-' + paper.id + '.json'),
+      JSON.stringify({
+        id: paper.id,
+        title: paper.title,
+        count: rows.length,
+        minutes: Math.max(60, Math.round(rows.length * 1.125)),
+        source: paper.title,
+        verbatim: true,
+        subjects: bySubj,
+        questions: mockArr
+      }, null, 2)
+    );
+    console.log(`Replay mock ${paper.id}: ${rows.length} Qs written.`);
+  }
+
   // NORCET 9 Mains 2025 — verbatim 121-question replay mock.
-  // Preserves the official paper order and question types; no shuffling, no filler.
+  // Special-cased: enforces the exact-121-Q gate from the official PDF.
   const norcet9 = bank
     .filter(q => q.source === 'NORCET 9 Mains' && q.year === 2025)
     .slice()
-    .sort((a, b) => {
-      // Original file ids look like "N9-1".."N9-121"; fall back to insertion order.
-      const na = Number(String(a._origId || a.id || '').replace(/^[A-Z]+-?/, '')) || 0;
-      const nb = Number(String(b._origId || b.id || '').replace(/^[A-Z]+-?/, '')) || 0;
-      return na - nb;
-    });
+    .sort(sortByOrigId);
   if (norcet9.length === 121) {
     const mockN9 = norcet9.map((q, i) => ({ ...q, mockSeq: i + 1 }));
     const bySubjN9 = {};
@@ -697,6 +722,21 @@ function buildBank() {
   const pyqMockSubj = {};
   pyqMockFinal.forEach(q => { pyqMockSubj[q.subject] = (pyqMockSubj[q.subject] || 0) + 1; });
   mocksIndex.push({ id: 'pyq', title: 'PYQ-Only Mock', count: pyqMockFinal.length, minutes: 180, subjects: pyqMockSubj });
+
+  // Per-paper replay mocks (one entry per file written by the REPLAY_PAPERS loop).
+  for (const paper of REPLAY_PAPERS) {
+    const replayPath = path.join(OUT, 'mocks', 'mock-' + paper.id + '.json');
+    if (!fs.existsSync(replayPath)) continue;
+    const r = JSON.parse(fs.readFileSync(replayPath, 'utf8'));
+    mocksIndex.push({
+      id: paper.id,
+      title: r.title,
+      count: r.count,
+      minutes: r.minutes,
+      subjects: r.subjects,
+      verbatim: true
+    });
+  }
 
   // NORCET-9 replay mock (if it was written above).
   const n9MockPath = path.join(OUT, 'mocks', 'mock-norcet9-mains.json');
@@ -734,10 +774,35 @@ function buildBank() {
   console.log('Stats:', stats);
 }
 
-// ---------- PYQ source matcher (works for "NORCET 6 Mains", "NORCET 9 Mains", etc.) ----------
+// ---------- PYQ source matcher ----------
+// Matches NORCET 1–9 Mains, plus pre-NORCET / sister staff-nurse exams and
+// YouTube-mined memory recalls — every PYQ source the site ingests.
 function isPyq(src) {
-  return !!src && /^NORCET\s+\d+\s+Mains/i.test(src);
+  return !!src && /^(NORCET\s+\d+\s+Mains|AIIMS\s+SN|JIPMER\s+SN|RRB\s+SN|ESIC\s+SN|DSSSB\s+SN|Recall\s*\(YT\))/i.test(src);
 }
+
+// ---------- Per-paper replay-mock spec ----------
+// Each entry generates a verbatim "replay" mock at data/mains/mocks/mock-<id>.json
+// containing only questions whose source matches. NORCET 9 is special-cased
+// (exact 121-Q gate) outside this list — see main(). Order here is the order
+// that surfaces in the mocks index UI.
+const REPLAY_PAPERS = [
+  { id: 'norcet1-mains', title: 'NORCET 1 Mains 2020 — Recalls',                      match: q => /^NORCET 1 Mains/i.test(q.source) },
+  { id: 'norcet2-mains', title: 'NORCET 2 Mains 2021 — Recalls',                      match: q => /^NORCET 2 Mains/i.test(q.source) },
+  { id: 'norcet3-mains', title: 'NORCET 3 Mains 2022 — Recalls',                      match: q => /^NORCET 3 Mains/i.test(q.source) },
+  { id: 'norcet4-mains', title: 'NORCET 4 Mains 2023 — Recalls',                      match: q => /^NORCET 4 Mains/i.test(q.source) },
+  { id: 'norcet5-mains', title: 'NORCET 5 Mains 2023 — Recalls',                      match: q => /^NORCET 5 Mains/i.test(q.source) },
+  { id: 'norcet6-mains', title: 'NORCET 6 Mains 2024 — Recalls',                      match: q => /^NORCET 6 Mains/i.test(q.source) },
+  { id: 'norcet7-mains', title: 'NORCET 7 Mains 2024 — Recalls',                      match: q => /^NORCET 7 Mains/i.test(q.source) },
+  { id: 'norcet8-mains', title: 'NORCET 8 Mains 2025 — Recalls',                      match: q => /^NORCET 8 Mains/i.test(q.source) },
+  // norcet9-mains is special-cased below (verbatim, year=2025, must equal 121 Q)
+  { id: 'aiims-sn',      title: 'AIIMS Staff Nurse — Pre-NORCET (2012–2019)',         match: q => /^AIIMS SN/i.test(q.source) },
+  { id: 'jipmer-sn',     title: 'JIPMER Staff Nurse — Recalls',                       match: q => /^JIPMER SN/i.test(q.source) },
+  { id: 'rrb-sn',        title: 'RRB Staff Nurse — Recalls',                          match: q => /^RRB SN/i.test(q.source) },
+  { id: 'esic-sn',       title: 'ESIC Staff Nurse — Recalls',                         match: q => /^ESIC SN/i.test(q.source) },
+  { id: 'dsssb-sn',      title: 'DSSSB Staff Nurse — Recalls',                        match: q => /^DSSSB SN/i.test(q.source) },
+  { id: 'yt-recalls',    title: 'YouTube Memory Recalls',                             match: q => /^Recall\s*\(YT\)/i.test(q.source) }
+];
 
 // ---------- Strict 1:4 explanations audit (Track 5a) ----------
 const PLACEHOLDER_RX = /(Not the best response in this clinical context|Refer to concept note|Correct per AIIMS Nursing standard)/i;

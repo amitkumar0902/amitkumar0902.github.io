@@ -1,6 +1,440 @@
 [
   {
+    "id": 5,
+    "_origId": "AIIMS-5",
+    "question": "Digitalis toxicity is best indicated by:",
+    "options": [
+      "Visual disturbance such as seeing yellow spots",
+      "Elevated blood pressure",
+      "Skin rash over chest and back",
+      "Increased appetite"
+    ],
+    "correct": 0,
+    "explanation": "Yellow-green halos (xanthopsia) are classic of digoxin toxicity.",
+    "explanations": {
+      "A": "Yellow-green halos (xanthopsia) are classic of digoxin toxicity.",
+      "B": "Digoxin lowers heart rate but does not raise BP.",
+      "C": "Skin rash is not typical.",
+      "D": "Anorexia, not increased appetite, is seen."
+    },
+    "subject": "Pharmacology",
+    "topic": "Digoxin toxicity",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2017",
+    "year": 2017,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
     "id": 21,
+    "_origId": "AIIMS-21",
+    "question": "The route of insulin administration is usually:",
+    "options": [
+      "Subcutaneous",
+      "Intravenous",
+      "Intramuscular",
+      "Intrathecal"
+    ],
+    "correct": 0,
+    "explanation": "Routine insulin is given subcutaneously for predictable absorption.",
+    "explanations": {
+      "A": "Routine insulin is given subcutaneously for predictable absorption.",
+      "B": "IV regular insulin is reserved for DKA/critical care, not routine.",
+      "C": "IM insulin is rarely used and causes erratic absorption.",
+      "D": "Intrathecal is never used for insulin."
+    },
+    "subject": "Pharmacology",
+    "topic": "Insulin administration",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2015",
+    "year": 2015,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 23,
+    "_origId": "AIIMS-23",
+    "question": "HS in a prescription means:",
+    "options": [
+      "Thrice a day",
+      "At bedtime (hora somni)",
+      "Twice a day",
+      "Every hour"
+    ],
+    "correct": 1,
+    "explanation": "HS (hora somni) means at bedtime.",
+    "explanations": {
+      "A": "TID/TDS denotes thrice daily.",
+      "B": "HS (hora somni) means at bedtime.",
+      "C": "BID/BD means twice daily.",
+      "D": "QH means every hour."
+    },
+    "subject": "Pharmacology",
+    "topic": "Latin abbreviations",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2014",
+    "year": 2014,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 33,
+    "_origId": "DSSSB-9",
+    "question": "Insulin should be stored at:",
+    "options": [
+      "Room temperature 25–30°C",
+      "2–8°C in refrigerator",
+      "Below 0°C (frozen)",
+      "Above 40°C"
+    ],
+    "correct": 1,
+    "explanation": "Unopened insulin is stored at 2–8°C (refrigerator, not freezer). In-use pen/vial can be kept at room temperature (<25–30°C) for ~28 days.",
+    "explanations": {
+      "A": "Unopened insulin should be refrigerated; only the in-use vial may be at room temp up to ~28 days.",
+      "B": "Unopened insulin is stored at 2–8°C (refrigerator, not freezer). In-use pen/vial can be kept at room temperature (<25–30°C) for ~28 days.",
+      "C": "Freezing denatures insulin — never freeze.",
+      "D": "Heat denatures the protein."
+    },
+    "subject": "Pharmacology",
+    "topic": "Drug storage",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 41,
+    "_origId": "DSSSB-17",
+    "question": "Which of the following is the antidote for heparin?",
+    "options": [
+      "Vitamin K",
+      "Protamine sulfate",
+      "Naloxone",
+      "Flumazenil"
+    ],
+    "correct": 1,
+    "explanation": "Protamine sulfate neutralizes heparin (1 mg per 100 units of heparin given in last hour).",
+    "explanations": {
+      "A": "Vitamin K is the antidote for warfarin overdose.",
+      "B": "Protamine sulfate neutralizes heparin (1 mg per 100 units of heparin given in last hour).",
+      "C": "Naloxone reverses opioid overdose.",
+      "D": "Flumazenil reverses benzodiazepine overdose."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antidotes",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 50,
+    "_origId": "ESIC-6",
+    "question": "Drug of choice for status epilepticus is:",
+    "options": [
+      "Phenytoin",
+      "Lorazepam (IV)",
+      "Carbamazepine",
+      "Valproate"
+    ],
+    "correct": 1,
+    "explanation": "IV lorazepam 0.1 mg/kg is the first-line agent for status epilepticus per most guidelines (longer duration than diazepam).",
+    "explanations": {
+      "A": "Phenytoin (or fosphenytoin) is the second-line agent after benzodiazepines.",
+      "B": "IV lorazepam 0.1 mg/kg is the first-line agent for status epilepticus per most guidelines (longer duration than diazepam).",
+      "C": "Carbamazepine is for chronic partial seizures, not acute status.",
+      "D": "Valproate is alternate second-line, not first-line acute."
+    },
+    "subject": "Pharmacology",
+    "topic": "Anticonvulsants",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "ESIC SN 2022",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 72,
+    "_origId": "JIPMER-8",
+    "question": "Antitubercular drug contraindicated in pregnancy is:",
+    "options": [
+      "Ethambutol",
+      "Isoniazid",
+      "Streptomycin",
+      "Rifampicin"
+    ],
+    "correct": 2,
+    "explanation": "Streptomycin is ototoxic to the fetus and contraindicated in pregnancy.",
+    "explanations": {
+      "A": "Ethambutol is considered safe with monitoring.",
+      "B": "INH is given with pyridoxine; safe.",
+      "C": "Streptomycin is ototoxic to the fetus and contraindicated in pregnancy.",
+      "D": "Rifampicin is broadly safe in standard regimens."
+    },
+    "subject": "Pharmacology",
+    "topic": "ATT in pregnancy",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 116,
+    "_origId": "N1-28",
+    "question": "Lithium is the drug of choice for which psychiatric condition?",
+    "options": [
+      "Schizophrenia",
+      "Mania (bipolar disorder)",
+      "Major depression",
+      "Generalised anxiety"
+    ],
+    "correct": 1,
+    "explanation": "Lithium remains the gold-standard mood stabiliser for acute mania and long-term prophylaxis in bipolar disorder; therapeutic range 0.6-1.2 mEq/L — monitor for nephrotoxicity, thyroid dysfunction, tremor.",
+    "explanations": {
+      "A": "Antipsychotics (e.g., risperidone) are first line.",
+      "B": "Lithium remains the gold-standard mood stabiliser for acute mania and long-term prophylaxis in bipolar disorder; therapeutic range 0.6-1.2 mEq/L — monitor for nephrotoxicity, thyroid dysfunction, tremor.",
+      "C": "SSRIs/SNRIs are first-line antidepressants.",
+      "D": "SSRIs and CBT — not lithium."
+    },
+    "subject": "Psychiatric",
+    "topic": "Mood stabilisers",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 120,
+    "_origId": "N3-2",
+    "question": "A post-operative patient is on heparin and develops bleeding from the surgical site. Which drug should the nurse keep ready as the antidote?",
+    "options": [
+      "Protamine sulphate",
+      "Vitamin K",
+      "Naloxone",
+      "Aminocaproic acid"
+    ],
+    "correct": 0,
+    "explanation": "Protamine sulphate, a strongly basic protein, neutralises acidic heparin to form an inactive complex; 1 mg neutralises ~100 IU heparin given in last 15 min.",
+    "explanations": {
+      "A": "Protamine sulphate, a strongly basic protein, neutralises acidic heparin to form an inactive complex; 1 mg neutralises ~100 IU heparin given in last 15 min.",
+      "B": "Vitamin K reverses warfarin (oral anticoagulant), not heparin.",
+      "C": "Naloxone reverses opioid overdose, not heparin.",
+      "D": "Aminocaproic acid is used for fibrinolytic bleeding (e.g., tPA), not heparin reversal."
+    },
+    "subject": "Pharmacology",
+    "topic": "Anticoagulant antidote",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "scenario",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 152,
+    "_origId": "N4-4",
+    "question": "The drug of choice for status epilepticus is:",
+    "options": [
+      "Phenytoin",
+      "Lorazepam",
+      "Phenobarbitone",
+      "Diazepam"
+    ],
+    "correct": 1,
+    "explanation": "IV Lorazepam is the first-line drug of choice for status epilepticus per current guidelines (longer duration than diazepam).",
+    "explanations": {
+      "A": "Phenytoin is second-line after benzodiazepines fail.",
+      "B": "IV Lorazepam is the first-line drug of choice for status epilepticus per current guidelines (longer duration than diazepam).",
+      "C": "Phenobarbitone is third-line.",
+      "D": "Diazepam works but has shorter duration; lorazepam is preferred."
+    },
+    "subject": "Pharmacology",
+    "topic": "Anticonvulsants",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 161,
+    "_origId": "N4-13",
+    "question": "Which type of insulin has the most rapid onset of action?",
+    "options": [
+      "Regular insulin",
+      "NPH insulin",
+      "Lispro insulin",
+      "Glargine insulin"
+    ],
+    "correct": 2,
+    "explanation": "Lispro is rapid-acting analog, onset 5-15 minutes.",
+    "explanations": {
+      "A": "Regular (short-acting) onset 30 min.",
+      "B": "NPH is intermediate-acting, onset 1-2 hours.",
+      "C": "Lispro is rapid-acting analog, onset 5-15 minutes.",
+      "D": "Glargine is long-acting basal insulin with onset ~1-2 hours but no peak."
+    },
+    "subject": "Pharmacology",
+    "topic": "Insulin therapy",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 170,
+    "_origId": "N4-22",
+    "question": "First-line antitubercular drug that causes peripheral neuropathy is:",
+    "options": [
+      "Rifampicin",
+      "Isoniazid",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
+    "correct": 1,
+    "explanation": "Isoniazid (INH) causes pyridoxine (B6) deficiency leading to peripheral neuropathy; supplement B6 to prevent.",
+    "explanations": {
+      "A": "Rifampicin causes orange discoloration of secretions and hepatotoxicity.",
+      "B": "Isoniazid (INH) causes pyridoxine (B6) deficiency leading to peripheral neuropathy; supplement B6 to prevent.",
+      "C": "Pyrazinamide causes hyperuricemia and hepatotoxicity.",
+      "D": "Ethambutol causes optic neuritis."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antitubercular therapy",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 185,
+    "_origId": "N5-12",
+    "question": "Drug of choice for acute anaphylaxis is:",
+    "options": [
+      "Hydrocortisone",
+      "Adrenaline (Epinephrine)",
+      "Diphenhydramine",
+      "Atropine"
+    ],
+    "correct": 1,
+    "explanation": "IM adrenaline 0.5 mg (1:1000) into the anterolateral thigh is first-line for anaphylaxis.",
+    "explanations": {
+      "A": "Steroids are adjuncts for biphasic reactions, not first-line.",
+      "B": "IM adrenaline 0.5 mg (1:1000) into the anterolateral thigh is first-line for anaphylaxis.",
+      "C": "Antihistamines are adjuncts for skin symptoms.",
+      "D": "Atropine is for bradycardia, not anaphylaxis."
+    },
+    "subject": "Pharmacology",
+    "topic": "Emergency drugs",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 195,
+    "_origId": "N5-22",
+    "question": "Heparin's action is monitored by:",
+    "options": [
+      "PT/INR",
+      "aPTT",
+      "Bleeding time",
+      "Platelet count"
+    ],
+    "correct": 1,
+    "explanation": "Unfractionated heparin is monitored by aPTT (target 1.5-2.5 times control).",
+    "explanations": {
+      "A": "PT/INR is used to monitor warfarin.",
+      "B": "Unfractionated heparin is monitored by aPTT (target 1.5-2.5 times control).",
+      "C": "Bleeding time is for platelet function disorders.",
+      "D": "Platelets are monitored to detect HIT, but not for therapeutic effect."
+    },
+    "subject": "Pharmacology",
+    "topic": "Anticoagulants",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 219,
     "_origId": "N9-4",
     "question": "A patient with rheumatoid arthritis has a history of gastric ulcer. Which drug is most appropriate for this patient?",
     "options": [
@@ -29,7 +463,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 26,
+    "id": 224,
     "_origId": "N9-9",
     "question": "Which anti-tuberculosis drug is the most bactericidal?",
     "options": [
@@ -58,7 +492,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 28,
+    "id": 226,
     "_origId": "N9-11",
     "question": "Calcium gluconate is NOT given by which method?",
     "options": [
@@ -87,7 +521,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 42,
+    "id": 240,
     "_origId": "N9-25",
     "question": "A patient with a history of peptic ulcer requires pain management. Which analgesic approach is safest?",
     "options": [
@@ -116,7 +550,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 44,
+    "id": 242,
     "_origId": "N9-27",
     "question": "Which of the following is the most common side effect of nitroglycerin?",
     "options": [
@@ -145,7 +579,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 94,
+    "id": 292,
     "_origId": "N9-77",
     "question": "Which anti-tubercular drug is primarily bactericidal?",
     "options": [
@@ -174,7 +608,7 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 101,
+    "id": 299,
     "_origId": "N9-84",
     "question": "A 50-year-old with neuropathic pain after nerve injury is prescribed a medication. Which is most commonly used for neuropathic pain?",
     "options": [
@@ -203,578 +637,264 @@
     "_sourceFile": "norcet-9-mains-2025.json"
   },
   {
-    "id": 1242,
-    "question": "Antidote for opioid overdose:",
+    "id": 341,
+    "_origId": "RRB-5",
+    "question": "Cushing's syndrome is caused by:",
     "options": [
-      "Flumazenil",
-      "Naloxone",
-      "Atropine",
-      "Vitamin K"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "Pharmacology",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1252,
-    "question": "Antidote for opioid overdose:",
-    "options": [
-      "Flumazenil",
-      "Naloxone",
-      "Atropine",
-      "Vitamin K"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "Pharmacology",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1262,
-    "question": "Antidote for opioid overdose:",
-    "options": [
-      "Flumazenil",
-      "Naloxone",
-      "Atropine",
-      "Vitamin K"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "Pharmacology",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1272,
-    "question": "Antidote for opioid overdose:",
-    "options": [
-      "Flumazenil",
-      "Naloxone",
-      "Atropine",
-      "Vitamin K"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "Pharmacology",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
-  },
-  {
-    "id": 965,
-    "question": "A patient with acute coronary syndrome is receiving dual antiplatelet therapy (aspirin + clopidogrel). What is the priority teaching?",
-    "options": [
-      "Report signs of bleeding",
-      "Take with food",
-      "Avoid sunlight",
-      "Increase fluid intake"
+      "High cortisol levels",
+      "Low ADH levels",
+      "High thyroxine",
+      "Low insulin"
     ],
     "correct": 0,
-    "explanation": "• Dual antiplatelet therapy significantly increases bleeding risk.\n• Patients must be taught to recognize and report signs of bleeding immediately.",
+    "explanation": "Chronic excess cortisol from adrenal/pituitary tumour or steroid therapy produces Cushing's syndrome.",
     "explanations": {
-      "A": "Dual antiplatelet therapy significantly increases bleeding risk. Patients must be taught to recognize and report signs of bleeding immediately.",
-      "B": "\"Take with food\" is a plausible distractor but incorrect. The correct answer is A (\"Report signs of bleeding\") — Dual antiplatelet therapy significantly increases bleeding risk. Patients must be taught to recognize and report signs of bleeding immediately.",
-      "C": "\"Avoid sunlight\" is a plausible distractor but incorrect. The correct answer is A (\"Report signs of bleeding\") — Dual antiplatelet therapy significantly increases bleeding risk. Patients must be taught to recognize and report signs of bleeding immediately.",
-      "D": "\"Increase fluid intake\" is a plausible distractor but incorrect. The correct answer is A (\"Report signs of bleeding\") — Dual antiplatelet therapy significantly increases bleeding risk. Patients must be taught to recognize and report signs of bleeding immediately."
+      "A": "Chronic excess cortisol from adrenal/pituitary tumour or steroid therapy produces Cushing's syndrome.",
+      "B": "Low ADH causes diabetes insipidus.",
+      "C": "High thyroxine causes thyrotoxicosis.",
+      "D": "Low insulin causes diabetes mellitus."
     },
     "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
+    "topic": "Endocrine",
     "day": 13,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
+    "difficulty": "Easy",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
   },
   {
-    "id": 966,
-    "question": "A patient with end-stage renal disease is on peritoneal dialysis. What is the most critical complication to monitor?",
+    "id": 342,
+    "_origId": "RRB-6",
+    "question": "Overgrowth of bone and soft tissue in adults is the hallmark of:",
     "options": [
-      "Peritonitis",
-      "Weight gain",
-      "Fatigue",
-      "Itching"
+      "Acromegaly",
+      "Cushing's syndrome",
+      "Goitre",
+      "Tetany"
     ],
     "correct": 0,
-    "explanation": "• Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever.\n• It requires immediate treatment.",
+    "explanation": "Excess growth hormone after epiphyseal closure produces enlargement of hands, feet and facial bones.",
     "explanations": {
-      "A": "Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever. It requires immediate treatment.",
-      "B": "\"Weight gain\" is a plausible distractor but incorrect. The correct answer is A (\"Peritonitis\") — Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever. It requires immediate treatment.",
-      "C": "\"Fatigue\" is a plausible distractor but incorrect. The correct answer is A (\"Peritonitis\") — Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever. It requires immediate treatment.",
-      "D": "\"Itching\" is a plausible distractor but incorrect. The correct answer is A (\"Peritonitis\") — Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever. It requires immediate treatment."
+      "A": "Excess growth hormone after epiphyseal closure produces enlargement of hands, feet and facial bones.",
+      "B": "Cushing's causes truncal obesity, not bony overgrowth.",
+      "C": "Goitre is enlargement of the thyroid.",
+      "D": "Tetany is hyperexcitability from hypocalcaemia."
     },
     "subject": "Medical-Surgical",
-    "topic": "Renal System",
+    "topic": "Pituitary disorders",
     "day": 13,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "scenario"
-  },
-  {
-    "id": 967,
-    "question": "A patient with Guillain-Barré syndrome is in the acute phase. What is the priority nursing intervention?",
-    "options": [
-      "Respiratory monitoring",
-      "Physical therapy",
-      "Pain management",
-      "Nutritional support"
+    "difficulty": "Easy",
+    "source": "RRB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
     ],
-    "correct": 0,
-    "explanation": "• Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-    "explanations": {
-      "A": "Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-      "B": "\"Physical therapy\" is a plausible distractor but incorrect. The correct answer is A (\"Respiratory monitoring\") — Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-      "C": "\"Pain management\" is a plausible distractor but incorrect. The correct answer is A (\"Respiratory monitoring\") — Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
-      "D": "\"Nutritional support\" is a plausible distractor but incorrect. The correct answer is A (\"Respiratory monitoring\") — Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles. Continuous respiratory monitoring is critical as respiratory failure can occur rapidly."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Neurological System",
-    "day": 13,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2024",
-    "qtype": "scenario"
+    "_sourceFile": "rrb-sn-recalls.json"
   },
   {
-    "id": 968,
-    "question": "A patient with tension pneumothorax requires immediate intervention. What is the priority action?",
+    "id": 362,
+    "_origId": "RRB-26",
+    "question": "First-line drug used for prophylaxis after needle-stick injury when source is HIV positive (current Indian regimen):",
     "options": [
-      "Administer oxygen",
-      "Insert chest tube",
-      "Needle decompression",
-      "Prepare for surgery"
+      "Zidovudine + Lamivudine + Tenofovir",
+      "Tenofovir + Lamivudine + Dolutegravir",
+      "Acyclovir",
+      "Rifampicin"
+    ],
+    "correct": 1,
+    "explanation": "Current Indian PEP regimen is TLD (tenofovir + lamivudine + dolutegravir) for 28 days.",
+    "explanations": {
+      "A": "Old triple regimen, replaced by TLD.",
+      "B": "Current Indian PEP regimen is TLD (tenofovir + lamivudine + dolutegravir) for 28 days.",
+      "C": "Acyclovir treats herpes infections.",
+      "D": "Rifampicin is for TB; it interacts adversely with several ARVs."
+    },
+    "subject": "Pharmacology",
+    "topic": "PEP",
+    "day": 13,
+    "difficulty": "Hard",
+    "source": "RRB SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "rrb-sn-recalls.json"
+  },
+  {
+    "id": 398,
+    "_origId": "YT-24",
+    "question": "Antidote for warfarin overdose is:",
+    "options": [
+      "Protamine sulphate",
+      "Vitamin K (phytomenadione)",
+      "Naloxone",
+      "Flumazenil"
+    ],
+    "correct": 1,
+    "explanation": "Warfarin inhibits vitamin K-dependent clotting factors II, VII, IX, X; vitamin K1 (phytomenadione) IV/oral reverses the effect; FFP/PCC used for severe bleeding.",
+    "explanations": {
+      "A": "Protamine reverses heparin, not warfarin.",
+      "B": "Warfarin inhibits vitamin K-dependent clotting factors II, VII, IX, X; vitamin K1 (phytomenadione) IV/oral reverses the effect; FFP/PCC used for severe bleeding.",
+      "C": "Naloxone reverses opioids.",
+      "D": "Flumazenil reverses benzodiazepines."
+    },
+    "subject": "Pharmacology",
+    "topic": "Antidotes",
+    "day": 13,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 399,
+    "_origId": "YT-25",
+    "question": "Drug of choice for status epilepticus (first line, IV) is:",
+    "options": [
+      "Phenytoin",
+      "Lorazepam",
+      "Phenobarbitone",
+      "Carbamazepine"
+    ],
+    "correct": 1,
+    "explanation": "IV lorazepam 0.1 mg/kg (or IV diazepam / IM midazolam if no IV) is first-line per current AES/NICE status epilepticus guidelines.",
+    "explanations": {
+      "A": "Phenytoin/fosphenytoin is the second-line agent if seizures persist.",
+      "B": "IV lorazepam 0.1 mg/kg (or IV diazepam / IM midazolam if no IV) is first-line per current AES/NICE status epilepticus guidelines.",
+      "C": "Third-line/refractory option.",
+      "D": "Oral maintenance drug, not used acutely."
+    },
+    "subject": "Pharmacology",
+    "topic": "Neuropharmacology",
+    "day": 13,
+    "difficulty": "Medium",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 400,
+    "_origId": "YT-26",
+    "question": "Insulin that has the fastest onset of action is:",
+    "options": [
+      "Regular insulin",
+      "NPH",
+      "Insulin lispro",
+      "Insulin glargine"
     ],
     "correct": 2,
-    "explanation": "• Tension pneumothorax is a medical emergency.\n• Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
+    "explanation": "Rapid-acting analog; onset within 10-15 min, peak 1 h, duration 3-5 h; given immediately before meals.",
     "explanations": {
-      "A": "\"Administer oxygen\" is a plausible distractor but incorrect. The correct answer is C (\"Needle decompression\") — Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-      "B": "\"Insert chest tube\" is a plausible distractor but incorrect. The correct answer is C (\"Needle decompression\") — Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-      "C": "Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
-      "D": "\"Prepare for surgery\" is a plausible distractor but incorrect. The correct answer is C (\"Needle decompression\") — Tension pneumothorax is a medical emergency. Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Respiratory System",
-    "day": 13,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2015",
-    "qtype": "scenario"
-  },
-  {
-    "id": 969,
-    "question": "A patient with abdominal aortic aneurysm (AAA) is at risk for rupture. What is the most important nursing assessment?",
-    "options": [
-      "Blood pressure",
-      "Abdominal girth",
-      "Pain assessment",
-      "Peripheral pulses"
-    ],
-    "correct": 2,
-    "explanation": "• Sudden severe abdominal or back pain may indicate AAA rupture, which is life-threatening.\n• Blood pressure monitoring and pain assessment are critical.",
-    "explanations": {
-      "A": "\"Blood pressure\" is a plausible distractor but incorrect. The correct answer is C (\"Pain assessment\") — Sudden severe abdominal or back pain may indicate AAA rupture, which is life-threatening. Blood pressure monitoring and pain assessment are critical.",
-      "B": "\"Abdominal girth\" is a plausible distractor but incorrect. The correct answer is C (\"Pain assessment\") — Sudden severe abdominal or back pain may indicate AAA rupture, which is life-threatening. Blood pressure monitoring and pain assessment are critical.",
-      "C": "Sudden severe abdominal or back pain may indicate AAA rupture, which is life-threatening. Blood pressure monitoring and pain assessment are critical.",
-      "D": "\"Peripheral pulses\" is a plausible distractor but incorrect. The correct answer is C (\"Pain assessment\") — Sudden severe abdominal or back pain may indicate AAA rupture, which is life-threatening. Blood pressure monitoring and pain assessment are critical."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiovascular System",
-    "day": 13,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2016",
-    "qtype": "scenario"
-  },
-  {
-    "id": 976,
-    "question": "A patient post-CABG surgery develops atrial fibrillation. What is the priority nursing intervention?",
-    "options": [
-      "Administer digoxin",
-      "Monitor for stroke risk",
-      "Increase activity",
-      "Restrict fluids"
-    ],
-    "correct": 1,
-    "explanation": "• Atrial fibrillation post-CABG increases stroke risk due to blood stasis.\n• Anticoagulation and monitoring for embolic events are priorities.",
-    "explanations": {
-      "A": "\"Administer digoxin\" is a plausible distractor but incorrect. The correct answer is B (\"Monitor for stroke risk\") — Atrial fibrillation post-CABG increases stroke risk due to blood stasis. Anticoagulation and monitoring for embolic events are priorities.",
-      "B": "Atrial fibrillation post-CABG increases stroke risk due to blood stasis. Anticoagulation and monitoring for embolic events are priorities.",
-      "C": "\"Increase activity\" is a plausible distractor but incorrect. The correct answer is B (\"Monitor for stroke risk\") — Atrial fibrillation post-CABG increases stroke risk due to blood stasis. Anticoagulation and monitoring for embolic events are priorities.",
-      "D": "\"Restrict fluids\" is a plausible distractor but incorrect. The correct answer is B (\"Monitor for stroke risk\") — Atrial fibrillation post-CABG increases stroke risk due to blood stasis. Anticoagulation and monitoring for embolic events are priorities."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Cardiovascular Surgery",
-    "day": 13,
-    "difficulty": "High",
-    "source": "Practice",
-    "year": "2023",
-    "qtype": "scenario"
-  },
-  {
-    "id": 985,
-    "question": "A patient with pheochromocytoma is at risk for which complication?",
-    "options": [
-      "Hypotension",
-      "Hypertension crisis",
-      "Hypoglycemia",
-      "Hypercalcemia"
-    ],
-    "correct": 1,
-    "explanation": "• Pheochromocytoma causes episodic or sustained hypertension due to excessive catecholamine release.\n• Hypertensive crisis can be life-threatening.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
-    "explanations": {
-      "A": "\"Hypotension\" is a plausible distractor but incorrect. The correct answer is B (\"Hypertension crisis\") — Pheochromocytoma causes episodic or sustained hypertension due to excessive catecholamine release. Hypertensive crisis can be life-threatening.",
-      "B": "Pheochromocytoma causes episodic or sustained hypertension due to excessive catecholamine release. Hypertensive crisis can be life-threatening.",
-      "C": "\"Hypoglycemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hypertension crisis\") — Pheochromocytoma causes episodic or sustained hypertension due to excessive catecholamine release. Hypertensive crisis can be life-threatening.",
-      "D": "\"Hypercalcemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hypertension crisis\") — Pheochromocytoma causes episodic or sustained hypertension due to excessive catecholamine release. Hypertensive crisis can be life-threatening."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Endocrine System",
-    "day": 13,
-    "difficulty": "Critical",
-    "source": "Practice",
-    "year": "2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 1021,
-    "question": "[IMAGE-BASED] The image shows a syringe with a needle. Which gauge is typically used for intramuscular injection in an adult?",
-    "options": [
-      "18 G",
-      "21–23 G",
-      "26 G",
-      "30 G"
-    ],
-    "correct": 1,
-    "explanation": "• IM injection in adults usually uses 21–23 G, 1–1.5 inch.\n• Subcutaneous often 25–27 G; IV varies by site and use.\n• Syringe/needle identification from images is tested in NORCET.",
-    "explanations": {
-      "A": "\"18 G\" is a plausible distractor but incorrect. The correct answer is B (\"21–23 G\") — IM injection in adults usually uses 21–23 G, 1–1.5 inch. Subcutaneous often 25–27 G; IV varies by site and use.",
-      "B": "IM injection in adults usually uses 21–23 G, 1–1.5 inch. Subcutaneous often 25–27 G; IV varies by site and use.",
-      "C": "\"26 G\" is a plausible distractor but incorrect. The correct answer is B (\"21–23 G\") — IM injection in adults usually uses 21–23 G, 1–1.5 inch. Subcutaneous often 25–27 G; IV varies by site and use.",
-      "D": "\"30 G\" is a plausible distractor but incorrect. The correct answer is B (\"21–23 G\") — IM injection in adults usually uses 21–23 G, 1–1.5 inch. Subcutaneous often 25–27 G; IV varies by site and use."
-    },
-    "subject": "Medical-Surgical",
-    "topic": "Image-Based - Instruments",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": "2019",
-    "qtype": "factual"
-  },
-  {
-    "id": 1150,
-    "question": "Which drug class does propranolol belong to?",
-    "options": [
-      "ACE inhibitor",
-      "Beta-blocker",
-      "Calcium channel blocker",
-      "Diuretic"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"ACE inhibitor\" is a plausible distractor but incorrect. The correct answer is B (\"Beta-blocker\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Calcium channel blocker\" is a plausible distractor but incorrect. The correct answer is B (\"Beta-blocker\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Diuretic\" is a plausible distractor but incorrect. The correct answer is B (\"Beta-blocker\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+      "A": "Short-acting; onset 30 min, peak 2-3 h.",
+      "B": "Intermediate-acting; onset 1-2 h.",
+      "C": "Rapid-acting analog; onset within 10-15 min, peak 1 h, duration 3-5 h; given immediately before meals.",
+      "D": "Long-acting basal insulin with no peak; onset 1-2 h, duration 24 h."
     },
     "subject": "Pharmacology",
-    "topic": "Drug Classification",
+    "topic": "Insulin types",
     "day": 13,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1152,
-    "question": "Rifampicin is a key drug in treatment of:",
-    "options": [
-      "Viral hepatitis",
-      "Tuberculosis",
-      "Malaria",
-      "Typhoid"
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
     ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Viral hepatitis\" is a plausible distractor but incorrect. The correct answer is B (\"Tuberculosis\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Malaria\" is a plausible distractor but incorrect. The correct answer is B (\"Tuberculosis\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Typhoid\" is a plausible distractor but incorrect. The correct answer is B (\"Tuberculosis\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Drug Classification",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
+    "_sourceFile": "youtube-memory-recalls.json"
   },
   {
-    "id": 1153,
-    "question": "Antidote for heparin overdose is:",
+    "id": 1508,
+    "question": "Antidote for opioid overdose:",
     "options": [
-      "Vitamin K",
-      "Protamine sulfate",
-      "Fresh frozen plasma",
-      "Tranexamic acid"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Protamine sulfate\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Fresh frozen plasma\" is a plausible distractor but incorrect. The correct answer is B (\"Protamine sulfate\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Tranexamic acid\" is a plausible distractor but incorrect. The correct answer is B (\"Protamine sulfate\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Anticoagulants",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "calculation"
-  },
-  {
-    "id": 1154,
-    "question": "Warfarin overdose is reversed with:",
-    "options": [
-      "Protamine",
-      "Vitamin K (phytonadione)",
-      "Calcium gluconate",
-      "Atropine"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Protamine\" is a plausible distractor but incorrect. The correct answer is B (\"Vitamin K (phytonadione)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Calcium gluconate\" is a plausible distractor but incorrect. The correct answer is B (\"Vitamin K (phytonadione)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Vitamin K (phytonadione)\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Anticoagulants",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "calculation"
-  },
-  {
-    "id": 1155,
-    "question": "Specific antidote for benzodiazepine overdose:",
-    "options": [
-      "Naloxone",
       "Flumazenil",
-      "Physostigmine",
-      "Pralidoxime"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Naloxone\" is a plausible distractor but incorrect. The correct answer is B (\"Flumazenil\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Physostigmine\" is a plausible distractor but incorrect. The correct answer is B (\"Flumazenil\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Pralidoxime\" is a plausible distractor but incorrect. The correct answer is B (\"Flumazenil\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Antidotes",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1156,
-    "question": "Naloxone is the antidote for:",
-    "options": [
-      "Benzodiazepines",
-      "Opioids",
-      "Organophosphates",
-      "Beta-blockers"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Benzodiazepines\" is a plausible distractor but incorrect. The correct answer is B (\"Opioids\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Organophosphates\" is a plausible distractor but incorrect. The correct answer is B (\"Opioids\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Beta-blockers\" is a plausible distractor but incorrect. The correct answer is B (\"Opioids\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Antidotes",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1157,
-    "question": "Organophosphate poisoning is treated with atropine and:",
-    "options": [
       "Naloxone",
-      "Pralidoxime",
-      "Flumazenil",
+      "Atropine",
       "Vitamin K"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
     "explanations": {
-      "A": "\"Naloxone\" is a plausible distractor but incorrect. The correct answer is B (\"Pralidoxime\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Pralidoxime\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Pralidoxime\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+      "A": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
     },
-    "subject": "Pharmacology",
-    "topic": "Antidotes",
+    "subject": "Mixed",
+    "topic": "Pharmacology",
     "day": 13,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
     "qtype": "factual"
   },
   {
-    "id": 1158,
-    "question": "Acetaminophen (paracetamol) overdose antidote:",
+    "id": 1518,
+    "question": "Antidote for opioid overdose:",
     "options": [
-      "Methylene blue",
-      "N-acetylcysteine",
-      "Dimercaprol",
-      "EDTA"
+      "Flumazenil",
+      "Naloxone",
+      "Atropine",
+      "Vitamin K"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
     "explanations": {
-      "A": "\"Methylene blue\" is a plausible distractor but incorrect. The correct answer is B (\"N-acetylcysteine\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Dimercaprol\" is a plausible distractor but incorrect. The correct answer is B (\"N-acetylcysteine\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"EDTA\" is a plausible distractor but incorrect. The correct answer is B (\"N-acetylcysteine\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+      "A": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
     },
-    "subject": "Pharmacology",
-    "topic": "Antidotes",
+    "subject": "Mixed",
+    "topic": "Pharmacology",
     "day": 13,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "calculation"
-  },
-  {
-    "id": 1159,
-    "question": "First-pass metabolism mainly occurs in:",
-    "options": [
-      "Kidneys",
-      "Liver",
-      "Lungs",
-      "Skin"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Kidneys\" is a plausible distractor but incorrect. The correct answer is B (\"Liver\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Lungs\" is a plausible distractor but incorrect. The correct answer is B (\"Liver\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Skin\" is a plausible distractor but incorrect. The correct answer is B (\"Liver\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Pharmacokinetics",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
     "qtype": "factual"
   },
   {
-    "id": 1160,
-    "question": "Half-life of a drug refers to time for plasma concentration to:",
+    "id": 1528,
+    "question": "Antidote for opioid overdose:",
     "options": [
-      "Double",
-      "Reduce by 50%",
-      "Reach steady state",
-      "Clear completely"
+      "Flumazenil",
+      "Naloxone",
+      "Atropine",
+      "Vitamin K"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
     "explanations": {
-      "A": "\"Double\" is a plausible distractor but incorrect. The correct answer is B (\"Reduce by 50%\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Reach steady state\" is a plausible distractor but incorrect. The correct answer is B (\"Reduce by 50%\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Clear completely\" is a plausible distractor but incorrect. The correct answer is B (\"Reduce by 50%\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
+      "A": "\"Flumazenil\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "C": "\"Atropine\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
+      "D": "\"Vitamin K\" is a plausible distractor but incorrect. The correct answer is B (\"Naloxone\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
     },
-    "subject": "Pharmacology",
-    "topic": "Pharmacokinetics",
+    "subject": "Mixed",
+    "topic": "Pharmacology",
     "day": 13,
     "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
-    "qtype": "factual"
-  },
-  {
-    "id": 1162,
-    "question": "Serum digoxin level should be monitored especially when combined with:",
-    "options": [
-      "Penicillin",
-      "Amiodarone",
-      "Paracetamol",
-      "Metformin"
-    ],
-    "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
-    "explanations": {
-      "A": "\"Penicillin\" is a plausible distractor but incorrect. The correct answer is B (\"Amiodarone\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "B": "Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "C": "\"Paracetamol\" is a plausible distractor but incorrect. The correct answer is B (\"Amiodarone\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications.",
-      "D": "\"Metformin\" is a plausible distractor but incorrect. The correct answer is B (\"Amiodarone\") — Correct option matches standard NORCET pharmacology teaching. Review drug class, mechanism, and nursing implications."
-    },
-    "subject": "Pharmacology",
-    "topic": "Cardiovascular",
-    "day": 13,
-    "difficulty": "Medium",
-    "source": "Practice",
-    "year": null,
+    "source": "AIIMS NO legacy",
+    "year": "NORCET 7 Prelims (2024)",
     "qtype": "factual"
   }
 ]

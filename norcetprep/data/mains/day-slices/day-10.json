@@ -1,6 +1,533 @@
 [
   {
-    "id": 1229,
+    "id": 7,
+    "_origId": "AIIMS-7",
+    "question": "Thought broadcasting is most commonly seen in:",
+    "options": [
+      "Bipolar mood disorder",
+      "Schizophrenia",
+      "Anxiety disorder",
+      "Dementia"
+    ],
+    "correct": 1,
+    "explanation": "Thought broadcasting is a Schneiderian first-rank symptom of schizophrenia.",
+    "explanations": {
+      "A": "Mood disorders feature mood-congruent symptoms, not Schneiderian first-rank.",
+      "B": "Thought broadcasting is a Schneiderian first-rank symptom of schizophrenia.",
+      "C": "Anxiety disorders do not feature passivity phenomena.",
+      "D": "Dementia presents with cognitive decline, not thought alienation."
+    },
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia first-rank",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2017",
+    "year": 2017,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 12,
+    "_origId": "AIIMS-12",
+    "question": "Indian Nursing Council was established in the year:",
+    "options": [
+      "1965",
+      "1918",
+      "1960",
+      "1947"
+    ],
+    "correct": 3,
+    "explanation": "INC was established by Indian Nursing Council Act, 1947.",
+    "explanations": {
+      "A": "Distractor year.",
+      "B": "Trained Nurses Association of India was founded earlier; INC came later.",
+      "C": "Distractor year.",
+      "D": "INC was established by Indian Nursing Council Act, 1947."
+    },
+    "subject": "Admin",
+    "topic": "INC history",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2014",
+    "year": 2014,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 16,
+    "_origId": "AIIMS-16",
+    "question": "Founder of psychoanalytical theory was:",
+    "options": [
+      "Carl Jung",
+      "Sigmund Freud",
+      "Erik Erikson",
+      "B.F. Skinner"
+    ],
+    "correct": 1,
+    "explanation": "Sigmund Freud is the founder of psychoanalysis (id-ego-superego, psychosexual stages).",
+    "explanations": {
+      "A": "Jung developed analytic psychology, an offshoot.",
+      "B": "Sigmund Freud is the founder of psychoanalysis (id-ego-superego, psychosexual stages).",
+      "C": "Erikson proposed psychosocial development.",
+      "D": "Skinner pioneered operant conditioning (behaviourism)."
+    },
+    "subject": "Psychiatric",
+    "topic": "Theorists",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "AIIMS SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 25,
+    "_origId": "DSSSB-1",
+    "question": "Father of modern nursing is:",
+    "options": [
+      "Florence Nightingale",
+      "Virginia Henderson",
+      "Dorothea Orem",
+      "Hildegard Peplau"
+    ],
+    "correct": 0,
+    "explanation": "Florence Nightingale (1820–1910) is universally recognized as the founder of modern nursing; established the Nightingale Training School (1860) and Environmental Theory.",
+    "explanations": {
+      "A": "Florence Nightingale (1820–1910) is universally recognized as the founder of modern nursing; established the Nightingale Training School (1860) and Environmental Theory.",
+      "B": "Henderson — '14 basic needs' theorist.",
+      "C": "Orem — Self-care deficit theorist.",
+      "D": "Peplau — Interpersonal relations theorist (psychiatric nursing)."
+    },
+    "subject": "Fundamentals",
+    "topic": "History of nursing",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 36,
+    "_origId": "DSSSB-12",
+    "question": "Which of the following is a positive symptom of schizophrenia?",
+    "options": [
+      "Hallucinations",
+      "Flat affect",
+      "Avolition",
+      "Anhedonia"
+    ],
+    "correct": 0,
+    "explanation": "Hallucinations (along with delusions, disorganized speech/behavior) are positive symptoms (added behaviors).",
+    "explanations": {
+      "A": "Hallucinations (along with delusions, disorganized speech/behavior) are positive symptoms (added behaviors).",
+      "B": "Flat affect is a negative symptom.",
+      "C": "Avolition (lack of motivation) is a negative symptom.",
+      "D": "Anhedonia (inability to experience pleasure) is a negative symptom."
+    },
+    "subject": "Psychiatric",
+    "topic": "Schizophrenia",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 62,
+    "_origId": "ESIC-18",
+    "question": "Which of the following is the most common psychiatric disorder in the elderly?",
+    "options": [
+      "Schizophrenia",
+      "Depression",
+      "Bipolar disorder",
+      "OCD"
+    ],
+    "correct": 1,
+    "explanation": "Depression is the most common psychiatric disorder in geriatric population, often under-diagnosed and linked to chronic illness/loss.",
+    "explanations": {
+      "A": "Schizophrenia typically onsets in adolescence/young adulthood; rare new onset in elderly.",
+      "B": "Depression is the most common psychiatric disorder in geriatric population, often under-diagnosed and linked to chronic illness/loss.",
+      "C": "Bipolar disorder peaks earlier in life.",
+      "D": "OCD prevalence is low and onset is usually in young adulthood."
+    },
+    "subject": "Psychiatric",
+    "topic": "Geriatric psychiatry",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2022",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 66,
+    "_origId": "JIPMER-2",
+    "question": "A nurse is attempting to identify a patient's concerns. Which communication technique is most appropriate?",
+    "options": [
+      "Silence",
+      "Reflection",
+      "Paraphrasing",
+      "Open-ended question"
+    ],
+    "correct": 3,
+    "explanation": "Open-ended questions invite the patient to share concerns broadly.",
+    "explanations": {
+      "A": "Silence supports rather than identifies concerns.",
+      "B": "Reflection is useful but narrow.",
+      "C": "Paraphrasing checks understanding, not exploration.",
+      "D": "Open-ended questions invite the patient to share concerns broadly."
+    },
+    "subject": "Fundamentals",
+    "topic": "Therapeutic communication",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2017",
+    "year": 2017,
+    "qtype": "scenario",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 68,
+    "_origId": "JIPMER-4",
+    "question": "A patient with which condition will most likely have difficulty conveying needs verbally?",
+    "options": [
+      "Receptive aphasia",
+      "Hearing impairment",
+      "Delirium",
+      "Blindness"
+    ],
+    "correct": 0,
+    "explanation": "Receptive (Wernicke) aphasia impairs comprehension and meaningful verbal expression of needs.",
+    "explanations": {
+      "A": "Receptive (Wernicke) aphasia impairs comprehension and meaningful verbal expression of needs.",
+      "B": "Hearing impaired patients can still speak.",
+      "C": "Delirium fluctuates; many can still verbalize basic needs.",
+      "D": "Blind patients have intact speech."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Aphasia",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2017",
+    "year": 2017,
+    "qtype": "scenario",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 93,
+    "_origId": "N1-5",
+    "question": "The most common form of dementia is:",
+    "options": [
+      "Alzheimer's disease",
+      "Vascular dementia",
+      "Frontotemporal dementia",
+      "Lewy body dementia"
+    ],
+    "correct": 0,
+    "explanation": "Alzheimer's accounts for 60-70% of dementia worldwide; it is characterised by amyloid plaques, neurofibrillary tangles and progressive loss of recent memory and executive function.",
+    "explanations": {
+      "A": "Alzheimer's accounts for 60-70% of dementia worldwide; it is characterised by amyloid plaques, neurofibrillary tangles and progressive loss of recent memory and executive function.",
+      "B": "Second most common (≈20%); stepwise decline after strokes.",
+      "C": "Younger onset, prominent personality/behaviour changes — less common.",
+      "D": "Visual hallucinations and parkinsonism — less common."
+    },
+    "subject": "Psychiatric",
+    "topic": "Dementia",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 117,
+    "_origId": "N1-29",
+    "question": "Hierarchy of needs theory was proposed by:",
+    "options": [
+      "Sigmund Freud",
+      "Abraham Maslow",
+      "Erik Erikson",
+      "Ivan Pavlov"
+    ],
+    "correct": 1,
+    "explanation": "Maslow (1943) arranged human needs into a five-level pyramid — physiological, safety, love/belonging, esteem, self-actualisation — widely used in nursing to prioritise care.",
+    "explanations": {
+      "A": "Proposed psychoanalytic theory and the id-ego-superego model.",
+      "B": "Maslow (1943) arranged human needs into a five-level pyramid — physiological, safety, love/belonging, esteem, self-actualisation — widely used in nursing to prioritise care.",
+      "C": "Proposed eight psychosocial stages of development.",
+      "D": "Proposed classical conditioning."
+    },
+    "subject": "Fundamentals",
+    "topic": "Nursing theories",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 131,
+    "_origId": "N3-13",
+    "question": "Which statement about the ethical theory of deontology is FALSE?",
+    "options": [
+      "It focuses on the consequences of actions",
+      "It is duty-based",
+      "It follows fixed moral rules",
+      "It was advanced by Immanuel Kant"
+    ],
+    "correct": 0,
+    "explanation": "FALSE statement (so this is the answer). Deontology judges acts by adherence to duty/rules, NOT consequences — that describes utilitarianism/consequentialism.",
+    "explanations": {
+      "A": "FALSE statement (so this is the answer). Deontology judges acts by adherence to duty/rules, NOT consequences — that describes utilitarianism/consequentialism.",
+      "B": "True — deontology is duty-based ('deon' = duty).",
+      "C": "True — actions must follow universal moral rules.",
+      "D": "True — Kant's categorical imperative is the foundational deontological framework."
+    },
+    "subject": "Admin",
+    "topic": "Ethical theories",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 140,
+    "_origId": "N3-22",
+    "question": "What was the theme of International Nurses Day 2021?",
+    "options": [
+      "Nurses: A Voice to Lead — A Vision for Future Healthcare",
+      "Nurses: A Voice to Lead — Invest in Nursing and respect rights to secure global health",
+      "Nurses: A Voice to Lead — Nursing the World to Health",
+      "Nurses: A Voice to Lead — Health for All"
+    ],
+    "correct": 0,
+    "explanation": "ICN's official 2021 theme was 'Nurses: A Voice to Lead — A Vision for Future Healthcare'.",
+    "explanations": {
+      "A": "ICN's official 2021 theme was 'Nurses: A Voice to Lead — A Vision for Future Healthcare'.",
+      "B": "That was the 2022 theme.",
+      "C": "That was the 2020 theme (Year of the Nurse and Midwife).",
+      "D": "Was the 2019 theme — 'Health for All'."
+    },
+    "subject": "Admin",
+    "topic": "Nursing professional days",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 197,
+    "_origId": "N5-24",
+    "question": "Which schedule of Drugs and Cosmetics Act lists narcotic drugs requiring strict storage?",
+    "options": [
+      "Schedule G",
+      "Schedule H",
+      "Schedule X",
+      "Schedule J"
+    ],
+    "correct": 2,
+    "explanation": "Schedule X covers narcotic and psychotropic drugs requiring two copies of prescription, retained for 2 years, double-locked storage.",
+    "explanations": {
+      "A": "Schedule G drugs (e.g., antihistamines) bear caution label.",
+      "B": "Schedule H drugs need prescription but Schedule X is stricter.",
+      "C": "Schedule X covers narcotic and psychotropic drugs requiring two copies of prescription, retained for 2 years, double-locked storage.",
+      "D": "Schedule J lists diseases for which no drug can claim cure."
+    },
+    "subject": "Admin",
+    "topic": "Drug regulation",
+    "day": 10,
+    "difficulty": "Hard",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "pharmacology",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 392,
+    "_origId": "YT-18",
+    "question": "The 'father of nursing administration' / pioneer of modern nursing is:",
+    "options": [
+      "Clara Barton",
+      "Florence Nightingale",
+      "Dorothea Dix",
+      "Lillian Wald"
+    ],
+    "correct": 1,
+    "explanation": "Florence Nightingale (1820-1910) is universally credited as the founder of modern nursing and the first nursing theorist (Environmental Theory); birthday celebrated as International Nurses Day on 12 May.",
+    "explanations": {
+      "A": "Founder of the American Red Cross.",
+      "B": "Florence Nightingale (1820-1910) is universally credited as the founder of modern nursing and the first nursing theorist (Environmental Theory); birthday celebrated as International Nurses Day on 12 May.",
+      "C": "Reformer for the mentally ill in the 19th century.",
+      "D": "Pioneer of public health/community nursing."
+    },
+    "subject": "Admin",
+    "topic": "Nursing history",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 393,
+    "_origId": "YT-19",
+    "question": "Which of the following is NOT a 'never event' as per NABH/JCI patient safety norms?",
+    "options": [
+      "Wrong-site surgery",
+      "Retained surgical sponge",
+      "Patient fall with no harm",
+      "Mismatched blood transfusion"
+    ],
+    "correct": 2,
+    "explanation": "Patient fall without harm is reportable but not classified as a 'never event'; never events imply serious, preventable, harmful errors.",
+    "explanations": {
+      "A": "Classic never event.",
+      "B": "Retained foreign object after surgery is a never event.",
+      "C": "Patient fall without harm is reportable but not classified as a 'never event'; never events imply serious, preventable, harmful errors.",
+      "D": "ABO-incompatible transfusion is a never event."
+    },
+    "subject": "Admin",
+    "topic": "Patient safety",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "foundations",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 401,
+    "_origId": "YT-27",
+    "question": "Most common psychiatric disorder in the elderly worldwide is:",
+    "options": [
+      "Schizophrenia",
+      "Depression",
+      "Bipolar disorder",
+      "OCD"
+    ],
+    "correct": 1,
+    "explanation": "Depression is the commonest psychiatric illness in the elderly, often masked as somatic complaints; suicide risk is high in this group.",
+    "explanations": {
+      "A": "Onset typically late teens to thirties.",
+      "B": "Depression is the commonest psychiatric illness in the elderly, often masked as somatic complaints; suicide risk is high in this group.",
+      "C": "Less prevalent in late life.",
+      "D": "Onset usually in younger adults."
+    },
+    "subject": "Psychiatric",
+    "topic": "Geriatric mental health",
+    "day": 10,
+    "difficulty": "Easy",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 402,
+    "_origId": "YT-28",
+    "question": "ECT (electroconvulsive therapy) is most commonly indicated for:",
+    "options": [
+      "Mild anxiety",
+      "Severe depression with suicidal risk",
+      "Personality disorder",
+      "Substance use disorder"
+    ],
+    "correct": 1,
+    "explanation": "ECT is first-line for severe depression with suicidal ideation, catatonia, psychotic depression and treatment-resistant depression; it is rapid-acting and effective.",
+    "explanations": {
+      "A": "Treated with psychotherapy/SSRIs.",
+      "B": "ECT is first-line for severe depression with suicidal ideation, catatonia, psychotic depression and treatment-resistant depression; it is rapid-acting and effective.",
+      "C": "Personality disorders require long-term psychotherapy.",
+      "D": "Managed with detoxification, MAT and counselling, not ECT."
+    },
+    "subject": "Psychiatric",
+    "topic": "Treatment modalities",
+    "day": 10,
+    "difficulty": "Medium",
+    "source": "Recall (YT)",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "psychiatric",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "youtube-memory-recalls.json"
+  },
+  {
+    "id": 1495,
     "question": "Log roll technique for spinal precautions typically needs at least:",
     "options": [
       "1 person",
@@ -25,7 +552,7 @@
     "qtype": "factual"
   },
   {
-    "id": 139,
+    "id": 405,
     "syllabusId": "anatomy-1-types-of-solutions-isotonic-hyper-hypo",
     "question": "Hyponatremia with seizure Na 115.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -57,7 +584,7 @@
     ]
   },
   {
-    "id": 140,
+    "id": 406,
     "syllabusId": "anatomy-2-body-fluid-compartments",
     "question": "Item on ICF volume.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -89,7 +616,7 @@
     ]
   },
   {
-    "id": 141,
+    "id": 407,
     "syllabusId": "anatomy-3-diffusion",
     "question": "Item on O2 exchange in alveoli.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -121,7 +648,7 @@
     ]
   },
   {
-    "id": 142,
+    "id": 408,
     "syllabusId": "anatomy-4-plasma-composition",
     "question": "Item on major plasma protein.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -153,7 +680,7 @@
     ]
   },
   {
-    "id": 143,
+    "id": 409,
     "syllabusId": "anatomy-5-osmosis",
     "question": "Item on water shift direction.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -185,7 +712,7 @@
     ]
   },
   {
-    "id": 144,
+    "id": 410,
     "syllabusId": "anatomy-6-lower-limb-osteology",
     "question": "Item on largest bone.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -217,7 +744,7 @@
     ]
   },
   {
-    "id": 145,
+    "id": 411,
     "syllabusId": "anatomy-7-longest-vein-great-saphenous",
     "question": "Item on longest vein.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -249,7 +776,7 @@
     ]
   },
   {
-    "id": 146,
+    "id": 412,
     "syllabusId": "anatomy-8-plantar-flexion",
     "question": "Item on ankle movement.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -281,7 +808,7 @@
     ]
   },
   {
-    "id": 147,
+    "id": 413,
     "syllabusId": "anatomy-9-upper-limb-nerve-supply",
     "question": "Patient with wrist drop post-crutch injury.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -313,7 +840,7 @@
     ]
   },
   {
-    "id": 148,
+    "id": 414,
     "syllabusId": "anatomy-10-muscle-origin-and-insertion",
     "question": "Item on biceps.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -345,7 +872,7 @@
     ]
   },
   {
-    "id": 149,
+    "id": 415,
     "syllabusId": "anatomy-11-mouth-muscles",
     "question": "Item on facial expression muscle.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -377,7 +904,7 @@
     ]
   },
   {
-    "id": 150,
+    "id": 416,
     "syllabusId": "anatomy-12-anterior-thoracic-wall",
     "question": "Item on landmark at sternal angle.\n\nWhat is the nurse's immediate priority action?",
     "options": [
@@ -396,550 +923,6 @@
     },
     "subject": "Anatomy",
     "topic": "Anterior thoracic wall",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Easy",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "nice"
-    ]
-  },
-  {
-    "id": 151,
-    "syllabusId": "anatomy-13-abduction-adduction-eversion",
-    "question": "Item on moving leg away from body.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "206 in adult",
-      "Pancreatic lipase with bile salt emulsification",
-      "Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
-      "Abduction"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Abduction",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Abduction. Abduction: away from midline"
-    },
-    "subject": "Anatomy",
-    "topic": "Abduction, adduction, eversion",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 152,
-    "syllabusId": "anatomy-14-boxer-muscle-serratus-anterior",
-    "question": "Winged scapula after radical mastectomy.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Long thoracic nerve injury — physical therapy, shoulder support, usually recovers",
-      "Calcium + vitamin K",
-      "LAD (left anterior descending)",
-      "206 in adult"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Long thoracic nerve injury — physical therapy, shoulder support, usually recovers",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Long thoracic nerve injury — physical therapy, shoulder support, usually recovers. Long thoracic nerve innervation",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Boxer muscle (serratus anterior)",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Easy",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "nice"
-    ]
-  },
-  {
-    "id": 153,
-    "syllabusId": "anatomy-15-retroperitoneal-structures",
-    "question": "Item on retroperitoneal organ.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "AV valve closure at start of systole",
-      "Wernicke aphasia — speech therapy, stroke workup (temporal lobe), caregiver education on comprehension strategies",
-      "Kidneys, pancreas (head/body), duodenum",
-      "Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Kidneys, pancreas (head/body), duodenum",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Kidneys, pancreas (head/body), duodenum. Suprarenal gland, Aorta/IVC, Duodenum (2nd, 3rd, 4th), Pancreas (except tail), Ureters, Colon (ascending, descending), Kidneys, Esophagus (lower), Rectum",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Retroperitoneal structures",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 154,
-    "syllabusId": "anatomy-16-adrenal-gland",
-    "question": "Young patient with BP swings, headache, sweating, palpitations.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Periosteum",
-      "Preload, afterload, contractility",
-      "Pheochromocytoma workup — plasma/urinary metanephrines, imaging; alpha-block first, then beta",
-      "Toward higher solute (from dilute to concentrated)"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Pheochromocytoma workup — plasma/urinary metanephrines, imaging; alpha-block first, then beta",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Pheochromocytoma workup — plasma/urinary metanephrines, imaging; alpha-block first, then beta. Cortex (GFR) — Glomerulosa (aldosterone), Fasciculata (cortisol), Reticularis (androgens)",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Adrenal gland",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 155,
-    "syllabusId": "anatomy-17-growth-hormone",
-    "question": "Adult with prominent jaw, enlarged hands, ring size change.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
-      "Wrist splint night-time, ergonomic modification, NSAIDs, steroid injection if refractory, EMG, surgery",
-      "Plantar flexion — toes down, calf muscles",
-      "Cones (3 types — R, G, B)"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery. Excess childhood: gigantism",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Growth hormone",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 156,
-    "syllabusId": "anatomy-18-pituitary-anterior-vs-posterior",
-    "question": "Item on ADH source.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Prosopagnosia — inferior temporal/occipital lesion; OT for compensatory strategies, family education",
-      "LH surge mid-cycle",
-      "Long thoracic nerve injury — physical therapy to strengthen remaining muscles, usually recovers",
-      "Synthesized in hypothalamus, stored/released from posterior pituitary"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Synthesized in hypothalamus, stored/released from posterior pituitary",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Synthesized in hypothalamus, stored/released from posterior pituitary. Anterior (adenohypophysis): GH, ACTH, TSH, LH/FSH, prolactin, MSH — glandular"
-    },
-    "subject": "Anatomy",
-    "topic": "Pituitary — anterior vs posterior",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 157,
-    "syllabusId": "anatomy-19-thyroid-hormones",
-    "question": "Hypothyroid with TSH high T4 low.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Pancreatic lipase with bile salt emulsification",
-      "Primary hypothyroidism — levothyroxine 1.6 mcg/kg/d empty stomach, recheck TSH 6 wk",
-      "Voltage-gated Na+ channels initiate depolarization",
-      "Kidneys, pancreas (head/body), duodenum"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Primary hypothyroidism — levothyroxine 1.6 mcg/kg/d empty stomach, recheck TSH 6 wk",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Primary hypothyroidism — levothyroxine 1.6 mcg/kg/d empty stomach, recheck TSH 6 wk. T4 (thyroxine) most secreted; T3 more active",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Thyroid hormones",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 158,
-    "syllabusId": "anatomy-20-reproductive-hormones",
-    "question": "Item on ovulation trigger.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Norepinephrine (post-ganglionic)",
-      "Femur",
-      "LAD (left anterior descending)",
-      "LH surge mid-cycle"
-    ],
-    "correct": 3,
-    "explanation": "Priority: LH surge mid-cycle",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: LH surge mid-cycle. GnRH → LH/FSH → ovary (E2, progesterone) / testis (testosterone)"
-    },
-    "subject": "Anatomy",
-    "topic": "Reproductive hormones",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 159,
-    "syllabusId": "anatomy-21-embryonic-testis-to-scrotum-descent",
-    "question": "1-y-old with absent right testis in scrotum.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk",
-      "Albumin (maintains oncotic pressure)",
-      "Parietal pleura — somatic, sharp",
-      "Great saphenous"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Ultrasound to locate, refer surgery for orchiopexy before 18 mo; educate parents on malignancy risk. 8th month gestation reaches scrotum",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Embryonic testis to scrotum descent",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Easy",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "nice"
-    ]
-  },
-  {
-    "id": 160,
-    "syllabusId": "anatomy-22-motilin",
-    "question": "Gastroparesis patient.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Type II pneumocyte",
-      "Low-dose erythromycin (motilin agonist) 3 mg/kg PO TDS, dietary modification, metoclopramide",
-      "H-K ATPase (proton pump) on parietal cell",
-      "Long thoracic nerve injury — physical therapy, shoulder support, usually recovers"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Low-dose erythromycin (motilin agonist) 3 mg/kg PO TDS, dietary modification, metoclopramide",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Low-dose erythromycin (motilin agonist) 3 mg/kg PO TDS, dietary modification, metoclopramide. From M cells of duodenum",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Motilin",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Easy",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "nice"
-    ]
-  },
-  {
-    "id": 161,
-    "syllabusId": "anatomy-23-intrinsic-factor-of-castle",
-    "question": "Post-gastrectomy with megaloblastic anemia.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "PT (extrinsic) — INR monitors warfarin via vit K-dependent factors",
-      "Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling",
-      "LH surge mid-cycle",
-      "Osteoclast"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Monthly IM B12 (hydroxocobalamin 1000 mcg) lifelong, diet counseling. Pernicious anemia: autoimmune destruction of parietal cells → IF deficiency → B12 deficiency",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Intrinsic factor of Castle",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 162,
-    "syllabusId": "anatomy-24-hcl-secretion",
-    "question": "Item on PPI target.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status",
-      "Prosopagnosia — inferior temporal/occipital lesion; OT for compensatory strategies, family education",
-      "Orbicularis oris (facial nerve VII)",
-      "H-K ATPase (proton pump) on parietal cell"
-    ],
-    "correct": 3,
-    "explanation": "Priority: H-K ATPase (proton pump) on parietal cell",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: H-K ATPase (proton pump) on parietal cell. Stimulated by: gastrin (G cells), histamine (ECL, H2), ACh (vagus)"
-    },
-    "subject": "Anatomy",
-    "topic": "HCl secretion",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 163,
-    "syllabusId": "anatomy-25-mineral-absorption-sites",
-    "question": "Ileal resection patient.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Origin: scapula; insertion: radial tuberosity; flexes and supinates",
-      "Wernicke aphasia — speech therapy, stroke workup (temporal lobe), caregiver education on comprehension strategies",
-      "B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status",
-      "C3-C5"
-    ],
-    "correct": 2,
-    "explanation": "Priority: B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: B12 deficiency likely — monthly IM B12, check bile salt diarrhea, fat-soluble vitamin status. Fe: duodenum + proximal jejunum",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Mineral absorption sites",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 164,
-    "syllabusId": "anatomy-26-gi-enzymes",
-    "question": "Item on fat digestion.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Wernicke aphasia — speech therapy, stroke workup (temporal lobe), caregiver education on comprehension strategies",
-      "Pancreatic lipase with bile salt emulsification",
-      "CKD stage 4 — nephrology referral, avoid nephrotoxins, dose-adjust drugs, prepare for RRT",
-      "Temporal lobe (Brodmann 41-42)"
-    ],
-    "correct": 1,
-    "explanation": "Priority: Pancreatic lipase with bile salt emulsification",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: Pancreatic lipase with bile salt emulsification. Saliva: amylase (starch)",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "GI enzymes",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 165,
-    "syllabusId": "anatomy-27-large-intestine-functions",
-    "question": "Item on water absorption site.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Pancreatic lipase with bile salt emulsification",
-      "H-K ATPase (proton pump) on parietal cell",
-      "Colon (majority in SI but colon final concentration)",
-      "Kidneys, pancreas (head/body), duodenum"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Colon (majority in SI but colon final concentration)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Colon (majority in SI but colon final concentration). Water and electrolyte absorption",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Large intestine functions",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 166,
-    "syllabusId": "anatomy-28-islets-of-langerhans",
-    "question": "Item on insulin source.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Pancreatic lipase with bile salt emulsification",
-      "Acromegaly — IGF-1, OGTT with GH, pituitary MRI; trans-sphenoidal surgery",
-      "Beta cells of islets of Langerhans",
-      "Stapes (middle ear)"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Beta cells of islets of Langerhans",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Beta cells of islets of Langerhans. Alpha (20%): glucagon",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "Anatomy",
-    "topic": "Islets of Langerhans",
-    "section": "anatomy",
-    "day": 10,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 167,
-    "syllabusId": "anatomy-29-cervical-vertebrae",
-    "question": "Item on atlas.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Angle of Louis = T4/T5 disc, 2nd costal cartilage",
-      "Frontal lobe precentral gyrus (Brodmann area 4)",
-      "Cricoid ring (subglottic) — implications for uncuffed ETT",
-      "C1 — has no vertebral body"
-    ],
-    "correct": 3,
-    "explanation": "Priority: C1 — has no vertebral body",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: C1 — has no vertebral body. C1 atlas: no body, supports skull"
-    },
-    "subject": "Anatomy",
-    "topic": "Cervical vertebrae",
     "section": "anatomy",
     "day": 10,
     "difficulty": "Easy",

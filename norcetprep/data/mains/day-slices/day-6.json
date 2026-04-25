@@ -1,35 +1,874 @@
 [
   {
-    "id": 1,
-    "_origId": "N8-1",
-    "question": "DBT stands for (in nursing / govt scheme context):",
+    "id": 13,
+    "_origId": "AIIMS-13",
+    "question": "Pulse Polio Immunization was introduced in India in the year:",
     "options": [
-      "Direct Bank Transfer",
-      "Direct Benefit Transfer",
-      "Digital Benefit Transfer",
-      "Direct Beneficiary Transaction"
+      "1995",
+      "2001",
+      "1999",
+      "2000"
+    ],
+    "correct": 0,
+    "explanation": "Pulse Polio Immunization (PPI) was launched in India in 1995.",
+    "explanations": {
+      "A": "Pulse Polio Immunization (PPI) was launched in India in 1995.",
+      "B": "India was certified polio-free much later (2014).",
+      "C": "Distractor year.",
+      "D": "Distractor year."
+    },
+    "subject": "Community Health",
+    "topic": "Pulse polio",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
+  },
+  {
+    "id": 27,
+    "_origId": "DSSSB-3",
+    "question": "BCG vaccine is given by which route?",
+    "options": [
+      "Intramuscular",
+      "Subcutaneous",
+      "Intradermal",
+      "Oral"
+    ],
+    "correct": 2,
+    "explanation": "BCG is given intradermally (0.05 ml in newborn / 0.1 ml >1 mo) over the left deltoid to produce a wheal.",
+    "explanations": {
+      "A": "IM is used for DPT, Hep B, etc., not BCG.",
+      "B": "SC is used for measles, MMR.",
+      "C": "BCG is given intradermally (0.05 ml in newborn / 0.1 ml >1 mo) over the left deltoid to produce a wheal.",
+      "D": "Oral route is for OPV and Rotavirus."
+    },
+    "subject": "Community Health",
+    "topic": "Immunization",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 29,
+    "_origId": "DSSSB-5",
+    "question": "ORS (Oral Rehydration Solution) was developed and recommended by:",
+    "options": [
+      "UNICEF",
+      "WHO",
+      "Both A and B",
+      "CDC"
+    ],
+    "correct": 2,
+    "explanation": "WHO and UNICEF jointly developed and promote low-osmolarity ORS as cornerstone of diarrhea management.",
+    "explanations": {
+      "A": "UNICEF co-promotes but did not solely develop.",
+      "B": "WHO co-developed but jointly with UNICEF.",
+      "C": "WHO and UNICEF jointly developed and promote low-osmolarity ORS as cornerstone of diarrhea management.",
+      "D": "CDC is US-focused and not the originator."
+    },
+    "subject": "Community Health",
+    "topic": "Diarrheal disease control",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 38,
+    "_origId": "DSSSB-14",
+    "question": "Janani Suraksha Yojana (JSY) is a scheme for:",
+    "options": [
+      "Child immunization",
+      "Promoting institutional delivery among poor pregnant women",
+      "Adolescent health",
+      "Geriatric care"
     ],
     "correct": 1,
-    "explanation": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
+    "explanation": "JSY (launched 2005 under NRHM) is a safe motherhood intervention promoting institutional delivery via cash assistance to poor pregnant women.",
     "explanations": {
-      "A": "Common misreading.",
-      "B": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
+      "A": "Immunization is covered under UIP/Mission Indradhanush.",
+      "B": "JSY (launched 2005 under NRHM) is a safe motherhood intervention promoting institutional delivery via cash assistance to poor pregnant women.",
+      "C": "Adolescent health falls under RKSK.",
+      "D": "Geriatric care falls under NPHCE."
+    },
+    "subject": "Community Health",
+    "topic": "National health programmes",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 47,
+    "_origId": "ESIC-3",
+    "question": "Which vaccine is given at birth in the National Immunization Schedule of India?",
+    "options": [
+      "DPT",
+      "BCG, OPV-0, Hepatitis B",
+      "Measles",
+      "MMR"
+    ],
+    "correct": 1,
+    "explanation": "Per UIP, BCG, OPV-0 (zero dose) and Hepatitis B birth dose are given within 24 hours of birth (or up to 1 year for BCG).",
+    "explanations": {
+      "A": "DPT begins at 6 weeks, not at birth.",
+      "B": "Per UIP, BCG, OPV-0 (zero dose) and Hepatitis B birth dose are given within 24 hours of birth (or up to 1 year for BCG).",
+      "C": "Measles is given at 9 completed months (MR-1).",
+      "D": "MMR is not part of UIP; given in private practice typically at 15 months."
+    },
+    "subject": "Community Health",
+    "topic": "UIP schedule",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 71,
+    "_origId": "JIPMER-7",
+    "question": "International Women's Day is observed on:",
+    "options": [
+      "27 March",
+      "8 March",
+      "10 June",
+      "3 August"
+    ],
+    "correct": 1,
+    "explanation": "International Women's Day is observed on 8th March.",
+    "explanations": {
+      "A": "World TB Day is March 24.",
+      "B": "International Women's Day is observed on 8th March.",
+      "C": "World Day Against Child Labour is June 12.",
+      "D": "International Day of World's Indigenous Peoples is Aug 9."
+    },
+    "subject": "Community Health",
+    "topic": "Health observances",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 78,
+    "_origId": "JIPMER-14",
+    "question": "Smallpox was officially declared eradicated globally in:",
+    "options": [
+      "1975",
+      "1977",
+      "1980",
+      "1990"
+    ],
+    "correct": 2,
+    "explanation": "WHO formally declared smallpox eradicated on 8 May 1980.",
+    "explanations": {
+      "A": "Last natural case in Asia was 1975 but not declared eradicated yet.",
+      "B": "Last natural case overall was 1977 in Somalia.",
+      "C": "WHO formally declared smallpox eradicated on 8 May 1980.",
+      "D": "Distractor year."
+    },
+    "subject": "Community Health",
+    "topic": "Disease eradication",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 79,
+    "_origId": "JIPMER-15",
+    "question": "Most common cause of infant mortality in India is:",
+    "options": [
+      "Acute respiratory infection (ARI)",
+      "Congenital heart disease",
+      "Low birth weight / prematurity",
+      "Diarrhoea"
+    ],
+    "correct": 2,
+    "explanation": "Low birth weight/prematurity is the leading underlying cause of infant deaths in India.",
+    "explanations": {
+      "A": "ARI is a major contributor but secondary.",
+      "B": "CHD contributes a small share.",
+      "C": "Low birth weight/prematurity is the leading underlying cause of infant deaths in India.",
+      "D": "Diarrhoea is also a major contributor but secondary."
+    },
+    "subject": "Community Health",
+    "topic": "IMR causes",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 80,
+    "_origId": "JIPMER-16",
+    "question": "Maternal mortality rate is conventionally expressed per:",
+    "options": [
+      "100",
+      "1000",
+      "10000",
+      "100000 live births"
+    ],
+    "correct": 3,
+    "explanation": "MMR is reported per 100,000 live births.",
+    "explanations": {
+      "A": "Per 100 makes the rate trivially small.",
+      "B": "IMR uses per 1000 live births, not MMR.",
+      "C": "Not a standard denominator.",
+      "D": "MMR is reported per 100,000 live births."
+    },
+    "subject": "OBG",
+    "topic": "MMR definition",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 81,
+    "_origId": "JIPMER-17",
+    "question": "Dose of BCG vaccine for an infant under 1 year is:",
+    "options": [
+      "0.05 mL intradermal",
+      "0.1 mL intradermal",
+      "0.5 mL subcutaneous",
+      "0.5 mL intramuscular"
+    ],
+    "correct": 0,
+    "explanation": "For infants under 1 year, BCG dose is 0.05 mL intradermal at left deltoid.",
+    "explanations": {
+      "A": "For infants under 1 year, BCG dose is 0.05 mL intradermal at left deltoid.",
+      "B": "0.1 mL is the standard dose for those above 1 year.",
+      "C": "BCG is never given subcutaneously.",
+      "D": "BCG is never given intramuscularly."
+    },
+    "subject": "Community Health",
+    "topic": "Immunization technique",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 82,
+    "_origId": "JIPMER-18",
+    "question": "ASHA worker primarily links the community with:",
+    "options": [
+      "LHV",
+      "PHN",
+      "ANM and Anganwadi worker",
+      "Medical Officer at district hospital"
+    ],
+    "correct": 2,
+    "explanation": "ASHA is the village-level activist linking households to ANM and Anganwadi worker (and the health system).",
+    "explanations": {
+      "A": "LHV supervises ANMs.",
+      "B": "PHN works at PHC supervisory level.",
+      "C": "ASHA is the village-level activist linking households to ANM and Anganwadi worker (and the health system).",
+      "D": "District-level MO is too distant."
+    },
+    "subject": "Community Health",
+    "topic": "NRHM cadres",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 83,
+    "_origId": "JIPMER-19",
+    "question": "Disease transmissible from animals to humans is termed:",
+    "options": [
+      "Zoonosis",
+      "Epizootic",
+      "Enzootic",
+      "Anthroponosis"
+    ],
+    "correct": 0,
+    "explanation": "Zoonosis = disease transmissible from animals to humans (e.g., rabies, brucellosis).",
+    "explanations": {
+      "A": "Zoonosis = disease transmissible from animals to humans (e.g., rabies, brucellosis).",
+      "B": "Epizootic is an animal epidemic.",
+      "C": "Enzootic is endemic in animals.",
+      "D": "Anthroponosis is human-to-human transmission."
+    },
+    "subject": "Community Health",
+    "topic": "Epidemiology terms",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "JIPMER SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "jipmer-sn-recalls.json"
+  },
+  {
+    "id": 111,
+    "_origId": "N1-23",
+    "question": "Rice-water stools are characteristic of:",
+    "options": [
+      "Amoebic dysentery",
+      "Cholera",
+      "Typhoid",
+      "Bacillary dysentery"
+    ],
+    "correct": 1,
+    "explanation": "Vibrio cholerae enterotoxin produces voluminous painless watery diarrhoea — colourless, odourless, with mucous flecks resembling water in which rice has been washed.",
+    "explanations": {
+      "A": "Causes blood- and mucus-streaked stools, not rice-water.",
+      "B": "Vibrio cholerae enterotoxin produces voluminous painless watery diarrhoea — colourless, odourless, with mucous flecks resembling water in which rice has been washed.",
+      "C": "Pea-soup stools or constipation, with stepwise fever.",
+      "D": "Shigella causes small-volume bloody mucoid stools with tenesmus."
+    },
+    "subject": "Community Health",
+    "topic": "Communicable disease",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 112,
+    "_origId": "N1-24",
+    "question": "Hepatitis A is transmitted mainly through the:",
+    "options": [
+      "Faeco-oral route",
+      "Sexual contact",
+      "Blood transfusion",
+      "Vertical transmission"
+    ],
+    "correct": 0,
+    "explanation": "Hepatitis A virus is shed in stool and ingested via contaminated food/water; outbreaks are linked to poor sanitation and shellfish.",
+    "explanations": {
+      "A": "Hepatitis A virus is shed in stool and ingested via contaminated food/water; outbreaks are linked to poor sanitation and shellfish.",
+      "B": "Major route for HBV/HCV/HIV, not HAV.",
+      "C": "Major route for HBV/HCV.",
+      "D": "Important for HBV — not Hepatitis A."
+    },
+    "subject": "Community Health",
+    "topic": "Hepatitis epidemiology",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 113,
+    "_origId": "N1-25",
+    "question": "DOTS strategy under RNTCP/NTEP for tuberculosis represents which level of prevention?",
+    "options": [
+      "Primordial prevention",
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention"
+    ],
+    "correct": 2,
+    "explanation": "DOTS detects active TB cases early and treats them with directly observed short-course chemotherapy, which halts disease progression and breaks transmission — the definition of secondary prevention.",
+    "explanations": {
+      "A": "Targets risk-factor emergence in unaffected populations.",
+      "B": "Vaccination (BCG) and health education would be primary.",
+      "C": "DOTS detects active TB cases early and treats them with directly observed short-course chemotherapy, which halts disease progression and breaks transmission — the definition of secondary prevention.",
+      "D": "Pulmonary rehabilitation in post-TB lung disease would be tertiary."
+    },
+    "subject": "Community Health",
+    "topic": "TB programme",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 114,
+    "_origId": "N1-26",
+    "question": "One 0.5 g chlorine tablet effectively disinfects how much water?",
+    "options": [
+      "5 litres",
+      "10 litres",
+      "15 litres",
+      "20 litres"
+    ],
+    "correct": 3,
+    "explanation": "WHO/IPHS guidance: a 0.5 g (500 mg) chlorine tablet at standard demand provides residual chlorine adequate for ~20 L of water after 30 min contact time.",
+    "explanations": {
+      "A": "Underestimates chlorine potency.",
+      "B": "Standard dose is higher than this.",
+      "C": "Common distractor — not WHO/IPHS specification.",
+      "D": "WHO/IPHS guidance: a 0.5 g (500 mg) chlorine tablet at standard demand provides residual chlorine adequate for ~20 L of water after 30 min contact time."
+    },
+    "subject": "Community Health",
+    "topic": "Water disinfection",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 135,
+    "_origId": "N3-17",
+    "question": "Which is a NON-modifiable risk factor for type 2 diabetes mellitus?",
+    "options": [
+      "Age",
+      "Obesity",
+      "Physical inactivity",
+      "Diet"
+    ],
+    "correct": 0,
+    "explanation": "Age (and ethnicity, family history, genetics) cannot be changed — these are non-modifiable risk factors.",
+    "explanations": {
+      "A": "Age (and ethnicity, family history, genetics) cannot be changed — these are non-modifiable risk factors.",
+      "B": "Obesity is modifiable through diet and exercise.",
+      "C": "Physical inactivity is modifiable.",
+      "D": "Dietary habits are modifiable."
+    },
+    "subject": "Medical-Surgical",
+    "topic": "Diabetes risk factors",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "medical-surgical",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 136,
+    "_origId": "N3-18",
+    "question": "Providing ergonomic furniture (e.g., desks designed to prevent neck/back problems) is an example of which level of prevention?",
+    "options": [
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention",
+      "Primordial prevention"
+    ],
+    "correct": 0,
+    "explanation": "Primary prevention acts before disease onset to reduce risk — ergonomic design (specific protection) prevents musculoskeletal injury.",
+    "explanations": {
+      "A": "Primary prevention acts before disease onset to reduce risk — ergonomic design (specific protection) prevents musculoskeletal injury.",
+      "B": "Secondary = early diagnosis and prompt treatment (e.g., screening).",
+      "C": "Tertiary = limiting disability and rehabilitation after disease.",
+      "D": "Primordial prevention targets underlying conditions/risk-factor establishment in populations (broader)."
+    },
+    "subject": "Community Health",
+    "topic": "Levels of prevention",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 139,
+    "_origId": "N3-21",
+    "question": "Janani Suraksha Yojana (JSY) was launched in India in which year?",
+    "options": [
+      "2005",
+      "2002",
+      "2010",
+      "2013"
+    ],
+    "correct": 0,
+    "explanation": "JSY was launched on 12 April 2005 under NRHM to promote institutional delivery and reduce MMR/IMR through cash incentives.",
+    "explanations": {
+      "A": "JSY was launched on 12 April 2005 under NRHM to promote institutional delivery and reduce MMR/IMR through cash incentives.",
+      "B": "2002 was the National Health Policy year, not JSY.",
+      "C": "JSSK (Janani Shishu Suraksha Karyakram) was launched in 2011, not JSY.",
+      "D": "Mission Indradhanush (immunisation) was launched in 2014."
+    },
+    "subject": "Community Health",
+    "topic": "National health schemes",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 142,
+    "_origId": "N3-24",
+    "question": "Which vaccine should be given as soon as possible after birth (within 24 hours)?",
+    "options": [
+      "Hepatitis B (birth dose)",
+      "BCG",
+      "OPV-0",
+      "DPT"
+    ],
+    "correct": 0,
+    "explanation": "WHO and India's UIP recommend Hepatitis B birth dose within 24 hours of birth to prevent perinatal transmission. (BCG and OPV-0 are also given at birth, but the strict <24-hour window is unique to Hep B.)",
+    "explanations": {
+      "A": "WHO and India's UIP recommend Hepatitis B birth dose within 24 hours of birth to prevent perinatal transmission. (BCG and OPV-0 are also given at birth, but the strict <24-hour window is unique to Hep B.)",
+      "B": "BCG is given at birth or as early as possible up to 1 year — no strict 24-hour rule.",
+      "C": "OPV-0 is given at birth, but its window extends up to 15 days.",
+      "D": "DPT begins at 6 weeks, not at birth."
+    },
+    "subject": "Community Health",
+    "topic": "UIP schedule",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 143,
+    "_origId": "N3-25",
+    "question": "Which vaccine should be stored in the FREEZER compartment of the ILR/deep freezer?",
+    "options": [
+      "OPV",
+      "DPT",
+      "Tetanus toxoid",
+      "Hepatitis B"
+    ],
+    "correct": 0,
+    "explanation": "OPV (and historically Measles freeze-dried vaccine) is stored at –15 to –25 °C in the deep freezer because it is heat-sensitive and freeze-stable.",
+    "explanations": {
+      "A": "OPV (and historically Measles freeze-dried vaccine) is stored at –15 to –25 °C in the deep freezer because it is heat-sensitive and freeze-stable.",
+      "B": "DPT must NEVER be frozen (freezing destroys aluminium adjuvant); stored at +2 to +8 °C.",
+      "C": "Tetanus toxoid is freeze-sensitive — stored at +2 to +8 °C.",
+      "D": "Hepatitis B is freeze-sensitive — stored at +2 to +8 °C."
+    },
+    "subject": "Community Health",
+    "topic": "Cold chain",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 144,
+    "_origId": "N3-26",
+    "question": "ASHA (Accredited Social Health Activist) workers function primarily at which level?",
+    "options": [
+      "Village / community",
+      "Sub-centre",
+      "PHC",
+      "District hospital"
+    ],
+    "correct": 0,
+    "explanation": "Under NRHM (2005), one ASHA is selected per ~1000 population in rural villages as the first community-level health volunteer linking households to the health system.",
+    "explanations": {
+      "A": "Under NRHM (2005), one ASHA is selected per ~1000 population in rural villages as the first community-level health volunteer linking households to the health system.",
+      "B": "Sub-centre is staffed by ANM/MPW, not ASHA.",
+      "C": "PHC is a medical-officer level institution.",
+      "D": "District hospital is secondary care — ASHAs do not work there."
+    },
+    "subject": "Community Health",
+    "topic": "ASHA role",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 155,
+    "_origId": "N4-7",
+    "question": "Pulse Polio Immunization in India is given to children up to:",
+    "options": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "10 years"
+    ],
+    "correct": 2,
+    "explanation": "Pulse Polio Immunization targets all children 0 to 5 years.",
+    "explanations": {
+      "A": "Routine OPV is given in infancy but PPI extends beyond.",
+      "B": "Not the cutoff for PPI.",
+      "C": "Pulse Polio Immunization targets all children 0 to 5 years.",
+      "D": "Beyond the PPI age range."
+    },
+    "subject": "Community Health",
+    "topic": "National health programs",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 160,
+    "_origId": "N4-12",
+    "question": "BCG vaccine is given by which route?",
+    "options": [
+      "Intramuscular",
+      "Subcutaneous",
+      "Intradermal",
+      "Oral"
+    ],
+    "correct": 2,
+    "explanation": "BCG is given intradermally over the left deltoid, dose 0.1 mL (0.05 mL for newborn <1 month).",
+    "explanations": {
+      "A": "IM route used for DPT, Hep B; not BCG.",
+      "B": "Subcutaneous used for measles, MMR; not BCG.",
+      "C": "BCG is given intradermally over the left deltoid, dose 0.1 mL (0.05 mL for newborn <1 month).",
+      "D": "OPV is oral; BCG is not."
+    },
+    "subject": "Community Health",
+    "topic": "Immunization",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 168,
+    "_origId": "N4-20",
+    "question": "Janani Suraksha Yojana (JSY) was launched in which year?",
+    "options": [
+      "2003",
+      "2005",
+      "2008",
+      "2010"
+    ],
+    "correct": 1,
+    "explanation": "JSY was launched on 12 April 2005 under NRHM to promote institutional deliveries.",
+    "explanations": {
+      "A": "Not the launch year.",
+      "B": "JSY was launched on 12 April 2005 under NRHM to promote institutional deliveries.",
+      "C": "JSSK was launched in 2011, not JSY.",
+      "D": "Not correct."
+    },
+    "subject": "Community Health",
+    "topic": "National health schemes",
+    "day": 6,
+    "difficulty": "Medium",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 175,
+    "_origId": "N5-2",
+    "question": "Which of the following is a live attenuated vaccine?",
+    "options": [
+      "DPT",
+      "Hepatitis B",
+      "BCG",
+      "Tetanus toxoid"
+    ],
+    "correct": 2,
+    "explanation": "BCG is a live attenuated vaccine made from Mycobacterium bovis.",
+    "explanations": {
+      "A": "DPT contains killed/toxoid components, not live.",
+      "B": "Hep B is a recombinant subunit vaccine.",
+      "C": "BCG is a live attenuated vaccine made from Mycobacterium bovis.",
+      "D": "Tetanus toxoid is an inactivated toxin vaccine."
+    },
+    "subject": "Community Health",
+    "topic": "Vaccines",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 179,
+    "_origId": "N5-6",
+    "question": "The first vaccine given at birth in National Immunization Schedule is:",
+    "options": [
+      "DPT",
+      "Measles",
+      "BCG, OPV-0, Hepatitis B",
+      "Pentavalent"
+    ],
+    "correct": 2,
+    "explanation": "At birth: BCG, OPV-0, and Hepatitis B birth dose are administered per India's UIP.",
+    "explanations": {
+      "A": "DPT given at 6, 10, 14 weeks (now Pentavalent).",
+      "B": "Measles given at 9 months.",
+      "C": "At birth: BCG, OPV-0, and Hepatitis B birth dose are administered per India's UIP.",
+      "D": "Pentavalent given at 6, 10, 14 weeks."
+    },
+    "subject": "Community Health",
+    "topic": "Immunization schedule",
+    "day": 6,
+    "difficulty": "Easy",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 187,
+    "_origId": "N5-14",
+    "question": "ASHA stands for:",
+    "options": [
+      "Accredited Social Health Activist",
+      "Accredited Senior Health Aide",
+      "Auxiliary Skilled Health Assistant",
+      "Advanced Service Health Activist"
+    ],
+    "correct": 0,
+    "explanation": "ASHA = Accredited Social Health Activist; community health worker under NRHM, one per 1000 population.",
+    "explanations": {
+      "A": "ASHA = Accredited Social Health Activist; community health worker under NRHM, one per 1000 population.",
+      "B": "Incorrect expansion.",
       "C": "Incorrect expansion.",
       "D": "Incorrect expansion."
     },
     "subject": "Community Health",
-    "topic": "Schemes",
+    "topic": "NRHM workforce",
     "day": 6,
     "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
+    "source": "NORCET 5 Mains",
+    "year": 2023,
     "qtype": "recall",
     "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
   },
   {
-    "id": 17,
+    "id": 206,
     "_origId": "N6-8",
     "question": "ICDS beneficiary age group for supplementary nutrition is:",
     "options": [
@@ -55,794 +894,35 @@
     "qtype": "recall",
     "section": "community-health",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 73,
-    "_origId": "N9-56",
-    "question": "In which year was the first National Family Planning Programme launched in India?",
+    "id": 210,
+    "_origId": "N8-1",
+    "question": "DBT stands for (in nursing / govt scheme context):",
     "options": [
-      "1947",
-      "1952",
-      "1961",
-      "1971"
+      "Direct Bank Transfer",
+      "Direct Benefit Transfer",
+      "Digital Benefit Transfer",
+      "Direct Beneficiary Transaction"
     ],
     "correct": 1,
-    "explanation": "India launched the world's first government-sponsored NFP in 1952.",
+    "explanation": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
     "explanations": {
-      "A": "India gained independence in 1947, but the NFP came later.",
-      "B": "India launched the world's first government-sponsored NFP in 1952.",
-      "C": "1961 is irrelevant.",
-      "D": "1971 saw MTP Act, not NFP."
+      "A": "Common misreading.",
+      "B": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
+      "C": "Incorrect expansion.",
+      "D": "Incorrect expansion."
     },
     "subject": "Community Health",
-    "topic": "NFP history",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 74,
-    "_origId": "N9-57",
-    "question": "Which was the first National Family Planning Programme launched in India?",
-    "options": [
-      "National Population Policy",
-      "Family Welfare Programme",
-      "Reproductive and Child Health Programme",
-      "National Rural Health Mission"
-    ],
-    "correct": 1,
-    "explanation": "Launched in 1952 as the 'Family Welfare Programme' — India's first NFP.",
-    "explanations": {
-      "A": "National Population Policy was adopted in 2000.",
-      "B": "Launched in 1952 as the 'Family Welfare Programme' — India's first NFP.",
-      "C": "RCH programme began in 1997.",
-      "D": "NRHM launched in 2005."
-    },
-    "subject": "Community Health",
-    "topic": "NFP history",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 75,
-    "_origId": "N9-58",
-    "question": "A 45-year-old patient on isoniazid therapy for tuberculosis presents with numbness and tingling in the extremities. Which intervention should the nurse prioritize?",
-    "options": [
-      "Administer vitamin B12 supplements",
-      "Increase the dose of isoniazid",
-      "Administer vitamin B6 (pyridoxine) supplements",
-      "Discontinue isoniazid immediately"
-    ],
-    "correct": 2,
-    "explanation": "INH inhibits pyridoxal-5-phosphate → B6 deficiency → peripheral neuropathy. Treatment: pyridoxine 10–50 mg/day.",
-    "explanations": {
-      "A": "B12 treats pernicious anemia-related neuropathy, not INH neuropathy.",
-      "B": "Increasing INH worsens the neuropathy.",
-      "C": "INH inhibits pyridoxal-5-phosphate → B6 deficiency → peripheral neuropathy. Treatment: pyridoxine 10–50 mg/day.",
-      "D": "INH is stopped only if severe; routine practice is to add pyridoxine to prevent/treat."
-    },
-    "subject": "Community Health",
-    "topic": "TB / Isoniazid neuropathy",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 77,
-    "_origId": "N9-60",
-    "question": "A community health nurse educates parents about the rotavirus vaccine. What is the correct route of administration for the rotavirus vaccine?",
-    "options": [
-      "Intramuscular",
-      "Subcutaneous",
-      "Oral",
-      "Intravenous"
-    ],
-    "correct": 2,
-    "explanation": "Rotavirus is given orally (live attenuated) at 6, 10, 14 weeks.",
-    "explanations": {
-      "A": "IM not used for rotavirus.",
-      "B": "Subcut not used for rotavirus.",
-      "C": "Rotavirus is given orally (live attenuated) at 6, 10, 14 weeks.",
-      "D": "IV not used."
-    },
-    "subject": "Community Health",
-    "topic": "Immunization",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 78,
-    "_origId": "N9-61",
-    "question": "Can herd immunity provide protection against tetanus in unvaccinated individuals?",
-    "options": [
-      "Fully protects against tetanus",
-      "Partially protects due to community vaccination",
-      "Does not protect — tetanus is not contagious",
-      "Protects only vaccinated individuals"
-    ],
-    "correct": 2,
-    "explanation": "Tetanus is acquired from environmental Clostridium tetani spores, not person-to-person. Herd immunity protects only against communicable diseases.",
-    "explanations": {
-      "A": "Incorrect — herd immunity cannot protect the unvaccinated from tetanus.",
-      "B": "Incorrect — concept doesn't apply.",
-      "C": "Tetanus is acquired from environmental Clostridium tetani spores, not person-to-person. Herd immunity protects only against communicable diseases.",
-      "D": "Vaccination protects the vaccinated directly; this statement is trivially true but not the point of the question."
-    },
-    "subject": "Community Health",
-    "topic": "Herd immunity / Tetanus",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 80,
-    "_origId": "N9-63",
-    "question": "Among infectious diseases, which condition is a significant contributor to mortality rates in India?",
-    "options": [
-      "Malaria",
-      "Tuberculosis",
-      "Dengue fever",
-      "Cholera"
-    ],
-    "correct": 1,
-    "explanation": "India has the world's highest TB burden; TB is the single largest infectious killer.",
-    "explanations": {
-      "A": "Malaria mortality in India is declining; not the largest infectious cause.",
-      "B": "India has the world's highest TB burden; TB is the single largest infectious killer.",
-      "C": "Dengue causes outbreaks but fewer deaths than TB.",
-      "D": "Cholera is largely controlled."
-    },
-    "subject": "Community Health",
-    "topic": "Burden of disease",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 81,
-    "_origId": "N9-64",
-    "question": "What is the annual coverage limit provided by PM-JAY for a beneficiary's family?",
-    "options": [
-      "Rs. 1 lakh per family per year",
-      "Rs. 3 lakhs per family per year",
-      "Rs. 5 lakhs per family per year",
-      "Rs. 10 lakhs per family per year"
-    ],
-    "correct": 2,
-    "explanation": "PM-JAY provides ₹5 lakh/family/year for secondary + tertiary care.",
-    "explanations": {
-      "A": "Too low; doesn't match PM-JAY.",
-      "B": "Too low.",
-      "C": "PM-JAY provides ₹5 lakh/family/year for secondary + tertiary care.",
-      "D": "PM-JAY was enhanced to ₹10 lakh only for senior citizens ≥70 years (2024 expansion); standard family cover remains ₹5 lakh."
-    },
-    "subject": "Community Health",
-    "topic": "Ayushman Bharat / PM-JAY",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 82,
-    "_origId": "N9-65",
-    "question": "Which ministry is primarily responsible for implementing Poshan Abhiyaan?",
-    "options": [
-      "Ministry of Health and Family Welfare",
-      "Ministry of Women and Child Development",
-      "Ministry of Education",
-      "Ministry of Rural Development"
-    ],
-    "correct": 1,
-    "explanation": "Launched 2018 under MoWCD with ICDS ecosystem; targets stunting, anemia, LBW.",
-    "explanations": {
-      "A": "MoHFW handles health programmes, not Poshan Abhiyaan.",
-      "B": "Launched 2018 under MoWCD with ICDS ecosystem; targets stunting, anemia, LBW.",
-      "C": "Mid-Day Meal is under MoE; not Poshan Abhiyaan.",
-      "D": "MoRD doesn't run Poshan Abhiyaan."
-    },
-    "subject": "Community Health",
-    "topic": "Poshan Abhiyaan",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 83,
-    "_origId": "N9-66",
-    "question": "What is the primary objective of the Janani Shishu Suraksha Karyakram (JSSK)?",
-    "options": [
-      "Provide free postnatal care only",
-      "Promote institutional delivery and ensure free maternal and newborn care",
-      "Offer financial assistance for home deliveries",
-      "Provide nutritional supplements to pregnant women"
-    ],
-    "correct": 1,
-    "explanation": "JSSK (2011) entitles every pregnant woman and sick newborn (≤30 days, later extended to 1 year) to free delivery, drugs, diagnostics, diet, transport.",
-    "explanations": {
-      "A": "JSSK covers antenatal, intranatal, and postnatal care — not only postnatal.",
-      "B": "JSSK (2011) entitles every pregnant woman and sick newborn (≤30 days, later extended to 1 year) to free delivery, drugs, diagnostics, diet, transport.",
-      "C": "JSSK promotes institutional delivery; does not fund home deliveries.",
-      "D": "Supplements are under Poshan Abhiyaan/ICDS, not JSSK."
-    },
-    "subject": "Community Health",
-    "topic": "JSSK / Maternal health",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 84,
-    "_origId": "N9-67",
-    "question": "What is the recommended time frame to check for a response to the BCG vaccine?",
-    "options": [
-      "2-4 weeks",
-      "4-6 weeks",
-      "8-10 weeks",
-      "12-14 weeks"
-    ],
-    "correct": 2,
-    "explanation": "A BCG scar develops by 8–12 weeks; Mantoux conversion around this time.",
-    "explanations": {
-      "A": "Too early — scar takes longer to form.",
-      "B": "Papule forms but typical scar assessment later.",
-      "C": "A BCG scar develops by 8–12 weeks; Mantoux conversion around this time.",
-      "D": "Usually scar is already formed by then."
-    },
-    "subject": "Community Health",
-    "topic": "BCG / UIP",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 85,
-    "_origId": "N9-68",
-    "question": "Which epidemiological measure is most appropriate to determine the proportion of the population affected by a specific disease at a given time?",
-    "options": [
-      "Incidence rate",
-      "Prevalence",
-      "Mortality rate",
-      "Attack rate"
-    ],
-    "correct": 1,
-    "explanation": "Prevalence = existing cases / total population at a given time (snapshot).",
-    "explanations": {
-      "A": "Incidence counts new cases over time — not a snapshot.",
-      "B": "Prevalence = existing cases / total population at a given time (snapshot).",
-      "C": "Mortality measures deaths, not cases.",
-      "D": "Attack rate is outbreak-specific (ill ÷ exposed)."
-    },
-    "subject": "Community Health",
-    "topic": "Epidemiology",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 86,
-    "_origId": "N9-69",
-    "question": "Which statement is true regarding killed vaccines?",
-    "options": [
-      "Never require booster doses",
-      "Typically require booster doses to maintain immunity",
-      "Provide lifelong immunity without boosters",
-      "Only effective with a single dose"
-    ],
-    "correct": 1,
-    "explanation": "Inactivated/killed antigens produce weaker immunity than live; need multiple doses and boosters (e.g., DPT, IPV, rabies).",
-    "explanations": {
-      "A": "Killed vaccines routinely need boosters.",
-      "B": "Inactivated/killed antigens produce weaker immunity than live; need multiple doses and boosters (e.g., DPT, IPV, rabies).",
-      "C": "Live attenuated can provide longer immunity; killed usually not.",
-      "D": "Single dose rarely achieves protective immunity with killed vaccines."
-    },
-    "subject": "Community Health",
-    "topic": "Vaccines / Immunology",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 87,
-    "_origId": "N9-70",
-    "question": "An age-sex pyramid shows a narrow top and wide base. What does this demographic pattern indicate?",
-    "options": [
-      "Low birth rate and low death rate",
-      "High birth rate and high death rate",
-      "Low birth rate and high death rate",
-      "High birth rate and low death rate"
-    ],
-    "correct": 1,
-    "explanation": "Wide base = high birth rate; narrow top = high death rate with few elderly → typical developing-country pyramid.",
-    "explanations": {
-      "A": "Low both → columnar (stable) pyramid.",
-      "B": "Wide base = high birth rate; narrow top = high death rate with few elderly → typical developing-country pyramid.",
-      "C": "Low birth + high death → contracting (top-heavy) pyramid.",
-      "D": "Low death + high birth → expanding bulge but with widening middle-age bands, not as narrow at the top."
-    },
-    "subject": "Community Health",
-    "topic": "Demography",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 89,
-    "_origId": "N9-72",
-    "question": "What is the primary purpose of the unique health ID under the Ayushman Bharat Digital Mission?",
-    "options": [
-      "Provide financial assistance for hospital admissions",
-      "Create a universal health identity for seamless healthcare access",
-      "Track vaccination records only",
-      "Monitor disease outbreaks in real-time"
-    ],
-    "correct": 1,
-    "explanation": "ABHA (Ayushman Bharat Health Account) is a unique 14-digit ID for health records — enables longitudinal EHR and seamless healthcare access.",
-    "explanations": {
-      "A": "Financial cover is PM-JAY.",
-      "B": "ABHA (Ayushman Bharat Health Account) is a unique 14-digit ID for health records — enables longitudinal EHR and seamless healthcare access.",
-      "C": "Vaccination tracking is done via U-WIN/CoWIN, not the sole purpose of the health ID.",
-      "D": "Outbreak monitoring is via IDSP, not ABHA."
-    },
-    "subject": "Community Health",
-    "topic": "ABDM / Digital Health",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 90,
-    "_origId": "N9-73",
-    "question": "Which framework integrates adolescent health with reproductive and child health services?",
-    "options": [
-      "RMNCH",
-      "RMNCH+A",
-      "NRHM",
-      "ASHA"
-    ],
-    "correct": 1,
-    "explanation": "RMNCH+A adds Adolescent health (2013) with RKSK/school health services.",
-    "explanations": {
-      "A": "RMNCH covers reproductive, maternal, newborn, child — no adolescent component.",
-      "B": "RMNCH+A adds Adolescent health (2013) with RKSK/school health services.",
-      "C": "NRHM is the broader rural health mission.",
-      "D": "ASHA is a community health worker, not a programme framework."
-    },
-    "subject": "Community Health",
-    "topic": "RMNCH+A",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 91,
-    "_origId": "N9-74",
-    "question": "Which statement about inactivated polio vaccine (IPV) is true?",
-    "options": [
-      "Administered orally to prevent polio",
-      "Live attenuated vaccine",
-      "Injectable vaccine providing immunity against polio",
-      "Requires only a single dose for lifelong immunity"
-    ],
-    "correct": 2,
-    "explanation": "IPV is given intramuscularly / intradermally (fIPV) — injectable inactivated vaccine.",
-    "explanations": {
-      "A": "Oral route is for OPV (live), not IPV.",
-      "B": "IPV is killed (Salk); OPV is live attenuated (Sabin).",
-      "C": "IPV is given intramuscularly / intradermally (fIPV) — injectable inactivated vaccine.",
-      "D": "Multi-dose schedule required."
-    },
-    "subject": "Community Health",
-    "topic": "Polio / IPV",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 92,
-    "_origId": "N9-75",
-    "question": "Which statement is true about adjuvants in vaccines?",
-    "options": [
-      "Weaken the immune response",
-      "Enhance the immune response to vaccines",
-      "Live pathogens included in vaccines",
-      "Prevent the vaccine from being effective"
-    ],
-    "correct": 1,
-    "explanation": "Adjuvants (e.g., aluminium salts, AS04) boost antigen presentation → stronger/longer immune response.",
-    "explanations": {
-      "A": "Opposite of function.",
-      "B": "Adjuvants (e.g., aluminium salts, AS04) boost antigen presentation → stronger/longer immune response.",
-      "C": "Adjuvants are not pathogens; they're immune stimulants.",
-      "D": "Adjuvants improve efficacy."
-    },
-    "subject": "Community Health",
-    "topic": "Vaccines / Adjuvants",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 93,
-    "_origId": "N9-76",
-    "question": "Annual nutrition awareness activities in September for malnutrition prevention fall primarily under which national program?",
-    "options": [
-      "Ayushman Bharat",
-      "Swachh Bharat Abhiyan",
-      "Poshan Abhiyaan",
-      "National Health Mission"
-    ],
-    "correct": 2,
-    "explanation": "September is observed as Rashtriya Poshan Maah under Poshan Abhiyaan.",
-    "explanations": {
-      "A": "Ayushman Bharat is an insurance + wellness centre programme.",
-      "B": "Swachh Bharat addresses sanitation, not nutrition.",
-      "C": "September is observed as Rashtriya Poshan Maah under Poshan Abhiyaan.",
-      "D": "NHM is an umbrella; Poshan Abhiyaan is the specific nutrition programme."
-    },
-    "subject": "Community Health",
-    "topic": "Poshan Maah",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 95,
-    "_origId": "N9-78",
-    "question": "Which national programme is specifically designed to reduce maternal and newborn mortality through safe delivery and comprehensive care?",
-    "options": [
-      "Poshan Abhiyaan",
-      "Janani Shishu Suraksha Yojana (JSSY)",
-      "Ayushman Bharat",
-      "National Rural Health Mission (NRHM)"
-    ],
-    "correct": 1,
-    "explanation": "JSSY/JSSK entitles free delivery, drugs, diagnostics, diet, transport for pregnant women and sick newborns.",
-    "explanations": {
-      "A": "Poshan targets nutrition.",
-      "B": "JSSY/JSSK entitles free delivery, drugs, diagnostics, diet, transport for pregnant women and sick newborns.",
-      "C": "Ayushman covers secondary/tertiary care insurance.",
-      "D": "NRHM is umbrella mission, not targeted at mother-newborn specifically."
-    },
-    "subject": "Community Health",
-    "topic": "JSSY",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 97,
-    "_origId": "N9-80",
-    "question": "Which national programme specifically addresses newborn and maternal mortality through comprehensive maternal and child health services?",
-    "options": [
-      "National Rural Health Mission (NRHM)",
-      "Janani Shishu Suraksha Karyakram (JSSK)",
-      "Integrated Child Development Services (ICDS)",
-      "National Immunization Programme"
-    ],
-    "correct": 1,
-    "explanation": "JSSK is specifically targeted at mother and sick newborn with free delivery + newborn care.",
-    "explanations": {
-      "A": "NRHM is umbrella.",
-      "B": "JSSK is specifically targeted at mother and sick newborn with free delivery + newborn care.",
-      "C": "ICDS targets 6 mo–6 y children and pregnant/lactating women nutrition.",
-      "D": "NIP is vaccination programme."
-    },
-    "subject": "Community Health",
-    "topic": "JSSK",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 110,
-    "_origId": "N9-93",
-    "question": "Under Anemia Mukt Bharat, for a pregnant woman in her second trimester, which Hb level classifies her as anemic?",
-    "options": [
-      "Hb < 11.0 g/dL",
-      "Hb < 12.0 g/dL",
-      "Hb < 10.0 g/dL",
-      "Hb < 13.0 g/dL"
-    ],
-    "correct": 0,
-    "explanation": "WHO/AMB cutoff for pregnancy anemia: Hb < 11.0 g/dL (any trimester).",
-    "explanations": {
-      "A": "WHO/AMB cutoff for pregnancy anemia: Hb < 11.0 g/dL (any trimester).",
-      "B": "12.0 g/dL is the cutoff for non-pregnant women.",
-      "C": "10.0 g/dL is moderate anemia cutoff, not diagnostic threshold.",
-      "D": "13.0 is the cutoff for adult men."
-    },
-    "subject": "Community Health",
-    "topic": "Anemia Mukt Bharat",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 120,
-    "_origId": "N9-103",
-    "question": "A mother reports her 4-year-old is not receiving ICDS supplementary nutrition. What should the nurse do first?",
-    "options": [
-      "Refer to a pediatrician for evaluation",
-      "Verify the child's age and ICDS enrollment status",
-      "Educate the mother about nutrition",
-      "Provide immediate supplementary food"
-    ],
-    "correct": 1,
-    "explanation": "Nursing process starts with assessment — verify eligibility (6 mo–6 y) and current enrolment in AWC.",
-    "explanations": {
-      "A": "Medical referral is premature without assessing eligibility.",
-      "B": "Nursing process starts with assessment — verify eligibility (6 mo–6 y) and current enrolment in AWC.",
-      "C": "Education is second step, after assessment.",
-      "D": "Providing food without eligibility verification is improper programme use."
-    },
-    "subject": "Pediatric",
-    "topic": "ICDS / Nursing process",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "pediatric",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 1233,
-    "question": "PM-JAY provides health coverage up to (approx) per family per year:",
-    "options": [
-      "₹1 lakh",
-      "₹3 lakh",
-      "₹5 lakh",
-      "₹10 lakh"
-    ],
-    "correct": 2,
-    "explanation": "• Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year.\n• Verify official updates.",
-    "explanations": {
-      "A": "\"₹1 lakh\" is a plausible distractor but incorrect. The correct answer is C (\"₹5 lakh\") — Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates.",
-      "B": "\"₹3 lakh\" is a plausible distractor but incorrect. The correct answer is C (\"₹5 lakh\") — Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates.",
-      "C": "Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates.",
-      "D": "\"₹10 lakh\" is a plausible distractor but incorrect. The correct answer is C (\"₹5 lakh\") — Ayushman Bharat PM-JAY coverage commonly cited as ₹5 lakh/family/year. Verify official updates."
-    },
-    "subject": "Mixed",
-    "topic": "GK / Health Programs",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 1239,
-    "question": "Pulse polio immunization is an example of:",
-    "options": [
-      "Passive immunity",
-      "Active immunization campaign",
-      "Chemoprophylaxis",
-      "Herd treatment with antibiotics"
-    ],
-    "correct": 1,
-    "explanation": "• Oral polio vaccine campaigns provide active immunity.\n• CHN program classic.",
-    "explanations": {
-      "A": "\"Passive immunity\" is a plausible distractor but incorrect. The correct answer is B (\"Active immunization campaign\") — Oral polio vaccine campaigns provide active immunity. CHN program classic.",
-      "B": "Oral polio vaccine campaigns provide active immunity. CHN program classic.",
-      "C": "\"Chemoprophylaxis\" is a plausible distractor but incorrect. The correct answer is B (\"Active immunization campaign\") — Oral polio vaccine campaigns provide active immunity. CHN program classic.",
-      "D": "\"Herd treatment with antibiotics\" is a plausible distractor but incorrect. The correct answer is B (\"Active immunization campaign\") — Oral polio vaccine campaigns provide active immunity. CHN program classic."
-    },
-    "subject": "Mixed",
-    "topic": "Community Health",
+    "topic": "Schemes",
     "day": 6,
     "difficulty": "Easy",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023",
-    "qtype": "factual"
-  },
-  {
-    "id": 1244,
-    "question": "ASHA worker is primarily:",
-    "options": [
-      "Hospital specialist doctor",
-      "Community health volunteer under NRHM",
-      "Lab technician",
-      "Pharmacist"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Hospital specialist doctor\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Lab technician\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Pharmacist\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "CHN",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2021",
-    "qtype": "factual"
-  },
-  {
-    "id": 1248,
-    "question": "Article 21 of Indian Constitution relates to:",
-    "options": [
-      "Education",
-      "Protection of life and personal liberty",
-      "Freedom of speech",
-      "Right to property"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Education\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Freedom of speech\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Right to property\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "GK",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
-  },
-  {
-    "id": 1254,
-    "question": "ASHA worker is primarily:",
-    "options": [
-      "Hospital specialist doctor",
-      "Community health volunteer under NRHM",
-      "Lab technician",
-      "Pharmacist"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Hospital specialist doctor\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Lab technician\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Pharmacist\" is a plausible distractor but incorrect. The correct answer is B (\"Community health volunteer under NRHM\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "CHN",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2021",
-    "qtype": "factual"
-  },
-  {
-    "id": 1258,
-    "question": "Article 21 of Indian Constitution relates to:",
-    "options": [
-      "Education",
-      "Protection of life and personal liberty",
-      "Freedom of speech",
-      "Right to property"
-    ],
-    "correct": 1,
-    "explanation": "• Practice question aligned with NORCET subject distribution.\n• Verify with standard textbooks.",
-    "explanations": {
-      "A": "\"Education\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "B": "Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "C": "\"Freedom of speech\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks.",
-      "D": "\"Right to property\" is a plausible distractor but incorrect. The correct answer is B (\"Protection of life and personal liberty\") — Practice question aligned with NORCET subject distribution. Verify with standard textbooks."
-    },
-    "subject": "Mixed",
-    "topic": "GK",
-    "day": 6,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2022",
-    "qtype": "factual"
+    "source": "NORCET 8 Mains",
+    "year": 2025,
+    "qtype": "recall",
+    "section": "community-health",
+    "tags": [],
+    "_sourceFile": "norcet-8-mains-2025-recalls.json"
   }
 ]

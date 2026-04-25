@@ -1,0 +1,1236 @@
+{
+  "id": "rrb-sn",
+  "title": "RRB Staff Nurse — Recalls",
+  "count": 38,
+  "minutes": 60,
+  "source": "RRB Staff Nurse — Recalls",
+  "verbatim": true,
+  "subjects": {
+    "Medical-Surgical": 12,
+    "Pediatric": 3,
+    "Anatomy": 7,
+    "Nutrition": 4,
+    "OBG": 4,
+    "Fundamentals": 3,
+    "Community Health": 4,
+    "Pharmacology": 1
+  },
+  "questions": [
+    {
+      "id": 337,
+      "_origId": "RRB-1",
+      "question": "The minimum and maximum scores of the Glasgow Coma Scale (GCS) are:",
+      "options": [
+        "8 to 9",
+        "8 to 12",
+        "12 to 13",
+        "3 to 15"
+      ],
+      "correct": 3,
+      "explanation": "GCS scores eye, verbal and motor responses for a total range of 3 (deep coma) to 15 (fully alert).",
+      "explanations": {
+        "A": "Incorrect range; GCS extends well beyond 9.",
+        "B": "Incorrect; upper limit goes higher than 12.",
+        "C": "Incorrect; lower limit is 3, not 12.",
+        "D": "GCS scores eye, verbal and motor responses for a total range of 3 (deep coma) to 15 (fully alert)."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Neuro assessment",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 1
+    },
+    {
+      "id": 338,
+      "_origId": "RRB-2",
+      "question": "Exenteration of the orbit refers to:",
+      "options": [
+        "Removal of eye contents leaving sclera",
+        "Removal of the entire eyeball only",
+        "Surgical removal of the entire orbital contents including eyeball and eyelids",
+        "Laser surgery of the cornea"
+      ],
+      "correct": 2,
+      "explanation": "Exenteration removes the entire orbital contents including eyeball, fat, muscles and lids, usually for malignancy.",
+      "explanations": {
+        "A": "That describes evisceration, not exenteration.",
+        "B": "That describes enucleation.",
+        "C": "Exenteration removes the entire orbital contents including eyeball, fat, muscles and lids, usually for malignancy.",
+        "D": "Laser surgery is unrelated to orbital exenteration."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Ophthalmic surgery",
+      "day": 11,
+      "difficulty": "Medium",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 2
+    },
+    {
+      "id": 339,
+      "_origId": "RRB-3",
+      "question": "Exchange transfusion in erythroblastosis fetalis is performed primarily to prevent damage to the:",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Kidneys",
+        "Brain"
+      ],
+      "correct": 3,
+      "explanation": "Unconjugated bilirubin crosses the blood-brain barrier and deposits in the basal ganglia causing kernicterus, which exchange transfusion prevents.",
+      "explanations": {
+        "A": "Liver conjugates bilirubin but is not the target organ harmed by unconjugated bilirubin.",
+        "B": "Lungs are not affected by unconjugated hyperbilirubinemia.",
+        "C": "Kidneys excrete conjugated bilirubin and are not the main concern.",
+        "D": "Unconjugated bilirubin crosses the blood-brain barrier and deposits in the basal ganglia causing kernicterus, which exchange transfusion prevents."
+      },
+      "subject": "Pediatric",
+      "topic": "Hyperbilirubinemia / kernicterus",
+      "day": 4,
+      "difficulty": "Medium",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "pediatric",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 3
+    },
+    {
+      "id": 340,
+      "_origId": "RRB-4",
+      "question": "Which of the following is a hereditary bleeding disorder?",
+      "options": [
+        "Leukaemia",
+        "Anaemia",
+        "Haemophilia",
+        "Leucopenia"
+      ],
+      "correct": 2,
+      "explanation": "Haemophilia is an X-linked deficiency of factor VIII (A) or IX (B) causing bleeding.",
+      "explanations": {
+        "A": "Leukaemia is a malignancy of WBCs, not a bleeding disorder per se.",
+        "B": "Anaemia is decreased haemoglobin/RBCs.",
+        "C": "Haemophilia is an X-linked deficiency of factor VIII (A) or IX (B) causing bleeding.",
+        "D": "Leucopenia is a low WBC count."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Coagulation",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 4
+    },
+    {
+      "id": 341,
+      "_origId": "RRB-5",
+      "question": "Cushing's syndrome is caused by:",
+      "options": [
+        "High cortisol levels",
+        "Low ADH levels",
+        "High thyroxine",
+        "Low insulin"
+      ],
+      "correct": 0,
+      "explanation": "Chronic excess cortisol from adrenal/pituitary tumour or steroid therapy produces Cushing's syndrome.",
+      "explanations": {
+        "A": "Chronic excess cortisol from adrenal/pituitary tumour or steroid therapy produces Cushing's syndrome.",
+        "B": "Low ADH causes diabetes insipidus.",
+        "C": "High thyroxine causes thyrotoxicosis.",
+        "D": "Low insulin causes diabetes mellitus."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Endocrine",
+      "day": 13,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 5
+    },
+    {
+      "id": 342,
+      "_origId": "RRB-6",
+      "question": "Overgrowth of bone and soft tissue in adults is the hallmark of:",
+      "options": [
+        "Acromegaly",
+        "Cushing's syndrome",
+        "Goitre",
+        "Tetany"
+      ],
+      "correct": 0,
+      "explanation": "Excess growth hormone after epiphyseal closure produces enlargement of hands, feet and facial bones.",
+      "explanations": {
+        "A": "Excess growth hormone after epiphyseal closure produces enlargement of hands, feet and facial bones.",
+        "B": "Cushing's causes truncal obesity, not bony overgrowth.",
+        "C": "Goitre is enlargement of the thyroid.",
+        "D": "Tetany is hyperexcitability from hypocalcaemia."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Pituitary disorders",
+      "day": 13,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 6
+    },
+    {
+      "id": 343,
+      "_origId": "RRB-7",
+      "question": "Asthma is a chronic disorder characterised by:",
+      "options": [
+        "Pneumonia",
+        "Skin rashes",
+        "Heart blockage",
+        "Inflammation of the airway"
+      ],
+      "correct": 3,
+      "explanation": "Asthma is reversible airway obstruction with chronic airway inflammation and hyperresponsiveness.",
+      "explanations": {
+        "A": "Pneumonia is an acute infection, not asthma.",
+        "B": "Skin rashes are not characteristic of asthma.",
+        "C": "Heart block is a conduction disorder.",
+        "D": "Asthma is reversible airway obstruction with chronic airway inflammation and hyperresponsiveness."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Respiratory",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 7
+    },
+    {
+      "id": 344,
+      "_origId": "RRB-8",
+      "question": "Myopia (short-sightedness) is corrected using which type of lens?",
+      "options": [
+        "Cylindrical",
+        "Concave",
+        "Bifocal",
+        "Convex"
+      ],
+      "correct": 1,
+      "explanation": "Concave (diverging) lenses move the focus back onto the retina in myopia.",
+      "explanations": {
+        "A": "Cylindrical lenses correct astigmatism.",
+        "B": "Concave (diverging) lenses move the focus back onto the retina in myopia.",
+        "C": "Bifocals correct presbyopia.",
+        "D": "Convex (converging) lenses correct hypermetropia."
+      },
+      "subject": "Anatomy",
+      "topic": "Eye / refractive errors",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 8
+    },
+    {
+      "id": 345,
+      "_origId": "RRB-9",
+      "question": "Arthritis is a disease of the:",
+      "options": [
+        "Skin",
+        "Kidney",
+        "Liver",
+        "Joints"
+      ],
+      "correct": 3,
+      "explanation": "Arthritis denotes inflammation of one or more joints.",
+      "explanations": {
+        "A": "Eczema/psoriasis are skin diseases.",
+        "B": "Nephritis is a kidney disease.",
+        "C": "Hepatitis affects the liver.",
+        "D": "Arthritis denotes inflammation of one or more joints."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Musculoskeletal",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 9
+    },
+    {
+      "id": 346,
+      "_origId": "RRB-10",
+      "question": "Deficiency of which vitamin causes scurvy?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B6",
+        "Vitamin K",
+        "Vitamin C"
+      ],
+      "correct": 3,
+      "explanation": "Vitamin C deficiency impairs collagen synthesis, causing scurvy with bleeding gums.",
+      "explanations": {
+        "A": "Vitamin A deficiency causes night blindness.",
+        "B": "B6 deficiency causes peripheral neuropathy and dermatitis.",
+        "C": "Vitamin K deficiency causes bleeding tendencies.",
+        "D": "Vitamin C deficiency impairs collagen synthesis, causing scurvy with bleeding gums."
+      },
+      "subject": "Nutrition",
+      "topic": "Vitamin deficiency",
+      "day": 12,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "nutrition",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 10
+    },
+    {
+      "id": 347,
+      "_origId": "RRB-11",
+      "question": "Night blindness is caused by deficiency of vitamin:",
+      "options": [
+        "A",
+        "D",
+        "E",
+        "K"
+      ],
+      "correct": 0,
+      "explanation": "Vitamin A is required to form rhodopsin in rod cells; deficiency causes night blindness.",
+      "explanations": {
+        "A": "Vitamin A is required to form rhodopsin in rod cells; deficiency causes night blindness.",
+        "B": "Vitamin D deficiency causes rickets/osteomalacia.",
+        "C": "Vitamin E deficiency causes haemolytic anaemia in newborns.",
+        "D": "Vitamin K deficiency causes bleeding."
+      },
+      "subject": "Nutrition",
+      "topic": "Vitamin deficiency",
+      "day": 12,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "nutrition",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 11
+    },
+    {
+      "id": 348,
+      "_origId": "RRB-12",
+      "question": "Which structure connects muscle to bone?",
+      "options": [
+        "Cartilage",
+        "Areolar tissue",
+        "Ligaments",
+        "Tendons"
+      ],
+      "correct": 3,
+      "explanation": "Tendons are dense regular connective tissue attaching muscle to bone.",
+      "explanations": {
+        "A": "Cartilage cushions joints; it does not attach muscle to bone.",
+        "B": "Areolar tissue is loose packing connective tissue.",
+        "C": "Ligaments attach bone to bone.",
+        "D": "Tendons are dense regular connective tissue attaching muscle to bone."
+      },
+      "subject": "Anatomy",
+      "topic": "Connective tissue",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 12
+    },
+    {
+      "id": 349,
+      "_origId": "RRB-13",
+      "question": "How many pairs of cranial nerves are present in the human body?",
+      "options": [
+        "12",
+        "10",
+        "15",
+        "31"
+      ],
+      "correct": 0,
+      "explanation": "There are 12 pairs of cranial nerves.",
+      "explanations": {
+        "A": "There are 12 pairs of cranial nerves.",
+        "B": "Fish have 10 pairs; humans have more.",
+        "C": "15 is incorrect for humans.",
+        "D": "31 is the number of pairs of spinal nerves, not cranial."
+      },
+      "subject": "Anatomy",
+      "topic": "Nervous system",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 13
+    },
+    {
+      "id": 350,
+      "_origId": "RRB-14",
+      "question": "The femur bones of the human body are also known as:",
+      "options": [
+        "Wrist bones",
+        "Thigh bones",
+        "Shoulder bones",
+        "Collar bones"
+      ],
+      "correct": 1,
+      "explanation": "Femur is the long bone of the thigh, the longest bone in the body.",
+      "explanations": {
+        "A": "Wrist bones are carpals.",
+        "B": "Femur is the long bone of the thigh, the longest bone in the body.",
+        "C": "Shoulder bones are scapula and clavicle.",
+        "D": "Collar bone is the clavicle."
+      },
+      "subject": "Anatomy",
+      "topic": "Skeletal",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 14
+    },
+    {
+      "id": 351,
+      "_origId": "RRB-15",
+      "question": "Which gland controls the functioning of other endocrine glands?",
+      "options": [
+        "Thyroid",
+        "Pineal",
+        "Adrenal",
+        "Pituitary"
+      ],
+      "correct": 3,
+      "explanation": "The anterior pituitary is the master gland producing TSH, ACTH, FSH, LH, GH and prolactin.",
+      "explanations": {
+        "A": "Thyroid is regulated by TSH from the pituitary.",
+        "B": "Pineal secretes melatonin and regulates circadian rhythm.",
+        "C": "Adrenal cortex is regulated by ACTH from pituitary.",
+        "D": "The anterior pituitary is the master gland producing TSH, ACTH, FSH, LH, GH and prolactin."
+      },
+      "subject": "Anatomy",
+      "topic": "Endocrine",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 15
+    },
+    {
+      "id": 352,
+      "_origId": "RRB-16",
+      "question": "In the menstrual cycle, menstruation occurs primarily because of falling levels of:",
+      "options": [
+        "Progesterone",
+        "Thyroxine",
+        "Estrogen alone",
+        "FSH"
+      ],
+      "correct": 0,
+      "explanation": "If pregnancy does not occur the corpus luteum regresses, progesterone falls and the endometrium sheds.",
+      "explanations": {
+        "A": "If pregnancy does not occur the corpus luteum regresses, progesterone falls and the endometrium sheds.",
+        "B": "Thyroxine is unrelated to monthly endometrial shedding.",
+        "C": "Both estrogen and progesterone fall, but progesterone withdrawal is the proximate trigger.",
+        "D": "FSH actually rises at the start of the next cycle."
+      },
+      "subject": "OBG",
+      "topic": "Menstrual cycle",
+      "day": 3,
+      "difficulty": "Medium",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 16
+    },
+    {
+      "id": 353,
+      "_origId": "RRB-17",
+      "question": "Insulin is produced by which organ?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Intestine"
+      ],
+      "correct": 2,
+      "explanation": "Beta cells of the islets of Langerhans in the pancreas secrete insulin.",
+      "explanations": {
+        "A": "Liver responds to insulin but does not produce it.",
+        "B": "Kidney produces erythropoietin and renin, not insulin.",
+        "C": "Beta cells of the islets of Langerhans in the pancreas secrete insulin.",
+        "D": "Intestine produces incretins (GLP-1) but not insulin itself."
+      },
+      "subject": "Anatomy",
+      "topic": "Endocrine pancreas",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 17
+    },
+    {
+      "id": 354,
+      "_origId": "RRB-18",
+      "question": "The universal blood donor group is:",
+      "options": [
+        "A+",
+        "B-",
+        "AB+",
+        "O-"
+      ],
+      "correct": 3,
+      "explanation": "O- red cells lack A, B and Rh(D) antigens, so they can be transfused to any ABO/Rh recipient.",
+      "explanations": {
+        "A": "A+ has A and Rh antigens, restricting donation.",
+        "B": "B- has B antigen, so cannot donate to A or O recipients.",
+        "C": "AB+ is the universal recipient, not donor.",
+        "D": "O- red cells lack A, B and Rh(D) antigens, so they can be transfused to any ABO/Rh recipient."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Blood transfusion",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 18
+    },
+    {
+      "id": 355,
+      "_origId": "RRB-19",
+      "question": "Normal adult blood pressure is:",
+      "options": [
+        "120/60 mmHg",
+        "120/80 mmHg",
+        "130/90 mmHg",
+        "140/100 mmHg"
+      ],
+      "correct": 1,
+      "explanation": "120/80 mmHg is the conventionally taught normal adult BP.",
+      "explanations": {
+        "A": "120/60 is a wide pulse pressure, not the textbook normal.",
+        "B": "120/80 mmHg is the conventionally taught normal adult BP.",
+        "C": "130/90 falls into elevated/stage-1 hypertension on newer guidelines.",
+        "D": "140/100 is hypertension."
+      },
+      "subject": "Fundamentals",
+      "topic": "Vital signs",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 19
+    },
+    {
+      "id": 356,
+      "_origId": "RRB-20",
+      "question": "Vitamin D is synthesized in human skin with the help of:",
+      "options": [
+        "Vitamin A",
+        "Vitamin B",
+        "Sunlight (UV)",
+        "Vitamin C"
+      ],
+      "correct": 2,
+      "explanation": "UV-B converts 7-dehydrocholesterol in skin to cholecalciferol (vitamin D3).",
+      "explanations": {
+        "A": "Vitamin A is unrelated to dermal vitamin D synthesis.",
+        "B": "B-complex vitamins are not involved.",
+        "C": "UV-B converts 7-dehydrocholesterol in skin to cholecalciferol (vitamin D3).",
+        "D": "Vitamin C is involved in collagen, not vitamin D synthesis."
+      },
+      "subject": "Nutrition",
+      "topic": "Vitamin metabolism",
+      "day": 12,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "nutrition",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 20
+    },
+    {
+      "id": 357,
+      "_origId": "RRB-21",
+      "question": "Normal human body temperature in degrees Fahrenheit is:",
+      "options": [
+        "96.8°F",
+        "97.8°F",
+        "98.6°F",
+        "99.4°F"
+      ],
+      "correct": 2,
+      "explanation": "98.6°F (37°C) is the standard textbook normal oral temperature.",
+      "explanations": {
+        "A": "96.8°F is mild hypothermia.",
+        "B": "Slightly below normal.",
+        "C": "98.6°F (37°C) is the standard textbook normal oral temperature.",
+        "D": "99.4°F is low-grade fever."
+      },
+      "subject": "Fundamentals",
+      "topic": "Vital signs",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 21
+    },
+    {
+      "id": 358,
+      "_origId": "RRB-22",
+      "question": "BCG vaccine protects against:",
+      "options": [
+        "Polio",
+        "Measles",
+        "Tuberculosis",
+        "Diphtheria"
+      ],
+      "correct": 2,
+      "explanation": "BCG (Bacille Calmette-Guerin) is a live attenuated Mycobacterium bovis vaccine given at birth to prevent severe TB.",
+      "explanations": {
+        "A": "OPV/IPV protect against polio.",
+        "B": "Measles vaccine (or MR) covers measles.",
+        "C": "BCG (Bacille Calmette-Guerin) is a live attenuated Mycobacterium bovis vaccine given at birth to prevent severe TB.",
+        "D": "DPT covers diphtheria."
+      },
+      "subject": "Community Health",
+      "topic": "Immunization",
+      "day": 6,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "community-health",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 22
+    },
+    {
+      "id": 359,
+      "_origId": "RRB-23",
+      "question": "BCG vaccine is administered by which route?",
+      "options": [
+        "Subcutaneous",
+        "Intramuscular",
+        "Intradermal",
+        "Oral"
+      ],
+      "correct": 2,
+      "explanation": "BCG 0.05 mL (0.1 mL >1 yr) is given intradermally over the left deltoid.",
+      "explanations": {
+        "A": "Subcutaneous is used for measles/MR.",
+        "B": "DPT and Hep-B use IM.",
+        "C": "BCG 0.05 mL (0.1 mL >1 yr) is given intradermally over the left deltoid.",
+        "D": "Oral route is for OPV and rotavirus vaccines."
+      },
+      "subject": "Community Health",
+      "topic": "Immunization",
+      "day": 6,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "community-health",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 23
+    },
+    {
+      "id": 360,
+      "_origId": "RRB-24",
+      "question": "Mantoux test is read after how many hours of administration?",
+      "options": [
+        "12-24 hours",
+        "24-36 hours",
+        "48-72 hours",
+        "5-7 days"
+      ],
+      "correct": 2,
+      "explanation": "Induration (not erythema) is read between 48 and 72 hours after intradermal PPD.",
+      "explanations": {
+        "A": "Too early to read induration.",
+        "B": "Still earlier than the standard reading window.",
+        "C": "Induration (not erythema) is read between 48 and 72 hours after intradermal PPD.",
+        "D": "By 5-7 days the reaction has faded."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "TB diagnosis",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 24
+    },
+    {
+      "id": 361,
+      "_origId": "RRB-25",
+      "question": "The most common method to maintain hand hygiene before patient contact when hands are visibly clean is:",
+      "options": [
+        "Soap and water for 1 minute",
+        "Alcohol-based hand rub for 20-30 seconds",
+        "Sterile gloves only",
+        "Chlorhexidine scrub for 5 minutes"
+      ],
+      "correct": 1,
+      "explanation": "WHO recommends alcohol-based hand rub for 20-30 seconds when hands are not visibly soiled.",
+      "explanations": {
+        "A": "Soap-and-water is needed when hands are visibly soiled or after C. difficile contact.",
+        "B": "WHO recommends alcohol-based hand rub for 20-30 seconds when hands are not visibly soiled.",
+        "C": "Gloves do not replace hand hygiene.",
+        "D": "5-minute chlorhexidine scrub is for surgical scrub, not routine care."
+      },
+      "subject": "Fundamentals",
+      "topic": "Infection control",
+      "day": 7,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 25
+    },
+    {
+      "id": 362,
+      "_origId": "RRB-26",
+      "question": "First-line drug used for prophylaxis after needle-stick injury when source is HIV positive (current Indian regimen):",
+      "options": [
+        "Zidovudine + Lamivudine + Tenofovir",
+        "Tenofovir + Lamivudine + Dolutegravir",
+        "Acyclovir",
+        "Rifampicin"
+      ],
+      "correct": 1,
+      "explanation": "Current Indian PEP regimen is TLD (tenofovir + lamivudine + dolutegravir) for 28 days.",
+      "explanations": {
+        "A": "Old triple regimen, replaced by TLD.",
+        "B": "Current Indian PEP regimen is TLD (tenofovir + lamivudine + dolutegravir) for 28 days.",
+        "C": "Acyclovir treats herpes infections.",
+        "D": "Rifampicin is for TB; it interacts adversely with several ARVs."
+      },
+      "subject": "Pharmacology",
+      "topic": "PEP",
+      "day": 13,
+      "difficulty": "Hard",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "pharmacology",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 26
+    },
+    {
+      "id": 363,
+      "_origId": "RRB-27",
+      "question": "The first heart sound (S1) is produced by closure of which valves?",
+      "options": [
+        "Aortic and pulmonary",
+        "Mitral and tricuspid",
+        "Mitral and aortic",
+        "Tricuspid and pulmonary"
+      ],
+      "correct": 1,
+      "explanation": "S1 ('lub') is produced when the mitral and tricuspid (AV) valves close at the start of ventricular systole.",
+      "explanations": {
+        "A": "Closure of aortic and pulmonary valves produces S2.",
+        "B": "S1 ('lub') is produced when the mitral and tricuspid (AV) valves close at the start of ventricular systole.",
+        "C": "Mixing valves from both pairs is incorrect.",
+        "D": "Same as above."
+      },
+      "subject": "Anatomy",
+      "topic": "Cardiac cycle",
+      "day": 1,
+      "difficulty": "Medium",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 27
+    },
+    {
+      "id": 364,
+      "_origId": "RRB-28",
+      "question": "Naegele's rule for calculating the expected date of delivery is:",
+      "options": [
+        "LMP + 7 days - 3 months + 1 year",
+        "LMP + 9 days + 3 months",
+        "LMP - 7 days + 3 months",
+        "LMP + 14 days + 9 months"
+      ],
+      "correct": 0,
+      "explanation": "EDD = first day of LMP + 7 days - 3 months + 1 year (≈ 280 days).",
+      "explanations": {
+        "A": "EDD = first day of LMP + 7 days - 3 months + 1 year (≈ 280 days).",
+        "B": "Adding 9 days is incorrect.",
+        "C": "Subtracting 7 days reverses the rule.",
+        "D": "14 days + 9 months does not match the 280-day calculation."
+      },
+      "subject": "OBG",
+      "topic": "Antenatal care",
+      "day": 3,
+      "difficulty": "Medium",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 28
+    },
+    {
+      "id": 365,
+      "_origId": "RRB-29",
+      "question": "Lochia rubra is normally seen during which postpartum days?",
+      "options": [
+        "Day 1-3",
+        "Day 4-10",
+        "Day 11-21",
+        "After 6 weeks"
+      ],
+      "correct": 0,
+      "explanation": "Lochia rubra (red, blood-predominant) lasts roughly days 1-3 postpartum.",
+      "explanations": {
+        "A": "Lochia rubra (red, blood-predominant) lasts roughly days 1-3 postpartum.",
+        "B": "Lochia serosa appears days 4-10.",
+        "C": "Lochia alba appears days 11-21+.",
+        "D": "Persistent bleeding beyond 6 weeks is abnormal."
+      },
+      "subject": "OBG",
+      "topic": "Postpartum",
+      "day": 3,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 29
+    },
+    {
+      "id": 366,
+      "_origId": "RRB-30",
+      "question": "Immediately after delivery the uterine fundus is normally palpable at the level of:",
+      "options": [
+        "Symphysis pubis",
+        "Umbilicus",
+        "Xiphisternum",
+        "Mid-thigh"
+      ],
+      "correct": 1,
+      "explanation": "Immediately after birth fundus is at or just below the umbilicus, then descends ~1 cm/day.",
+      "explanations": {
+        "A": "By 10-14 days the fundus has descended into the pelvis.",
+        "B": "Immediately after birth fundus is at or just below the umbilicus, then descends ~1 cm/day.",
+        "C": "Fundus reaches xiphoid late in pregnancy, not after delivery.",
+        "D": "Mid-thigh is not anatomically meaningful for fundal height."
+      },
+      "subject": "OBG",
+      "topic": "Postpartum assessment",
+      "day": 3,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 30
+    },
+    {
+      "id": 367,
+      "_origId": "RRB-31",
+      "question": "APGAR score is assessed at which time intervals after birth?",
+      "options": [
+        "1 and 5 minutes",
+        "5 and 10 minutes",
+        "30 and 60 minutes",
+        "Immediately and at 1 hour"
+      ],
+      "correct": 0,
+      "explanation": "Standard APGAR is recorded at 1 and 5 minutes; if <7 at 5 min, every 5 min up to 20 min.",
+      "explanations": {
+        "A": "Standard APGAR is recorded at 1 and 5 minutes; if <7 at 5 min, every 5 min up to 20 min.",
+        "B": "Skips the crucial 1-minute score.",
+        "C": "Too late to guide resuscitation.",
+        "D": "Not the standard timing."
+      },
+      "subject": "Pediatric",
+      "topic": "Neonatal assessment",
+      "day": 4,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "pediatric",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 31
+    },
+    {
+      "id": 368,
+      "_origId": "RRB-32",
+      "question": "Pulse Polio Immunization in India uses which vaccine?",
+      "options": [
+        "IPV (injectable)",
+        "OPV (oral)",
+        "DPT",
+        "MMR"
+      ],
+      "correct": 1,
+      "explanation": "Pulse Polio campaigns deliver bivalent oral polio vaccine to all children under 5.",
+      "explanations": {
+        "A": "IPV is given as part of routine UIP, not the pulse rounds.",
+        "B": "Pulse Polio campaigns deliver bivalent oral polio vaccine to all children under 5.",
+        "C": "DPT covers diphtheria, pertussis, tetanus.",
+        "D": "MMR is for measles/mumps/rubella."
+      },
+      "subject": "Community Health",
+      "topic": "National programmes",
+      "day": 6,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "community-health",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 32
+    },
+    {
+      "id": 369,
+      "_origId": "RRB-33",
+      "question": "Janani Suraksha Yojana (JSY) is a programme to promote:",
+      "options": [
+        "Universal immunization",
+        "Institutional delivery and reduction of MMR",
+        "Family planning",
+        "Adolescent nutrition"
+      ],
+      "correct": 1,
+      "explanation": "JSY is a conditional cash-transfer scheme under NHM to encourage institutional delivery and reduce maternal/neonatal mortality.",
+      "explanations": {
+        "A": "Mission Indradhanush focuses on immunization.",
+        "B": "JSY is a conditional cash-transfer scheme under NHM to encourage institutional delivery and reduce maternal/neonatal mortality.",
+        "C": "Family planning is covered by separate programmes.",
+        "D": "RKSK targets adolescent health."
+      },
+      "subject": "Community Health",
+      "topic": "National schemes",
+      "day": 6,
+      "difficulty": "Medium",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "community-health",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 33
+    },
+    {
+      "id": 370,
+      "_origId": "RRB-34",
+      "question": "ORS for a child with acute diarrhoea works primarily because of:",
+      "options": [
+        "Antibiotic action of glucose",
+        "Sodium-glucose co-transport in the small intestine",
+        "Increased gastric pH",
+        "Stimulation of vomiting reflex"
+      ],
+      "correct": 1,
+      "explanation": "Glucose drives sodium absorption via SGLT-1, dragging water with it - the basis of ORS.",
+      "explanations": {
+        "A": "Glucose has no antibiotic effect.",
+        "B": "Glucose drives sodium absorption via SGLT-1, dragging water with it - the basis of ORS.",
+        "C": "ORS does not significantly alter gastric pH.",
+        "D": "ORS aims to reduce vomiting/dehydration, not to provoke it."
+      },
+      "subject": "Pediatric",
+      "topic": "Diarrhoea management",
+      "day": 5,
+      "difficulty": "Medium",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "pediatric",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 34
+    },
+    {
+      "id": 371,
+      "_origId": "RRB-35",
+      "question": "Which of the following is the universal recipient blood group?",
+      "options": [
+        "O-",
+        "A+",
+        "B+",
+        "AB+"
+      ],
+      "correct": 3,
+      "explanation": "AB+ has neither anti-A, anti-B nor anti-D antibodies, so all ABO/Rh groups can be received.",
+      "explanations": {
+        "A": "O- is the universal donor.",
+        "B": "A+ has anti-B antibodies.",
+        "C": "B+ has anti-A antibodies.",
+        "D": "AB+ has neither anti-A, anti-B nor anti-D antibodies, so all ABO/Rh groups can be received."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Blood groups",
+      "day": 2,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 35
+    },
+    {
+      "id": 372,
+      "_origId": "RRB-36",
+      "question": "A patient with iron deficiency anaemia is best advised to take iron supplements with:",
+      "options": [
+        "Milk",
+        "Tea",
+        "Orange juice",
+        "Antacid"
+      ],
+      "correct": 2,
+      "explanation": "Vitamin C in orange juice enhances absorption of non-haem iron.",
+      "explanations": {
+        "A": "Calcium in milk reduces iron absorption.",
+        "B": "Tannins in tea inhibit non-haem iron absorption.",
+        "C": "Vitamin C in orange juice enhances absorption of non-haem iron.",
+        "D": "Antacids raise gastric pH and impair iron absorption."
+      },
+      "subject": "Nutrition",
+      "topic": "Iron absorption",
+      "day": 12,
+      "difficulty": "Medium",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "nutrition",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 36
+    },
+    {
+      "id": 373,
+      "_origId": "RRB-37",
+      "question": "Adult chest compressions during CPR are delivered at a rate of:",
+      "options": [
+        "60-80/min",
+        "80-100/min",
+        "100-120/min",
+        "140-160/min"
+      ],
+      "correct": 2,
+      "explanation": "AHA BLS recommends 100-120 compressions/minute, 5-6 cm depth.",
+      "explanations": {
+        "A": "Too slow; inadequate cardiac output.",
+        "B": "Below the recommended floor.",
+        "C": "AHA BLS recommends 100-120 compressions/minute, 5-6 cm depth.",
+        "D": "Too fast; reduces full chest recoil and cardiac filling."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "BLS",
+      "day": 9,
+      "difficulty": "Easy",
+      "source": "RRB SN 2019",
+      "year": 2019,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 37
+    },
+    {
+      "id": 374,
+      "_origId": "RRB-38",
+      "question": "In an adult patient, the depth of chest compressions during CPR should be approximately:",
+      "options": [
+        "1-2 cm",
+        "3-4 cm",
+        "5-6 cm",
+        "8-10 cm"
+      ],
+      "correct": 2,
+      "explanation": "Recommended depth is at least 5 cm but no more than 6 cm in adults.",
+      "explanations": {
+        "A": "Too shallow to generate effective forward flow.",
+        "B": "Insufficient depth.",
+        "C": "Recommended depth is at least 5 cm but no more than 6 cm in adults.",
+        "D": "Excessive depth causes injury and is discouraged."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "BLS",
+      "day": 9,
+      "difficulty": "Easy",
+      "source": "RRB SN 2018",
+      "year": 2018,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "rrb-sn-recalls.json",
+      "mockSeq": 38
+    }
+  ]
+}

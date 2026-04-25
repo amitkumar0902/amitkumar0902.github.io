@@ -1,0 +1,983 @@
+{
+  "id": "yt-recalls",
+  "title": "YouTube Memory Recalls",
+  "count": 30,
+  "minutes": 60,
+  "source": "YouTube Memory Recalls",
+  "verbatim": true,
+  "subjects": {
+    "Medical-Surgical": 5,
+    "OBG": 3,
+    "Pediatric": 2,
+    "Community Health": 2,
+    "Fundamentals": 4,
+    "Microbiology": 2,
+    "Pharmacology": 4,
+    "Admin": 2,
+    "Anatomy": 2,
+    "Nutrition": 2,
+    "Psychiatric": 2
+  },
+  "questions": [
+    {
+      "id": 375,
+      "_origId": "YT-1",
+      "question": "Normal arterial blood pH range in adults is:",
+      "options": [
+        "7.25-7.35",
+        "7.35-7.45",
+        "7.45-7.55",
+        "7.30-7.40"
+      ],
+      "correct": 1,
+      "explanation": "Standard normal arterial pH is 7.35-7.45 with mean 7.40; acid-base balance maintained by buffers, lungs and kidneys.",
+      "explanations": {
+        "A": "Acidemia range, not normal.",
+        "B": "Standard normal arterial pH is 7.35-7.45 with mean 7.40; acid-base balance maintained by buffers, lungs and kidneys.",
+        "C": "Alkalemia range.",
+        "D": "Lower half of normal only; not the full accepted range."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "ABG basics",
+      "day": 1,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 1
+    },
+    {
+      "id": 376,
+      "_origId": "YT-2",
+      "question": "In a 12-lead ECG, lead II best visualizes which wave for rhythm analysis?",
+      "options": [
+        "QRS complex",
+        "P wave",
+        "T wave",
+        "U wave"
+      ],
+      "correct": 1,
+      "explanation": "Lead II runs along the heart's electrical axis (RA to LL) and gives the tallest, clearest P wave, making it the rhythm strip lead of choice.",
+      "explanations": {
+        "A": "QRS visible in many leads; not the unique reason II is preferred.",
+        "B": "Lead II runs along the heart's electrical axis (RA to LL) and gives the tallest, clearest P wave, making it the rhythm strip lead of choice.",
+        "C": "T wave morphology is studied in precordial leads.",
+        "D": "U wave is small and best seen in V2-V3, not II."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "ECG leads",
+      "day": 1,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 2
+    },
+    {
+      "id": 377,
+      "_origId": "YT-3",
+      "question": "Maintenance fluid of choice in an adult with isotonic dehydration is:",
+      "options": [
+        "0.45% NaCl",
+        "Ringer's Lactate",
+        "5% Dextrose in water",
+        "3% NaCl"
+      ],
+      "correct": 1,
+      "explanation": "RL is isotonic, contains Na, K, Ca, Cl and lactate that converts to bicarbonate, ideal for replacing isotonic losses.",
+      "explanations": {
+        "A": "Hypotonic; used for hypernatremic dehydration.",
+        "B": "RL is isotonic, contains Na, K, Ca, Cl and lactate that converts to bicarbonate, ideal for replacing isotonic losses.",
+        "C": "Becomes hypotonic once dextrose is metabolized; used for free-water deficit.",
+        "D": "Hypertonic saline; used only in severe symptomatic hyponatremia."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "IV fluids",
+      "day": 2,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 3
+    },
+    {
+      "id": 378,
+      "_origId": "YT-4",
+      "question": "Total body water in a normal adult male is approximately what percentage of body weight?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "75%"
+      ],
+      "correct": 2,
+      "explanation": "Adult male TBW is about 60% of body weight; 2/3 ICF and 1/3 ECF.",
+      "explanations": {
+        "A": "Closer to elderly female value.",
+        "B": "Closer to adult female (~50-55%).",
+        "C": "Adult male TBW is about 60% of body weight; 2/3 ICF and 1/3 ECF.",
+        "D": "Approximate value for a newborn, not adult."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "Body fluids",
+      "day": 2,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 4
+    },
+    {
+      "id": 379,
+      "_origId": "YT-5",
+      "question": "The ideal time to give an antenatal corticosteroid (betamethasone) for fetal lung maturity is between:",
+      "options": [
+        "20-24 weeks",
+        "24-34 weeks",
+        "34-37 weeks",
+        "After 37 weeks"
+      ],
+      "correct": 1,
+      "explanation": "WHO/FIGO recommend antenatal corticosteroids between 24-34 weeks in women at risk of preterm birth to enhance surfactant production and reduce RDS, IVH and neonatal death.",
+      "explanations": {
+        "A": "Too early; viability not yet reached.",
+        "B": "WHO/FIGO recommend antenatal corticosteroids between 24-34 weeks in women at risk of preterm birth to enhance surfactant production and reduce RDS, IVH and neonatal death.",
+        "C": "Lung maturity largely achieved by 34 weeks; benefit smaller.",
+        "D": "Term gestation; not indicated."
+      },
+      "subject": "OBG",
+      "topic": "Antenatal steroids",
+      "day": 3,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 5
+    },
+    {
+      "id": 380,
+      "_origId": "YT-6",
+      "question": "First sign of pregnancy that prompts a woman to visit a doctor is usually:",
+      "options": [
+        "Quickening",
+        "Amenorrhoea",
+        "Chadwick sign",
+        "Hegar sign"
+      ],
+      "correct": 1,
+      "explanation": "Missed period (amenorrhoea) is the commonest presumptive symptom prompting a pregnancy test/visit.",
+      "explanations": {
+        "A": "Quickening occurs around 18-20 weeks; not the earliest cue.",
+        "B": "Missed period (amenorrhoea) is the commonest presumptive symptom prompting a pregnancy test/visit.",
+        "C": "Bluish vaginal discoloration; a probable sign noted on examination.",
+        "D": "Softening of the uterine isthmus; elicited by examiner, not patient."
+      },
+      "subject": "OBG",
+      "topic": "Pregnancy signs",
+      "day": 3,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 6
+    },
+    {
+      "id": 381,
+      "_origId": "YT-7",
+      "question": "Most common cause of postpartum haemorrhage is:",
+      "options": [
+        "Retained placenta",
+        "Uterine atony",
+        "Genital tract trauma",
+        "Coagulopathy"
+      ],
+      "correct": 1,
+      "explanation": "Atony of the uterus accounts for ~70-80% of PPH; first line management is uterine massage and oxytocin (the 'T' for Tone).",
+      "explanations": {
+        "A": "Second most common (the 'T' for Tissue).",
+        "B": "Atony of the uterus accounts for ~70-80% of PPH; first line management is uterine massage and oxytocin (the 'T' for Tone).",
+        "C": "Trauma is the third 'T'; less common.",
+        "D": "Thrombin defects are the rarest of the 4 Ts."
+      },
+      "subject": "OBG",
+      "topic": "PPH",
+      "day": 3,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "midwifery",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 7
+    },
+    {
+      "id": 382,
+      "_origId": "YT-8",
+      "question": "The first step in neonatal resuscitation after delivery of a non-vigorous baby is:",
+      "options": [
+        "Start chest compressions",
+        "Provide warmth, position, clear airway, dry, stimulate",
+        "Give 100% oxygen",
+        "Administer adrenaline"
+      ],
+      "correct": 1,
+      "explanation": "NRP 'initial steps' (within the Golden Minute): warm, position airway, suction if needed, dry, stimulate; reassess breathing and HR.",
+      "explanations": {
+        "A": "Compressions only after 30 sec of effective PPV with persistent HR <60.",
+        "B": "NRP 'initial steps' (within the Golden Minute): warm, position airway, suction if needed, dry, stimulate; reassess breathing and HR.",
+        "C": "Free-flow O2 only if cyanotic with adequate respirations.",
+        "D": "Adrenaline reserved for HR <60 despite 30 sec compressions + ventilation."
+      },
+      "subject": "Pediatric",
+      "topic": "NRP",
+      "day": 4,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "pediatric",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 8
+    },
+    {
+      "id": 383,
+      "_origId": "YT-9",
+      "question": "Normal heart rate of a newborn is:",
+      "options": [
+        "60-100/min",
+        "100-160/min",
+        "160-200/min",
+        "40-80/min"
+      ],
+      "correct": 1,
+      "explanation": "Standard newborn HR is 100-160 beats/min at rest.",
+      "explanations": {
+        "A": "Adult range.",
+        "B": "Standard newborn HR is 100-160 beats/min at rest.",
+        "C": "Tachycardia in a newborn.",
+        "D": "Severe bradycardia, requires immediate intervention."
+      },
+      "subject": "Pediatric",
+      "topic": "Vital signs",
+      "day": 5,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "pediatric",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 9
+    },
+    {
+      "id": 384,
+      "_origId": "YT-10",
+      "question": "BCG vaccine is given by which route?",
+      "options": [
+        "Subcutaneous",
+        "Intramuscular",
+        "Intradermal",
+        "Oral"
+      ],
+      "correct": 2,
+      "explanation": "BCG is given intradermally (0.1 mL, or 0.05 mL <1 month) over the left deltoid; produces a wheal.",
+      "explanations": {
+        "A": "SC is used for measles/MMR, not BCG.",
+        "B": "IM is for DPT, Hep B, etc.",
+        "C": "BCG is given intradermally (0.1 mL, or 0.05 mL <1 month) over the left deltoid; produces a wheal.",
+        "D": "Oral route used for OPV and rotavirus."
+      },
+      "subject": "Community Health",
+      "topic": "Immunization",
+      "day": 6,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "community-health",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 10
+    },
+    {
+      "id": 385,
+      "_origId": "YT-11",
+      "question": "Under the Universal Immunization Programme, OPV zero dose is given:",
+      "options": [
+        "At birth or within 15 days",
+        "At 6 weeks",
+        "At 10 weeks",
+        "At 14 weeks"
+      ],
+      "correct": 0,
+      "explanation": "OPV-0 is given at birth (or up to 15 days) along with BCG and Hep B birth dose under UIP.",
+      "explanations": {
+        "A": "OPV-0 is given at birth (or up to 15 days) along with BCG and Hep B birth dose under UIP.",
+        "B": "OPV-1 is given at 6 weeks.",
+        "C": "OPV-2 dose timing.",
+        "D": "OPV-3 dose timing."
+      },
+      "subject": "Community Health",
+      "topic": "UIP schedule",
+      "day": 6,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "community-health",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 11
+    },
+    {
+      "id": 386,
+      "_origId": "YT-12",
+      "question": "Standard precautions include all EXCEPT:",
+      "options": [
+        "Hand hygiene",
+        "Use of PPE based on risk",
+        "Sharps safety",
+        "Routine antibiotic prophylaxis"
+      ],
+      "correct": 3,
+      "explanation": "Routine antibiotics are not a standard precaution; they cause resistance and are not a CDC standard precaution component.",
+      "explanations": {
+        "A": "Cornerstone of standard precautions.",
+        "B": "PPE selected by anticipated exposure to blood/body fluids.",
+        "C": "Safe injection practices and sharps disposal are part of standard precautions.",
+        "D": "Routine antibiotics are not a standard precaution; they cause resistance and are not a CDC standard precaution component."
+      },
+      "subject": "Fundamentals",
+      "topic": "Infection control",
+      "day": 7,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 12
+    },
+    {
+      "id": 387,
+      "_origId": "YT-13",
+      "question": "WHO recommended duration for hand washing with soap and water is at least:",
+      "options": [
+        "10 seconds",
+        "20-30 seconds",
+        "40-60 seconds",
+        "2 minutes"
+      ],
+      "correct": 2,
+      "explanation": "WHO 'How to handwash' technique specifies 40-60 seconds with soap and water across 11 steps.",
+      "explanations": {
+        "A": "Too short for effective mechanical removal of microbes.",
+        "B": "This is the time recommended for alcohol-based hand-rub.",
+        "C": "WHO 'How to handwash' technique specifies 40-60 seconds with soap and water across 11 steps.",
+        "D": "Surgical scrub timing, not routine handwash."
+      },
+      "subject": "Fundamentals",
+      "topic": "Hand hygiene",
+      "day": 7,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 13
+    },
+    {
+      "id": 388,
+      "_origId": "YT-14",
+      "question": "Gram-positive cocci in clusters on Gram stain typically indicate:",
+      "options": [
+        "Streptococcus pyogenes",
+        "Staphylococcus aureus",
+        "Neisseria meningitidis",
+        "Escherichia coli"
+      ],
+      "correct": 1,
+      "explanation": "Staphylococci appear as gram-positive cocci in grape-like clusters; S. aureus is the classic catalase- and coagulase-positive species.",
+      "explanations": {
+        "A": "Streptococci appear in chains, not clusters.",
+        "B": "Staphylococci appear as gram-positive cocci in grape-like clusters; S. aureus is the classic catalase- and coagulase-positive species.",
+        "C": "Gram-negative diplococci.",
+        "D": "Gram-negative bacilli."
+      },
+      "subject": "Microbiology",
+      "topic": "Gram stain",
+      "day": 8,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "microbiology",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 14
+    },
+    {
+      "id": 389,
+      "_origId": "YT-15",
+      "question": "The vector for malaria is:",
+      "options": [
+        "Culex mosquito",
+        "Aedes mosquito",
+        "Female Anopheles mosquito",
+        "Sandfly"
+      ],
+      "correct": 2,
+      "explanation": "Female Anopheles is the definitive host for Plasmodium and bites mostly between dusk and dawn.",
+      "explanations": {
+        "A": "Culex transmits filariasis and Japanese encephalitis.",
+        "B": "Aedes transmits dengue, chikungunya, Zika, yellow fever.",
+        "C": "Female Anopheles is the definitive host for Plasmodium and bites mostly between dusk and dawn.",
+        "D": "Sandfly transmits leishmaniasis (kala-azar)."
+      },
+      "subject": "Microbiology",
+      "topic": "Vector-borne disease",
+      "day": 8,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "microbiology",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 15
+    },
+    {
+      "id": 390,
+      "_origId": "YT-16",
+      "question": "The first drug given in adult cardiac arrest with non-shockable rhythm (asystole/PEA) is:",
+      "options": [
+        "Amiodarone 300 mg IV",
+        "Adrenaline 1 mg IV every 3-5 min",
+        "Atropine 1 mg IV",
+        "Lignocaine 1 mg/kg IV"
+      ],
+      "correct": 1,
+      "explanation": "Adrenaline 1 mg IV/IO every 3-5 minutes is the cornerstone drug in non-shockable arrest per AHA ACLS.",
+      "explanations": {
+        "A": "Amiodarone is for shock-refractory VF/pulseless VT, not asystole/PEA.",
+        "B": "Adrenaline 1 mg IV/IO every 3-5 minutes is the cornerstone drug in non-shockable arrest per AHA ACLS.",
+        "C": "Atropine is no longer recommended for asystole/PEA since 2010 AHA guidelines.",
+        "D": "Removed from the routine ACLS arrest algorithm; second-line antiarrhythmic only."
+      },
+      "subject": "Pharmacology",
+      "topic": "ACLS drugs",
+      "day": 9,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "pharmacology",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 16
+    },
+    {
+      "id": 391,
+      "_origId": "YT-17",
+      "question": "Compression to ventilation ratio for adult one-rescuer CPR is:",
+      "options": [
+        "15:2",
+        "30:2",
+        "5:1",
+        "10:2"
+      ],
+      "correct": 1,
+      "explanation": "AHA recommends 30 compressions to 2 breaths for adult CPR (single or two rescuer) at 100-120/min.",
+      "explanations": {
+        "A": "15:2 is for two-rescuer paediatric/infant CPR.",
+        "B": "AHA recommends 30 compressions to 2 breaths for adult CPR (single or two rescuer) at 100-120/min.",
+        "C": "Outdated ratio.",
+        "D": "Not a recognised CPR ratio."
+      },
+      "subject": "Medical-Surgical",
+      "topic": "BLS",
+      "day": 9,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "medical-surgical",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 17
+    },
+    {
+      "id": 392,
+      "_origId": "YT-18",
+      "question": "The 'father of nursing administration' / pioneer of modern nursing is:",
+      "options": [
+        "Clara Barton",
+        "Florence Nightingale",
+        "Dorothea Dix",
+        "Lillian Wald"
+      ],
+      "correct": 1,
+      "explanation": "Florence Nightingale (1820-1910) is universally credited as the founder of modern nursing and the first nursing theorist (Environmental Theory); birthday celebrated as International Nurses Day on 12 May.",
+      "explanations": {
+        "A": "Founder of the American Red Cross.",
+        "B": "Florence Nightingale (1820-1910) is universally credited as the founder of modern nursing and the first nursing theorist (Environmental Theory); birthday celebrated as International Nurses Day on 12 May.",
+        "C": "Reformer for the mentally ill in the 19th century.",
+        "D": "Pioneer of public health/community nursing."
+      },
+      "subject": "Admin",
+      "topic": "Nursing history",
+      "day": 10,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 18
+    },
+    {
+      "id": 393,
+      "_origId": "YT-19",
+      "question": "Which of the following is NOT a 'never event' as per NABH/JCI patient safety norms?",
+      "options": [
+        "Wrong-site surgery",
+        "Retained surgical sponge",
+        "Patient fall with no harm",
+        "Mismatched blood transfusion"
+      ],
+      "correct": 2,
+      "explanation": "Patient fall without harm is reportable but not classified as a 'never event'; never events imply serious, preventable, harmful errors.",
+      "explanations": {
+        "A": "Classic never event.",
+        "B": "Retained foreign object after surgery is a never event.",
+        "C": "Patient fall without harm is reportable but not classified as a 'never event'; never events imply serious, preventable, harmful errors.",
+        "D": "ABO-incompatible transfusion is a never event."
+      },
+      "subject": "Admin",
+      "topic": "Patient safety",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 19
+    },
+    {
+      "id": 394,
+      "_origId": "YT-20",
+      "question": "Largest organ of the human body is:",
+      "options": [
+        "Liver",
+        "Skin",
+        "Lung",
+        "Small intestine"
+      ],
+      "correct": 1,
+      "explanation": "Skin is the largest organ overall by surface area (~1.5-2 m^2) and weight (~16% of body weight).",
+      "explanations": {
+        "A": "Largest internal/solid organ and largest gland.",
+        "B": "Skin is the largest organ overall by surface area (~1.5-2 m^2) and weight (~16% of body weight).",
+        "C": "Large surface area but lighter than skin.",
+        "D": "Long but not the largest by mass or surface."
+      },
+      "subject": "Anatomy",
+      "topic": "General anatomy",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 20
+    },
+    {
+      "id": 395,
+      "_origId": "YT-21",
+      "question": "Number of bones in the adult human skeleton is:",
+      "options": [
+        "198",
+        "206",
+        "212",
+        "270"
+      ],
+      "correct": 1,
+      "explanation": "Adult skeleton has 206 bones (80 axial + 126 appendicular).",
+      "explanations": {
+        "A": "Distractor.",
+        "B": "Adult skeleton has 206 bones (80 axial + 126 appendicular).",
+        "C": "Distractor.",
+        "D": "Approximate count at birth before fusion of skull, sacrum and coccyx bones."
+      },
+      "subject": "Anatomy",
+      "topic": "Skeletal system",
+      "day": 11,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "anatomy",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 21
+    },
+    {
+      "id": 396,
+      "_origId": "YT-22",
+      "question": "Vitamin deficiency causing night blindness is:",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin K"
+      ],
+      "correct": 0,
+      "explanation": "Vitamin A (retinol) is required for rhodopsin synthesis in rod cells; deficiency causes nyctalopia, Bitot's spots and xerophthalmia.",
+      "explanations": {
+        "A": "Vitamin A (retinol) is required for rhodopsin synthesis in rod cells; deficiency causes nyctalopia, Bitot's spots and xerophthalmia.",
+        "B": "B12 deficiency causes megaloblastic anaemia and subacute combined degeneration.",
+        "C": "Vitamin C deficiency causes scurvy.",
+        "D": "Vitamin K deficiency causes bleeding disorders."
+      },
+      "subject": "Nutrition",
+      "topic": "Vitamin deficiency",
+      "day": 12,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "nutrition",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 22
+    },
+    {
+      "id": 397,
+      "_origId": "YT-23",
+      "question": "A patient with chronic kidney disease should restrict which of the following?",
+      "options": [
+        "Potassium-rich foods",
+        "Vitamin C",
+        "Iron",
+        "Carbohydrate"
+      ],
+      "correct": 0,
+      "explanation": "In CKD the kidneys cannot excrete K+ well; hyperkalaemia can cause fatal arrhythmia, so banana, orange, coconut water, dry fruits and tomato are restricted.",
+      "explanations": {
+        "A": "In CKD the kidneys cannot excrete K+ well; hyperkalaemia can cause fatal arrhythmia, so banana, orange, coconut water, dry fruits and tomato are restricted.",
+        "B": "Often supplemented as it is water-soluble and dialysed away.",
+        "C": "Iron is usually given (IV/oral) with erythropoietin.",
+        "D": "Carbohydrate is the major energy source in renal diet."
+      },
+      "subject": "Nutrition",
+      "topic": "Therapeutic diet",
+      "day": 12,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "nutrition",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 23
+    },
+    {
+      "id": 398,
+      "_origId": "YT-24",
+      "question": "Antidote for warfarin overdose is:",
+      "options": [
+        "Protamine sulphate",
+        "Vitamin K (phytomenadione)",
+        "Naloxone",
+        "Flumazenil"
+      ],
+      "correct": 1,
+      "explanation": "Warfarin inhibits vitamin K-dependent clotting factors II, VII, IX, X; vitamin K1 (phytomenadione) IV/oral reverses the effect; FFP/PCC used for severe bleeding.",
+      "explanations": {
+        "A": "Protamine reverses heparin, not warfarin.",
+        "B": "Warfarin inhibits vitamin K-dependent clotting factors II, VII, IX, X; vitamin K1 (phytomenadione) IV/oral reverses the effect; FFP/PCC used for severe bleeding.",
+        "C": "Naloxone reverses opioids.",
+        "D": "Flumazenil reverses benzodiazepines."
+      },
+      "subject": "Pharmacology",
+      "topic": "Antidotes",
+      "day": 13,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "pharmacology",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 24
+    },
+    {
+      "id": 399,
+      "_origId": "YT-25",
+      "question": "Drug of choice for status epilepticus (first line, IV) is:",
+      "options": [
+        "Phenytoin",
+        "Lorazepam",
+        "Phenobarbitone",
+        "Carbamazepine"
+      ],
+      "correct": 1,
+      "explanation": "IV lorazepam 0.1 mg/kg (or IV diazepam / IM midazolam if no IV) is first-line per current AES/NICE status epilepticus guidelines.",
+      "explanations": {
+        "A": "Phenytoin/fosphenytoin is the second-line agent if seizures persist.",
+        "B": "IV lorazepam 0.1 mg/kg (or IV diazepam / IM midazolam if no IV) is first-line per current AES/NICE status epilepticus guidelines.",
+        "C": "Third-line/refractory option.",
+        "D": "Oral maintenance drug, not used acutely."
+      },
+      "subject": "Pharmacology",
+      "topic": "Neuropharmacology",
+      "day": 13,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "pharmacology",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 25
+    },
+    {
+      "id": 400,
+      "_origId": "YT-26",
+      "question": "Insulin that has the fastest onset of action is:",
+      "options": [
+        "Regular insulin",
+        "NPH",
+        "Insulin lispro",
+        "Insulin glargine"
+      ],
+      "correct": 2,
+      "explanation": "Rapid-acting analog; onset within 10-15 min, peak 1 h, duration 3-5 h; given immediately before meals.",
+      "explanations": {
+        "A": "Short-acting; onset 30 min, peak 2-3 h.",
+        "B": "Intermediate-acting; onset 1-2 h.",
+        "C": "Rapid-acting analog; onset within 10-15 min, peak 1 h, duration 3-5 h; given immediately before meals.",
+        "D": "Long-acting basal insulin with no peak; onset 1-2 h, duration 24 h."
+      },
+      "subject": "Pharmacology",
+      "topic": "Insulin types",
+      "day": 13,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "pharmacology",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 26
+    },
+    {
+      "id": 401,
+      "_origId": "YT-27",
+      "question": "Most common psychiatric disorder in the elderly worldwide is:",
+      "options": [
+        "Schizophrenia",
+        "Depression",
+        "Bipolar disorder",
+        "OCD"
+      ],
+      "correct": 1,
+      "explanation": "Depression is the commonest psychiatric illness in the elderly, often masked as somatic complaints; suicide risk is high in this group.",
+      "explanations": {
+        "A": "Onset typically late teens to thirties.",
+        "B": "Depression is the commonest psychiatric illness in the elderly, often masked as somatic complaints; suicide risk is high in this group.",
+        "C": "Less prevalent in late life.",
+        "D": "Onset usually in younger adults."
+      },
+      "subject": "Psychiatric",
+      "topic": "Geriatric mental health",
+      "day": 10,
+      "difficulty": "Easy",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "psychiatric",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 27
+    },
+    {
+      "id": 402,
+      "_origId": "YT-28",
+      "question": "ECT (electroconvulsive therapy) is most commonly indicated for:",
+      "options": [
+        "Mild anxiety",
+        "Severe depression with suicidal risk",
+        "Personality disorder",
+        "Substance use disorder"
+      ],
+      "correct": 1,
+      "explanation": "ECT is first-line for severe depression with suicidal ideation, catatonia, psychotic depression and treatment-resistant depression; it is rapid-acting and effective.",
+      "explanations": {
+        "A": "Treated with psychotherapy/SSRIs.",
+        "B": "ECT is first-line for severe depression with suicidal ideation, catatonia, psychotic depression and treatment-resistant depression; it is rapid-acting and effective.",
+        "C": "Personality disorders require long-term psychotherapy.",
+        "D": "Managed with detoxification, MAT and counselling, not ECT."
+      },
+      "subject": "Psychiatric",
+      "topic": "Treatment modalities",
+      "day": 10,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "psychiatric",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 28
+    },
+    {
+      "id": 403,
+      "_origId": "YT-29",
+      "question": "Korotkoff sound used to record diastolic BP is:",
+      "options": [
+        "1st sound",
+        "3rd sound",
+        "4th sound",
+        "5th sound"
+      ],
+      "correct": 3,
+      "explanation": "Disappearance of sound (Phase V) is the standard adult diastolic reading per AHA guidelines.",
+      "explanations": {
+        "A": "First Korotkoff sound (tapping) marks systolic BP.",
+        "B": "Crisp, intense thump; intermediate phase.",
+        "C": "Muffling of sound; used as diastolic in pregnancy/children when sounds persist to zero.",
+        "D": "Disappearance of sound (Phase V) is the standard adult diastolic reading per AHA guidelines."
+      },
+      "subject": "Fundamentals",
+      "topic": "Vital signs",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 29
+    },
+    {
+      "id": 404,
+      "_origId": "YT-30",
+      "question": "Most appropriate site for intramuscular injection in an adult is:",
+      "options": [
+        "Deltoid",
+        "Vastus lateralis",
+        "Ventrogluteal",
+        "Dorsogluteal"
+      ],
+      "correct": 2,
+      "explanation": "Ventrogluteal (gluteus medius) is now the preferred IM site in adults: free of major nerves/vessels, allows large volumes (up to 3 mL), and has lowest complication rate.",
+      "explanations": {
+        "A": "Suited for small volumes (<=1 mL) such as vaccines.",
+        "B": "Preferred site for infants <12 months.",
+        "C": "Ventrogluteal (gluteus medius) is now the preferred IM site in adults: free of major nerves/vessels, allows large volumes (up to 3 mL), and has lowest complication rate.",
+        "D": "Dorsogluteal carries risk of sciatic nerve and superior gluteal artery injury and is no longer recommended."
+      },
+      "subject": "Fundamentals",
+      "topic": "IM injection",
+      "day": 7,
+      "difficulty": "Medium",
+      "source": "Recall (YT)",
+      "year": 2024,
+      "qtype": "recall",
+      "section": "foundations",
+      "tags": [
+        "recall-unverified"
+      ],
+      "_sourceFile": "youtube-memory-recalls.json",
+      "mockSeq": 30
+    }
+  ]
+}

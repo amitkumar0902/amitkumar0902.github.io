@@ -1,64 +1,812 @@
 [
   {
-    "id": 3,
-    "_origId": "N8-3",
-    "question": "Leopold's 1st maneuver detects:",
+    "id": 6,
+    "_origId": "AIIMS-6",
+    "question": "The volume of amniotic fluid at term is approximately:",
     "options": [
-      "Fetal lie",
-      "Fundal content (breech/cephalic)",
-      "Engagement",
-      "Position"
+      "100-200 ml",
+      "300-500 ml",
+      "50-100 ml",
+      "600-800 ml"
     ],
-    "correct": 1,
-    "explanation": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
+    "correct": 3,
+    "explanation": "Normal term amniotic fluid volume is approximately 600-800 ml.",
     "explanations": {
-      "A": "Overall finding, but 1st step focuses on the fundus.",
-      "B": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
-      "C": "Engagement is assessed in the 4th (Pawlik) maneuver.",
-      "D": "Position is determined in the 3rd maneuver."
+      "A": "Far below normal term volume.",
+      "B": "Closer to oligohydramnios range.",
+      "C": "Severe oligohydramnios value.",
+      "D": "Normal term amniotic fluid volume is approximately 600-800 ml."
     },
     "subject": "OBG",
-    "topic": "Leopold",
+    "topic": "Amniotic fluid",
     "day": 3,
-    "difficulty": "Easy",
-    "source": "NORCET 8 Mains",
-    "year": 2025,
+    "difficulty": "Medium",
+    "source": "AIIMS SN 2017",
+    "year": 2017,
     "qtype": "recall",
     "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "aiims-sn-pre-2020.json"
   },
   {
-    "id": 7,
-    "_origId": "N7-1",
-    "question": "Episiotomy most commonly used in India:",
+    "id": 26,
+    "_origId": "DSSSB-2",
+    "question": "Normal fetal heart rate range is:",
+    "options": [
+      "100–140 bpm",
+      "110–160 bpm",
+      "160–200 bpm",
+      "80–120 bpm"
+    ],
+    "correct": 1,
+    "explanation": "Normal baseline FHR is 110–160 bpm (NICHD/ACOG); <110 = bradycardia, >160 = tachycardia.",
+    "explanations": {
+      "A": "Lower bound suggests bradycardia.",
+      "B": "Normal baseline FHR is 110–160 bpm (NICHD/ACOG); <110 = bradycardia, >160 = tachycardia.",
+      "C": "Sustained tachycardia — abnormal.",
+      "D": "Bradycardic range — concerning for hypoxia."
+    },
+    "subject": "OBG",
+    "topic": "Fetal monitoring",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2018",
+    "year": 2018,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 32,
+    "_origId": "DSSSB-8",
+    "question": "The most common type of breech presentation is:",
+    "options": [
+      "Frank breech",
+      "Complete breech",
+      "Footling breech",
+      "Kneeling breech"
+    ],
+    "correct": 0,
+    "explanation": "Frank breech (hips flexed, knees extended, feet near head) accounts for ~50–70% of breech presentations.",
+    "explanations": {
+      "A": "Frank breech (hips flexed, knees extended, feet near head) accounts for ~50–70% of breech presentations.",
+      "B": "Complete breech (hips and knees both flexed) is ~5–10%.",
+      "C": "Footling (one or both feet presenting) is less common.",
+      "D": "Kneeling breech is rare."
+    },
+    "subject": "OBG",
+    "topic": "Malpresentation",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 40,
+    "_origId": "DSSSB-16",
+    "question": "The most common site of ectopic pregnancy is:",
+    "options": [
+      "Ovary",
+      "Cervix",
+      "Fallopian tube (ampulla)",
+      "Abdomen"
+    ],
+    "correct": 2,
+    "explanation": "~95–97% of ectopic pregnancies occur in the fallopian tube; the ampulla is the single most common site (~70%).",
+    "explanations": {
+      "A": "Ovarian ectopic is rare (<1%).",
+      "B": "Cervical ectopic is very rare.",
+      "C": "~95–97% of ectopic pregnancies occur in the fallopian tube; the ampulla is the single most common site (~70%).",
+      "D": "Abdominal ectopic is rare (~1%)."
+    },
+    "subject": "OBG",
+    "topic": "Ectopic pregnancy",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "DSSSB SN 2021",
+    "year": 2021,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "dsssb-sn-recalls.json"
+  },
+  {
+    "id": 45,
+    "_origId": "ESIC-1",
+    "question": "Which of the following is the most common cause of postpartum hemorrhage?",
+    "options": [
+      "Uterine atony",
+      "Retained placenta",
+      "Genital tract trauma",
+      "Coagulation disorder"
+    ],
+    "correct": 0,
+    "explanation": "Uterine atony (failure of myometrium to contract after delivery) accounts for ~70-80% of primary PPH cases. The 'Four T's' mnemonic places Tone first.",
+    "explanations": {
+      "A": "Uterine atony (failure of myometrium to contract after delivery) accounts for ~70-80% of primary PPH cases. The 'Four T's' mnemonic places Tone first.",
+      "B": "Retained placental tissue (Tissue) is the second 'T' but less common than atony.",
+      "C": "Trauma to the genital tract is third 'T' — typically lacerations of cervix/vagina/perineum.",
+      "D": "Thrombin (coagulopathy) is the fourth 'T' and least common cause."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum hemorrhage",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 52,
+    "_origId": "ESIC-8",
+    "question": "The normal duration of pregnancy from LMP is:",
+    "options": [
+      "260 days",
+      "280 days",
+      "300 days",
+      "240 days"
+    ],
+    "correct": 1,
+    "explanation": "280 days = 40 weeks from LMP (Naegele's rule: LMP + 9 months + 7 days).",
+    "explanations": {
+      "A": "Too short; corresponds to ~37 weeks (early term).",
+      "B": "280 days = 40 weeks from LMP (Naegele's rule: LMP + 9 months + 7 days).",
+      "C": "Too long; would represent ~43 weeks (post-term).",
+      "D": "Approximately 34 weeks — preterm range."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal basics",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 60,
+    "_origId": "ESIC-16",
+    "question": "The first stage of labour ends with:",
+    "options": [
+      "Rupture of membranes",
+      "Full dilatation of cervix",
+      "Delivery of baby",
+      "Delivery of placenta"
+    ],
+    "correct": 1,
+    "explanation": "First stage of labour begins with onset of regular painful contractions and ends with full (10 cm) cervical dilatation.",
+    "explanations": {
+      "A": "ROM may occur any time and does not define end of stage 1.",
+      "B": "First stage of labour begins with onset of regular painful contractions and ends with full (10 cm) cervical dilatation.",
+      "C": "Delivery of baby ends the second stage.",
+      "D": "Delivery of placenta ends the third stage."
+    },
+    "subject": "OBG",
+    "topic": "Stages of labour",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 63,
+    "_origId": "ESIC-19",
+    "question": "Anti-D immunoglobulin should be given to an Rh-negative mother within:",
+    "options": [
+      "24 hours",
+      "48 hours",
+      "72 hours",
+      "7 days"
+    ],
+    "correct": 2,
+    "explanation": "Anti-D Ig (300 mcg) should be administered within 72 hours of delivery of an Rh-positive baby (or sensitizing event) to an Rh-negative mother to prevent isoimmunization.",
+    "explanations": {
+      "A": "Earlier than required guideline window.",
+      "B": "Within window but standard guideline cites 72 h.",
+      "C": "Anti-D Ig (300 mcg) should be administered within 72 hours of delivery of an Rh-positive baby (or sensitizing event) to an Rh-negative mother to prevent isoimmunization.",
+      "D": "Too late; effectiveness drops sharply after 72 h."
+    },
+    "subject": "OBG",
+    "topic": "Rh isoimmunization",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 64,
+    "_origId": "ESIC-20",
+    "question": "Which of the following is the most reliable sign of pregnancy?",
+    "options": [
+      "Amenorrhea",
+      "Nausea/vomiting",
+      "Fetal heart sounds",
+      "Quickening"
+    ],
+    "correct": 2,
+    "explanation": "Fetal heart sounds (auscultated by Doppler ~10–12 wks, fetoscope ~20 wks) are a positive (definitive) sign of pregnancy, along with fetal movements felt by examiner and ultrasound visualization.",
+    "explanations": {
+      "A": "Amenorrhea is a presumptive sign — many other causes.",
+      "B": "Nausea is presumptive and non-specific.",
+      "C": "Fetal heart sounds (auscultated by Doppler ~10–12 wks, fetoscope ~20 wks) are a positive (definitive) sign of pregnancy, along with fetal movements felt by examiner and ultrasound visualization.",
+      "D": "Quickening (mother's perception of movement) is presumptive."
+    },
+    "subject": "OBG",
+    "topic": "Signs of pregnancy",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "ESIC SN 2019",
+    "year": 2019,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "esic-sn-recalls.json"
+  },
+  {
+    "id": 103,
+    "_origId": "N1-15",
+    "question": "The hormone responsible for ovulation surge in mid-cycle is:",
+    "options": [
+      "FSH",
+      "LH",
+      "Estrogen",
+      "Progesterone"
+    ],
+    "correct": 1,
+    "explanation": "A sharp LH surge ~24-36 h before ovulation triggers rupture of the dominant follicle and release of the secondary oocyte.",
+    "explanations": {
+      "A": "FSH stimulates follicular growth in the early follicular phase.",
+      "B": "A sharp LH surge ~24-36 h before ovulation triggers rupture of the dominant follicle and release of the secondary oocyte.",
+      "C": "Rising estrogen triggers the LH surge but does not itself rupture the follicle.",
+      "D": "Dominant in the luteal phase, after ovulation."
+    },
+    "subject": "OBG",
+    "topic": "Menstrual physiology",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 104,
+    "_origId": "N1-16",
+    "question": "Bluish discoloration of the cervix and vagina in early pregnancy is called:",
+    "options": [
+      "Hegar's sign",
+      "Goodell's sign",
+      "Chadwick's sign",
+      "Osiander's sign"
+    ],
+    "correct": 2,
+    "explanation": "Chadwick's sign — violet/bluish discolouration of the vagina, vulva and cervix from increased pelvic vascularity, visible at ~6-8 weeks.",
+    "explanations": {
+      "A": "Softening of the lower uterine segment (~6-12 weeks).",
+      "B": "Softening of the cervix.",
+      "C": "Chadwick's sign — violet/bluish discolouration of the vagina, vulva and cervix from increased pelvic vascularity, visible at ~6-8 weeks.",
+      "D": "Pulsation in lateral fornices due to uterine artery."
+    },
+    "subject": "OBG",
+    "topic": "Probable signs of pregnancy",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 105,
+    "_origId": "N1-17",
+    "question": "If LMP is 20 June, the expected date of delivery by Naegele's rule is:",
+    "options": [
+      "27 February",
+      "27 March",
+      "20 March",
+      "13 April"
+    ],
+    "correct": 1,
+    "explanation": "Naegele's rule: LMP + 9 months + 7 days. 20 June + 7 days = 27 June, plus 9 months = 27 March.",
+    "explanations": {
+      "A": "Wrong subtraction of months — too early.",
+      "B": "Naegele's rule: LMP + 9 months + 7 days. 20 June + 7 days = 27 June, plus 9 months = 27 March.",
+      "C": "Forgot to add 7 days.",
+      "D": "Added two extra weeks instead of seven days."
+    },
+    "subject": "OBG",
+    "topic": "EDD calculation",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "calculation",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 106,
+    "_origId": "N1-18",
+    "question": "First stage of labour ends with:",
+    "options": [
+      "Onset of regular contractions",
+      "Rupture of membranes",
+      "Full dilatation of the cervix",
+      "Delivery of the placenta"
+    ],
+    "correct": 2,
+    "explanation": "First stage runs from regular contractions to full (10 cm) cervical dilatation; the second stage then runs to delivery of the baby.",
+    "explanations": {
+      "A": "Marks the start of the first stage, not its end.",
+      "B": "Can occur at any point and is not the defining endpoint.",
+      "C": "First stage runs from regular contractions to full (10 cm) cervical dilatation; the second stage then runs to delivery of the baby.",
+      "D": "That is the end of the third stage."
+    },
+    "subject": "OBG",
+    "topic": "Stages of labour",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 107,
+    "_origId": "N1-19",
+    "question": "Earliest sign of placental separation in the third stage of labour is:",
+    "options": [
+      "Sudden gush of blood per vagina",
+      "Rise in maternal pulse",
+      "Fall in fundal height",
+      "Maternal complaint of pain"
+    ],
+    "correct": 0,
+    "explanation": "A sudden small gush of blood from the vagina (along with cord lengthening and fundal change) is the classic earliest sign that the placenta has detached from the uterine wall.",
+    "explanations": {
+      "A": "A sudden small gush of blood from the vagina (along with cord lengthening and fundal change) is the classic earliest sign that the placenta has detached from the uterine wall.",
+      "B": "Non-specific; not a separation sign.",
+      "C": "Fundus rises and becomes globular when placenta separates — it does not fall.",
+      "D": "Pain is variable and not diagnostic."
+    },
+    "subject": "OBG",
+    "topic": "Third stage of labour",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 1 Mains",
+    "year": 2020,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+  },
+  {
+    "id": 121,
+    "_origId": "N3-3",
+    "question": "A primigravida at 28 weeks presents with painless, bright-red vaginal bleeding. The most likely diagnosis is:",
+    "options": [
+      "Placenta previa",
+      "Abruptio placentae",
+      "Threatened abortion",
+      "Vasa previa"
+    ],
+    "correct": 0,
+    "explanation": "Painless, recurrent, bright-red bleeding after 24 weeks is the classic triad of placenta previa, where the placenta implants over/near the internal os.",
+    "explanations": {
+      "A": "Painless, recurrent, bright-red bleeding after 24 weeks is the classic triad of placenta previa, where the placenta implants over/near the internal os.",
+      "B": "Abruptio placentae causes painful bleeding with a tense, tender uterus; blood is often dark.",
+      "C": "Threatened abortion occurs before 20 weeks with bleeding through a closed cervix.",
+      "D": "Vasa previa is rare; bleeding follows membrane rupture and rapidly causes fetal distress."
+    },
+    "subject": "OBG",
+    "topic": "Antepartum haemorrhage",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "scenario",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 132,
+    "_origId": "N3-14",
+    "question": "Which is the most common type of episiotomy performed?",
     "options": [
       "Mediolateral",
-      "Midline",
+      "Median (midline)",
       "J-shaped",
       "Lateral"
     ],
     "correct": 0,
-    "explanation": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
+    "explanation": "Mediolateral is most commonly used in India because it has lower risk of extension into the anal sphincter (3rd/4th degree tears) than median.",
     "explanations": {
-      "A": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
-      "B": "Preferred in the USA but not standard in India due to higher severe-tear risk.",
-      "C": "J-shaped is rarely used.",
-      "D": "Lateral episiotomy is obsolete; abandoned due to complications."
+      "A": "Mediolateral is most commonly used in India because it has lower risk of extension into the anal sphincter (3rd/4th degree tears) than median.",
+      "B": "Median heals well but extends into anal sphincter more often.",
+      "C": "J-shaped is rarely used due to poor healing.",
+      "D": "Lateral causes excessive bleeding from Bartholin gland and is essentially abandoned."
     },
     "subject": "OBG",
     "topic": "Episiotomy",
     "day": 3,
     "difficulty": "Easy",
-    "source": "NORCET 7 Mains",
-    "year": 2024,
+    "source": "NORCET 3 Mains",
+    "year": 2022,
     "qtype": "recall",
     "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
   },
   {
-    "id": 10,
+    "id": 133,
+    "_origId": "N3-15",
+    "question": "The first perception of fetal movements by a pregnant woman is called:",
+    "options": [
+      "Quickening",
+      "Lightening",
+      "Engagement",
+      "Ballottement"
+    ],
+    "correct": 0,
+    "explanation": "Quickening is felt around 18–20 weeks in primigravidae and ~16 weeks in multigravidae — used to estimate EDD.",
+    "explanations": {
+      "A": "Quickening is felt around 18–20 weeks in primigravidae and ~16 weeks in multigravidae — used to estimate EDD.",
+      "B": "Lightening is fetal head descent into pelvis near term (~38 weeks).",
+      "C": "Engagement is descent of the largest fetal head diameter through the pelvic inlet.",
+      "D": "Ballottement is an examiner's finding, not a maternal sensation."
+    },
+    "subject": "OBG",
+    "topic": "Antenatal milestones",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 134,
+    "_origId": "N3-16",
+    "question": "At what week of gestation does the uterine fundus reach the level of the xiphisternum?",
+    "options": [
+      "36 weeks",
+      "20 weeks",
+      "28 weeks",
+      "40 weeks"
+    ],
+    "correct": 0,
+    "explanation": "Fundus reaches the xiphisternum at ~36 weeks; thereafter it descends with lightening.",
+    "explanations": {
+      "A": "Fundus reaches the xiphisternum at ~36 weeks; thereafter it descends with lightening.",
+      "B": "At 20 weeks fundus is at the umbilicus.",
+      "C": "At 28 weeks fundus is midway between umbilicus and xiphisternum.",
+      "D": "By 40 weeks, fundal height drops slightly below xiphisternum due to engagement."
+    },
+    "subject": "OBG",
+    "topic": "Fundal height",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 137,
+    "_origId": "N3-19",
+    "question": "The biochemical marker most useful in distinguishing pre-eclampsia from gestational hypertension is:",
+    "options": [
+      "Raised serum uric acid",
+      "Raised blood urea",
+      "Decreased haemoglobin",
+      "Raised serum creatinine"
+    ],
+    "correct": 0,
+    "explanation": "Hyperuricaemia (>5.5 mg/dL) reflects reduced renal urate clearance and trophoblast ischaemia, and correlates with severity in pre-eclampsia.",
+    "explanations": {
+      "A": "Hyperuricaemia (>5.5 mg/dL) reflects reduced renal urate clearance and trophoblast ischaemia, and correlates with severity in pre-eclampsia.",
+      "B": "Urea rises late and is non-specific.",
+      "C": "Hb usually rises (haemoconcentration) in pre-eclampsia, not falls.",
+      "D": "Creatinine rises only in advanced/severe disease."
+    },
+    "subject": "OBG",
+    "topic": "Pre-eclampsia",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 146,
+    "_origId": "N3-28",
+    "question": "The fetal presentation in which the largest presenting diameter (mento-vertical, ~13.5 cm) makes vaginal delivery almost impossible is:",
+    "options": [
+      "Brow presentation",
+      "Vertex",
+      "Face (mento-anterior)",
+      "Breech"
+    ],
+    "correct": 0,
+    "explanation": "Brow presentation (partial extension) presents the mento-vertical diameter (~13.5 cm) — too large for the average pelvis, so persistent brow needs caesarean.",
+    "explanations": {
+      "A": "Brow presentation (partial extension) presents the mento-vertical diameter (~13.5 cm) — too large for the average pelvis, so persistent brow needs caesarean.",
+      "B": "Vertex (well-flexed) presents suboccipito-bregmatic ~9.5 cm — most favourable.",
+      "C": "Mento-anterior face can deliver vaginally (submento-bregmatic ~9.5 cm).",
+      "D": "Breech delivers vaginally in selected cases; not the largest-diameter presentation."
+    },
+    "subject": "OBG",
+    "topic": "Malpresentation",
+    "day": 3,
+    "difficulty": "Hard",
+    "source": "NORCET 3 Mains",
+    "year": 2022,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+  },
+  {
+    "id": 149,
+    "_origId": "N4-1",
+    "question": "The most common type of breech presentation is:",
+    "options": [
+      "Complete breech",
+      "Frank breech",
+      "Footling breech",
+      "Kneeling breech"
+    ],
+    "correct": 1,
+    "explanation": "Frank breech is the most common type (~60-70%), with hips flexed and knees extended so feet are near the head.",
+    "explanations": {
+      "A": "Complete breech (hips and knees flexed) accounts for ~10% of breech cases.",
+      "B": "Frank breech is the most common type (~60-70%), with hips flexed and knees extended so feet are near the head.",
+      "C": "Footling breech (one or both feet presenting) is less common and high-risk for cord prolapse.",
+      "D": "Kneeling breech is the rarest variant."
+    },
+    "subject": "OBG",
+    "topic": "Malpresentation - Breech",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 153,
+    "_origId": "N4-5",
+    "question": "Normal fetal heart rate is:",
+    "options": [
+      "100-120 bpm",
+      "110-160 bpm",
+      "160-180 bpm",
+      "80-100 bpm"
+    ],
+    "correct": 1,
+    "explanation": "Normal FHR baseline is 110-160 bpm.",
+    "explanations": {
+      "A": "Below normal range; suggests bradycardia.",
+      "B": "Normal FHR baseline is 110-160 bpm.",
+      "C": "Tachycardia; may indicate fetal distress or maternal fever.",
+      "D": "Severe bradycardia; emergency."
+    },
+    "subject": "OBG",
+    "topic": "Fetal monitoring",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 159,
+    "_origId": "N4-11",
+    "question": "The most common cause of postpartum hemorrhage is:",
+    "options": [
+      "Retained placenta",
+      "Uterine atony",
+      "Cervical laceration",
+      "Coagulation disorder"
+    ],
+    "correct": 1,
+    "explanation": "Uterine atony (Tone) accounts for ~70-80% of PPH cases.",
+    "explanations": {
+      "A": "Retained tissue is one of the 4 Ts but not the most common.",
+      "B": "Uterine atony (Tone) accounts for ~70-80% of PPH cases.",
+      "C": "Trauma (lacerations) is second most common.",
+      "D": "Thrombin (coagulopathy) is the least common cause."
+    },
+    "subject": "OBG",
+    "topic": "Postpartum hemorrhage",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 163,
+    "_origId": "N4-15",
+    "question": "First sign of magnesium sulphate toxicity is:",
+    "options": [
+      "Loss of deep tendon reflexes",
+      "Respiratory depression",
+      "Cardiac arrest",
+      "Hypotension"
+    ],
+    "correct": 0,
+    "explanation": "Loss of patellar/deep tendon reflexes is the earliest clinical sign of MgSO4 toxicity (8-10 mEq/L).",
+    "explanations": {
+      "A": "Loss of patellar/deep tendon reflexes is the earliest clinical sign of MgSO4 toxicity (8-10 mEq/L).",
+      "B": "Respiratory depression occurs at higher levels (10-15 mEq/L).",
+      "C": "Cardiac arrest is the terminal event at very high levels (>25 mEq/L).",
+      "D": "Hypotension may occur but is not the earliest specific sign."
+    },
+    "subject": "OBG",
+    "topic": "Eclampsia management",
+    "day": 3,
+    "difficulty": "Hard",
+    "source": "NORCET 4 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+  },
+  {
+    "id": 182,
+    "_origId": "N5-9",
+    "question": "Most common cause of maternal mortality in India is:",
+    "options": [
+      "Hypertensive disorders",
+      "Hemorrhage",
+      "Sepsis",
+      "Obstructed labor"
+    ],
+    "correct": 1,
+    "explanation": "Hemorrhage (mainly PPH) is the leading cause of maternal mortality in India (~38%).",
+    "explanations": {
+      "A": "Hypertensive disorders cause ~10-15% of maternal deaths.",
+      "B": "Hemorrhage (mainly PPH) is the leading cause of maternal mortality in India (~38%).",
+      "C": "Sepsis accounts for ~11%.",
+      "D": "Obstructed labor accounts for ~5%."
+    },
+    "subject": "OBG",
+    "topic": "Maternal health",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 194,
+    "_origId": "N5-21",
+    "question": "Lochia rubra is observed for how many days postpartum?",
+    "options": [
+      "1-3 days",
+      "4-9 days",
+      "10-15 days",
+      "Up to 6 weeks"
+    ],
+    "correct": 0,
+    "explanation": "Lochia rubra (red, blood-stained) is observed for the first 1-3 days postpartum.",
+    "explanations": {
+      "A": "Lochia rubra (red, blood-stained) is observed for the first 1-3 days postpartum.",
+      "B": "Lochia serosa (pink/brown) is from day 4-9.",
+      "C": "Lochia alba (whitish) is from day 10-15 onwards.",
+      "D": "Total lochia may continue up to 6 weeks but rubra is the earliest phase."
+    },
+    "subject": "OBG",
+    "topic": "Postnatal care",
+    "day": 3,
+    "difficulty": "Medium",
+    "source": "NORCET 5 Mains",
+    "year": 2023,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [
+      "recall-unverified"
+    ],
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+  },
+  {
+    "id": 199,
     "_origId": "N6-1",
     "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 weeks' gestation?",
     "options": [
@@ -84,10 +832,10 @@
     "qtype": "recall",
     "section": "midwifery",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 13,
+    "id": 202,
     "_origId": "N6-4",
     "question": "MgSO4 therapeutic serum level in eclampsia is:",
     "options": [
@@ -107,775 +855,70 @@
     "subject": "OBG",
     "topic": "MgSO4",
     "day": 3,
-    "difficulty": "High",
+    "difficulty": "Hard",
     "source": "NORCET 6 Mains",
     "year": 2024,
     "qtype": "recall",
     "section": "midwifery",
     "tags": [],
-    "_sourceFile": "norcet-6-7-8-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json"
   },
   {
-    "id": 57,
-    "_origId": "N9-40",
-    "question": "A woman undergoing evaluation for infertility is advised a hysterosalpingogram. On which day of the menstrual cycle should the nurse schedule this procedure?",
+    "id": 207,
+    "_origId": "N7-1",
+    "question": "Episiotomy most commonly used in India:",
     "options": [
-      "Day 21",
-      "Day 14",
-      "Day 3",
-      "Day 8"
+      "Mediolateral",
+      "Midline",
+      "J-shaped",
+      "Lateral"
     ],
-    "correct": 3,
-    "explanation": "HSG is ideally done in the proliferative phase, days 7–10 post-menses, before ovulation. Day 8 fits.",
+    "correct": 0,
+    "explanation": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
     "explanations": {
-      "A": "Day 21 is the luteal phase — risk of early pregnancy disruption.",
-      "B": "Day 14 is ovulation; radiation risk if conception has occurred.",
-      "C": "Day 3 is too early; menstruation may still be occurring.",
-      "D": "HSG is ideally done in the proliferative phase, days 7–10 post-menses, before ovulation. Day 8 fits."
+      "A": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India.",
+      "B": "Preferred in the USA but not standard in India due to higher severe-tear risk.",
+      "C": "J-shaped is rarely used.",
+      "D": "Lateral episiotomy is obsolete; abandoned due to complications."
     },
     "subject": "OBG",
-    "topic": "HSG / Infertility",
+    "topic": "Episiotomy",
     "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "difficulty": "Easy",
+    "source": "NORCET 7 Mains",
+    "year": 2024,
+    "qtype": "recall",
+    "section": "midwifery",
+    "tags": [],
+    "_sourceFile": "norcet-7-mains-2024-recalls.json"
+  },
+  {
+    "id": 212,
+    "_origId": "N8-3",
+    "question": "Leopold's 1st maneuver detects:",
+    "options": [
+      "Fetal lie",
+      "Fundal content (breech/cephalic)",
+      "Engagement",
+      "Position"
+    ],
+    "correct": 1,
+    "explanation": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
+    "explanations": {
+      "A": "Overall finding, but 1st step focuses on the fundus.",
+      "B": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
+      "C": "Engagement is assessed in the 4th (Pawlik) maneuver.",
+      "D": "Position is determined in the 3rd maneuver."
+    },
+    "subject": "OBG",
+    "topic": "Leopold",
+    "day": 3,
+    "difficulty": "Easy",
+    "source": "NORCET 8 Mains",
     "year": 2025,
     "qtype": "recall",
     "section": "midwifery",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 58,
-    "_origId": "N9-41",
-    "question": "Identify the given instrument (atraumatic clamp with triangular fenestrated tips used on uterine angles).",
-    "options": [
-      "Green Armytage Forceps",
-      "Babcock Forceps",
-      "Allis Tissue Forceps",
-      "Kocher's Forceps"
-    ],
-    "correct": 0,
-    "explanation": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
-    "explanations": {
-      "A": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
-      "B": "Babcock has rounded atraumatic ring tips, used for delicate tissue like appendix.",
-      "C": "Allis has serrated teeth — grasping traumatic forceps.",
-      "D": "Kocher's has heavy serrations and 1×2 teeth — for tough pedicles."
-    },
-    "subject": "OBG",
-    "topic": "OT instruments",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "image",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 59,
-    "_origId": "N9-42",
-    "question": "Identify the given instrument (wide, scoop-shaped abdominal retractor).",
-    "options": [
-      "Doyen's Retractor",
-      "Deaver Retractor",
-      "Langenbeck Retractor",
-      "Morris Retractor"
-    ],
-    "correct": 1,
-    "explanation": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
-    "explanations": {
-      "A": "Doyen's is a curved bladder retractor used in LSCS.",
-      "B": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
-      "C": "Langenbeck is a small L-shaped retractor for superficial wounds.",
-      "D": "Morris is a curved retractor with a broader blade than Langenbeck but not Deaver-shape."
-    },
-    "subject": "OBG",
-    "topic": "OT instruments",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "image",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 60,
-    "_origId": "N9-43",
-    "question": "Identify the item shown in the image (fenestrated obstetric drape with V-shaped leg opening).",
-    "options": [
-      "Obstetric V-Drape",
-      "Episiotomy Pack",
-      "Perineal Sheet",
-      "Cesarean Section Drape"
-    ],
-    "correct": 0,
-    "explanation": "V-drape isolates the perineum for vaginal delivery; V-shaped cut-out at the leg opening.",
-    "explanations": {
-      "A": "V-drape isolates the perineum for vaginal delivery; V-shaped cut-out at the leg opening.",
-      "B": "Episiotomy packs hold instruments, not drapes.",
-      "C": "Perineal sheet is a smaller under-buttock drape.",
-      "D": "Cesarean drape has an abdominal fenestration, not a V leg opening."
-    },
-    "subject": "OBG",
-    "topic": "Obstetric supplies",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "image",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 61,
-    "_origId": "N9-44",
-    "question": "A cardiotocography tracing shows cord compression. Which fetal heart rate pattern is most expected?",
-    "options": [
-      "Variable decelerations",
-      "Late decelerations",
-      "Early decelerations",
-      "Hypoxia"
-    ],
-    "correct": 0,
-    "explanation": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
-    "explanations": {
-      "A": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
-      "B": "Late decels indicate uteroplacental insufficiency.",
-      "C": "Early decels mirror contractions; caused by fetal head compression.",
-      "D": "Hypoxia is an outcome, not a CTG pattern."
-    },
-    "subject": "OBG",
-    "topic": "CTG interpretation",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 62,
-    "_origId": "N9-45",
-    "question": "A patient develops uterine hyperstimulation after administration of prostaglandins for induction of labour. What is the most appropriate management?",
-    "options": [
-      "Calcium gluconate",
-      "Magnesium sulphate",
-      "Hydralazine",
-      "Terbutaline"
-    ],
-    "correct": 3,
-    "explanation": "Terbutaline (β-agonist) is the tocolytic of choice for uterine hyperstimulation.",
-    "explanations": {
-      "A": "Calcium gluconate reverses MgSO4 toxicity; not used for tachysystole.",
-      "B": "MgSO4 is for seizure prophylaxis in eclampsia, not tocolysis of PG-induced hyperstimulation.",
-      "C": "Hydralazine is an antihypertensive.",
-      "D": "Terbutaline (β-agonist) is the tocolytic of choice for uterine hyperstimulation."
-    },
-    "subject": "OBG",
-    "topic": "Uterine hyperstimulation",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 63,
-    "_origId": "N9-46",
-    "question": "A 28-year-old woman has a history of 3 consecutive first-trimester abortions, no structural uterine abnormality, normal blood sugars, and is positive for antiphospholipid antibody. What is the most likely diagnosis?",
-    "options": [
-      "Antiphospholipid syndrome",
-      "Recurrent pregnancy loss due to uterine anomaly",
-      "Gestational diabetes mellitus",
-      "Pre-eclampsia"
-    ],
-    "correct": 0,
-    "explanation": "APS diagnosis = ≥3 consecutive first-trimester losses + positive aPL antibody (lupus anticoagulant / anticardiolipin / β2-GPI) on two occasions 12 weeks apart.",
-    "explanations": {
-      "A": "APS diagnosis = ≥3 consecutive first-trimester losses + positive aPL antibody (lupus anticoagulant / anticardiolipin / β2-GPI) on two occasions 12 weeks apart.",
-      "B": "Ruled out — no structural anomaly.",
-      "C": "Ruled out — normal sugars.",
-      "D": "Pre-eclampsia is a late-pregnancy syndrome."
-    },
-    "subject": "OBG",
-    "topic": "Recurrent pregnancy loss",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 64,
-    "_origId": "N9-47",
-    "question": "Visual Inspection with Acetic Acid (VIA) is primarily used for the screening of which condition?",
-    "options": [
-      "Cervical cancer",
-      "Endometrial cancer",
-      "Ovarian cancer",
-      "Vaginal prolapse"
-    ],
-    "correct": 0,
-    "explanation": "VIA produces acetowhite areas on the cervix, highlighting cervical intraepithelial neoplasia — mass screening tool in India.",
-    "explanations": {
-      "A": "VIA produces acetowhite areas on the cervix, highlighting cervical intraepithelial neoplasia — mass screening tool in India.",
-      "B": "Endometrial cancer screening uses TVS + biopsy.",
-      "C": "Ovarian cancer screened with CA-125 + TVS.",
-      "D": "Prolapse is diagnosed clinically (POP-Q)."
-    },
-    "subject": "OBG",
-    "topic": "Cancer screening / VIA",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 65,
-    "_origId": "N9-48",
-    "question": "A patient develops postpartum hemorrhage at a Primary Health Centre. What is the first-line management?",
-    "options": [
-      "Start IV tranexamic acid immediately",
-      "Perform immediate hysterectomy",
-      "Administer uterotonic (Oxytocin)",
-      "Begin blood transfusion"
-    ],
-    "correct": 2,
-    "explanation": "Oxytocin IV/IM is first-line uterotonic; initiate massage + bimanual compression alongside.",
-    "explanations": {
-      "A": "TXA is adjunctive (within 3 h of PPH), given after uterotonics per WHO.",
-      "B": "Hysterectomy is the last resort, not first line.",
-      "C": "Oxytocin IV/IM is first-line uterotonic; initiate massage + bimanual compression alongside.",
-      "D": "Transfusion comes after initial resuscitation and uterotonics; often requires referral from PHC."
-    },
-    "subject": "OBG",
-    "topic": "PPH / AMTSL",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 66,
-    "_origId": "N9-49",
-    "question": "Which of the following is true about the biophysical profile in obstetrical assessment?",
-    "options": [
-      "Uses only fetal heart rate patterns",
-      "Includes fetal breathing, gross body movements, fetal tone, amniotic fluid volume, and NST",
-      "Solely based on ultrasound without fetal monitoring",
-      "Performed only during first trimester"
-    ],
-    "correct": 1,
-    "explanation": "Standard BPP has 5 components: fetal breathing, gross body movement, tone, amniotic fluid volume, and NST (2 points each, max 10).",
-    "explanations": {
-      "A": "NST is only one component; BPP is broader.",
-      "B": "Standard BPP has 5 components: fetal breathing, gross body movement, tone, amniotic fluid volume, and NST (2 points each, max 10).",
-      "C": "NST requires CTG, not just ultrasound.",
-      "D": "BPP is used in the third trimester to assess fetal well-being."
-    },
-    "subject": "OBG",
-    "topic": "BPP / Antenatal",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 67,
-    "_origId": "N9-50",
-    "question": "A patient is in labour. When does the second stage of labour start?",
-    "options": [
-      "At full cervical dilation (10 cm)",
-      "At 8 cm cervical dilation with strong expulsive contractions",
-      "At the onset of regular uterine contractions",
-      "At rupture of membranes"
-    ],
-    "correct": 0,
-    "explanation": "Second stage = full cervical dilatation (10 cm) to delivery of baby.",
-    "explanations": {
-      "A": "Second stage = full cervical dilatation (10 cm) to delivery of baby.",
-      "B": "8 cm is late first stage (transition).",
-      "C": "First stage starts with regular contractions + progressive dilatation.",
-      "D": "ROM is not the defining event of second stage."
-    },
-    "subject": "OBG",
-    "topic": "Stages of labour",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 68,
-    "_origId": "N9-51",
-    "question": "Which maneuver is specifically used for head delivery during labour?",
-    "options": [
-      "Ritgen maneuver",
-      "McRoberts maneuver",
-      "Pinard's maneuver",
-      "Woods screw maneuver"
-    ],
-    "correct": 0,
-    "explanation": "Ritgen maneuver — controlled delivery of fetal head to prevent perineal tear.",
-    "explanations": {
-      "A": "Ritgen maneuver — controlled delivery of fetal head to prevent perineal tear.",
-      "B": "McRoberts is for shoulder dystocia.",
-      "C": "Pinard's maneuver is used to deliver a breech (frank breech with extended legs).",
-      "D": "Woods screw is a shoulder-dystocia rotational maneuver."
-    },
-    "subject": "OBG",
-    "topic": "Labour maneuvers",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 69,
-    "_origId": "N9-52",
-    "question": "In a partograph, which line indicates abnormal labour progress?",
-    "options": [
-      "Alert line",
-      "Action line",
-      "Slow progress",
-      "No descent"
-    ],
-    "correct": 0,
-    "explanation": "Crossing the alert line (cervicograph drifts rightward) is the earliest warning of labour dystocia — mandates review.",
-    "explanations": {
-      "A": "Crossing the alert line (cervicograph drifts rightward) is the earliest warning of labour dystocia — mandates review.",
-      "B": "Action line crossing demands active intervention/transfer, but the alert line is the first abnormal signal.",
-      "C": "Not a labelled partograph line.",
-      "D": "Not a labelled partograph line."
-    },
-    "subject": "OBG",
-    "topic": "Partograph",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "recall",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 70,
-    "_origId": "N9-53",
-    "question": "A patient in labour has cervical dilatation of 6 cm with contractions every 5 minutes. What is the appropriate nursing action?",
-    "options": [
-      "Immediate augmentation",
-      "Monitor contractions and FHR",
-      "Prepare for delivery",
-      "Administer oxytocin"
-    ],
-    "correct": 1,
-    "explanation": "Appropriate action is continuous monitoring of contractions and FHR per standard intrapartum care.",
-    "explanations": {
-      "A": "Augmentation is indicated only if inadequate contractions persist; 6 cm with q5 min contractions is normal active labour.",
-      "B": "Appropriate action is continuous monitoring of contractions and FHR per standard intrapartum care.",
-      "C": "Delivery prep is for full dilatation (10 cm) and active pushing.",
-      "D": "Oxytocin is not needed with adequate progress."
-    },
-    "subject": "OBG",
-    "topic": "Active labour monitoring",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 71,
-    "_origId": "N9-54",
-    "question": "Identify the pattern shown in the CTG strip (FHR drop begins with contraction, nadir at peak, returns to baseline by end).",
-    "options": [
-      "Early deceleration",
-      "Fetal tachycardia",
-      "Fetal bradycardia",
-      "Late deceleration"
-    ],
-    "correct": 0,
-    "explanation": "Early deceleration mirrors the contraction (head compression) and is benign.",
-    "explanations": {
-      "A": "Early deceleration mirrors the contraction (head compression) and is benign.",
-      "B": "Tachycardia is sustained baseline >160 bpm.",
-      "C": "Bradycardia is sustained baseline <110 bpm.",
-      "D": "Late deceleration nadir occurs AFTER the contraction peak (uteroplacental insufficiency) — pathological."
-    },
-    "subject": "OBG",
-    "topic": "CTG interpretation",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "image",
-    "section": "midwifery",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 96,
-    "_origId": "N9-79",
-    "question": "A 28-year-old develops PPH after delivery and is referred from PHC. Which medication should the nurse prioritize?",
-    "options": [
-      "Misoprostol",
-      "Oxytocin",
-      "Tranexamic acid",
-      "Ergometrine"
-    ],
-    "correct": 1,
-    "explanation": "IV Oxytocin is the first-line uterotonic for PPH (part of AMTSL).",
-    "explanations": {
-      "A": "Misoprostol is a backup in settings without oxytocin availability.",
-      "B": "IV Oxytocin is the first-line uterotonic for PPH (part of AMTSL).",
-      "C": "TXA is adjunct within 3 hours of PPH; not first-line uterotonic.",
-      "D": "Ergometrine is second-line; contraindicated in hypertension."
-    },
-    "subject": "Community Health",
-    "topic": "PPH management",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
-    "year": 2025,
-    "qtype": "scenario",
-    "section": "community-health",
-    "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
-  },
-  {
-    "id": 1220,
-    "question": "Hysterosalpingogram (HSG) primarily uses which type of radiation imaging?",
-    "options": [
-      "MRI",
-      "X-ray with contrast",
-      "Ultrasound only",
-      "CT PET"
-    ],
-    "correct": 1,
-    "explanation": "• HSG is an X-ray fluoroscopic study with contrast to assess tubal patency.\n• Memory-based NORCET theme.",
-    "explanations": {
-      "A": "\"MRI\" is a plausible distractor but incorrect. The correct answer is B (\"X-ray with contrast\") — HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme.",
-      "B": "HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme.",
-      "C": "\"Ultrasound only\" is a plausible distractor but incorrect. The correct answer is B (\"X-ray with contrast\") — HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme.",
-      "D": "\"CT PET\" is a plausible distractor but incorrect. The correct answer is B (\"X-ray with contrast\") — HSG is an X-ray fluoroscopic study with contrast to assess tubal patency. Memory-based NORCET theme."
-    },
-    "subject": "Mixed",
-    "topic": "OBG / Radiology",
-    "day": 3,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 1234,
-    "question": "MTP Act (as commonly tested) allows termination up to:",
-    "options": [
-      "12 weeks only",
-      "20 weeks",
-      "24 weeks in many specified situations",
-      "36 weeks"
-    ],
-    "correct": 2,
-    "explanation": "• Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context.\n• Cross-check latest statute for your exam cycle.",
-    "explanations": {
-      "A": "\"12 weeks only\" is a plausible distractor but incorrect. The correct answer is C (\"24 weeks in many specified situations\") — Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle.",
-      "B": "\"20 weeks\" is a plausible distractor but incorrect. The correct answer is C (\"24 weeks in many specified situations\") — Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle.",
-      "C": "Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle.",
-      "D": "\"36 weeks\" is a plausible distractor but incorrect. The correct answer is C (\"24 weeks in many specified situations\") — Indian MTP amendments extended gestational limits in defined categories; exams often cite up to 24 weeks context. Cross-check latest statute for your exam cycle."
-    },
-    "subject": "Mixed",
-    "topic": "OBG / Legal",
-    "day": 3,
-    "difficulty": "Hard",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2021",
-    "qtype": "factual"
-  },
-  {
-    "id": 1235,
-    "question": "Spinal anesthesia monitoring should especially watch for:",
-    "options": [
-      "Hypertension only",
-      "Hypotension and bradycardia",
-      "Hyperglycemia",
-      "Seizures only"
-    ],
-    "correct": 1,
-    "explanation": "• Sympathetic block → hypotension/bradycardia common.\n• NORCET clinical theme.",
-    "explanations": {
-      "A": "\"Hypertension only\" is a plausible distractor but incorrect. The correct answer is B (\"Hypotension and bradycardia\") — Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
-      "B": "Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
-      "C": "\"Hyperglycemia\" is a plausible distractor but incorrect. The correct answer is B (\"Hypotension and bradycardia\") — Sympathetic block → hypotension/bradycardia common. NORCET clinical theme.",
-      "D": "\"Seizures only\" is a plausible distractor but incorrect. The correct answer is B (\"Hypotension and bradycardia\") — Sympathetic block → hypotension/bradycardia common. NORCET clinical theme."
-    },
-    "subject": "Mixed",
-    "topic": "Perioperative",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "AIIMS NO legacy",
-    "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
-  },
-  {
-    "id": 400,
-    "syllabusId": "gyn-1-vaginitis",
-    "question": "25-y-old with frothy yellow-green discharge, strawberry cervix on speculum.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
-      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …",
-      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
-      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs (Amsel criteria (3/4): homogeneous discharge, pH >4.5, +whiff test, clue cells.)",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs. BV (Gardnerella): gray fishy discharge, pH >4.5, clue cells — metronidazole.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Vaginitis",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 401,
-    "syllabusId": "gyn-2-pelvic-inflammatory-disease-pid",
-    "question": "22-y-old with lower abdominal pain, fever 38.5, purulent cervical discharge, cervical motion tenderness.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
-      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
-      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
-      "Instruct 3-day abstinence, sterile masturbation collection, keep sample at body temp, deliver to lab within 1 h"
-    ],
-    "correct": 1,
-    "explanation": "Priority: NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Correct — per the note, the priority action is: NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use. Organisms: N. gonorrhoeae, C. trachomatis, anaerobes.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Pelvic inflammatory disease (PID)",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 402,
-    "syllabusId": "gyn-3-syndromic-management-of-pid-and-vaginitis",
-    "question": "PHC: 24-y-old with lower abdominal pain and discharge.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
-      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
-      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
-      "NAAT for GC/CT, start ceftriaxone IM + oral doxy + metronidazole, counsel about partner treatment and condom use"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days. Kit 1 (urethral/anorectal discharge): kanamycin + doxycycline.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Syndromic management of PID and vaginitis",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "Medium",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "should"
-    ]
-  },
-  {
-    "id": 403,
-    "syllabusId": "gyn-4-emergency-contraceptives",
-    "question": "20-y-old student 18 h after unprotected sex.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
-      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
-      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
-      "Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception (Not abortifacient — prevents ovulation/implantation.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception. Levonorgestrel 1.5 mg single dose within 72 h (best <24 h)."
-    },
-    "subject": "OBG",
-    "topic": "Emergency contraceptives",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 404,
-    "syllabusId": "gyn-5-intrauterine-device-cu-t",
-    "question": "P2 wants long-term reversible contraception.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks",
-      "Use NACO Kit 6 for PID, counsel both partners, schedule follow-up in 7 days",
-      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
-      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in …"
-    ],
-    "correct": 0,
-    "explanation": "Priority: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks (Check threads monthly; PID risk highest first 3 weeks.)",
-    "explanations": {
-      "A": "Correct — per the note, the priority action is: Rule out pregnancy/PID, insert Cu-T 380A in lithotomy with sponge forceps, teach thread check, follow up at 6 weeks. Cu-T 380A: 10 years; Cu-T 375: 5 years.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Intrauterine device (Cu-T)",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 405,
-    "syllabusId": "gyn-6-ocp-mala-d-mala-n-absolute-contraindications",
-    "question": "32-y-old smoker requests OCP.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
-      "Counsel on irreversibility, schedule NSV, advise back-up contraception x3 months until azoospermia, document consent",
-      "Counsel 2-dose schedule (0 and 6 mo), administer first dose IM deltoid, document, schedule 2nd",
-      "Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC"
-    ],
-    "correct": 3,
-    "explanation": "Priority: Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC (Break-through bleeding common first 3 cycles.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Reflects management of a different scenario; not the priority for the stem described.",
-      "D": "Correct — per the note, the priority action is: Assess: age 32 + smoker is MEC category 3 if <15 cig, category 4 if >=15 — counsel alternative (DMPA, IUD); avoid COC. MALA-D: subsidized COC — levonorgestrel 0.15 mg + ethinyl estradiol 0.03 mg (7 Fe tabs)."
-    },
-    "subject": "OBG",
-    "topic": "OCP — MALA-D, MALA-N, absolute contraindications",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
-  },
-  {
-    "id": 406,
-    "syllabusId": "gyn-7-pap-smear",
-    "question": "35-y-old for routine screening.\n\nWhat is the nurse's immediate priority action?",
-    "options": [
-      "Wet mount for trichomonads, start metronidazole 2 g PO stat for patient AND partner, screen for other STIs",
-      "Refer to gyne-oncology, document tumor markers, psychological support, prep for staging laparotomy",
-      "Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal",
-      "Administer LNG 1.5 mg stat, counsel about mild nausea, advise repeat if vomits within 2 h, offer ongoing contraception"
-    ],
-    "correct": 2,
-    "explanation": "Priority: Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal (VIA (visual inspection with acetic acid) alternative in resource-limited settings.)",
-    "explanations": {
-      "A": "Reflects management of a different scenario; not the priority for the stem described.",
-      "B": "Reflects management of a different scenario; not the priority for the stem described.",
-      "C": "Correct — per the note, the priority action is: Prepare speculum, obtain sample from transformation zone with brush + spatula, send in fixative or liquid-based cytology, schedule next in 5 y if normal. Start at 21 y (USA); India: every 5 y from 30-65 y per screening program.",
-      "D": "Reflects management of a different scenario; not the priority for the stem described."
-    },
-    "subject": "OBG",
-    "topic": "Pap smear",
-    "section": "gyn",
-    "day": 3,
-    "difficulty": "High",
-    "source": "NORCET High-Yield Generator v1",
-    "year": 2025,
-    "qtype": "scenario",
-    "tags": [
-      "scenario",
-      "highyield",
-      "must"
-    ]
+    "_sourceFile": "norcet-8-mains-2025-recalls.json"
   }
 ]
