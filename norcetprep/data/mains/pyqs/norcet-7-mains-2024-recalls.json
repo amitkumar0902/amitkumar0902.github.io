@@ -2,7 +2,12 @@
   {
     "id": "N7-1",
     "question": "Episiotomy most commonly used in India:",
-    "options": ["Mediolateral", "Midline", "J-shaped", "Lateral"],
+    "options": [
+      "Mediolateral",
+      "Midline",
+      "J-shaped",
+      "Lateral"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -17,12 +22,19 @@
       "B": "Preferred in the USA but not standard in India due to higher severe-tear risk.",
       "C": "J-shaped is rarely used.",
       "D": "Lateral episiotomy is obsolete; abandoned due to complications."
-    }
+    },
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Mediolateral episiotomy reduces the risk of 3rd/4th-degree tears compared to midline; standard practice in India."
   },
   {
     "id": "N7-2",
     "question": "Triple-lumen catheter typically has:",
-    "options": ["1 port", "2 ports", "3 ports", "4 ports"],
+    "options": [
+      "1 port",
+      "2 ports",
+      "3 ports",
+      "4 ports"
+    ],
     "correct": 2,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -37,12 +49,19 @@
       "B": "Double-lumen.",
       "C": "Triple-lumen = 3 ports (distal, middle, proximal).",
       "D": "Quadruple-lumen is rare and has 4 ports."
-    }
+    },
+    "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e",
+    "explanation": "Triple-lumen = 3 ports (distal, middle, proximal)."
   },
   {
     "id": "N7-3",
     "question": "First intervention in hypovolemic shock:",
-    "options": ["Antibiotics", "Vasopressors", "IV fluid bolus", "Inotropes"],
+    "options": [
+      "Antibiotics",
+      "Vasopressors",
+      "IV fluid bolus",
+      "Inotropes"
+    ],
     "correct": 2,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -57,6 +76,8 @@
       "B": "Vasopressors are second-line after fluid resuscitation.",
       "C": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock.",
       "D": "Inotropes are for cardiogenic shock, not hypovolemic."
-    }
+    },
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing",
+    "explanation": "Crystalloid bolus 20–30 mL/kg is the first-line action in hypovolemic shock."
   }
 ]

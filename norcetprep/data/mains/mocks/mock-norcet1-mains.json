@@ -4,7 +4,6 @@
   "count": 30,
   "minutes": 60,
   "source": "NORCET 1 Mains 2020 — Recalls",
-  "verbatim": true,
   "subjects": {
     "Medical-Surgical": 7,
     "Psychiatric": 2,
@@ -45,7 +44,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 90,
@@ -77,7 +77,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 91,
@@ -109,7 +110,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 92,
@@ -141,7 +143,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 93,
@@ -173,7 +176,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 94,
@@ -205,7 +209,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 95,
@@ -237,7 +242,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 96,
@@ -269,7 +275,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 97,
@@ -301,7 +308,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 9
+      "mockSeq": 9,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 98,
@@ -333,7 +341,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 10
+      "mockSeq": 10,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 99,
@@ -365,7 +374,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 11
+      "mockSeq": 11,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 100,
@@ -397,7 +407,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 12
+      "mockSeq": 12,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 101,
@@ -429,7 +440,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 13
+      "mockSeq": 13,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 102,
@@ -461,7 +473,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 14
+      "mockSeq": 14,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 103,
@@ -493,7 +506,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 15
+      "mockSeq": 15,
+      "citation": "DC Dutta's Textbook of Gynecology 8e"
     },
     {
       "id": 104,
@@ -525,7 +539,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 16
+      "mockSeq": 16,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 105,
@@ -557,7 +572,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 17
+      "mockSeq": 17,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 106,
@@ -589,7 +605,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 18
+      "mockSeq": 18,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 107,
@@ -621,7 +638,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 19
+      "mockSeq": 19,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 108,
@@ -653,7 +671,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 20
+      "mockSeq": 20,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 109,
@@ -685,7 +704,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 21
+      "mockSeq": 21,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 110,
@@ -717,7 +737,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 22
+      "mockSeq": 22,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 111,
@@ -749,7 +770,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 23
+      "mockSeq": 23,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 112,
@@ -781,7 +803,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 24
+      "mockSeq": 24,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 113,
@@ -813,7 +836,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 25
+      "mockSeq": 25,
+      "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines"
     },
     {
       "id": 114,
@@ -845,7 +869,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 26
+      "mockSeq": 26,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 115,
@@ -877,7 +902,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 27
+      "mockSeq": 27,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 116,
@@ -909,7 +935,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 28
+      "mockSeq": 28,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 117,
@@ -941,7 +968,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 29
+      "mockSeq": 29,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 118,
@@ -973,7 +1001,9 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 30
+      "mockSeq": 30,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     }
-  ]
+  ],
+  "recall": true
 }

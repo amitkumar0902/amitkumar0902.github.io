@@ -4,7 +4,6 @@
   "count": 3,
   "minutes": 60,
   "source": "NORCET 7 Mains 2024 — Recalls",
-  "verbatim": true,
   "subjects": {
     "OBG": 1,
     "Fundamentals": 1,
@@ -39,7 +38,8 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-7-mains-2024-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 208,
@@ -69,7 +69,8 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-7-mains-2024-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 209,
@@ -99,7 +100,9 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-7-mains-2024-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     }
-  ]
+  ],
+  "recall": true
 }

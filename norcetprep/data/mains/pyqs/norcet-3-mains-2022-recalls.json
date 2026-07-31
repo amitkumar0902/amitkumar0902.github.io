@@ -2,7 +2,12 @@
   {
     "id": "N3-1",
     "question": "According to revised Bio-Medical Waste (BMW) management guidelines, in which colour bag should a placenta be discarded?",
-    "options": ["Yellow", "Red", "Blue", "Black"],
+    "options": [
+      "Yellow",
+      "Red",
+      "Blue",
+      "Black"
+    ],
     "correct": 0,
     "section": "community-health",
     "subject": "Community Health",
@@ -18,12 +23,21 @@
       "C": "Blue/white translucent puncture-proof container is for glass and metallic body implants.",
       "D": "Black bag is no longer a category in current BMW colour coding."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Bio-Medical Waste (Management) Rules 2016 — Schedule I",
+    "explanation": "Anatomical/human tissue waste, including placenta and body parts, goes in the YELLOW non-chlorinated plastic bag and is disposed of by incineration / deep burial as per BMWM Rules 2016 (amended)."
   },
   {
     "id": "N3-2",
     "question": "A post-operative patient is on heparin and develops bleeding from the surgical site. Which drug should the nurse keep ready as the antidote?",
-    "options": ["Protamine sulphate", "Vitamin K", "Naloxone", "Aminocaproic acid"],
+    "options": [
+      "Protamine sulphate",
+      "Vitamin K",
+      "Naloxone",
+      "Aminocaproic acid"
+    ],
     "correct": 0,
     "section": "pharmacology",
     "subject": "Pharmacology",
@@ -39,12 +53,21 @@
       "C": "Naloxone reverses opioid overdose, not heparin.",
       "D": "Aminocaproic acid is used for fibrinolytic bleeding (e.g., tPA), not heparin reversal."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "Protamine sulphate, a strongly basic protein, neutralises acidic heparin to form an inactive complex; 1 mg neutralises ~100 IU heparin given in last 15 min."
   },
   {
     "id": "N3-3",
     "question": "A primigravida at 28 weeks presents with painless, bright-red vaginal bleeding. The most likely diagnosis is:",
-    "options": ["Placenta previa", "Abruptio placentae", "Threatened abortion", "Vasa previa"],
+    "options": [
+      "Placenta previa",
+      "Abruptio placentae",
+      "Threatened abortion",
+      "Vasa previa"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -60,12 +83,21 @@
       "C": "Threatened abortion occurs before 20 weeks with bleeding through a closed cervix.",
       "D": "Vasa previa is rare; bleeding follows membrane rupture and rapidly causes fetal distress."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Painless, recurrent, bright-red bleeding after 24 weeks is the classic triad of placenta previa, where the placenta implants over/near the internal os."
   },
   {
     "id": "N3-4",
     "question": "What is the correct route for administering the Mantoux (PPD) tuberculin skin test?",
-    "options": ["Intradermal", "Subcutaneous", "Intramuscular", "Intravenous"],
+    "options": [
+      "Intradermal",
+      "Subcutaneous",
+      "Intramuscular",
+      "Intravenous"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -81,12 +113,21 @@
       "C": "IM administration bypasses the dermal lymphatics needed for the delayed-type hypersensitivity reaction.",
       "D": "IV is never used for skin testing."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "0.1 mL of PPD is injected intradermally into the volar (flexor) surface of the forearm at a 5–15° angle to raise a 6–10 mm wheal; reading is taken at 48–72 h."
   },
   {
     "id": "N3-5",
     "question": "What is the correct angle of needle insertion for an intradermal injection?",
-    "options": ["15°", "45°", "60°", "90°"],
+    "options": [
+      "15°",
+      "45°",
+      "60°",
+      "90°"
+    ],
     "correct": 0,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -102,12 +143,21 @@
       "C": "60° has no standard injection use.",
       "D": "90° is the IM angle."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e",
+    "explanation": "Intradermal (ID) injections use a 5–15° angle, bevel up, with a tuberculin syringe to deposit the drug just under the epidermis."
   },
   {
     "id": "N3-6",
     "question": "Which is the preferred site of intramuscular injection in an infant under 12 months of age?",
-    "options": ["Vastus lateralis", "Deltoid", "Dorsogluteal", "Ventrogluteal"],
+    "options": [
+      "Vastus lateralis",
+      "Deltoid",
+      "Dorsogluteal",
+      "Ventrogluteal"
+    ],
     "correct": 0,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -123,7 +173,11 @@
       "C": "Dorsogluteal is avoided because of risk of sciatic nerve injury, especially in infants.",
       "D": "Ventrogluteal is acceptable from 7 months upward but vastus lateralis remains preferred under 12 months."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "The vastus lateralis (anterolateral thigh) is the IM site of choice in infants <12 months — large muscle mass, free of major nerves and vessels."
   },
   {
     "id": "N3-7",
@@ -149,12 +203,21 @@
       "C": "Prone is rarely used and reserved for fluoroscopy-guided LP.",
       "D": "Trendelenburg is for shock, not LP."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Left lateral decubitus with knees drawn to abdomen and chin to chest (fetal position) widens the L3–L4/L4–L5 interspinous space for needle entry."
   },
   {
     "id": "N3-8",
     "question": "Which gas is used for abdominal insufflation during laparoscopy?",
-    "options": ["Carbon dioxide", "Nitrous oxide", "Oxygen", "Helium"],
+    "options": [
+      "Carbon dioxide",
+      "Nitrous oxide",
+      "Oxygen",
+      "Helium"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -170,12 +233,21 @@
       "C": "Oxygen is highly combustible — contraindicated.",
       "D": "Helium is more expensive and less soluble, raising embolism risk."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "CO₂ is used because it is non-flammable, highly soluble in blood (low embolism risk), inexpensive, and rapidly cleared via the lungs."
   },
   {
     "id": "N3-9",
     "question": "Which of the following is a NEGATIVE symptom of schizophrenia?",
-    "options": ["Anhedonia", "Hallucination", "Delusion", "Disorganised speech"],
+    "options": [
+      "Anhedonia",
+      "Hallucination",
+      "Delusion",
+      "Disorganised speech"
+    ],
     "correct": 0,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -191,12 +263,21 @@
       "C": "Delusions are positive symptoms.",
       "D": "Disorganised speech/behaviour is a positive symptom."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e",
+    "explanation": "Anhedonia (inability to feel pleasure), avolition, alogia, blunted affect and asociality are negative symptoms — deficits of normal function."
   },
   {
     "id": "N3-10",
     "question": "What does the P wave on a normal ECG represent?",
-    "options": ["Atrial depolarisation", "Ventricular depolarisation", "Ventricular repolarisation", "Atrial repolarisation"],
+    "options": [
+      "Atrial depolarisation",
+      "Ventricular depolarisation",
+      "Ventricular repolarisation",
+      "Atrial repolarisation"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -212,12 +293,21 @@
       "C": "Ventricular repolarisation is the T wave.",
       "D": "Atrial repolarisation is buried within the QRS and not normally visible."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "P wave reflects atrial depolarisation initiated by the SA node; normal duration <0.12 s, amplitude <2.5 mm."
   },
   {
     "id": "N3-11",
     "question": "According to Freud's structural model, which part of the mind operates on the 'reality principle'?",
-    "options": ["Ego", "Id", "Superego", "Preconscious"],
+    "options": [
+      "Ego",
+      "Id",
+      "Superego",
+      "Preconscious"
+    ],
     "correct": 0,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -233,12 +323,21 @@
       "C": "Superego operates on the 'morality principle'.",
       "D": "Preconscious is a level of awareness, not a structural component."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e",
+    "explanation": "The Ego mediates between Id and Superego using the 'reality principle' to delay gratification until socially acceptable."
   },
   {
     "id": "N3-12",
     "question": "Age-related sensorineural hearing loss is termed:",
-    "options": ["Presbycusis", "Tinnitus", "Meniere's disease", "Otosclerosis"],
+    "options": [
+      "Presbycusis",
+      "Tinnitus",
+      "Meniere's disease",
+      "Otosclerosis"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -254,7 +353,11 @@
       "C": "Meniere's involves episodic vertigo, fluctuating SNHL and tinnitus from endolymphatic hydrops.",
       "D": "Otosclerosis is conductive hearing loss in younger adults from stapes fixation."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Presbycusis is bilateral, symmetrical, high-frequency sensorineural hearing loss due to cochlear hair-cell degeneration with age."
   },
   {
     "id": "N3-13",
@@ -280,12 +383,21 @@
       "C": "True — actions must follow universal moral rules.",
       "D": "True — Kant's categorical imperative is the foundational deontological framework."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "BT Basavanthappa Nursing Administration 3e",
+    "explanation": "FALSE statement (so this is the answer). Deontology judges acts by adherence to duty/rules, NOT consequences — that describes utilitarianism/consequentialism."
   },
   {
     "id": "N3-14",
     "question": "Which is the most common type of episiotomy performed?",
-    "options": ["Mediolateral", "Median (midline)", "J-shaped", "Lateral"],
+    "options": [
+      "Mediolateral",
+      "Median (midline)",
+      "J-shaped",
+      "Lateral"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -301,12 +413,21 @@
       "C": "J-shaped is rarely used due to poor healing.",
       "D": "Lateral causes excessive bleeding from Bartholin gland and is essentially abandoned."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Mediolateral is most commonly used in India because it has lower risk of extension into the anal sphincter (3rd/4th degree tears) than median."
   },
   {
     "id": "N3-15",
     "question": "The first perception of fetal movements by a pregnant woman is called:",
-    "options": ["Quickening", "Lightening", "Engagement", "Ballottement"],
+    "options": [
+      "Quickening",
+      "Lightening",
+      "Engagement",
+      "Ballottement"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -322,12 +443,21 @@
       "C": "Engagement is descent of the largest fetal head diameter through the pelvic inlet.",
       "D": "Ballottement is an examiner's finding, not a maternal sensation."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Quickening is felt around 18–20 weeks in primigravidae and ~16 weeks in multigravidae — used to estimate EDD."
   },
   {
     "id": "N3-16",
     "question": "At what week of gestation does the uterine fundus reach the level of the xiphisternum?",
-    "options": ["36 weeks", "20 weeks", "28 weeks", "40 weeks"],
+    "options": [
+      "36 weeks",
+      "20 weeks",
+      "28 weeks",
+      "40 weeks"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -343,12 +473,21 @@
       "C": "At 28 weeks fundus is midway between umbilicus and xiphisternum.",
       "D": "By 40 weeks, fundal height drops slightly below xiphisternum due to engagement."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Fundus reaches the xiphisternum at ~36 weeks; thereafter it descends with lightening."
   },
   {
     "id": "N3-17",
     "question": "Which is a NON-modifiable risk factor for type 2 diabetes mellitus?",
-    "options": ["Age", "Obesity", "Physical inactivity", "Diet"],
+    "options": [
+      "Age",
+      "Obesity",
+      "Physical inactivity",
+      "Diet"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -364,12 +503,21 @@
       "C": "Physical inactivity is modifiable.",
       "D": "Dietary habits are modifiable."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Age (and ethnicity, family history, genetics) cannot be changed — these are non-modifiable risk factors."
   },
   {
     "id": "N3-18",
     "question": "Providing ergonomic furniture (e.g., desks designed to prevent neck/back problems) is an example of which level of prevention?",
-    "options": ["Primary prevention", "Secondary prevention", "Tertiary prevention", "Primordial prevention"],
+    "options": [
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention",
+      "Primordial prevention"
+    ],
     "correct": 0,
     "section": "community-health",
     "subject": "Community Health",
@@ -385,12 +533,21 @@
       "C": "Tertiary = limiting disability and rehabilitation after disease.",
       "D": "Primordial prevention targets underlying conditions/risk-factor establishment in populations (broader)."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e",
+    "explanation": "Primary prevention acts before disease onset to reduce risk — ergonomic design (specific protection) prevents musculoskeletal injury."
   },
   {
     "id": "N3-19",
     "question": "The biochemical marker most useful in distinguishing pre-eclampsia from gestational hypertension is:",
-    "options": ["Raised serum uric acid", "Raised blood urea", "Decreased haemoglobin", "Raised serum creatinine"],
+    "options": [
+      "Raised serum uric acid",
+      "Raised blood urea",
+      "Decreased haemoglobin",
+      "Raised serum creatinine"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -406,12 +563,21 @@
       "C": "Hb usually rises (haemoconcentration) in pre-eclampsia, not falls.",
       "D": "Creatinine rises only in advanced/severe disease."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Hyperuricaemia (>5.5 mg/dL) reflects reduced renal urate clearance and trophoblast ischaemia, and correlates with severity in pre-eclampsia."
   },
   {
     "id": "N3-20",
     "question": "What is the normal respiratory rate of a healthy newborn?",
-    "options": ["40–60/min", "20–30/min", "12–20/min", "70–90/min"],
+    "options": [
+      "40–60/min",
+      "20–30/min",
+      "12–20/min",
+      "70–90/min"
+    ],
     "correct": 0,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -427,12 +593,21 @@
       "C": "12–20/min is the adult rate.",
       "D": "70–90/min represents severe tachypnoea and is pathological."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "Normal newborn RR is 40–60/min; <30 or >60 is abnormal and suggests respiratory distress or apnoea."
   },
   {
     "id": "N3-21",
     "question": "Janani Suraksha Yojana (JSY) was launched in India in which year?",
-    "options": ["2005", "2002", "2010", "2013"],
+    "options": [
+      "2005",
+      "2002",
+      "2010",
+      "2013"
+    ],
     "correct": 0,
     "section": "community-health",
     "subject": "Community Health",
@@ -448,7 +623,11 @@
       "C": "JSSK (Janani Shishu Suraksha Karyakram) was launched in 2011, not JSY.",
       "D": "Mission Indradhanush (immunisation) was launched in 2014."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India",
+    "explanation": "JSY was launched on 12 April 2005 under NRHM to promote institutional delivery and reduce MMR/IMR through cash incentives."
   },
   {
     "id": "N3-22",
@@ -474,12 +653,21 @@
       "C": "That was the 2020 theme (Year of the Nurse and Midwife).",
       "D": "Was the 2019 theme — 'Health for All'."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "BT Basavanthappa Nursing Administration 3e",
+    "explanation": "ICN's official 2021 theme was 'Nurses: A Voice to Lead — A Vision for Future Healthcare'."
   },
   {
     "id": "N3-23",
     "question": "A patient with a head injury opens eyes only to painful stimuli, withdraws from pain, and gives confused conversation. What is his GCS score?",
-    "options": ["10", "8", "12", "6"],
+    "options": [
+      "10",
+      "8",
+      "12",
+      "6"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -495,12 +683,21 @@
       "C": "12 would require eye opening to voice and oriented speech.",
       "D": "6 implies almost no responses — this patient still localises and converses."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Eye to pain = 2, withdraws from pain (motor) = 4, confused conversation (verbal) = 4. Total = 10."
   },
   {
     "id": "N3-24",
     "question": "Which vaccine should be given as soon as possible after birth (within 24 hours)?",
-    "options": ["Hepatitis B (birth dose)", "BCG", "OPV-0", "DPT"],
+    "options": [
+      "Hepatitis B (birth dose)",
+      "BCG",
+      "OPV-0",
+      "DPT"
+    ],
     "correct": 0,
     "section": "community-health",
     "subject": "Community Health",
@@ -516,12 +713,21 @@
       "C": "OPV-0 is given at birth, but its window extends up to 15 days.",
       "D": "DPT begins at 6 weeks, not at birth."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "explanation": "WHO and India's UIP recommend Hepatitis B birth dose within 24 hours of birth to prevent perinatal transmission. (BCG and OPV-0 are also given at birth, but the strict <24-hour window is unique to Hep B.)"
   },
   {
     "id": "N3-25",
     "question": "Which vaccine should be stored in the FREEZER compartment of the ILR/deep freezer?",
-    "options": ["OPV", "DPT", "Tetanus toxoid", "Hepatitis B"],
+    "options": [
+      "OPV",
+      "DPT",
+      "Tetanus toxoid",
+      "Hepatitis B"
+    ],
     "correct": 0,
     "section": "community-health",
     "subject": "Community Health",
@@ -537,12 +743,21 @@
       "C": "Tetanus toxoid is freeze-sensitive — stored at +2 to +8 °C.",
       "D": "Hepatitis B is freeze-sensitive — stored at +2 to +8 °C."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "explanation": "OPV (and historically Measles freeze-dried vaccine) is stored at –15 to –25 °C in the deep freezer because it is heat-sensitive and freeze-stable."
   },
   {
     "id": "N3-26",
     "question": "ASHA (Accredited Social Health Activist) workers function primarily at which level?",
-    "options": ["Village / community", "Sub-centre", "PHC", "District hospital"],
+    "options": [
+      "Village / community",
+      "Sub-centre",
+      "PHC",
+      "District hospital"
+    ],
     "correct": 0,
     "section": "community-health",
     "subject": "Community Health",
@@ -558,12 +773,21 @@
       "C": "PHC is a medical-officer level institution.",
       "D": "District hospital is secondary care — ASHAs do not work there."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India",
+    "explanation": "Under NRHM (2005), one ASHA is selected per ~1000 population in rural villages as the first community-level health volunteer linking households to the health system."
   },
   {
     "id": "N3-27",
     "question": "An HIV-positive patient undergoing a Mantoux test — what minimum induration size is considered POSITIVE for tuberculosis infection?",
-    "options": ["5 mm", "10 mm", "15 mm", "20 mm"],
+    "options": [
+      "5 mm",
+      "10 mm",
+      "15 mm",
+      "20 mm"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -579,12 +803,21 @@
       "C": "≥15 mm is the cut-off in low-risk healthy individuals.",
       "D": "20 mm is not a recognised cut-off."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines",
+    "explanation": "CDC criteria: ≥5 mm is positive in HIV-positive, recent TB contacts, organ transplant, immunosuppressed and CXR-fibrotic-TB patients."
   },
   {
     "id": "N3-28",
     "question": "The fetal presentation in which the largest presenting diameter (mento-vertical, ~13.5 cm) makes vaginal delivery almost impossible is:",
-    "options": ["Brow presentation", "Vertex", "Face (mento-anterior)", "Breech"],
+    "options": [
+      "Brow presentation",
+      "Vertex",
+      "Face (mento-anterior)",
+      "Breech"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -600,12 +833,21 @@
       "C": "Mento-anterior face can deliver vaginally (submento-bregmatic ~9.5 cm).",
       "D": "Breech delivers vaginally in selected cases; not the largest-diameter presentation."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Brow presentation (partial extension) presents the mento-vertical diameter (~13.5 cm) — too large for the average pelvis, so persistent brow needs caesarean."
   },
   {
     "id": "N3-29",
     "question": "Bleuler's classic '4 A's' of schizophrenia include all of the following EXCEPT:",
-    "options": ["Anhedonia", "Affect (blunted)", "Associations (loose)", "Ambivalence"],
+    "options": [
+      "Anhedonia",
+      "Affect (blunted)",
+      "Associations (loose)",
+      "Ambivalence"
+    ],
     "correct": 0,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -621,12 +863,21 @@
       "C": "Loose Associations (formal thought disorder) is included.",
       "D": "Ambivalence (simultaneous opposite feelings) is included; the 4th is Autism (withdrawal into inner world)."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e",
+    "explanation": "Bleuler's 4 A's are Affect (blunted), Associations (loose), Ambivalence, Autism — NOT anhedonia (which is a modern negative symptom but not in Bleuler's list)."
   },
   {
     "id": "N3-30",
     "question": "An adult patient is found unresponsive and pulseless. According to current BLS guidelines, what is the recommended chest compression rate?",
-    "options": ["100–120/min", "60–80/min", "30–50/min", "140–160/min"],
+    "options": [
+      "100–120/min",
+      "60–80/min",
+      "30–50/min",
+      "140–160/min"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -642,6 +893,10 @@
       "C": "Far too slow.",
       "D": "Too fast — reduces depth and recoil, lowering perfusion."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support",
+    "explanation": "AHA 2020 BLS: compress at 100–120/min, depth 5–6 cm (2–2.4 in), allow full recoil, minimise interruptions; compression-to-ventilation 30:2 (single rescuer adult)."
   }
 ]

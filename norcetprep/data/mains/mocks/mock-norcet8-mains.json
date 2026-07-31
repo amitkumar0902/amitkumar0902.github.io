@@ -4,7 +4,6 @@
   "count": 6,
   "minutes": 60,
   "source": "NORCET 8 Mains 2025 — Recalls",
-  "verbatim": true,
   "subjects": {
     "Community Health": 1,
     "Pediatric": 1,
@@ -40,7 +39,8 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 211,
@@ -70,7 +70,8 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 212,
@@ -100,7 +101,8 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 213,
@@ -130,7 +132,8 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 214,
@@ -160,7 +163,8 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 215,
@@ -190,7 +194,9 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     }
-  ]
+  ],
+  "recall": true
 }

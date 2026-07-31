@@ -2,7 +2,12 @@
   {
     "id": "N1-1",
     "question": "Burn percentage in an adult is best estimated using:",
-    "options": ["Rule of Nine", "Lund-Browder chart", "Palmar method", "Parkland formula"],
+    "options": [
+      "Rule of Nine",
+      "Lund-Browder chart",
+      "Palmar method",
+      "Parkland formula"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -18,12 +23,21 @@
       "C": "Patient's palm ≈ 1% TBSA — useful for small/scattered burns only.",
       "D": "Calculates fluid volume after % TBSA is determined, not the % itself."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing",
+    "explanation": "Wallace's Rule of Nines divides adult body surface area into multiples of 9 (head 9%, each arm 9%, each leg 18%, anterior trunk 18%, posterior trunk 18%, perineum 1%) for rapid bedside burn estimation."
   },
   {
     "id": "N1-2",
     "question": "Cardiac troponin level is most useful in diagnosing:",
-    "options": ["Myocardial infarction", "Pulmonary embolism", "Heart failure", "Pericarditis"],
+    "options": [
+      "Myocardial infarction",
+      "Pulmonary embolism",
+      "Heart failure",
+      "Pericarditis"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -39,12 +53,21 @@
       "C": "BNP/NT-proBNP is the failure-specific marker.",
       "D": "Diagnosed by ECG (diffuse ST elevation) and echo, not troponin."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Troponin I and T are highly specific cardiac muscle proteins released after myocyte injury; they rise within 3-6 h, peak at 24 h, and remain elevated up to 10-14 days, making them the gold-standard MI marker."
   },
   {
     "id": "N1-3",
     "question": "Which type of shock results from a severe allergic reaction?",
-    "options": ["Cardiogenic shock", "Anaphylactic shock", "Hypovolemic shock", "Septic shock"],
+    "options": [
+      "Cardiogenic shock",
+      "Anaphylactic shock",
+      "Hypovolemic shock",
+      "Septic shock"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -60,12 +83,21 @@
       "C": "Caused by blood/fluid loss.",
       "D": "Caused by overwhelming infection and dysregulated host response."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing",
+    "explanation": "Anaphylactic (distributive) shock is an IgE-mediated hypersensitivity causing massive vasodilation, capillary leak and bronchospasm; first-line treatment is IM adrenaline 0.5 mg in the anterolateral thigh."
   },
   {
     "id": "N1-4",
     "question": "Mannitol is given to a head-injury patient mainly to:",
-    "options": ["Reduce blood pressure", "Reduce pulse rate", "Decrease intracranial pressure", "Decrease body temperature"],
+    "options": [
+      "Reduce blood pressure",
+      "Reduce pulse rate",
+      "Decrease intracranial pressure",
+      "Decrease body temperature"
+    ],
     "correct": 2,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -81,12 +113,21 @@
       "C": "Mannitol is an osmotic diuretic that draws fluid from brain tissue into the intravascular space, lowering ICP. Typical dose 0.25-1 g/kg IV over 15-30 min; monitor serum osmolality and urine output.",
       "D": "Antipyretics or cooling, not mannitol."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Mannitol is an osmotic diuretic that draws fluid from brain tissue into the intravascular space, lowering ICP. Typical dose 0.25-1 g/kg IV over 15-30 min; monitor serum osmolality and urine output."
   },
   {
     "id": "N1-5",
     "question": "The most common form of dementia is:",
-    "options": ["Alzheimer's disease", "Vascular dementia", "Frontotemporal dementia", "Lewy body dementia"],
+    "options": [
+      "Alzheimer's disease",
+      "Vascular dementia",
+      "Frontotemporal dementia",
+      "Lewy body dementia"
+    ],
     "correct": 0,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -102,12 +143,21 @@
       "C": "Younger onset, prominent personality/behaviour changes — less common.",
       "D": "Visual hallucinations and parkinsonism — less common."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e",
+    "explanation": "Alzheimer's accounts for 60-70% of dementia worldwide; it is characterised by amyloid plaques, neurofibrillary tangles and progressive loss of recent memory and executive function."
   },
   {
     "id": "N1-6",
     "question": "First aid for a chemical splash to the eye is to:",
-    "options": ["Wash the eye thoroughly with water", "Apply antibiotic eye drops", "Cover the eye with a sterile pad", "Refer immediately without first aid"],
+    "options": [
+      "Wash the eye thoroughly with water",
+      "Apply antibiotic eye drops",
+      "Cover the eye with a sterile pad",
+      "Refer immediately without first aid"
+    ],
     "correct": 0,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -123,12 +173,21 @@
       "C": "Trapping chemical against the eye worsens injury.",
       "D": "Delaying irrigation allows continuing chemical burn."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e",
+    "explanation": "Immediate copious irrigation with clean water or saline for at least 15-20 minutes dilutes the chemical, neutralises pH and is the single most important measure to limit corneal damage."
   },
   {
     "id": "N1-7",
     "question": "Universal blood donor group is:",
-    "options": ["O positive", "O negative", "AB positive", "AB negative"],
+    "options": [
+      "O positive",
+      "O negative",
+      "AB positive",
+      "AB negative"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -144,12 +203,21 @@
       "C": "AB+ is the universal recipient, not donor.",
       "D": "AB negative is universal plasma donor, not RBC donor."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "O-negative red cells carry neither A, B nor Rh(D) antigens, so they can be transfused to recipients of any ABO/Rh group in emergencies — hence 'universal donor'."
   },
   {
     "id": "N1-8",
     "question": "A pressure ulcer with exposed bone, tendon, or muscle is classified as:",
-    "options": ["Stage I", "Stage II", "Stage III", "Stage IV"],
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
     "correct": 3,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -165,12 +233,21 @@
       "C": "Full-thickness skin loss with visible subcutaneous fat — bone/tendon NOT exposed.",
       "D": "NPIAP Stage IV is full-thickness loss with exposed bone, tendon or muscle, often with undermining/tunneling and high risk of osteomyelitis."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e",
+    "explanation": "NPIAP Stage IV is full-thickness loss with exposed bone, tendon or muscle, often with undermining/tunneling and high risk of osteomyelitis."
   },
   {
     "id": "N1-9",
     "question": "Which procedure mandatorily requires surgical asepsis?",
-    "options": ["Oral medication administration", "Urinary catheterization", "Bed bath", "NG tube feeding"],
+    "options": [
+      "Oral medication administration",
+      "Urinary catheterization",
+      "Bed bath",
+      "NG tube feeding"
+    ],
     "correct": 1,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -186,12 +263,21 @@
       "C": "Clean technique sufficient.",
       "D": "Clean technique sufficient; gut is non-sterile."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e",
+    "explanation": "The bladder is normally sterile; introducing a Foley breaches that barrier and demands sterile gloves, sterile drape, sterile catheter and sterile lubricant to prevent CAUTI."
   },
   {
     "id": "N1-10",
     "question": "Anterior fontanelle in an infant normally closes by:",
-    "options": ["6 months", "12 to 18 months", "24 to 30 months", "36 months"],
+    "options": [
+      "6 months",
+      "12 to 18 months",
+      "24 to 30 months",
+      "36 months"
+    ],
     "correct": 1,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -207,12 +293,21 @@
       "C": "Beyond normal range — raises suspicion of pathology.",
       "D": "Far beyond normal range."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "The diamond-shaped anterior fontanelle (≈3-4 cm at birth) closes between 12 and 18 months; delayed closure suggests rickets, hypothyroidism or hydrocephalus."
   },
   {
     "id": "N1-11",
     "question": "Failure of the foramen ovale to close at birth results in:",
-    "options": ["Ventricular septal defect", "Patent ductus arteriosus", "Atrial septal defect", "Tetralogy of Fallot"],
+    "options": [
+      "Ventricular septal defect",
+      "Patent ductus arteriosus",
+      "Atrial septal defect",
+      "Tetralogy of Fallot"
+    ],
     "correct": 2,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -228,12 +323,21 @@
       "C": "The foramen ovale is the fetal opening between the two atria; failure to close after birth produces a secundum-type ASD with left-to-right shunt.",
       "D": "TOF is a four-component anomaly involving VSD, PS, RVH and overriding aorta — not foramen ovale."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "The foramen ovale is the fetal opening between the two atria; failure to close after birth produces a secundum-type ASD with left-to-right shunt."
   },
   {
     "id": "N1-12",
     "question": "Touching the cheek of a newborn elicits which reflex?",
-    "options": ["Moro reflex", "Rooting reflex", "Babinski reflex", "Tonic neck reflex"],
+    "options": [
+      "Moro reflex",
+      "Rooting reflex",
+      "Babinski reflex",
+      "Tonic neck reflex"
+    ],
     "correct": 1,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -249,12 +353,21 @@
       "C": "Elicited by stroking the sole of the foot.",
       "D": "Elicited by turning the head while supine ('fencer' posture)."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "Stroking the cheek/corner of mouth makes the baby turn head toward the stimulus and open mouth — a feeding reflex present until ~3-4 months."
   },
   {
     "id": "N1-13",
     "question": "Pyloric stenosis in an infant typically presents with:",
-    "options": ["Bilious vomiting", "Bloody diarrhoea", "Projectile non-bilious vomiting", "Constipation only"],
+    "options": [
+      "Bilious vomiting",
+      "Bloody diarrhoea",
+      "Projectile non-bilious vomiting",
+      "Constipation only"
+    ],
     "correct": 2,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -270,12 +383,21 @@
       "C": "Hypertrophic pyloric stenosis (typically 2-8 weeks old) obstructs gastric outflow above the ampulla, producing forceful non-bilious projectile vomiting, hypochloraemic metabolic alkalosis and a palpable 'olive' in the epigastrium.",
       "D": "Not the hallmark; vomiting dominates the picture."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "Hypertrophic pyloric stenosis (typically 2-8 weeks old) obstructs gastric outflow above the ampulla, producing forceful non-bilious projectile vomiting, hypochloraemic metabolic alkalosis and a palpable 'olive' in the epigastrium."
   },
   {
     "id": "N1-14",
     "question": "Severe dehydration in a child is best managed by:",
-    "options": ["Oral rehydration solution alone", "Plain water", "Starting IV fluids", "Encouraging breastfeeding only"],
+    "options": [
+      "Oral rehydration solution alone",
+      "Plain water",
+      "Starting IV fluids",
+      "Encouraging breastfeeding only"
+    ],
     "correct": 2,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -291,12 +413,21 @@
       "C": "WHO Plan C for severe dehydration: IV Ringer Lactate 100 mL/kg — first 30 mL/kg in 30 min (or 1 h if <12 months) and remaining 70 mL/kg over the next 2.5-5 h, with frequent reassessment.",
       "D": "Inadequate replacement when shock-grade fluid loss has occurred."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "WHO Plan C for severe dehydration: IV Ringer Lactate 100 mL/kg — first 30 mL/kg in 30 min (or 1 h if <12 months) and remaining 70 mL/kg over the next 2.5-5 h, with frequent reassessment."
   },
   {
     "id": "N1-15",
     "question": "The hormone responsible for ovulation surge in mid-cycle is:",
-    "options": ["FSH", "LH", "Estrogen", "Progesterone"],
+    "options": [
+      "FSH",
+      "LH",
+      "Estrogen",
+      "Progesterone"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -312,12 +443,21 @@
       "C": "Rising estrogen triggers the LH surge but does not itself rupture the follicle.",
       "D": "Dominant in the luteal phase, after ovulation."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Gynecology 8e",
+    "explanation": "A sharp LH surge ~24-36 h before ovulation triggers rupture of the dominant follicle and release of the secondary oocyte."
   },
   {
     "id": "N1-16",
     "question": "Bluish discoloration of the cervix and vagina in early pregnancy is called:",
-    "options": ["Hegar's sign", "Goodell's sign", "Chadwick's sign", "Osiander's sign"],
+    "options": [
+      "Hegar's sign",
+      "Goodell's sign",
+      "Chadwick's sign",
+      "Osiander's sign"
+    ],
     "correct": 2,
     "section": "midwifery",
     "subject": "OBG",
@@ -333,12 +473,21 @@
       "C": "Chadwick's sign — violet/bluish discolouration of the vagina, vulva and cervix from increased pelvic vascularity, visible at ~6-8 weeks.",
       "D": "Pulsation in lateral fornices due to uterine artery."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Chadwick's sign — violet/bluish discolouration of the vagina, vulva and cervix from increased pelvic vascularity, visible at ~6-8 weeks."
   },
   {
     "id": "N1-17",
     "question": "If LMP is 20 June, the expected date of delivery by Naegele's rule is:",
-    "options": ["27 February", "27 March", "20 March", "13 April"],
+    "options": [
+      "27 February",
+      "27 March",
+      "20 March",
+      "13 April"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -354,12 +503,21 @@
       "C": "Forgot to add 7 days.",
       "D": "Added two extra weeks instead of seven days."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Naegele's rule: LMP + 9 months + 7 days. 20 June + 7 days = 27 June, plus 9 months = 27 March."
   },
   {
     "id": "N1-18",
     "question": "First stage of labour ends with:",
-    "options": ["Onset of regular contractions", "Rupture of membranes", "Full dilatation of the cervix", "Delivery of the placenta"],
+    "options": [
+      "Onset of regular contractions",
+      "Rupture of membranes",
+      "Full dilatation of the cervix",
+      "Delivery of the placenta"
+    ],
     "correct": 2,
     "section": "midwifery",
     "subject": "OBG",
@@ -375,12 +533,21 @@
       "C": "First stage runs from regular contractions to full (10 cm) cervical dilatation; the second stage then runs to delivery of the baby.",
       "D": "That is the end of the third stage."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "First stage runs from regular contractions to full (10 cm) cervical dilatation; the second stage then runs to delivery of the baby."
   },
   {
     "id": "N1-19",
     "question": "Earliest sign of placental separation in the third stage of labour is:",
-    "options": ["Sudden gush of blood per vagina", "Rise in maternal pulse", "Fall in fundal height", "Maternal complaint of pain"],
+    "options": [
+      "Sudden gush of blood per vagina",
+      "Rise in maternal pulse",
+      "Fall in fundal height",
+      "Maternal complaint of pain"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -396,12 +563,21 @@
       "C": "Fundus rises and becomes globular when placenta separates — it does not fall.",
       "D": "Pain is variable and not diagnostic."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "A sudden small gush of blood from the vagina (along with cord lengthening and fundal change) is the classic earliest sign that the placenta has detached from the uterine wall."
   },
   {
     "id": "N1-20",
     "question": "Abnormal accumulation of fluid in the pleural cavity is called:",
-    "options": ["Pneumothorax", "Pleural effusion", "Hemothorax", "Empyema"],
+    "options": [
+      "Pneumothorax",
+      "Pleural effusion",
+      "Hemothorax",
+      "Empyema"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -417,12 +593,21 @@
       "C": "Specifically blood in the pleural space.",
       "D": "Specifically pus in the pleural space."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Pleural effusion is any abnormal collection of fluid (transudate or exudate) in the pleural cavity — the umbrella term being asked."
   },
   {
     "id": "N1-21",
     "question": "VDRL test is used to diagnose:",
-    "options": ["Gonorrhoea", "AIDS", "Syphilis", "Diphtheria"],
+    "options": [
+      "Gonorrhoea",
+      "AIDS",
+      "Syphilis",
+      "Diphtheria"
+    ],
     "correct": 2,
     "section": "microbiology",
     "subject": "Microbiology",
@@ -438,12 +623,21 @@
       "C": "VDRL (Venereal Disease Research Laboratory) is a non-treponemal flocculation test that detects reagin antibodies against cardiolipin, used to screen for syphilis (Treponema pallidum).",
       "D": "Schick test is for diphtheria immunity, not VDRL."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e",
+    "explanation": "VDRL (Venereal Disease Research Laboratory) is a non-treponemal flocculation test that detects reagin antibodies against cardiolipin, used to screen for syphilis (Treponema pallidum)."
   },
   {
     "id": "N1-22",
     "question": "Schick test is used to diagnose susceptibility to:",
-    "options": ["Tuberculosis", "Tetanus", "Pertussis", "Diphtheria"],
+    "options": [
+      "Tuberculosis",
+      "Tetanus",
+      "Pertussis",
+      "Diphtheria"
+    ],
     "correct": 3,
     "section": "microbiology",
     "subject": "Microbiology",
@@ -459,12 +653,21 @@
       "C": "Diagnosed clinically and by PCR/culture.",
       "D": "Schick test injects diphtheria toxin intradermally; lack of erythema/induration after 48-72 h indicates immunity — historically used to assess diphtheria susceptibility."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e",
+    "explanation": "Schick test injects diphtheria toxin intradermally; lack of erythema/induration after 48-72 h indicates immunity — historically used to assess diphtheria susceptibility."
   },
   {
     "id": "N1-23",
     "question": "Rice-water stools are characteristic of:",
-    "options": ["Amoebic dysentery", "Cholera", "Typhoid", "Bacillary dysentery"],
+    "options": [
+      "Amoebic dysentery",
+      "Cholera",
+      "Typhoid",
+      "Bacillary dysentery"
+    ],
     "correct": 1,
     "section": "community-health",
     "subject": "Community Health",
@@ -480,12 +683,21 @@
       "C": "Pea-soup stools or constipation, with stepwise fever.",
       "D": "Shigella causes small-volume bloody mucoid stools with tenesmus."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e",
+    "explanation": "Vibrio cholerae enterotoxin produces voluminous painless watery diarrhoea — colourless, odourless, with mucous flecks resembling water in which rice has been washed."
   },
   {
     "id": "N1-24",
     "question": "Hepatitis A is transmitted mainly through the:",
-    "options": ["Faeco-oral route", "Sexual contact", "Blood transfusion", "Vertical transmission"],
+    "options": [
+      "Faeco-oral route",
+      "Sexual contact",
+      "Blood transfusion",
+      "Vertical transmission"
+    ],
     "correct": 0,
     "section": "community-health",
     "subject": "Community Health",
@@ -501,12 +713,21 @@
       "C": "Major route for HBV/HCV.",
       "D": "Important for HBV — not Hepatitis A."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e",
+    "explanation": "Hepatitis A virus is shed in stool and ingested via contaminated food/water; outbreaks are linked to poor sanitation and shellfish."
   },
   {
     "id": "N1-25",
     "question": "DOTS strategy under RNTCP/NTEP for tuberculosis represents which level of prevention?",
-    "options": ["Primordial prevention", "Primary prevention", "Secondary prevention", "Tertiary prevention"],
+    "options": [
+      "Primordial prevention",
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention"
+    ],
     "correct": 2,
     "section": "community-health",
     "subject": "Community Health",
@@ -522,12 +743,21 @@
       "C": "DOTS detects active TB cases early and treats them with directly observed short-course chemotherapy, which halts disease progression and breaks transmission — the definition of secondary prevention.",
       "D": "Pulmonary rehabilitation in post-TB lung disease would be tertiary."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines",
+    "explanation": "DOTS detects active TB cases early and treats them with directly observed short-course chemotherapy, which halts disease progression and breaks transmission — the definition of secondary prevention."
   },
   {
     "id": "N1-26",
     "question": "One 0.5 g chlorine tablet effectively disinfects how much water?",
-    "options": ["5 litres", "10 litres", "15 litres", "20 litres"],
+    "options": [
+      "5 litres",
+      "10 litres",
+      "15 litres",
+      "20 litres"
+    ],
     "correct": 3,
     "section": "community-health",
     "subject": "Community Health",
@@ -543,12 +773,21 @@
       "C": "Common distractor — not WHO/IPHS specification.",
       "D": "WHO/IPHS guidance: a 0.5 g (500 mg) chlorine tablet at standard demand provides residual chlorine adequate for ~20 L of water after 30 min contact time."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e",
+    "explanation": "WHO/IPHS guidance: a 0.5 g (500 mg) chlorine tablet at standard demand provides residual chlorine adequate for ~20 L of water after 30 min contact time."
   },
   {
     "id": "N1-27",
     "question": "Receiving readymade antibodies from another source represents:",
-    "options": ["Natural active immunity", "Natural passive immunity", "Artificial active immunity", "Artificial passive immunity"],
+    "options": [
+      "Natural active immunity",
+      "Natural passive immunity",
+      "Artificial active immunity",
+      "Artificial passive immunity"
+    ],
     "correct": 3,
     "section": "microbiology",
     "subject": "Microbiology",
@@ -564,12 +803,21 @@
       "C": "Antibodies produced by host after vaccination.",
       "D": "Administered preformed antibodies (e.g., anti-tetanus serum, anti-rabies immunoglobulin, monoclonal antibodies) give rapid but short-lived protection — artificial passive immunity."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e",
+    "explanation": "Administered preformed antibodies (e.g., anti-tetanus serum, anti-rabies immunoglobulin, monoclonal antibodies) give rapid but short-lived protection — artificial passive immunity."
   },
   {
     "id": "N1-28",
     "question": "Lithium is the drug of choice for which psychiatric condition?",
-    "options": ["Schizophrenia", "Mania (bipolar disorder)", "Major depression", "Generalised anxiety"],
+    "options": [
+      "Schizophrenia",
+      "Mania (bipolar disorder)",
+      "Major depression",
+      "Generalised anxiety"
+    ],
     "correct": 1,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -585,12 +833,21 @@
       "C": "SSRIs/SNRIs are first-line antidepressants.",
       "D": "SSRIs and CBT — not lithium."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "Lithium remains the gold-standard mood stabiliser for acute mania and long-term prophylaxis in bipolar disorder; therapeutic range 0.6-1.2 mEq/L — monitor for nephrotoxicity, thyroid dysfunction, tremor."
   },
   {
     "id": "N1-29",
     "question": "Hierarchy of needs theory was proposed by:",
-    "options": ["Sigmund Freud", "Abraham Maslow", "Erik Erikson", "Ivan Pavlov"],
+    "options": [
+      "Sigmund Freud",
+      "Abraham Maslow",
+      "Erik Erikson",
+      "Ivan Pavlov"
+    ],
     "correct": 1,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -606,12 +863,21 @@
       "C": "Proposed eight psychosocial stages of development.",
       "D": "Proposed classical conditioning."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e",
+    "explanation": "Maslow (1943) arranged human needs into a five-level pyramid — physiological, safety, love/belonging, esteem, self-actualisation — widely used in nursing to prioritise care."
   },
   {
     "id": "N1-30",
     "question": "Best position for a rectal examination is:",
-    "options": ["Supine position", "Fowler's position", "Knee-chest position", "Prone position"],
+    "options": [
+      "Supine position",
+      "Fowler's position",
+      "Knee-chest position",
+      "Prone position"
+    ],
     "correct": 2,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -627,6 +893,10 @@
       "C": "Knee-chest (genupectoral) position elevates the buttocks and uses gravity to displace abdominal viscera, giving the best exposure of the anus and rectum for proctoscopy/sigmoidoscopy. Left lateral (Sims) is the next best alternative.",
       "D": "Provides poor visualisation and patient access compared with knee-chest."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e",
+    "explanation": "Knee-chest (genupectoral) position elevates the buttocks and uses gravity to displace abdominal viscera, giving the best exposure of the anus and rectum for proctoscopy/sigmoidoscopy. Left lateral (Sims) is the next best alternative."
   }
 ]

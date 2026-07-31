@@ -1,0 +1,231 @@
+{
+  "generated": "2026-08-01",
+  "batch": "free topic bank sweep",
+  "items": 547,
+  "flags": [
+    {
+      "file": "foundations.json",
+      "id": 57,
+      "reason": "Chest-drainage teaching is that the water-seal/drainage unit must be kept BELOW the level of the patient's chest at all times so that gravity drains the pleural space and fluid is not siphoned back into the chest. The keyed option ('at the level of the patient's chest') is the position for a CVP/arterial transducer at the phlebostatic axis, not for a chest-drain water seal; the explanation text repeats the same error.",
+      "suggested": 0,
+      "confidence": "high"
+    },
+    {
+      "file": "foundations.json",
+      "id": 39,
+      "reason": "The stem asks for autoclave parameters without specifying wrapped or unwrapped loads. The classic textbook answer for steam sterilisation is 121 C at 15 psi for 15 minutes (option B); 121 C for 30 minutes is the CDC figure for WRAPPED items in a gravity-displacement steriliser. Both B and C are defensible as written, so the stem should be reworded to say 'wrapped items' (as the sibling item id 59 correctly does).",
+      "suggested": 1,
+      "confidence": "medium"
+    },
+    {
+      "file": "foundations.json",
+      "id": 43,
+      "reason": "ATS/IDSA/CDC does support three sputum specimens including an early-morning sample, so option A is the best of the four. However, India's National TB Elimination Programme now collects two specimens (spot plus early-morning) and uses NAAT/CBNAAT as the initial diagnostic test, so an Indian-guideline-based key could differ. Key left as-is; consider rewording to 'as per ATS/CDC' or updating to NTEP practice.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "foundations.json",
+      "id": 15,
+      "reason": "'Most commonly used' documentation format is an opinion-type stem rather than a fact. SOAP is a problem-oriented medical-record format adopted from medicine; narrative charting and focus/DAR charting are at least as widespread in nursing, and electronic flowsheet charting now dominates in practice. Key left as-is (SOAP is the conventional NORCET answer) but the item is weak.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "medical-surgical.json",
+      "id": 9,
+      "reason": "Keyed answer 'Low protein diet' is legacy teaching still used by many exams, but current standards reject routine protein restriction in hepatic encephalopathy: the AASLD/EASL 2014 hepatic encephalopathy guideline and ESPEN 2019 liver-disease nutrition guideline recommend maintaining protein intake at 1.2-1.5 g/kg/day because restriction worsens sarcopenia and outcomes; at most a very brief restriction is entertained in rare refractory cases. No option cleanly states the current recommendation (normal-to-high protein), so no confident replacement index.",
+      "suggested": null,
+      "confidence": "medium"
+    },
+    {
+      "file": "pharmacology.json",
+      "id": 12,
+      "reason": "Keyed option B is the best of the four choices, but the scooped / reverse-tick ST depression is the digoxin EFFECT and is seen at therapeutic levels; it is not itself a marker of toxicity. True digoxin toxicity is identified by arrhythmias (atrial tachycardia with block, bidirectional VT, junctional rhythms) together with serum level and potassium. The stem wording is imprecise rather than the key being wrong.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "previous-years.json",
+      "id": 10,
+      "reason": "Question asks for the minimum ('at least') number of staff for a log roll. Potter & Perry teaches 2–3 caregivers for a routine log roll and 3–4 only when spinal alignment must be maintained, so option B (2 people) is literally the minimum while the keyed option C is the best answer for the spinal-precaution scenario stated. Keyed answer is defensible; the stem would be cleaner as 'usually requires' rather than 'at least'.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "administration-management.json",
+      "id": 24,
+      "reason": "Keyed 1:4 for a medical-surgical unit is a US-style ratio. Indian Nursing Council staffing norms give 1 nurse per 6 patients (option D) for general/medical-surgical wards, with 1:1 for ICU and 1:3 counted as bed-to-nurse posting strength. For an Indian exam the keyed option is arguable.",
+      "suggested": 3,
+      "confidence": "low"
+    },
+    {
+      "file": "community-health.json",
+      "id": 4,
+      "reason": "Keyed answer (insecticide-treated bed nets) is fine, but the stored explanation asserts 'there is no widely available malaria vaccine yet'. This is outdated: WHO recommended RTS,S/AS01 in 2021 and R21/Matrix-M in 2023 for children in endemic areas. Vector control remains primary, so the key stands.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "community-health.json",
+      "id": 24,
+      "reason": "Keyed answer (insecticide-treated bed nets) is fine, but the stored explanation asserts 'there is no widely available malaria vaccine yet'. This is outdated: WHO recommended RTS,S/AS01 in 2021 and R21/Matrix-M in 2023 for children in endemic areas. Vector control remains primary, so the key stands.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "community-health.json",
+      "id": 6,
+      "reason": "Keyed IMR target of '<20 per 1000 live births' does not match a stated Indian target. National Health Policy 2017 set IMR 28 by 2019, and SDG 3.2 sets neonatal mortality 12 and under-5 mortality 25 by 2030. No option reproduces an official figure, so the item is ambiguous rather than clearly mis-keyed.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "community-health.json",
+      "id": 26,
+      "reason": "Keyed IMR target of '<20 per 1000 live births' does not match a stated Indian target. National Health Policy 2017 set IMR 28 by 2019, and SDG 3.2 sets neonatal mortality 12 and under-5 mortality 25 by 2030. No option reproduces an official figure, so the item is ambiguous rather than clearly mis-keyed.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "community-health.json",
+      "id": 10,
+      "reason": "Keyed 100% full-immunisation coverage. Mission Indradhanush and Intensified Mission Indradhanush state a target of more than 90% full immunisation coverage; 100% is aspirational language, not the programme target. Option C (90%) is the defensible figure.",
+      "suggested": 2,
+      "confidence": "medium"
+    },
+    {
+      "file": "community-health.json",
+      "id": 30,
+      "reason": "Keyed 100% full-immunisation coverage. Mission Indradhanush and Intensified Mission Indradhanush state a target of more than 90% full immunisation coverage; 100% is aspirational language, not the programme target. Option C (90%) is the defensible figure.",
+      "suggested": 2,
+      "confidence": "medium"
+    },
+    {
+      "file": "community-health.json",
+      "id": 12,
+      "reason": "Keyed 4 ANC visits is correct for India (MoHFW minimum four antenatal visits), but the explanation attributes it to WHO. The WHO 2016 antenatal care model replaced the four-visit focused ANC model with a minimum of eight ANC contacts. Key retained; attribution is outdated.",
+      "suggested": null,
+      "confidence": "medium"
+    },
+    {
+      "file": "community-health.json",
+      "id": 32,
+      "reason": "The '4 weeks between BCG and other vaccinations' rule applies only to two different live parenteral vaccines given on different days; inactivated vaccines and OPV may be given at any interval, and BCG can be co-administered with all UIP vaccines. The blanket statement overstates the restriction.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "community-health.json",
+      "id": 34,
+      "reason": "OPV at -15 to -25°C is correct only for the national/state/regional cold-chain stores (deep freezer). At district, PHC and sub-centre level OPV is held in the ILR at +2 to +8°C, and it must never be frozen in the vaccine carrier. The question does not state the cold-chain level, so it is ambiguous.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "obstetric-gynecology.json",
+      "id": 3,
+      "reason": "Two hours of pushing without progress is keyed as cephalopelvic disproportion. Current practice allows up to 2 hours in a multipara and 3 hours in a primigravida (longer with epidural) before diagnosing arrest, and malposition/inefficient uterine action (option D) is at least as common a cause. The stem lacks parity and analgesia details.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "obstetric-gynecology.json",
+      "id": 28,
+      "reason": "Two hours of pushing without progress is keyed as cephalopelvic disproportion. Current practice allows up to 2 hours in a multipara and 3 hours in a primigravida (longer with epidural) before diagnosing arrest, and malposition/inefficient uterine action (option D) is at least as common a cause. The stem lacks parity and analgesia details.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "obstetric-gynecology.json",
+      "id": 6,
+      "reason": "60 mg elemental iron daily is correct for India (Anemia Mukt Bharat: 60 mg iron + 500 mcg folic acid daily through pregnancy), but the explanation attributes it to WHO, which recommends 30-60 mg daily. Key correct for Indian practice; attribution loose.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "obstetric-gynecology.json",
+      "id": 31,
+      "reason": "60 mg elemental iron daily is correct for India (Anemia Mukt Bharat: 60 mg iron + 500 mcg folic acid daily through pregnancy), but the explanation attributes it to WHO, which recommends 30-60 mg daily. Key correct for Indian practice; attribution loose.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "obstetric-gynecology.json",
+      "id": 8,
+      "reason": "First stage duration keyed as 12-18 hours in a primigravida. DC Dutta gives an average of about 12 hours in primigravidae, which straddles options B and C, and contemporary (Zhang/WHO) labour curves are longer in latent phase but shorter in active phase. Two options are partly defensible.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "obstetric-gynecology.json",
+      "id": 33,
+      "reason": "First stage duration keyed as 12-18 hours in a primigravida. DC Dutta gives an average of about 12 hours in primigravidae, which straddles options B and C, and contemporary (Zhang/WHO) labour curves are longer in latent phase but shorter in active phase. Two options are partly defensible.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 12,
+      "reason": "Keyed '4-6 months' contradicts both the item's own explanation and WHO/UNICEF IYCF policy, which is exclusive breastfeeding for the first 6 months and complementary feeding started at completed 6 months (180 days). Option C (6-8 months) is the closest correct start point.",
+      "suggested": 2,
+      "confidence": "medium"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 25,
+      "reason": "Keyed '4-6 months' contradicts both the item's own explanation and WHO/UNICEF IYCF policy, which is exclusive breastfeeding for the first 6 months and complementary feeding started at completed 6 months (180 days). Option C (6-8 months) is the closest correct start point.",
+      "suggested": 2,
+      "confidence": "medium"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 13,
+      "reason": "Cool mist humidification for croup is no longer evidence-based; randomised trials show no benefit, and standard care is a single dose of oral/IM dexamethasone with nebulised adrenaline for moderate-severe stridor. It remains the best of the four options offered, so the key is not changed.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 22,
+      "reason": "Cool mist humidification for croup is no longer evidence-based; randomised trials show no benefit, and standard care is a single dose of oral/IM dexamethasone with nebulised adrenaline for moderate-severe stridor. It remains the best of the four options offered, so the key is not changed.",
+      "suggested": null,
+      "confidence": "low"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 14,
+      "reason": "Keyed 90/50 mmHg for a 5-year-old. The usual estimate for the 50th percentile systolic pressure is 90 + (2 x age in years) = 100 mmHg, and AAP 2017 normative tables give roughly 95-100/55-65 for this age. Option C (100/60) is closer to normal.",
+      "suggested": 2,
+      "confidence": "low"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 23,
+      "reason": "Internal contradiction: the keyed option is C (110-160 bpm) but the explanation states the normal range for toddlers is 100-160 bpm, which is option B. Standard references give roughly 90-150 (PALS) or 100-160 for a 1-year-old, so option B matches the explanation and the reference range.",
+      "suggested": 1,
+      "confidence": "high"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 32,
+      "reason": "Scalp veins are keyed as preferred for a 2-year-old. Scalp veins are used in neonates and young infants (broadly under 9-12 months, before hair growth and mobility make them impractical); for a toddler the dorsum of the hand or forearm is the preferred site.",
+      "suggested": 1,
+      "confidence": "medium"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 35,
+      "reason": "Keyed 36-37°C as the incubator setting confuses the infant's target body temperature (36.5-37.5°C axillary) with the incubator air temperature, which is set per neutral-thermal-environment tables at roughly 32-36°C depending on weight and postnatal age.",
+      "suggested": 1,
+      "confidence": "medium"
+    },
+    {
+      "file": "pediatric.json",
+      "id": 36,
+      "reason": "Keyed technique says to actuate the MDI into the spacer, wait 30 seconds, then inhale. Aerosol settles on the spacer walls within seconds, so the child must breathe in immediately after actuation (or take 5 tidal breaths). The 30-second wait belongs between successive puffs, not between actuation and inhalation.",
+      "suggested": 0,
+      "confidence": "medium"
+    }
+  ]
+}

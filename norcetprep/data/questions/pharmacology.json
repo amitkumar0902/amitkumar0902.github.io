@@ -9,10 +9,15 @@
       "D. Diuretic"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Propranolol is the prototype non-selective beta-adrenergic blocker, competing with catecholamines at both beta-1 and beta-2 receptors. This is why it slows heart rate and lowers blood pressure but can also provoke bronchospasm in asthmatics. Calcium channel blockers such as amlodipine and ACE inhibitors such as enalapril also lower blood pressure, but by blocking L-type calcium channels and angiotensin conversion respectively, not adrenergic receptors.",
     "topic": "Drug Classification",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 2,
@@ -24,10 +29,15 @@
       "D. Benzodiazepine"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Clozapine is the prototype atypical (second-generation) antipsychotic: it has weak D2 blockade with strong 5-HT2A antagonism, so extrapyramidal side effects are minimal. Typical agents such as haloperidol are potent D2 blockers and commonly cause dystonia and parkinsonism, which is the key contrast with option A. It is neither a mood stabiliser nor a benzodiazepine, and it is reserved for treatment-resistant schizophrenia because of agranulocytosis risk.",
     "topic": "Drug Classification",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 3,
@@ -39,10 +49,15 @@
       "D. Typhoid"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Rifampicin inhibits mycobacterial DNA-dependent RNA polymerase and is one of the four first-line drugs in the intensive phase of TB treatment. It is bactericidal against both actively dividing bacilli and slow-growing persisters, which is why it shortens the duration of therapy. It has no role in viral hepatitis (it is itself hepatotoxic), while malaria and typhoid are treated with artemisinin-based combinations and cephalosporins or azithromycin respectively.",
     "topic": "Drug Classification",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "MoHFW National TB Elimination Programme, Technical and Operational Guidelines for TB Control in India, 2016",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 4,
@@ -54,10 +69,15 @@
       "D. Tranexamic acid"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Protamine sulfate is a strongly basic protein that binds the strongly acidic heparin molecule to form an inert complex, giving near-immediate reversal. Vitamin K is the specific antidote for warfarin, not heparin, because it restores hepatic synthesis of factors II, VII, IX and X over several hours. Fresh frozen plasma and tranexamic acid provide general haemostatic support but neither neutralises circulating heparin.",
     "topic": "Anticoagulants",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 5,
@@ -69,10 +89,15 @@
       "D. Atropine"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Warfarin blocks vitamin K epoxide reductase, so phytonadione (vitamin K1) restores the reduced vitamin K needed to carboxylate factors II, VII, IX and X. The effect takes 6 to 24 hours, so active major bleeding also requires prothrombin complex concentrate or fresh frozen plasma for immediate factor replacement. Protamine reverses heparin rather than warfarin, and calcium gluconate and atropine have no role in anticoagulant reversal.",
     "topic": "Anticoagulants",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 6,
@@ -84,10 +109,15 @@
       "D. Pralidoxime"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Flumazenil is a competitive antagonist at the benzodiazepine binding site on the GABA-A receptor and reverses the sedation and respiratory depression of benzodiazepine overdose. Naloxone is the closest distractor, but it acts at opioid receptors and has no effect on benzodiazepine toxicity. Flumazenil is used cautiously because it can precipitate seizures in patients on chronic benzodiazepines or with a mixed tricyclic overdose.",
     "topic": "Antidotes",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 7,
@@ -99,10 +129,15 @@
       "D. Beta-blockers"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Naloxone is a pure competitive opioid receptor antagonist that rapidly reverses the respiratory depression, pinpoint pupils and coma of opioid overdose. Flumazenil, not naloxone, is the antidote for the benzodiazepines in option A. Because naloxone has a shorter half-life than most opioids, repeat doses or an infusion are often needed to prevent re-narcotisation.",
     "topic": "Antidotes",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 8,
@@ -114,10 +149,15 @@
       "D. Vitamin K"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Organophosphates phosphorylate acetylcholinesterase; atropine blocks the resulting muscarinic overactivity while pralidoxime reactivates the enzyme itself by stripping off the phosphate group. Pralidoxime must be given early, before ageing of the enzyme-phosphate bond makes reactivation impossible. Atropine alone does not address nicotinic features such as fasciculations and respiratory muscle weakness, which is precisely what the oxime adds.",
     "topic": "Antidotes",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 9,
@@ -129,10 +169,15 @@
       "D. EDTA"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "In paracetamol overdose the conjugation pathways saturate, so more drug is oxidised by CYP2E1 to the toxic metabolite NAPQI, which depletes hepatic glutathione. N-acetylcysteine supplies cysteine to regenerate glutathione and also conjugates NAPQI directly, and is most effective when started within 8 hours of ingestion. Methylene blue treats methaemoglobinaemia, while dimercaprol and EDTA are heavy-metal chelators.",
     "topic": "Antidotes",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 10,
@@ -144,10 +189,15 @@
       "D. Skin"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Drugs absorbed from the gut travel via the portal vein through the liver before reaching the systemic circulation, and hepatic enzymes may metabolise a large fraction on that first pass. The gut wall contributes some pre-systemic metabolism, but the liver is the dominant site, which is why sublingual and rectal routes partly bypass it. The kidneys mainly excrete drugs rather than metabolise them pre-systemically.",
     "topic": "Pharmacokinetics",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 11,
@@ -159,10 +209,15 @@
       "D. Clear completely"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Half-life is the time taken for the plasma concentration of a drug to fall to half its value during the elimination phase. It determines the dosing interval and the time to reach steady state, roughly 4 to 5 half-lives, so option C describes a consequence rather than the definition. Under first-order kinetics complete clearance is only approached asymptotically and never actually reached.",
     "topic": "Pharmacokinetics",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 12,
@@ -174,10 +229,15 @@
       "D. Osborn wave"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Digoxin inhibits Na+/K+-ATPase and produces the classic downsloping, scooped ST depression with T wave flattening often called the reverse tick. Prolonged QT is typical of antiarrhythmics such as amiodarone and sotalol, the delta wave belongs to Wolff-Parkinson-White pre-excitation, and the Osborn or J wave appears in hypothermia. Note that the scooped ST change is a digoxin effect that can be present at therapeutic levels; frank toxicity is confirmed by arrhythmias plus a serum level.",
     "topic": "Cardiovascular",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Goldberger's Clinical Electrocardiography: A Simplified Approach, 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 13,
@@ -189,10 +249,15 @@
       "D. Metformin"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Amiodarone inhibits P-glycoprotein-mediated renal and biliary clearance of digoxin and can nearly double the serum digoxin level, so the digoxin dose is usually halved and levels checked. Verapamil, quinidine and spironolactone interact by similar mechanisms. Penicillin, paracetamol and metformin have no clinically important effect on digoxin disposition.",
     "topic": "Cardiovascular",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 14,
@@ -204,10 +269,15 @@
       "D. TSH only"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Lithium has a narrow therapeutic index of roughly 0.6 to 1.2 mEq/L and is excreted almost entirely unchanged by the kidney, so both serum levels and renal function must be tracked. Thyroid function is also checked periodically, which makes option D partly true but incomplete because it omits the essential level monitoring. Lithium is not metabolised by the liver, so liver enzymes alone are inadequate, and INR is irrelevant.",
     "topic": "CNS Drugs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Kaplan & Sadock's Synopsis of Psychiatry, 11e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 15,
@@ -219,10 +289,15 @@
       "D. Chloramphenicol"
     ],
     "correct": 3,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "RIPE stands for Rifampicin, Isoniazid, Pyrazinamide and Ethambutol, the four-drug intensive phase for drug-susceptible tuberculosis. Chloramphenicol is a broad-spectrum bacteriostatic protein synthesis inhibitor with no antitubercular activity, and it carries risks of aplastic anaemia and grey baby syndrome. The other three options are all genuine components of the regimen, so only option D is the exception.",
     "topic": "Antimicrobials",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "WHO Consolidated Guidelines on Tuberculosis, Module 4: Treatment of Drug-Susceptible Tuberculosis, 2022",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 16,
@@ -234,10 +309,15 @@
       "D. Antiviral"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Aminoglycosides bind irreversibly to the 30S ribosomal subunit and cause misreading of mRNA, producing defective membrane proteins and cell death, so they are bactericidal. This is the classic exception to the rule that protein synthesis inhibitors are bacteriostatic, which is what makes option A tempting. Their killing is concentration-dependent, which supports once-daily high-dose regimens.",
     "topic": "Antimicrobials",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 17,
@@ -249,10 +329,15 @@
       "D. 10 mg"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Adult cardiac arrest dosing is 1 mg of adrenaline IV or IO, that is 10 mL of the 1:10,000 solution, repeated every 3 to 5 minutes. In non-shockable rhythms it should be given as early as feasible, whereas in shockable rhythms it follows the initial defibrillation attempts. The 0.1 mg and 5 to 10 mg options match neither the arrest dose nor the 0.5 mg intramuscular dose used in anaphylaxis.",
     "topic": "Emergency Drugs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "AHA CPR & ECC Guidelines, 2020",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 18,
@@ -264,10 +349,15 @@
       "D. Slows AV conduction"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Atropine is a competitive antagonist at muscarinic receptors, so it removes vagal restraint on the SA and AV nodes and thereby increases heart rate and AV conduction. Option D states the opposite effect, and slowing AV conduction would worsen the bradycardia rather than treat it. Beta blockade would also slow the heart, and atropine has no effect on serum potassium.",
     "topic": "Emergency Drugs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 19,
@@ -279,10 +369,15 @@
       "D. With desiccant only"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Sublingual nitroglycerin is volatile and degrades on exposure to light, heat and moisture, so it is kept in its original amber container in a cool, dark place and replaced per the manufacturer's post-opening expiry. Direct sunlight and freezing both compromise potency, and a desiccant alone addresses moisture but not light or heat. Loss of the expected tingling or headache after a dose can be a clue that the tablets have degraded.",
     "topic": "Nursing Pharmacology",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 20,
@@ -294,10 +389,15 @@
       "D. Detemir"
     ],
     "correct": 2,
-    "explanation": "• Correct option matches standard NORCET pharmacology teaching.\n• Review drug class, mechanism, and nursing implications.",
+    "explanation": "Lispro is a rapid-acting insulin analogue with onset in about 15 minutes and a peak at 30 to 90 minutes, so it is given immediately before meals. NPH is intermediate-acting, while glargine and detemir are long-acting basal analogues with little or no peak. Rapid analogues also differ from regular insulin, which is short-acting with onset near 30 minutes.",
     "topic": "Insulin",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 21,
@@ -309,10 +409,15 @@
       "D. Constipation only"
     ],
     "correct": 0,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "ACE inhibitors reduce angiotensin II and therefore aldosterone, causing potassium retention, and they block kininase II so bradykinin accumulates and triggers a dry irritant cough. Hypokalaemia in option B is the opposite of the expected effect and is characteristic of loop and thiazide diuretics instead. Angio-oedema shares the same bradykinin mechanism as the cough and is its dangerous counterpart.",
     "topic": "Drug Classification",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 22,
@@ -324,10 +429,15 @@
       "D. Risperidone"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Clozapine carries roughly a 1% risk of agranulocytosis, so absolute neutrophil count monitoring is mandatory, weekly at first and then at extended intervals under a structured protocol. Olanzapine and risperidone are also atypicals but need no routine haematological monitoring, which is what makes them plausible distractors. Haloperidol's characteristic hazards are extrapyramidal reactions and neuroleptic malignant syndrome rather than marrow suppression.",
     "topic": "Antipsychotics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 23,
@@ -339,10 +449,15 @@
       "D. Carbonic anhydrase inhibitor"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Furosemide inhibits the Na+-K+-2Cl- cotransporter in the thick ascending limb of the loop of Henle, producing the most powerful diuresis of any class. Because it causes marked potassium loss, it is the opposite of a potassium-sparing agent such as spironolactone or amiloride. Mannitol is the osmotic diuretic and acetazolamide the carbonic anhydrase inhibitor.",
     "topic": "Diuretics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 24,
@@ -354,10 +469,15 @@
       "D. Diazepam"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Opioids act on mu receptors in the myenteric plexus to slow gut transit, and unlike sedation and nausea this effect shows almost no tolerance, so laxatives are started prophylactically. Peripherally acting mu antagonists such as methylnaltrexone or naloxegol reverse the gut effect without antagonising analgesia. Atropine would worsen constipation by further reducing motility, and propranolol and diazepam are irrelevant here.",
     "topic": "Analgesics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 25,
@@ -369,10 +489,15 @@
       "D. Tetracyclines"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Penicillins and cephalosporins share the beta-lactam ring, and cross-reactivity is driven largely by similarity of the R1 side chain, so it is highest with first-generation cephalosporins and low with third-generation agents. That side-chain dependence is why the keyed option qualifies the risk as variable. Macrolides, tetracyclines and aminoglycosides are structurally unrelated and are in fact the usual alternatives in true penicillin allergy.",
     "topic": "Antibiotics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 26,
@@ -384,10 +509,15 @@
       "D. Thrombin directly only"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Heparin has no intrinsic anticoagulant action; it binds antithrombin III and induces a conformational change that accelerates its inactivation of thrombin and factor Xa by a thousandfold or more. Option D describes the direct thrombin inhibitors such as argatroban and dabigatran, which need no cofactor. Protein C is activated by the thrombin-thrombomodulin complex, and plasmin is the fibrinolytic effector targeted by thrombolytics.",
     "topic": "Anticoagulants",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 27,
@@ -399,10 +529,15 @@
       "D. Only if TSH low"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Levothyroxine absorption is reduced by food and especially by calcium, iron and antacids, so it is taken on an empty stomach 30 to 60 minutes before breakfast for consistent bioavailability. A high-calcium meal, as in option A, is exactly what should be separated from the dose by several hours. Dosing is titrated against TSH, but a low TSH signals over-replacement rather than an indication to dose.",
     "topic": "Endocrine",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 28,
@@ -414,10 +549,15 @@
       "D. Renal clearance"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Bioavailability is the fraction of an administered dose that reaches the systemic circulation in unchanged form, and by definition it is 1 for the intravenous route. It is reduced by incomplete absorption and by first-pass metabolism, which is why oral doses of drugs such as propranolol far exceed their intravenous doses. Protein binding, half-life and renal clearance are separate pharmacokinetic parameters.",
     "topic": "Pharmacokinetics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 29,
@@ -429,10 +569,15 @@
       "D. Pralidoxime"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Deferoxamine is a siderophore-derived chelator with very high affinity for ferric iron, and the resulting ferrioxamine complex is excreted in urine. Acute iron overdose causes gastrointestinal corrosion, metabolic acidosis and hepatic necrosis, and chelation is guided by the serum iron level and clinical severity. N-acetylcysteine, flumazenil and pralidoxime are antidotes for paracetamol, benzodiazepines and organophosphates respectively.",
     "topic": "Poisoning",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 30,
@@ -444,10 +589,15 @@
       "D. Atropine"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Calcium disodium EDTA is the standard parenteral chelator for significant lead poisoning, and succimer (DMSA) is the oral option for moderate elevations, particularly in children. In lead encephalopathy, dimercaprol (BAL) is given first so that EDTA does not redistribute lead into the brain. Naloxone, vitamin K and atropine chelate nothing and have no role in heavy-metal poisoning.",
     "topic": "Poisoning",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 31,
@@ -459,10 +609,15 @@
       "D. Sodium"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Statins competitively inhibit HMG-CoA reductase, the rate-limiting enzyme of hepatic cholesterol synthesis, which upregulates LDL receptors and clears LDL from plasma by roughly 30 to 50%. They raise HDL and lower triglycerides only modestly, so options A and C describe minor rather than primary effects. Fibrates are the class chosen when hypertriglyceridaemia dominates the lipid profile.",
     "topic": "Cardiovascular",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 32,
@@ -474,10 +629,15 @@
       "D. Leukotriene inhibitor"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Salbutamol is a selective beta-2 adrenergic agonist that raises airway smooth muscle cAMP and produces bronchodilation within minutes, making it the reliever of choice in acute asthma. A muscarinic agonist as in option A would cause bronchoconstriction; the useful airway anticholinergic is ipratropium, which is an antagonist. Inhaled corticosteroids and leukotriene inhibitors such as montelukast are controllers with no useful acute bronchodilator effect.",
     "topic": "Respiratory",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 33,
@@ -489,10 +649,15 @@
       "D. Protecting mucosa only"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Omeprazole and its congeners are prodrugs that accumulate in the acidic canaliculus of the parietal cell and irreversibly inhibit the H+/K+-ATPase, the final common step of acid secretion. Because they block the pump itself, they suppress acid more completely than H2 blockers, which only interrupt one of several stimulatory pathways. Antacids merely neutralise acid that has already been secreted.",
     "topic": "GI Drugs",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 34,
@@ -504,10 +669,15 @@
       "D. Viruses"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "The nitro group of metronidazole is reduced by ferredoxin-like systems present only in anaerobic organisms, generating cytotoxic radicals that damage DNA. This is why it kills anaerobic bacteria and protozoa such as Entamoeba, Giardia and Trichomonas, but is inactive against ordinary aerobic gram-positive cocci as in option A. It has no antifungal or antiviral activity.",
     "topic": "Antimicrobials",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 35,
@@ -519,10 +689,15 @@
       "D. Metronidazole"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Benzathine penicillin G given intramuscularly is the only agent with proven efficacy across all stages of syphilis, and it remains the drug of choice whenever the patient is not penicillin-allergic. A single 2.4 million unit dose covers early syphilis, while late latent disease needs three weekly doses and neurosyphilis needs aqueous crystalline penicillin. Azithromycin is only a fallback in penicillin allergy and has documented resistance, while ciprofloxacin and metronidazole have no antitreponemal activity.",
     "topic": "Antimicrobials",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "CDC Sexually Transmitted Infections Treatment Guidelines, 2021",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 36,
@@ -534,10 +709,15 @@
       "D. Muscarinic receptors"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "At low infusion rates dopamine acts mainly on D1 receptors in the renal, mesenteric and coronary vascular beds, causing vasodilation and increased renal blood flow. As the rate rises, beta-1 effects on the heart dominate, and at high rates alpha-1 mediated vasoconstriction takes over. Dopamine never blocks beta receptors and has no muscarinic action, and low-dose renal dopamine is no longer recommended for renal protection.",
     "topic": "Emergency",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 37,
@@ -549,10 +729,15 @@
       "D. Bind potassium in gut"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "In hyperkalaemia, calcium raises the threshold potential of cardiac myocytes and restores the gap to the resting potential, antagonising the membrane effects of potassium within minutes. It does not change the serum potassium at all, so it must be followed by insulin-dextrose or nebulised salbutamol to shift potassium into cells and by diuretics or dialysis to remove it. Sodium polystyrene sulfonate and patiromer are the agents that bind potassium in the gut.",
     "topic": "Emergency",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 38,
@@ -564,10 +749,15 @@
       "D. Block NMDA"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "SSRIs block the presynaptic serotonin transporter, increasing synaptic serotonin with little affinity for noradrenaline, dopamine, muscarinic or histamine receptors, which explains their better tolerability than tricyclics. Option A describes the MAO inhibitors such as phenelzine, and option C describes the antipsychotics. Clinical benefit takes 2 to 4 weeks despite immediate transporter blockade, reflecting downstream receptor adaptation.",
     "topic": "Psychiatry",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 39,
@@ -579,10 +769,15 @@
       "D. Local anesthetic"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Tramadol is a weak mu-opioid agonist whose analgesia depends substantially on inhibition of noradrenaline and serotonin reuptake, plus its more potent M1 metabolite formed via CYP2D6. The serotonergic component explains its risk of serotonin syndrome and of seizures, especially when combined with SSRIs. It is therefore not a pure opioid agonist like morphine, and it is neither an NSAID nor a local anaesthetic.",
     "topic": "Pain",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 40,
@@ -594,10 +789,15 @@
       "D. Renal excretion only"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Phenytoin's hepatic metabolism saturates within the therapeutic range, so kinetics shift from first-order to zero-order and a small dose increment can produce a disproportionate rise in level and toxicity. Combined with a narrow therapeutic window of roughly 10 to 20 mcg/mL, this makes level monitoring essential. Option A states the exact opposite, and phenytoin is cleared hepatically rather than by renal excretion alone.",
     "topic": "Antiepileptics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 41,
@@ -609,10 +809,15 @@
       "D. IM injection"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Red man syndrome is a rate-dependent anaphylactoid reaction caused by direct histamine release from mast cells, so the management is to stop or slow the infusion to at least 60 minutes per gram and give an antihistamine. Speeding the infusion, as in option A, would intensify the reaction. Because it is not a true IgE-mediated allergy, vancomycin can usually be continued at a slower rate, and the intramuscular route is not used because the drug is intensely irritant.",
     "topic": "Antibiotics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 42,
@@ -624,10 +829,15 @@
       "D. Folate synthesis"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Macrolides bind the 23S rRNA of the 50S ribosomal subunit and block translocation, halting bacterial protein synthesis, and they are primarily bacteriostatic. Beta-lactams and glycopeptides act on the cell wall, fluoroquinolones inhibit DNA gyrase and topoisomerase IV, and sulfonamides with trimethoprim block folate synthesis. Aminoglycosides also inhibit protein synthesis but bind the 30S subunit, which is the usual point of confusion.",
     "topic": "Antibiotics",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 43,
@@ -639,10 +849,15 @@
       "D. Decreased infection risk"
     ],
     "correct": 0,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Glucocorticoids stimulate gluconeogenesis and induce peripheral insulin resistance, so hyperglycaemia is expected, and they suppress lymphocyte function and cytokine production, which raises infection risk. Options C and D invert real adverse effects, since steroids cause osteoporosis by reducing osteoblast activity and calcium absorption and they increase rather than decrease infection risk. Hypoglycaemia is not a glucocorticoid effect at all.",
     "topic": "Hormones",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 44,
@@ -654,10 +869,15 @@
       "D. Diabetes with proteinuria"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "In bilateral renal artery stenosis, glomerular filtration depends on angiotensin II-mediated efferent arteriolar constriction, so removing it collapses filtration pressure and precipitates acute kidney injury. The other three options are established indications: ACE inhibitors are used in hypertension, in heart failure, and especially in diabetes with proteinuria where they are renoprotective. Bilateral disease, or stenosis in a single functioning kidney, is the setting that inverts the usual benefit.",
     "topic": "Renal",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 45,
@@ -669,10 +889,15 @@
       "D. Calcium"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Idarucizumab is a monoclonal antibody fragment that binds dabigatran with far higher affinity than thrombin does, reversing anticoagulation within minutes. Andexanet alfa is the corresponding reversal agent for the factor Xa inhibitors such as apixaban and rivaroxaban. Vitamin K reverses warfarin and protamine reverses heparin, and neither has any activity against a direct thrombin inhibitor.",
     "topic": "Anticoagulants",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 46,
@@ -684,10 +909,15 @@
       "D. Need for aspiration"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "The Z-track technique displaces skin and subcutaneous tissue laterally before injection, so that when the tissue is released the planes shift and seal the needle track. This traps the drug in the muscle and prevents leakage back into subcutaneous tissue, which would otherwise cause irritation, staining or erratic absorption, as with iron dextran and some depot antipsychotics. Any reduction in discomfort is a secondary benefit, and the technique does not eliminate infection risk.",
     "topic": "Pharmacology Nursing",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "Potter & Perry's Fundamentals of Nursing, 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 47,
@@ -699,10 +929,15 @@
       "D. Right brand marketing"
     ],
     "correct": 3,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "The five rights are right patient, right drug, right dose, right route and right time, verified before every administration. Right brand marketing is not a safety check and has no place in medication administration, which makes option D the exception. Many institutions extend the list to include right documentation, right reason and right response.",
     "topic": "Pharmacology Nursing",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "Potter & Perry's Fundamentals of Nursing, 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 48,
@@ -714,10 +949,15 @@
       "D. Ototoxicity"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Ifosfamide and cyclophosphamide are metabolised to acrolein, which concentrates in the bladder and injures the urothelium. Mesna supplies a free sulfhydryl group that binds acrolein in the urine to form an inert compound, preventing haemorrhagic cystitis without reducing antitumour activity. Cardiotoxicity is the concern with anthracyclines, while ototoxicity and nephrotoxicity are associated with cisplatin.",
     "topic": "Chemotherapy",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 49,
@@ -729,10 +969,15 @@
       "D. Pulmonary fibrosis"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Amphotericin B binds ergosterol to form membrane pores, but it has appreciable affinity for cholesterol in human membranes too, causing dose-limiting renal tubular damage with potassium and magnesium wasting. Renal function and electrolytes must therefore be checked regularly, and lipid formulations were developed specifically to reduce this toxicity. Infusion reactions with fever and rigors are common but are distinct from the nephrotoxicity that limits therapy.",
     "topic": "Antifungals",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 50,
@@ -744,10 +989,15 @@
       "D. Herpes zoster only"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Oseltamivir is a neuraminidase inhibitor that prevents release of influenza A and B virions from infected cells, and it works best when started within 48 hours of symptom onset. Neuraminidase is an influenza-specific enzyme, so the drug has no activity against the other viruses listed. Hepatitis B is treated with tenofovir or entecavir, HIV with combination antiretroviral therapy, and herpes zoster with acyclovir or valacyclovir.",
     "topic": "Antivirals",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 51,
@@ -759,10 +1009,15 @@
       "D. Increase protein binding"
     ],
     "correct": 1,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "A loading dose is a larger initial dose calculated from the volume of distribution to fill the body's compartments and reach the target concentration at once, rather than waiting the 4 to 5 half-lives that maintenance dosing alone would need. It is used for drugs with long half-lives such as digoxin, amiodarone and some antibiotics. It does not alter half-life, metabolism or protein binding, since those are properties of the drug rather than of the dose.",
     "topic": "Pharmacology",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 52,
@@ -774,10 +1029,15 @@
       "D. P-glycoprotein only"
     ],
     "correct": 0,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "Grapefruit juice contains furanocoumarins that irreversibly inhibit intestinal CYP3A4, so more of an orally administered substrate survives first-pass metabolism and plasma levels rise, which matters with felodipine, simvastatin, ciclosporin and several calcium channel blockers. Because the enzyme must be resynthesised, the effect can persist for a day or more after a single glass. It also affects P-glycoprotein, but option D is wrong because it says only, and glucuronidation and renal secretion are not the principal mechanism.",
     "topic": "Pharmacology",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 53,
@@ -789,10 +1049,15 @@
       "D. Protein binding percent"
     ],
     "correct": 0,
-    "explanation": "• Correct option matches standard pharmacology references.\n• Relates to AIIMS NORCET high-yield topics.",
+    "explanation": "The therapeutic index expresses margin of safety as the ratio of the dose that is toxic or lethal in 50% of subjects to the dose that is effective in 50%, that is TD50/ED50 or LD50/ED50. A high value means a wide safety margin, whereas digoxin, lithium, warfarin and phenytoin have narrow indices and need monitoring. Half-life, bioavailability and protein binding are unrelated pharmacokinetic descriptors.",
     "topic": "Pharmacology",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 54,
@@ -807,7 +1072,12 @@
     "explanation": "• IM adrenaline is first-line for anaphylaxis; antihistamines and steroids are adjuncts.\n• Delaying adrenaline increases risk of severe reaction.",
     "topic": "Emergency drugs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "World Allergy Organization Anaphylaxis Guidance, 2020",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 55,
@@ -822,7 +1092,12 @@
     "explanation": "• Two identifiers and five rights are core safety.\n• Do not crush EC/SR tablets without order.\n• IV potassium must never be given as a rapid bolus.",
     "topic": "Nursing Pharmacology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Potter & Perry's Fundamentals of Nursing, 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 56,
@@ -837,7 +1112,12 @@
     "explanation": "• Protamine reverses heparin by forming an inactive complex.\n• Warfarin is reversed with vitamin K/PCC context-dependent.",
     "topic": "Antidotes",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 57,
@@ -852,7 +1132,12 @@
     "explanation": "• NAC replenishes glutathione and reduces hepatotoxic metabolites in paracetamol poisoning.\n• Give per poisoning protocol and nomogram where used.",
     "topic": "Antidotes",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 58,
@@ -867,7 +1152,12 @@
     "explanation": "• Rapid-acting analogues (e.g. lispro, aspart) have faster onset than regular insulin.\n• Long-acting basal insulins have slow onset and long duration.",
     "topic": "Endocrine",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "American Diabetes Association Standards of Care in Diabetes, 2024",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 59,
@@ -882,7 +1172,12 @@
     "explanation": "• Ethambutol can cause optic neuritis; monitor vision and colour vision.\n• INH is classically linked to neuropathy (B6 prophylaxis).",
     "topic": "Anti-TB",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 60,
@@ -897,7 +1192,12 @@
     "explanation": "• Excess serotonergic activity causes autonomic and neuromuscular signs.\n• Avoid dangerous combinations; recognize hyperthermia and clonus.",
     "topic": "CNS",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 61,
@@ -912,7 +1212,12 @@
     "explanation": "• 'Red man' syndrome is rate-related histamine-like reaction; slow the infusion and support BP.\n• Not true IgE allergy in many cases.",
     "topic": "Antibiotics",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 62,
@@ -927,7 +1232,12 @@
     "explanation": "• Monitor renal function and hearing where applicable.\n• Therapeutic drug monitoring often used in serious therapy.",
     "topic": "Antibiotics",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 63,
@@ -942,7 +1252,12 @@
     "explanation": "• Levodopa replenishes dopamine in Parkinson's.\n• Often combined with carbidopa to reduce peripheral conversion.",
     "topic": "CNS",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 64,
@@ -957,7 +1272,12 @@
     "explanation": "• Spironolactone blocks aldosterone; watch hyperkalemia especially with ACEI/ARB.\n• Used in heart failure and cirrhotic ascites contexts among others.",
     "topic": "Cardiovascular",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 65,
@@ -972,7 +1292,12 @@
     "explanation": "• Leucovorin rescues normal cells from MTX toxicity in high-dose protocols.\n• Different from low-dose MTX where folic acid supplementation schedules differ.",
     "topic": "Oncology support",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 66,
@@ -987,7 +1312,12 @@
     "explanation": "• Allopurinol is a xanthine oxidase inhibitor for chronic urate lowering.\n• Acute flare management typically uses NSAIDs/colchicine/steroids per protocol.",
     "topic": "MSK",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 67,
@@ -1002,7 +1332,12 @@
     "explanation": "• Calcium stabilizes cardiac membrane in severe hyperkalemia with ECG changes.\n• Does not lower total body K; combine with shift/excretion strategies.",
     "topic": "Electrolytes",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 68,
@@ -1017,7 +1352,12 @@
     "explanation": "• PPIs inhibit H+/K+ ATPase in parietal cells.\n• Longer onset than antacids; used for GERD/PUD contexts.",
     "topic": "GI",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 69,
@@ -1032,7 +1372,12 @@
     "explanation": "• Short-acting beta-2 agonists relieve bronchospasm.\n• Non-selective beta-blockers can worsen asthma.",
     "topic": "Respiratory",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 70,
@@ -1047,6 +1392,11 @@
     "explanation": "• Clozapine requires structured hematologic monitoring.\n• Stop and follow protocol if neutropenia.",
     "topic": "Psychiatry",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Kaplan & Sadock's Synopsis of Psychiatry, 11e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   }
 ]

@@ -4,7 +4,6 @@
   "count": 8,
   "minutes": 60,
   "source": "NORCET 6 Mains 2024 — Recalls",
-  "verbatim": true,
   "subjects": {
     "OBG": 2,
     "Pediatric": 2,
@@ -40,7 +39,8 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 200,
@@ -70,7 +70,8 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "AAP/AHA Neonatal Resuscitation Program 8e — Delivery Room Management"
     },
     {
       "id": 201,
@@ -100,7 +101,8 @@
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 202,
@@ -130,7 +132,8 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 203,
@@ -160,7 +163,8 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 204,
@@ -190,7 +194,8 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 205,
@@ -220,7 +225,8 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 206,
@@ -250,7 +256,9 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     }
-  ]
+  ],
+  "recall": true
 }

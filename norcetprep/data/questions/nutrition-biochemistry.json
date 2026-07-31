@@ -9,10 +9,15 @@
       "D. Night blindness"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "Vitamin B12 (cobalamin) is the coenzyme for methionine synthase; when it is deficient folate is trapped as methyl-tetrahydrofolate, thymidylate synthesis stalls and nuclear maturation lags behind cytoplasmic maturation, producing large megaloblastic (macrocytic) red cell precursors and hypersegmented neutrophils. Deficiency also causes subacute combined degeneration because B12 is needed by methylmalonyl-CoA mutase. Scurvy is vitamin C deficiency, rickets is vitamin D deficiency and night blindness is vitamin A deficiency — none of them alters DNA synthesis in the marrow.",
     "topic": "Vitamins",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 2,
@@ -24,10 +29,15 @@
       "D. Coagulopathy only"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "Ascorbic acid is the cofactor for prolyl and lysyl hydroxylase, so without it collagen cannot be cross-linked and connective tissue and capillaries become fragile — the swollen bleeding gums, perifollicular haemorrhages, subperiosteal bleeding and poor wound healing of scurvy. Beriberi is thiamine (B1) deficiency and pellagra is niacin (B3) deficiency, each with its own classical syndrome. Isolated coagulopathy from defective clotting factor synthesis points to vitamin K, not vitamin C; scurvy bleeds because vessels are weak, not because clotting factors are missing.",
     "topic": "Vitamins",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Park's Textbook of Preventive and Social Medicine, 26e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 3,
@@ -39,10 +49,15 @@
       "D. Polycythemia"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "Iron is required to insert into protoporphyrin to make haem, so once stores are exhausted haemoglobin synthesis becomes the limiting step and the marrow releases small, pale cells — a microcytic (low MCV) hypochromic (low MCH/MCHC) anaemia with low ferritin and raised TIBC. A macrocytic picture instead indicates vitamin B12 or folate deficiency, where DNA synthesis rather than haem synthesis is impaired. Haemolysis shows reticulocytosis with raised LDH and bilirubin and low haptoglobin, and polycythaemia is an increased red cell mass, the opposite of anaemia.",
     "topic": "Minerals",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 4,
@@ -54,10 +69,15 @@
       "D. High saturated fat"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "Carbohydrate is the macronutrient with the greatest effect on post-prandial glucose, so nutrition therapy centres on quantifying it — carbohydrate counting or consistent carbohydrate portions — and on keeping meal timing regular so intake matches the action profile of insulin or oral agents. Unlimited simple sugars would produce exactly the post-prandial spikes the diet is meant to blunt. Protein is not eliminated (it is only moderated in overt nephropathy, and it is needed to preserve lean mass), and a high saturated fat intake worsens the dyslipidaemia and cardiovascular risk that kill most people with diabetes.",
     "topic": "Therapeutic diet",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "ADA Standards of Care in Diabetes — 2024 (Medical Nutrition Therapy)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 5,
@@ -69,10 +89,15 @@
       "D. ≥200 always"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "A fasting plasma glucose of ≥126 mg/dL (7.0 mmol/L) after at least 8 hours without caloric intake is diagnostic of diabetes, confirmed by a repeat abnormal test unless the patient has unequivocal hyperglycaemic symptoms. A fasting value of 100–125 mg/dL is impaired fasting glucose (prediabetes), not diabetes, so the ≥100 mg/dL option is the threshold for a different category. The ≥200 mg/dL cut-off belongs to the random value with classic symptoms or the 2-hour value in an OGTT, and a random 140 mg/dL is not diagnostic of anything by itself.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "ADA Standards of Care in Diabetes — 2024 (Classification and Diagnosis)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 6,
@@ -84,10 +109,15 @@
       "D. Lysosomes"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "All ten enzymes of the Embden-Meyerhof pathway are soluble cytosolic proteins, so the conversion of glucose to pyruvate takes place entirely in the cytoplasm; only afterwards does pyruvate enter the mitochondrion for oxidative decarboxylation and the citric acid cycle. This cytosolic location is why mature red blood cells, which have no mitochondria at all, can still generate ATP by anaerobic glycolysis to lactate. The nucleus and lysosomes have no role in glycolysis — lysosomes are concerned with acid hydrolase digestion, including glycogen breakdown by acid maltase.",
     "topic": "Biochemistry",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 7,
@@ -99,10 +129,15 @@
       "D. Pernicious anemia"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "Vitamin D drives intestinal calcium and phosphate absorption, so deficiency in a growing child leaves osteoid and epiphyseal cartilage unmineralised — rickets, with craniotabes, a rachitic rosary, widened wrists, Harrison sulcus and bow legs, plus low/normal calcium, low phosphate and a high alkaline phosphatase. The same defect after epiphyseal closure is osteomalacia, which is the adult presentation. Pellagra is niacin deficiency (dermatitis, diarrhoea, dementia), beriberi is thiamine deficiency, and pernicious anaemia is B12 deficiency from loss of intrinsic factor.",
     "topic": "Vitamins",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ghai Essential Pediatrics, 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 8,
@@ -114,10 +149,15 @@
       "D. Hemochromatosis"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "Iodine is the substrate for thyroxine synthesis, so a deficient intake lowers T3/T4 output, releases the pituitary from feedback and raises TSH, which drives compensatory hyperplasia and hypertrophy of the thyroid follicles — clinically a goitre, and in the fetus and infant the wider spectrum of iodine deficiency disorders including cretinism. Diabetes insipidus is a disorder of ADH, not of iodine; scurvy is vitamin C deficiency; and haemochromatosis is iron overload, an excess state rather than a deficiency.",
     "topic": "Minerals",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Park's Textbook of Preventive and Social Medicine, 26e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 9,
@@ -129,10 +169,15 @@
       "D. Only fiber"
     ],
     "correct": 0,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "In chronic kidney disease the failing nephrons cannot clear nitrogenous waste, sodium, potassium or phosphate, so all four are individualised and usually restricted according to the CKD stage, laboratory values and whether the patient is on dialysis — protein is limited before dialysis but increased once dialysis begins, because dialysate losses cause protein-energy wasting. Restricting water alone would ignore the electrolyte load that produces life-threatening hyperkalaemia and renal bone disease. Fat and fibre are not the primary restrictions; fibre is generally encouraged, within the limits of potassium-rich fruits and vegetables.",
     "topic": "Therapeutic diet",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDOQI Clinical Practice Guideline for Nutrition in CKD: 2020 Update",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 10,
@@ -144,10 +189,15 @@
       "D. 100–110"
     ],
     "correct": 1,
-    "explanation": "• Nutrition/biochemistry for NORCET nursing.",
+    "explanation": "Sodium is the principal extracellular cation and the main determinant of plasma osmolality and therefore of water movement between compartments, and its normal serum range is 135–145 mEq/L. Values below 135 mEq/L define hyponatraemia, in which water shifts into cells and causes cerebral oedema, confusion and, at severe levels, seizures — which is what the 120–125 and 100–110 options represent. Values above 145 mEq/L define hypernatraemia with cellular dehydration and thirst, so 150–160 mEq/L is also outside the normal range.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 11,
@@ -159,10 +209,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 12,
@@ -174,10 +229,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 13,
@@ -189,10 +249,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 14,
@@ -204,10 +269,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 15,
@@ -219,10 +289,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 16,
@@ -234,10 +309,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 17,
@@ -249,10 +329,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 18,
@@ -264,10 +349,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 19,
@@ -279,10 +369,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 20,
@@ -294,10 +389,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 21,
@@ -309,10 +409,15 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 22,
@@ -324,9 +429,14 @@
       "D. After IV dextrose only"
     ],
     "correct": 1,
-    "explanation": "• Ketogenesis rises when carbohydrate availability is low.",
+    "explanation": "Ketogenesis is switched on when glucose and insulin are low: in prolonged fasting, starvation and uncontrolled (especially type 1) diabetes, unrestrained lipolysis floods the liver with free fatty acids while oxaloacetate is diverted into gluconeogenesis, so the excess acetyl-CoA is condensed into acetoacetate, β-hydroxybutyrate and acetone. In the fed state and after a high-carbohydrate meal the opposite happens — insulin inhibits hormone-sensitive lipase and carnitine palmitoyltransferase-1, so fatty acid oxidation and ketone production are suppressed. Intravenous dextrose likewise raises insulin and turns ketogenesis off, which is why glucose-containing fluid with insulin clears the ketosis of diabetic ketoacidosis.",
     "topic": "Metabolism",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Harper's Illustrated Biochemistry, 31e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   }
 ]

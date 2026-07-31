@@ -12,7 +12,12 @@
     "explanation": "• Continuous cardiac monitoring is critical in the first 24 hours post-MI to detect arrhythmias, which are the leading cause of death in the early period.\n• While pain management and other interventions are important, cardiac monitoring takes priority.",
     "topic": "Cardiovascular System",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 2,
@@ -27,7 +32,12 @@
     "explanation": "• Hyperkalemia is the most common and dangerous electrolyte imbalance in renal failure because the kidneys cannot excrete potassium.\n• This can lead to life-threatening cardiac arrhythmias.",
     "topic": "Renal System",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 3,
@@ -42,7 +52,12 @@
     "explanation": "• IV insulin infusion is the primary treatment for DKA to reverse ketosis and lower blood glucose.\n• This must be done carefully with frequent monitoring of blood glucose and electrolytes.",
     "topic": "Endocrine System",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 4,
@@ -57,7 +72,12 @@
     "explanation": "• Patients with dysphagia after stroke are at high risk for aspiration.\n• NPO (nothing by mouth) status should be maintained until swallowing assessment is completed.\n• IV fluids maintain hydration.",
     "topic": "Neurological System",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 5,
@@ -72,7 +92,12 @@
     "explanation": "• COPD patients should receive low-flow oxygen (1-2 L/min) (1-2 L/min) because high oxygen concentrations can suppress their hypoxic drive to breathe, leading to respiratory depression.",
     "topic": "Respiratory System",
     "year": "2022",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 6,
@@ -87,7 +112,12 @@
     "explanation": "• Proton pump inhibitors should be taken 30 minutes before the first meal of the day on an empty stomach to maximize effectiveness by blocking acid production.",
     "topic": "Gastrointestinal System",
     "year": "2024",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 7,
@@ -102,7 +132,12 @@
     "explanation": "• Deep breathing exercises are critical post-CABG to prevent atelectasis and pneumonia.\n• Teaching should begin pre-operatively so patients can practice.",
     "topic": "Cardiovascular Surgery",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 8,
@@ -117,22 +152,33 @@
     "explanation": "• Sitting position leaning forward helps reduce pressure on the pancreas and provides pain relief in acute pancreatitis.",
     "topic": "Gastrointestinal System",
     "year": "2022",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 9,
-    "question": "A patient with liver cirrhosis develops hepatic encephalopathy. What dietary modification is most important?",
+    "question": "A patient with cirrhosis develops hepatic encephalopathy. According to current guidance, what is the most appropriate dietary approach?",
     "options": [
       "A. High protein diet",
       "B. Low protein diet",
       "C. High sodium diet",
       "D. High fat diet"
     ],
-    "correct": 1,
-    "explanation": "• Low protein diet reduces ammonia production in the gut, which contributes to hepatic encephalopathy.\n• Protein restriction helps manage symptoms.",
+    "correct": 0,
+    "explanation": "Current AASLD/EASL and ESPEN guidance is to MAINTAIN protein intake at roughly 1.2–1.5 g/kg/day rather than restrict it: these patients are catabolic, and protein restriction accelerates muscle loss, which itself worsens ammonia handling. Lactulose and rifaximin, not starvation of protein, are the treatment. Older question banks still key \"low protein\" — that teaching has been withdrawn.",
     "topic": "Hepatic System",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "AASLD/EASL Hepatic Encephalopathy Guideline 2014; ESPEN Guideline on Clinical Nutrition in Liver Disease 2019",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01",
+      "note": "answer key corrected — outdated protein restriction"
+    }
   },
   {
     "id": 10,
@@ -147,7 +193,12 @@
     "explanation": "• Heparin is an anticoagulant that increases bleeding risk.\n• Monitoring for signs of bleeding (gums, bruising, hematuria) is critical.",
     "topic": "Hematological System",
     "year": "2023",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 11,
@@ -162,7 +213,12 @@
     "explanation": "• Autonomic dysreflexia occurs in patients with spinal cord injury above T6, causing severe hypertension.\n• It's a medical emergency requiring immediate intervention.",
     "topic": "Neurological System",
     "year": "2022",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 12,
@@ -177,7 +233,12 @@
     "explanation": "• Monitoring ventilator settings and patient response is critical to ensure adequate oxygenation and prevent complications like barotrauma.",
     "topic": "Critical Care",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 13,
@@ -192,7 +253,12 @@
     "explanation": "• Urine output is the best indicator of adequate fluid resuscitation in burn patients.\n• Target is 30-50 ml/hour in adults.",
     "topic": "Emergency Care",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 14,
@@ -207,7 +273,12 @@
     "explanation": "• Fever in neutropenic patients (common with chemotherapy) indicates possible infection, which can be life-threatening.\n• Immediate medical attention is required.",
     "topic": "Oncology",
     "year": "2022",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 15,
@@ -222,7 +293,12 @@
     "explanation": "• Visual disturbances, particularly yellow-green halos around lights, are classic early signs of digoxin toxicity.\n• Other signs include bradycardia, nausea, and arrhythmias.",
     "topic": "Cardiovascular System",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 16,
@@ -237,7 +313,12 @@
     "explanation": "• NPO (nothing by mouth) status is critical before surgery to prevent aspiration during anesthesia.\n• This is the most important pre-operative instruction.",
     "topic": "Gastrointestinal Surgery",
     "year": "2023",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 17,
@@ -252,7 +333,12 @@
     "explanation": "• Methotrexate can cause hepatotoxicity.\n• Regular liver function tests are essential to monitor for liver damage.",
     "topic": "Musculoskeletal System",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 18,
@@ -267,7 +353,12 @@
     "explanation": "• Fluid resuscitation is the first priority in septic shock to restore circulating volume and maintain tissue perfusion.\n• This should be done immediately.",
     "topic": "Critical Care",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Surviving Sepsis Campaign International Guidelines 2021",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 19,
@@ -282,7 +373,12 @@
     "explanation": "• Applying pressure to the lacrimal duct prevents systemic absorption of the medication, reducing side effects like bradycardia and hypotension.",
     "topic": "Ophthalmology",
     "year": "2023",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 20,
@@ -297,7 +393,12 @@
     "explanation": "• Access site patency is critical for CRRT.\n• Clotting or dislodgement can cause treatment interruption and complications.",
     "topic": "Renal System",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 21,
@@ -312,7 +413,12 @@
     "explanation": "• tPA is a thrombolytic that dissolves clots but significantly increases bleeding risk.\n• Continuous monitoring for signs of bleeding is critical.",
     "topic": "Respiratory System",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 22,
@@ -327,7 +433,12 @@
     "explanation": "• Levothyroxine should be taken on an empty stomach 30-60 minutes before breakfast for optimal absorption.\n• Food can interfere with absorption.\n• Proper medication administration requires understanding of pharmacology, patient assessment, and the five rights of medication administration (right patient, right drug, right dose, right route, right time) to ensure patient safety.",
     "topic": "Endocrine System",
     "year": "2023",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 23,
@@ -342,7 +453,12 @@
     "explanation": "• During MS exacerbations, patients may have decreased mobility.\n• Preventing complications like pressure ulcers, contractures, and DVT is the priority.",
     "topic": "Neurological System",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 24,
@@ -357,7 +473,12 @@
     "explanation": "• Esophageal varices are dilated veins that can rupture, causing massive upper GI bleeding, which is life-threatening.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
     "topic": "Gastrointestinal System",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 25,
@@ -372,7 +493,12 @@
     "explanation": "• Continuous bubbling in the water seal chamber indicates an air leak, which could be from the patient's lung or a leak in the system.\n• This requires investigation.",
     "topic": "Respiratory System",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 26,
@@ -387,7 +513,12 @@
     "explanation": "• Adrenal crisis requires immediate administration of hydrocortisone (glucocorticoid) to replace deficient cortisol.\n• This is life-saving.",
     "topic": "Endocrine System",
     "year": "2022",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 27,
@@ -402,7 +533,12 @@
     "explanation": "• Protein interferes with levodopa absorption.\n• Patients should take medication 30 minutes before meals or 1 hour after meals, avoiding high-protein foods.",
     "topic": "Neurological System",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 28,
@@ -417,7 +553,12 @@
     "explanation": "• Dual antiplatelet therapy significantly increases bleeding risk.\n• Patients must be taught to recognize and report signs of bleeding immediately.",
     "topic": "Cardiovascular System",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 29,
@@ -432,7 +573,12 @@
     "explanation": "• Peritonitis is the most serious complication of peritoneal dialysis, indicated by cloudy dialysate, abdominal pain, and fever.\n• It requires immediate treatment.",
     "topic": "Renal System",
     "year": "2022",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 30,
@@ -447,7 +593,12 @@
     "explanation": "• Guillain-Barré syndrome can cause ascending paralysis affecting respiratory muscles.\n• Continuous respiratory monitoring is critical as respiratory failure can occur rapidly.",
     "topic": "Neurological System",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 31,
@@ -462,7 +613,12 @@
     "explanation": "• Tension pneumothorax is a medical emergency.\n• Needle decompression (14-16 gauge needle in 2nd intercostal space) is the immediate life-saving intervention before chest tube insertion.",
     "topic": "Respiratory System",
     "year": "2015",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 32,
@@ -477,7 +633,12 @@
     "explanation": "• Sudden severe abdominal or back pain may indicate AAA rupture, which is life-threatening.\n• Blood pressure monitoring and pain assessment are critical.",
     "topic": "Cardiovascular System",
     "year": "2016",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 33,
@@ -492,7 +653,12 @@
     "explanation": "• Hyperglycemia in TPN patients requires insulin administration, often added directly to the TPN solution or given separately.\n• TPN should not be stopped abruptly.",
     "topic": "Nutrition",
     "year": "2017",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 34,
@@ -507,7 +673,12 @@
     "explanation": "• Vitamin B12 deficiency shows improvement within 1-2 weeks of treatment.\n• Reticulocyte count increases, and neurological symptoms improve gradually.",
     "topic": "Hematological System",
     "year": "2018",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 35,
@@ -522,7 +693,12 @@
     "explanation": "• During Crohn's flare-ups, a low residue (low fiber) diet reduces intestinal irritation and helps manage symptoms.\n• High fiber can worsen inflammation.",
     "topic": "Gastrointestinal System",
     "year": "2019",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 36,
@@ -537,7 +713,12 @@
     "explanation": "• Endotracheal suctioning should not exceed 10-15 seconds per pass to prevent hypoxia and cardiac arrhythmias.\n• Pre-oxygenate before suctioning.",
     "topic": "Critical Care",
     "year": "2020",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Potter & Perry Fundamentals of Nursing 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 37,
@@ -552,7 +733,12 @@
     "explanation": "• Tumor lysis syndrome causes hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia due to rapid cell death.\n• Hyperkalemia is the most dangerous.",
     "topic": "Oncology",
     "year": "2021",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 38,
@@ -567,7 +753,12 @@
     "explanation": "• High-dose dexamethasone is given immediately for spinal cord compression to reduce edema and preserve neurological function, followed by radiation or surgery.",
     "topic": "Oncology",
     "year": "2022",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 39,
@@ -582,7 +773,12 @@
     "explanation": "• Atrial fibrillation post-CABG increases stroke risk due to blood stasis.\n• Anticoagulation and monitoring for embolic events are priorities.",
     "topic": "Cardiovascular Surgery",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 40,
@@ -597,7 +793,12 @@
     "explanation": "• Target PaO2 for mechanically ventilated patients is 60-80 mmHg (or SpO2 88-95%) to prevent oxygen toxicity while maintaining adequate oxygenation.",
     "topic": "Critical Care",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "NIH/NHLBI ARDS Network (ARDSNet) Mechanical Ventilation Protocol 2008",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 41,
@@ -612,7 +813,12 @@
     "explanation": "• Cushing's syndrome causes hyperglycemia due to cortisol's effect on glucose metabolism.\n• Patients may develop steroid-induced diabetes.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
     "topic": "Endocrine System",
     "year": "2015",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 42,
@@ -627,7 +833,12 @@
     "explanation": "• Myasthenic crisis can cause respiratory failure.\n• Continuous monitoring of respiratory function (vital capacity, negative inspiratory force) is critical.",
     "topic": "Neurological System",
     "year": "2016",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 43,
@@ -642,7 +853,12 @@
     "explanation": "• AKI Stage 3 is defined as serum creatinine >3.0 times baseline or ≥4.0 mg/dL, or initiation of renal replacement therapy.",
     "topic": "Renal System",
     "year": "2017",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "KDIGO Clinical Practice Guideline for Acute Kidney Injury 2012",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 44,
@@ -657,7 +873,12 @@
     "explanation": "• Liver function tests are critical before cholecystectomy to assess liver health and ensure safe surgery, especially if there's concern about bile duct involvement.",
     "topic": "Gastrointestinal System",
     "year": "2018",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 45,
@@ -672,7 +893,12 @@
     "explanation": "• Hemophilia A is a deficiency of Factor VIII.\n• Replacement with Factor VIII concentrate or recombinant Factor VIII is the treatment.",
     "topic": "Hematological System",
     "year": "2019",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 46,
@@ -687,7 +913,12 @@
     "explanation": "• Normal serum amylase is 30-110 U/L.\n• In acute pancreatitis, levels are typically 3-10 times the upper limit of normal.",
     "topic": "Gastrointestinal System",
     "year": "2020",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Fischbach's Manual of Laboratory and Diagnostic Tests 10e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 47,
@@ -702,7 +933,12 @@
     "explanation": "• Prone positioning improves oxygenation in ARDS by redistributing blood flow and reducing ventilation-perfusion mismatch.",
     "topic": "Critical Care",
     "year": "2021",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 48,
@@ -717,7 +953,12 @@
     "explanation": "• Pheochromocytoma causes episodic or sustained hypertension due to excessive catecholamine release.\n• Hypertensive crisis can be life-threatening.\n• Understanding risk factors and potential complications allows nurses to implement preventive measures, recognize early warning signs, and provide timely interventions to ensure optimal patient outcomes.",
     "topic": "Endocrine System",
     "year": "2022",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 49,
@@ -732,7 +973,12 @@
     "explanation": "• Bell's palsy causes inability to close the eye, leading to corneal damage.\n• Eye protection (artificial tears, eye patch) is critical.",
     "topic": "Neurological System",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 50,
@@ -747,7 +993,12 @@
     "explanation": "• tPA is a thrombolytic that significantly increases bleeding risk.\n• Intracranial hemorrhage is the most serious complication requiring immediate monitoring.",
     "topic": "Cardiovascular System",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 51,
@@ -762,7 +1013,12 @@
     "explanation": "• For STEMI patients, primary PCI should be delivered within 90 minutes of ECG when possible, as this is associated with major survival benefits.\n• Guidelines recommend primary PCI within 120 minutes when presentation is within 12 hours of symptom onset.\n• Time to reperfusion is critical - every minute counts in preserving myocardial function.",
     "topic": "Cardiovascular System",
     "year": "2015",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "ACC/AHA Guideline for the Management of ST-Elevation Myocardial Infarction 2013",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 52,
@@ -777,7 +1033,12 @@
     "explanation": "• After aspirin loading dose, dual antiplatelet therapy (DAPT) with prasugrel, ticagrelor, or clopidogrel should be initiated for patients undergoing primary PCI.\n• This combination significantly reduces thrombotic events but increases bleeding risk.\n• Monitoring for signs of bleeding is essential, but initiating DAPT is the immediate priority after aspirin in STEMI management.",
     "topic": "Cardiovascular System",
     "year": "2016",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "ACC/AHA Guideline for the Management of ST-Elevation Myocardial Infarction 2013",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with acute respiratory distress syndrome (ARDS) requires prone positioning. What is the primary benefit?",
@@ -792,7 +1053,12 @@
     "topic": "Critical Care",
     "year": "2025",
     "difficulty": "High",
-    "id": 53
+    "id": 53,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with acute kidney injury has serum potassium of 6.5 mEq/L and peaked T-waves on ECG. What is the immediate treatment?",
@@ -807,7 +1073,12 @@
     "topic": "Electrolyte Imbalance - Hyperkalemia",
     "year": "2015",
     "difficulty": "Critical",
-    "id": 54
+    "id": 54,
+    "citation": "AHA CPR & ECC Guidelines 2020",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with chronic heart failure is on furosemide. What electrolyte should be monitored?",
@@ -822,7 +1093,12 @@
     "topic": "Pharmacology - Diuretics",
     "year": "2016",
     "difficulty": "High",
-    "id": 55
+    "id": 55,
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with COPD is receiving oxygen at 6 L/min. Develops decreased level of consciousness. What is the most likely cause?",
@@ -837,7 +1113,12 @@
     "topic": "Respiratory - COPD",
     "year": "2017",
     "difficulty": "Critical",
-    "id": 56
+    "id": 56,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with liver cirrhosis develops asterixis (flapping tremor). What does this indicate?",
@@ -852,7 +1133,12 @@
     "topic": "Hepatic System - Encephalopathy",
     "year": "2018",
     "difficulty": "High",
-    "id": 57
+    "id": 57,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with acute pancreatitis has elevated serum amylase. What is the normal range?",
@@ -867,7 +1153,12 @@
     "topic": "Gastrointestinal - Lab Values",
     "year": "2019",
     "difficulty": "Medium",
-    "id": 58
+    "id": 58,
+    "citation": "Fischbach's Manual of Laboratory and Diagnostic Tests 10e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with myasthenia gravis is experiencing crisis. What is the priority assessment?",
@@ -882,7 +1173,12 @@
     "topic": "Neurological - Myasthenia Gravis",
     "year": "2020",
     "difficulty": "Critical",
-    "id": 59
+    "id": 59,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with Addison's disease is experiencing adrenal crisis. What is the priority medication?",
@@ -897,7 +1193,12 @@
     "topic": "Endocrine - Adrenal Crisis",
     "year": "2021",
     "difficulty": "Critical",
-    "id": 60
+    "id": 60,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with acute MI receives tPA. What is the most critical monitoring in first 24 hours?",
@@ -912,7 +1213,12 @@
     "topic": "Cardiovascular - Thrombolytics",
     "year": "2022",
     "difficulty": "Critical",
-    "id": 61
+    "id": 61,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with Guillain-Barré syndrome is in acute phase. What is the priority nursing intervention?",
@@ -927,7 +1233,12 @@
     "topic": "Neurological - GBS",
     "year": "2023",
     "difficulty": "Critical",
-    "id": 62
+    "id": 62,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with tumor lysis syndrome is at risk for which electrolyte imbalance?",
@@ -942,7 +1253,12 @@
     "topic": "Oncology - Tumor Lysis Syndrome",
     "year": "2024",
     "difficulty": "Critical",
-    "id": 63
+    "id": 63,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with chest tube has continuous bubbling in water seal chamber. What does this indicate?",
@@ -957,7 +1273,12 @@
     "topic": "Chest Tube Management",
     "year": "2015",
     "difficulty": "High",
-    "id": 64
+    "id": 64,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with TPN (Total Parenteral Nutrition) develops hyperglycemia. What is the priority intervention?",
@@ -972,7 +1293,12 @@
     "topic": "Nutrition Support Equipment",
     "year": "2016",
     "difficulty": "High",
-    "id": 65
+    "id": 65,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with deep vein thrombosis is receiving heparin via IV pump. What is the priority monitoring?",
@@ -987,7 +1313,12 @@
     "topic": "IV Therapy Equipment",
     "year": "2017",
     "difficulty": "Critical",
-    "id": 66
+    "id": 66,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with ARDS is on mechanical ventilation. What is the target PaO2?",
@@ -1002,7 +1333,12 @@
     "topic": "Ventilator Management",
     "year": "2018",
     "difficulty": "High",
-    "id": 67
+    "id": 67,
+    "citation": "NIH/NHLBI ARDS Network (ARDSNet) Mechanical Ventilation Protocol 2008",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with peritoneal dialysis has cloudy dialysate. What does this indicate?",
@@ -1017,7 +1353,12 @@
     "topic": "Dialysis Equipment",
     "year": "2019",
     "difficulty": "Critical",
-    "id": 68
+    "id": 68,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with pacemaker requires which type of monitoring?",
@@ -1032,7 +1373,12 @@
     "topic": "Cardiac Devices",
     "year": "2020",
     "difficulty": "High",
-    "id": 69
+    "id": 69,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with tracheostomy requires suctioning. What is the correct technique?",
@@ -1047,7 +1393,12 @@
     "topic": "Tracheostomy Care",
     "year": "2021",
     "difficulty": "High",
-    "id": 70
+    "id": 70,
+    "citation": "Potter & Perry Fundamentals of Nursing 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with wound VAC (vacuum-assisted closure) therapy. What is the correct pressure setting?",
@@ -1062,7 +1413,12 @@
     "topic": "Wound Care Equipment",
     "year": "2022",
     "difficulty": "Medium",
-    "id": 71
+    "id": 71,
+    "citation": "Bryant & Nix Acute and Chronic Wounds: Current Management Concepts 5e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with ICP monitoring. What is the normal intracranial pressure?",
@@ -1077,7 +1433,12 @@
     "topic": "Neurological Monitoring",
     "year": "2023",
     "difficulty": "High",
-    "id": 72
+    "id": 72,
+    "citation": "Greenberg's Handbook of Neurosurgery 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with Swan-Ganz catheter. What does it measure?",
@@ -1092,7 +1453,12 @@
     "topic": "Hemodynamic Monitoring",
     "year": "2024",
     "difficulty": "High",
-    "id": 73
+    "id": 73,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient requires blood transfusion. What is the correct administration set?",
@@ -1107,7 +1473,12 @@
     "topic": "Transfusion Equipment",
     "year": "2015",
     "difficulty": "High",
-    "id": 74
+    "id": 74,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with PCA (Patient-Controlled Analgesia) pump. What is the most important teaching?",
@@ -1122,7 +1493,12 @@
     "topic": "Pain Management Equipment",
     "year": "2016",
     "difficulty": "High",
-    "id": 75
+    "id": 75,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with continuous bladder irrigation. What is the correct flow rate?",
@@ -1137,7 +1513,12 @@
     "topic": "Urological Equipment",
     "year": "2017",
     "difficulty": "Medium",
-    "id": 76
+    "id": 76,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with external fixator for fracture. What is the priority nursing care?",
@@ -1152,10 +1533,15 @@
     "topic": "Orthopedic Equipment",
     "year": "2018",
     "difficulty": "High",
-    "id": 77
+    "id": 77,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] The X-ray shows a chest with a visible lung edge and absence of lung markings beyond it. This is most consistent with:",
+    "question": "A chest X-ray shows a visible lung edge with no lung markings beyond it. This appearance indicates:",
     "options": [
       "A. Consolidation",
       "B. Pleural effusion",
@@ -1164,14 +1550,18 @@
     ],
     "correct": 2,
     "explanation": "• A visible visceral pleural edge (lung edge) with no lung markings beyond it indicates pneumothorax.\n• Image-based CXR interpretation is commonly tested in NORCET.",
-    "topic": "Image-Based - X-ray",
+    "topic": "X-ray",
     "year": "2019",
     "difficulty": "High",
-    "image_type": "cxr_pneumothorax",
-    "id": 78
+    "id": 78,
+    "citation": "Felson's Principles of Chest Roentgenology 4e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] On the chest X-ray image, the tip of the NG tube is visible. Where should it lie to confirm gastric placement?",
+    "question": "A nasogastric tube position is being confirmed on a chest X-ray. Where should the tip lie to confirm gastric placement?",
     "options": [
       "A. In the trachea",
       "B. Below the diaphragm, in the stomach",
@@ -1180,14 +1570,18 @@
     ],
     "correct": 1,
     "explanation": "• Radiological confirmation of NG placement requires the tip to be below the diaphragm in the stomach.\n• Esophageal or tracheal placement is incorrect and unsafe.",
-    "topic": "Image-Based - X-ray",
+    "topic": "X-ray",
     "year": "2018",
     "difficulty": "High",
-    "image_type": "ng_tube_xray",
-    "id": 79
+    "id": 79,
+    "citation": "Potter & Perry Fundamentals of Nursing 9e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] The image shows a surgical instrument with a curved, tapered tip. It is most likely used for:",
+    "question": "A surgical instrument with a curved, tapered tip is handed to the scrub nurse. It is most likely used for:",
     "options": [
       "A. Cutting suture",
       "B. Clamping vessels",
@@ -1196,14 +1590,18 @@
     ],
     "correct": 1,
     "explanation": "• Curved, tapered-tip instruments are typical of hemostats/artery forceps used for clamping vessels.\n• Instrument identification from images is a recurrent NORCET pattern.",
-    "topic": "Image-Based - Instruments",
+    "topic": "Instruments",
     "year": "2020",
     "difficulty": "Medium",
-    "image_type": "hemostat",
-    "id": 80
+    "id": 80,
+    "citation": "Berry & Kohn's Operating Room Technique 13e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] The abdominal X-ray shows free air under the diaphragm. This suggests:",
+    "question": "An erect abdominal X-ray shows free air under the diaphragm. This suggests:",
     "options": [
       "A. Normal finding",
       "B. Bowel obstruction only",
@@ -1212,14 +1610,18 @@
     ],
     "correct": 2,
     "explanation": "• Free air under the diaphragm on erect abdominal or chest X-ray indicates pneumoperitoneum, commonly from perforated ulcer or bowel.\n• Image-based X-ray interpretation is commonly asked.",
-    "topic": "Image-Based - X-ray",
+    "topic": "X-ray",
     "year": "2017",
     "difficulty": "High",
-    "image_type": "pneumoperitoneum",
-    "id": 81
+    "id": 81,
+    "citation": "Bailey & Love's Short Practice of Surgery 27e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] In the image, a three-bottle chest drainage system is shown. Which chamber indicates an air leak when it bubbles continuously?",
+    "question": "A three-bottle underwater-seal chest drainage system is in use. Which chamber indicates an air leak when it bubbles continuously?",
     "options": [
       "A. Collection chamber",
       "B. Water seal chamber",
@@ -1228,14 +1630,18 @@
     ],
     "correct": 1,
     "explanation": "• Continuous bubbling in the water seal chamber indicates an air leak (from lung or system).\n• Tidaling may be normal with respiration; continuous bubbling is not.",
-    "topic": "Image-Based - Instruments",
+    "topic": "Instruments",
     "year": "2021",
     "difficulty": "High",
-    "image_type": "chest_drain_bottle",
-    "id": 82
+    "id": 82,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] The limb X-ray shows a fracture line through the bone with alignment maintained. This is best described as:",
+    "question": "A limb X-ray shows a fracture line through the bone with alignment maintained. This is best described as:",
     "options": [
       "A. Comminuted fracture",
       "B. Simple (closed) fracture",
@@ -1244,14 +1650,18 @@
     ],
     "correct": 1,
     "explanation": "• A single fracture line with maintained alignment is a simple fracture.\n• Comminuted = multiple fragments; open = skin broken; pathological = through abnormal bone.",
-    "topic": "Image-Based - X-ray",
+    "topic": "X-ray",
     "year": "2020",
     "difficulty": "Medium",
-    "image_type": "fracture_xray",
-    "id": 83
+    "id": 83,
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] The image shows a syringe with a needle. Which gauge is typically used for intramuscular injection in an adult?",
+    "question": "A needle is being selected for an intramuscular injection in an adult. Which gauge is typically used?",
     "options": [
       "A. 18 G",
       "B. 21–23 G",
@@ -1260,14 +1670,18 @@
     ],
     "correct": 1,
     "explanation": "• IM injection in adults usually uses 21–23 G, 1–1.5 inch.\n• Subcutaneous often 25–27 G; IV varies by site and use.\n• Syringe/needle identification from images is tested in NORCET.",
-    "topic": "Image-Based - Instruments",
+    "topic": "Instruments",
     "year": "2019",
     "difficulty": "Medium",
-    "image_type": "syringe_needle",
-    "id": 84
+    "id": 84,
+    "citation": "Kozier & Erb's Fundamentals of Nursing 10e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
-    "question": "[IMAGE-BASED] On the chest X-ray, a wedge-shaped opacity in the lung with the apex toward the hilum suggests:",
+    "question": "A chest X-ray shows a wedge-shaped opacity in the lung with its apex pointing toward the hilum. This suggests:",
     "options": [
       "A. Pneumonia",
       "B. Lung mass",
@@ -1276,10 +1690,14 @@
     ],
     "correct": 2,
     "explanation": "• A wedge-shaped opacity with apex toward hilum is classic for pulmonary infarction (e.g.\n• pulmonary embolism).\n• Pneumonia and mass often have different shapes and distribution.",
-    "topic": "Image-Based - X-ray",
+    "topic": "X-ray",
     "year": "2018",
     "difficulty": "High",
-    "image_type": "cxr_infarct",
-    "id": 85
+    "id": 85,
+    "citation": "Felson's Principles of Chest Roentgenology 4e",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   }
 ]

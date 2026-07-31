@@ -28,7 +28,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 19,
@@ -59,7 +60,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
   },
   {
     "id": 42,
@@ -90,7 +92,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 53,
@@ -121,7 +124,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "esic-sn-recalls.json"
+    "_sourceFile": "esic-sn-recalls.json",
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
   },
   {
     "id": 74,
@@ -152,7 +156,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 75,
@@ -183,7 +188,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 76,
@@ -214,7 +220,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 77,
@@ -245,7 +252,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 87,
@@ -276,7 +284,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 88,
@@ -307,7 +316,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 109,
@@ -338,7 +348,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 110,
@@ -369,7 +380,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 115,
@@ -400,7 +412,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 158,
@@ -431,7 +444,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines"
   },
   {
     "id": 192,
@@ -462,7 +476,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 208,
@@ -491,12 +506,13 @@
     "qtype": "recall",
     "section": "foundations",
     "tags": [],
-    "_sourceFile": "norcet-7-mains-2024-recalls.json"
+    "_sourceFile": "norcet-7-mains-2024-recalls.json",
+    "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
   },
   {
     "id": 232,
     "_origId": "N9-17",
-    "question": "During central venous catheter (CVC) insertion, a patient develops sudden dyspnea and diminished breath sounds on one side. What is the most likely complication?",
+    "question": "While a central venous catheter is being inserted, the patient abruptly becomes breathless and air entry is found to be reduced over one side of the chest. Which complication is most likely to have occurred?",
     "options": [
       "Pneumothorax",
       "Hemothorax",
@@ -504,28 +520,34 @@
       "Air embolism"
     ],
     "correct": 0,
-    "explanation": "Inadvertent pleural puncture during subclavian/IJ CVC insertion → sudden dyspnea + unilateral diminished breath sounds = pneumothorax.",
+    "explanation": "The pleural dome sits immediately deep to the subclavian and low internal jugular puncture sites. If the needle strays through it, air enters the pleural space and the lung collapses, producing exactly this combination of sudden dyspnoea, unilateral loss of breath sounds and a hyper-resonant percussion note. A chest radiograph after every insertion exists to catch it.",
     "explanations": {
-      "A": "Inadvertent pleural puncture during subclavian/IJ CVC insertion → sudden dyspnea + unilateral diminished breath sounds = pneumothorax.",
-      "B": "Hemothorax presents similarly but with dullness to percussion + shock; less immediate on insertion.",
-      "C": "Tamponade (late perforation of RV) causes Beck's triad — muffled heart sounds, hypotension, JVD.",
-      "D": "Air embolism causes sudden hypoxia + mill-wheel murmur; bilateral breath sounds usually preserved."
+      "A": "The pleural dome sits immediately deep to the subclavian and low internal jugular puncture sites. If the needle strays through it, air enters the pleural space and the lung collapses, producing exactly this combination of sudden dyspnoea, unilateral loss of breath sounds and a hyper-resonant percussion note. A chest radiograph after every insertion exists to catch it.",
+      "B": "A haemothorax from arterial or venous laceration can look similar, but percussion is dull rather than resonant and the dominant picture is one of blood loss and shock.",
+      "C": "Tamponade follows late perforation of the right atrium or ventricle by the catheter tip. It announces itself with muffled heart sounds, hypotension and distended neck veins, and breath sounds stay equal on the two sides.",
+      "D": "Venous air embolism causes abrupt hypoxia, chest pain and sometimes a churning mill-wheel murmur, yet air entry remains symmetrical because the lung has not collapsed."
     },
     "subject": "Medical-Surgical",
     "topic": "CVC complications",
     "day": 8,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — Central venous access devices: complications",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 274,
     "_origId": "N9-59",
-    "question": "A 30-year-old presents with fever, weight loss, and skin lesions after traveling to a rural area. The nurse suspects leishmaniasis. Which vector is most likely responsible?",
+    "question": "A 30-year-old who recently spent time in a rural district returns with persistent fever, marked weight loss and skin lesions, and the nurse's assessment points towards leishmaniasis. This infection reaches humans through the bite of which arthropod?",
     "options": [
       "Mosquito",
       "Tsetse fly",
@@ -533,23 +555,29 @@
       "Tick"
     ],
     "correct": 2,
-    "explanation": "Phlebotomus (sandfly) transmits Leishmania donovani → kala-azar.",
+    "explanation": "Correct. The female phlebotomine sandfly, Phlebotomus argentipes in India, transmits Leishmania donovani, the parasite of kala-azar or visceral leishmaniasis. The sandfly breeds in cracks of mud walls and organic debris, which is why control relies on indoor residual spraying and improved housing.",
     "explanations": {
-      "A": "Mosquitoes transmit malaria, dengue, chikungunya.",
-      "B": "Tsetse fly transmits African trypanosomiasis.",
-      "C": "Phlebotomus (sandfly) transmits Leishmania donovani → kala-azar.",
-      "D": "Ticks transmit Lyme disease, rickettsioses."
+      "A": "Mosquitoes are the vectors for malaria, dengue, chikungunya, Japanese encephalitis and lymphatic filariasis. None of these produces the picture of chronic fever with wasting and skin lesions described here.",
+      "B": "The tsetse fly (Glossina) transmits African trypanosomiasis, or sleeping sickness. It is confined to sub-Saharan Africa and is not a vector for Leishmania.",
+      "C": "Correct. The female phlebotomine sandfly, Phlebotomus argentipes in India, transmits Leishmania donovani, the parasite of kala-azar or visceral leishmaniasis. The sandfly breeds in cracks of mud walls and organic debris, which is why control relies on indoor residual spraying and improved housing.",
+      "D": "Ticks transmit Lyme disease, the rickettsioses including scrub typhus and Indian tick typhus, and Kyasanur Forest Disease. They have no role in leishmaniasis."
     },
     "subject": "Community Health",
     "topic": "Leishmaniasis / vector",
     "day": 8,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "community-health",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Leishmaniasis",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 388,
@@ -580,7 +608,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 389,
@@ -611,7 +640,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
   },
   {
     "id": 1506,
@@ -636,7 +666,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
   },
   {
     "id": 1515,
@@ -661,7 +692,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 2021",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1516,
@@ -686,7 +718,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
   },
   {
     "id": 1525,
@@ -711,7 +744,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 2021",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1526,
@@ -736,7 +770,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
   },
   {
     "id": 1535,
@@ -761,7 +796,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 2021",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1536,
@@ -786,7 +822,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
   },
   {
     "id": 685,
@@ -818,7 +855,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 686,
@@ -850,7 +888,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 687,
@@ -882,6 +921,7 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   }
 ]

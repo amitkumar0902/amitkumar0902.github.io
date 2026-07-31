@@ -4,7 +4,6 @@
   "count": 20,
   "minutes": 60,
   "source": "DSSSB Staff Nurse — Recalls",
-  "verbatim": true,
   "subjects": {
     "Fundamentals": 2,
     "OBG": 3,
@@ -47,7 +46,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 26,
@@ -79,7 +79,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 27,
@@ -111,7 +112,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 28,
@@ -143,7 +145,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 29,
@@ -152,15 +155,15 @@
       "options": [
         "UNICEF",
         "WHO",
-        "Both A and B",
+        "Both WHO and UNICEF",
         "CDC"
       ],
       "correct": 2,
-      "explanation": "WHO and UNICEF jointly developed and promote low-osmolarity ORS as cornerstone of diarrhea management.",
+      "explanation": "ORS was developed and promoted jointly by WHO and UNICEF, which is why both organisations appear on the standard formulation guidance.",
       "explanations": {
         "A": "UNICEF co-promotes but did not solely develop.",
         "B": "WHO co-developed but jointly with UNICEF.",
-        "C": "WHO and UNICEF jointly developed and promote low-osmolarity ORS as cornerstone of diarrhea management.",
+        "C": "ORS was developed and promoted jointly by WHO and UNICEF, which is why both organisations appear on the standard formulation guidance.",
         "D": "CDC is US-focused and not the originator."
       },
       "subject": "Community Health",
@@ -175,7 +178,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 30,
@@ -207,7 +211,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 31,
@@ -239,7 +244,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 32,
@@ -271,7 +277,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 33,
@@ -303,7 +310,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 9
+      "mockSeq": 9,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 34,
@@ -335,7 +343,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 10
+      "mockSeq": 10,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 35,
@@ -367,7 +376,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 11
+      "mockSeq": 11,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 36,
@@ -399,7 +409,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 12
+      "mockSeq": 12,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 37,
@@ -431,7 +442,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 13
+      "mockSeq": 13,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 38,
@@ -463,7 +475,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 14
+      "mockSeq": 14,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 39,
@@ -495,7 +508,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 15
+      "mockSeq": 15,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 40,
@@ -527,7 +541,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 16
+      "mockSeq": 16,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 41,
@@ -559,7 +574,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 17
+      "mockSeq": 17,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 42,
@@ -591,7 +607,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 18
+      "mockSeq": 18,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 43,
@@ -623,7 +640,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 19
+      "mockSeq": 19,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 44,
@@ -655,7 +673,9 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 20
+      "mockSeq": 20,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     }
-  ]
+  ],
+  "recall": true
 }

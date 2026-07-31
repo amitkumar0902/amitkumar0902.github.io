@@ -32,7 +32,8 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-7-mains-2024-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 105,
@@ -64,7 +65,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 400,
@@ -96,12 +98,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 327,
       "_origId": "N9-112",
-      "question": "A preterm newborn is evaluated for respiratory distress syndrome (RDS) using grunting, nasal flaring, retractions. Which scale is used?",
+      "question": "Grunting, flaring of the nostrils and indrawing of the chest are being graded at the bedside in a preterm baby with suspected respiratory distress syndrome. Which scoring system is designed for this purpose?",
       "options": [
         "Apgar score",
         "Silverman-Anderson score",
@@ -109,24 +112,30 @@
         "Dubowitz score"
       ],
       "correct": 1,
-      "explanation": "Silverman-Anderson scores 5 signs (chest movement, intercostal retraction, xiphoid retraction, nasal flaring, grunting); higher = worse RDS.",
+      "explanation": "The Silverman-Anderson retraction score grades five observations — upper chest movement, lower chest (intercostal) retraction, xiphoid retraction, nasal flaring and expiratory grunt — each from 0 to 2, giving a total out of 10. A rising score signals worsening distress; 0 means no distress and scores above 6 to 7 indicate impending respiratory failure needing ventilatory support.",
       "explanations": {
-        "A": "Apgar assesses immediate post-birth transition.",
-        "B": "Silverman-Anderson scores 5 signs (chest movement, intercostal retraction, xiphoid retraction, nasal flaring, grunting); higher = worse RDS.",
-        "C": "Ballard assesses gestational age.",
-        "D": "Dubowitz also assesses gestational age."
+        "A": "Apgar rates the adjustment to extrauterine life at one and five minutes using heart rate, respiratory effort, tone, reflex irritability and colour. It says nothing about the severity of ongoing respiratory distress hours later.",
+        "B": "The Silverman-Anderson retraction score grades five observations — upper chest movement, lower chest (intercostal) retraction, xiphoid retraction, nasal flaring and expiratory grunt — each from 0 to 2, giving a total out of 10. A rising score signals worsening distress; 0 means no distress and scores above 6 to 7 indicate impending respiratory failure needing ventilatory support.",
+        "C": "The New Ballard score estimates gestational age from six neuromuscular and six physical criteria and is valid down to 20 weeks. It is a maturity tool, not a distress tool.",
+        "D": "Dubowitz scoring likewise assigns gestational age, using a longer list of external and neurological signs; it has largely been replaced by Ballard in practice."
       },
       "subject": "Pediatric",
       "topic": "Respiratory scoring",
       "day": 4,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "Ghai Essential Pediatrics 9e — Silverman-Anderson retraction score",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 10,
@@ -158,7 +167,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 9,
@@ -190,12 +200,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 256,
       "_origId": "N9-41",
-      "question": "Identify the given instrument (atraumatic clamp with triangular fenestrated tips used on uterine angles).",
+      "question": "At caesarean section the surgeon asks for a non-crushing obstetric clamp whose blades end in broad triangular fenestrated tips, and applies it to the angles of the uterine incision to control bleeding. Which instrument has been requested?",
       "options": [
         "Green Armytage Forceps",
         "Babcock Forceps",
@@ -203,24 +214,30 @@
         "Kocher's Forceps"
       ],
       "correct": 0,
-      "explanation": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
+      "explanation": "Green-Armytage forceps hold the angles of the uterine incision during LSCS, securing the cut edge and limiting blood loss without crushing myometrium.",
       "explanations": {
-        "A": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
-        "B": "Babcock has rounded atraumatic ring tips, used for delicate tissue like appendix.",
-        "C": "Allis has serrated teeth — grasping traumatic forceps.",
-        "D": "Kocher's has heavy serrations and 1×2 teeth — for tough pedicles."
+        "A": "Green-Armytage forceps hold the angles of the uterine incision during LSCS, securing the cut edge and limiting blood loss without crushing myometrium.",
+        "B": "Babcock forceps end in rounded hollow ring tips designed for delicate hollow structures such as appendix, ureter or bowel.",
+        "C": "Allis forceps carry interlocking teeth along the tip and grip firmly but traumatically, so they are unsuitable for the uterine angle.",
+        "D": "Kocher's forceps have transverse serrations plus a 1x2 tooth at the tip, intended for tough pedicles and fascia."
       },
       "subject": "OBG",
       "topic": "OT instruments",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
-      "qtype": "image",
+      "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "Dutta's Textbook of Obstetrics 9e — obstetric instruments and lower segment caesarean section",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 187,
@@ -252,7 +269,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 110,
@@ -284,7 +302,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 9
+      "mockSeq": 9,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 90,
@@ -316,7 +335,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 10
+      "mockSeq": 10,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 19,
@@ -348,7 +368,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 11
+      "mockSeq": 11,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 175,
@@ -380,7 +401,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 12
+      "mockSeq": 12,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 350,
@@ -412,7 +434,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 13
+      "mockSeq": 13,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 399,
@@ -444,7 +467,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 14
+      "mockSeq": 14,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 51,
@@ -476,7 +500,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 15
+      "mockSeq": 15,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 125,
@@ -508,12 +533,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 16
+      "mockSeq": 16,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 303,
       "_origId": "N9-88",
-      "question": "A patient reports persistent low mood, low energy, and hopelessness for several years without episodes of major depression. What is the most likely diagnosis?",
+      "question": "For several years a patient has felt persistently low, tired and hopeless, yet has never had a full major depressive episode. Which diagnosis fits best?",
       "options": [
         "Major depressive disorder",
         "Dysthymia",
@@ -521,24 +547,30 @@
         "Cyclothymic disorder"
       ],
       "correct": 1,
-      "explanation": "Dysthymia (now Persistent Depressive Disorder) = chronic low mood ≥2 years without MDE.",
+      "explanation": "Dysthymia, renamed persistent depressive disorder in DSM-5, is depressed mood on most days for two years or more (one year in children and adolescents), with features such as low energy, poor self-esteem and hopelessness.",
       "explanations": {
-        "A": "MDD requires ≥2-week episodes meeting 5+ criteria.",
-        "B": "Dysthymia (now Persistent Depressive Disorder) = chronic low mood ≥2 years without MDE.",
-        "C": "Bipolar II has hypomanic episodes, absent here.",
-        "D": "Cyclothymia requires hypomanic + depressive symptoms alternating for ≥2 years."
+        "A": "Major depressive disorder needs discrete episodes lasting at least two weeks with five or more criterion symptoms, which this history explicitly lacks.",
+        "B": "Dysthymia, renamed persistent depressive disorder in DSM-5, is depressed mood on most days for two years or more (one year in children and adolescents), with features such as low energy, poor self-esteem and hopelessness.",
+        "C": "Bipolar II requires at least one hypomanic episode, and none is described.",
+        "D": "Cyclothymia needs two years of alternating hypomanic and depressive symptoms that never reach full episode criteria."
       },
       "subject": "Psychiatric",
       "topic": "Chronic mood disorders",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 17
+      "mockSeq": 17,
+      "citation": "American Psychiatric Association DSM-5-TR - persistent depressive disorder (dysthymia)",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 28,
@@ -570,12 +602,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 18
+      "mockSeq": 18,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 322,
       "_origId": "N9-107",
-      "question": "What is the correct description of the ductus venosus in fetal circulation?",
+      "question": "Which statement correctly describes the ductus venosus in the fetal circulation?",
       "options": [
         "Connects pulmonary artery to aorta",
         "Shunts oxygenated blood from umbilical vein to IVC",
@@ -583,24 +616,30 @@
         "Allows blood flow from RA to LA through foramen ovale"
       ],
       "correct": 1,
-      "explanation": "Ductus venosus bypasses the liver, carrying oxygenated blood from umbilical vein directly to IVC.",
+      "explanation": "The ductus venosus carries well-oxygenated blood from the umbilical vein straight into the inferior vena cava, bypassing the hepatic sinusoids so that the most oxygen-rich blood reaches the heart and brain. It closes after birth and persists as the ligamentum venosum.",
       "explanations": {
-        "A": "That's ductus arteriosus.",
-        "B": "Ductus venosus bypasses the liver, carrying oxygenated blood from umbilical vein directly to IVC.",
-        "C": "Umbilical vein (not artery) and portal vein are connected via the liver but not by the ductus venosus directly.",
-        "D": "That's the foramen ovale."
+        "A": "The channel joining the pulmonary artery to the descending aorta is the ductus arteriosus, which closes after birth to become the ligamentum arteriosum.",
+        "B": "The ductus venosus carries well-oxygenated blood from the umbilical vein straight into the inferior vena cava, bypassing the hepatic sinusoids so that the most oxygen-rich blood reaches the heart and brain. It closes after birth and persists as the ligamentum venosum.",
+        "C": "The umbilical arteries carry deoxygenated blood away from the fetus to the placenta; it is the umbilical vein, not the artery, that relates to the portal system, and the ductus venosus is the shunt that bypasses it.",
+        "D": "Right-to-left flow across the interatrial septum occurs through the foramen ovale, a separate shunt that becomes the fossa ovalis after birth."
       },
       "subject": "Pediatric",
       "topic": "Fetal circulation",
       "day": 4,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 19
+      "mockSeq": 19,
+      "citation": "Dutta's Textbook of Obstetrics 9e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 393,
@@ -632,7 +671,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 20
+      "mockSeq": 20,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 48,
@@ -664,7 +704,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 21
+      "mockSeq": 21,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 34,
@@ -696,7 +737,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 22
+      "mockSeq": 22,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 148,
@@ -728,12 +770,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 23
+      "mockSeq": 23,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 307,
       "_origId": "N9-92",
-      "question": "Which of the following is NOT considered a negative symptom of schizophrenia?",
+      "question": "The negative symptoms of schizophrenia are conventionally remembered as a cluster of 'A' words. Which of the following, though a classic Bleulerian feature of schizophrenia, is NOT counted among those negative symptoms?",
       "options": [
         "Apathy",
         "Alogia",
@@ -741,24 +784,30 @@
         "Anhedonia"
       ],
       "correct": 2,
-      "explanation": "Ambivalence — per Bleuler's four A's it's considered a primary (cognitive) feature, not classified among standard negative symptoms (apathy, alogia, anhedonia, asociality, avolition).",
+      "explanation": "Ambivalence, the simultaneous holding of opposing feelings or impulses towards the same object, belongs to Bleuler's four fundamental 'A's (associations, affect, ambivalence, autism). It is a disturbance of volition and thought rather than a deficit state, and it does not appear in the standard negative-symptom list of blunted affect, alogia, avolition/apathy, anhedonia and asociality.",
       "explanations": {
-        "A": "Apathy (avolition) is a classic negative symptom.",
-        "B": "Alogia (poverty of speech) is negative.",
-        "C": "Ambivalence — per Bleuler's four A's it's considered a primary (cognitive) feature, not classified among standard negative symptoms (apathy, alogia, anhedonia, asociality, avolition).",
-        "D": "Anhedonia is a negative symptom."
+        "A": "Apathy, equivalent to avolition, is loss of drive to begin or sustain goal-directed activity and is one of the five recognised negative-symptom domains.",
+        "B": "Alogia is poverty of speech and of speech content, reflecting reduced spontaneous verbal output; it is a core negative symptom.",
+        "C": "Ambivalence, the simultaneous holding of opposing feelings or impulses towards the same object, belongs to Bleuler's four fundamental 'A's (associations, affect, ambivalence, autism). It is a disturbance of volition and thought rather than a deficit state, and it does not appear in the standard negative-symptom list of blunted affect, alogia, avolition/apathy, anhedonia and asociality.",
+        "D": "Anhedonia is the reduced ability to anticipate or experience pleasure and is a well-established negative symptom."
       },
       "subject": "Psychiatric",
       "topic": "Schizophrenia symptoms",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 24
+      "mockSeq": 24,
+      "citation": "Kaplan & Sadock's Synopsis of Psychiatry 12e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 87,
@@ -790,7 +839,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 25
+      "mockSeq": 25,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 132,
@@ -822,7 +872,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 26
+      "mockSeq": 26,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 176,
@@ -854,12 +905,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 27
+      "mockSeq": 27,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 295,
       "_origId": "N9-80",
-      "question": "Which national programme specifically addresses newborn and maternal mortality through comprehensive maternal and child health services?",
+      "question": "Which of the following is built specifically around free, comprehensive care for the mother and the sick newborn in order to bring their mortality down?",
       "options": [
         "National Rural Health Mission (NRHM)",
         "Janani Shishu Suraksha Karyakram (JSSK)",
@@ -867,24 +919,30 @@
         "National Immunization Programme"
       ],
       "correct": 1,
-      "explanation": "JSSK is specifically targeted at mother and sick newborn with free delivery + newborn care.",
+      "explanation": "JSSK removes out-of-pocket spending at the point of care: free delivery and caesarean section, drugs, diagnostics, blood, diet and to-and-fro transport for pregnant women and for infants up to one year of age.",
       "explanations": {
-        "A": "NRHM is umbrella.",
-        "B": "JSSK is specifically targeted at mother and sick newborn with free delivery + newborn care.",
-        "C": "ICDS targets 6 mo–6 y children and pregnant/lactating women nutrition.",
-        "D": "NIP is vaccination programme."
+        "A": "NRHM is the broad rural health mission rather than a mother-and-newborn entitlement.",
+        "B": "JSSK removes out-of-pocket spending at the point of care: free delivery and caesarean section, drugs, diagnostics, blood, diet and to-and-fro transport for pregnant women and for infants up to one year of age.",
+        "C": "ICDS delivers supplementary nutrition, growth monitoring and preschool education for children under six and for pregnant and lactating mothers.",
+        "D": "The immunization programme protects against vaccine-preventable disease; it is not a delivery-care entitlement."
       },
       "subject": "Community Health",
       "topic": "JSSK",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 28
+      "mockSeq": 28,
+      "citation": "MoHFW national programme guidelines - Janani Shishu Suraksha Karyakram (JSSK)",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 345,
@@ -916,7 +974,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 29
+      "mockSeq": 29,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 359,
@@ -948,7 +1007,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 30
+      "mockSeq": 30,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 373,
@@ -980,12 +1040,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 31
+      "mockSeq": 31,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 221,
       "_origId": "N9-6",
-      "question": "A patient on ECMO continues to have difficulty breathing despite adequate settings. What is the most appropriate next step?",
+      "question": "An adult supported on extracorporeal membrane oxygenation remains in respiratory distress although the ventilator and pump settings have been verified as adequate. What should the nurse do next?",
       "options": [
         "Increase tidal volume",
         "Check for circuit obstruction",
@@ -993,24 +1054,30 @@
         "Increase FiO2 to 100%"
       ],
       "correct": 1,
-      "explanation": "Persistent respiratory distress despite adequate settings mandates ruling out circuit issues (kinks, thrombus, cannula malposition) first.",
+      "explanation": "When the prescribed settings are correct but the patient is not improving, the fault usually lies in the circuit. Inspecting for a kinked line, clot or fibrin deposit in the oxygenator, cannula migration or chatter caused by inadequate drainage identifies a mechanical problem that no amount of dial-turning will fix.",
       "explanations": {
-        "A": "Increasing tidal volume risks ventilator-induced lung injury and ignores the actual problem.",
-        "B": "Persistent respiratory distress despite adequate settings mandates ruling out circuit issues (kinks, thrombus, cannula malposition) first.",
-        "C": "Blindly escalating flow can worsen hemolysis and mask the root cause.",
-        "D": "Raising FiO2 to 100% is oxygen toxicity risk and doesn't address a mechanical failure."
+        "A": "Pushing up tidal volume works against the lung-rest strategy that ECMO exists to provide and exposes already injured alveoli to volutrauma, all without touching the reason for the distress.",
+        "B": "When the prescribed settings are correct but the patient is not improving, the fault usually lies in the circuit. Inspecting for a kinked line, clot or fibrin deposit in the oxygenator, cannula migration or chatter caused by inadequate drainage identifies a mechanical problem that no amount of dial-turning will fix.",
+        "C": "Raising flow blindly increases shear stress and haemolysis and may simply mask an obstruction that is still worsening.",
+        "D": "Turning the sweep or FiO2 to 100% adds oxygen toxicity risk and buys only a brief cosmetic improvement if the real problem is a failing circuit."
       },
       "subject": "Medical-Surgical",
       "topic": "ECMO troubleshooting",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 32
+      "mockSeq": 32,
+      "citation": "ELSO (Extracorporeal Life Support Organization) General Guidelines for Adult Respiratory Failure",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 36,
@@ -1042,7 +1109,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 33
+      "mockSeq": 33,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 94,
@@ -1074,7 +1142,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 34
+      "mockSeq": 34,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 42,
@@ -1106,12 +1175,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 35
+      "mockSeq": 35,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 304,
       "_origId": "N9-89",
-      "question": "A 45-year-old on opioid therapy for post-surgical pain has a respiratory rate of 10 breaths/min. What is the primary concern?",
+      "question": "A 45-year-old receiving opioids for pain after surgery is found to be breathing 10 times a minute. What should the nurse be most concerned about?",
       "options": [
         "Hypertension",
         "Respiratory depression",
@@ -1119,24 +1189,30 @@
         "Hyperglycemia"
       ],
       "correct": 1,
-      "explanation": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
+      "explanation": "Opioids blunt the brainstem's response to rising carbon dioxide, so a rate under 12 breaths per minute signals opioid-induced respiratory depression. Withhold the next dose, rouse and stimulate the patient, give oxygen, monitor sedation score and saturation, and keep naloxone ready.",
       "explanations": {
-        "A": "Opioids cause hypotension, not hypertension.",
-        "B": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
-        "C": "Opioids cause bradycardia, not tachycardia.",
-        "D": "Hyperglycemia is not an opioid effect."
+        "A": "Opioids more often lower blood pressure, through vasodilatation and histamine release, than raise it.",
+        "B": "Opioids blunt the brainstem's response to rising carbon dioxide, so a rate under 12 breaths per minute signals opioid-induced respiratory depression. Withhold the next dose, rouse and stimulate the patient, give oxygen, monitor sedation score and saturation, and keep naloxone ready.",
+        "C": "Bradycardia rather than tachycardia is typical of opioid effect; a fast pulse would point to pain, hypoxia or withdrawal.",
+        "D": "Opioids do not raise blood glucose to any clinically meaningful degree."
       },
       "subject": "Psychiatric",
       "topic": "Opioid toxicity",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 36
+      "mockSeq": 36,
+      "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e - pain management and opioid adverse effects",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 60,
@@ -1168,7 +1244,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 37
+      "mockSeq": 37,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 23,
@@ -1200,7 +1277,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 38
+      "mockSeq": 38,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 112,
@@ -1232,7 +1310,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 39
+      "mockSeq": 39,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 358,
@@ -1264,7 +1343,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 40
+      "mockSeq": 40,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 657,
@@ -1297,7 +1377,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 41
+      "mockSeq": 41,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 895,
@@ -1330,7 +1411,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 42
+      "mockSeq": 42,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 654,
@@ -1363,7 +1445,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 43
+      "mockSeq": 43,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 665,
@@ -1396,7 +1479,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 44
+      "mockSeq": 44,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 944,
@@ -1429,7 +1513,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 45
+      "mockSeq": 45,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 913,
@@ -1462,7 +1547,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 46
+      "mockSeq": 46,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 463,
@@ -1495,7 +1581,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 47
+      "mockSeq": 47,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 860,
@@ -1528,7 +1615,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 48
+      "mockSeq": 48,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 815,
@@ -1561,7 +1649,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 49
+      "mockSeq": 49,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 942,
@@ -1594,7 +1683,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 50
+      "mockSeq": 50,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 626,
@@ -1627,7 +1717,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 51
+      "mockSeq": 51,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 649,
@@ -1660,7 +1751,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 52
+      "mockSeq": 52,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 507,
@@ -1693,7 +1785,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 53
+      "mockSeq": 53,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 405,
@@ -1726,7 +1819,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 54
+      "mockSeq": 54,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 691,
@@ -1759,7 +1853,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 55
+      "mockSeq": 55,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 713,
@@ -1792,7 +1887,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 56
+      "mockSeq": 56,
+      "citation": "DC Dutta's Textbook of Gynecology 8e"
     },
     {
       "id": 174,
@@ -1824,7 +1920,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 57
+      "mockSeq": 57,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 747,
@@ -1857,7 +1954,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 58
+      "mockSeq": 58,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1216,
@@ -1883,12 +1981,13 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 59
+      "mockSeq": 59,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 228,
       "_origId": "N9-13",
-      "question": "A burn patient requires 4800 mL fluid in the first 24 hours as per the Parkland formula. How much fluid should be given in the first 8 hours?",
+      "question": "For a patient with extensive burns, the Parkland formula gives a total crystalloid requirement of 4800 mL for the first 24 hours counted from the time of injury. What volume should be infused during the first 8 hours?",
       "options": [
         "1200 mL",
         "2400 mL",
@@ -1896,24 +1995,30 @@
         "3000 mL"
       ],
       "correct": 1,
-      "explanation": "Parkland protocol: give half (50%) of calculated 24-hour volume in first 8 hours → 4800 ÷ 2 = 2400 mL.",
+      "explanation": "Parkland front-loads the fluid: half of the 24-hour volume goes in during the first 8 hours after the burn, and the remaining half over the following 16 hours. Half of 4800 mL is 2400 mL, given as warmed Ringer lactate and then titrated against a urine output of about 0.5 mL/kg/hour in adults.",
       "explanations": {
-        "A": "1200 mL = 25% — under-resuscitation; Parkland mandates 50% in first 8 hours.",
-        "B": "Parkland protocol: give half (50%) of calculated 24-hour volume in first 8 hours → 4800 ÷ 2 = 2400 mL.",
-        "C": "1800 mL is neither ½ nor ¼ of 4800; not part of Parkland pacing.",
-        "D": "3000 mL > 50%; would risk over-resuscitation/compartment syndrome."
+        "A": "1200 mL is one quarter of the total. Delivering only that much in the period of maximum capillary leak leaves the patient under-resuscitated and invites burn shock and acute kidney injury.",
+        "B": "Parkland front-loads the fluid: half of the 24-hour volume goes in during the first 8 hours after the burn, and the remaining half over the following 16 hours. Half of 4800 mL is 2400 mL, given as warmed Ringer lactate and then titrated against a urine output of about 0.5 mL/kg/hour in adults.",
+        "C": "1800 mL corresponds to neither half nor a quarter of the calculated volume and has no place in the Parkland schedule.",
+        "D": "3000 mL exceeds the 50 per cent allocation. Over-resuscitation causes oedema, worsens the depth of the burn and predisposes to abdominal and limb compartment syndrome."
       },
       "subject": "Medical-Surgical",
       "topic": "Burns / Parkland",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "calc",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 60
+      "mockSeq": 60,
+      "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — Management of patients with burn injury: fluid resuscitation",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 698,
@@ -1946,7 +2051,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 61
+      "mockSeq": 61,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 696,
@@ -1979,7 +2085,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 62
+      "mockSeq": 62,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 788,
@@ -2012,7 +2119,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 63
+      "mockSeq": 63,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 804,
@@ -2045,7 +2153,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 64
+      "mockSeq": 64,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 1010,
@@ -2078,7 +2187,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 65
+      "mockSeq": 65,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 975,
@@ -2111,7 +2221,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 66
+      "mockSeq": 66,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 923,
@@ -2144,12 +2255,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 67
+      "mockSeq": 67,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 242,
       "_origId": "N9-27",
-      "question": "Which of the following is the most common side effect of nitroglycerin?",
+      "question": "Which adverse effect do patients on nitroglycerin report most frequently?",
       "options": [
         "Bradycardia",
         "Headache",
@@ -2157,24 +2269,30 @@
         "Palpitations"
       ],
       "correct": 1,
-      "explanation": "Cerebral vasodilation → throbbing headache is the commonest NTG side effect.",
+      "explanation": "Dilatation of meningeal vessels produces a throbbing, usually frontal headache, and it is the commonest complaint with every nitrate preparation. It tends to settle over days as tolerance to this effect develops, and paracetamol relieves it; patients are counselled not to abandon therapy because of it.",
       "explanations": {
-        "A": "Nitrates cause reflex tachycardia, not bradycardia.",
-        "B": "Cerebral vasodilation → throbbing headache is the commonest NTG side effect.",
-        "C": "Nausea can occur but is less frequent than headache.",
-        "D": "Palpitations from reflex tachycardia are less common as a complaint than headache."
+        "A": "Nitrates lower blood pressure by venodilatation, and the baroreceptor response to this is reflex tachycardia. Bradycardia is not a typical nitrate effect and, when it appears with inferior wall infarction, it is a reason to withhold the drug.",
+        "B": "Dilatation of meningeal vessels produces a throbbing, usually frontal headache, and it is the commonest complaint with every nitrate preparation. It tends to settle over days as tolerance to this effect develops, and paracetamol relieves it; patients are counselled not to abandon therapy because of it.",
+        "C": "Nausea may accompany the hypotension or the headache but is distinctly less frequent than the headache itself.",
+        "D": "Palpitations do occur through reflex sympathetic activation, particularly after a sublingual dose, but they are reported far less often than headache."
       },
       "subject": "Medical-Surgical",
       "topic": "Nitrates",
       "day": 13,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 68
+      "mockSeq": 68,
+      "citation": "KDT Essentials of Medical Pharmacology, 8e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 970,
@@ -2207,7 +2325,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 69
+      "mockSeq": 69,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1253,
@@ -2233,7 +2352,8 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 70
+      "mockSeq": 70,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 947,
@@ -2266,7 +2386,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 71
+      "mockSeq": 71,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 1241,
@@ -2292,7 +2413,8 @@
       "source": "Practice",
       "year": "2022",
       "qtype": "scenario",
-      "mockSeq": 72
+      "mockSeq": 72,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 757,
@@ -2325,7 +2447,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 73
+      "mockSeq": 73,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 569,
@@ -2358,12 +2481,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 74
+      "mockSeq": 74,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 241,
       "_origId": "N9-26",
-      "question": "A patient develops headache and dizziness after a lumbar puncture. What is the most appropriate immediate nursing action?",
+      "question": "A few hours after undergoing a lumbar puncture, a patient reports headache accompanied by dizziness. Which nursing measure is most appropriate at this point?",
       "options": [
         "Send sample to laboratory",
         "Position patient in prone",
@@ -2371,24 +2495,30 @@
         "Encourage deep breathing"
       ],
       "correct": 1,
-      "explanation": "Post-LP headache is managed by keeping the patient flat (supine or prone) for several hours with fluids; reduces CSF leak symptoms.",
+      "explanation": "Post-lumbar-puncture headache arises from continued leakage of cerebrospinal fluid through the dural hole, which lowers intracranial pressure and drags on pain-sensitive structures when the patient sits up. Keeping the patient lying flat, prone with a pillow under the abdomen, presses tissue against tissue at the puncture site and helps the leak seal; generous oral fluids and analgesia complete the care.",
       "explanations": {
-        "A": "The CSF sample is usually already sent; the focus now is patient comfort/safety.",
-        "B": "Post-LP headache is managed by keeping the patient flat (supine or prone) for several hours with fluids; reduces CSF leak symptoms.",
-        "C": "Notify after addressing positioning and fluids if pain is severe/persistent.",
-        "D": "Deep breathing doesn't resolve low-pressure headache."
+        "A": "The cerebrospinal fluid specimen is dispatched at the time of the procedure and is a documentation matter. It contributes nothing to the patient's present symptom.",
+        "B": "Post-lumbar-puncture headache arises from continued leakage of cerebrospinal fluid through the dural hole, which lowers intracranial pressure and drags on pain-sensitive structures when the patient sits up. Keeping the patient lying flat, prone with a pillow under the abdomen, presses tissue against tissue at the puncture site and helps the leak seal; generous oral fluids and analgesia complete the care.",
+        "C": "The physician is informed if the headache is severe, persists beyond the usual period or is accompanied by fever, neck stiffness or neurological signs suggesting a blood patch or another diagnosis is needed. Simple positioning comes first.",
+        "D": "Deep breathing exercises are useful for atelectasis, not for a low-pressure headache, and straining may transiently worsen the discomfort."
       },
       "subject": "Medical-Surgical",
       "topic": "Post-LP headache",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 75
+      "mockSeq": 75,
+      "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 1230,
@@ -2414,7 +2544,8 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 76
+      "mockSeq": 76,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 209,
@@ -2444,7 +2575,8 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-7-mains-2024-recalls.json",
-      "mockSeq": 77
+      "mockSeq": 77,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 695,
@@ -2477,7 +2609,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 78
+      "mockSeq": 78,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 746,
@@ -2510,7 +2643,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 79
+      "mockSeq": 79,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1245,
@@ -2536,7 +2670,8 @@
       "source": "Practice",
       "year": "2016",
       "qtype": "scenario",
-      "mockSeq": 80
+      "mockSeq": 80,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 787,
@@ -2569,7 +2704,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 81
+      "mockSeq": 81,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 89,
@@ -2601,12 +2737,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 82
+      "mockSeq": 82,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 328,
       "_origId": "N9-113",
-      "question": "A 3-year-old plays with clay, holding and manipulating it with fingers. Which fine motor skill is being demonstrated?",
+      "question": "While observing free play, a nurse sees a 3-year-old squeezing and shaping a lump of clay between the fingers and palms. This behaviour illustrates which fine motor accomplishment?",
       "options": [
         "Scribbling with a crayon",
         "Building a tower of 6–8 blocks",
@@ -2614,24 +2751,30 @@
         "Copying a circle"
       ],
       "correct": 2,
-      "explanation": "Hand/finger molding of clay (pincer + palmar manipulation) is a characteristic 3-year skill.",
+      "explanation": "Kneading and moulding a soft material calls for a mature pincer grasp combined with in-hand palmar manipulation and bilateral coordination, which is exactly the level of fine motor control typical of a 3-year-old. It is the behaviour set out in the scenario.",
       "explanations": {
-        "A": "Scribbling is an 18–24 month skill.",
-        "B": "Stacking 6–8 blocks appears at 24 months.",
-        "C": "Hand/finger molding of clay (pincer + palmar manipulation) is a characteristic 3-year skill.",
-        "D": "Copying a circle is a 3-year skill too, but not the behaviour in the stem."
+        "A": "Spontaneous scribbling appears much earlier, around 15 to 18 months, and imitation of a vertical stroke by about 2 years. It is not what the child in the scenario is doing.",
+        "B": "A tower of six cubes is expected at about 24 months and eight to nine cubes by roughly 30 months. Stacking is a different manipulative skill from moulding and is not described here.",
+        "C": "Kneading and moulding a soft material calls for a mature pincer grasp combined with in-hand palmar manipulation and bilateral coordination, which is exactly the level of fine motor control typical of a 3-year-old. It is the behaviour set out in the scenario.",
+        "D": "Copying a circle is indeed a 3-year milestone, but the question asks which skill the child is demonstrating, and no drawing is taking place."
       },
       "subject": "Pediatric",
       "topic": "Developmental milestones",
       "day": 5,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 83
+      "mockSeq": 83,
+      "citation": "Ghai Essential Pediatrics 9e — developmental milestones",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 1212,
@@ -2657,7 +2800,8 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 84
+      "mockSeq": 84,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 1256,
@@ -2683,7 +2827,8 @@
       "source": "Practice",
       "year": "2025",
       "qtype": "scenario",
-      "mockSeq": 85
+      "mockSeq": 85,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 969,
@@ -2716,7 +2861,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 86
+      "mockSeq": 86,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 630,
@@ -2749,7 +2895,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 87
+      "mockSeq": 87,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 717,
@@ -2782,7 +2929,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 88
+      "mockSeq": 88,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 1243,
@@ -2808,12 +2956,13 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 89
+      "mockSeq": 89,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 231,
       "_origId": "N9-16",
-      "question": "What is the primary purpose of a bougie during airway management?",
+      "question": "A bougie is kept ready on the difficult airway trolley. What is this device mainly used for?",
       "options": [
         "To assist endotracheal tube placement in a difficult airway",
         "To measure airway resistance during mechanical ventilation",
@@ -2821,24 +2970,30 @@
         "To maintain airway patency during mask ventilation"
       ],
       "correct": 0,
-      "explanation": "Bougie (gum-elastic introducer) is railroaded into the trachea when glottic view is poor, guiding the ETT.",
+      "explanation": "The gum-elastic bougie is a long, semi-rigid introducer with an angled tip. When only the epiglottis or the posterior cords can be seen, it is slid blindly beneath the epiglottis into the trachea, where tracheal clicks and distal hold-up confirm its position, and the tube is then railroaded over it.",
       "explanations": {
-        "A": "Bougie (gum-elastic introducer) is railroaded into the trachea when glottic view is poor, guiding the ETT.",
-        "B": "Airway resistance is measured on the ventilator, not with a bougie.",
-        "C": "Suctioning uses a soft/hard suction catheter, not a bougie.",
-        "D": "Airway patency during mask ventilation is maintained by oral/nasal airways, not a bougie."
+        "A": "The gum-elastic bougie is a long, semi-rigid introducer with an angled tip. When only the epiglottis or the posterior cords can be seen, it is slid blindly beneath the epiglottis into the trachea, where tracheal clicks and distal hold-up confirm its position, and the tube is then railroaded over it.",
+        "B": "Airway resistance is derived by the ventilator from flow and pressure measurements; no separate device is passed into the trachea to obtain it.",
+        "C": "Clearing secretions is the job of a soft suction catheter or a rigid Yankauer, both of which are designed with suction ports the bougie does not have.",
+        "D": "Keeping the upper airway open during bag-mask ventilation is achieved with an oropharyngeal or nasopharyngeal airway plus correct head positioning and a jaw thrust."
       },
       "subject": "Medical-Surgical",
       "topic": "Airway management",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 90
+      "mockSeq": 90,
+      "citation": "Difficult Airway Society 2015 Guidelines for management of unanticipated difficult intubation in adults",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 756,
@@ -2871,7 +3026,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 91
+      "mockSeq": 91,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 739,
@@ -2904,7 +3060,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 92
+      "mockSeq": 92,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 343,
@@ -2936,7 +3093,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 93
+      "mockSeq": 93,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 4,
@@ -2968,7 +3126,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 94
+      "mockSeq": 94,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 997,
@@ -3001,7 +3160,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 95
+      "mockSeq": 95,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 437,
@@ -3034,12 +3194,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 96
+      "mockSeq": 96,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 233,
       "_origId": "N9-18",
-      "question": "Which of the following is an EARLY sign of increased intracranial pressure (ICP)?",
+      "question": "As intracranial pressure begins to climb, which of the following appears EARLIEST?",
       "options": [
         "Bradycardia",
         "Irregular respiration",
@@ -3047,24 +3208,30 @@
         "Hypertension"
       ],
       "correct": 2,
-      "explanation": "Morning headache, vomiting (often projectile, non-bilious), and visual changes are early ICP features.",
+      "explanation": "The first complaints come from stretched dura and traction on pain-sensitive vessels: a headache that is worst on waking and aggravated by coughing or bending, vomiting that may be effortless and unrelated to meals, and subtle changes in level of consciousness such as restlessness or drowsiness. These, with papilloedema and visual blurring, mark the early stage.",
       "explanations": {
-        "A": "Bradycardia is part of Cushing's triad — a late, pre-herniation sign.",
-        "B": "Irregular (Cheyne-Stokes/ataxic) respiration is a late Cushing triad component.",
-        "C": "Morning headache, vomiting (often projectile, non-bilious), and visual changes are early ICP features.",
-        "D": "Hypertension with widened pulse pressure is late (Cushing response)."
+        "A": "A slow, bounding pulse is one arm of the Cushing response. It appears only when compensation has been exhausted and herniation is close, making it a late warning.",
+        "B": "Irregular breathing, whether Cheyne-Stokes, cluster or ataxic, signals brainstem compression and completes the Cushing triad. Like bradycardia, it is a terminal rather than an early sign.",
+        "C": "The first complaints come from stretched dura and traction on pain-sensitive vessels: a headache that is worst on waking and aggravated by coughing or bending, vomiting that may be effortless and unrelated to meals, and subtle changes in level of consciousness such as restlessness or drowsiness. These, with papilloedema and visual blurring, mark the early stage.",
+        "D": "Rising systolic pressure with a widening pulse pressure is the third component of the Cushing response, a late compensatory attempt to preserve cerebral perfusion against the rising intracranial pressure."
       },
       "subject": "Medical-Surgical",
       "topic": "Raised ICP",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 97
+      "mockSeq": 97,
+      "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — Management of patients with neurologic dysfunction: increased intracranial pressure",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 777,
@@ -3097,7 +3264,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 98
+      "mockSeq": 98,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 81,
@@ -3129,7 +3297,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 99
+      "mockSeq": 99,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 606,
@@ -3162,12 +3331,13 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 100
+      "mockSeq": 100,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 274,
       "_origId": "N9-59",
-      "question": "A 30-year-old presents with fever, weight loss, and skin lesions after traveling to a rural area. The nurse suspects leishmaniasis. Which vector is most likely responsible?",
+      "question": "A 30-year-old who recently spent time in a rural district returns with persistent fever, marked weight loss and skin lesions, and the nurse's assessment points towards leishmaniasis. This infection reaches humans through the bite of which arthropod?",
       "options": [
         "Mosquito",
         "Tsetse fly",
@@ -3175,24 +3345,30 @@
         "Tick"
       ],
       "correct": 2,
-      "explanation": "Phlebotomus (sandfly) transmits Leishmania donovani → kala-azar.",
+      "explanation": "Correct. The female phlebotomine sandfly, Phlebotomus argentipes in India, transmits Leishmania donovani, the parasite of kala-azar or visceral leishmaniasis. The sandfly breeds in cracks of mud walls and organic debris, which is why control relies on indoor residual spraying and improved housing.",
       "explanations": {
-        "A": "Mosquitoes transmit malaria, dengue, chikungunya.",
-        "B": "Tsetse fly transmits African trypanosomiasis.",
-        "C": "Phlebotomus (sandfly) transmits Leishmania donovani → kala-azar.",
-        "D": "Ticks transmit Lyme disease, rickettsioses."
+        "A": "Mosquitoes are the vectors for malaria, dengue, chikungunya, Japanese encephalitis and lymphatic filariasis. None of these produces the picture of chronic fever with wasting and skin lesions described here.",
+        "B": "The tsetse fly (Glossina) transmits African trypanosomiasis, or sleeping sickness. It is confined to sub-Saharan Africa and is not a vector for Leishmania.",
+        "C": "Correct. The female phlebotomine sandfly, Phlebotomus argentipes in India, transmits Leishmania donovani, the parasite of kala-azar or visceral leishmaniasis. The sandfly breeds in cracks of mud walls and organic debris, which is why control relies on indoor residual spraying and improved housing.",
+        "D": "Ticks transmit Lyme disease, the rickettsioses including scrub typhus and Indian tick typhus, and Kyasanur Forest Disease. They have no role in leishmaniasis."
       },
       "subject": "Community Health",
       "topic": "Leishmaniasis / vector",
       "day": 8,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 101
+      "mockSeq": 101,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Leishmaniasis",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 581,
@@ -3225,7 +3401,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 102
+      "mockSeq": 102,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 586,
@@ -3258,12 +3435,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 103
+      "mockSeq": 103,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 308,
       "_origId": "N9-93",
-      "question": "Under Anemia Mukt Bharat, for a pregnant woman in her second trimester, which Hb level classifies her as anemic?",
+      "question": "A woman in the 20th week of pregnancy attends the antenatal clinic and her haemoglobin is estimated. Under Anemia Mukt Bharat, a haemoglobin below which value would label her anaemic?",
       "options": [
         "Hb < 11.0 g/dL",
         "Hb < 12.0 g/dL",
@@ -3271,24 +3449,30 @@
         "Hb < 13.0 g/dL"
       ],
       "correct": 0,
-      "explanation": "WHO/AMB cutoff for pregnancy anemia: Hb < 11.0 g/dL (any trimester).",
+      "explanation": "Anaemia in pregnancy is defined by WHO and by Anemia Mukt Bharat as Hb below 11.0 g/dL, and the cutoff applies in every trimester. Severity is then graded as mild 10.0-10.9, moderate 7.0-9.9 and severe below 7.0 g/dL.",
       "explanations": {
-        "A": "WHO/AMB cutoff for pregnancy anemia: Hb < 11.0 g/dL (any trimester).",
-        "B": "12.0 g/dL is the cutoff for non-pregnant women.",
-        "C": "10.0 g/dL is moderate anemia cutoff, not diagnostic threshold.",
-        "D": "13.0 is the cutoff for adult men."
+        "A": "Anaemia in pregnancy is defined by WHO and by Anemia Mukt Bharat as Hb below 11.0 g/dL, and the cutoff applies in every trimester. Severity is then graded as mild 10.0-10.9, moderate 7.0-9.9 and severe below 7.0 g/dL.",
+        "B": "Hb below 12.0 g/dL is the threshold for non-pregnant women aged 15 years and above, not for pregnancy.",
+        "C": "Hb below 10.0 g/dL marks the beginning of moderate anaemia; a woman with Hb of 10.5 g/dL is already anaemic, so this value is not the diagnostic cutoff.",
+        "D": "Hb below 13.0 g/dL is the cutoff used for adult men."
       },
       "subject": "Community Health",
       "topic": "Anemia Mukt Bharat",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 104
+      "mockSeq": 104,
+      "citation": "MoHFW Anemia Mukt Bharat Operational Guidelines (national programme guidelines)",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 625,
@@ -3321,7 +3505,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 105
+      "mockSeq": 105,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 604,
@@ -3354,12 +3539,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 106
+      "mockSeq": 106,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 291,
       "_origId": "N9-76",
-      "question": "Annual nutrition awareness activities in September for malnutrition prevention fall primarily under which national program?",
+      "question": "Each September, anganwadi and health staff across the country run a month of nutrition awareness activities aimed at preventing malnutrition. This observance belongs mainly to which national programme?",
       "options": [
         "Ayushman Bharat",
         "Swachh Bharat Abhiyan",
@@ -3367,24 +3553,30 @@
         "National Health Mission"
       ],
       "correct": 2,
-      "explanation": "September is observed as Rashtriya Poshan Maah under Poshan Abhiyaan.",
+      "explanation": "September is observed nationwide as Rashtriya Poshan Maah, the flagship month-long campaign of POSHAN Abhiyaan, which targets stunting, undernutrition, anaemia and low birth weight.",
       "explanations": {
-        "A": "Ayushman Bharat is an insurance + wellness centre programme.",
-        "B": "Swachh Bharat addresses sanitation, not nutrition.",
-        "C": "September is observed as Rashtriya Poshan Maah under Poshan Abhiyaan.",
-        "D": "NHM is an umbrella; Poshan Abhiyaan is the specific nutrition programme."
+        "A": "Ayushman Bharat pairs PM-JAY hospitalisation cover with Health and Wellness Centres; nutrition months are not run under it.",
+        "B": "Swachh Bharat Abhiyan is the sanitation and open-defecation-free campaign.",
+        "C": "September is observed nationwide as Rashtriya Poshan Maah, the flagship month-long campaign of POSHAN Abhiyaan, which targets stunting, undernutrition, anaemia and low birth weight.",
+        "D": "NHM is the umbrella mission funding much of the health system; the specific nutrition mission behind the September campaign is POSHAN Abhiyaan."
       },
       "subject": "Community Health",
       "topic": "Poshan Maah",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 107
+      "mockSeq": 107,
+      "citation": "Government of India POSHAN Abhiyaan guidelines (Ministry of Women and Child Development)",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 585,
@@ -3417,7 +3609,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 108
+      "mockSeq": 108,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 605,
@@ -3450,12 +3643,13 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 109
+      "mockSeq": 109,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 285,
       "_origId": "N9-70",
-      "question": "An age-sex pyramid shows a narrow top and wide base. What does this demographic pattern indicate?",
+      "question": "A population's age-sex pyramid is drawn with a broad base that tapers sharply to a very narrow apex. What does a profile of this shape indicate about that population?",
       "options": [
         "Low birth rate and low death rate",
         "High birth rate and high death rate",
@@ -3463,29 +3657,35 @@
         "High birth rate and low death rate"
       ],
       "correct": 1,
-      "explanation": "Wide base = high birth rate; narrow top = high death rate with few elderly → typical developing-country pyramid.",
+      "explanation": "Correct. A wide base means large numbers in the youngest age groups, that is a high birth rate. The sharp taper shows that each successive cohort is heavily depleted as it ages and few people survive into old age, which reflects a high death rate. This expansive triangular pyramid is the classic profile of a developing population.",
       "explanations": {
-        "A": "Low both → columnar (stable) pyramid.",
-        "B": "Wide base = high birth rate; narrow top = high death rate with few elderly → typical developing-country pyramid.",
-        "C": "Low birth + high death → contracting (top-heavy) pyramid.",
-        "D": "Low death + high birth → expanding bulge but with widening middle-age bands, not as narrow at the top."
+        "A": "When both rates are low the diagram loses its triangular form and becomes almost columnar, with the bars of successive age groups nearly equal until old age. That is the stationary pattern of developed populations.",
+        "B": "Correct. A wide base means large numbers in the youngest age groups, that is a high birth rate. The sharp taper shows that each successive cohort is heavily depleted as it ages and few people survive into old age, which reflects a high death rate. This expansive triangular pyramid is the classic profile of a developing population.",
+        "C": "A low birth rate with high mortality would give a narrow base as well as a narrow top, producing a contracting or constrictive shape rather than the broad-based triangle described.",
+        "D": "High births combined with low deaths still give a wide base, but survival through the middle years keeps the middle and upper bars comparatively full, so the sides slope gently instead of pinching to a very narrow apex."
       },
       "subject": "Community Health",
       "topic": "Demography",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 110
+      "mockSeq": 110,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Demography and Vital Statistics",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 289,
       "_origId": "N9-74",
-      "question": "Which statement about inactivated polio vaccine (IPV) is true?",
+      "question": "A nursing officer is asked to explain how inactivated polio vaccine (IPV) is prepared and given. Which statement about IPV is correct?",
       "options": [
         "Administered orally to prevent polio",
         "Live attenuated vaccine",
@@ -3493,24 +3693,30 @@
         "Requires only a single dose for lifelong immunity"
       ],
       "correct": 2,
-      "explanation": "IPV is given intramuscularly / intradermally (fIPV) — injectable inactivated vaccine.",
+      "explanation": "IPV is injected - intramuscularly as a full dose, or intradermally as fractional IPV in the national schedule - and the inactivated virus induces protective humoral antibody.",
       "explanations": {
-        "A": "Oral route is for OPV (live), not IPV.",
-        "B": "IPV is killed (Salk); OPV is live attenuated (Sabin).",
-        "C": "IPV is given intramuscularly / intradermally (fIPV) — injectable inactivated vaccine.",
-        "D": "Multi-dose schedule required."
+        "A": "The drops given at birth and during pulse polio rounds are OPV; IPV is never given by mouth.",
+        "B": "IPV is the killed (Salk) preparation. The live attenuated product is OPV (Sabin).",
+        "C": "IPV is injected - intramuscularly as a full dose, or intradermally as fractional IPV in the national schedule - and the inactivated virus induces protective humoral antibody.",
+        "D": "One dose does not confer lifelong protection; a multi-dose course is required, with fractional IPV given at 6 and 14 weeks in India's Universal Immunization Programme."
       },
       "subject": "Community Health",
       "topic": "Polio / IPV",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 111
+      "mockSeq": 111,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e - poliomyelitis and the Universal Immunization Programme",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 615,
@@ -3543,7 +3749,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 112
+      "mockSeq": 112,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 592,
@@ -3576,12 +3783,13 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 113
+      "mockSeq": 113,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 245,
       "_origId": "N9-30",
-      "question": "A patient is unconscious after trauma with suspected cervical spine injury. What is the priority nursing intervention?",
+      "question": "An unconscious patient is brought to the casualty department after a road traffic accident, and cervical spine injury cannot be excluded. Which intervention should be undertaken as the priority?",
       "options": [
         "Insert oropharyngeal airway",
         "Start IV fluids",
@@ -3589,24 +3797,30 @@
         "Apply cervical immobilization"
       ],
       "correct": 3,
-      "explanation": "Rigid cervical collar + manual in-line stabilisation is first to prevent secondary cord injury.",
+      "explanation": "A rigid cervical collar supported by manual in-line stabilisation, with head blocks and straps on a firm surface, prevents any movement of an unstable vertebral segment. An unconscious patient cannot guard the neck or report pain, so immobilisation is applied on the mechanism of injury alone to avoid a secondary cord injury that would be irreversible.",
       "explanations": {
-        "A": "Airway protection is important but any manipulation must happen with the neck immobilised.",
-        "B": "Circulation support follows airway/spine protection.",
-        "C": "Neurological assessment is secondary; must not delay immobilisation.",
-        "D": "Rigid cervical collar + manual in-line stabilisation is first to prevent secondary cord injury."
+        "A": "An airway adjunct is certainly needed in an unresponsive patient, but every airway manoeuvre in suspected cervical injury is performed with the neck held still. Jaw thrust replaces head tilt-chin lift, and an assistant maintains manual in-line stabilisation throughout.",
+        "B": "Intravenous access and fluid resuscitation belong to the circulation step of the primary survey and follow airway and spinal protection.",
+        "C": "A neurological examination establishes the baseline Glasgow Coma Scale and any sensorimotor level, but assessment must never postpone the measure that prevents further damage.",
+        "D": "A rigid cervical collar supported by manual in-line stabilisation, with head blocks and straps on a firm surface, prevents any movement of an unstable vertebral segment. An unconscious patient cannot guard the neck or report pain, so immobilisation is applied on the mechanism of injury alone to avoid a secondary cord injury that would be irreversible."
       },
       "subject": "Medical-Surgical",
       "topic": "C-spine trauma",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 114
+      "mockSeq": 114,
+      "citation": "Advanced Trauma Life Support (ATLS) Student Course Manual, 10e, American College of Surgeons",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 896,
@@ -3639,7 +3853,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 115
+      "mockSeq": 115,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 671,
@@ -3672,12 +3887,13 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 116
+      "mockSeq": 116,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 331,
       "_origId": "N9-116",
-      "question": "A 5-year-old with asthma is prescribed 2 puffs of Asthalin (salbutamol) every 6 hours. Which is the most important instruction?",
+      "question": "The parents of a 5-year-old with asthma are being taught about a metered-dose inhaler of Asthalin (salbutamol), 2 puffs to be taken every 6 hours. Which instruction matters most?",
       "options": [
         "Administer only during acute asthma attacks",
         "Use a spacer device for effective delivery",
@@ -3685,29 +3901,35 @@
         "Administer before meals only"
       ],
       "correct": 1,
-      "explanation": "In children <12 years, spacer is mandatory with MDI to improve lung deposition and reduce oropharyngeal side effects.",
+      "explanation": "A young child cannot reliably coordinate actuation with a slow deep inhalation and cannot hold the breath for ten seconds. A valved holding chamber removes the need for that timing, lets the child breathe tidally through it for five to six breaths, cuts the high-velocity oropharyngeal impaction and roughly doubles the drug reaching the lower airway. Below 5 years the spacer is fitted with a face mask; above that a mouthpiece is used, and rinsing the mouth afterwards is still advised.",
       "explanations": {
-        "A": "Salbutamol can be regular reliever + rescue, not only PRN.",
-        "B": "In children <12 years, spacer is mandatory with MDI to improve lung deposition and reduce oropharyngeal side effects.",
-        "C": "Self-escalation is dangerous without medical advice.",
-        "D": "Salbutamol timing doesn't depend on meals."
+        "A": "The drug has been prescribed on a fixed six-hourly schedule, so restricting it to attacks contradicts the order. Salbutamol can be used both as scheduled relief and as rescue medication.",
+        "B": "A young child cannot reliably coordinate actuation with a slow deep inhalation and cannot hold the breath for ten seconds. A valved holding chamber removes the need for that timing, lets the child breathe tidally through it for five to six breaths, cuts the high-velocity oropharyngeal impaction and roughly doubles the drug reaching the lower airway. Below 5 years the spacer is fitted with a face mask; above that a mouthpiece is used, and rinsing the mouth afterwards is still advised.",
+        "C": "Doubling the dose on the family's own initiative masks deteriorating control and delays medical review; excess beta-2 stimulation also brings tremor, tachycardia and hypokalaemia. Escalation belongs in a written action plan agreed with the clinician.",
+        "D": "Inhaled salbutamol acts locally on airway smooth muscle and its absorption is not influenced by food, so linking doses to mealtimes serves no purpose."
       },
       "subject": "Pediatric",
       "topic": "Pediatric inhaler technique",
       "day": 5,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 117
+      "mockSeq": 117,
+      "citation": "Ghai Essential Pediatrics 9e — inhalation therapy in childhood asthma",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 257,
       "_origId": "N9-42",
-      "question": "Identify the given instrument (wide, scoop-shaped abdominal retractor).",
+      "question": "During a laparotomy the scrub nurse passes a hand-held retractor with a single long, thin blade of even width that sweeps into a smooth right-angled scoop, used to hold the liver and other deep abdominal contents out of the operative field. Name the instrument.",
       "options": [
         "Doyen's Retractor",
         "Deaver Retractor",
@@ -3715,29 +3937,35 @@
         "Morris Retractor"
       ],
       "correct": 1,
-      "explanation": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
+      "explanation": "The Deaver retractor is the long, gently curved right-angled blade used to gain exposure deep in the abdomen, classically for the liver and the gallbladder region.",
       "explanations": {
-        "A": "Doyen's is a curved bladder retractor used in LSCS.",
-        "B": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
-        "C": "Langenbeck is a small L-shaped retractor for superficial wounds.",
-        "D": "Morris is a curved retractor with a broader blade than Langenbeck but not Deaver-shape."
+        "A": "Doyen's retractor is the bladder retractor of caesarean section, with a short handle set at right angles to a broad curved blade that sits over the pubic symphysis.",
+        "B": "The Deaver retractor is the long, gently curved right-angled blade used to gain exposure deep in the abdomen, classically for the liver and the gallbladder region.",
+        "C": "Langenbeck's is a small L-shaped retractor whose short blade suits superficial wound edges rather than deep viscera.",
+        "D": "Morris retractor has a wider, shorter curved blade than Langenbeck but lacks the long sweeping curve of a Deaver."
       },
       "subject": "OBG",
       "topic": "OT instruments",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
-      "qtype": "image",
+      "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 118
+      "mockSeq": 118,
+      "citation": "Bailey & Love's Short Practice of Surgery 28e — surgical instruments and exposure",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 267,
       "_origId": "N9-52",
-      "question": "In a partograph, which line indicates abnormal labour progress?",
+      "question": "While plotting cervical dilatation on a partograph, crossing which line first signals that labour is not progressing normally?",
       "options": [
         "Alert line",
         "Action line",
@@ -3745,24 +3973,30 @@
         "No descent"
       ],
       "correct": 0,
-      "explanation": "Crossing the alert line (cervicograph drifts rightward) is the earliest warning of labour dystocia — mandates review.",
+      "explanation": "When the cervicograph drifts to the right of the alert line, dilatation has fallen behind the expected 1 cm per hour; this is the earliest documented warning of dystocia and calls for review or transfer.",
       "explanations": {
-        "A": "Crossing the alert line (cervicograph drifts rightward) is the earliest warning of labour dystocia — mandates review.",
-        "B": "Action line crossing demands active intervention/transfer, but the alert line is the first abnormal signal.",
-        "C": "Not a labelled partograph line.",
-        "D": "Not a labelled partograph line."
+        "A": "When the cervicograph drifts to the right of the alert line, dilatation has fallen behind the expected 1 cm per hour; this is the earliest documented warning of dystocia and calls for review or transfer.",
+        "B": "Reaching the action line, drawn four hours to the right of the alert line, demands definitive intervention, but abnormality had already been signalled earlier.",
+        "C": "Slow progress describes what the graph is showing; it is not one of the printed reference lines.",
+        "D": "Descent of the head is recorded on a separate plot, and no line by this name exists on the partograph."
       },
       "subject": "OBG",
       "topic": "Partograph",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 119
+      "mockSeq": 119,
+      "citation": "WHO partograph guidance; MoHFW Skilled Birth Attendance training module",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 783,
@@ -3795,7 +4029,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 120
+      "mockSeq": 120,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 920,
@@ -3828,7 +4063,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 121
+      "mockSeq": 121,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 146,
@@ -3860,7 +4096,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 122
+      "mockSeq": 122,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 680,
@@ -3894,7 +4131,8 @@
         "lochia",
         "must"
       ],
-      "mockSeq": 123
+      "mockSeq": 123,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 880,
@@ -3927,7 +4165,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 124
+      "mockSeq": 124,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 106,
@@ -3959,12 +4198,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 125
+      "mockSeq": 125,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 259,
       "_origId": "N9-44",
-      "question": "A cardiotocography tracing shows cord compression. Which fetal heart rate pattern is most expected?",
+      "question": "Continuous electronic fetal monitoring during labour suggests that the umbilical cord is being compressed. Which fetal heart rate change best fits this situation?",
       "options": [
         "Variable decelerations",
         "Late decelerations",
@@ -3972,24 +4212,30 @@
         "Hypoxia"
       ],
       "correct": 0,
-      "explanation": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
+      "explanation": "Cord compression produces variable decelerations, which are abrupt in onset and recovery and differ from one another in depth, shape and their timing relative to contractions.",
       "explanations": {
-        "A": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
-        "B": "Late decels indicate uteroplacental insufficiency.",
-        "C": "Early decels mirror contractions; caused by fetal head compression.",
-        "D": "Hypoxia is an outcome, not a CTG pattern."
+        "A": "Cord compression produces variable decelerations, which are abrupt in onset and recovery and differ from one another in depth, shape and their timing relative to contractions.",
+        "B": "Late decelerations begin after a contraction has started and recover after it ends, reflecting uteroplacental insufficiency.",
+        "C": "Early decelerations mirror the contraction curve and arise from vagal reflex during fetal head compression.",
+        "D": "Hypoxia is a physiological state that a tracing may suggest; it is not itself a named deceleration pattern."
       },
       "subject": "OBG",
       "topic": "CTG interpretation",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 126
+      "mockSeq": 126,
+      "citation": "ACOG Practice Bulletin on intrapartum fetal heart rate monitoring (NICHD nomenclature)",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 1394,
@@ -4015,7 +4261,8 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 127
+      "mockSeq": 127,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 156,
@@ -4047,7 +4294,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 128
+      "mockSeq": 128,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 559,
@@ -4080,7 +4328,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 129
+      "mockSeq": 129,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 852,
@@ -4113,7 +4362,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 130
+      "mockSeq": 130,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 520,
@@ -4146,7 +4396,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 131
+      "mockSeq": 131,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 383,
@@ -4178,7 +4429,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 132
+      "mockSeq": 132,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 503,
@@ -4211,12 +4463,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 133
+      "mockSeq": 133,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 326,
       "_origId": "N9-111",
-      "question": "A newborn with neonatal diabetes mellitus type I (hyperglycemia, weight loss). What is the most appropriate initial treatment?",
+      "question": "Hyperglycaemia that persists along with failure to gain weight leads to a diagnosis of neonatal diabetes mellitus in an infant. Which therapy should be instituted at the outset?",
       "options": [
         "Oral hypoglycemic agents",
         "Insulin therapy",
@@ -4224,24 +4477,30 @@
         "Observation without medication"
       ],
       "correct": 1,
-      "explanation": "Neonatal DM is absolute insulin deficiency → insulin (often continuous infusion) is first-line.",
+      "explanation": "Neonatal diabetes reflects an absolute lack of circulating insulin, so insulin replacement is the immediate answer. A continuous intravenous infusion is usually preferred at first because it can be titrated in very small increments against frequent glucose readings in a baby of low body weight, and it is converted to a subcutaneous regimen once the infant is stable.",
       "explanations": {
-        "A": "Sulfonylureas may be used later in KATP channel neonatal DM, but not initial therapy.",
-        "B": "Neonatal DM is absolute insulin deficiency → insulin (often continuous infusion) is first-line.",
-        "C": "Dietary management is insufficient.",
-        "D": "Observation risks DKA and death."
+        "A": "A sulfonylurea such as glibenclamide does have a place, but only later and only in the subset shown on genetic testing to have an activating KCNJ11 or ABCC8 mutation of the KATP channel. Glucose control has to be established with insulin while that result is awaited.",
+        "B": "Neonatal diabetes reflects an absolute lack of circulating insulin, so insulin replacement is the immediate answer. A continuous intravenous infusion is usually preferred at first because it can be titrated in very small increments against frequent glucose readings in a baby of low body weight, and it is converted to a subcutaneous regimen once the infant is stable.",
+        "C": "Feeding adjustments alone cannot supply the missing hormone. Restricting intake in a baby already losing weight adds starvation to the metabolic problem.",
+        "D": "Untreated, the osmotic diuresis leads to dehydration, ketoacidosis and death. There is no role for watchful waiting once hyperglycaemia is confirmed."
       },
       "subject": "Pediatric",
       "topic": "Neonatal DM",
       "day": 5,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 134
+      "mockSeq": 134,
+      "citation": "Ghai Essential Pediatrics 9e — neonatal diabetes mellitus",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 512,
@@ -4274,7 +4533,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 135
+      "mockSeq": 135,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 1398,
@@ -4300,7 +4560,8 @@
       "source": "Practice",
       "year": "2022",
       "qtype": "scenario",
-      "mockSeq": 136
+      "mockSeq": 136,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 541,
@@ -4333,7 +4594,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 137
+      "mockSeq": 137,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 538,
@@ -4366,7 +4628,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 138
+      "mockSeq": 138,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 561,
@@ -4399,7 +4662,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 139
+      "mockSeq": 139,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 500,
@@ -4432,7 +4696,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 140
+      "mockSeq": 140,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 636,
@@ -4465,7 +4730,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 141
+      "mockSeq": 141,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 1204,
@@ -4491,7 +4757,8 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 142
+      "mockSeq": 142,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 1228,
@@ -4517,7 +4784,8 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 143
+      "mockSeq": 143,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 203,
@@ -4547,7 +4815,8 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 144
+      "mockSeq": 144,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 645,
@@ -4580,7 +4849,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 145
+      "mockSeq": 145,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 611,
@@ -4613,7 +4883,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 146
+      "mockSeq": 146,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 728,
@@ -4646,7 +4917,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 147
+      "mockSeq": 147,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 511,
@@ -4679,7 +4951,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 148
+      "mockSeq": 148,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 547,
@@ -4712,7 +4985,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 149
+      "mockSeq": 149,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 447,
@@ -4745,7 +5019,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 150
+      "mockSeq": 150,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 948,
@@ -4778,7 +5053,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 151
+      "mockSeq": 151,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 875,
@@ -4811,7 +5087,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 152
+      "mockSeq": 152,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 836,
@@ -4844,7 +5121,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 153
+      "mockSeq": 153,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 129,
@@ -4876,7 +5154,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 154
+      "mockSeq": 154,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 483,
@@ -4909,7 +5188,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 155
+      "mockSeq": 155,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 572,
@@ -4942,7 +5222,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 156
+      "mockSeq": 156,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 495,
@@ -4975,7 +5256,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 157
+      "mockSeq": 157,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 496,
@@ -5008,7 +5290,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 158
+      "mockSeq": 158,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 488,
@@ -5041,7 +5324,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 159
+      "mockSeq": 159,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 601,
@@ -5074,7 +5358,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 160
+      "mockSeq": 160,
+      "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines"
     }
   ],
   "spotlight": "Balanced"

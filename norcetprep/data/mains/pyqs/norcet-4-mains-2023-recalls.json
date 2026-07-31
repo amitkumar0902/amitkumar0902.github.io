@@ -2,7 +2,12 @@
   {
     "id": "N4-1",
     "question": "The most common type of breech presentation is:",
-    "options": ["Complete breech", "Frank breech", "Footling breech", "Kneeling breech"],
+    "options": [
+      "Complete breech",
+      "Frank breech",
+      "Footling breech",
+      "Kneeling breech"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -18,12 +23,21 @@
       "C": "Footling breech (one or both feet presenting) is less common and high-risk for cord prolapse.",
       "D": "Kneeling breech is the rarest variant."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Frank breech is the most common type (~60-70%), with hips flexed and knees extended so feet are near the head."
   },
   {
     "id": "N4-2",
     "question": "Normal range of central venous pressure (CVP) is:",
-    "options": ["0-2 cm H2O", "2-6 cm H2O", "8-12 cm H2O", "15-20 cm H2O"],
+    "options": [
+      "0-2 cm H2O",
+      "2-6 cm H2O",
+      "8-12 cm H2O",
+      "15-20 cm H2O"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -39,12 +53,21 @@
       "C": "Elevated CVP, suggests fluid overload or right heart failure.",
       "D": "Markedly elevated; seen in cardiac tamponade or severe RV failure."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Normal CVP is 2-6 cm H2O (or 2-8 mmHg depending on reference); reflects right atrial pressure."
   },
   {
     "id": "N4-3",
     "question": "Which vitamin deficiency causes night blindness?",
-    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
     "correct": 0,
     "section": "nutrition",
     "subject": "Nutrition",
@@ -60,12 +83,21 @@
       "C": "Vitamin C deficiency causes scurvy.",
       "D": "Vitamin D deficiency causes rickets/osteomalacia."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e",
+    "explanation": "Vitamin A (retinol) is essential for rhodopsin synthesis in rod cells; deficiency causes nyctalopia (night blindness)."
   },
   {
     "id": "N4-4",
     "question": "The drug of choice for status epilepticus is:",
-    "options": ["Phenytoin", "Lorazepam", "Phenobarbitone", "Diazepam"],
+    "options": [
+      "Phenytoin",
+      "Lorazepam",
+      "Phenobarbitone",
+      "Diazepam"
+    ],
     "correct": 1,
     "section": "pharmacology",
     "subject": "Pharmacology",
@@ -81,12 +113,21 @@
       "C": "Phenobarbitone is third-line.",
       "D": "Diazepam works but has shorter duration; lorazepam is preferred."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "IV Lorazepam is the first-line drug of choice for status epilepticus per current guidelines (longer duration than diazepam)."
   },
   {
     "id": "N4-5",
     "question": "Normal fetal heart rate is:",
-    "options": ["100-120 bpm", "110-160 bpm", "160-180 bpm", "80-100 bpm"],
+    "options": [
+      "100-120 bpm",
+      "110-160 bpm",
+      "160-180 bpm",
+      "80-100 bpm"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -102,12 +143,21 @@
       "C": "Tachycardia; may indicate fetal distress or maternal fever.",
       "D": "Severe bradycardia; emergency."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Normal FHR baseline is 110-160 bpm."
   },
   {
     "id": "N4-6",
     "question": "Which of the following is NOT a part of APGAR score?",
-    "options": ["Heart rate", "Respiratory effort", "Birth weight", "Muscle tone"],
+    "options": [
+      "Heart rate",
+      "Respiratory effort",
+      "Birth weight",
+      "Muscle tone"
+    ],
     "correct": 2,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -123,12 +173,21 @@
       "C": "Birth weight is NOT part of APGAR; the 5 are Appearance, Pulse, Grimace, Activity, Respiration.",
       "D": "Muscle tone (Activity) is part of APGAR."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "AAP/AHA Neonatal Resuscitation Program 8e — Delivery Room Management",
+    "explanation": "Birth weight is NOT part of APGAR; the 5 are Appearance, Pulse, Grimace, Activity, Respiration."
   },
   {
     "id": "N4-7",
     "question": "Pulse Polio Immunization in India is given to children up to:",
-    "options": ["1 year", "3 years", "5 years", "10 years"],
+    "options": [
+      "1 year",
+      "3 years",
+      "5 years",
+      "10 years"
+    ],
     "correct": 2,
     "section": "community-health",
     "subject": "Community Health",
@@ -144,12 +203,21 @@
       "C": "Pulse Polio Immunization targets all children 0 to 5 years.",
       "D": "Beyond the PPI age range."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "explanation": "Pulse Polio Immunization targets all children 0 to 5 years."
   },
   {
     "id": "N4-8",
     "question": "ORS (WHO formula) contains how much sodium per litre?",
-    "options": ["50 mmol", "75 mmol", "90 mmol", "120 mmol"],
+    "options": [
+      "50 mmol",
+      "75 mmol",
+      "90 mmol",
+      "120 mmol"
+    ],
     "correct": 1,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -165,12 +233,21 @@
       "C": "This was the older WHO ORS formula (pre-2002).",
       "D": "Too high; would be hypertonic."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "WHO low-osmolarity ORS contains 75 mmol/L sodium (total osmolarity 245 mOsm/L)."
   },
   {
     "id": "N4-9",
     "question": "Which chamber of the heart has the thickest myocardium?",
-    "options": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+    "options": [
+      "Right atrium",
+      "Left atrium",
+      "Right ventricle",
+      "Left ventricle"
+    ],
     "correct": 3,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -186,12 +263,21 @@
       "C": "Right ventricle is thinner because it pumps to the low-pressure pulmonary circuit.",
       "D": "Left ventricle has the thickest myocardium because it pumps blood against high systemic pressure."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e",
+    "explanation": "Left ventricle has the thickest myocardium because it pumps blood against high systemic pressure."
   },
   {
     "id": "N4-10",
     "question": "Mantoux test is read after:",
-    "options": ["24 hours", "48-72 hours", "1 week", "2 weeks"],
+    "options": [
+      "24 hours",
+      "48-72 hours",
+      "1 week",
+      "2 weeks"
+    ],
     "correct": 1,
     "section": "microbiology",
     "subject": "Microbiology",
@@ -207,12 +293,21 @@
       "C": "Too late; reaction begins to fade.",
       "D": "Not appropriate timing."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines",
+    "explanation": "Mantoux (tuberculin) test is read 48-72 hours after intradermal injection of PPD."
   },
   {
     "id": "N4-11",
     "question": "The most common cause of postpartum hemorrhage is:",
-    "options": ["Retained placenta", "Uterine atony", "Cervical laceration", "Coagulation disorder"],
+    "options": [
+      "Retained placenta",
+      "Uterine atony",
+      "Cervical laceration",
+      "Coagulation disorder"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -228,12 +323,21 @@
       "C": "Trauma (lacerations) is second most common.",
       "D": "Thrombin (coagulopathy) is the least common cause."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Uterine atony (Tone) accounts for ~70-80% of PPH cases."
   },
   {
     "id": "N4-12",
     "question": "BCG vaccine is given by which route?",
-    "options": ["Intramuscular", "Subcutaneous", "Intradermal", "Oral"],
+    "options": [
+      "Intramuscular",
+      "Subcutaneous",
+      "Intradermal",
+      "Oral"
+    ],
     "correct": 2,
     "section": "community-health",
     "subject": "Community Health",
@@ -249,12 +353,21 @@
       "C": "BCG is given intradermally over the left deltoid, dose 0.1 mL (0.05 mL for newborn <1 month).",
       "D": "OPV is oral; BCG is not."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "explanation": "BCG is given intradermally over the left deltoid, dose 0.1 mL (0.05 mL for newborn <1 month)."
   },
   {
     "id": "N4-13",
     "question": "Which type of insulin has the most rapid onset of action?",
-    "options": ["Regular insulin", "NPH insulin", "Lispro insulin", "Glargine insulin"],
+    "options": [
+      "Regular insulin",
+      "NPH insulin",
+      "Lispro insulin",
+      "Glargine insulin"
+    ],
     "correct": 2,
     "section": "pharmacology",
     "subject": "Pharmacology",
@@ -270,12 +383,21 @@
       "C": "Lispro is rapid-acting analog, onset 5-15 minutes.",
       "D": "Glargine is long-acting basal insulin with onset ~1-2 hours but no peak."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "Lispro is rapid-acting analog, onset 5-15 minutes."
   },
   {
     "id": "N4-14",
     "question": "Compression-to-ventilation ratio in adult CPR (single rescuer) is:",
-    "options": ["15:2", "30:2", "5:1", "10:2"],
+    "options": [
+      "15:2",
+      "30:2",
+      "5:1",
+      "10:2"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -291,12 +413,21 @@
       "C": "5:1 was an old guideline, no longer recommended.",
       "D": "Not a current recommended ratio."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support",
+    "explanation": "30:2 is the standard adult CPR ratio (single or two rescuer) per AHA 2020 guidelines."
   },
   {
     "id": "N4-15",
     "question": "First sign of magnesium sulphate toxicity is:",
-    "options": ["Loss of deep tendon reflexes", "Respiratory depression", "Cardiac arrest", "Hypotension"],
+    "options": [
+      "Loss of deep tendon reflexes",
+      "Respiratory depression",
+      "Cardiac arrest",
+      "Hypotension"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -312,12 +443,21 @@
       "C": "Cardiac arrest is the terminal event at very high levels (>25 mEq/L).",
       "D": "Hypotension may occur but is not the earliest specific sign."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Loss of patellar/deep tendon reflexes is the earliest clinical sign of MgSO4 toxicity (8-10 mEq/L)."
   },
   {
     "id": "N4-16",
     "question": "Glasgow Coma Scale lowest possible score is:",
-    "options": ["0", "1", "3", "5"],
+    "options": [
+      "0",
+      "1",
+      "3",
+      "5"
+    ],
     "correct": 2,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -333,12 +473,21 @@
       "C": "GCS minimum total is 3 (1 each for eye, verbal, motor); maximum is 15.",
       "D": "Not the minimum total."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "GCS minimum total is 3 (1 each for eye, verbal, motor); maximum is 15."
   },
   {
     "id": "N4-17",
     "question": "Most common organism causing neonatal sepsis in India is:",
-    "options": ["E. coli", "Klebsiella", "Group B Streptococcus", "Staphylococcus aureus"],
+    "options": [
+      "E. coli",
+      "Klebsiella",
+      "Group B Streptococcus",
+      "Staphylococcus aureus"
+    ],
     "correct": 1,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -354,12 +503,21 @@
       "C": "GBS is leading cause in Western countries, less common in India.",
       "D": "Staph aureus is more common in late-onset hospital-acquired sepsis."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "In India, Klebsiella pneumoniae is the leading cause of neonatal sepsis (NNPD data)."
   },
   {
     "id": "N4-18",
     "question": "Which valve is between right atrium and right ventricle?",
-    "options": ["Mitral valve", "Tricuspid valve", "Pulmonary valve", "Aortic valve"],
+    "options": [
+      "Mitral valve",
+      "Tricuspid valve",
+      "Pulmonary valve",
+      "Aortic valve"
+    ],
     "correct": 1,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -375,12 +533,21 @@
       "C": "Pulmonary valve is at exit of right ventricle to pulmonary artery.",
       "D": "Aortic valve is at exit of left ventricle to aorta."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e",
+    "explanation": "Tricuspid valve lies between right atrium and right ventricle."
   },
   {
     "id": "N4-19",
     "question": "Korotkoff sounds are heard during measurement of:",
-    "options": ["Pulse", "Respiratory rate", "Blood pressure", "Temperature"],
+    "options": [
+      "Pulse",
+      "Respiratory rate",
+      "Blood pressure",
+      "Temperature"
+    ],
     "correct": 2,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -396,12 +563,21 @@
       "C": "Korotkoff sounds (5 phases) are heard during auscultatory BP measurement; phase I = systolic, phase V = diastolic.",
       "D": "Temperature uses a thermometer."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e",
+    "explanation": "Korotkoff sounds (5 phases) are heard during auscultatory BP measurement; phase I = systolic, phase V = diastolic."
   },
   {
     "id": "N4-20",
     "question": "Janani Suraksha Yojana (JSY) was launched in which year?",
-    "options": ["2003", "2005", "2008", "2010"],
+    "options": [
+      "2003",
+      "2005",
+      "2008",
+      "2010"
+    ],
     "correct": 1,
     "section": "community-health",
     "subject": "Community Health",
@@ -417,12 +593,21 @@
       "C": "JSSK was launched in 2011, not JSY.",
       "D": "Not correct."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India",
+    "explanation": "JSY was launched on 12 April 2005 under NRHM to promote institutional deliveries."
   },
   {
     "id": "N4-21",
     "question": "Universal donor blood group is:",
-    "options": ["A negative", "B negative", "AB positive", "O negative"],
+    "options": [
+      "A negative",
+      "B negative",
+      "AB positive",
+      "O negative"
+    ],
     "correct": 3,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -438,12 +623,21 @@
       "C": "AB positive is the universal recipient, not donor.",
       "D": "O negative has no A, B, or Rh antigens, hence universal donor for packed RBCs."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "O negative has no A, B, or Rh antigens, hence universal donor for packed RBCs."
   },
   {
     "id": "N4-22",
     "question": "First-line antitubercular drug that causes peripheral neuropathy is:",
-    "options": ["Rifampicin", "Isoniazid", "Pyrazinamide", "Ethambutol"],
+    "options": [
+      "Rifampicin",
+      "Isoniazid",
+      "Pyrazinamide",
+      "Ethambutol"
+    ],
     "correct": 1,
     "section": "pharmacology",
     "subject": "Pharmacology",
@@ -459,12 +653,21 @@
       "C": "Pyrazinamide causes hyperuricemia and hepatotoxicity.",
       "D": "Ethambutol causes optic neuritis."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "Isoniazid (INH) causes pyridoxine (B6) deficiency leading to peripheral neuropathy; supplement B6 to prevent."
   },
   {
     "id": "N4-23",
     "question": "Erikson's stage of 'Trust vs Mistrust' occurs at age:",
-    "options": ["0-1 year", "1-3 years", "3-6 years", "6-12 years"],
+    "options": [
+      "0-1 year",
+      "1-3 years",
+      "3-6 years",
+      "6-12 years"
+    ],
     "correct": 0,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -480,12 +683,21 @@
       "C": "3-6 years is Initiative vs Guilt.",
       "D": "6-12 years is Industry vs Inferiority."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e",
+    "explanation": "Trust vs Mistrust is the first Eriksonian stage (infancy, 0-1 year)."
   },
   {
     "id": "N4-24",
     "question": "Largest artery in the human body is:",
-    "options": ["Pulmonary artery", "Aorta", "Carotid artery", "Femoral artery"],
+    "options": [
+      "Pulmonary artery",
+      "Aorta",
+      "Carotid artery",
+      "Femoral artery"
+    ],
     "correct": 1,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -501,12 +713,21 @@
       "C": "Carotid is a major branch but not the largest.",
       "D": "Femoral is large but smaller than aorta."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e",
+    "explanation": "The aorta is the largest artery, originating from the left ventricle."
   },
   {
     "id": "N4-25",
     "question": "Which is the protein-energy malnutrition disorder characterized by edema?",
-    "options": ["Marasmus", "Kwashiorkor", "Marasmic-Kwashiorkor", "Cachexia"],
+    "options": [
+      "Marasmus",
+      "Kwashiorkor",
+      "Marasmic-Kwashiorkor",
+      "Cachexia"
+    ],
     "correct": 1,
     "section": "nutrition",
     "subject": "Nutrition",
@@ -522,6 +743,10 @@
       "C": "Mixed picture has both wasting and edema.",
       "D": "Cachexia is wasting due to chronic disease, not specifically a PEM category."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e",
+    "explanation": "Kwashiorkor is protein deficiency presenting with bilateral pitting edema, hair changes, hepatomegaly."
   }
 ]

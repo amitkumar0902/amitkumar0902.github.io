@@ -12,7 +12,12 @@
     "explanation": "• Therapeutic approach involves acknowledging the patient's feelings without reinforcing delusions, then gently redirecting to reality.\n• Confrontation can increase anxiety.",
     "topic": "Schizophrenia",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Nursing Management of Schizophrenia",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 2,
@@ -27,7 +32,12 @@
     "explanation": "• Patients with suicidal ideation require constant one-to-one supervision to ensure safety.\n• Remove harmful objects and notify the treatment team immediately.",
     "topic": "Depression",
     "year": "2023",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Psychiatric Emergencies: Suicide and Suicide Risk Assessment",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 3,
@@ -42,7 +52,12 @@
     "explanation": "• Extrapyramidal symptoms (EPS) like parkinsonism, dystonia, akathisia are common with typical antipsychotics.\n• Atypical antipsychotics have lower EPS risk.",
     "topic": "Psychopharmacology",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "KDT Essentials of Medical Pharmacology 8e — Antipsychotic Drugs",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 4,
@@ -57,7 +72,12 @@
     "explanation": "• Manic patients are overstimulated.\n• Providing a quiet, low-stimulation environment helps reduce agitation and prevents escalation of symptoms.",
     "topic": "Bipolar Disorder",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Nursing Management of Mood Disorders: Mania",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 5,
@@ -72,7 +92,12 @@
     "explanation": "• Reflecting involves redirecting the patient's statement back to them for clarification and deeper exploration, encouraging self-awareness.",
     "topic": "Therapeutic Communication",
     "year": "2023",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Therapeutic Communication Techniques",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 6,
@@ -87,7 +112,12 @@
     "explanation": "• During panic attacks, stay with the patient, speak in calm, reassuring tones, and help with breathing techniques.\n• Medication may be needed if severe.",
     "topic": "Anxiety Disorders",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Nursing Management of Anxiety Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 7,
@@ -102,7 +132,12 @@
     "explanation": "• SSRIs block the reuptake of serotonin, increasing its availability in the synaptic cleft, which helps treat depression and anxiety.",
     "topic": "Psychopharmacology",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "KDT Essentials of Medical Pharmacology 8e — Antidepressant Drugs",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 8,
@@ -117,7 +152,12 @@
     "explanation": "• OCD treatment involves gradual exposure and response prevention (ERP) therapy, slowly reducing rituals while managing anxiety.\n• Sudden prevention increases distress.",
     "topic": "Anxiety Disorders",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Obsessive-Compulsive and Related Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 9,
@@ -132,7 +172,12 @@
     "explanation": "• Medical stabilization is priority - monitor weight, vital signs, electrolytes.\n• Malnutrition can be life-threatening.\n• Then address psychological aspects.",
     "topic": "Eating Disorders",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Eating Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 10,
@@ -147,7 +192,12 @@
     "explanation": "• During flashbacks, orient patient to present reality and safety.\n• Avoid touching without permission.\n• Don't force discussion of trauma details.",
     "topic": "Trauma Disorders",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Stress-Related and Trauma-Related Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 11,
@@ -162,7 +212,12 @@
     "explanation": "• Lithium has a narrow therapeutic range.\n• Toxicity can occur with dehydration, drug interactions, or high doses.\n• Monitor serum levels regularly.",
     "topic": "Psychopharmacology",
     "year": "2023",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "KDT Essentials of Medical Pharmacology 8e — Drugs Used in Mood Disorders: Lithium",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 12,
@@ -177,7 +232,12 @@
     "explanation": "• Validation therapy accepts the patient's reality rather than correcting, reducing agitation.\n• Reality orientation can increase frustration in advanced dementia.",
     "topic": "Dementia",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Nursing Management of Organic (Neurocognitive) Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 13,
@@ -192,7 +252,12 @@
     "explanation": "• CBT focuses on identifying and changing negative thought patterns and maladaptive behaviors that contribute to psychological distress.",
     "topic": "Therapy",
     "year": "2022",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Psychological Treatments: Behaviour and Cognitive Therapy",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 14,
@@ -207,7 +272,12 @@
     "explanation": "• Withdrawal can be life-threatening (especially alcohol, benzodiazepines).\n• Medical monitoring and symptom management take priority over psychological interventions.",
     "topic": "Substance Use",
     "year": "2023",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Substance Use Disorders: Withdrawal and Detoxification",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 15,
@@ -222,7 +292,12 @@
     "explanation": "• ECT is used for severe, treatment-resistant depression, especially when rapid response is needed (suicidal risk) or medications are contraindicated.",
     "topic": "Treatment Modalities",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Somatic Treatments: Electroconvulsive Therapy",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with schizophrenia is experiencing auditory hallucinations. What is the priority nursing intervention?",
@@ -237,7 +312,12 @@
     "topic": "Schizophrenia",
     "year": "2015",
     "difficulty": "High",
-    "id": 16
+    "id": 16,
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Nursing Management of Schizophrenia",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with major depressive disorder expresses suicidal ideation. What is the priority nursing action?",
@@ -252,7 +332,12 @@
     "topic": "Depression",
     "year": "2016",
     "difficulty": "Critical",
-    "id": 17
+    "id": 17,
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Psychiatric Emergencies: Suicide and Suicide Risk Assessment",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the primary side effect of typical antipsychotics (haloperidol)?",
@@ -267,7 +352,12 @@
     "topic": "Psychopharmacology",
     "year": "2017",
     "difficulty": "High",
-    "id": 18
+    "id": 18,
+    "citation": "KDT Essentials of Medical Pharmacology 8e — Antipsychotic Drugs",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with bipolar disorder is in manic phase. What is the priority nursing intervention?",
@@ -282,7 +372,12 @@
     "topic": "Bipolar Disorder",
     "year": "2018",
     "difficulty": "High",
-    "id": 19
+    "id": 19,
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Nursing Management of Mood Disorders: Mania",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the therapeutic communication technique of reflecting?",
@@ -297,7 +392,12 @@
     "topic": "Therapeutic Communication",
     "year": "2019",
     "difficulty": "Medium",
-    "id": 20
+    "id": 20,
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Therapeutic Communication Techniques",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with anxiety disorder is experiencing panic attack. What is the priority intervention?",
@@ -312,7 +412,12 @@
     "topic": "Anxiety Disorders",
     "year": "2020",
     "difficulty": "High",
-    "id": 21
+    "id": 21,
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Nursing Management of Anxiety Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the primary mechanism of action of SSRIs (Selective Serotonin Reuptake Inhibitors)?",
@@ -327,7 +432,12 @@
     "topic": "Psychopharmacology",
     "year": "2021",
     "difficulty": "High",
-    "id": 22
+    "id": 22,
+    "citation": "KDT Essentials of Medical Pharmacology 8e — Antidepressant Drugs",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with obsessive-compulsive disorder (OCD) is performing rituals. What is the therapeutic approach?",
@@ -342,7 +452,12 @@
     "topic": "Anxiety Disorders",
     "year": "2022",
     "difficulty": "High",
-    "id": 23
+    "id": 23,
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Obsessive-Compulsive and Related Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the priority nursing intervention for a patient with eating disorder (anorexia)?",
@@ -357,7 +472,12 @@
     "topic": "Eating Disorders",
     "year": "2023",
     "difficulty": "Critical",
-    "id": 24
+    "id": 24,
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Eating Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with PTSD is experiencing flashbacks. What is the appropriate nursing response?",
@@ -372,7 +492,12 @@
     "topic": "Trauma Disorders",
     "year": "2024",
     "difficulty": "High",
-    "id": 25
+    "id": 25,
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Stress-Related and Trauma-Related Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with major depression is prescribed sertraline (SSRI). What is the most important teaching about this medication?",
@@ -387,7 +512,12 @@
     "topic": "Psychopharmacology",
     "year": "2025",
     "difficulty": "High",
-    "id": 26
+    "id": 26,
+    "citation": "KDT Essentials of Medical Pharmacology 8e — Antidepressant Drugs",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with severe depression requires ECT (Electroconvulsive Therapy). What is the priority pre-procedure care?",
@@ -395,14 +525,19 @@
       "A. NPO status",
       "B. Remove dentures and jewelry",
       "C. Administer premedication",
-      "D. All of the above"
+      "NPO status, removal of dentures and jewellery, and premedication together"
     ],
     "correct": 3,
     "explanation": "• ECT pre-procedure: NPO 6-8 hours, remove dentures/jewelry/metal objects, administer premedication (atropine to reduce secretions, anesthetic, muscle relaxant).\n• Proper preparation prevents complications.\n• Understanding psychiatric treatment equipment and procedures is essential for safe ECT administration.",
     "topic": "Psychiatric Treatment Equipment",
     "year": "2015",
     "difficulty": "High",
-    "id": 27
+    "id": 27,
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Electroconvulsive Therapy: Nursing Responsibilities",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with suicidal ideation requires safety measures. What equipment is essential?",
@@ -417,7 +552,12 @@
     "topic": "Psychiatric Safety Equipment",
     "year": "2016",
     "difficulty": "Critical",
-    "id": 28
+    "id": 28,
+    "citation": "R Sreevani A Guide to Mental Health and Psychiatric Nursing 4e — Care of the Suicidal Patient",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A patient with anxiety disorder is learning relaxation techniques. What equipment can assist?",
@@ -432,6 +572,11 @@
     "topic": "Therapeutic Equipment",
     "year": "2017",
     "difficulty": "Medium",
-    "id": 29
+    "id": 29,
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e — Behaviour Therapy: Relaxation Training and Biofeedback",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   }
 ]

@@ -28,7 +28,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e"
   },
   {
     "id": 30,
@@ -59,7 +60,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 57,
@@ -90,7 +92,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "esic-sn-recalls.json"
+    "_sourceFile": "esic-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 65,
@@ -121,7 +124,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 67,
@@ -152,7 +156,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 151,
@@ -183,7 +188,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 173,
@@ -214,7 +220,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 189,
@@ -245,7 +252,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 193,
@@ -276,12 +284,13 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
   },
   {
     "id": 270,
     "_origId": "N9-55",
-    "question": "Among the following, which food provides the highest amount of protein per 100 grams?",
+    "question": "A dietitian is ranking four everyday foods by their protein yield, comparing an identical 100 g portion of each. Which of them supplies the greatest quantity of protein?",
     "options": [
       "Egg",
       "Soybean",
@@ -289,28 +298,34 @@
       "Peanuts"
     ],
     "correct": 1,
-    "explanation": "Soybean has ≈43 g protein per 100 g — the highest per 100 g among common foods.",
+    "explanation": "Soybean is the answer: about 43 g of protein per 100 g of the dry bean, far ahead of every other item listed. It is also one of the few plant foods supplying all essential amino acids in adequate proportion, which is why it anchors many low-cost protein-supplementation programmes.",
     "explanations": {
-      "A": "Egg has ≈13 g protein per 100 g.",
-      "B": "Soybean has ≈43 g protein per 100 g — the highest per 100 g among common foods.",
-      "C": "Mutton has ≈18 g protein per 100 g.",
-      "D": "Peanuts have ≈25 g protein per 100 g."
+      "A": "Whole egg carries roughly 13 g of protein in 100 g. Its protein is of the highest biological value of any single food, but water makes up most of its weight, so gram for gram it falls well short of soybean.",
+      "B": "Soybean is the answer: about 43 g of protein per 100 g of the dry bean, far ahead of every other item listed. It is also one of the few plant foods supplying all essential amino acids in adequate proportion, which is why it anchors many low-cost protein-supplementation programmes.",
+      "C": "Mutton contributes close to 18 g of protein per 100 g. It is a good-quality animal protein, yet a large share of raw meat is water and fat, keeping the figure below that of dry legumes.",
+      "D": "Groundnut (peanut) sits near 25 g per 100 g. This makes it the richest of the remaining three, but still only about half of what soybean provides."
     },
     "subject": "Nutrition",
     "topic": "Protein sources",
     "day": 12,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "nutrition-biochemistry",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Nutrition and Health",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 286,
     "_origId": "N9-71",
-    "question": "Which food contains the highest amount of protein per serving?",
+    "question": "While counselling a family about affordable sources of protein, a nurse compares 100 g of each of the following items. Which one delivers the most protein?",
     "options": [
       "Lentils",
       "Soybean",
@@ -318,23 +333,29 @@
       "Rice"
     ],
     "correct": 1,
-    "explanation": "Soybean is highest in protein (≈43 g/100 g) — complete plant protein.",
+    "explanation": "Correct. Soybean provides close to 43 g of protein per 100 g, the highest of any commonly eaten food, and its amino acid pattern is near complete. This combination of quantity and quality at low cost is why it is favoured for nutrition rehabilitation and for supplementary feeding programmes.",
     "explanations": {
-      "A": "Lentils ≈ 24 g protein/100 g.",
-      "B": "Soybean is highest in protein (≈43 g/100 g) — complete plant protein.",
-      "C": "Eggs ≈ 13 g/100 g — highest biological value but not highest gram-for-gram.",
-      "D": "Rice ≈ 7 g/100 g — low protein."
+      "A": "Pulses such as lentils supply about 24 g of protein per 100 g. They are a valuable and inexpensive source, though limited in the sulphur-containing amino acid methionine and best combined with cereals.",
+      "B": "Correct. Soybean provides close to 43 g of protein per 100 g, the highest of any commonly eaten food, and its amino acid pattern is near complete. This combination of quantity and quality at low cost is why it is favoured for nutrition rehabilitation and for supplementary feeding programmes.",
+      "C": "Egg contains roughly 13 g of protein per 100 g. Its protein has the reference biological value against which others are judged, but the amount per unit weight is modest because the bulk of an egg is water.",
+      "D": "Rice yields only about 7 g of protein per 100 g and is also deficient in lysine. It is chiefly an energy food and must be paired with pulses to make an adequate protein meal."
     },
     "subject": "Community Health",
     "topic": "Nutrition counselling",
     "day": 12,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "community-health",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Nutrition and Health",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 346,
@@ -365,7 +386,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 347,
@@ -396,7 +418,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 356,
@@ -427,7 +450,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 372,
@@ -458,7 +482,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 396,
@@ -489,7 +514,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 397,
@@ -520,7 +546,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 1491,
@@ -545,7 +572,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 1492,
@@ -570,7 +598,8 @@
     "difficulty": "Hard",
     "source": "AIIMS NO legacy",
     "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 1494,
@@ -595,7 +624,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1205,
@@ -620,7 +650,8 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2022",
-    "qtype": "scenario"
+    "qtype": "scenario",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 1217,
@@ -645,7 +676,8 @@
     "difficulty": "Critical",
     "source": "Practice",
     "year": "2022",
-    "qtype": "scenario"
+    "qtype": "scenario",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 1221,
@@ -670,7 +702,8 @@
     "difficulty": "Critical",
     "source": "Practice",
     "year": "2024",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
   },
   {
     "id": 1240,
@@ -695,7 +728,8 @@
     "difficulty": "Critical",
     "source": "Practice",
     "year": "2021",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 1244,
@@ -720,7 +754,8 @@
     "difficulty": "High",
     "source": "Practice",
     "year": "2015",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 1266,
@@ -745,7 +780,8 @@
     "difficulty": "Critical",
     "source": "Practice",
     "year": "2024",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "BT Basavanthappa Nursing Administration 3e"
   },
   {
     "id": 1317,
@@ -770,7 +806,8 @@
     "difficulty": "Medium",
     "source": "Practice",
     "year": null,
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 1318,
@@ -795,7 +832,8 @@
     "difficulty": "Medium",
     "source": "Practice",
     "year": null,
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 1319,
@@ -820,7 +858,8 @@
     "difficulty": "Medium",
     "source": "Practice",
     "year": null,
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   },
   {
     "id": 1320,
@@ -845,6 +884,7 @@
     "difficulty": "Medium",
     "source": "Practice",
     "year": null,
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
   }
 ]

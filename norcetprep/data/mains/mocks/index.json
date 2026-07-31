@@ -217,7 +217,7 @@
       "Microbiology": 3,
       "Community Health": 4
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "norcet3-mains",
@@ -234,7 +234,7 @@
       "Psychiatric": 3,
       "Admin": 2
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "norcet4-mains",
@@ -253,7 +253,7 @@
       "Fundamentals": 1,
       "Psychiatric": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "norcet5-mains",
@@ -272,7 +272,7 @@
       "Microbiology": 1,
       "Admin": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "norcet6-mains",
@@ -285,7 +285,7 @@
       "Fundamentals": 3,
       "Community Health": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "norcet7-mains",
@@ -297,7 +297,7 @@
       "Fundamentals": 1,
       "Medical-Surgical": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "norcet8-mains",
@@ -310,7 +310,7 @@
       "OBG": 1,
       "Medical-Surgical": 3
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "aiims-sn",
@@ -329,7 +329,7 @@
       "Pediatric": 1,
       "Microbiology": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "jipmer-sn",
@@ -345,7 +345,7 @@
       "Microbiology": 6,
       "OBG": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "rrb-sn",
@@ -362,7 +362,7 @@
       "Community Health": 4,
       "Pharmacology": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "esic-sn",
@@ -381,7 +381,7 @@
       "Nutrition": 1,
       "Psychiatric": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "dsssb-sn",
@@ -399,7 +399,7 @@
       "Psychiatric": 1,
       "Microbiology": 1
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "yt-recalls",
@@ -419,11 +419,11 @@
       "Nutrition": 2,
       "Psychiatric": 2
     },
-    "verbatim": true
+    "recall": true
   },
   {
     "id": "norcet9-mains",
-    "title": "NORCET 9 Mains 2025 — Full Replay (121 Q)",
+    "title": "NORCET 9 Mains 2025 — Recalls (121 Q)",
     "count": 121,
     "minutes": 180,
     "subjects": {
@@ -435,6 +435,6 @@
       "Psychiatric": 14,
       "Pediatric": 26
     },
-    "verbatim": true
+    "recall": true
   }
 ]

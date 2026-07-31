@@ -2,7 +2,12 @@
   {
     "id": "N6-1",
     "question": "Pre-eclampsia is diagnosed at what BP threshold after 20 weeks' gestation?",
-    "options": ["≥130/80 mmHg", "≥140/90 mmHg", "≥150/95 mmHg", "≥160/110 mmHg"],
+    "options": [
+      "≥130/80 mmHg",
+      "≥140/90 mmHg",
+      "≥150/95 mmHg",
+      "≥160/110 mmHg"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -17,12 +22,19 @@
       "B": "BP ≥140/90 mmHg on two occasions ≥4 hours apart after 20 weeks + proteinuria or end-organ dysfunction = pre-eclampsia.",
       "C": "Not a standard cutoff.",
       "D": "≥160/110 defines pre-eclampsia with severe features, not the diagnosis itself."
-    }
+    },
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "BP ≥140/90 mmHg on two occasions ≥4 hours apart after 20 weeks + proteinuria or end-organ dysfunction = pre-eclampsia."
   },
   {
     "id": "N6-2",
     "question": "First step in Neonatal Resuscitation Program after birth:",
-    "options": ["Clamp cord", "Dry, warm, position, clear airway", "Give oxygen", "Start compressions"],
+    "options": [
+      "Clamp cord",
+      "Dry, warm, position, clear airway",
+      "Give oxygen",
+      "Start compressions"
+    ],
     "correct": 1,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -37,12 +49,19 @@
       "B": "Initial steps per NRP: warm, dry, position airway, clear secretions, stimulate.",
       "C": "Oxygen only if HR <100 and PPV has failed.",
       "D": "Chest compressions only if HR <60 after effective PPV."
-    }
+    },
+    "citation": "AAP/AHA Neonatal Resuscitation Program 8e — Delivery Room Management",
+    "explanation": "Initial steps per NRP: warm, dry, position airway, clear secretions, stimulate."
   },
   {
     "id": "N6-3",
     "question": "Normal ET tube size for full-term newborn (uncuffed) is:",
-    "options": ["2.5 mm", "3.0–3.5 mm", "4.0 mm", "4.5 mm"],
+    "options": [
+      "2.5 mm",
+      "3.0–3.5 mm",
+      "4.0 mm",
+      "4.5 mm"
+    ],
     "correct": 1,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -57,12 +76,19 @@
       "B": "Term newborn needs ET tube 3.0–3.5 mm uncuffed.",
       "C": "Used for older infant (6–12 months).",
       "D": "Used for children >1 year."
-    }
+    },
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "Term newborn needs ET tube 3.0–3.5 mm uncuffed."
   },
   {
     "id": "N6-4",
     "question": "MgSO4 therapeutic serum level in eclampsia is:",
-    "options": ["1–2 mEq/L", "4–7 mEq/L", "8–10 mEq/L", ">10 mEq/L"],
+    "options": [
+      "1–2 mEq/L",
+      "4–7 mEq/L",
+      "8–10 mEq/L",
+      ">10 mEq/L"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -77,12 +103,19 @@
       "B": "Therapeutic serum magnesium level = 4–7 mEq/L for eclampsia prophylaxis.",
       "C": "8–10 mEq/L → loss of deep tendon reflexes (toxic).",
       "D": ">10 mEq/L → respiratory depression; stop infusion and give calcium gluconate."
-    }
+    },
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Therapeutic serum magnesium level = 4–7 mEq/L for eclampsia prophylaxis."
   },
   {
     "id": "N6-5",
     "question": "Venturi mask color providing 24% FiO2 (low-concentration):",
-    "options": ["Blue", "White", "Yellow", "Red"],
+    "options": [
+      "Blue",
+      "White",
+      "Yellow",
+      "Red"
+    ],
     "correct": 0,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -97,12 +130,19 @@
       "B": "White = 28%.",
       "C": "Yellow = 35%.",
       "D": "Red = 40% (or green on some Venturi sets)."
-    }
+    },
+    "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders",
+    "explanation": "Blue = 24% FiO2 at 2 L/min."
   },
   {
     "id": "N6-6",
     "question": "CPR compression:ventilation ratio in adults (single rescuer):",
-    "options": ["15:2", "30:2", "5:1", "10:2"],
+    "options": [
+      "15:2",
+      "30:2",
+      "5:1",
+      "10:2"
+    ],
     "correct": 1,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -117,12 +157,19 @@
       "B": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths.",
       "C": "Outdated ratio.",
       "D": "Non-standard."
-    }
+    },
+    "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support",
+    "explanation": "Adult single or two-rescuer (before advanced airway): 30 compressions : 2 breaths."
   },
   {
     "id": "N6-7",
     "question": "Which does NOT belong to the 5 WHO moments of hand hygiene?",
-    "options": ["Before touching a patient", "Before clean/aseptic procedure", "After touching the nurses' station", "After touching patient surroundings"],
+    "options": [
+      "Before touching a patient",
+      "Before clean/aseptic procedure",
+      "After touching the nurses' station",
+      "After touching patient surroundings"
+    ],
     "correct": 2,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -137,12 +184,19 @@
       "B": "Moment 2 — before aseptic procedure.",
       "C": "Not one of the 5 WHO moments — irrelevant to clinical contact.",
       "D": "Moment 5 — after touching patient surroundings."
-    }
+    },
+    "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions",
+    "explanation": "Not one of the 5 WHO moments — irrelevant to clinical contact."
   },
   {
     "id": "N6-8",
     "question": "ICDS beneficiary age group for supplementary nutrition is:",
-    "options": ["0–3 years", "6 months–6 years + pregnant/lactating", "0–5 years", "6–12 years"],
+    "options": [
+      "0–3 years",
+      "6 months–6 years + pregnant/lactating",
+      "0–5 years",
+      "6–12 years"
+    ],
     "correct": 1,
     "section": "community-health",
     "subject": "Community Health",
@@ -157,6 +211,8 @@
       "B": "ICDS covers children 6 months–6 years, pregnant and lactating women, and adolescent girls.",
       "C": "Excludes pregnant/lactating women.",
       "D": "School-age children are not part of ICDS."
-    }
+    },
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India",
+    "explanation": "ICDS covers children 6 months–6 years, pregnant and lactating women, and adolescent girls."
   }
 ]

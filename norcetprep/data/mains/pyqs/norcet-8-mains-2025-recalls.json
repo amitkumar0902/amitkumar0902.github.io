@@ -2,7 +2,12 @@
   {
     "id": "N8-1",
     "question": "DBT stands for (in nursing / govt scheme context):",
-    "options": ["Direct Bank Transfer", "Direct Benefit Transfer", "Digital Benefit Transfer", "Direct Beneficiary Transaction"],
+    "options": [
+      "Direct Bank Transfer",
+      "Direct Benefit Transfer",
+      "Digital Benefit Transfer",
+      "Direct Beneficiary Transaction"
+    ],
     "correct": 1,
     "section": "community-health",
     "subject": "Community Health",
@@ -17,12 +22,19 @@
       "B": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts.",
       "C": "Incorrect expansion.",
       "D": "Incorrect expansion."
-    }
+    },
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e",
+    "explanation": "Direct Benefit Transfer — Government of India cash-transfer mechanism that routes scheme benefits straight to beneficiaries' bank accounts."
   },
   {
     "id": "N8-2",
     "question": "Tetralogy of Fallot — classic components do NOT include:",
-    "options": ["VSD", "Overriding aorta", "RV hypertrophy", "ASD"],
+    "options": [
+      "VSD",
+      "Overriding aorta",
+      "RV hypertrophy",
+      "ASD"
+    ],
     "correct": 3,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -37,12 +49,19 @@
       "B": "Overriding aorta is part of TOF.",
       "C": "RV hypertrophy is part of TOF.",
       "D": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
-    }
+    },
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "ASD is NOT part of TOF; TOF = VSD + overriding aorta + pulmonary stenosis + RVH."
   },
   {
     "id": "N8-3",
     "question": "Leopold's 1st maneuver detects:",
-    "options": ["Fetal lie", "Fundal content (breech/cephalic)", "Engagement", "Position"],
+    "options": [
+      "Fetal lie",
+      "Fundal content (breech/cephalic)",
+      "Engagement",
+      "Position"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -57,12 +76,19 @@
       "B": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus.",
       "C": "Engagement is assessed in the 4th (Pawlik) maneuver.",
       "D": "Position is determined in the 3rd maneuver."
-    }
+    },
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Fundal grip identifies what fetal part (head vs breech) occupies the uterine fundus."
   },
   {
     "id": "N8-4",
     "question": "Normal pH of arterial blood is:",
-    "options": ["7.25–7.35", "7.35–7.45", "7.45–7.55", "7.40–7.60"],
+    "options": [
+      "7.25–7.35",
+      "7.35–7.45",
+      "7.45–7.55",
+      "7.40–7.60"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -77,12 +103,19 @@
       "B": "Normal physiological pH is 7.35–7.45.",
       "C": "Alkalemic range.",
       "D": "Incorrect band."
-    }
+    },
+    "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders",
+    "explanation": "Normal physiological pH is 7.35–7.45."
   },
   {
     "id": "N8-5",
     "question": "Best bedside intervention to prevent Ventilator-Associated Pneumonia (VAP):",
-    "options": ["HOB flat", "HOB elevation 30–45°", "Continuous sedation", "Paralytic infusion"],
+    "options": [
+      "HOB flat",
+      "HOB elevation 30–45°",
+      "Continuous sedation",
+      "Paralytic infusion"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -97,12 +130,19 @@
       "B": "Semi-Fowler 30–45° is a core VAP-bundle element — reduces gastric reflux and aspiration.",
       "C": "Deep sedation delays extubation and increases VAP risk.",
       "D": "Paralytics have no routine VAP-prevention role."
-    }
+    },
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Semi-Fowler 30–45° is a core VAP-bundle element — reduces gastric reflux and aspiration."
   },
   {
     "id": "N8-6",
     "question": "Coombs test is used to diagnose:",
-    "options": ["Hemophilia", "Autoimmune hemolytic anemia", "G6PD deficiency", "Aplastic anemia"],
+    "options": [
+      "Hemophilia",
+      "Autoimmune hemolytic anemia",
+      "G6PD deficiency",
+      "Aplastic anemia"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -117,6 +157,8 @@
       "B": "Direct Coombs detects antibody coating RBCs — classic test for AIHA.",
       "C": "G6PD is assessed with enzyme assays, not Coombs.",
       "D": "Aplastic anemia is diagnosed by bone marrow biopsy."
-    }
+    },
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Direct Coombs detects antibody coating RBCs — classic test for AIHA."
   }
 ]

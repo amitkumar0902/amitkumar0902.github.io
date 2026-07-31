@@ -2,7 +2,12 @@
   {
     "id": "ESIC-1",
     "question": "Which of the following is the most common cause of postpartum hemorrhage?",
-    "options": ["Uterine atony", "Retained placenta", "Genital tract trauma", "Coagulation disorder"],
+    "options": [
+      "Uterine atony",
+      "Retained placenta",
+      "Genital tract trauma",
+      "Coagulation disorder"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -18,12 +23,21 @@
       "C": "Trauma to the genital tract is third 'T' — typically lacerations of cervix/vagina/perineum.",
       "D": "Thrombin (coagulopathy) is the fourth 'T' and least common cause."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Uterine atony (failure of myometrium to contract after delivery) accounts for ~70-80% of primary PPH cases. The 'Four T's' mnemonic places Tone first."
   },
   {
     "id": "ESIC-2",
     "question": "The normal range of arterial blood pH is:",
-    "options": ["7.25 – 7.35", "7.35 – 7.45", "7.45 – 7.55", "7.20 – 7.40"],
+    "options": [
+      "7.25 – 7.35",
+      "7.35 – 7.45",
+      "7.45 – 7.55",
+      "7.20 – 7.40"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -39,12 +53,21 @@
       "C": "Above normal — represents alkalemia.",
       "D": "Range is too broad and skewed acidic."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders",
+    "explanation": "Normal arterial pH is 7.35–7.45; tightly buffered by bicarbonate / respiratory compensation."
   },
   {
     "id": "ESIC-3",
     "question": "Which vaccine is given at birth in the National Immunization Schedule of India?",
-    "options": ["DPT", "BCG, OPV-0, Hepatitis B", "Measles", "MMR"],
+    "options": [
+      "DPT",
+      "BCG, OPV-0, Hepatitis B",
+      "Measles",
+      "MMR"
+    ],
     "correct": 1,
     "section": "community-health",
     "subject": "Community Health",
@@ -60,12 +83,21 @@
       "C": "Measles is given at 9 completed months (MR-1).",
       "D": "MMR is not part of UIP; given in private practice typically at 15 months."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "explanation": "Per UIP, BCG, OPV-0 (zero dose) and Hepatitis B birth dose are given within 24 hours of birth (or up to 1 year for BCG)."
   },
   {
     "id": "ESIC-4",
     "question": "Which cranial nerve is responsible for the gag reflex (afferent limb)?",
-    "options": ["Facial (VII)", "Glossopharyngeal (IX)", "Vagus (X)", "Hypoglossal (XII)"],
+    "options": [
+      "Facial (VII)",
+      "Glossopharyngeal (IX)",
+      "Vagus (X)",
+      "Hypoglossal (XII)"
+    ],
     "correct": 1,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -81,12 +113,21 @@
       "C": "Vagus is the efferent (motor) limb, not afferent.",
       "D": "Hypoglossal is purely motor to tongue muscles."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e",
+    "explanation": "CN IX (glossopharyngeal) carries the afferent (sensory) limb of the gag reflex from posterior pharynx; CN X is efferent."
   },
   {
     "id": "ESIC-5",
     "question": "The most appropriate site for intramuscular injection in an infant is:",
-    "options": ["Deltoid", "Dorsogluteal", "Vastus lateralis", "Ventrogluteal"],
+    "options": [
+      "Deltoid",
+      "Dorsogluteal",
+      "Vastus lateralis",
+      "Ventrogluteal"
+    ],
     "correct": 2,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -102,12 +143,21 @@
       "C": "Vastus lateralis (anterolateral thigh) is preferred in infants <12 months — well-developed, free of major nerves/vessels.",
       "D": "Ventrogluteal is acceptable from toddler age but vastus lateralis remains the primary infant site."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "Vastus lateralis (anterolateral thigh) is preferred in infants <12 months — well-developed, free of major nerves/vessels."
   },
   {
     "id": "ESIC-6",
     "question": "Drug of choice for status epilepticus is:",
-    "options": ["Phenytoin", "Lorazepam (IV)", "Carbamazepine", "Valproate"],
+    "options": [
+      "Phenytoin",
+      "Lorazepam (IV)",
+      "Carbamazepine",
+      "Valproate"
+    ],
     "correct": 1,
     "section": "pharmacology",
     "subject": "Pharmacology",
@@ -123,12 +173,21 @@
       "C": "Carbamazepine is for chronic partial seizures, not acute status.",
       "D": "Valproate is alternate second-line, not first-line acute."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "IV lorazepam 0.1 mg/kg is the first-line agent for status epilepticus per most guidelines (longer duration than diazepam)."
   },
   {
     "id": "ESIC-7",
     "question": "Korotkoff sounds are heard during measurement of:",
-    "options": ["Pulse rate", "Respiratory rate", "Blood pressure", "Temperature"],
+    "options": [
+      "Pulse rate",
+      "Respiratory rate",
+      "Blood pressure",
+      "Temperature"
+    ],
     "correct": 2,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -144,12 +203,21 @@
       "C": "Korotkoff sounds (5 phases) are auscultated over the brachial artery during sphygmomanometric BP measurement; phase I = systolic, phase V = diastolic.",
       "D": "Temperature is measured by thermometer."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e",
+    "explanation": "Korotkoff sounds (5 phases) are auscultated over the brachial artery during sphygmomanometric BP measurement; phase I = systolic, phase V = diastolic."
   },
   {
     "id": "ESIC-8",
     "question": "The normal duration of pregnancy from LMP is:",
-    "options": ["260 days", "280 days", "300 days", "240 days"],
+    "options": [
+      "260 days",
+      "280 days",
+      "300 days",
+      "240 days"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -165,12 +233,21 @@
       "C": "Too long; would represent ~43 weeks (post-term).",
       "D": "Approximately 34 weeks — preterm range."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "280 days = 40 weeks from LMP (Naegele's rule: LMP + 9 months + 7 days)."
   },
   {
     "id": "ESIC-9",
     "question": "Which of the following is a live attenuated vaccine?",
-    "options": ["Hepatitis B", "DPT", "BCG", "Tetanus toxoid"],
+    "options": [
+      "Hepatitis B",
+      "DPT",
+      "BCG",
+      "Tetanus toxoid"
+    ],
     "correct": 2,
     "section": "microbiology",
     "subject": "Microbiology",
@@ -186,12 +263,21 @@
       "C": "BCG is a live attenuated strain of Mycobacterium bovis. Other live attenuated: OPV, MMR, Varicella, Yellow fever.",
       "D": "Tetanus toxoid is an inactivated toxoid."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "explanation": "BCG is a live attenuated strain of Mycobacterium bovis. Other live attenuated: OPV, MMR, Varicella, Yellow fever."
   },
   {
     "id": "ESIC-10",
     "question": "The Apgar score is assessed at:",
-    "options": ["1 and 5 minutes after birth", "Immediately after birth only", "10 and 20 minutes after birth", "30 minutes after birth"],
+    "options": [
+      "1 and 5 minutes after birth",
+      "Immediately after birth only",
+      "10 and 20 minutes after birth",
+      "30 minutes after birth"
+    ],
     "correct": 0,
     "section": "pediatric",
     "subject": "Pediatric",
@@ -207,12 +293,21 @@
       "C": "Done only if 5-min score is low; not the routine timing.",
       "D": "Too late for primary scoring."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "AAP/AHA Neonatal Resuscitation Program 8e — Delivery Room Management",
+    "explanation": "Apgar (Appearance, Pulse, Grimace, Activity, Respiration) is scored at 1 and 5 minutes; if <7 at 5 min, repeat every 5 min up to 20."
   },
   {
     "id": "ESIC-11",
     "question": "Which electrolyte abnormality causes peaked T waves on ECG?",
-    "options": ["Hypokalemia", "Hyperkalemia", "Hypocalcemia", "Hypernatremia"],
+    "options": [
+      "Hypokalemia",
+      "Hyperkalemia",
+      "Hypocalcemia",
+      "Hypernatremia"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -228,12 +323,21 @@
       "C": "Hypocalcemia prolongs QT interval.",
       "D": "Hypernatremia has no specific characteristic ECG finding."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Hyperkalemia (K+ >5.5) classically produces tall, peaked, narrow-based T waves; later widened QRS and sine wave."
   },
   {
     "id": "ESIC-12",
     "question": "The recommended chest compression to ventilation ratio in adult CPR (single rescuer) is:",
-    "options": ["15:2", "30:2", "5:1", "3:1"],
+    "options": [
+      "15:2",
+      "30:2",
+      "5:1",
+      "3:1"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -249,12 +353,21 @@
       "C": "Old guideline (pre-2005), no longer used.",
       "D": "3:1 is used in neonatal resuscitation."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support",
+    "explanation": "Adult CPR (any rescuer count) uses 30:2 compressions to breaths until advanced airway is placed (then continuous compressions)."
   },
   {
     "id": "ESIC-13",
     "question": "Iron is best absorbed in the:",
-    "options": ["Stomach", "Duodenum and upper jejunum", "Ileum", "Colon"],
+    "options": [
+      "Stomach",
+      "Duodenum and upper jejunum",
+      "Ileum",
+      "Colon"
+    ],
     "correct": 1,
     "section": "nutrition",
     "subject": "Nutrition",
@@ -270,12 +383,21 @@
       "C": "Ileum absorbs vitamin B12 and bile salts, not iron.",
       "D": "Colon absorbs water/electrolytes, not iron."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e",
+    "explanation": "Iron is preferentially absorbed in the duodenum and proximal jejunum via DMT-1 transporter."
   },
   {
     "id": "ESIC-14",
     "question": "Insulin is secreted by which cells of the pancreas?",
-    "options": ["Alpha cells", "Beta cells", "Delta cells", "F cells"],
+    "options": [
+      "Alpha cells",
+      "Beta cells",
+      "Delta cells",
+      "F cells"
+    ],
     "correct": 1,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -291,12 +413,21 @@
       "C": "Delta cells secrete somatostatin.",
       "D": "F (PP) cells secrete pancreatic polypeptide."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "Beta cells of the islets of Langerhans secrete insulin (~70% of islet cells)."
   },
   {
     "id": "ESIC-15",
     "question": "Universal precautions were introduced primarily to prevent transmission of:",
-    "options": ["Tuberculosis", "Bloodborne pathogens (HIV/HBV)", "Influenza", "Measles"],
+    "options": [
+      "Tuberculosis",
+      "Bloodborne pathogens (HIV/HBV)",
+      "Influenza",
+      "Measles"
+    ],
     "correct": 1,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -312,12 +443,21 @@
       "C": "Influenza requires droplet precautions.",
       "D": "Measles requires airborne precautions."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions",
+    "explanation": "CDC introduced Universal Precautions (1987) to prevent occupational exposure to HIV, HBV, HCV and other bloodborne pathogens — treat all blood/body fluids as potentially infectious."
   },
   {
     "id": "ESIC-16",
     "question": "The first stage of labour ends with:",
-    "options": ["Rupture of membranes", "Full dilatation of cervix", "Delivery of baby", "Delivery of placenta"],
+    "options": [
+      "Rupture of membranes",
+      "Full dilatation of cervix",
+      "Delivery of baby",
+      "Delivery of placenta"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -333,12 +473,21 @@
       "C": "Delivery of baby ends the second stage.",
       "D": "Delivery of placenta ends the third stage."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "First stage of labour begins with onset of regular painful contractions and ends with full (10 cm) cervical dilatation."
   },
   {
     "id": "ESIC-17",
     "question": "The normal CSF pressure in adults (lateral recumbent) is:",
-    "options": ["50–100 mm H2O", "70–180 mm H2O", "200–300 mm H2O", "300–400 mm H2O"],
+    "options": [
+      "50–100 mm H2O",
+      "70–180 mm H2O",
+      "200–300 mm H2O",
+      "300–400 mm H2O"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -354,12 +503,21 @@
       "C": "Suggests intracranial hypertension.",
       "D": "Markedly elevated — pathological."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Normal adult CSF opening pressure (lateral decubitus) is 70–180 mm H2O (~5–15 mmHg)."
   },
   {
     "id": "ESIC-18",
     "question": "Which of the following is the most common psychiatric disorder in the elderly?",
-    "options": ["Schizophrenia", "Depression", "Bipolar disorder", "OCD"],
+    "options": [
+      "Schizophrenia",
+      "Depression",
+      "Bipolar disorder",
+      "OCD"
+    ],
     "correct": 1,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -375,12 +533,21 @@
       "C": "Bipolar disorder peaks earlier in life.",
       "D": "OCD prevalence is low and onset is usually in young adulthood."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e",
+    "explanation": "Depression is the most common psychiatric disorder in geriatric population, often under-diagnosed and linked to chronic illness/loss."
   },
   {
     "id": "ESIC-19",
     "question": "Anti-D immunoglobulin should be given to an Rh-negative mother within:",
-    "options": ["24 hours", "48 hours", "72 hours", "7 days"],
+    "options": [
+      "24 hours",
+      "48 hours",
+      "72 hours",
+      "7 days"
+    ],
     "correct": 2,
     "section": "midwifery",
     "subject": "OBG",
@@ -396,12 +563,21 @@
       "C": "Anti-D Ig (300 mcg) should be administered within 72 hours of delivery of an Rh-positive baby (or sensitizing event) to an Rh-negative mother to prevent isoimmunization.",
       "D": "Too late; effectiveness drops sharply after 72 h."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Anti-D Ig (300 mcg) should be administered within 72 hours of delivery of an Rh-positive baby (or sensitizing event) to an Rh-negative mother to prevent isoimmunization."
   },
   {
     "id": "ESIC-20",
     "question": "Which of the following is the most reliable sign of pregnancy?",
-    "options": ["Amenorrhea", "Nausea/vomiting", "Fetal heart sounds", "Quickening"],
+    "options": [
+      "Amenorrhea",
+      "Nausea/vomiting",
+      "Fetal heart sounds",
+      "Quickening"
+    ],
     "correct": 2,
     "section": "midwifery",
     "subject": "OBG",
@@ -417,6 +593,10 @@
       "C": "Fetal heart sounds (auscultated by Doppler ~10–12 wks, fetoscope ~20 wks) are a positive (definitive) sign of pregnancy, along with fetal movements felt by examiner and ultrasound visualization.",
       "D": "Quickening (mother's perception of movement) is presumptive."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "Fetal heart sounds (auscultated by Doppler ~10–12 wks, fetoscope ~20 wks) are a positive (definitive) sign of pregnancy, along with fetal movements felt by examiner and ultrasound visualization."
   }
 ]

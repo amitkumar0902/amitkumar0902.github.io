@@ -32,7 +32,8 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-7-mains-2024-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 74,
@@ -64,7 +65,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 185,
@@ -96,7 +98,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 67,
@@ -128,12 +131,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 263,
       "_origId": "N9-48",
-      "question": "A patient develops postpartum hemorrhage at a Primary Health Centre. What is the first-line management?",
+      "question": "Shortly after delivery at a Primary Health Centre a woman begins to bleed heavily. Alongside calling for help, which measure should be taken first?",
       "options": [
         "Start IV tranexamic acid immediately",
         "Perform immediate hysterectomy",
@@ -141,24 +145,30 @@
         "Begin blood transfusion"
       ],
       "correct": 2,
-      "explanation": "Oxytocin IV/IM is first-line uterotonic; initiate massage + bimanual compression alongside.",
+      "explanation": "Oxytocin by the intravenous or intramuscular route is the first-line uterotonic, given together with uterine massage and bimanual compression while the cause of bleeding is identified.",
       "explanations": {
-        "A": "TXA is adjunctive (within 3 h of PPH), given after uterotonics per WHO.",
-        "B": "Hysterectomy is the last resort, not first line.",
-        "C": "Oxytocin IV/IM is first-line uterotonic; initiate massage + bimanual compression alongside.",
-        "D": "Transfusion comes after initial resuscitation and uterotonics; often requires referral from PHC."
+        "A": "Tranexamic acid is an adjunct to be given within 3 hours of onset; it supplements uterotonic therapy rather than replacing it.",
+        "B": "Hysterectomy is the last surgical resort once medical and conservative measures have failed, and is not a PHC-level first step.",
+        "C": "Oxytocin by the intravenous or intramuscular route is the first-line uterotonic, given together with uterine massage and bimanual compression while the cause of bleeding is identified.",
+        "D": "Transfusion follows initial resuscitation and uterotonic therapy, and at a PHC it usually means arranging urgent referral."
       },
       "subject": "OBG",
       "topic": "PPH / AMTSL",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "WHO recommendations for the prevention and treatment of postpartum haemorrhage; MoHFW guidelines on active management of the third stage of labour",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 40,
@@ -190,12 +200,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 240,
       "_origId": "N9-25",
-      "question": "A patient with a history of peptic ulcer requires pain management. Which analgesic approach is safest?",
+      "question": "Analgesia has to be planned for a patient who has a documented history of peptic ulcer disease. Which approach to pain relief carries the least risk for this patient?",
       "options": [
         "NSAIDs",
         "Avoid NSAIDs",
@@ -203,24 +214,30 @@
         "NSAIDs with PPI"
       ],
       "correct": 1,
-      "explanation": "Safest approach is to avoid NSAIDs and use acetaminophen or a COX-2 selective with PPI if absolutely required.",
+      "explanation": "Withholding NSAIDs altogether is the safest plan. Paracetamol is the preferred first-line agent, with an opioid added for severe pain; if an anti-inflammatory is truly unavoidable, a COX-2 selective agent under proton pump inhibitor cover is used with informed caution.",
       "explanations": {
-        "A": "NSAIDs directly impair mucosal protection and worsen ulcer.",
-        "B": "Safest approach is to avoid NSAIDs and use acetaminophen or a COX-2 selective with PPI if absolutely required.",
-        "C": "Aspirin is a potent ulcerogenic agent — contraindicated.",
-        "D": "PPI reduces but doesn't eliminate NSAID-induced ulcer risk; outright avoidance is still safest."
+        "A": "Non-selective NSAIDs inhibit COX-1, stripping the mucosa of the prostaglandins that maintain bicarbonate secretion, mucus and mucosal blood flow. In a patient who has already ulcerated, this invites recurrence, bleeding and perforation.",
+        "B": "Withholding NSAIDs altogether is the safest plan. Paracetamol is the preferred first-line agent, with an opioid added for severe pain; if an anti-inflammatory is truly unavoidable, a COX-2 selective agent under proton pump inhibitor cover is used with informed caution.",
+        "C": "Aspirin irreversibly acetylates COX-1 for the life of the platelet, so it damages the mucosa and impairs haemostasis at the same time. It is the most ulcerogenic option listed.",
+        "D": "A proton pump inhibitor substantially reduces, but does not abolish, NSAID-related mucosal injury, and it gives less protection in the distal small bowel and colon. Since the question asks for the safest option, avoidance still outranks NSAID plus PPI."
       },
       "subject": "Medical-Surgical",
       "topic": "Analgesia / GI risk",
       "day": 13,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "KDT Essentials of Medical Pharmacology, 8e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 367,
@@ -252,7 +269,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "AAP/AHA Neonatal Resuscitation Program 8e — Delivery Room Management"
     },
     {
       "id": 95,
@@ -284,7 +302,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 9
+      "mockSeq": 9,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 152,
@@ -316,7 +335,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 10
+      "mockSeq": 10,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 121,
@@ -348,7 +368,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 11
+      "mockSeq": 11,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 344,
@@ -380,7 +401,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 12
+      "mockSeq": 12,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 75,
@@ -412,7 +434,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 13
+      "mockSeq": 13,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 166,
@@ -444,7 +467,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 14
+      "mockSeq": 14,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 361,
@@ -476,7 +500,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 15
+      "mockSeq": 15,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 89,
@@ -508,7 +533,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 16
+      "mockSeq": 16,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 25,
@@ -540,12 +566,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 17
+      "mockSeq": 17,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 226,
       "_origId": "N9-11",
-      "question": "Calcium gluconate is NOT given by which method?",
+      "question": "A nurse is reviewing the safe ways of giving calcium gluconate. Which one of the following methods of administration must be avoided for this drug?",
       "options": [
         "Fast IV",
         "Slow IV",
@@ -553,24 +580,30 @@
         "Oral route"
       ],
       "correct": 0,
-      "explanation": "Rapid IV push of calcium causes bradycardia, hypotension, cardiac arrest; never given fast IV.",
+      "explanation": "A rapid bolus floods the myocardium with calcium and provokes bradycardia, flushing, hypotension and, at worst, arrest in systole. The risk is greatest in a digitalised patient, so calcium is never pushed fast, and the ECG is watched while it runs.",
       "explanations": {
-        "A": "Rapid IV push of calcium causes bradycardia, hypotension, cardiac arrest; never given fast IV.",
-        "B": "Slow IV push over 5–10 minutes (diluted) is the standard for acute hyperkalemia/tetany.",
-        "C": "IV infusion (diluted in dextrose/saline) over 30–60 minutes is accepted for symptomatic hypocalcemia.",
-        "D": "Oral calcium gluconate is available for maintenance therapy."
+        "A": "A rapid bolus floods the myocardium with calcium and provokes bradycardia, flushing, hypotension and, at worst, arrest in systole. The risk is greatest in a digitalised patient, so calcium is never pushed fast, and the ECG is watched while it runs.",
+        "B": "A slow, diluted intravenous push spread over roughly 5 to 10 minutes is the accepted way to stabilise the myocardium in hyperkalaemia or to abort tetany.",
+        "C": "For symptomatic hypocalcaemia the drug is diluted in dextrose or saline and infused over 30 to 60 minutes, which keeps the plasma level rising gently.",
+        "D": "Oral calcium salts are entirely appropriate for maintenance and for chronic hypocalcaemia once the emergency has passed."
       },
       "subject": "Medical-Surgical",
       "topic": "Electrolytes / Medication safety",
       "day": 13,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 18
+      "mockSeq": 18,
+      "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — Fluid and electrolyte imbalances: management of hypocalcaemia",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 57,
@@ -602,7 +635,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 19
+      "mockSeq": 19,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 114,
@@ -634,7 +668,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 20
+      "mockSeq": 20,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 382,
@@ -666,7 +701,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 21
+      "mockSeq": 21,
+      "citation": "AAP/AHA Neonatal Resuscitation Program 8e — Delivery Room Management"
     },
     {
       "id": 349,
@@ -698,7 +734,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 22
+      "mockSeq": 22,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 202,
@@ -728,7 +765,8 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 23
+      "mockSeq": 23,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 179,
@@ -760,7 +798,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 24
+      "mockSeq": 24,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 107,
@@ -792,7 +831,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 25
+      "mockSeq": 25,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 18,
@@ -824,7 +864,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 26
+      "mockSeq": 26,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 178,
@@ -856,7 +897,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 27
+      "mockSeq": 27,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 7,
@@ -888,7 +930,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 28
+      "mockSeq": 28,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 103,
@@ -920,12 +963,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 29
+      "mockSeq": 29,
+      "citation": "DC Dutta's Textbook of Gynecology 8e"
     },
     {
       "id": 290,
       "_origId": "N9-75",
-      "question": "Which statement is true about adjuvants in vaccines?",
+      "question": "While teaching about what goes into a vaccine vial, a nurse is asked why an adjuvant is added. Which statement correctly describes the role of an adjuvant?",
       "options": [
         "Weaken the immune response",
         "Enhance the immune response to vaccines",
@@ -933,29 +977,35 @@
         "Prevent the vaccine from being effective"
       ],
       "correct": 1,
-      "explanation": "Adjuvants (e.g., aluminium salts, AS04) boost antigen presentation → stronger/longer immune response.",
+      "explanation": "Substances such as aluminium hydroxide, aluminium phosphate and AS04 hold antigen at the injection site and stimulate antigen-presenting cells, giving a higher and longer-lasting antibody titre from a smaller quantity of antigen.",
       "explanations": {
-        "A": "Opposite of function.",
-        "B": "Adjuvants (e.g., aluminium salts, AS04) boost antigen presentation → stronger/longer immune response.",
-        "C": "Adjuvants are not pathogens; they're immune stimulants.",
-        "D": "Adjuvants improve efficacy."
+        "A": "This is the reverse of what happens; a vaccine would be weaker without its adjuvant.",
+        "B": "Substances such as aluminium hydroxide, aluminium phosphate and AS04 hold antigen at the injection site and stimulate antigen-presenting cells, giving a higher and longer-lasting antibody titre from a smaller quantity of antigen.",
+        "C": "An adjuvant contains no living organism; the pathogen-derived component is the antigen, which is a separate ingredient.",
+        "D": "Adjuvants are included precisely because they raise efficacy, not reduce it."
       },
       "subject": "Community Health",
       "topic": "Vaccines / Adjuvants",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 30
+      "mockSeq": 30,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e - principles of immunization",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 319,
       "_origId": "N9-104",
-      "question": "A 2-month-old has increasing head circumference, vomiting, downward deviation of eyes, tense anterior fontanelle and sunset sign. MRI: cystic dilatation of 4th ventricle with cerebellar vermis hypoplasia. Dandy-Walker syndrome suspected. Underlying mechanism?",
+      "question": "A 2-month-old is brought with repeated vomiting and a rapidly enlarging head. The anterior fontanelle is tense and full and both eyes are deviated downwards with sclera visible above the iris (setting-sun sign). MRI shows a cystically dilated fourth ventricle with hypoplasia of the cerebellar vermis, and Dandy-Walker malformation is diagnosed. Which mechanism underlies the hydrocephalus?",
       "options": [
         "Aqueductal stenosis → supratentorial hydrocephalus",
         "Atresia of Luschka and Magendie → non-communicating hydrocephalus",
@@ -963,24 +1013,30 @@
         "CSF malabsorption by defective arachnoid granulations"
       ],
       "correct": 1,
-      "explanation": "Dandy-Walker = atresia of foramina Luschka/Magendie → cystic 4th ventricle, vermis hypoplasia, non-communicating hydrocephalus.",
+      "explanation": "Dandy-Walker malformation results from failure of development of the outlet foramina of Luschka and Magendie, so cerebrospinal fluid cannot escape from the fourth ventricle. The trapped fluid balloons the fourth ventricle into a posterior fossa cyst, the vermis fails to form fully, and a non-communicating (obstructive) hydrocephalus develops with an enlarging head, tense fontanelle and setting-sun eyes.",
       "explanations": {
-        "A": "Aqueductal stenosis causes a different form of non-communicating hydrocephalus.",
-        "B": "Dandy-Walker = atresia of foramina Luschka/Magendie → cystic 4th ventricle, vermis hypoplasia, non-communicating hydrocephalus.",
-        "C": "Choroid plexus papilloma, not Dandy-Walker.",
-        "D": "Communicating hydrocephalus / post-meningitic, not Dandy-Walker."
+        "A": "Stenosis of the cerebral aqueduct is the commonest cause of congenital obstructive hydrocephalus, but it dilates the lateral and third ventricles while leaving the fourth ventricle small - the opposite of the MRI finding here.",
+        "B": "Dandy-Walker malformation results from failure of development of the outlet foramina of Luschka and Magendie, so cerebrospinal fluid cannot escape from the fourth ventricle. The trapped fluid balloons the fourth ventricle into a posterior fossa cyst, the vermis fails to form fully, and a non-communicating (obstructive) hydrocephalus develops with an enlarging head, tense fontanelle and setting-sun eyes.",
+        "C": "Excess cerebrospinal fluid production is characteristic of a choroid plexus papilloma, which shows an intraventricular mass, not a cystic posterior fossa with an absent vermis.",
+        "D": "Impaired absorption at the arachnoid granulations produces a communicating hydrocephalus, typically after meningitis or subarachnoid haemorrhage, and would not distort the vermis or the fourth ventricle in this way."
       },
       "subject": "Pediatric",
       "topic": "Dandy-Walker",
       "day": 5,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 31
+      "mockSeq": 31,
+      "citation": "Ghai Essential Pediatrics 9e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 396,
@@ -1012,7 +1068,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 32
+      "mockSeq": 32,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 174,
@@ -1044,7 +1101,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 33
+      "mockSeq": 33,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 392,
@@ -1076,12 +1134,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 34
+      "mockSeq": 34,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 249,
       "_origId": "N9-34",
-      "question": "A patient presents with dilated pupils, elevated blood pressure, and tachycardia. What type of pain is this?",
+      "question": "On assessment a patient is noted to have dilated pupils, a raised blood pressure and a rapid pulse. These findings are typical of which category of pain?",
       "options": [
         "Acute pain",
         "Chronic pain",
@@ -1089,24 +1148,30 @@
         "Visceral pain"
       ],
       "correct": 0,
-      "explanation": "Sympathetic activation (mydriasis, ↑BP, tachycardia, diaphoresis) characterises acute pain.",
+      "explanation": "Acute pain triggers the sympathetic stress response. Mydriasis, tachycardia, hypertension, tachypnoea, pallor and diaphoresis are the objective signs that support the patient's report, and they resolve as the pain is relieved and the injury heals.",
       "explanations": {
-        "A": "Sympathetic activation (mydriasis, ↑BP, tachycardia, diaphoresis) characterises acute pain.",
-        "B": "Chronic pain usually has parasympathetic dominance with normal vitals and depression/fatigue.",
-        "C": "Neuropathic pain presents with burning/shooting sensations, less autonomic change.",
-        "D": "Visceral pain has diffuse poorly localised features — autonomic signs may overlap but acute pain is the textbook answer."
+        "A": "Acute pain triggers the sympathetic stress response. Mydriasis, tachycardia, hypertension, tachypnoea, pallor and diaphoresis are the objective signs that support the patient's report, and they resolve as the pain is relieved and the injury heals.",
+        "B": "In pain lasting beyond three to six months the autonomic response adapts and the vital signs return to normal. The nurse instead looks for fatigue, disturbed sleep, low mood, irritability and withdrawal from activity, and must not treat normal vitals as evidence that the pain is not real.",
+        "C": "Neuropathic pain from nerve damage is described as burning, shooting or electric, often with allodynia and numbness in a nerve distribution. Its hallmark is the quality of the sensation rather than an autonomic surge.",
+        "D": "Visceral pain from internal organs is dull, deep, poorly localised and often referred, and it can be accompanied by nausea and sweating. Classification by autonomic signs alone still identifies this presentation as acute pain."
       },
       "subject": "Fundamentals",
       "topic": "Pain assessment",
       "day": 7,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 35
+      "mockSeq": 35,
+      "citation": "Potter & Perry's Fundamentals of Nursing, 9e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 151,
@@ -1138,7 +1203,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 36
+      "mockSeq": 36,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 140,
@@ -1170,12 +1236,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 37
+      "mockSeq": 37,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 255,
       "_origId": "N9-40",
-      "question": "A woman undergoing evaluation for infertility is advised a hysterosalpingogram. On which day of the menstrual cycle should the nurse schedule this procedure?",
+      "question": "A couple is being investigated for infertility and the woman is booked for a hysterosalpingogram. Counting from the first day of bleeding, on which cycle day should the nurse arrange the study?",
       "options": [
         "Day 21",
         "Day 14",
@@ -1183,24 +1250,30 @@
         "Day 8"
       ],
       "correct": 3,
-      "explanation": "HSG is ideally done in the proliferative phase, days 7–10 post-menses, before ovulation. Day 8 fits.",
+      "explanation": "The correct window is the proliferative phase, roughly days 7 to 10 once bleeding has stopped and before ovulation occurs; day 8 sits squarely inside it.",
       "explanations": {
-        "A": "Day 21 is the luteal phase — risk of early pregnancy disruption.",
-        "B": "Day 14 is ovulation; radiation risk if conception has occurred.",
-        "C": "Day 3 is too early; menstruation may still be occurring.",
-        "D": "HSG is ideally done in the proliferative phase, days 7–10 post-menses, before ovulation. Day 8 fits."
+        "A": "Day 21 falls in the luteal phase, when an early conception could already be implanting and would be exposed to contrast and radiation.",
+        "B": "Day 14 is around the time of ovulation, so a newly fertilised ovum could be present.",
+        "C": "Day 3 usually still lies within the menstrual flow, raising concerns about retrograde spill of blood and endometrial debris.",
+        "D": "The correct window is the proliferative phase, roughly days 7 to 10 once bleeding has stopped and before ovulation occurs; day 8 sits squarely inside it."
       },
       "subject": "OBG",
       "topic": "HSG / Infertility",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 38
+      "mockSeq": 38,
+      "citation": "Dutta's Textbook of Gynaecology 8e — investigation of the infertile couple",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 62,
@@ -1232,7 +1305,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 39
+      "mockSeq": 39,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 80,
@@ -1264,7 +1338,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 40
+      "mockSeq": 40,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 182,
@@ -1296,7 +1371,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 41
+      "mockSeq": 41,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 1013,
@@ -1329,7 +1405,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 42
+      "mockSeq": 42,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 732,
@@ -1362,7 +1439,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 43
+      "mockSeq": 43,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 963,
@@ -1395,7 +1473,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 44
+      "mockSeq": 44,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 466,
@@ -1428,7 +1507,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 45
+      "mockSeq": 45,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 798,
@@ -1461,7 +1541,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 46
+      "mockSeq": 46,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 982,
@@ -1494,7 +1575,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 47
+      "mockSeq": 47,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 721,
@@ -1527,7 +1609,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 48
+      "mockSeq": 48,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 873,
@@ -1560,7 +1643,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 49
+      "mockSeq": 49,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 658,
@@ -1593,7 +1677,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 50
+      "mockSeq": 50,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 907,
@@ -1626,7 +1711,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 51
+      "mockSeq": 51,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 667,
@@ -1659,7 +1745,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 52
+      "mockSeq": 52,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 585,
@@ -1692,7 +1779,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 53
+      "mockSeq": 53,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 780,
@@ -1725,7 +1813,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 54
+      "mockSeq": 54,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 625,
@@ -1758,7 +1847,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 55
+      "mockSeq": 55,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 755,
@@ -1791,7 +1881,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 56
+      "mockSeq": 56,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1229,
@@ -1817,7 +1908,8 @@
       "source": "Practice",
       "year": "2022",
       "qtype": "scenario",
-      "mockSeq": 57
+      "mockSeq": 57,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 108,
@@ -1849,7 +1941,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 58
+      "mockSeq": 58,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 92,
@@ -1881,7 +1974,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 59
+      "mockSeq": 59,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 1005,
@@ -1914,7 +2008,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 60
+      "mockSeq": 60,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 777,
@@ -1947,7 +2042,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 61
+      "mockSeq": 61,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 391,
@@ -1979,7 +2075,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 62
+      "mockSeq": 62,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 126,
@@ -2011,7 +2108,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 63
+      "mockSeq": 63,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1002,
@@ -2044,7 +2142,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 64
+      "mockSeq": 64,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 772,
@@ -2077,7 +2176,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 65
+      "mockSeq": 65,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1000,
@@ -2110,7 +2210,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 66
+      "mockSeq": 66,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 986,
@@ -2143,7 +2244,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 67
+      "mockSeq": 67,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 61,
@@ -2175,7 +2277,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 68
+      "mockSeq": 68,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 771,
@@ -2208,7 +2311,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 69
+      "mockSeq": 69,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1,
@@ -2240,7 +2344,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 70
+      "mockSeq": 70,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 1215,
@@ -2266,7 +2371,8 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 71
+      "mockSeq": 71,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 341,
@@ -2298,7 +2404,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 72
+      "mockSeq": 72,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 704,
@@ -2331,7 +2438,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 73
+      "mockSeq": 73,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 973,
@@ -2364,7 +2472,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 74
+      "mockSeq": 74,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 731,
@@ -2397,7 +2506,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 75
+      "mockSeq": 75,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 759,
@@ -2430,7 +2540,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 76
+      "mockSeq": 76,
+      "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines"
     },
     {
       "id": 2,
@@ -2462,7 +2573,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 77
+      "mockSeq": 77,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 793,
@@ -2495,7 +2607,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 78
+      "mockSeq": 78,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 996,
@@ -2528,12 +2641,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 79
+      "mockSeq": 79,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 225,
       "_origId": "N9-10",
-      "question": "A patient is prescribed an inhaler with 200 puffs; the order is 2 puffs every 6 hours. For how many days will one inhaler last?",
+      "question": "A metered dose inhaler is dispensed with 200 doses in the canister. The prescription reads two puffs every six hours. Roughly how many days will a single inhaler last?",
       "options": [
         "20 days",
         "25 days",
@@ -2541,24 +2655,30 @@
         "30 days"
       ],
       "correct": 1,
-      "explanation": "2 puffs × 4 doses/day = 8 puffs/day → 200 ÷ 8 = 25 days.",
+      "explanation": "A six-hourly order means four doses in 24 hours. Four doses of two puffs comes to 8 puffs each day, and 200 divided by 8 gives exactly 25 days.",
       "explanations": {
-        "A": "20 × 8 = 160 puffs — only consumed 160, not 200.",
-        "B": "2 puffs × 4 doses/day = 8 puffs/day → 200 ÷ 8 = 25 days.",
-        "C": "28 × 8 = 224 puffs — exceeds 200.",
-        "D": "30 × 8 = 240 puffs — exceeds 200."
+        "A": "Twenty days at 8 puffs a day accounts for only 160 actuations, leaving 40 unused in the canister, so the inhaler has not yet run out.",
+        "B": "A six-hourly order means four doses in 24 hours. Four doses of two puffs comes to 8 puffs each day, and 200 divided by 8 gives exactly 25 days.",
+        "C": "Twenty-eight days would demand 224 puffs, which is 24 more than the canister holds.",
+        "D": "Thirty days would need 240 puffs, well beyond the 200 supplied, so the patient would be inhaling propellant only."
       },
       "subject": "Medical-Surgical",
       "topic": "Drug calculation",
       "day": 2,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "calc",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 80
+      "mockSeq": 80,
+      "citation": "Potter & Perry Fundamentals of Nursing 9e — Medication administration: dosage calculation",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 635,
@@ -2591,7 +2711,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 81
+      "mockSeq": 81,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 979,
@@ -2624,7 +2745,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 82
+      "mockSeq": 82,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1254,
@@ -2650,7 +2772,8 @@
       "source": "Practice",
       "year": "2015",
       "qtype": "scenario",
-      "mockSeq": 83
+      "mockSeq": 83,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 125,
@@ -2682,7 +2805,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 84
+      "mockSeq": 84,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 340,
@@ -2714,7 +2838,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 85
+      "mockSeq": 85,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 630,
@@ -2747,12 +2872,13 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 86
+      "mockSeq": 86,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 218,
       "_origId": "N9-3",
-      "question": "A case of road traffic accident (RTA) develops neuropathic pain. Which drug is most appropriate for the management of neuropathic pain?",
+      "question": "Some weeks after being injured in a road traffic accident, a patient complains of constant burning and shooting, electric shock-like pain in the affected limb, with the skin unusually sensitive to light touch. Which drug is the most appropriate choice for this kind of pain?",
       "options": [
         "Acetaminophen",
         "Ibuprofen",
@@ -2760,24 +2886,30 @@
         "Gabapentin"
       ],
       "correct": 3,
-      "explanation": "Gabapentin (a gabapentinoid) is first-line for neuropathic pain along with pregabalin, TCAs and SNRIs.",
+      "explanation": "Gabapentin binds the alpha-2-delta subunit of neuronal calcium channels and damps down the abnormal discharge from injured nerves. Together with pregabalin, tricyclic antidepressants and SNRIs such as duloxetine, it is standard first-line therapy for neuropathic pain.",
       "explanations": {
-        "A": "Acetaminophen treats mild nociceptive pain, not neuropathic pain (no central anticonvulsant action).",
-        "B": "NSAIDs act on inflammatory nociceptive pain; they are ineffective for neuropathic pain.",
-        "C": "Tramadol is a weak opioid with modest SNRI activity — used as adjunct, not first-line.",
-        "D": "Gabapentin (a gabapentinoid) is first-line for neuropathic pain along with pregabalin, TCAs and SNRIs."
+        "A": "Paracetamol works centrally on ordinary nociceptive pain of mild degree. It has no effect on the ectopic firing of damaged nerves and gives little relief in neuropathic states.",
+        "B": "Ibuprofen and other NSAIDs suppress prostaglandin-driven inflammatory pain. Where the lesion lies in the nerve itself, this mechanism is largely irrelevant.",
+        "C": "Tramadol combines weak mu-agonism with reuptake inhibition of noradrenaline and serotonin, so it does help somewhat, but guidelines place it as a second-line or add-on agent rather than the drug of choice.",
+        "D": "Gabapentin binds the alpha-2-delta subunit of neuronal calcium channels and damps down the abnormal discharge from injured nerves. Together with pregabalin, tricyclic antidepressants and SNRIs such as duloxetine, it is standard first-line therapy for neuropathic pain."
       },
       "subject": "Medical-Surgical",
       "topic": "Neuropathic pain",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 87
+      "mockSeq": 87,
+      "citation": "KDT Essentials of Medical Pharmacology 8e — Antiepileptics/adjuvant analgesics: drugs for neuropathic pain",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 700,
@@ -2810,7 +2942,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 88
+      "mockSeq": 88,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 787,
@@ -2843,7 +2976,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 89
+      "mockSeq": 89,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 765,
@@ -2876,7 +3010,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 90
+      "mockSeq": 90,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 742,
@@ -2909,7 +3044,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 91
+      "mockSeq": 91,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 725,
@@ -2942,7 +3078,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 92
+      "mockSeq": 92,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 719,
@@ -2975,7 +3112,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 93
+      "mockSeq": 93,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 785,
@@ -3008,7 +3146,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 94
+      "mockSeq": 94,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 717,
@@ -3041,7 +3180,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 95
+      "mockSeq": 95,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 689,
@@ -3074,7 +3214,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 96
+      "mockSeq": 96,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 342,
@@ -3106,37 +3247,44 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 97
+      "mockSeq": 97,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 284,
       "_origId": "N9-69",
-      "question": "Which statement is true regarding killed vaccines?",
+      "question": "Which of the following statements holds true for inactivated (killed) vaccines?",
       "options": [
-        "Never require booster doses",
-        "Typically require booster doses to maintain immunity",
-        "Provide lifelong immunity without boosters",
-        "Only effective with a single dose"
+        "They never need a booster dose",
+        "They usually need booster doses to sustain immunity",
+        "They confer lifelong immunity with no boosters",
+        "They work only when given as a single dose"
       ],
       "correct": 1,
-      "explanation": "Inactivated/killed antigens produce weaker immunity than live; need multiple doses and boosters (e.g., DPT, IPV, rabies).",
+      "explanation": "Correct. Killed organisms cannot replicate in the host, so the antigenic stimulus is limited to what is injected and the resulting antibody response is weaker and shorter-lived than that from a live vaccine. A primary series of several doses is therefore needed to establish protection, followed by boosters to maintain titres. Adjuvants are often added for the same reason.",
       "explanations": {
-        "A": "Killed vaccines routinely need boosters.",
-        "B": "Inactivated/killed antigens produce weaker immunity than live; need multiple doses and boosters (e.g., DPT, IPV, rabies).",
-        "C": "Live attenuated can provide longer immunity; killed usually not.",
-        "D": "Single dose rarely achieves protective immunity with killed vaccines."
+        "A": "Boosters are in fact routine for this class. The immunising schedules for DPT, IPV, hepatitis B and rabies all build in repeat doses.",
+        "B": "Correct. Killed organisms cannot replicate in the host, so the antigenic stimulus is limited to what is injected and the resulting antibody response is weaker and shorter-lived than that from a live vaccine. A primary series of several doses is therefore needed to establish protection, followed by boosters to maintain titres. Adjuvants are often added for the same reason.",
+        "C": "Durable, sometimes lifelong immunity after one or two doses is characteristic of live attenuated vaccines such as measles or BCG, in which the organism multiplies and mimics natural infection. Killed vaccines behave differently.",
+        "D": "A single dose of a killed vaccine seldom produces protective immunity; it primes the immune system, and subsequent doses generate the protective response."
       },
       "subject": "Community Health",
       "topic": "Vaccines / Immunology",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 98
+      "mockSeq": 98,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Immunizing Agents",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 588,
@@ -3169,7 +3317,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 99
+      "mockSeq": 99,
+      "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines"
     },
     {
       "id": 607,
@@ -3202,7 +3351,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 100
+      "mockSeq": 100,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 13,
@@ -3234,7 +3384,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 101
+      "mockSeq": 101,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 617,
@@ -3267,7 +3418,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 102
+      "mockSeq": 102,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 27,
@@ -3299,42 +3451,49 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 103
+      "mockSeq": 103,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 273,
       "_origId": "N9-58",
-      "question": "A 45-year-old patient on isoniazid therapy for tuberculosis presents with numbness and tingling in the extremities. Which intervention should the nurse prioritize?",
+      "question": "Some weeks into anti-tubercular treatment that includes isoniazid, a 45-year-old man reports that both his hands and feet feel numb and keep tingling. Which nursing action takes priority?",
       "options": [
-        "Administer vitamin B12 supplements",
-        "Increase the dose of isoniazid",
-        "Administer vitamin B6 (pyridoxine) supplements",
-        "Discontinue isoniazid immediately"
+        "Give vitamin B12 supplementation",
+        "Raise the isoniazid dose",
+        "Give vitamin B6 (pyridoxine) supplementation",
+        "Stop isoniazid at once"
       ],
       "correct": 2,
-      "explanation": "INH inhibits pyridoxal-5-phosphate → B6 deficiency → peripheral neuropathy. Treatment: pyridoxine 10–50 mg/day.",
+      "explanation": "This is the correct action. Isoniazid competes with pyridoxine and increases its urinary loss, depleting pyridoxal-5-phosphate and producing a symmetrical distal sensory neuropathy. Pyridoxine 10 mg daily is given prophylactically to those at risk (malnourished, diabetic, alcohol-dependent, pregnant, HIV-positive), and 50-100 mg daily once neuropathy has appeared. Treatment for tuberculosis continues alongside.",
       "explanations": {
-        "A": "B12 treats pernicious anemia-related neuropathy, not INH neuropathy.",
-        "B": "Increasing INH worsens the neuropathy.",
-        "C": "INH inhibits pyridoxal-5-phosphate → B6 deficiency → peripheral neuropathy. Treatment: pyridoxine 10–50 mg/day.",
-        "D": "INH is stopped only if severe; routine practice is to add pyridoxine to prevent/treat."
+        "A": "Cobalamin deficiency does cause a peripheral neuropathy, but the mechanism here is entirely different. Giving B12 leaves the underlying pyridoxine depletion uncorrected and the symptoms will persist.",
+        "B": "Escalating the dose is the opposite of what is required. Neuropathy from isoniazid is dose-related, so a higher dose would deepen the deficiency and worsen the sensory symptoms.",
+        "C": "This is the correct action. Isoniazid competes with pyridoxine and increases its urinary loss, depleting pyridoxal-5-phosphate and producing a symmetrical distal sensory neuropathy. Pyridoxine 10 mg daily is given prophylactically to those at risk (malnourished, diabetic, alcohol-dependent, pregnant, HIV-positive), and 50-100 mg daily once neuropathy has appeared. Treatment for tuberculosis continues alongside.",
+        "D": "Abrupt withdrawal of a first-line drug interrupts an effective regimen and risks acquired resistance. Isoniazid is discontinued only if the neuropathy is severe or fails to respond after adequate pyridoxine; it is not the first response to mild paraesthesiae."
       },
       "subject": "Community Health",
       "topic": "TB / Isoniazid neuropathy",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 104
+      "mockSeq": 104,
+      "citation": "KDT Essentials of Medical Pharmacology 8e — Antitubercular Drugs",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 285,
       "_origId": "N9-70",
-      "question": "An age-sex pyramid shows a narrow top and wide base. What does this demographic pattern indicate?",
+      "question": "A population's age-sex pyramid is drawn with a broad base that tapers sharply to a very narrow apex. What does a profile of this shape indicate about that population?",
       "options": [
         "Low birth rate and low death rate",
         "High birth rate and high death rate",
@@ -3342,24 +3501,30 @@
         "High birth rate and low death rate"
       ],
       "correct": 1,
-      "explanation": "Wide base = high birth rate; narrow top = high death rate with few elderly → typical developing-country pyramid.",
+      "explanation": "Correct. A wide base means large numbers in the youngest age groups, that is a high birth rate. The sharp taper shows that each successive cohort is heavily depleted as it ages and few people survive into old age, which reflects a high death rate. This expansive triangular pyramid is the classic profile of a developing population.",
       "explanations": {
-        "A": "Low both → columnar (stable) pyramid.",
-        "B": "Wide base = high birth rate; narrow top = high death rate with few elderly → typical developing-country pyramid.",
-        "C": "Low birth + high death → contracting (top-heavy) pyramid.",
-        "D": "Low death + high birth → expanding bulge but with widening middle-age bands, not as narrow at the top."
+        "A": "When both rates are low the diagram loses its triangular form and becomes almost columnar, with the bars of successive age groups nearly equal until old age. That is the stationary pattern of developed populations.",
+        "B": "Correct. A wide base means large numbers in the youngest age groups, that is a high birth rate. The sharp taper shows that each successive cohort is heavily depleted as it ages and few people survive into old age, which reflects a high death rate. This expansive triangular pyramid is the classic profile of a developing population.",
+        "C": "A low birth rate with high mortality would give a narrow base as well as a narrow top, producing a contracting or constrictive shape rather than the broad-based triangle described.",
+        "D": "High births combined with low deaths still give a wide base, but survival through the middle years keeps the middle and upper bars comparatively full, so the sides slope gently instead of pinching to a very narrow apex."
       },
       "subject": "Community Health",
       "topic": "Demography",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 105
+      "mockSeq": 105,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Demography and Vital Statistics",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 160,
@@ -3391,7 +3556,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 106
+      "mockSeq": 106,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 604,
@@ -3424,7 +3590,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 107
+      "mockSeq": 107,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 650,
@@ -3457,7 +3624,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 108
+      "mockSeq": 108,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 69,
@@ -3489,7 +3657,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 109
+      "mockSeq": 109,
+      "citation": "MoHFW Bio-Medical Waste (Management) Rules 2016 — Schedule I"
     },
     {
       "id": 594,
@@ -3522,7 +3691,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 110
+      "mockSeq": 110,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 78,
@@ -3554,7 +3724,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 111
+      "mockSeq": 111,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 1408,
@@ -3580,7 +3751,8 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 112
+      "mockSeq": 112,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 187,
@@ -3612,7 +3784,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 113
+      "mockSeq": 113,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 369,
@@ -3644,7 +3817,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 114
+      "mockSeq": 114,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 104,
@@ -3676,7 +3850,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 115
+      "mockSeq": 115,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 146,
@@ -3708,12 +3883,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 116
+      "mockSeq": 116,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 257,
       "_origId": "N9-42",
-      "question": "Identify the given instrument (wide, scoop-shaped abdominal retractor).",
+      "question": "During a laparotomy the scrub nurse passes a hand-held retractor with a single long, thin blade of even width that sweeps into a smooth right-angled scoop, used to hold the liver and other deep abdominal contents out of the operative field. Name the instrument.",
       "options": [
         "Doyen's Retractor",
         "Deaver Retractor",
@@ -3721,24 +3897,30 @@
         "Morris Retractor"
       ],
       "correct": 1,
-      "explanation": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
+      "explanation": "The Deaver retractor is the long, gently curved right-angled blade used to gain exposure deep in the abdomen, classically for the liver and the gallbladder region.",
       "explanations": {
-        "A": "Doyen's is a curved bladder retractor used in LSCS.",
-        "B": "Deaver is a broad, curved right-angle retractor for deep abdominal exposure.",
-        "C": "Langenbeck is a small L-shaped retractor for superficial wounds.",
-        "D": "Morris is a curved retractor with a broader blade than Langenbeck but not Deaver-shape."
+        "A": "Doyen's retractor is the bladder retractor of caesarean section, with a short handle set at right angles to a broad curved blade that sits over the pubic symphysis.",
+        "B": "The Deaver retractor is the long, gently curved right-angled blade used to gain exposure deep in the abdomen, classically for the liver and the gallbladder region.",
+        "C": "Langenbeck's is a small L-shaped retractor whose short blade suits superficial wound edges rather than deep viscera.",
+        "D": "Morris retractor has a wider, shorter curved blade than Langenbeck but lacks the long sweeping curve of a Deaver."
       },
       "subject": "OBG",
       "topic": "OT instruments",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
-      "qtype": "image",
+      "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 117
+      "mockSeq": 117,
+      "citation": "Bailey & Love's Short Practice of Surgery 28e — surgical instruments and exposure",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 485,
@@ -3771,7 +3953,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 118
+      "mockSeq": 118,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 569,
@@ -3804,12 +3987,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 119
+      "mockSeq": 119,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 256,
       "_origId": "N9-41",
-      "question": "Identify the given instrument (atraumatic clamp with triangular fenestrated tips used on uterine angles).",
+      "question": "At caesarean section the surgeon asks for a non-crushing obstetric clamp whose blades end in broad triangular fenestrated tips, and applies it to the angles of the uterine incision to control bleeding. Which instrument has been requested?",
       "options": [
         "Green Armytage Forceps",
         "Babcock Forceps",
@@ -3817,24 +4001,30 @@
         "Kocher's Forceps"
       ],
       "correct": 0,
-      "explanation": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
+      "explanation": "Green-Armytage forceps hold the angles of the uterine incision during LSCS, securing the cut edge and limiting blood loss without crushing myometrium.",
       "explanations": {
-        "A": "Green-Armytage forceps are used in LSCS to grasp uterine angles and control bleeding.",
-        "B": "Babcock has rounded atraumatic ring tips, used for delicate tissue like appendix.",
-        "C": "Allis has serrated teeth — grasping traumatic forceps.",
-        "D": "Kocher's has heavy serrations and 1×2 teeth — for tough pedicles."
+        "A": "Green-Armytage forceps hold the angles of the uterine incision during LSCS, securing the cut edge and limiting blood loss without crushing myometrium.",
+        "B": "Babcock forceps end in rounded hollow ring tips designed for delicate hollow structures such as appendix, ureter or bowel.",
+        "C": "Allis forceps carry interlocking teeth along the tip and grip firmly but traumatically, so they are unsuitable for the uterine angle.",
+        "D": "Kocher's forceps have transverse serrations plus a 1x2 tooth at the tip, intended for tough pedicles and fascia."
       },
       "subject": "OBG",
       "topic": "OT instruments",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
-      "qtype": "image",
+      "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 120
+      "mockSeq": 120,
+      "citation": "Dutta's Textbook of Obstetrics 9e — obstetric instruments and lower segment caesarean section",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 1349,
@@ -3860,7 +4050,8 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 121
+      "mockSeq": 121,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 886,
@@ -3893,7 +4084,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 122
+      "mockSeq": 122,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 544,
@@ -3926,12 +4118,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 123
+      "mockSeq": 123,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 335,
       "_origId": "N9-120",
-      "question": "A preterm neonate in NICU is monitored for hypoxia. Which clinical manifestation is a LATE sign of hypoxia?",
+      "question": "A preterm baby in the NICU is being watched for hypoxia. Of the manifestations listed, which one appears LATE in the course?",
       "options": [
         "Tachypnea",
         "Nasal flaring",
@@ -3939,24 +4132,30 @@
         "Restlessness"
       ],
       "correct": 2,
-      "explanation": "Central cyanosis is a late hypoxia sign — requires ≥5 g/dL of deoxygenated Hb.",
+      "explanation": "Cyanosis is a late and unreliable sign. Visible blue discolouration requires roughly 5 g/dL of desaturated haemoglobin in the capillary bed, so it appears only after oxygenation has fallen substantially, and it can be masked altogether in an anaemic infant or exaggerated in polycythaemia. Central cyanosis of the tongue and mucous membranes is the significant form; peripheral acrocyanosis in the first day or two of life is normal. Pulse oximetry and blood gases detect the problem long before the colour changes.",
       "explanations": {
-        "A": "Tachypnea is early compensation.",
-        "B": "Nasal flaring is early respiratory distress.",
-        "C": "Central cyanosis is a late hypoxia sign — requires ≥5 g/dL of deoxygenated Hb.",
-        "D": "Restlessness is early behavioral change."
+        "A": "A rise in respiratory rate is one of the first compensatory responses, driven by chemoreceptor stimulation as oxygen tension falls.",
+        "B": "Flaring of the alae nasi, along with retractions and grunting, is early accessory-muscle work aimed at reducing airway resistance and increasing tidal volume.",
+        "C": "Cyanosis is a late and unreliable sign. Visible blue discolouration requires roughly 5 g/dL of desaturated haemoglobin in the capillary bed, so it appears only after oxygenation has fallen substantially, and it can be masked altogether in an anaemic infant or exaggerated in polycythaemia. Central cyanosis of the tongue and mucous membranes is the significant form; peripheral acrocyanosis in the first day or two of life is normal. Pulse oximetry and blood gases detect the problem long before the colour changes.",
+        "D": "Restlessness and irritability reflect early cerebral hypoxia, later giving way to lethargy and reduced responsiveness as the deficit deepens."
       },
       "subject": "Pediatric",
       "topic": "Hypoxia signs",
       "day": 4,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 124
+      "mockSeq": 124,
+      "citation": "Potter & Perry Fundamentals of Nursing 9e — oxygenation and signs of hypoxia",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 917,
@@ -3989,7 +4188,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 125
+      "mockSeq": 125,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 1396,
@@ -4015,7 +4215,8 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 126
+      "mockSeq": 126,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 550,
@@ -4048,7 +4249,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 127
+      "mockSeq": 127,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 523,
@@ -4081,7 +4283,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 128
+      "mockSeq": 128,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 339,
@@ -4113,12 +4316,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 129
+      "mockSeq": 129,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 318,
       "_origId": "N9-103",
-      "question": "A mother reports her 4-year-old is not receiving ICDS supplementary nutrition. What should the nurse do first?",
+      "question": "During a home visit a mother complains to the nurse that her 4-year-old is not receiving supplementary nutrition from the anganwadi under ICDS. What should the nurse do first?",
       "options": [
         "Refer to a pediatrician for evaluation",
         "Verify the child's age and ICDS enrollment status",
@@ -4126,24 +4330,30 @@
         "Provide immediate supplementary food"
       ],
       "correct": 1,
-      "explanation": "Nursing process starts with assessment — verify eligibility (6 mo–6 y) and current enrolment in AWC.",
+      "explanation": "The nursing process opens with assessment. The nurse confirms that the child falls within the eligible 6 months to 6 years age band and checks whether the child is actually registered at the anganwadi centre, since non-enrolment, and not denial of service, is the usual reason a child receives nothing.",
       "explanations": {
-        "A": "Medical referral is premature without assessing eligibility.",
-        "B": "Nursing process starts with assessment — verify eligibility (6 mo–6 y) and current enrolment in AWC.",
-        "C": "Education is second step, after assessment.",
-        "D": "Providing food without eligibility verification is improper programme use."
+        "A": "A medical referral answers a clinical question that has not yet been asked. Nothing so far suggests illness; the complaint is about service delivery.",
+        "B": "The nursing process opens with assessment. The nurse confirms that the child falls within the eligible 6 months to 6 years age band and checks whether the child is actually registered at the anganwadi centre, since non-enrolment, and not denial of service, is the usual reason a child receives nothing.",
+        "C": "Nutrition education is a valid intervention but belongs after the assessment has defined the problem.",
+        "D": "Handing out supplementary food before eligibility and enrolment are verified bypasses programme records, distorts the centre's beneficiary count and does not correct the underlying gap."
       },
       "subject": "Pediatric",
       "topic": "ICDS / Nursing process",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 130
+      "mockSeq": 130,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 567,
@@ -4176,7 +4386,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 131
+      "mockSeq": 131,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 514,
@@ -4209,7 +4420,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 132
+      "mockSeq": 132,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 572,
@@ -4242,7 +4454,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 133
+      "mockSeq": 133,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 138,
@@ -4274,7 +4487,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 134
+      "mockSeq": 134,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 532,
@@ -4307,7 +4521,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 135
+      "mockSeq": 135,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 524,
@@ -4340,7 +4555,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 136
+      "mockSeq": 136,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 863,
@@ -4373,7 +4589,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 137
+      "mockSeq": 137,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 659,
@@ -4406,7 +4623,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 138
+      "mockSeq": 138,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 515,
@@ -4439,7 +4657,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 139
+      "mockSeq": 139,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 387,
@@ -4471,7 +4690,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 140
+      "mockSeq": 140,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 637,
@@ -4504,7 +4724,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 141
+      "mockSeq": 141,
+      "citation": "Indian Nursing Council regulations and applicable Indian statutes"
     },
     {
       "id": 655,
@@ -4537,7 +4758,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 142
+      "mockSeq": 142,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 517,
@@ -4570,12 +4792,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 143
+      "mockSeq": 143,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 253,
       "_origId": "N9-38",
-      "question": "The patient's urine output is 100 mL in 24 hours. How is this classified?",
+      "question": "A hospitalised adult passes a total of only 100 mL of urine across a full 24-hour period. Which term describes this level of output?",
       "options": [
         "Oliguria",
         "Anuria",
@@ -4583,24 +4806,30 @@
         "Normal urine output"
       ],
       "correct": 1,
-      "explanation": "Anuria is <100 mL/24 h — 100 mL lies at the cutoff and is labelled anuria in most Indian texts.",
+      "explanation": "The cut-off used in most Indian nursing texts places anuria at 100 mL or less per 24 hours, so a 24-hour total of 100 mL is reported as anuria.",
       "explanations": {
-        "A": "Oliguria = <400 mL/day (or <0.5 mL/kg/hr).",
-        "B": "Anuria is <100 mL/24 h — 100 mL lies at the cutoff and is labelled anuria in most Indian texts.",
-        "C": "Polyuria is >3 L/day.",
-        "D": "Normal adult output is 1000–2000 mL/day."
+        "A": "Oliguria denotes an output below roughly 400 mL in 24 hours, or under 0.5 mL/kg/hour, which is well above the figure quoted here.",
+        "B": "The cut-off used in most Indian nursing texts places anuria at 100 mL or less per 24 hours, so a 24-hour total of 100 mL is reported as anuria.",
+        "C": "Polyuria is the opposite picture, with sustained output above about 3 litres a day.",
+        "D": "A healthy adult voids roughly 1000 to 2000 mL each day, so this figure lies far outside the normal range."
       },
       "subject": "Fundamentals",
       "topic": "Urine output",
       "day": 7,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 144
+      "mockSeq": 144,
+      "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — assessment of renal and urinary function",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 403,
@@ -4632,7 +4861,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 145
+      "mockSeq": 145,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 950,
@@ -4665,7 +4895,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 146
+      "mockSeq": 146,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 1566,
@@ -4691,7 +4922,8 @@
       "source": "Practice",
       "year": "2025",
       "qtype": "scenario",
-      "mockSeq": 147
+      "mockSeq": 147,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 926,
@@ -4724,7 +4956,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 148
+      "mockSeq": 148,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 934,
@@ -4757,7 +4990,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 149
+      "mockSeq": 149,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 953,
@@ -4790,12 +5024,13 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 150
+      "mockSeq": 150,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 317,
       "_origId": "N9-102",
-      "question": "A pediatric client on HFNC shows SpO2 of 50%. What is the most appropriate and immediate action?",
+      "question": "A child on high-flow nasal cannula therapy suddenly desaturates and the pulse oximeter reads SpO2 50%. Which action by the nurse is most appropriate at that moment?",
       "options": [
         "Increase HFNC flow rate by 5 L/min",
         "Call the Respiratory Therapist to adjust the FiO2",
@@ -4803,24 +5038,30 @@
         "Reposition the child prone and reassess SpO2 after 15 minutes"
       ],
       "correct": 2,
-      "explanation": "Critical hypoxia (SpO2 50%) requires immediate bag-valve-mask ventilation with 100% O2 — rescue ventilation takes precedence over device titration.",
+      "explanation": "Critical hypoxaemia demands immediate positive-pressure ventilation with a bag-valve-mask on 100% oxygen with a reservoir, while help is called and the cause is sought. In paediatric emergencies effective oxygenation and ventilation take precedence over adjusting any oxygen-delivery device.",
       "explanations": {
-        "A": "Simply increasing flow is insufficient with critical hypoxia.",
-        "B": "Waiting for RT will waste precious seconds.",
-        "C": "Critical hypoxia (SpO2 50%) requires immediate bag-valve-mask ventilation with 100% O2 — rescue ventilation takes precedence over device titration.",
-        "D": "Repositioning with 15-minute wait is unacceptably dangerous at SpO2 50%."
+        "A": "Adding flow only titrates a device that has already failed. At an SpO2 of 50% the child has minutes of reserve, and bradycardia followed by cardiac arrest is the next step in the paediatric deterioration sequence.",
+        "B": "Summoning another professional before delivering oxygen delays rescue ventilation. The nurse at the bedside must ventilate first and call for help simultaneously.",
+        "C": "Critical hypoxaemia demands immediate positive-pressure ventilation with a bag-valve-mask on 100% oxygen with a reservoir, while help is called and the cause is sought. In paediatric emergencies effective oxygenation and ventilation take precedence over adjusting any oxygen-delivery device.",
+        "D": "A 15-minute wait at an SpO2 of 50% is indefensible; hypoxic bradycardia and arrest would occur long before the reassessment."
       },
       "subject": "Pediatric",
       "topic": "Pediatric emergency airway",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 151
+      "mockSeq": 151,
+      "citation": "AHA CPR & ECC Guidelines 2020 (PALS)",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 939,
@@ -4853,7 +5094,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 152
+      "mockSeq": 152,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 930,
@@ -4886,12 +5128,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 153
+      "mockSeq": 153,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 304,
       "_origId": "N9-89",
-      "question": "A 45-year-old on opioid therapy for post-surgical pain has a respiratory rate of 10 breaths/min. What is the primary concern?",
+      "question": "A 45-year-old receiving opioids for pain after surgery is found to be breathing 10 times a minute. What should the nurse be most concerned about?",
       "options": [
         "Hypertension",
         "Respiratory depression",
@@ -4899,29 +5142,35 @@
         "Hyperglycemia"
       ],
       "correct": 1,
-      "explanation": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
+      "explanation": "Opioids blunt the brainstem's response to rising carbon dioxide, so a rate under 12 breaths per minute signals opioid-induced respiratory depression. Withhold the next dose, rouse and stimulate the patient, give oxygen, monitor sedation score and saturation, and keep naloxone ready.",
       "explanations": {
-        "A": "Opioids cause hypotension, not hypertension.",
-        "B": "Opioids blunt the brainstem response to CO2 — respiratory depression (RR <12) is the hallmark toxicity. Prepare naloxone.",
-        "C": "Opioids cause bradycardia, not tachycardia.",
-        "D": "Hyperglycemia is not an opioid effect."
+        "A": "Opioids more often lower blood pressure, through vasodilatation and histamine release, than raise it.",
+        "B": "Opioids blunt the brainstem's response to rising carbon dioxide, so a rate under 12 breaths per minute signals opioid-induced respiratory depression. Withhold the next dose, rouse and stimulate the patient, give oxygen, monitor sedation score and saturation, and keep naloxone ready.",
+        "C": "Bradycardia rather than tachycardia is typical of opioid effect; a fast pulse would point to pain, hypoxia or withdrawal.",
+        "D": "Opioids do not raise blood glucose to any clinically meaningful degree."
       },
       "subject": "Psychiatric",
       "topic": "Opioid toxicity",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 154
+      "mockSeq": 154,
+      "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e - pain management and opioid adverse effects",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 299,
       "_origId": "N9-84",
-      "question": "A 50-year-old with neuropathic pain after nerve injury is prescribed a medication. Which is most commonly used for neuropathic pain?",
+      "question": "A 50-year-old is left with burning, shooting pain along a nerve after an injury to it. Which drug is most commonly used for pain of this type?",
       "options": [
         "Ibuprofen",
         "Gabapentin",
@@ -4929,24 +5178,30 @@
         "Morphine"
       ],
       "correct": 1,
-      "explanation": "Gabapentin (or pregabalin) is first-line per WHO analgesic ladder for neuropathic pain.",
+      "explanation": "Gabapentin, like pregabalin, binds the alpha-2-delta subunit of neuronal calcium channels and damps ectopic firing; it is a standard first-line agent alongside tricyclic antidepressants and duloxetine.",
       "explanations": {
-        "A": "NSAIDs are ineffective for neuropathic pain.",
-        "B": "Gabapentin (or pregabalin) is first-line per WHO analgesic ladder for neuropathic pain.",
-        "C": "Acetaminophen targets nociceptive pain.",
-        "D": "Opioids are reserved for refractory cases; not first-line."
+        "A": "Ibuprofen and other NSAIDs act on inflammatory nociceptive pain and give little relief in neuropathic pain.",
+        "B": "Gabapentin, like pregabalin, binds the alpha-2-delta subunit of neuronal calcium channels and damps ectopic firing; it is a standard first-line agent alongside tricyclic antidepressants and duloxetine.",
+        "C": "Paracetamol is a weak central analgesic suited to nociceptive pain and is ineffective here.",
+        "D": "Opioids such as morphine are held back for pain refractory to first-line drugs, because of tolerance, dependence and adverse effects."
       },
       "subject": "Psychiatric",
       "topic": "Neuropathic pain",
       "day": 13,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 155
+      "mockSeq": 155,
+      "citation": "KDT Essentials of Medical Pharmacology 8e - drugs for neuropathic pain",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 711,
@@ -4979,7 +5234,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 156
+      "mockSeq": 156,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 171,
@@ -5011,7 +5267,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 157
+      "mockSeq": 157,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 849,
@@ -5044,7 +5301,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 158
+      "mockSeq": 158,
+      "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines"
     },
     {
       "id": 841,
@@ -5077,7 +5335,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 159
+      "mockSeq": 159,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 862,
@@ -5110,7 +5369,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 160
+      "mockSeq": 160,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     }
   ],
   "spotlight": "Balanced"

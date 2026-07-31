@@ -9,10 +9,15 @@
       "D. 50:2"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• For adults the compression-to-ventilation ratio is 30:2 with either one or two rescuers, until an advanced airway is placed.\n• 15:2 is the two-rescuer ratio for infants and children, not adults, and 5:1 was withdrawn from the guidelines in 2005.\n• Once an advanced airway is in situ, compressions become continuous at 100-120/min with one breath every 6 seconds.",
     "topic": "BLS",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "American Heart Association Guidelines for CPR and ECC (2020)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 2,
@@ -24,10 +29,15 @@
       "D. As shallow as possible"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• Adult chest compressions must be at least 2 inches (5 cm) deep, and not more than 2.4 inches (6 cm), delivered at 100-120 per minute with full recoil between compressions.\n• 1 inch or 3 cm is too shallow to generate the coronary and cerebral perfusion pressure needed to sustain the brain and myocardium.\n• Deliberately shallow compressions are never correct; the depth limit exists only to avoid rib and visceral injury, not to justify under-compressing.",
     "topic": "BLS",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "American Heart Association Guidelines for CPR and ECC (2020)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 3,
@@ -39,10 +49,15 @@
       "D. 36%"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• In the adult Rule of Nines the trunk is 36% of body surface area, divided as 18% anterior and 18% posterior.\n• 9% applies to each upper limb and to the head and neck, while each lower limb is 18%.\n• 36% is the whole trunk (front plus back), so it overstates the anterior surface alone, and 27% is not a Rule of Nines value at all.",
     "topic": "Burns",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 4,
@@ -54,10 +69,15 @@
       "D. Oral steroid only"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• Intramuscular adrenaline into the anterolateral thigh (adult dose 0.5 mg of 1:1000) is the first-line, life-saving treatment because it reverses bronchospasm, vasodilatation and capillary leak within minutes.\n• Antihistamines and corticosteroids are adjuncts only: they relieve urticaria or reduce late-phase reactions but act far too slowly to treat airway obstruction or shock.\n• Beta blockers are contraindicated because they oppose the action of adrenaline and can deepen hypotension and bronchospasm.",
     "topic": "Anaphylaxis",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "World Allergy Organization Anaphylaxis Guidance (2020 update)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 5,
@@ -69,10 +89,15 @@
       "D. 8 g/dL"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• WHO defines anaemia in non-pregnant adult women as haemoglobin below 12 g/dL, so 12 g/dL is the accepted lower limit of normal.\n• The corresponding cut-off is 13 g/dL for adult men and 11 g/dL in pregnancy.\n• 10 g/dL and 8 g/dL already represent mild-to-moderate and severe anaemia respectively, while 14 g/dL lies comfortably inside the normal female range rather than at its floor.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "WHO, Haemoglobin Concentrations for the Diagnosis of Anaemia and Assessment of Severity (2011)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 6,
@@ -84,10 +109,15 @@
       "D. Apply heat"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• An open (compound) fracture is a surgical emergency: control bleeding, cover the wound with a sterile dressing to limit contamination, immobilise the limb in the position found, and arrange urgent transfer for debridement, antibiotics and tetanus prophylaxis.\n• Range-of-motion exercises would displace the bone ends, increase bleeding and risk neurovascular injury.\n• Massaging the wound drives contamination deeper, and heat increases bleeding and swelling; cold and immobilisation, not heat, are used in acute fracture care.",
     "topic": "Fractures",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "St John Ambulance / St Andrew's First Aid / British Red Cross, First Aid Manual, 11th ed. (2021)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 7,
@@ -99,10 +129,15 @@
       "D. Always normal pH"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• Respiratory acidosis is caused by alveolar hypoventilation, so carbon dioxide is retained (PaCO2 above 45 mmHg) and the pH falls below 7.35.\n• A low CO2 with a raised pH describes respiratory alkalosis from hyperventilation, and a high bicarbonate with alkalaemia is metabolic alkalosis.\n• The pH may drift back toward normal once the kidneys compensate by retaining bicarbonate, but it is never invariably normal, which rules out the last option.",
     "topic": "ABG",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 8,
@@ -114,10 +149,15 @@
       "D. Bradycardia only"
     ],
     "correct": 1,
-    "explanation": "• First aid / emergency nursing for NORCET.",
+    "explanation": "• Only ventricular fibrillation and pulseless ventricular tachycardia are shockable, because defibrillation depolarises the myocardium simultaneously and allows an organised rhythm to resume.\n• Asystole and pulseless electrical activity are non-shockable and are managed with high-quality CPR, adrenaline every 3-5 minutes and correction of reversible causes.\n• Bradycardia with a pulse is treated with atropine, chronotropic infusion or pacing, never with defibrillation.",
     "topic": "ACLS",
     "year": "",
-    "difficulty": "Hard"
+    "difficulty": "Hard",
+    "citation": "American Heart Association Guidelines for CPR and ECC (2020)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 9,
@@ -129,10 +169,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Platelets form the primary haemostatic plug, so a very low count causes bleeding: petechiae, purpura, bleeding gums, epistaxis and, when severe, gastrointestinal or intracranial haemorrhage.\n• Thrombosis is the opposite problem and follows platelet excess or activation, not a low count.\n• Serum sodium and acid-base balance are regulated by the kidneys and lungs, so hypernatraemia and metabolic alkalosis have no causal link to the platelet count.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 10,
@@ -144,10 +189,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Spontaneous bleeding risk climbs steeply once the platelet count falls below about 20,000/mm3, and counts under 10,000/mm3 carry a real risk of intracranial and gastrointestinal haemorrhage.\n• Because too few platelets means clots cannot form normally, thrombosis is not the expected consequence.\n• Hypernatraemia is a water and sodium imbalance and metabolic alkalosis an acid-base disturbance; neither results from thrombocytopenia.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 11,
@@ -159,10 +209,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Thrombocytopenia (count below 150,000/mm3) prolongs bleeding time and produces mucocutaneous bleeding such as petechiae, ecchymoses, epistaxis and menorrhagia.\n• Nursing management therefore centres on bleeding precautions: soft toothbrush, no intramuscular injections or rectal temperatures, and avoidance of aspirin and NSAIDs.\n• The remaining options describe excess clotting and electrolyte or acid-base disorders, none of which follow from a low platelet count.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 12,
@@ -174,10 +229,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• A very low platelet count means the primary haemostatic plug cannot form, so the patient bleeds rather than clots.\n• Frequent causes in Indian practice include dengue, immune thrombocytopenic purpura, aplastic anaemia, hypersplenism and chemotherapy-induced marrow suppression.\n• Hypernatraemia reflects water and sodium balance and metabolic alkalosis reflects acid-base regulation; neither is produced by thrombocytopenia, and thrombosis is the opposite abnormality.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 13,
@@ -189,10 +249,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Bleeding is the hallmark of severe thrombocytopenia, because platelets are needed for adhesion, aggregation and the initial plug that seals small vessel breaks.\n• The earliest visible signs are usually petechiae and purpura over dependent areas, followed by mucosal bleeding from gums, nose or urinary tract.\n• Thrombosis, hypernatraemia and metabolic alkalosis arise from entirely different mechanisms and are not consequences of a falling platelet count.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 14,
@@ -204,10 +269,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Platelet transfusion is generally considered prophylactically below 10,000/mm3, and below 50,000/mm3 before invasive procedures, precisely because bleeding risk rises as the count falls.\n• A deficiency of platelets cannot promote clot formation, so thrombosis is incorrect.\n• Sodium concentration and acid-base status are governed by renal and respiratory mechanisms and are unaffected by platelet numbers.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 15,
@@ -219,10 +289,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Very low platelets are a quantitative defect of primary haemostasis, presenting as prolonged oozing from venepuncture sites, bleeding gums, epistaxis and heavy menstrual loss.\n• Clotting factor disorders such as haemophilia instead cause deep muscle and joint bleeds, but both categories present with bleeding rather than clotting.\n• Hypernatraemia and metabolic alkalosis are unrelated metabolic disturbances, and thrombosis would suggest platelet excess or hypercoagulability.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 16,
@@ -234,10 +309,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• A severely reduced platelet count leaves small capillary breaches unsealed, so even minor trauma produces disproportionate bruising and prolonged bleeding.\n• This is why nurses avoid intramuscular injections, rectal temperatures, razors and hard toothbrushes in thrombocytopenic patients and apply prolonged pressure after any needle stick.\n• Thrombosis follows platelet excess or activation, while hypernatraemia and metabolic alkalosis are unrelated electrolyte and acid-base problems.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 17,
@@ -249,10 +329,15 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Bleeding is correct because platelets are the cells that plug endothelial gaps; without enough of them, petechiae, purpura and mucosal or intracranial haemorrhage can occur.\n• Dengue is a common cause of a rapidly falling count in India and demands close monitoring of both platelet trend and bleeding manifestations.\n• Neither hypernatraemia nor metabolic alkalosis is produced by thrombocytopenia, and thrombosis is the opposite haematological abnormality.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 18,
@@ -264,9 +349,14 @@
       "D. Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "• Thrombocytopenia increases bleeding risk.",
+    "explanation": "• Thrombocytopenia impairs primary haemostasis and therefore increases bleeding risk, with spontaneous haemorrhage becoming likely below roughly 20,000/mm3.\n• Assessment should cover petechiae, bruising, bleeding gums, haematuria, melaena and any fall in level of consciousness that could signal intracranial bleeding.\n• Thrombosis, hypernatraemia and metabolic alkalosis have no causal relationship with a low platelet count and are distractors here.",
     "topic": "Labs",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   }
 ]

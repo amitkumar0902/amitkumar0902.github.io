@@ -28,7 +28,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
   },
   {
     "id": 17,
@@ -59,7 +60,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 18,
@@ -90,7 +92,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 28,
@@ -121,7 +124,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
   },
   {
     "id": 34,
@@ -152,7 +156,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 44,
@@ -183,7 +188,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 48,
@@ -214,7 +220,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "esic-sn-recalls.json"
+    "_sourceFile": "esic-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 58,
@@ -245,7 +252,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "esic-sn-recalls.json"
+    "_sourceFile": "esic-sn-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 61,
@@ -276,7 +284,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "esic-sn-recalls.json"
+    "_sourceFile": "esic-sn-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 130,
@@ -307,7 +316,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+    "_sourceFile": "norcet-3-mains-2022-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 157,
@@ -338,7 +348,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
   },
   {
     "id": 166,
@@ -369,7 +380,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
   },
   {
     "id": 172,
@@ -400,7 +412,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 181,
@@ -431,7 +444,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 184,
@@ -462,7 +476,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 188,
@@ -493,12 +508,13 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 223,
     "_origId": "N9-8",
-    "question": "Stenosis or obstruction of the Foramina of Luschka and Magendie is most commonly associated with which condition?",
+    "question": "Failure of the outflow foramina of the fourth ventricle, namely the foramina of Luschka and Magendie, to open normally is the underlying defect in which of the following conditions?",
     "options": [
       "Dandy Walker malformation",
       "Arnold Chiari malformation",
@@ -506,23 +522,29 @@
       "Spina bifida"
     ],
     "correct": 0,
-    "explanation": "Dandy-Walker malformation = cystic dilation of 4th ventricle + cerebellar vermis hypoplasia due to atresia of Luschka & Magendie.",
+    "explanation": "Atresia of the lateral and median apertures traps cerebrospinal fluid inside the fourth ventricle, which balloons into a posterior fossa cyst. The associated hypoplasia or agenesis of the cerebellar vermis, with an enlarged posterior fossa and raised tentorium, completes the Dandy-Walker picture.",
     "explanations": {
-      "A": "Dandy-Walker malformation = cystic dilation of 4th ventricle + cerebellar vermis hypoplasia due to atresia of Luschka & Magendie.",
-      "B": "Arnold-Chiari involves cerebellar tonsillar herniation, not foraminal atresia.",
-      "C": "Aqueductal stenosis obstructs the cerebral aqueduct (between 3rd and 4th ventricles), not the foramina.",
-      "D": "Spina bifida is a neural tube defect; unrelated to CSF foraminal atresia."
+      "A": "Atresia of the lateral and median apertures traps cerebrospinal fluid inside the fourth ventricle, which balloons into a posterior fossa cyst. The associated hypoplasia or agenesis of the cerebellar vermis, with an enlarged posterior fossa and raised tentorium, completes the Dandy-Walker picture.",
+      "B": "In Chiari malformation the cerebellar tonsils and part of the medulla are displaced downwards through the foramen magnum; the apertures themselves are formed, and hydrocephalus arises from crowding at the craniovertebral junction.",
+      "C": "Aqueductal stenosis narrows the cerebral aqueduct linking the third and fourth ventricles, so the fourth ventricle stays small while the ones above it dilate, exactly the reverse of the Dandy-Walker pattern.",
+      "D": "Spina bifida is a defect of posterior neural tube closure over the spine. It may accompany a Chiari II malformation, but it is not a disorder of fourth-ventricular outflow."
     },
     "subject": "Medical-Surgical",
     "topic": "Neurology (Congenital)",
     "day": 11,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — Central nervous system: congenital malformations and hydrocephalus",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 338,
@@ -553,7 +575,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 344,
@@ -584,7 +607,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
   },
   {
     "id": 348,
@@ -615,7 +639,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 349,
@@ -646,7 +671,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 350,
@@ -677,7 +703,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 351,
@@ -708,7 +735,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 353,
@@ -739,7 +767,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 394,
@@ -770,7 +799,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
   },
   {
     "id": 395,
@@ -801,7 +831,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
   },
   {
     "id": 1496,
@@ -826,7 +857,8 @@
     "difficulty": "Easy",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 1513,
@@ -851,7 +883,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1523,
@@ -876,7 +909,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1533,
@@ -901,6 +935,7 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   }
 ]

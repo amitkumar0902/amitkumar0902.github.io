@@ -12,7 +12,12 @@
     "explanation": "• In pediatric emergencies, airway and breathing are assessed first using the ABC approach.\n• Respiratory distress is common in children and can deteriorate rapidly.\n• Pediatric nursing requires specialized knowledge as children have unique physiological and developmental needs.\n• Age-appropriate care and family-centered approaches are essential for optimal outcomes.",
     "topic": "Pediatric Assessment",
     "year": "2024",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "AHA Guidelines 2020 for CPR and ECC — Pediatric Basic and Advanced Life Support",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 2,
@@ -27,7 +32,12 @@
     "explanation": "• Normal heart rate for infants (0-12 months) is 100-160 beats per minute.\n• Heart rates are higher in infants than adults due to smaller heart size and higher metabolic rate.",
     "topic": "Vital Signs",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Wong's Essentials of Pediatric Nursing 10e — Physical Assessment: Vital Signs in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 3,
@@ -42,7 +52,12 @@
     "explanation": "• Monitoring intake and output is critical in dehydration to assess fluid balance and response to treatment.\n• Daily weights also help assess fluid status.\n• Nursing management and administration skills are essential for effective healthcare delivery.\n• These competencies enable nurses to lead teams, manage resources, and ensure quality patient care.",
     "topic": "Fluid Management",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Ghai Essential Pediatrics 9e — Diarrhoeal Diseases and Fluid and Electrolyte Therapy",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 4,
@@ -57,7 +72,12 @@
     "explanation": "• DPT is given at 6 weeks, 10 weeks, 14 weeks (primary series) and a booster at 16-24 months as per Universal Immunization Programme in India.",
     "topic": "Immunization",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 5,
@@ -72,7 +92,12 @@
     "explanation": "• Spacer devices are essential for children using MDIs as they improve drug delivery to the lungs and reduce side effects.\n• They make it easier for children to coordinate breathing.",
     "topic": "Respiratory Conditions",
     "year": "2023",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "GINA Global Strategy for Asthma Management and Prevention — Asthma in Children 5 Years and Younger: Inhaler Devices and Spacers",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 6,
@@ -87,7 +112,12 @@
     "explanation": "• Normal respiratory rate for toddlers (1-3 years) is 25-40 breaths per minute.\n• Respiratory rates are higher in children than adults.",
     "topic": "Vital Signs",
     "year": "2024",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Wong's Essentials of Pediatric Nursing 10e — Physical Assessment: Vital Signs in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 7,
@@ -102,7 +132,12 @@
     "explanation": "• Currant jelly stools (bloody, mucus-filled stools) are the classic sign of intussusception, along with colicky abdominal pain and vomiting.",
     "topic": "Gastrointestinal Conditions",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Ghai Essential Pediatrics 9e — Disorders of the Gastrointestinal Tract: Intussusception",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 8,
@@ -117,7 +152,12 @@
     "explanation": "• During a seizure, the priority is to protect the child from injury by padding the area and removing hazards.\n• Never restrain or insert anything in the mouth.",
     "topic": "Neurological Conditions",
     "year": "2023",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Ghai Essential Pediatrics 9e — Seizure Disorders in Children: Febrile Seizures",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 9,
@@ -132,7 +172,12 @@
     "explanation": "• Pavlik harness is the first-line treatment for developmental hip dysplasia in infants.\n• It maintains the hip in proper position for normal development.",
     "topic": "Musculoskeletal Conditions",
     "year": "2024",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Nelson Textbook of Pediatrics 21e — Developmental Dysplasia of the Hip",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 10,
@@ -147,7 +192,12 @@
     "explanation": "• Normal weight gain for infants in the first 6 months is approximately 150-200 grams per week.\n• This doubles birth weight by 6 months.",
     "topic": "Growth and Development",
     "year": "2022",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ghai Essential Pediatrics 9e — Normal Growth and Its Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 11,
@@ -162,7 +212,12 @@
     "explanation": "• Hypoglycemia requires immediate treatment with 15g of fast-acting carbohydrate (glucose tablets, juice).\n• Recheck blood glucose in 15 minutes.",
     "topic": "Endocrine Conditions",
     "year": "2023",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "ISPAD Clinical Practice Consensus Guidelines — Hypoglycaemia in Children and Adolescents with Diabetes",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 12,
@@ -177,7 +232,12 @@
     "explanation": "• WHO recommends starting complementary feeding at 6 months while continuing breastfeeding.\n• Some infants may be ready at 4-6 months with signs of readiness.",
     "topic": "Nutrition",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "WHO/UNICEF Global Strategy for Infant and Young Child Feeding — Complementary Feeding",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 13,
@@ -192,7 +252,12 @@
     "explanation": "• Cool mist humidification helps reduce airway inflammation and ease breathing in croup.\n• This is the priority intervention along with monitoring respiratory status.",
     "topic": "Respiratory Conditions",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Ghai Essential Pediatrics 9e — Acute Laryngotracheobronchitis (Croup)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 14,
@@ -207,7 +272,12 @@
     "explanation": "• Normal blood pressure for a 5-year-old is approximately 90/50 mmHg.\n• Blood pressure increases with age.\n• Use age-appropriate cuff size for accurate measurement.",
     "topic": "Vital Signs",
     "year": "2023",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "AAP Clinical Practice Guideline 2017 — Screening and Management of High Blood Pressure in Children and Adolescents",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 15,
@@ -222,7 +292,12 @@
     "explanation": "• Removing the source of lead exposure is the first priority to prevent further poisoning.\n• Then chelation therapy and monitoring can begin.",
     "topic": "Toxicology",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Nelson Textbook of Pediatrics 21e — Lead Poisoning",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 16,
@@ -237,7 +312,12 @@
     "explanation": "• Normal head circumference increases by approximately 1 cm per month in the first year.\n• Rapid or slow growth may indicate neurological problems.",
     "topic": "Growth and Development",
     "year": "2022",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ghai Essential Pediatrics 9e — Normal Growth: Head Circumference",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 17,
@@ -252,7 +332,12 @@
     "explanation": "• Chemotherapy causes neutropenia, increasing infection risk.\n• Monitoring for signs of infection (fever, chills) is the priority as infections can be life-threatening.",
     "topic": "Oncology",
     "year": "2023",
-    "difficulty": "Critical"
+    "difficulty": "Critical",
+    "citation": "Ghai Essential Pediatrics 9e — Malignancies in Children: Acute Lymphoblastic Leukaemia",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 18,
@@ -267,7 +352,12 @@
     "explanation": "• Side-lying position during feeding helps prevent aspiration in premature infants.\n• After feeding, place on back for sleep to reduce SIDS risk.",
     "topic": "Neonatal Care",
     "year": "2024",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "NNF India Evidence-Based Clinical Practice Guidelines — Feeding of Low Birth Weight Infants",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 19,
@@ -282,7 +372,12 @@
     "explanation": "• Small, frequent feeds reduce respiratory effort while maintaining nutrition.\n• IV fluids may be needed if oral intake is insufficient due to respiratory distress.",
     "topic": "Respiratory Conditions",
     "year": "2022",
-    "difficulty": "High"
+    "difficulty": "High",
+    "citation": "Ghai Essential Pediatrics 9e — Acute Bronchiolitis",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 20,
@@ -297,7 +392,12 @@
     "explanation": "• Normal body temperature for infants is 36.5-37.5°C (97.7-99.5°F).\n• Infants have less ability to regulate temperature than adults.",
     "topic": "Vital Signs",
     "year": "2023",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Wong's Essentials of Pediatric Nursing 10e — Physical Assessment: Vital Signs in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 4-month-old infant is diagnosed with developmental delay. What is the priority assessment?",
@@ -312,7 +412,12 @@
     "topic": "Growth and Development",
     "year": "2015",
     "difficulty": "High",
-    "id": 21
+    "id": 21,
+    "citation": "Ghai Essential Pediatrics 9e — Normal Development and Developmental Delay",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 2-year-old child with croup is admitted. What is the priority nursing intervention?",
@@ -327,7 +432,12 @@
     "topic": "Respiratory Conditions",
     "year": "2016",
     "difficulty": "High",
-    "id": 22
+    "id": 22,
+    "citation": "Ghai Essential Pediatrics 9e — Acute Laryngotracheobronchitis (Croup)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the normal heart rate for a 1-year-old child?",
@@ -342,7 +452,12 @@
     "topic": "Vital Signs",
     "year": "2017",
     "difficulty": "Medium",
-    "id": 23
+    "id": 23,
+    "citation": "Wong's Essentials of Pediatric Nursing 10e — Physical Assessment: Vital Signs in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 5-year-old child with type 1 diabetes is experiencing hypoglycemia. What is the immediate treatment?",
@@ -357,7 +472,12 @@
     "topic": "Endocrine Conditions",
     "year": "2018",
     "difficulty": "Critical",
-    "id": 24
+    "id": 24,
+    "citation": "ISPAD Clinical Practice Consensus Guidelines — Hypoglycaemia in Children and Adolescents with Diabetes",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the recommended age for starting complementary feeding in infants?",
@@ -372,7 +492,12 @@
     "topic": "Nutrition",
     "year": "2019",
     "difficulty": "High",
-    "id": 25
+    "id": 25,
+    "citation": "WHO/UNICEF Global Strategy for Infant and Young Child Feeding — Complementary Feeding",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 3-year-old child with lead poisoning is admitted. What is the priority nursing intervention?",
@@ -387,7 +512,12 @@
     "topic": "Toxicology",
     "year": "2020",
     "difficulty": "High",
-    "id": 26
+    "id": 26,
+    "citation": "Nelson Textbook of Pediatrics 21e — Lead Poisoning",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 7-year-old child with acute lymphoblastic leukemia is receiving chemotherapy. What is the priority nursing intervention?",
@@ -402,7 +532,12 @@
     "topic": "Oncology",
     "year": "2021",
     "difficulty": "Critical",
-    "id": 27
+    "id": 27,
+    "citation": "Ghai Essential Pediatrics 9e — Malignancies in Children: Acute Lymphoblastic Leukaemia",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the normal temperature range for infants?",
@@ -417,7 +552,12 @@
     "topic": "Vital Signs",
     "year": "2022",
     "difficulty": "Medium",
-    "id": 28
+    "id": 28,
+    "citation": "Wong's Essentials of Pediatric Nursing 10e — Physical Assessment: Vital Signs in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 1-year-old child with bronchiolitis is having difficulty feeding. What is the priority intervention?",
@@ -432,7 +572,12 @@
     "topic": "Respiratory Conditions",
     "year": "2023",
     "difficulty": "High",
-    "id": 29
+    "id": 29,
+    "citation": "Ghai Essential Pediatrics 9e — Acute Bronchiolitis",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "What is the normal weight gain pattern for infants in the first 6 months?",
@@ -447,7 +592,12 @@
     "topic": "Growth and Development",
     "year": "2024",
     "difficulty": "Medium",
-    "id": 30
+    "id": 30,
+    "citation": "Ghai Essential Pediatrics 9e — Normal Growth and Its Disorders",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 6-month-old infant is ready for complementary feeding. What is the first sign of readiness?",
@@ -462,7 +612,12 @@
     "topic": "Nutrition",
     "year": "2025",
     "difficulty": "High",
-    "id": 31
+    "id": 31,
+    "citation": "Ghai Essential Pediatrics 9e — Infant and Young Child Feeding: Complementary Feeding",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 2-year-old child requires IV access. What is the preferred site?",
@@ -477,7 +632,12 @@
     "topic": "Pediatric IV Equipment",
     "year": "2015",
     "difficulty": "High",
-    "id": 32
+    "id": 32,
+    "citation": "Wong's Essentials of Pediatric Nursing 10e — Intravenous Therapy and Vascular Access in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A newborn requires phototherapy for jaundice. What is the correct distance of phototherapy light?",
@@ -492,7 +652,12 @@
     "topic": "Neonatal Equipment",
     "year": "2016",
     "difficulty": "High",
-    "id": 33
+    "id": 33,
+    "citation": "NNF India Evidence-Based Clinical Practice Guidelines — Phototherapy for Neonatal Hyperbilirubinaemia",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A 5-year-old child requires nebulization. What is the correct mask size?",
@@ -507,7 +672,12 @@
     "topic": "Pediatric Respiratory Equipment",
     "year": "2017",
     "difficulty": "Medium",
-    "id": 34
+    "id": 34,
+    "citation": "GINA Global Strategy for Asthma Management and Prevention — Inhaler Devices and Spacers in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A premature infant requires incubator care. What is the correct temperature setting?",
@@ -522,7 +692,12 @@
     "topic": "Neonatal Equipment",
     "year": "2018",
     "difficulty": "High",
-    "id": 35
+    "id": 35,
+    "citation": "WHO Thermal Protection of the Newborn: A Practical Guide",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "question": "A child with asthma is using spacer device with MDI. What is the correct technique?",
@@ -537,6 +712,11 @@
     "topic": "Pediatric Medication Equipment",
     "year": "2019",
     "difficulty": "High",
-    "id": 36
+    "id": 36,
+    "citation": "GINA Global Strategy for Asthma Management and Prevention — Inhaler Devices and Spacers in Children",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   }
 ]

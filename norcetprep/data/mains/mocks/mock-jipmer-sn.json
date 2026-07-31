@@ -4,7 +4,6 @@
   "count": 24,
   "minutes": 60,
   "source": "JIPMER Staff Nurse — Recalls",
-  "verbatim": true,
   "subjects": {
     "Nutrition": 2,
     "Fundamentals": 1,
@@ -45,7 +44,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 66,
@@ -77,7 +77,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 67,
@@ -109,7 +110,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 68,
@@ -141,7 +143,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 69,
@@ -173,7 +176,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "MoHFW Bio-Medical Waste (Management) Rules 2016 — Schedule I"
     },
     {
       "id": 70,
@@ -205,7 +209,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 71,
@@ -237,7 +242,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 72,
@@ -269,7 +275,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 73,
@@ -301,7 +308,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 9
+      "mockSeq": 9,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 74,
@@ -333,7 +341,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 10
+      "mockSeq": 10,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 75,
@@ -365,7 +374,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 11
+      "mockSeq": 11,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 76,
@@ -397,7 +407,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 12
+      "mockSeq": 12,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 77,
@@ -429,7 +440,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 13
+      "mockSeq": 13,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 78,
@@ -461,7 +473,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 14
+      "mockSeq": 14,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 79,
@@ -493,7 +506,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 15
+      "mockSeq": 15,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 80,
@@ -525,7 +539,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 16
+      "mockSeq": 16,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 81,
@@ -557,7 +572,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 17
+      "mockSeq": 17,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 82,
@@ -589,7 +605,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 18
+      "mockSeq": 18,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 83,
@@ -621,7 +638,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 19
+      "mockSeq": 19,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 84,
@@ -653,7 +671,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 20
+      "mockSeq": 20,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 85,
@@ -685,7 +704,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 21
+      "mockSeq": 21,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 86,
@@ -717,7 +737,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 22
+      "mockSeq": 22,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 87,
@@ -749,7 +770,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 23
+      "mockSeq": 23,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 88,
@@ -781,7 +803,9 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 24
+      "mockSeq": 24,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     }
-  ]
+  ],
+  "recall": true
 }

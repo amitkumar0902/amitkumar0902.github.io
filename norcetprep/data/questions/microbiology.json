@@ -9,10 +9,15 @@
       "D. UV light"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• An autoclave sterilises with saturated steam under pressure, typically 121°C at 15 psi for 15 minutes, because moist heat coagulates microbial proteins much faster than dry heat.\n• Dry heat at 160°C is the hot air oven, a separate method, and UV light only surface-disinfects.",
     "topic": "Sterilization",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Sterilisation and Disinfection",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 2,
@@ -24,10 +29,15 @@
       "D. Endoscopes"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• A hot air oven (160°C for 2 hours) is used for items that steam cannot penetrate or would spoil — glassware, metal instruments, oils, powders and greases.\n• Rubber gloves, catheters and endoscopes are heat-labile and need autoclaving or low-temperature chemical methods instead.",
     "topic": "Sterilization",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Sterilisation and Disinfection",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 3,
@@ -39,10 +49,15 @@
       "D. Acid-fast wall"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• Gram-negative bacteria have a thin peptidoglycan layer plus an outer membrane containing lipopolysaccharide (endotoxin), so the crystal violet–iodine complex is washed out by the decolouriser and they take the pink counterstain.\n• Gram-positive organisms have thick peptidoglycan and no outer membrane, and acid-fast bacilli have a waxy mycolic acid wall.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Morphology and Physiology of Bacteria: The Bacterial Cell Wall",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 4,
@@ -54,10 +69,15 @@
       "D. Mosquito"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• Hepatitis B is blood-borne, spreading through infected blood and body fluids — needlestick injury and unsafe injections, transfusion, sexual contact and perinatal transmission from mother to baby.\n• Hepatitis A and E are the faeco-orally transmitted hepatitis viruses.",
     "topic": "Virology",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Hepatitis Viruses",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 5,
@@ -69,10 +89,15 @@
       "D. Viral load"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• The Mantoux test injects 5 TU of PPD intradermally and is read at 48–72 hours by measuring induration, so it detects type IV delayed (cell-mediated) hypersensitivity to tubercular antigens.\n• A positive result indicates infection or prior BCG, not active disease, and it does not measure antibody.",
     "topic": "TB",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Mycobacterium tuberculosis: Tuberculin Testing",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 6,
@@ -84,10 +109,15 @@
       "D. Neutrophils"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• CD4 is the surface marker of helper T lymphocytes, the principal cell infected and destroyed by HIV, which is why the CD4 count is used to stage disease and monitor therapy.\n• Cytotoxic T cells carry CD8 instead.",
     "topic": "HIV",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Human Immunodeficiency Virus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 7,
@@ -99,10 +129,15 @@
       "D. Housefly"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• Malaria is transmitted by the bite of an infected female Anopheles mosquito, which characteristically bites at night.\n• Culex transmits filariasis and Japanese encephalitis, while Aedes transmits dengue, chikungunya and Zika.",
     "topic": "Parasitology",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Malaria Parasites (Plasmodium)",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 8,
@@ -114,10 +149,15 @@
       "D. Memory B cells"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• Passive immunity means ready-made antibody is transferred to the host rather than produced by it, as with maternal IgG crossing the placenta, immunoglobulin or antiserum.\n• It acts immediately but is short-lived, whereas vaccines and natural infection produce active immunity with immunological memory.",
     "topic": "Immunity",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunity to Infection: Active and Passive Immunity",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 9,
@@ -129,10 +169,15 @@
       "D. Only parasites in stool"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• ELISA uses an enzyme-labelled antibody or antigen with a colour-producing substrate to detect and quantify either antigen or antibody in serum, and is the standard screening test for HIV, hepatitis B and dengue.\n• Culture and microscopy, not ELISA, are used to demonstrate organisms directly.",
     "topic": "Diagnostics",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Antigen-Antibody Reactions: Immunoassays",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 10,
@@ -144,10 +189,15 @@
       "D. Soap wash"
     ],
     "correct": 1,
-    "explanation": "• Microbiology/infection control high-yield for NORCET.",
+    "explanation": "• Bacterial spores survive boiling for a few minutes, alcohol rubs and soap washing, so only sporicidal methods such as autoclaving at 121°C, dry heat, glutaraldehyde or ethylene oxide reliably destroy them.\n• This is why alcohol hand rub is ineffective against Clostridioides difficile and hand washing with soap and water is required instead.",
     "topic": "Infection Control",
     "year": "",
-    "difficulty": "Medium"
+    "difficulty": "Medium",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Sterilisation and Disinfection",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 11,
@@ -162,7 +212,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 12,
@@ -177,7 +232,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 13,
@@ -192,7 +252,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 14,
@@ -207,7 +272,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 15,
@@ -222,7 +292,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 16,
@@ -237,7 +312,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 17,
@@ -252,7 +332,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 18,
@@ -267,7 +352,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 19,
@@ -282,7 +372,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 20,
@@ -297,7 +392,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 21,
@@ -312,7 +412,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 22,
@@ -327,7 +432,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 23,
@@ -342,7 +452,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 24,
@@ -357,7 +472,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 25,
@@ -372,7 +492,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 26,
@@ -387,7 +512,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 27,
@@ -402,7 +532,12 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 28,
@@ -417,6 +552,11 @@
     "explanation": "• Staph aureus: gram-positive cocci in clusters.\n• Strep: chains.",
     "topic": "Bacteriology",
     "year": "",
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Staphylococcus",
+    "verified": {
+      "method": "sweep+review",
+      "at": "2026-08-01"
+    }
   }
 ]

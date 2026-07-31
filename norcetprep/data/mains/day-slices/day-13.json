@@ -28,7 +28,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 21,
@@ -59,7 +60,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 23,
@@ -90,7 +92,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 33,
@@ -121,7 +124,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 41,
@@ -152,7 +156,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 50,
@@ -183,7 +188,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "esic-sn-recalls.json"
+    "_sourceFile": "esic-sn-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 72,
@@ -214,7 +220,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 116,
@@ -245,7 +252,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
   },
   {
     "id": 120,
@@ -276,7 +284,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+    "_sourceFile": "norcet-3-mains-2022-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 152,
@@ -307,7 +316,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 161,
@@ -338,7 +348,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 170,
@@ -369,7 +380,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 185,
@@ -400,7 +412,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 195,
@@ -431,12 +444,13 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 219,
     "_origId": "N9-4",
-    "question": "A patient with rheumatoid arthritis has a history of gastric ulcer. Which drug is most appropriate for this patient?",
+    "question": "A woman on long-term treatment for rheumatoid arthritis was hospitalised in the past for a gastric ulcer. Considering that history, which of the following drugs would be the most suitable for controlling her joint disease?",
     "options": [
       "Celecoxib",
       "Naloxone",
@@ -444,28 +458,34 @@
       "Ibuprofen"
     ],
     "correct": 0,
-    "explanation": "Celecoxib is a COX-2 selective inhibitor with lower GI ulcer risk — preferred in RA patients with PUD history.",
+    "explanation": "Celecoxib spares COX-1, the isoform that maintains the protective gastric mucus and bicarbonate layer, so it delivers anti-inflammatory benefit with markedly fewer ulcers and bleeds. That makes it the preferred NSAID when peptic ulcer disease is in the history.",
     "explanations": {
-      "A": "Celecoxib is a COX-2 selective inhibitor with lower GI ulcer risk — preferred in RA patients with PUD history.",
-      "B": "Naloxone is an opioid antagonist; it has no anti-inflammatory role.",
-      "C": "Paracetamol has minimal anti-inflammatory effect; inadequate for RA disease control.",
-      "D": "Ibuprofen is a non-selective NSAID and significantly increases ulcer/bleeding risk."
+      "A": "Celecoxib spares COX-1, the isoform that maintains the protective gastric mucus and bicarbonate layer, so it delivers anti-inflammatory benefit with markedly fewer ulcers and bleeds. That makes it the preferred NSAID when peptic ulcer disease is in the history.",
+      "B": "Naloxone is a pure opioid antagonist used to reverse respiratory depression. It has neither analgesic nor anti-inflammatory activity and no place in arthritis.",
+      "C": "Paracetamol is gastric-friendly but barely anti-inflammatory, so it cannot control the synovitis that drives joint destruction in rheumatoid arthritis.",
+      "D": "Ibuprofen blocks COX-1 as well as COX-2 and would clearly raise the chance of ulcer recurrence and gastrointestinal haemorrhage in a patient already sensitised."
     },
     "subject": "Medical-Surgical",
     "topic": "NSAIDs / GI protection",
     "day": 13,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e — NSAIDs: selective COX-2 inhibitors and gastric safety",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 224,
     "_origId": "N9-9",
-    "question": "Which anti-tuberculosis drug is the most bactericidal?",
+    "question": "Among the drugs used in the standard first-line regimen for tuberculosis, which one is considered to have the greatest bactericidal power against the tubercle bacillus?",
     "options": [
       "Rifampicin",
       "Ethambutol",
@@ -473,28 +493,34 @@
       "Pyrazinamide"
     ],
     "correct": 0,
-    "explanation": "Rifampicin is rated the most bactericidal first-line anti-TB drug; it kills actively dividing and semi-dormant bacilli.",
+    "explanation": "Rifampicin blocks DNA-dependent RNA polymerase and kills bacilli wherever they sit, whether multiplying briskly in cavities, lying semi-dormant in caseous foci or hiding inside macrophages. This breadth of killing, plus its powerful sterilising effect that permits short-course therapy, is why it is ranked the most bactericidal of the first-line drugs.",
     "explanations": {
-      "A": "Rifampicin is rated the most bactericidal first-line anti-TB drug; it kills actively dividing and semi-dormant bacilli.",
-      "B": "Ethambutol is primarily bacteriostatic and used to prevent resistance.",
-      "C": "Isoniazid is highly bactericidal against rapidly dividing bacilli (early bactericidal activity) but rifampicin has the broadest bactericidal reach.",
-      "D": "Pyrazinamide is a sterilising drug effective in acidic intracellular pH; not the most bactericidal overall."
+      "A": "Rifampicin blocks DNA-dependent RNA polymerase and kills bacilli wherever they sit, whether multiplying briskly in cavities, lying semi-dormant in caseous foci or hiding inside macrophages. This breadth of killing, plus its powerful sterilising effect that permits short-course therapy, is why it is ranked the most bactericidal of the first-line drugs.",
+      "B": "Ethambutol inhibits arabinosyl transferase and is essentially bacteriostatic at usual doses. It is added mainly to protect the companion drugs against emerging resistance.",
+      "C": "Isoniazid is strongly cidal against rapidly dividing extracellular bacilli and in fact shows the highest early bactericidal activity in the first two days of treatment, but its reach into slow-growing and intracellular populations is narrower than that of rifampicin.",
+      "D": "Pyrazinamide comes into its own only in the acidic environment inside macrophages and inflamed lesions, killing the persisters that shorten therapy. Outside that niche it is largely inactive, so it is not the most bactericidal drug overall."
     },
     "subject": "Medical-Surgical",
     "topic": "Anti-TB drugs",
     "day": 13,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e — Antitubercular drugs",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 226,
     "_origId": "N9-11",
-    "question": "Calcium gluconate is NOT given by which method?",
+    "question": "A nurse is reviewing the safe ways of giving calcium gluconate. Which one of the following methods of administration must be avoided for this drug?",
     "options": [
       "Fast IV",
       "Slow IV",
@@ -502,28 +528,34 @@
       "Oral route"
     ],
     "correct": 0,
-    "explanation": "Rapid IV push of calcium causes bradycardia, hypotension, cardiac arrest; never given fast IV.",
+    "explanation": "A rapid bolus floods the myocardium with calcium and provokes bradycardia, flushing, hypotension and, at worst, arrest in systole. The risk is greatest in a digitalised patient, so calcium is never pushed fast, and the ECG is watched while it runs.",
     "explanations": {
-      "A": "Rapid IV push of calcium causes bradycardia, hypotension, cardiac arrest; never given fast IV.",
-      "B": "Slow IV push over 5–10 minutes (diluted) is the standard for acute hyperkalemia/tetany.",
-      "C": "IV infusion (diluted in dextrose/saline) over 30–60 minutes is accepted for symptomatic hypocalcemia.",
-      "D": "Oral calcium gluconate is available for maintenance therapy."
+      "A": "A rapid bolus floods the myocardium with calcium and provokes bradycardia, flushing, hypotension and, at worst, arrest in systole. The risk is greatest in a digitalised patient, so calcium is never pushed fast, and the ECG is watched while it runs.",
+      "B": "A slow, diluted intravenous push spread over roughly 5 to 10 minutes is the accepted way to stabilise the myocardium in hyperkalaemia or to abort tetany.",
+      "C": "For symptomatic hypocalcaemia the drug is diluted in dextrose or saline and infused over 30 to 60 minutes, which keeps the plasma level rising gently.",
+      "D": "Oral calcium salts are entirely appropriate for maintenance and for chronic hypocalcaemia once the emergency has passed."
     },
     "subject": "Medical-Surgical",
     "topic": "Electrolytes / Medication safety",
     "day": 13,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — Fluid and electrolyte imbalances: management of hypocalcaemia",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 240,
     "_origId": "N9-25",
-    "question": "A patient with a history of peptic ulcer requires pain management. Which analgesic approach is safest?",
+    "question": "Analgesia has to be planned for a patient who has a documented history of peptic ulcer disease. Which approach to pain relief carries the least risk for this patient?",
     "options": [
       "NSAIDs",
       "Avoid NSAIDs",
@@ -531,28 +563,34 @@
       "NSAIDs with PPI"
     ],
     "correct": 1,
-    "explanation": "Safest approach is to avoid NSAIDs and use acetaminophen or a COX-2 selective with PPI if absolutely required.",
+    "explanation": "Withholding NSAIDs altogether is the safest plan. Paracetamol is the preferred first-line agent, with an opioid added for severe pain; if an anti-inflammatory is truly unavoidable, a COX-2 selective agent under proton pump inhibitor cover is used with informed caution.",
     "explanations": {
-      "A": "NSAIDs directly impair mucosal protection and worsen ulcer.",
-      "B": "Safest approach is to avoid NSAIDs and use acetaminophen or a COX-2 selective with PPI if absolutely required.",
-      "C": "Aspirin is a potent ulcerogenic agent — contraindicated.",
-      "D": "PPI reduces but doesn't eliminate NSAID-induced ulcer risk; outright avoidance is still safest."
+      "A": "Non-selective NSAIDs inhibit COX-1, stripping the mucosa of the prostaglandins that maintain bicarbonate secretion, mucus and mucosal blood flow. In a patient who has already ulcerated, this invites recurrence, bleeding and perforation.",
+      "B": "Withholding NSAIDs altogether is the safest plan. Paracetamol is the preferred first-line agent, with an opioid added for severe pain; if an anti-inflammatory is truly unavoidable, a COX-2 selective agent under proton pump inhibitor cover is used with informed caution.",
+      "C": "Aspirin irreversibly acetylates COX-1 for the life of the platelet, so it damages the mucosa and impairs haemostasis at the same time. It is the most ulcerogenic option listed.",
+      "D": "A proton pump inhibitor substantially reduces, but does not abolish, NSAID-related mucosal injury, and it gives less protection in the distal small bowel and colon. Since the question asks for the safest option, avoidance still outranks NSAID plus PPI."
     },
     "subject": "Medical-Surgical",
     "topic": "Analgesia / GI risk",
     "day": 13,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 242,
     "_origId": "N9-27",
-    "question": "Which of the following is the most common side effect of nitroglycerin?",
+    "question": "Which adverse effect do patients on nitroglycerin report most frequently?",
     "options": [
       "Bradycardia",
       "Headache",
@@ -560,28 +598,34 @@
       "Palpitations"
     ],
     "correct": 1,
-    "explanation": "Cerebral vasodilation → throbbing headache is the commonest NTG side effect.",
+    "explanation": "Dilatation of meningeal vessels produces a throbbing, usually frontal headache, and it is the commonest complaint with every nitrate preparation. It tends to settle over days as tolerance to this effect develops, and paracetamol relieves it; patients are counselled not to abandon therapy because of it.",
     "explanations": {
-      "A": "Nitrates cause reflex tachycardia, not bradycardia.",
-      "B": "Cerebral vasodilation → throbbing headache is the commonest NTG side effect.",
-      "C": "Nausea can occur but is less frequent than headache.",
-      "D": "Palpitations from reflex tachycardia are less common as a complaint than headache."
+      "A": "Nitrates lower blood pressure by venodilatation, and the baroreceptor response to this is reflex tachycardia. Bradycardia is not a typical nitrate effect and, when it appears with inferior wall infarction, it is a reason to withhold the drug.",
+      "B": "Dilatation of meningeal vessels produces a throbbing, usually frontal headache, and it is the commonest complaint with every nitrate preparation. It tends to settle over days as tolerance to this effect develops, and paracetamol relieves it; patients are counselled not to abandon therapy because of it.",
+      "C": "Nausea may accompany the hypotension or the headache but is distinctly less frequent than the headache itself.",
+      "D": "Palpitations do occur through reflex sympathetic activation, particularly after a sublingual dose, but they are reported far less often than headache."
     },
     "subject": "Medical-Surgical",
     "topic": "Nitrates",
     "day": 13,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "KDT Essentials of Medical Pharmacology, 8e",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 292,
     "_origId": "N9-77",
-    "question": "Which anti-tubercular drug is primarily bactericidal?",
+    "question": "Of the first-line anti-tubercular agents listed below, which is bactericidal rather than merely bacteriostatic against Mycobacterium tuberculosis?",
     "options": [
       "Ethambutol",
       "Isoniazid",
@@ -589,28 +633,34 @@
       "Both Isoniazid and Pyrazinamide"
     ],
     "correct": 3,
-    "explanation": "Both INH and PZA are bactericidal first-line drugs; rifampicin is also bactericidal but not listed here.",
+    "explanation": "Both isoniazid and pyrazinamide are bactericidal, each acting on a different bacillary population, so the combined option is the complete answer.",
     "explanations": {
-      "A": "Ethambutol is bacteriostatic.",
-      "B": "Isoniazid is bactericidal, but the question asks which options are bactericidal.",
-      "C": "Pyrazinamide is bactericidal in acidic intracellular environment (sterilising).",
-      "D": "Both INH and PZA are bactericidal first-line drugs; rifampicin is also bactericidal but not listed here."
+      "A": "Ethambutol is tuberculostatic and is included largely to hold back emergence of resistance, not for rapid killing.",
+      "B": "Isoniazid is genuinely bactericidal against rapidly multiplying extracellular bacilli, but it is not the only bactericidal drug offered here.",
+      "C": "Pyrazinamide kills semi-dormant bacilli in the acidic intracellular and caseous environment, which is why it allows therapy to be shortened to six months - again correct but incomplete on its own.",
+      "D": "Both isoniazid and pyrazinamide are bactericidal, each acting on a different bacillary population, so the combined option is the complete answer."
     },
     "subject": "Community Health",
     "topic": "ATT pharmacology",
     "day": 13,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "community-health",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e - antitubercular drugs",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 299,
     "_origId": "N9-84",
-    "question": "A 50-year-old with neuropathic pain after nerve injury is prescribed a medication. Which is most commonly used for neuropathic pain?",
+    "question": "A 50-year-old is left with burning, shooting pain along a nerve after an injury to it. Which drug is most commonly used for pain of this type?",
     "options": [
       "Ibuprofen",
       "Gabapentin",
@@ -618,23 +668,29 @@
       "Morphine"
     ],
     "correct": 1,
-    "explanation": "Gabapentin (or pregabalin) is first-line per WHO analgesic ladder for neuropathic pain.",
+    "explanation": "Gabapentin, like pregabalin, binds the alpha-2-delta subunit of neuronal calcium channels and damps ectopic firing; it is a standard first-line agent alongside tricyclic antidepressants and duloxetine.",
     "explanations": {
-      "A": "NSAIDs are ineffective for neuropathic pain.",
-      "B": "Gabapentin (or pregabalin) is first-line per WHO analgesic ladder for neuropathic pain.",
-      "C": "Acetaminophen targets nociceptive pain.",
-      "D": "Opioids are reserved for refractory cases; not first-line."
+      "A": "Ibuprofen and other NSAIDs act on inflammatory nociceptive pain and give little relief in neuropathic pain.",
+      "B": "Gabapentin, like pregabalin, binds the alpha-2-delta subunit of neuronal calcium channels and damps ectopic firing; it is a standard first-line agent alongside tricyclic antidepressants and duloxetine.",
+      "C": "Paracetamol is a weak central analgesic suited to nociceptive pain and is ineffective here.",
+      "D": "Opioids such as morphine are held back for pain refractory to first-line drugs, because of tolerance, dependence and adverse effects."
     },
     "subject": "Psychiatric",
     "topic": "Neuropathic pain",
     "day": 13,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "psychiatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e - drugs for neuropathic pain",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 341,
@@ -665,7 +721,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 342,
@@ -696,7 +753,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
   },
   {
     "id": 362,
@@ -727,7 +785,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 398,
@@ -758,7 +817,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 399,
@@ -789,7 +849,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 400,
@@ -820,7 +881,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 1508,
@@ -845,7 +907,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 1518,
@@ -870,7 +933,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 1528,
@@ -895,6 +959,7 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 7 Prelims (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   }
 ]

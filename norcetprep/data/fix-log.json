@@ -1,0 +1,54 @@
+{
+  "note": "The public fix-log. Weekly triage appends entries here; fix-log.html renders it. Newest first. Keep it honest — an entry stays even when it is embarrassing.",
+  "entries": [
+    {
+      "date": "2026-08-01",
+      "where": "Foundations · free topic bank (Q57)",
+      "wrong": "The answer key said an underwater-seal chest drainage unit is kept at the level of the patient's chest, and the explanation repeated the error by citing the phlebostatic axis.",
+      "fixed": "Key corrected to below chest level, with an explanation of why gravity drainage and siphon risk decide this. The phlebostatic axis governs haemodynamic transducers, not chest drains.",
+      "found_by": "internal verification sweep"
+    },
+    {
+      "date": "2026-08-01",
+      "where": "Medical-Surgical · free topic bank (Q9)",
+      "wrong": "Hepatic encephalopathy was keyed to a low-protein diet — teaching that has been withdrawn.",
+      "fixed": "Key and explanation updated to current AASLD/EASL and ESPEN guidance: maintain protein at roughly 1.2–1.5 g/kg/day. The explanation now names the older teaching so you recognise it in other question banks.",
+      "found_by": "internal verification sweep"
+    },
+    {
+      "date": "2026-08-01",
+      "where": "Foundations · free topic bank (Q39)",
+      "wrong": "An autoclave question did not say whether the load was wrapped, which made two options defensible (15 vs 30 minutes).",
+      "fixed": "Stem now specifies a wrapped load in a gravity-displacement autoclave, and the explanation states both figures and when each applies.",
+      "found_by": "internal verification sweep"
+    },
+    {
+      "date": "2026-08-01",
+      "where": "Foundations and Medical-Surgical · free topic bank (14 questions)",
+      "wrong": "Fourteen questions began with \"[IMAGE-BASED] The image shows…\" but no image was ever displayed, so the question could not be answered as written.",
+      "fixed": "All fourteen rewritten as self-contained text questions that describe the finding in words.",
+      "found_by": "internal verification sweep"
+    },
+    {
+      "date": "2026-08-01",
+      "where": "NORCET 9 Mains set (121 questions)",
+      "wrong": "The NORCET 9 Mains set reproduced the official paper and was labelled a verbatim replay. Official papers are copyrighted, and the label was wrong on both counts.",
+      "fixed": "All 121 items rewritten as memory-based recall in our own words, with original per-option explanations and source citations. The official PDF was removed from the site. Every page now labels the set memory-based recall.",
+      "found_by": "internal legal and content review"
+    },
+    {
+      "date": "2026-08-01",
+      "where": "Free topic banks (128 questions)",
+      "wrong": "128 questions carried placeholder explanations such as \"Correct option matches standard NORCET teaching\" — text that explains nothing.",
+      "fixed": "All 128 replaced with real explanations that say why the keyed option is right and why the tempting distractor is wrong.",
+      "found_by": "internal verification sweep"
+    },
+    {
+      "date": "2026-08-01",
+      "where": "Every question on the site",
+      "wrong": "Questions did not name the reference behind the fact they tested, so a disputed answer could not be checked against anything.",
+      "fixed": "Every question now carries a source citation at chapter or guideline level, and a validator now fails the build if one is missing.",
+      "found_by": "content pipeline hardening"
+    }
+  ]
+}

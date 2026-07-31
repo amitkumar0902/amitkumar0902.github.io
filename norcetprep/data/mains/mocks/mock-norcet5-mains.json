@@ -4,7 +4,6 @@
   "count": 25,
   "minutes": 60,
   "source": "NORCET 5 Mains 2023 — Recalls",
-  "verbatim": true,
   "subjects": {
     "Medical-Surgical": 7,
     "Community Health": 3,
@@ -48,7 +47,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 175,
@@ -80,7 +80,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 176,
@@ -112,7 +113,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 177,
@@ -144,7 +146,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 178,
@@ -176,7 +179,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 179,
@@ -208,7 +212,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 180,
@@ -240,7 +245,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 181,
@@ -272,7 +278,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 182,
@@ -304,7 +311,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 9
+      "mockSeq": 9,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 183,
@@ -336,7 +344,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 10
+      "mockSeq": 10,
+      "citation": "MoHFW Bio-Medical Waste (Management) Rules 2016 — Schedule I"
     },
     {
       "id": 184,
@@ -368,7 +377,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 11
+      "mockSeq": 11,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 185,
@@ -400,7 +410,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 12
+      "mockSeq": 12,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 186,
@@ -432,7 +443,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 13
+      "mockSeq": 13,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 187,
@@ -464,7 +476,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 14
+      "mockSeq": 14,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 188,
@@ -496,7 +509,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 15
+      "mockSeq": 15,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 189,
@@ -528,7 +542,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 16
+      "mockSeq": 16,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 190,
@@ -560,7 +575,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 17
+      "mockSeq": 17,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 191,
@@ -592,7 +608,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 18
+      "mockSeq": 18,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 192,
@@ -624,7 +641,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 19
+      "mockSeq": 19,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 193,
@@ -656,7 +674,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 20
+      "mockSeq": 20,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 194,
@@ -688,7 +707,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 21
+      "mockSeq": 21,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 195,
@@ -720,7 +740,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 22
+      "mockSeq": 22,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 196,
@@ -752,7 +773,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 23
+      "mockSeq": 23,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 197,
@@ -784,7 +806,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 24
+      "mockSeq": 24,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 198,
@@ -816,7 +839,9 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 25
+      "mockSeq": 25,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     }
-  ]
+  ],
+  "recall": true
 }

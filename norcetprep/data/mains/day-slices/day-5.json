@@ -28,7 +28,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 99,
@@ -59,7 +60,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
   },
   {
     "id": 101,
@@ -90,7 +92,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 102,
@@ -121,7 +124,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-1-mains-2020-recalls.json"
+    "_sourceFile": "norcet-1-mains-2020-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 124,
@@ -152,7 +156,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+    "_sourceFile": "norcet-3-mains-2022-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 156,
@@ -183,7 +188,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 171,
@@ -214,7 +220,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
   },
   {
     "id": 186,
@@ -245,7 +252,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
   },
   {
     "id": 211,
@@ -274,7 +282,8 @@
     "qtype": "recall",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-8-mains-2025-recalls.json"
+    "_sourceFile": "norcet-8-mains-2025-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 215,
@@ -303,12 +312,13 @@
     "qtype": "recall",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-8-mains-2025-recalls.json"
+    "_sourceFile": "norcet-8-mains-2025-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 277,
     "_origId": "N9-62",
-    "question": "A 4-year-old presents with prolonged fever, rash, and conjunctivitis. Kawasaki disease is suspected. Which type of blood vessels is primarily affected?",
+    "question": "A 4-year-old child has had fever for more than five days together with a rash and non-purulent conjunctival redness, and the team is investigating for Kawasaki disease. Blood vessels of which calibre are chiefly attacked in this condition?",
     "options": [
       "Large arteries",
       "Medium-sized arteries",
@@ -316,28 +326,34 @@
       "Veins"
     ],
     "correct": 1,
-    "explanation": "Kawasaki is a medium-vessel vasculitis — coronary aneurysms are the feared complication.",
+    "explanation": "Correct. Kawasaki disease is an acute self-limiting vasculitis of medium-sized muscular arteries, with a particular predilection for the coronary arteries. Coronary dilatation or aneurysm is the complication that determines prognosis, which is why intravenous immunoglobulin plus aspirin is given within the first ten days of fever and echocardiography is performed at diagnosis and repeated during follow-up.",
     "explanations": {
-      "A": "Large-vessel vasculitis (Takayasu, GCA) affects aorta/main branches.",
-      "B": "Kawasaki is a medium-vessel vasculitis — coronary aneurysms are the feared complication.",
-      "C": "Small-vessel vasculitis (HSP, MPA).",
-      "D": "Veins are rarely involved in classical vasculitides."
+      "A": "Large-vessel vasculitides such as Takayasu arteritis and giant cell arteritis involve the aorta and its principal branches. Takayasu does occur in young people, but its presentation is pulse deficits and bruits rather than the mucocutaneous features described here.",
+      "B": "Correct. Kawasaki disease is an acute self-limiting vasculitis of medium-sized muscular arteries, with a particular predilection for the coronary arteries. Coronary dilatation or aneurysm is the complication that determines prognosis, which is why intravenous immunoglobulin plus aspirin is given within the first ten days of fever and echocardiography is performed at diagnosis and repeated during follow-up.",
+      "C": "Small-vessel disease describes IgA vasculitis (Henoch-Schonlein purpura), microscopic polyangiitis and granulomatosis with polyangiitis, which present with palpable purpura, glomerulonephritis or pulmonary haemorrhage rather than coronary involvement.",
+      "D": "Veins are not the target of the classical vasculitis syndromes. Kawasaki disease is defined by arterial wall inflammation."
     },
     "subject": "Community Health",
     "topic": "Kawasaki disease",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "community-health",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — Kawasaki Disease",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 313,
     "_origId": "N9-98",
-    "question": "Boot shaped heart is seen in:",
+    "question": "A boot-shaped cardiac shadow, described as 'coeur en sabot' on a chest radiograph, is the classical appearance in which condition?",
     "options": [
       "Tricuspid atresia",
       "Tetralogy of Fallot",
@@ -345,28 +361,34 @@
       "Total anomalous pulmonary venous return"
     ],
     "correct": 1,
-    "explanation": "TOF produces 'coeur en sabot' (boot-shaped heart) due to RV hypertrophy + small pulmonary trunk.",
+    "explanation": "In tetralogy of Fallot the hypertrophied right ventricle lifts the cardiac apex off the diaphragm while the pulmonary trunk is small, leaving a concave upper left border. Together these produce the upturned-apex, boot-shaped silhouette with oligaemic lung fields.",
     "explanations": {
-      "A": "Tricuspid atresia shows left axis deviation but not classic boot shape.",
-      "B": "TOF produces 'coeur en sabot' (boot-shaped heart) due to RV hypertrophy + small pulmonary trunk.",
-      "C": "Truncus arteriosus has a single great vessel, no typical boot shape.",
-      "D": "TAPVR produces 'snowman' or 'figure-of-eight' cardiac silhouette."
+      "A": "Tricuspid atresia is recognised by left axis deviation on ECG with a small or normal-sized heart; it does not give the classical boot contour.",
+      "B": "In tetralogy of Fallot the hypertrophied right ventricle lifts the cardiac apex off the diaphragm while the pulmonary trunk is small, leaving a concave upper left border. Together these produce the upturned-apex, boot-shaped silhouette with oligaemic lung fields.",
+      "C": "Truncus arteriosus gives a single great vessel with plethoric lungs and often a right aortic arch, not a boot shape.",
+      "D": "Supracardiac total anomalous pulmonary venous return gives the 'snowman' or figure-of-eight silhouette produced by the dilated vertical vein and superior vena cava."
     },
     "subject": "Pediatric",
     "topic": "Congenital heart disease",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 314,
     "_origId": "N9-99",
-    "question": "A baby with eczema is prescribed a topical corticosteroid. What advice should be given to the parent?",
+    "question": "The parents of an infant with eczema are given a topical corticosteroid cream. Which instruction should the nurse stress while counselling them?",
     "options": [
       "Apply at night time to reduce systemic absorption",
       "Gastric irritation occurs when hands are put in mouth",
@@ -374,28 +396,34 @@
       "Apply a thin layer only on the affected area and avoid prolonged use"
     ],
     "correct": 3,
-    "explanation": "Thin layer to affected area only; short-term use; avoid occlusion and prolonged use (risk of skin atrophy, striae, HPA-axis suppression in infants).",
+    "explanation": "This is the essential counselling point. A thin film should be applied only to the affected skin for the shortest effective period, occlusive dressings and tight nappies should be avoided over treated skin, and only the mildest effective potency should be used on the face and flexures. Prolonged or extensive use in infants risks skin atrophy, striae, telangiectasia and suppression of the hypothalamic-pituitary-adrenal axis, because the infant's surface-area-to-weight ratio favours absorption.",
     "explanations": {
-      "A": "Timing isn't the main concern; dose/area/duration is.",
-      "B": "Topical steroids don't cause gastric irritation with typical use.",
-      "C": "Hypertrichosis is possible but not the main counselling point.",
-      "D": "Thin layer to affected area only; short-term use; avoid occlusion and prolonged use (risk of skin atrophy, striae, HPA-axis suppression in infants)."
+      "A": "The time of day makes no material difference to absorption. What governs systemic uptake is the potency of the preparation, the surface area treated, the thinness of the skin and the length of treatment.",
+      "B": "Topical corticosteroids do not cause gastric irritation in the quantities a child might transfer to the mouth; the systemic hazards are adrenal suppression and growth effects, not gastritis.",
+      "C": "Hypertrichosis can occur at the application site, but it is a minor cosmetic effect and not the key safety message.",
+      "D": "This is the essential counselling point. A thin film should be applied only to the affected skin for the shortest effective period, occlusive dressings and tight nappies should be avoided over treated skin, and only the mildest effective potency should be used on the face and flexures. Prolonged or extensive use in infants risks skin atrophy, striae, telangiectasia and suppression of the hypothalamic-pituitary-adrenal axis, because the infant's surface-area-to-weight ratio favours absorption."
     },
     "subject": "Pediatric",
     "topic": "Topical steroid counseling",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 316,
     "_origId": "N9-101",
-    "question": "Which of the following is an early sign of increased intracranial pressure (ICP) in children?",
+    "question": "In a child developing raised intracranial pressure, which of the following features appears earliest?",
     "options": [
       "Altered level of consciousness",
       "Headache",
@@ -403,28 +431,34 @@
       "Seizures"
     ],
     "correct": 0,
-    "explanation": "Altered LOC (irritability, lethargy, poor feeding) is the earliest and most sensitive sign in children.",
+    "explanation": "A change in level of consciousness is the earliest and most sensitive indicator. In young children it shows as irritability, an unusual high-pitched cry, refusal to feed, restlessness or drowsiness, and it precedes any change in pupils, blood pressure or respiratory pattern.",
     "explanations": {
-      "A": "Altered LOC (irritability, lethargy, poor feeding) is the earliest and most sensitive sign in children.",
-      "B": "Headache requires verbal ability; often absent in infants.",
-      "C": "Vomiting follows LOC changes.",
-      "D": "Seizures are late signs."
+      "A": "A change in level of consciousness is the earliest and most sensitive indicator. In young children it shows as irritability, an unusual high-pitched cry, refusal to feed, restlessness or drowsiness, and it precedes any change in pupils, blood pressure or respiratory pattern.",
+      "B": "Headache is a genuine symptom but depends on the child being old enough to report it, so it is missed in infants and toddlers.",
+      "C": "Vomiting, classically effortless and worse in the morning, follows the change in behaviour and consciousness rather than preceding it.",
+      "D": "Seizures indicate advanced intracranial hypertension. Together with bradycardia, widened pulse pressure and irregular respiration (Cushing's triad) and pupillary changes, they are late and ominous signs."
     },
     "subject": "Pediatric",
     "topic": "Raised ICP (Pediatric)",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Wong's Nursing Care of Infants and Children 11e",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 319,
     "_origId": "N9-104",
-    "question": "A 2-month-old has increasing head circumference, vomiting, downward deviation of eyes, tense anterior fontanelle and sunset sign. MRI: cystic dilatation of 4th ventricle with cerebellar vermis hypoplasia. Dandy-Walker syndrome suspected. Underlying mechanism?",
+    "question": "A 2-month-old is brought with repeated vomiting and a rapidly enlarging head. The anterior fontanelle is tense and full and both eyes are deviated downwards with sclera visible above the iris (setting-sun sign). MRI shows a cystically dilated fourth ventricle with hypoplasia of the cerebellar vermis, and Dandy-Walker malformation is diagnosed. Which mechanism underlies the hydrocephalus?",
     "options": [
       "Aqueductal stenosis → supratentorial hydrocephalus",
       "Atresia of Luschka and Magendie → non-communicating hydrocephalus",
@@ -432,28 +466,34 @@
       "CSF malabsorption by defective arachnoid granulations"
     ],
     "correct": 1,
-    "explanation": "Dandy-Walker = atresia of foramina Luschka/Magendie → cystic 4th ventricle, vermis hypoplasia, non-communicating hydrocephalus.",
+    "explanation": "Dandy-Walker malformation results from failure of development of the outlet foramina of Luschka and Magendie, so cerebrospinal fluid cannot escape from the fourth ventricle. The trapped fluid balloons the fourth ventricle into a posterior fossa cyst, the vermis fails to form fully, and a non-communicating (obstructive) hydrocephalus develops with an enlarging head, tense fontanelle and setting-sun eyes.",
     "explanations": {
-      "A": "Aqueductal stenosis causes a different form of non-communicating hydrocephalus.",
-      "B": "Dandy-Walker = atresia of foramina Luschka/Magendie → cystic 4th ventricle, vermis hypoplasia, non-communicating hydrocephalus.",
-      "C": "Choroid plexus papilloma, not Dandy-Walker.",
-      "D": "Communicating hydrocephalus / post-meningitic, not Dandy-Walker."
+      "A": "Stenosis of the cerebral aqueduct is the commonest cause of congenital obstructive hydrocephalus, but it dilates the lateral and third ventricles while leaving the fourth ventricle small - the opposite of the MRI finding here.",
+      "B": "Dandy-Walker malformation results from failure of development of the outlet foramina of Luschka and Magendie, so cerebrospinal fluid cannot escape from the fourth ventricle. The trapped fluid balloons the fourth ventricle into a posterior fossa cyst, the vermis fails to form fully, and a non-communicating (obstructive) hydrocephalus develops with an enlarging head, tense fontanelle and setting-sun eyes.",
+      "C": "Excess cerebrospinal fluid production is characteristic of a choroid plexus papilloma, which shows an intraventricular mass, not a cystic posterior fossa with an absent vermis.",
+      "D": "Impaired absorption at the arachnoid granulations produces a communicating hydrocephalus, typically after meningitis or subarachnoid haemorrhage, and would not distort the vermis or the fourth ventricle in this way."
     },
     "subject": "Pediatric",
     "topic": "Dandy-Walker",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 320,
     "_origId": "N9-105",
-    "question": "A 5-year-old with acute diarrhea. Under ICDS protocol, what is the appropriate dose and duration of zinc supplementation?",
+    "question": "A 5-year-old is brought with acute watery diarrhoea. Following the national diarrhoea-management protocol used in India's ICDS and IMNCI services, what dose of zinc should be given and for how long?",
     "options": [
       "10 mg daily for 7 days",
       "20 mg daily for 14 days",
@@ -461,28 +501,34 @@
       "30 mg daily for 7 days"
     ],
     "correct": 1,
-    "explanation": "WHO/IMNCI: zinc 20 mg daily × 14 days for children ≥6 months with diarrhoea.",
+    "explanation": "Every child aged 6 months and above receives elemental zinc 20 mg once daily for 14 days along with low-osmolarity ORS. The full 14 days matter because zinc shortens the current episode and also lowers the risk of further diarrhoea over the following two to three months.",
     "explanations": {
-      "A": "10 mg × 14 days is for infants <6 months.",
-      "B": "WHO/IMNCI: zinc 20 mg daily × 14 days for children ≥6 months with diarrhoea.",
-      "C": "15 mg/10 days is non-standard.",
-      "D": "30 mg/7 days is non-standard."
+      "A": "The 10 mg dose belongs to infants under 6 months, and even for them the duration is 14 days, not 7. Both parts of this option are wrong for a 5-year-old.",
+      "B": "Every child aged 6 months and above receives elemental zinc 20 mg once daily for 14 days along with low-osmolarity ORS. The full 14 days matter because zinc shortens the current episode and also lowers the risk of further diarrhoea over the following two to three months.",
+      "C": "A 15 mg dose for 10 days appears in no national or WHO protocol.",
+      "D": "A 30 mg dose for 7 days is not a recommended regimen; the standard schedule is fixed at 20 mg for 14 days in this age group."
     },
     "subject": "Pediatric",
     "topic": "Diarrhoea management / Zinc",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "recall",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "WHO/UNICEF joint statement on clinical management of acute diarrhoea; MoHFW IMNCI guidelines",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 323,
     "_origId": "N9-108",
-    "question": "A 6-week-old infant has projectile vomiting after feeds, weight loss, palpable olive-shaped mass in RUQ, and visible peristalsis. What is the most likely diagnosis?",
+    "question": "A 6-week-old boy vomits forcefully after every feed, the vomit contains no bile, and he has begun to lose weight. A firm olive-sized lump is palpable in the right upper abdomen and peristaltic waves are visible crossing the epigastrium. What is the most likely diagnosis?",
     "options": [
       "Gastroesophageal reflux disease (GERD)",
       "Intussusception",
@@ -490,28 +536,34 @@
       "Duodenal atresia"
     ],
     "correct": 2,
-    "explanation": "Classic HPS — non-bilious projectile vomiting, palpable olive mass, visible gastric peristalsis in 4–8 week-old.",
+    "explanation": "This is classic infantile hypertrophic pyloric stenosis. It declares itself between 3 and 8 weeks of age, more often in first-born males, with non-bilious projectile vomiting, an insatiable appetite immediately afterwards, weight loss and the palpable pyloric 'olive'. The obstruction is above the ampulla, so the vomit contains no bile, and loss of gastric acid produces a hypochloraemic hypokalaemic metabolic alkalosis that must be corrected before pyloromyotomy. Ultrasound confirms the thickened elongated pylorus.",
     "explanations": {
-      "A": "GERD is posseting, not projectile vomiting with olive mass.",
-      "B": "Intussusception presents with colic + currant-jelly stools, typically 6–18 months.",
-      "C": "Classic HPS — non-bilious projectile vomiting, palpable olive mass, visible gastric peristalsis in 4–8 week-old.",
-      "D": "Duodenal atresia presents in the first day of life with bilious vomiting and 'double bubble' on X-ray."
+      "A": "Reflux produces effortless posseting or regurgitation soon after feeds, usually in a thriving baby. It never produces a palpable olive or visible gastric peristalsis.",
+      "B": "Intussusception typically strikes between 6 and 18 months with paroxysmal colic, drawing up of the legs, a sausage-shaped mass and redcurrant-jelly stools, and the vomiting turns bilious rather than remaining non-bilious.",
+      "C": "This is classic infantile hypertrophic pyloric stenosis. It declares itself between 3 and 8 weeks of age, more often in first-born males, with non-bilious projectile vomiting, an insatiable appetite immediately afterwards, weight loss and the palpable pyloric 'olive'. The obstruction is above the ampulla, so the vomit contains no bile, and loss of gastric acid produces a hypochloraemic hypokalaemic metabolic alkalosis that must be corrected before pyloromyotomy. Ultrasound confirms the thickened elongated pylorus.",
+      "D": "Duodenal atresia presents within the first day or two of life with bilious vomiting and the 'double bubble' sign on abdominal X-ray, and it is strongly associated with Down syndrome."
     },
     "subject": "Pediatric",
     "topic": "Hypertrophic pyloric stenosis",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 324,
     "_origId": "N9-109",
-    "question": "A newborn has clubfoot (inward and downward foot). What is the first-line treatment?",
+    "question": "On examining a newborn, the nurse notes that one foot is turned inward at the heel and points downward, and it cannot be brought passively to a neutral position. Which line of management should be undertaken first?",
     "options": [
       "Immediate surgical correction",
       "Observation and follow-up",
@@ -519,28 +571,34 @@
       "Physical therapy alone"
     ],
     "correct": 2,
-    "explanation": "Ponseti method — weekly manipulation and plaster casts (average 5–6 casts), optional Achilles tenotomy, followed by bracing — gold standard.",
+    "explanation": "The Ponseti technique is the accepted gold standard. The foot is gently manipulated and then held in a long-leg plaster changed weekly, typically over about five to six casts; roughly 80 percent need a percutaneous Achilles tenotomy for the residual equinus, after which a foot-abduction brace maintains the correction for several years. Best results come from starting in the first week or two of life while the tissues are still elastic.",
     "explanations": {
-      "A": "Surgery reserved for failed conservative correction.",
-      "B": "Clubfoot does not self-correct.",
-      "C": "Ponseti method — weekly manipulation and plaster casts (average 5–6 casts), optional Achilles tenotomy, followed by bracing — gold standard.",
-      "D": "Physical therapy alone is inadequate."
+      "A": "Operative release is held in reserve for the minority of feet that remain resistant or relapse after a full course of casting and bracing; it is never the opening step in an untreated newborn.",
+      "B": "True congenital talipes equinovarus is a fixed structural deformity of bone, joint and soft tissue. Unlike positional foot postures it will not resolve on its own, and waiting only makes the tissues stiffer and correction harder.",
+      "C": "The Ponseti technique is the accepted gold standard. The foot is gently manipulated and then held in a long-leg plaster changed weekly, typically over about five to six casts; roughly 80 percent need a percutaneous Achilles tenotomy for the residual equinus, after which a foot-abduction brace maintains the correction for several years. Best results come from starting in the first week or two of life while the tissues are still elastic.",
+      "D": "Stretching and exercises without serial immobilisation cannot hold the corrected position between sessions, so the deformity recurs. Physiotherapy has a supporting role only."
     },
     "subject": "Pediatric",
     "topic": "Congenital talipes equinovarus",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — congenital talipes equinovarus (Ponseti technique)",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 325,
     "_origId": "N9-110",
-    "question": "A 3-year-old has 3 days of fever and chills in a malaria-endemic area. Per IMNCI guidelines, what is the most appropriate initial management?",
+    "question": "In an area where malaria transmission is high, a 3-year-old is brought to the health centre with fever and chills of three days' duration. Working under the IMNCI protocol, what should the nurse arrange first?",
     "options": [
       "Administer oral antibiotics immediately",
       "Refer to a higher center without treatment",
@@ -548,28 +606,34 @@
       "Start antipyretics and observe for 48 hours"
     ],
     "correct": 2,
-    "explanation": "Rapid diagnostic test (RDT) / microscopy and species-specific ACT treatment per NVBDCP guidelines.",
+    "explanation": "National policy is parasitological confirmation before treatment: a bivalent rapid diagnostic test or a blood smear, then species-directed therapy — chloroquine with primaquine for confirmed P. vivax, and artemisinin-based combination therapy with single-dose primaquine for P. falciparum. Any danger sign converts the plan to a pre-referral dose plus urgent transfer.",
     "explanations": {
-      "A": "Antibiotics not indicated without bacterial diagnosis.",
-      "B": "Delayed treatment worsens outcomes; RDT available at peripheral levels.",
-      "C": "Rapid diagnostic test (RDT) / microscopy and species-specific ACT treatment per NVBDCP guidelines.",
-      "D": "Observation alone for 48 h in a febrile child risks severe malaria."
+      "A": "There is nothing here pointing to a bacterial focus. Handing out antibiotics for undifferentiated fever in a malarious belt both misses the likely diagnosis and drives resistance.",
+      "B": "Referral without any assessment or treatment wastes time the child does not have. Rapid diagnostic kits and antimalarials are stocked down to the sub-centre and ASHA level precisely so that confirmation and treatment can begin where the child presents.",
+      "C": "National policy is parasitological confirmation before treatment: a bivalent rapid diagnostic test or a blood smear, then species-directed therapy — chloroquine with primaquine for confirmed P. vivax, and artemisinin-based combination therapy with single-dose primaquine for P. falciparum. Any danger sign converts the plan to a pre-referral dose plus urgent transfer.",
+      "D": "Falciparum malaria can progress to cerebral malaria or severe anaemia within hours. Suppressing the fever and waiting two days simply removes the one warning sign the family was watching."
     },
     "subject": "Pediatric",
     "topic": "IMNCI / Malaria",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "MoHFW National Drug Policy on Malaria (NVBDCP/NCVBDC) and IMNCI guidelines",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 326,
     "_origId": "N9-111",
-    "question": "A newborn with neonatal diabetes mellitus type I (hyperglycemia, weight loss). What is the most appropriate initial treatment?",
+    "question": "Hyperglycaemia that persists along with failure to gain weight leads to a diagnosis of neonatal diabetes mellitus in an infant. Which therapy should be instituted at the outset?",
     "options": [
       "Oral hypoglycemic agents",
       "Insulin therapy",
@@ -577,28 +641,34 @@
       "Observation without medication"
     ],
     "correct": 1,
-    "explanation": "Neonatal DM is absolute insulin deficiency → insulin (often continuous infusion) is first-line.",
+    "explanation": "Neonatal diabetes reflects an absolute lack of circulating insulin, so insulin replacement is the immediate answer. A continuous intravenous infusion is usually preferred at first because it can be titrated in very small increments against frequent glucose readings in a baby of low body weight, and it is converted to a subcutaneous regimen once the infant is stable.",
     "explanations": {
-      "A": "Sulfonylureas may be used later in KATP channel neonatal DM, but not initial therapy.",
-      "B": "Neonatal DM is absolute insulin deficiency → insulin (often continuous infusion) is first-line.",
-      "C": "Dietary management is insufficient.",
-      "D": "Observation risks DKA and death."
+      "A": "A sulfonylurea such as glibenclamide does have a place, but only later and only in the subset shown on genetic testing to have an activating KCNJ11 or ABCC8 mutation of the KATP channel. Glucose control has to be established with insulin while that result is awaited.",
+      "B": "Neonatal diabetes reflects an absolute lack of circulating insulin, so insulin replacement is the immediate answer. A continuous intravenous infusion is usually preferred at first because it can be titrated in very small increments against frequent glucose readings in a baby of low body weight, and it is converted to a subcutaneous regimen once the infant is stable.",
+      "C": "Feeding adjustments alone cannot supply the missing hormone. Restricting intake in a baby already losing weight adds starvation to the metabolic problem.",
+      "D": "Untreated, the osmotic diuresis leads to dehydration, ketoacidosis and death. There is no role for watchful waiting once hyperglycaemia is confirmed."
     },
     "subject": "Pediatric",
     "topic": "Neonatal DM",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — neonatal diabetes mellitus",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 328,
     "_origId": "N9-113",
-    "question": "A 3-year-old plays with clay, holding and manipulating it with fingers. Which fine motor skill is being demonstrated?",
+    "question": "While observing free play, a nurse sees a 3-year-old squeezing and shaping a lump of clay between the fingers and palms. This behaviour illustrates which fine motor accomplishment?",
     "options": [
       "Scribbling with a crayon",
       "Building a tower of 6–8 blocks",
@@ -606,28 +676,34 @@
       "Copying a circle"
     ],
     "correct": 2,
-    "explanation": "Hand/finger molding of clay (pincer + palmar manipulation) is a characteristic 3-year skill.",
+    "explanation": "Kneading and moulding a soft material calls for a mature pincer grasp combined with in-hand palmar manipulation and bilateral coordination, which is exactly the level of fine motor control typical of a 3-year-old. It is the behaviour set out in the scenario.",
     "explanations": {
-      "A": "Scribbling is an 18–24 month skill.",
-      "B": "Stacking 6–8 blocks appears at 24 months.",
-      "C": "Hand/finger molding of clay (pincer + palmar manipulation) is a characteristic 3-year skill.",
-      "D": "Copying a circle is a 3-year skill too, but not the behaviour in the stem."
+      "A": "Spontaneous scribbling appears much earlier, around 15 to 18 months, and imitation of a vertical stroke by about 2 years. It is not what the child in the scenario is doing.",
+      "B": "A tower of six cubes is expected at about 24 months and eight to nine cubes by roughly 30 months. Stacking is a different manipulative skill from moulding and is not described here.",
+      "C": "Kneading and moulding a soft material calls for a mature pincer grasp combined with in-hand palmar manipulation and bilateral coordination, which is exactly the level of fine motor control typical of a 3-year-old. It is the behaviour set out in the scenario.",
+      "D": "Copying a circle is indeed a 3-year milestone, but the question asks which skill the child is demonstrating, and no drawing is taking place."
     },
     "subject": "Pediatric",
     "topic": "Developmental milestones",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — developmental milestones",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 329,
     "_origId": "N9-114",
-    "question": "A newborn with meningocele (sac on lower back, no infection/hemorrhage). What is the most likely finding in CSF analysis?",
+    "question": "A baby is born with a fluid-filled sac protruding over the lower back; there is no bleeding into it and no clinical evidence of infection. If cerebrospinal fluid were sampled, what would the analysis most likely show?",
     "options": [
       "Elevated white blood cell count",
       "Normal CSF composition",
@@ -635,28 +711,34 @@
       "Decreased glucose levels"
     ],
     "correct": 1,
-    "explanation": "Uncomplicated meningocele has normal CSF — only meninges protrude; cord remains intact.",
+    "explanation": "In a meningocele the defect contains only meninges and cerebrospinal fluid; the spinal cord and nerve roots stay within the canal. With the sac intact and uninfected the fluid retains normal cell count, protein, glucose and pressure. This is also why neurological function is usually preserved, in contrast to myelomeningocele.",
     "explanations": {
-      "A": "Elevated WBC suggests meningitis.",
-      "B": "Uncomplicated meningocele has normal CSF — only meninges protrude; cord remains intact.",
-      "C": "Elevated RBC suggests hemorrhage.",
-      "D": "Low glucose suggests bacterial meningitis."
+      "A": "Pleocytosis would mean meningitis, a recognised complication when the sac leaks or ruptures, but the scenario specifically excludes infection.",
+      "B": "In a meningocele the defect contains only meninges and cerebrospinal fluid; the spinal cord and nerve roots stay within the canal. With the sac intact and uninfected the fluid retains normal cell count, protein, glucose and pressure. This is also why neurological function is usually preserved, in contrast to myelomeningocele.",
+      "C": "Red cells in the fluid would indicate haemorrhage into the sac or a traumatic tap, neither of which is present.",
+      "D": "A low cerebrospinal fluid glucose, typically under two-thirds of the blood value, is the hallmark of bacterial meningitis because organisms and inflammatory cells consume glucose. It has no reason to occur in an uncomplicated meningocele."
     },
     "subject": "Pediatric",
     "topic": "Neural tube defects",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — neural tube defects",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 330,
     "_origId": "N9-115",
-    "question": "A newborn with myelomeningocele is being monitored. What is the most likely finding related to the anterior fontanelle if ICP is increased?",
+    "question": "A newborn with myelomeningocele is kept under close watch for a rise in intracranial pressure. Which change at the anterior fontanelle would support that suspicion?",
     "options": [
       "Sunken fontanelle",
       "Normal fontanelle",
@@ -664,28 +746,34 @@
       "Closed fontanelle"
     ],
     "correct": 2,
-    "explanation": "Increased CSF pressure → bulging, tense anterior fontanelle + split sutures + 'sunset' eyes.",
+    "explanation": "Most babies with myelomeningocele develop hydrocephalus, frequently on the basis of an associated Arnold-Chiari II malformation. As cerebrospinal fluid accumulates the anterior fontanelle becomes full, tense and bulging when the infant is held upright and settled, and it is accompanied by separation of the cranial sutures, a head circumference crossing centiles, dilated scalp veins, the 'setting sun' eye sign, a high-pitched cry, vomiting and irritability.",
     "explanations": {
-      "A": "Sunken fontanelle indicates dehydration.",
-      "B": "Normal fontanelle rules out raised ICP.",
-      "C": "Increased CSF pressure → bulging, tense anterior fontanelle + split sutures + 'sunset' eyes.",
-      "D": "Anterior fontanelle closes by 18 months; early closure suggests craniosynostosis."
+      "A": "A depressed fontanelle points the other way, towards volume depletion from dehydration, and is accompanied by dry mucosa, reduced skin turgor and poor urine output.",
+      "B": "A soft, flat fontanelle that pulsates normally when the baby is quiet and upright is a reassuring finding and argues against raised pressure.",
+      "C": "Most babies with myelomeningocele develop hydrocephalus, frequently on the basis of an associated Arnold-Chiari II malformation. As cerebrospinal fluid accumulates the anterior fontanelle becomes full, tense and bulging when the infant is held upright and settled, and it is accompanied by separation of the cranial sutures, a head circumference crossing centiles, dilated scalp veins, the 'setting sun' eye sign, a high-pitched cry, vomiting and irritability.",
+      "D": "The anterior fontanelle normally closes between 12 and 18 months. Premature closure suggests craniosynostosis and is not a marker of acutely raised pressure in the newborn."
     },
     "subject": "Pediatric",
     "topic": "Raised ICP in neonates",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — raised intracranial pressure in infancy",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 331,
     "_origId": "N9-116",
-    "question": "A 5-year-old with asthma is prescribed 2 puffs of Asthalin (salbutamol) every 6 hours. Which is the most important instruction?",
+    "question": "The parents of a 5-year-old with asthma are being taught about a metered-dose inhaler of Asthalin (salbutamol), 2 puffs to be taken every 6 hours. Which instruction matters most?",
     "options": [
       "Administer only during acute asthma attacks",
       "Use a spacer device for effective delivery",
@@ -693,28 +781,34 @@
       "Administer before meals only"
     ],
     "correct": 1,
-    "explanation": "In children <12 years, spacer is mandatory with MDI to improve lung deposition and reduce oropharyngeal side effects.",
+    "explanation": "A young child cannot reliably coordinate actuation with a slow deep inhalation and cannot hold the breath for ten seconds. A valved holding chamber removes the need for that timing, lets the child breathe tidally through it for five to six breaths, cuts the high-velocity oropharyngeal impaction and roughly doubles the drug reaching the lower airway. Below 5 years the spacer is fitted with a face mask; above that a mouthpiece is used, and rinsing the mouth afterwards is still advised.",
     "explanations": {
-      "A": "Salbutamol can be regular reliever + rescue, not only PRN.",
-      "B": "In children <12 years, spacer is mandatory with MDI to improve lung deposition and reduce oropharyngeal side effects.",
-      "C": "Self-escalation is dangerous without medical advice.",
-      "D": "Salbutamol timing doesn't depend on meals."
+      "A": "The drug has been prescribed on a fixed six-hourly schedule, so restricting it to attacks contradicts the order. Salbutamol can be used both as scheduled relief and as rescue medication.",
+      "B": "A young child cannot reliably coordinate actuation with a slow deep inhalation and cannot hold the breath for ten seconds. A valved holding chamber removes the need for that timing, lets the child breathe tidally through it for five to six breaths, cuts the high-velocity oropharyngeal impaction and roughly doubles the drug reaching the lower airway. Below 5 years the spacer is fitted with a face mask; above that a mouthpiece is used, and rinsing the mouth afterwards is still advised.",
+      "C": "Doubling the dose on the family's own initiative masks deteriorating control and delays medical review; excess beta-2 stimulation also brings tremor, tachycardia and hypokalaemia. Escalation belongs in a written action plan agreed with the clinician.",
+      "D": "Inhaled salbutamol acts locally on airway smooth muscle and its absorption is not influenced by food, so linking doses to mealtimes serves no purpose."
     },
     "subject": "Pediatric",
     "topic": "Pediatric inhaler technique",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Ghai Essential Pediatrics 9e — inhalation therapy in childhood asthma",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 336,
     "_origId": "N9-121",
-    "question": "Discharge instructions for an infant with a jejunostomy at home — which is emphasized?",
+    "question": "Parents are being prepared to take home an infant who is fed through a jejunostomy tube. Which point should the nurse stress in the discharge teaching?",
     "options": [
       "Administer high-calorie formula orally to promote weight gain",
       "Monitor the jejunostomy site daily for signs of infection or leakage",
@@ -722,23 +816,29 @@
       "Restrict fluid intake to prevent excessive output from the jejunostomy"
     ],
     "correct": 1,
-    "explanation": "Daily site inspection for redness, leakage, skin breakdown is the core home-care instruction; report promptly.",
+    "explanation": "Daily inspection of the exit site is the cornerstone of home care. Parents are taught to look for redness, swelling, warmth, discharge, excoriated skin, granulation tissue and leakage of feed around the tube, to keep the site clean and dry, to check the external marking so displacement is recognised, and to report any of these promptly. Leaking jejunal contents rapidly erode the surrounding skin, and a dislodged tube is an emergency because the tract closes quickly.",
     "explanations": {
-      "A": "Oral feeds are not the goal with jejunostomy; feeding is via the tube.",
-      "B": "Daily site inspection for redness, leakage, skin breakdown is the core home-care instruction; report promptly.",
-      "C": "Alcohol is too drying/irritating for stoma skin; mild soap and water are preferred.",
-      "D": "Fluid restriction risks dehydration; output is managed, not fluids restricted."
+      "A": "A jejunostomy is placed precisely because the oral or gastric route is unsafe or inadequate. Nutrition goes through the tube, usually as a continuous or slow intermittent infusion since the jejunum cannot handle bolus volumes; any oral intake is introduced only on the team's advice.",
+      "B": "Daily inspection of the exit site is the cornerstone of home care. Parents are taught to look for redness, swelling, warmth, discharge, excoriated skin, granulation tissue and leakage of feed around the tube, to keep the site clean and dry, to check the external marking so displacement is recognised, and to report any of these promptly. Leaking jejunal contents rapidly erode the surrounding skin, and a dislodged tube is an emergency because the tract closes quickly.",
+      "C": "Alcohol dehydrates and irritates peristomal skin and can degrade the tube material. Mild soap and water, dried well, is the recommended routine.",
+      "D": "Withholding fluid in an infant on jejunal feeding invites dehydration and electrolyte disturbance. High output is managed by adjusting the rate, concentration or formula composition, and by replacing losses, not by limiting what the child receives."
     },
     "subject": "Pediatric",
     "topic": "Jejunostomy home care",
     "day": 5,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "scenario",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — enteral feeding tube and stoma site care",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 370,
@@ -769,7 +869,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 383,
@@ -800,7 +901,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 1511,
@@ -825,7 +927,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1521,
@@ -850,7 +953,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1531,
@@ -875,6 +979,7 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 5 (2023)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   }
 ]

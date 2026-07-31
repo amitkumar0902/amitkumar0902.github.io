@@ -7,7 +7,7 @@
     {
       "id": 261,
       "_origId": "N9-46",
-      "question": "A 28-year-old woman has a history of 3 consecutive first-trimester abortions, no structural uterine abnormality, normal blood sugars, and is positive for antiphospholipid antibody. What is the most likely diagnosis?",
+      "question": "A 28-year-old woman has lost three pregnancies in a row, each in the first trimester. Imaging shows a structurally normal uterus, her blood sugar values are normal, and antiphospholipid antibody testing is positive. Which diagnosis best explains this history?",
       "options": [
         "Antiphospholipid syndrome",
         "Recurrent pregnancy loss due to uterine anomaly",
@@ -15,24 +15,30 @@
         "Pre-eclampsia"
       ],
       "correct": 0,
-      "explanation": "APS diagnosis = ≥3 consecutive first-trimester losses + positive aPL antibody (lupus anticoagulant / anticardiolipin / β2-GPI) on two occasions 12 weeks apart.",
+      "explanation": "Three or more consecutive early losses together with persistently positive antiphospholipid antibodies, meaning lupus anticoagulant, anticardiolipin or anti-beta2-glycoprotein I confirmed on two samples at least 12 weeks apart, establish antiphospholipid syndrome.",
       "explanations": {
-        "A": "APS diagnosis = ≥3 consecutive first-trimester losses + positive aPL antibody (lupus anticoagulant / anticardiolipin / β2-GPI) on two occasions 12 weeks apart.",
-        "B": "Ruled out — no structural anomaly.",
-        "C": "Ruled out — normal sugars.",
-        "D": "Pre-eclampsia is a late-pregnancy syndrome."
+        "A": "Three or more consecutive early losses together with persistently positive antiphospholipid antibodies, meaning lupus anticoagulant, anticardiolipin or anti-beta2-glycoprotein I confirmed on two samples at least 12 weeks apart, establish antiphospholipid syndrome.",
+        "B": "A structural cause is excluded by the normal uterine anatomy described in the scenario.",
+        "C": "Normal glucose values argue against gestational diabetes, which in any case manifests later in pregnancy rather than as repeated early loss.",
+        "D": "Pre-eclampsia is a disorder of the second half of pregnancy and cannot account for repeated first-trimester miscarriage."
       },
       "subject": "OBG",
       "topic": "Recurrent pregnancy loss",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 1
+      "mockSeq": 1,
+      "citation": "Dutta's Textbook of Obstetrics 9e — recurrent miscarriage; revised Sapporo (Sydney) classification criteria for antiphospholipid syndrome",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 155,
@@ -64,7 +70,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 2
+      "mockSeq": 2,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 2,
@@ -96,7 +103,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 3
+      "mockSeq": 3,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 371,
@@ -128,12 +136,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 4
+      "mockSeq": 4,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 266,
       "_origId": "N9-51",
-      "question": "Which maneuver is specifically used for head delivery during labour?",
+      "question": "Which of the following manoeuvres is performed specifically to control delivery of the fetal head?",
       "options": [
         "Ritgen maneuver",
         "McRoberts maneuver",
@@ -141,24 +150,30 @@
         "Woods screw maneuver"
       ],
       "correct": 0,
-      "explanation": "Ritgen maneuver — controlled delivery of fetal head to prevent perineal tear.",
+      "explanation": "The Ritgen manoeuvre applies pressure through the perineum onto the fetal chin with counter-pressure on the occiput, easing the head out slowly and guarding the perineum from tearing.",
       "explanations": {
-        "A": "Ritgen maneuver — controlled delivery of fetal head to prevent perineal tear.",
-        "B": "McRoberts is for shoulder dystocia.",
-        "C": "Pinard's maneuver is used to deliver a breech (frank breech with extended legs).",
-        "D": "Woods screw is a shoulder-dystocia rotational maneuver."
+        "A": "The Ritgen manoeuvre applies pressure through the perineum onto the fetal chin with counter-pressure on the occiput, easing the head out slowly and guarding the perineum from tearing.",
+        "B": "McRoberts manoeuvre, hyperflexion of the maternal hips onto the abdomen, is the first step in managing shoulder dystocia.",
+        "C": "Pinard's manoeuvre flexes and delivers an extended fetal leg in a frank breech presentation.",
+        "D": "The Woods screw manoeuvre rotates impacted shoulders and is likewise a shoulder dystocia technique."
       },
       "subject": "OBG",
       "topic": "Labour maneuvers",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 5
+      "mockSeq": 5,
+      "citation": "Dutta's Textbook of Obstetrics 9e — conduct of normal labour and obstetric manoeuvres",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 137,
@@ -190,12 +205,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 6
+      "mockSeq": 6,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 241,
       "_origId": "N9-26",
-      "question": "A patient develops headache and dizziness after a lumbar puncture. What is the most appropriate immediate nursing action?",
+      "question": "A few hours after undergoing a lumbar puncture, a patient reports headache accompanied by dizziness. Which nursing measure is most appropriate at this point?",
       "options": [
         "Send sample to laboratory",
         "Position patient in prone",
@@ -203,29 +219,35 @@
         "Encourage deep breathing"
       ],
       "correct": 1,
-      "explanation": "Post-LP headache is managed by keeping the patient flat (supine or prone) for several hours with fluids; reduces CSF leak symptoms.",
+      "explanation": "Post-lumbar-puncture headache arises from continued leakage of cerebrospinal fluid through the dural hole, which lowers intracranial pressure and drags on pain-sensitive structures when the patient sits up. Keeping the patient lying flat, prone with a pillow under the abdomen, presses tissue against tissue at the puncture site and helps the leak seal; generous oral fluids and analgesia complete the care.",
       "explanations": {
-        "A": "The CSF sample is usually already sent; the focus now is patient comfort/safety.",
-        "B": "Post-LP headache is managed by keeping the patient flat (supine or prone) for several hours with fluids; reduces CSF leak symptoms.",
-        "C": "Notify after addressing positioning and fluids if pain is severe/persistent.",
-        "D": "Deep breathing doesn't resolve low-pressure headache."
+        "A": "The cerebrospinal fluid specimen is dispatched at the time of the procedure and is a documentation matter. It contributes nothing to the patient's present symptom.",
+        "B": "Post-lumbar-puncture headache arises from continued leakage of cerebrospinal fluid through the dural hole, which lowers intracranial pressure and drags on pain-sensitive structures when the patient sits up. Keeping the patient lying flat, prone with a pillow under the abdomen, presses tissue against tissue at the puncture site and helps the leak seal; generous oral fluids and analgesia complete the care.",
+        "C": "The physician is informed if the headache is severe, persists beyond the usual period or is accompanied by fever, neck stiffness or neurological signs suggesting a blood patch or another diagnosis is needed. Simple positioning comes first.",
+        "D": "Deep breathing exercises are useful for atelectasis, not for a low-pressure headache, and straining may transiently worsen the discomfort."
       },
       "subject": "Medical-Surgical",
       "topic": "Post-LP headache",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 7
+      "mockSeq": 7,
+      "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 258,
       "_origId": "N9-43",
-      "question": "Identify the item shown in the image (fenestrated obstetric drape with V-shaped leg opening).",
+      "question": "A labour room nurse opens a sterile drape that carries a V-shaped cut-out at the end where the woman's legs are positioned, so that only the perineum is left exposed for a vaginal birth. What is this drape called?",
       "options": [
         "Obstetric V-Drape",
         "Episiotomy Pack",
@@ -233,24 +255,30 @@
         "Cesarean Section Drape"
       ],
       "correct": 0,
-      "explanation": "V-drape isolates the perineum for vaginal delivery; V-shaped cut-out at the leg opening.",
+      "explanation": "The obstetric V-drape is defined by its V-shaped leg opening, which isolates the perineal field during a vaginal delivery.",
       "explanations": {
-        "A": "V-drape isolates the perineum for vaginal delivery; V-shaped cut-out at the leg opening.",
-        "B": "Episiotomy packs hold instruments, not drapes.",
-        "C": "Perineal sheet is a smaller under-buttock drape.",
-        "D": "Cesarean drape has an abdominal fenestration, not a V leg opening."
+        "A": "The obstetric V-drape is defined by its V-shaped leg opening, which isolates the perineal field during a vaginal delivery.",
+        "B": "An episiotomy pack is an assembled set of instruments, sutures and dressings rather than a single fenestrated drape.",
+        "C": "A perineal sheet is the smaller under-buttock drape placed beneath the woman to collect liquor and blood.",
+        "D": "A caesarean drape is fenestrated over the lower abdomen for a transverse lower segment incision, with no leg opening."
       },
       "subject": "OBG",
       "topic": "Obstetric supplies",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
-      "qtype": "image",
+      "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 8
+      "mockSeq": 8,
+      "citation": "AORN Guidelines for Perioperative Practice — sterile technique and draping",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 54,
@@ -282,7 +310,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 9
+      "mockSeq": 9,
+      "citation": "AAP/AHA Neonatal Resuscitation Program 8e — Delivery Room Management"
     },
     {
       "id": 210,
@@ -312,7 +341,8 @@
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 10
+      "mockSeq": 10,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 347,
@@ -344,7 +374,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 11
+      "mockSeq": 11,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 190,
@@ -376,7 +407,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 12
+      "mockSeq": 12,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 381,
@@ -408,37 +440,44 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 13
+      "mockSeq": 13,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 273,
       "_origId": "N9-58",
-      "question": "A 45-year-old patient on isoniazid therapy for tuberculosis presents with numbness and tingling in the extremities. Which intervention should the nurse prioritize?",
+      "question": "Some weeks into anti-tubercular treatment that includes isoniazid, a 45-year-old man reports that both his hands and feet feel numb and keep tingling. Which nursing action takes priority?",
       "options": [
-        "Administer vitamin B12 supplements",
-        "Increase the dose of isoniazid",
-        "Administer vitamin B6 (pyridoxine) supplements",
-        "Discontinue isoniazid immediately"
+        "Give vitamin B12 supplementation",
+        "Raise the isoniazid dose",
+        "Give vitamin B6 (pyridoxine) supplementation",
+        "Stop isoniazid at once"
       ],
       "correct": 2,
-      "explanation": "INH inhibits pyridoxal-5-phosphate → B6 deficiency → peripheral neuropathy. Treatment: pyridoxine 10–50 mg/day.",
+      "explanation": "This is the correct action. Isoniazid competes with pyridoxine and increases its urinary loss, depleting pyridoxal-5-phosphate and producing a symmetrical distal sensory neuropathy. Pyridoxine 10 mg daily is given prophylactically to those at risk (malnourished, diabetic, alcohol-dependent, pregnant, HIV-positive), and 50-100 mg daily once neuropathy has appeared. Treatment for tuberculosis continues alongside.",
       "explanations": {
-        "A": "B12 treats pernicious anemia-related neuropathy, not INH neuropathy.",
-        "B": "Increasing INH worsens the neuropathy.",
-        "C": "INH inhibits pyridoxal-5-phosphate → B6 deficiency → peripheral neuropathy. Treatment: pyridoxine 10–50 mg/day.",
-        "D": "INH is stopped only if severe; routine practice is to add pyridoxine to prevent/treat."
+        "A": "Cobalamin deficiency does cause a peripheral neuropathy, but the mechanism here is entirely different. Giving B12 leaves the underlying pyridoxine depletion uncorrected and the symptoms will persist.",
+        "B": "Escalating the dose is the opposite of what is required. Neuropathy from isoniazid is dose-related, so a higher dose would deepen the deficiency and worsen the sensory symptoms.",
+        "C": "This is the correct action. Isoniazid competes with pyridoxine and increases its urinary loss, depleting pyridoxal-5-phosphate and producing a symmetrical distal sensory neuropathy. Pyridoxine 10 mg daily is given prophylactically to those at risk (malnourished, diabetic, alcohol-dependent, pregnant, HIV-positive), and 50-100 mg daily once neuropathy has appeared. Treatment for tuberculosis continues alongside.",
+        "D": "Abrupt withdrawal of a first-line drug interrupts an effective regimen and risks acquired resistance. Isoniazid is discontinued only if the neuropathy is severe or fails to respond after adequate pyridoxine; it is not the first response to mild paraesthesiae."
       },
       "subject": "Community Health",
       "topic": "TB / Isoniazid neuropathy",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 14
+      "mockSeq": 14,
+      "citation": "KDT Essentials of Medical Pharmacology 8e — Antitubercular Drugs",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 193,
@@ -470,12 +509,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 15
+      "mockSeq": 15,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 234,
       "_origId": "N9-19",
-      "question": "A COPD patient develops respiratory acidosis. Which intervention is most appropriate?",
+      "question": "Arterial blood gas analysis on a patient admitted with an acute exacerbation of chronic obstructive pulmonary disease confirms respiratory acidosis. Which management step is most appropriate at this stage?",
       "options": [
         "Administer oxygen via BiPAP",
         "Start mechanical ventilation",
@@ -483,29 +523,35 @@
         "Restrict fluids"
       ],
       "correct": 0,
-      "explanation": "BiPAP (NIV) is first-line for COPD exacerbation with respiratory acidosis — it unloads work of breathing and improves CO2 clearance.",
+      "explanation": "Non-invasive ventilation delivered as BiPAP is the established first-line therapy for a COPD exacerbation complicated by hypercapnic respiratory acidosis. The inspiratory pressure augments alveolar ventilation so carbon dioxide is washed out, while the expiratory pressure offsets intrinsic PEEP and relieves the work of breathing. Early NIV lowers intubation rates, hospital stay and mortality.",
       "explanations": {
-        "A": "BiPAP (NIV) is first-line for COPD exacerbation with respiratory acidosis — it unloads work of breathing and improves CO2 clearance.",
-        "B": "Invasive ventilation is reserved for NIV failure or contraindication.",
-        "C": "Bicarbonate does not treat the underlying hypoventilation and can cause paradoxical CSF acidosis.",
-        "D": "Fluid restriction doesn't address respiratory failure."
+        "A": "Non-invasive ventilation delivered as BiPAP is the established first-line therapy for a COPD exacerbation complicated by hypercapnic respiratory acidosis. The inspiratory pressure augments alveolar ventilation so carbon dioxide is washed out, while the expiratory pressure offsets intrinsic PEEP and relieves the work of breathing. Early NIV lowers intubation rates, hospital stay and mortality.",
+        "B": "Intubation and invasive ventilation are held in reserve for patients who cannot tolerate NIV, who have a depressed sensorium or unprotected airway, or who continue to deteriorate on a trial of non-invasive support. Choosing it first exposes the patient to ventilator-associated pneumonia and weaning difficulty that NIV avoids.",
+        "C": "Intravenous bicarbonate does nothing about the alveolar hypoventilation that is generating the acidosis. It also liberates additional carbon dioxide, which diffuses freely across the blood-brain barrier and can deepen central nervous system acidosis while the arterial pH appears to improve.",
+        "D": "Limiting fluid intake has no bearing on carbon dioxide retention. It is a measure for volume overload states and, if applied here, may only add dehydration and thickened secretions to an already obstructed airway."
       },
       "subject": "Medical-Surgical",
       "topic": "COPD / NIV",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 16
+      "mockSeq": 16,
+      "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 302,
       "_origId": "N9-87",
-      "question": "A patient reports 3 months of low mood followed by a recent period of excessive energy, talkativeness, and reckless behavior. Bipolar I disorder is suspected. What is the most likely current diagnosis?",
+      "question": "After roughly three months of low mood, a patient has more recently become unusually energetic, over-talkative and reckless with money and driving; bipolar I disorder is suspected. How is the present episode best labelled?",
       "options": [
         "Major depressive disorder",
         "Bipolar I disorder with current manic episode",
@@ -513,24 +559,30 @@
         "Bipolar II disorder with hypomania"
       ],
       "correct": 1,
-      "explanation": "Past depression + current manic episode (excessive energy, reckless behavior) = Bipolar I with current manic episode.",
+      "explanation": "A preceding depressive phase followed by a current episode of elevated energy, pressured talk and disinhibited, risky behaviour makes this bipolar I disorder, currently manic.",
       "explanations": {
-        "A": "MDD has no manic/hypomanic episode.",
-        "B": "Past depression + current manic episode (excessive energy, reckless behavior) = Bipolar I with current manic episode.",
-        "C": "GAD involves chronic worry, not mood cycling.",
-        "D": "Bipolar II requires hypomania (less severe, <1 week, no functional impairment)."
+        "A": "Major depressive disorder is excluded once a manic episode has occurred at any point in the illness.",
+        "B": "A preceding depressive phase followed by a current episode of elevated energy, pressured talk and disinhibited, risky behaviour makes this bipolar I disorder, currently manic.",
+        "C": "Generalised anxiety disorder is sustained worry and tension without any cycling of mood.",
+        "D": "Bipolar II is diagnosed when the highs are hypomanic - shorter than a week, without marked functional impairment, psychosis or need for admission - which does not fit this picture."
       },
       "subject": "Psychiatric",
       "topic": "Bipolar disorder",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 17
+      "mockSeq": 17,
+      "citation": "American Psychiatric Association DSM-5-TR - bipolar and related disorders",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 390,
@@ -562,7 +614,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 18
+      "mockSeq": 18,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 46,
@@ -594,12 +647,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 19
+      "mockSeq": 19,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 259,
       "_origId": "N9-44",
-      "question": "A cardiotocography tracing shows cord compression. Which fetal heart rate pattern is most expected?",
+      "question": "Continuous electronic fetal monitoring during labour suggests that the umbilical cord is being compressed. Which fetal heart rate change best fits this situation?",
       "options": [
         "Variable decelerations",
         "Late decelerations",
@@ -607,24 +661,30 @@
         "Hypoxia"
       ],
       "correct": 0,
-      "explanation": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
+      "explanation": "Cord compression produces variable decelerations, which are abrupt in onset and recovery and differ from one another in depth, shape and their timing relative to contractions.",
       "explanations": {
-        "A": "Cord compression produces variable decelerations (abrupt onset, variable depth/timing).",
-        "B": "Late decels indicate uteroplacental insufficiency.",
-        "C": "Early decels mirror contractions; caused by fetal head compression.",
-        "D": "Hypoxia is an outcome, not a CTG pattern."
+        "A": "Cord compression produces variable decelerations, which are abrupt in onset and recovery and differ from one another in depth, shape and their timing relative to contractions.",
+        "B": "Late decelerations begin after a contraction has started and recover after it ends, reflecting uteroplacental insufficiency.",
+        "C": "Early decelerations mirror the contraction curve and arise from vagal reflex during fetal head compression.",
+        "D": "Hypoxia is a physiological state that a tracing may suggest; it is not itself a named deceleration pattern."
       },
       "subject": "OBG",
       "topic": "CTG interpretation",
       "day": 3,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 20
+      "mockSeq": 20,
+      "citation": "ACOG Practice Bulletin on intrapartum fetal heart rate monitoring (NICHD nomenclature)",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 369,
@@ -656,7 +716,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 21
+      "mockSeq": 21,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 72,
@@ -688,7 +749,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 22
+      "mockSeq": 22,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 97,
@@ -720,7 +782,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 23
+      "mockSeq": 23,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 73,
@@ -752,7 +815,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "jipmer-sn-recalls.json",
-      "mockSeq": 24
+      "mockSeq": 24,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 99,
@@ -784,12 +848,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 25
+      "mockSeq": 25,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 227,
       "_origId": "N9-12",
-      "question": "What is the recommended breathing rate during CPR in a patient with an advanced airway?",
+      "question": "Cardiopulmonary resuscitation is in progress on an adult and an advanced airway has just been secured. While compressions continue without pause, how many ventilations per minute should be delivered?",
       "options": [
         "10 breaths per minute",
         "12 breaths per minute",
@@ -797,24 +862,30 @@
         "6 breaths per minute"
       ],
       "correct": 0,
-      "explanation": "AHA 2020 — with an advanced airway, give 1 breath every 6 seconds = 10 breaths/min with continuous chest compressions.",
+      "explanation": "Once a tracheal tube or supraglottic device is in place the cycles of 30:2 are abandoned. One breath is delivered every 6 seconds, which works out to 10 per minute, while chest compressions carry on continuously at 100 to 120 per minute. Anything faster raises intrathoracic pressure and cuts venous return.",
       "explanations": {
-        "A": "AHA 2020 — with an advanced airway, give 1 breath every 6 seconds = 10 breaths/min with continuous chest compressions.",
-        "B": "12 breaths/min is the rescue breathing rate without compressions.",
-        "C": "20/min is used only in pediatric advanced airway (every 2–3 s).",
-        "D": "6/min is a pediatric rescue breathing rate in specific contexts, not adult CPR."
+        "A": "Once a tracheal tube or supraglottic device is in place the cycles of 30:2 are abandoned. One breath is delivered every 6 seconds, which works out to 10 per minute, while chest compressions carry on continuously at 100 to 120 per minute. Anything faster raises intrathoracic pressure and cuts venous return.",
+        "B": "Twelve per minute, or one every 5 seconds, is the rate for rescue breathing in a patient who has a pulse but is not breathing adequately, not for CPR with compressions.",
+        "C": "A rate near 20 to 30 per minute, one breath every 2 to 3 seconds, is the paediatric and neonatal recommendation with an advanced airway and is far too fast for an adult.",
+        "D": "Six per minute would under-ventilate an adult in arrest; the 6-second figure refers to the interval between breaths, not to the number of breaths per minute."
       },
       "subject": "Medical-Surgical",
       "topic": "BLS/ACLS",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 26
+      "mockSeq": 26,
+      "citation": "AHA CPR & ECC Guidelines 2020 — Adult Basic and Advanced Life Support",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 172,
@@ -846,7 +917,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-4-mains-2023-recalls.json",
-      "mockSeq": 27
+      "mockSeq": 27,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 205,
@@ -876,7 +948,8 @@
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 28
+      "mockSeq": 28,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 212,
@@ -906,7 +979,8 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-8-mains-2025-recalls.json",
-      "mockSeq": 29
+      "mockSeq": 29,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 383,
@@ -938,7 +1012,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 30
+      "mockSeq": 30,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 177,
@@ -970,12 +1045,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 31
+      "mockSeq": 31,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 305,
       "_origId": "N9-90",
-      "question": "A patient with schizophrenia speaks in a way that frequently drifts off-topic. This is identified as a disorder of thought form. Which term best describes it?",
+      "question": "Asked a direct question, a patient with schizophrenia gives a reply that keeps veering away from the point and never comes back to it. This abnormality in the form of thought is termed:",
       "options": [
         "Flight of ideas",
         "Tangentiality",
@@ -983,59 +1059,71 @@
         "Loose associations"
       ],
       "correct": 1,
-      "explanation": "Tangentiality — replies veer off-topic and never return to the original point.",
+      "explanation": "Tangentiality: the answer sets off at an angle to the question and never returns, so the point asked about is never reached.",
       "explanations": {
-        "A": "Flight of ideas involves rapid, pressured speech jumping between related ideas (mania).",
-        "B": "Tangentiality — replies veer off-topic and never return to the original point.",
-        "C": "Thought blocking is abrupt stoppage of speech/thoughts.",
-        "D": "Loose associations involve disconnected ideas with no logical link — more severe than tangentiality."
+        "A": "Flight of ideas is the rapid, pressured stream of mania in which each idea sparks the next through links that can still be followed.",
+        "B": "Tangentiality: the answer sets off at an angle to the question and never returns, so the point asked about is never reached.",
+        "C": "Thought blocking is an abrupt break in the flow of speech, the patient losing the thread in mid-sentence.",
+        "D": "Loosening of associations, also called derailment or knight's move thinking, is a more severe breakdown in which consecutive ideas have no discernible link at all."
       },
       "subject": "Psychiatric",
       "topic": "Thought disorder",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 32
+      "mockSeq": 32,
+      "citation": "Kaplan & Sadock's Synopsis of Psychiatry 12e - formal thought disorder in the mental status examination",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 315,
       "_origId": "N9-100",
-      "question": "In NICU, which respiratory distress assessment score is used?",
+      "question": "Which scoring system or systems are used in the neonatal intensive care unit to grade the severity of respiratory distress in a newborn?",
       "options": [
         "Silverman-Anderson score",
         "Downes score",
-        "Both a and b",
-        "Only a"
+        "Both the Silverman-Anderson and the Downes score",
+        "The APGAR score"
       ],
       "correct": 2,
-      "explanation": "Both Silverman-Anderson AND Downes are used in NICU to grade neonatal respiratory distress.",
+      "explanation": "Both scores are in routine NICU use: Silverman-Anderson grades retractions, grunting and nasal flaring, while Downes adds cyanosis and air entry.",
       "explanations": {
-        "A": "Silverman-Anderson is used primarily for preterm neonates.",
-        "B": "Downes score includes cyanosis, air entry; used in older neonates / broader contexts.",
-        "C": "Both Silverman-Anderson AND Downes are used in NICU to grade neonatal respiratory distress.",
-        "D": "Limiting to Silverman-Anderson alone is inaccurate."
+        "A": "The Silverman-Anderson score grades five signs - upper chest movement, lower chest retraction, xiphoid retraction, nasal flaring and expiratory grunt - each 0 to 2 for a total of 10, and is favoured in preterm infants. It is correct but incomplete as an answer.",
+        "B": "The Downes score grades respiratory rate, cyanosis, air entry, grunting and retractions, again 0 to 2 each, and is preferred in term and near-term babies; a score above 6 signals impending respiratory failure. Also correct but incomplete.",
+        "C": "Both scores are in routine NICU use: Silverman-Anderson grades retractions, grunting and nasal flaring, while Downes adds cyanosis and air entry.",
+        "D": "APGAR grades adaptation in the first minutes of life; it is not a respiratory-distress severity score."
       },
       "subject": "Pediatric",
       "topic": "Respiratory distress scoring",
       "day": 4,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 33
+      "mockSeq": 33,
+      "citation": "Ghai Essential Pediatrics 9e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 237,
       "_origId": "N9-22",
-      "question": "A patient presents with pelvic trauma associated with testicular injury. What is the priority nursing action?",
+      "question": "A man brought to the emergency department after a pelvic injury is also found to have sustained trauma to the scrotum and testis. Which nursing action takes priority?",
       "options": [
         "Insert Foley catheter immediately",
         "Avoid urethral catheterization",
@@ -1043,24 +1131,30 @@
         "Start antibiotics and send urine culture"
       ],
       "correct": 1,
-      "explanation": "Blood at meatus, scrotal/perineal hematoma → avoid Foley until retrograde urethrogram rules out urethral injury; supra-pubic cystostomy preferred.",
+      "explanation": "Pelvic fracture with scrotal or perineal bruising, blood at the external meatus or a high-riding prostate signals possible urethral disruption. Catheterisation is withheld until a retrograde urethrogram clears the urethra; if the bladder needs draining before that, a suprapubic cystostomy is the safe route.",
       "explanations": {
-        "A": "Blind catheterization can convert a partial urethral tear into complete disruption.",
-        "B": "Blood at meatus, scrotal/perineal hematoma → avoid Foley until retrograde urethrogram rules out urethral injury; supra-pubic cystostomy preferred.",
-        "C": "Pain relief alone ignores possible urethral disruption and bladder retention.",
-        "D": "Antibiotics and culture are secondary to ruling out urethral injury."
+        "A": "Passing a catheter blindly across an injured urethra is the classic error in pelvic trauma. A partial tear can be converted into a complete transection, with later stricture, incontinence and impotence as the price.",
+        "B": "Pelvic fracture with scrotal or perineal bruising, blood at the external meatus or a high-riding prostate signals possible urethral disruption. Catheterisation is withheld until a retrograde urethrogram clears the urethra; if the bladder needs draining before that, a suprapubic cystostomy is the safe route.",
+        "C": "Ice and reassurance address scrotal swelling and pain but leave a possible urethral tear and retained urine undetected. Comfort measures cannot substitute for ruling out a tract injury.",
+        "D": "Antibiotics and a urine culture may be needed later, but they neither identify nor protect against urethral disruption, and obtaining the specimen may itself require the catheter that must be avoided."
       },
       "subject": "Medical-Surgical",
       "topic": "Urethral injury / Pelvic trauma",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 34
+      "mockSeq": 34,
+      "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 199,
@@ -1090,37 +1184,44 @@
       "section": "midwifery",
       "tags": [],
       "_sourceFile": "norcet-6-mains-2024-recalls.json",
-      "mockSeq": 35
+      "mockSeq": 35,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 287,
       "_origId": "N9-72",
-      "question": "What is the primary purpose of the unique health ID under the Ayushman Bharat Digital Mission?",
+      "question": "Under the Ayushman Bharat Digital Mission, what is the unique health ID chiefly meant to accomplish?",
       "options": [
-        "Provide financial assistance for hospital admissions",
-        "Create a universal health identity for seamless healthcare access",
-        "Track vaccination records only",
-        "Monitor disease outbreaks in real-time"
+        "To fund the cost of hospital admissions",
+        "To establish a universal health identity through which healthcare and health records can be accessed seamlessly",
+        "To maintain immunisation records and nothing more",
+        "To carry out real-time surveillance of disease outbreaks"
       ],
       "correct": 1,
-      "explanation": "ABHA (Ayushman Bharat Health Account) is a unique 14-digit ID for health records — enables longitudinal EHR and seamless healthcare access.",
+      "explanation": "Correct. The Ayushman Bharat Health Account, or ABHA, is a 14-digit identifier issued free of cost that lets an individual link, store and share their health records across providers with consent. It is the identity layer of the digital ecosystem, which also includes the healthcare professionals and health facility registries, and its purpose is a longitudinal record that follows the patient between facilities.",
       "explanations": {
-        "A": "Financial cover is PM-JAY.",
-        "B": "ABHA (Ayushman Bharat Health Account) is a unique 14-digit ID for health records — enables longitudinal EHR and seamless healthcare access.",
-        "C": "Vaccination tracking is done via U-WIN/CoWIN, not the sole purpose of the health ID.",
-        "D": "Outbreak monitoring is via IDSP, not ABHA."
+        "A": "Paying for hospitalisation is the function of PM-JAY, the insurance arm of Ayushman Bharat. The digital mission creates infrastructure rather than financial cover, and holding a health ID confers no entitlement to funds.",
+        "B": "Correct. The Ayushman Bharat Health Account, or ABHA, is a 14-digit identifier issued free of cost that lets an individual link, store and share their health records across providers with consent. It is the identity layer of the digital ecosystem, which also includes the healthcare professionals and health facility registries, and its purpose is a longitudinal record that follows the patient between facilities.",
+        "C": "Immunisation data are handled through U-WIN and Co-WIN. Vaccination records can be linked to ABHA, but confining its purpose to that misses the point of a lifelong health record.",
+        "D": "Outbreak detection and reporting run through the Integrated Disease Surveillance Programme and the Integrated Health Information Platform, which are surveillance systems and not individual identity accounts."
       },
       "subject": "Community Health",
       "topic": "ABDM / Digital Health",
       "day": 6,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "community-health",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 36
+      "mockSeq": 36,
+      "citation": "National Health Authority — Ayushman Bharat Digital Mission (ABDM) / ABHA guidelines",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 102,
@@ -1152,12 +1253,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 37
+      "mockSeq": 37,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 298,
       "_origId": "N9-83",
-      "question": "A 35-year-old on antipsychotic medication reports a constant urge to move and an inability to stay seated. Which condition is most likely?",
+      "question": "A 35-year-old taking an antipsychotic complains of an inner restlessness that keeps him pacing and unable to remain seated. Which adverse reaction does this describe?",
       "options": [
         "Tardive dyskinesia",
         "Akathisia",
@@ -1165,29 +1267,35 @@
         "Parkinsonism"
       ],
       "correct": 1,
-      "explanation": "Akathisia is subjective restlessness + observable inability to sit still — early EPS; treated with propranolol/benzodiazepines and dose reduction.",
+      "explanation": "Akathisia couples a subjective sense of inner restlessness with visible fidgeting, pacing and inability to sit still; it emerges early, is dose-related, and is managed by reducing the dose and adding propranolol or a benzodiazepine.",
       "explanations": {
-        "A": "TD is late-onset involuntary oro-lingual movements.",
-        "B": "Akathisia is subjective restlessness + observable inability to sit still — early EPS; treated with propranolol/benzodiazepines and dose reduction.",
-        "C": "Acute dystonia is sustained muscle contraction (torticollis, oculogyric crisis).",
-        "D": "Parkinsonism features tremor, rigidity, bradykinesia, not restlessness."
+        "A": "Tardive dyskinesia appears after months to years of treatment as involuntary chewing, lip-smacking and tongue movements, not as an urge to move.",
+        "B": "Akathisia couples a subjective sense of inner restlessness with visible fidgeting, pacing and inability to sit still; it emerges early, is dose-related, and is managed by reducing the dose and adding propranolol or a benzodiazepine.",
+        "C": "Acute dystonia produces sustained, painful muscle spasm such as torticollis, trismus or an oculogyric crisis.",
+        "D": "Drug-induced parkinsonism causes tremor, rigidity, bradykinesia and a mask-like face - slowing rather than restlessness."
       },
       "subject": "Psychiatric",
       "topic": "EPS / Akathisia",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 38
+      "mockSeq": 38,
+      "citation": "KDT Essentials of Medical Pharmacology 8e - antipsychotic drugs and extrapyramidal reactions",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 243,
       "_origId": "N9-28",
-      "question": "A patient is suspected of having acute pancreatitis. Which laboratory values are most commonly elevated?",
+      "question": "Acute pancreatitis is suspected in a patient presenting with severe epigastric pain radiating to the back. Which laboratory result is most characteristically raised in this condition?",
       "options": [
         "Amylase and lipase",
         "Triglycerides",
@@ -1195,29 +1303,35 @@
         "Creatinine"
       ],
       "correct": 0,
-      "explanation": "Serum amylase and especially lipase (>3× upper limit) are the diagnostic biomarkers of acute pancreatitis.",
+      "explanation": "Serum amylase and lipase are the diagnostic biomarkers. A value greater than three times the upper limit of normal, together with typical pain, satisfies the diagnostic criteria without imaging. Lipase is the better test because it is more specific to the pancreas and stays elevated for eight to fourteen days, whereas amylase rises early and falls within two to three days.",
       "explanations": {
-        "A": "Serum amylase and especially lipase (>3× upper limit) are the diagnostic biomarkers of acute pancreatitis.",
-        "B": "Triglycerides are a cause of pancreatitis but not the diagnostic marker.",
-        "C": "ALT/AST rise in biliary pancreatitis but are not specific to pancreas.",
-        "D": "Creatinine rises if AKI complicates severe disease but isn't primary."
+        "A": "Serum amylase and lipase are the diagnostic biomarkers. A value greater than three times the upper limit of normal, together with typical pain, satisfies the diagnostic criteria without imaging. Lipase is the better test because it is more specific to the pancreas and stays elevated for eight to fourteen days, whereas amylase rises early and falls within two to three days.",
+        "B": "Marked hypertriglyceridaemia is an important cause of pancreatitis rather than a marker of it, and it can even falsely suppress the measured amylase.",
+        "C": "Transaminases climb when a gallstone obstructs the common channel, so they help identify a biliary aetiology, but they arise from hepatocytes and are not pancreas-specific.",
+        "D": "A rising creatinine reflects acute kidney injury from third-space fluid loss and signals severe disease on prognostic scoring. It is a marker of complication, not of diagnosis."
       },
       "subject": "Medical-Surgical",
       "topic": "Pancreatitis / Enzymes",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 39
+      "mockSeq": 39,
+      "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 296,
       "_origId": "N9-81",
-      "question": "A 25-year-old expresses a persistent urge to wear female clothing and identifies with a gender different from assigned sex at birth. What is the most appropriate term?",
+      "question": "A 25-year-old client describes a lasting wish to dress in women's clothing and says his inner sense of himself does not match the sex recorded at birth. Which term is being described?",
       "options": [
         "Gender dysphoria",
         "Transvestism",
@@ -1225,24 +1339,30 @@
         "Gender conformity"
       ],
       "correct": 1,
-      "explanation": "Per Target High's answer key — the stem highlights 'persistent urge to wear female clothing', best described as transvestism (cross-dressing) rather than full gender dysphoria.",
+      "explanation": "Marked correct in the examination key: transvestism means the persistent urge to cross-dress, and the key treats the emphasis on wearing women's clothing as the defining feature of this vignette.",
       "explanations": {
-        "A": "Gender dysphoria describes distress from incongruence — but the patient description emphasises dressing behaviour.",
-        "B": "Per Target High's answer key — the stem highlights 'persistent urge to wear female clothing', best described as transvestism (cross-dressing) rather than full gender dysphoria.",
-        "C": "Homosexuality refers to sexual orientation, not gender identity/dressing.",
-        "D": "Gender conformity is identification with assigned gender — opposite of the stem."
+        "A": "Gender dysphoria is the DSM-5-TR term for distress arising from incongruence between experienced gender and assigned sex - a strong contender here, given the identity statement in the vignette.",
+        "B": "Marked correct in the examination key: transvestism means the persistent urge to cross-dress, and the key treats the emphasis on wearing women's clothing as the defining feature of this vignette.",
+        "C": "Homosexuality describes the direction of sexual attraction and says nothing about gender identity or dressing behaviour.",
+        "D": "Gender conformity means behaving in line with the gender assigned at birth - the opposite of what this client reports."
       },
       "subject": "Psychiatric",
       "topic": "Gender identity",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "psychiatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 40
+      "mockSeq": 40,
+      "citation": "American Psychiatric Association DSM-5-TR - gender dysphoria and transvestic disorder",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 144,
@@ -1274,7 +1394,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 41
+      "mockSeq": 41,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 793,
@@ -1307,7 +1428,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 42
+      "mockSeq": 42,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 840,
@@ -1340,7 +1462,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 43
+      "mockSeq": 43,
+      "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
     },
     {
       "id": 600,
@@ -1373,7 +1496,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 44
+      "mockSeq": 44,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 506,
@@ -1406,7 +1530,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 45
+      "mockSeq": 45,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 637,
@@ -1439,7 +1564,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 46
+      "mockSeq": 46,
+      "citation": "Indian Nursing Council regulations and applicable Indian statutes"
     },
     {
       "id": 594,
@@ -1472,7 +1598,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 47
+      "mockSeq": 47,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India"
     },
     {
       "id": 797,
@@ -1505,7 +1632,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 48
+      "mockSeq": 48,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 580,
@@ -1538,7 +1666,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 49
+      "mockSeq": 49,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 582,
@@ -1571,7 +1700,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 50
+      "mockSeq": 50,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 960,
@@ -1604,7 +1734,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 51
+      "mockSeq": 51,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 986,
@@ -1637,7 +1768,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 52
+      "mockSeq": 52,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 712,
@@ -1670,7 +1802,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 53
+      "mockSeq": 53,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 669,
@@ -1703,7 +1836,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 54
+      "mockSeq": 54,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 672,
@@ -1736,7 +1870,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 55
+      "mockSeq": 55,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e — Epidemiology and Health Statistics"
     },
     {
       "id": 465,
@@ -1769,7 +1904,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 56
+      "mockSeq": 56,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 180,
@@ -1801,7 +1937,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-5-mains-2023b-recalls.json",
-      "mockSeq": 57
+      "mockSeq": 57,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 777,
@@ -1834,7 +1971,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 58
+      "mockSeq": 58,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 768,
@@ -1867,7 +2005,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 59
+      "mockSeq": 59,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 1215,
@@ -1893,7 +2032,8 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 60
+      "mockSeq": 60,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 209,
@@ -1923,7 +2063,8 @@
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-7-mains-2024-recalls.json",
-      "mockSeq": 61
+      "mockSeq": 61,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 764,
@@ -1956,7 +2097,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 62
+      "mockSeq": 62,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 92,
@@ -1988,7 +2130,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 63
+      "mockSeq": 63,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 991,
@@ -2021,7 +2164,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 64
+      "mockSeq": 64,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 90,
@@ -2053,7 +2197,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 65
+      "mockSeq": 65,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 337,
@@ -2085,7 +2230,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 66
+      "mockSeq": 66,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 709,
@@ -2118,7 +2264,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 67
+      "mockSeq": 67,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 145,
@@ -2150,7 +2297,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 68
+      "mockSeq": 68,
+      "citation": "MoHFW National TB Elimination Programme — Technical and Operational Guidelines"
     },
     {
       "id": 778,
@@ -2183,7 +2331,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 69
+      "mockSeq": 69,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 723,
@@ -2216,7 +2365,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 70
+      "mockSeq": 70,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e"
     },
     {
       "id": 773,
@@ -2249,7 +2399,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 71
+      "mockSeq": 71,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 989,
@@ -2282,7 +2433,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 72
+      "mockSeq": 72,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 374,
@@ -2314,7 +2466,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 73
+      "mockSeq": 73,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 1002,
@@ -2347,7 +2500,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 74
+      "mockSeq": 74,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 345,
@@ -2379,7 +2533,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 75
+      "mockSeq": 75,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 789,
@@ -2412,12 +2567,13 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 76
+      "mockSeq": 76,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 225,
       "_origId": "N9-10",
-      "question": "A patient is prescribed an inhaler with 200 puffs; the order is 2 puffs every 6 hours. For how many days will one inhaler last?",
+      "question": "A metered dose inhaler is dispensed with 200 doses in the canister. The prescription reads two puffs every six hours. Roughly how many days will a single inhaler last?",
       "options": [
         "20 days",
         "25 days",
@@ -2425,24 +2581,30 @@
         "30 days"
       ],
       "correct": 1,
-      "explanation": "2 puffs × 4 doses/day = 8 puffs/day → 200 ÷ 8 = 25 days.",
+      "explanation": "A six-hourly order means four doses in 24 hours. Four doses of two puffs comes to 8 puffs each day, and 200 divided by 8 gives exactly 25 days.",
       "explanations": {
-        "A": "20 × 8 = 160 puffs — only consumed 160, not 200.",
-        "B": "2 puffs × 4 doses/day = 8 puffs/day → 200 ÷ 8 = 25 days.",
-        "C": "28 × 8 = 224 puffs — exceeds 200.",
-        "D": "30 × 8 = 240 puffs — exceeds 200."
+        "A": "Twenty days at 8 puffs a day accounts for only 160 actuations, leaving 40 unused in the canister, so the inhaler has not yet run out.",
+        "B": "A six-hourly order means four doses in 24 hours. Four doses of two puffs comes to 8 puffs each day, and 200 divided by 8 gives exactly 25 days.",
+        "C": "Twenty-eight days would demand 224 puffs, which is 24 more than the canister holds.",
+        "D": "Thirty days would need 240 puffs, well beyond the 200 supplied, so the patient would be inhaling propellant only."
       },
       "subject": "Medical-Surgical",
       "topic": "Drug calculation",
       "day": 2,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "calc",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 77
+      "mockSeq": 77,
+      "citation": "Potter & Perry Fundamentals of Nursing 9e — Medication administration: dosage calculation",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 1003,
@@ -2475,7 +2637,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 78
+      "mockSeq": 78,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 746,
@@ -2508,7 +2671,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 79
+      "mockSeq": 79,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1268,
@@ -2534,7 +2698,8 @@
       "source": "Practice",
       "year": "2016",
       "qtype": "scenario",
-      "mockSeq": 80
+      "mockSeq": 80,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 1242,
@@ -2560,7 +2725,8 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 81
+      "mockSeq": 81,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 792,
@@ -2593,7 +2759,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 82
+      "mockSeq": 82,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 775,
@@ -2626,7 +2793,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 83
+      "mockSeq": 83,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 1246,
@@ -2652,7 +2820,8 @@
       "source": "Practice",
       "year": "2017",
       "qtype": "scenario",
-      "mockSeq": 84
+      "mockSeq": 84,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 769,
@@ -2685,7 +2854,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 85
+      "mockSeq": 85,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 788,
@@ -2718,7 +2888,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 86
+      "mockSeq": 86,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 338,
@@ -2750,7 +2921,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 87
+      "mockSeq": 87,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 695,
@@ -2783,7 +2955,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 88
+      "mockSeq": 88,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1009,
@@ -2816,7 +2989,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 89
+      "mockSeq": 89,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 1015,
@@ -2849,7 +3023,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 90
+      "mockSeq": 90,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 776,
@@ -2882,7 +3057,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 91
+      "mockSeq": 91,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 717,
@@ -2915,7 +3091,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 92
+      "mockSeq": 92,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 1010,
@@ -2948,7 +3125,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 93
+      "mockSeq": 93,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 89,
@@ -2980,12 +3158,13 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-1-mains-2020-recalls.json",
-      "mockSeq": 94
+      "mockSeq": 94,
+      "citation": "ATLS 10e; Brunner & Suddarth 14e — Emergency and Trauma Nursing"
     },
     {
       "id": 230,
       "_origId": "N9-15",
-      "question": "A patient receiving heparin has an aPTT of 85 seconds. What is the most appropriate next action?",
+      "question": "A patient is receiving intravenous heparin, and the laboratory reports the latest activated partial thromboplastin time as 85 seconds. Which action by the nurse is most appropriate?",
       "options": [
         "Hold the next dose of heparin",
         "Increase the heparin dose",
@@ -2993,24 +3172,30 @@
         "Administer vitamin K"
       ],
       "correct": 0,
-      "explanation": "Therapeutic aPTT on heparin = 1.5–2.5× control (≈46–70 s). 85 s is supra-therapeutic → hold dose and recheck.",
+      "explanation": "Heparin is titrated to keep the aPTT at roughly 1.5 to 2.5 times the control, about 46 to 70 seconds in most laboratories. A value of 85 seconds is above that window, so the patient is over-anticoagulated. The correct response is to withhold the dose, inform the physician, watch for bleeding and recheck the aPTT before restarting at a reduced rate.",
       "explanations": {
-        "A": "Therapeutic aPTT on heparin = 1.5–2.5× control (≈46–70 s). 85 s is supra-therapeutic → hold dose and recheck.",
-        "B": "Increasing would worsen bleeding risk.",
-        "C": "aPTT is outside therapeutic range; leaving dose unchanged is unsafe.",
-        "D": "Vitamin K reverses warfarin, not heparin; heparin reversal uses protamine sulfate."
+        "A": "Heparin is titrated to keep the aPTT at roughly 1.5 to 2.5 times the control, about 46 to 70 seconds in most laboratories. A value of 85 seconds is above that window, so the patient is over-anticoagulated. The correct response is to withhold the dose, inform the physician, watch for bleeding and recheck the aPTT before restarting at a reduced rate.",
+        "B": "Increasing the dose when the result is already supratherapeutic compounds the bleeding risk and is the opposite of what the sliding scale requires.",
+        "C": "Carrying on unchanged ignores a result that lies outside the therapeutic range and leaves the patient exposed to haemorrhage.",
+        "D": "Vitamin K restores the synthesis of factors II, VII, IX and X and is the antidote for warfarin. Heparin is reversed by protamine sulphate, given roughly 1 mg for every 100 units of heparin still circulating."
       },
       "subject": "Medical-Surgical",
       "topic": "Anticoagulation / aPTT",
       "day": 1,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "medical-surgical",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 95
+      "mockSeq": 95,
+      "citation": "Brunner & Suddarth's Medical-Surgical Nursing 14e — Anticoagulant therapy and laboratory monitoring",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 731,
@@ -3043,7 +3228,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 96
+      "mockSeq": 96,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 995,
@@ -3076,7 +3262,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 97
+      "mockSeq": 97,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 119,
@@ -3108,7 +3295,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 98
+      "mockSeq": 98,
+      "citation": "MoHFW Bio-Medical Waste (Management) Rules 2016 — Schedule I"
     },
     {
       "id": 611,
@@ -3141,7 +3329,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 99
+      "mockSeq": 99,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 584,
@@ -3174,7 +3363,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 100
+      "mockSeq": 100,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 612,
@@ -3207,7 +3397,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 101
+      "mockSeq": 101,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 136,
@@ -3239,7 +3430,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 102
+      "mockSeq": 102,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 622,
@@ -3272,7 +3464,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 103
+      "mockSeq": 103,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 606,
@@ -3305,7 +3498,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 104
+      "mockSeq": 104,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 29,
@@ -3314,15 +3508,15 @@
       "options": [
         "UNICEF",
         "WHO",
-        "Both A and B",
+        "Both WHO and UNICEF",
         "CDC"
       ],
       "correct": 2,
-      "explanation": "WHO and UNICEF jointly developed and promote low-osmolarity ORS as cornerstone of diarrhea management.",
+      "explanation": "ORS was developed and promoted jointly by WHO and UNICEF, which is why both organisations appear on the standard formulation guidance.",
       "explanations": {
         "A": "UNICEF co-promotes but did not solely develop.",
         "B": "WHO co-developed but jointly with UNICEF.",
-        "C": "WHO and UNICEF jointly developed and promote low-osmolarity ORS as cornerstone of diarrhea management.",
+        "C": "ORS was developed and promoted jointly by WHO and UNICEF, which is why both organisations appear on the standard formulation guidance.",
         "D": "CDC is US-focused and not the originator."
       },
       "subject": "Community Health",
@@ -3337,7 +3531,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "dsssb-sn-recalls.json",
-      "mockSeq": 105
+      "mockSeq": 105,
+      "citation": "BT Basavanthappa Nursing Administration 3e"
     },
     {
       "id": 142,
@@ -3369,7 +3564,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 106
+      "mockSeq": 106,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 596,
@@ -3402,7 +3598,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 107
+      "mockSeq": 107,
+      "citation": "Park's Textbook of Preventive and Social Medicine 26e"
     },
     {
       "id": 1020,
@@ -3435,7 +3632,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 108
+      "mockSeq": 108,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 902,
@@ -3468,7 +3666,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 109
+      "mockSeq": 109,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 800,
@@ -3501,7 +3700,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 110
+      "mockSeq": 110,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 366,
@@ -3533,7 +3733,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 111
+      "mockSeq": 111,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 64,
@@ -3565,7 +3766,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "esic-sn-recalls.json",
-      "mockSeq": 112
+      "mockSeq": 112,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
     },
     {
       "id": 682,
@@ -3598,7 +3800,8 @@
         "highyield",
         "lochia"
       ],
-      "mockSeq": 113
+      "mockSeq": 113,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 886,
@@ -3631,7 +3834,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 114
+      "mockSeq": 114,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 686,
@@ -3664,7 +3868,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 115
+      "mockSeq": 115,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 850,
@@ -3697,7 +3902,8 @@
         "highyield",
         "nice"
       ],
-      "mockSeq": 116
+      "mockSeq": 116,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 670,
@@ -3730,7 +3936,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 117
+      "mockSeq": 117,
+      "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
     },
     {
       "id": 551,
@@ -3763,37 +3970,44 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 118
+      "mockSeq": 118,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 311,
       "_origId": "N9-96",
-      "question": "Identify the below given image (specialized bottle with elongated teat used in cleft lip/palate feeding).",
+      "question": "A nurse teaches the mother of an infant with cleft lip and palate to use a specialised feeding bottle. The device has a long, soft, compressible teat with a slit valve at the tip and a one-way valve at its base, so that the caregiver can squeeze milk into the baby's mouth in rhythm with the baby's sucking when the infant cannot generate negative pressure. Which feeding device is being described?",
       "options": [
         "Haberman feeder",
         "Pigeon bottle",
         "Cleft lip/palate nurser",
-        "Both a and b"
+        "A standard bottle with an enlarged teat hole"
       ],
       "correct": 0,
-      "explanation": "Haberman feeder — has a one-way valve and compressible teat; used for infants who can't generate suction (cleft lip/palate).",
+      "explanation": "The Haberman (SpecialNeeds) feeder is the device described: an elongated compressible teat holding a milk reservoir, a slit valve at the tip that can be rotated to three flow settings, and a one-way valve at the base that stops milk running back into the bottle. Because the caregiver, not the infant, generates the pressure, it suits babies with cleft palate, Pierre Robin sequence or a weak suck.",
       "explanations": {
-        "A": "Haberman feeder — has a one-way valve and compressible teat; used for infants who can't generate suction (cleft lip/palate).",
-        "B": "Pigeon bottle is also specialty feeder; separate appearance.",
-        "C": "'Cleft lip/palate nurser' is a class name, not the specific instrument shown.",
-        "D": "'Both a and b' would apply only if both were visible; Target High key marks a."
+        "A": "The Haberman (SpecialNeeds) feeder is the device described: an elongated compressible teat holding a milk reservoir, a slit valve at the tip that can be rotated to three flow settings, and a one-way valve at the base that stops milk running back into the bottle. Because the caregiver, not the infant, generates the pressure, it suits babies with cleft palate, Pierre Robin sequence or a weak suck.",
+        "B": "The Pigeon cleft-palate bottle is also a specialty feeder, but it works differently - a Y-cut nipple that is firm on one side and soft on the other, so the baby compresses it against the intact gum ridge. Its short nipple is not squeezed by the caregiver.",
+        "C": "'Cleft lip/palate nurser' names a whole category of feeding equipment rather than the specific instrument described here.",
+        "D": "Simply enlarging the hole in a standard teat floods the infant and raises the aspiration risk; it does not replace a valved cleft feeder."
       },
       "subject": "Pediatric",
       "topic": "Cleft lip/palate feeding",
       "day": 4,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
-      "qtype": "image",
+      "qtype": "scenario",
       "section": "pediatric",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 119
+      "mockSeq": 119,
+      "citation": "Wong's Nursing Care of Infants and Children 11e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 14,
@@ -3825,7 +4039,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "aiims-sn-pre-2020.json",
-      "mockSeq": 120
+      "mockSeq": 120,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 124,
@@ -3857,7 +4072,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "norcet-3-mains-2022-recalls.json",
-      "mockSeq": 121
+      "mockSeq": 121,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 525,
@@ -3890,7 +4106,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 122
+      "mockSeq": 122,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 370,
@@ -3922,7 +4139,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "rrb-sn-recalls.json",
-      "mockSeq": 123
+      "mockSeq": 123,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 521,
@@ -3955,7 +4173,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 124
+      "mockSeq": 124,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 545,
@@ -3988,7 +4207,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 125
+      "mockSeq": 125,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 547,
@@ -4021,7 +4241,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 126
+      "mockSeq": 126,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 538,
@@ -4054,7 +4275,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 127
+      "mockSeq": 127,
+      "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
     },
     {
       "id": 659,
@@ -4087,7 +4309,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 128
+      "mockSeq": 128,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 403,
@@ -4119,7 +4342,8 @@
         "recall-unverified"
       ],
       "_sourceFile": "youtube-memory-recalls.json",
-      "mockSeq": 129
+      "mockSeq": 129,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 647,
@@ -4152,12 +4376,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 130
+      "mockSeq": 130,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 254,
       "_origId": "N9-39",
-      "question": "A nurse is instructed to infuse 1000 mL of IV fluid over 8 hours using an IV set with a drop factor of 15 gtt/mL. What should be the correct infusion rate in drops per minute?",
+      "question": "An order reads: infuse 1000 mL of intravenous fluid over 8 hours. The giving set in use delivers 15 drops per mL. At how many drops per minute should the nurse set the infusion?",
       "options": [
         "42 drops/min",
         "31 drops/min",
@@ -4165,29 +4390,35 @@
         "18 drops/min"
       ],
       "correct": 1,
-      "explanation": "(1000 × 15) ÷ (8 × 60) = 15000/480 ≈ 31 drops/min.",
+      "explanation": "Volume multiplied by drop factor, divided by the total minutes: (1000 x 15) / (8 x 60) = 15000 / 480 = 31.25, so the drip is set at about 31 drops/min.",
       "explanations": {
-        "A": "42 is the rate for a drop factor of 20 gtt/mL (not 15).",
-        "B": "(1000 × 15) ÷ (8 × 60) = 15000/480 ≈ 31 drops/min.",
-        "C": "25 matches drop factor of 12.",
-        "D": "18 is less than half; incorrect arithmetic."
+        "A": "42 drops/min is what the same volume over the same time would require with a 20 gtt/mL set, not a 15 gtt/mL set.",
+        "B": "Volume multiplied by drop factor, divided by the total minutes: (1000 x 15) / (8 x 60) = 15000 / 480 = 31.25, so the drip is set at about 31 drops/min.",
+        "C": "25 drops/min corresponds to a 12 gtt/mL set running the same volume over 8 hours.",
+        "D": "18 drops/min would deliver barely half the ordered volume within the time allowed."
       },
       "subject": "Fundamentals",
       "topic": "Drip rate / Drug calc",
       "day": 2,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "calc",
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 131
+      "mockSeq": 131,
+      "citation": "Potter & Perry Fundamentals of Nursing 9e — fluid and electrolyte balance, IV flow rate calculation",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 248,
       "_origId": "N9-33",
-      "question": "Patients on monoamine oxidase inhibitors (MAOIs) should avoid which of the following?",
+      "question": "A patient has been prescribed a monoamine oxidase inhibitor. Which dietary constituent must be kept out of this patient's diet?",
       "options": [
         "Tyramine",
         "Glucose",
@@ -4195,24 +4426,30 @@
         "Lactose"
       ],
       "correct": 0,
-      "explanation": "Tyramine-rich foods (aged cheese, cured meats, soy, fermented products) cause hypertensive crisis with MAOIs.",
+      "explanation": "Tyramine in food is normally destroyed by monoamine oxidase in the gut wall and liver. When that enzyme is inhibited, dietary tyramine reaches the circulation, enters adrenergic nerve terminals and displaces stored noradrenaline in a burst, producing the cheese reaction: severe throbbing headache, hypertensive crisis, and the risk of intracranial haemorrhage. Aged cheeses, fermented and cured meats, soya products, yeast extracts, pickled fish, overripe fruit and red wine or beer are the foods to be avoided.",
       "explanations": {
-        "A": "Tyramine-rich foods (aged cheese, cured meats, soy, fermented products) cause hypertensive crisis with MAOIs.",
-        "B": "Glucose has no interaction with MAOIs.",
-        "C": "Fructose has no relevant MAOI interaction.",
-        "D": "Lactose has no relevant MAOI interaction."
+        "A": "Tyramine in food is normally destroyed by monoamine oxidase in the gut wall and liver. When that enzyme is inhibited, dietary tyramine reaches the circulation, enters adrenergic nerve terminals and displaces stored noradrenaline in a burst, producing the cheese reaction: severe throbbing headache, hypertensive crisis, and the risk of intracranial haemorrhage. Aged cheeses, fermented and cured meats, soya products, yeast extracts, pickled fish, overripe fruit and red wine or beer are the foods to be avoided.",
+        "B": "Glucose is metabolised through glycolysis and has no interaction with monoamine oxidase or with adrenergic transmission.",
+        "C": "Fructose is a simple sugar with no amine structure and no relevance to monoamine oxidase inhibition.",
+        "D": "Lactose is a disaccharide of glucose and galactose. It is only a problem for the lactase-deficient patient and has nothing to do with these drugs."
       },
       "subject": "Fundamentals",
       "topic": "MAOI / Diet",
       "day": 9,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "recall",
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 132
+      "mockSeq": 132,
+      "citation": "KDT Essentials of Medical Pharmacology, 8e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 461,
@@ -4245,7 +4482,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 133
+      "mockSeq": 133,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 832,
@@ -4278,7 +4516,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 134
+      "mockSeq": 134,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 1252,
@@ -4304,7 +4543,8 @@
       "source": "Practice",
       "year": "2023",
       "qtype": "scenario",
-      "mockSeq": 135
+      "mockSeq": 135,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 794,
@@ -4337,12 +4577,13 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 136
+      "mockSeq": 136,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 251,
       "_origId": "N9-36",
-      "question": "A patient's chest tube becomes accidentally dislodged. What is the most appropriate immediate nursing action?",
+      "question": "While a patient is being repositioned, the chest tube is accidentally pulled out of the pleural space. Which nursing action should be taken immediately?",
       "options": [
         "Immerse the tube end in sterile saline",
         "Apply an airtight dressing",
@@ -4350,24 +4591,30 @@
         "Encourage deep breathing"
       ],
       "correct": 1,
-      "explanation": "Cover the site with a sterile petroleum-gauze / 3-sided dressing to prevent air entry and tension pneumothorax.",
+      "explanation": "The open chest wound must be sealed at once, because atmospheric air is being sucked into the pleural space with every breath. The nurse covers the site with a sterile occlusive dressing such as petroleum gauze, secures it on three sides so trapped air can still escape rather than build up into a tension pneumothorax, then stays with the patient, monitors respiration and saturation, and summons the physician for reinsertion and a chest radiograph.",
       "explanations": {
-        "A": "Re-immersing a dislodged tube risks introducing contamination; the priority is sealing the wound.",
-        "B": "Cover the site with a sterile petroleum-gauze / 3-sided dressing to prevent air entry and tension pneumothorax.",
-        "C": "Clamping a functioning chest drain can cause tension pneumothorax.",
-        "D": "Deep breathing worsens air entry through the open wound."
+        "A": "Placing the end under water is the correct response when the drainage system disconnects but the tube is still in the chest. It has no place once the tube is out of the patient, and reinserting a contaminated tube risks empyema.",
+        "B": "The open chest wound must be sealed at once, because atmospheric air is being sucked into the pleural space with every breath. The nurse covers the site with a sterile occlusive dressing such as petroleum gauze, secures it on three sides so trapped air can still escape rather than build up into a tension pneumothorax, then stays with the patient, monitors respiration and saturation, and summons the physician for reinsertion and a chest radiograph.",
+        "C": "Clamping is contraindicated in this situation and in general during transport or a leak. Trapping air within the pleural cavity allows pressure to rise, shifting the mediastinum and obstructing venous return.",
+        "D": "Encouraging deep breaths before the wound is sealed only increases the negative intrapleural pressure and draws in more air, worsening lung collapse."
       },
       "subject": "Fundamentals",
       "topic": "Chest tube",
       "day": 7,
       "difficulty": "Medium",
-      "source": "NORCET 9 Mains",
+      "source": "NORCET 9 Mains 2025 — memory-based recall",
       "year": 2025,
       "qtype": "scenario",
       "section": "foundations",
       "tags": [],
       "_sourceFile": "norcet-9-mains-2025.json",
-      "mockSeq": 137
+      "mockSeq": 137,
+      "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14e",
+      "recall": true,
+      "verified": {
+        "method": "rewrite+cross-check",
+        "at": "2026-08-01"
+      }
     },
     {
       "id": 780,
@@ -4400,7 +4647,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 138
+      "mockSeq": 138,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 844,
@@ -4433,7 +4681,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 139
+      "mockSeq": 139,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 942,
@@ -4466,7 +4715,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 140
+      "mockSeq": 140,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 1546,
@@ -4492,7 +4742,8 @@
       "source": "Practice",
       "year": "2024",
       "qtype": "scenario",
-      "mockSeq": 141
+      "mockSeq": 141,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 925,
@@ -4525,7 +4776,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 142
+      "mockSeq": 142,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 1012,
@@ -4558,7 +4810,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 143
+      "mockSeq": 143,
+      "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
     },
     {
       "id": 737,
@@ -4591,7 +4844,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 144
+      "mockSeq": 144,
+      "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e"
     },
     {
       "id": 933,
@@ -4624,7 +4878,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 145
+      "mockSeq": 145,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 964,
@@ -4657,7 +4912,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 146
+      "mockSeq": 146,
+      "citation": "KDT Essentials of Medical Pharmacology 8e"
     },
     {
       "id": 816,
@@ -4690,7 +4946,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 147
+      "mockSeq": 147,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 1559,
@@ -4716,7 +4973,8 @@
       "source": "Practice",
       "year": "2018",
       "qtype": "scenario",
-      "mockSeq": 148
+      "mockSeq": 148,
+      "citation": "Ahuja's A Short Textbook of Psychiatry 8e"
     },
     {
       "id": 693,
@@ -4749,7 +5007,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 149
+      "mockSeq": 149,
+      "citation": "AHA Guidelines 2020 for CPR and ECC — Basic and Advanced Life Support"
     },
     {
       "id": 1208,
@@ -4775,7 +5034,8 @@
       "source": "Practice",
       "year": "2022",
       "qtype": "scenario",
-      "mockSeq": 150
+      "mockSeq": 150,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 848,
@@ -4808,7 +5068,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 151
+      "mockSeq": 151,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 877,
@@ -4841,7 +5102,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 152
+      "mockSeq": 152,
+      "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e"
     },
     {
       "id": 871,
@@ -4874,7 +5136,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 153
+      "mockSeq": 153,
+      "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule"
     },
     {
       "id": 407,
@@ -4907,7 +5170,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 154
+      "mockSeq": 154,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 423,
@@ -4940,7 +5204,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 155
+      "mockSeq": 155,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 431,
@@ -4973,7 +5238,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 156
+      "mockSeq": 156,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e"
     },
     {
       "id": 459,
@@ -5006,7 +5272,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 157
+      "mockSeq": 157,
+      "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e"
     },
     {
       "id": 488,
@@ -5039,7 +5306,8 @@
         "highyield",
         "should"
       ],
-      "mockSeq": 158
+      "mockSeq": 158,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     },
     {
       "id": 651,
@@ -5072,7 +5340,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 159
+      "mockSeq": 159,
+      "citation": "Potter & Perry Fundamentals of Nursing 10e"
     },
     {
       "id": 727,
@@ -5105,7 +5374,8 @@
         "highyield",
         "must"
       ],
-      "mockSeq": 160
+      "mockSeq": 160,
+      "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
     }
   ],
   "spotlight": "Balanced"

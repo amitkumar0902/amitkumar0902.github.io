@@ -28,7 +28,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Potter & Perry Fundamentals of Nursing 10e"
   },
   {
     "id": 11,
@@ -59,7 +60,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "aiims-sn-pre-2020.json"
+    "_sourceFile": "aiims-sn-pre-2020.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 43,
@@ -90,7 +92,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "dsssb-sn-recalls.json"
+    "_sourceFile": "dsssb-sn-recalls.json",
+    "citation": "Potter & Perry Fundamentals of Nursing 10e"
   },
   {
     "id": 85,
@@ -121,7 +124,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 86,
@@ -152,7 +156,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "jipmer-sn-recalls.json"
+    "_sourceFile": "jipmer-sn-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 123,
@@ -183,7 +188,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-3-mains-2022-recalls.json"
+    "_sourceFile": "norcet-3-mains-2022-recalls.json",
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 150,
@@ -214,7 +220,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 169,
@@ -245,7 +252,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-4-mains-2023-recalls.json"
+    "_sourceFile": "norcet-4-mains-2023-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 196,
@@ -276,7 +284,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "norcet-5-mains-2023b-recalls.json"
+    "_sourceFile": "norcet-5-mains-2023b-recalls.json",
+    "citation": "BT Basavanthappa Nursing Administration 3e"
   },
   {
     "id": 201,
@@ -305,12 +314,13 @@
     "qtype": "recall",
     "section": "pediatric",
     "tags": [],
-    "_sourceFile": "norcet-6-mains-2024-recalls.json"
+    "_sourceFile": "norcet-6-mains-2024-recalls.json",
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology"
   },
   {
     "id": 225,
     "_origId": "N9-10",
-    "question": "A patient is prescribed an inhaler with 200 puffs; the order is 2 puffs every 6 hours. For how many days will one inhaler last?",
+    "question": "A metered dose inhaler is dispensed with 200 doses in the canister. The prescription reads two puffs every six hours. Roughly how many days will a single inhaler last?",
     "options": [
       "20 days",
       "25 days",
@@ -318,28 +328,34 @@
       "30 days"
     ],
     "correct": 1,
-    "explanation": "2 puffs × 4 doses/day = 8 puffs/day → 200 ÷ 8 = 25 days.",
+    "explanation": "A six-hourly order means four doses in 24 hours. Four doses of two puffs comes to 8 puffs each day, and 200 divided by 8 gives exactly 25 days.",
     "explanations": {
-      "A": "20 × 8 = 160 puffs — only consumed 160, not 200.",
-      "B": "2 puffs × 4 doses/day = 8 puffs/day → 200 ÷ 8 = 25 days.",
-      "C": "28 × 8 = 224 puffs — exceeds 200.",
-      "D": "30 × 8 = 240 puffs — exceeds 200."
+      "A": "Twenty days at 8 puffs a day accounts for only 160 actuations, leaving 40 unused in the canister, so the inhaler has not yet run out.",
+      "B": "A six-hourly order means four doses in 24 hours. Four doses of two puffs comes to 8 puffs each day, and 200 divided by 8 gives exactly 25 days.",
+      "C": "Twenty-eight days would demand 224 puffs, which is 24 more than the canister holds.",
+      "D": "Thirty days would need 240 puffs, well beyond the 200 supplied, so the patient would be inhaling propellant only."
     },
     "subject": "Medical-Surgical",
     "topic": "Drug calculation",
     "day": 2,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "calc",
     "section": "medical-surgical",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Potter & Perry Fundamentals of Nursing 9e — Medication administration: dosage calculation",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 254,
     "_origId": "N9-39",
-    "question": "A nurse is instructed to infuse 1000 mL of IV fluid over 8 hours using an IV set with a drop factor of 15 gtt/mL. What should be the correct infusion rate in drops per minute?",
+    "question": "An order reads: infuse 1000 mL of intravenous fluid over 8 hours. The giving set in use delivers 15 drops per mL. At how many drops per minute should the nurse set the infusion?",
     "options": [
       "42 drops/min",
       "31 drops/min",
@@ -347,23 +363,29 @@
       "18 drops/min"
     ],
     "correct": 1,
-    "explanation": "(1000 × 15) ÷ (8 × 60) = 15000/480 ≈ 31 drops/min.",
+    "explanation": "Volume multiplied by drop factor, divided by the total minutes: (1000 x 15) / (8 x 60) = 15000 / 480 = 31.25, so the drip is set at about 31 drops/min.",
     "explanations": {
-      "A": "42 is the rate for a drop factor of 20 gtt/mL (not 15).",
-      "B": "(1000 × 15) ÷ (8 × 60) = 15000/480 ≈ 31 drops/min.",
-      "C": "25 matches drop factor of 12.",
-      "D": "18 is less than half; incorrect arithmetic."
+      "A": "42 drops/min is what the same volume over the same time would require with a 20 gtt/mL set, not a 15 gtt/mL set.",
+      "B": "Volume multiplied by drop factor, divided by the total minutes: (1000 x 15) / (8 x 60) = 15000 / 480 = 31.25, so the drip is set at about 31 drops/min.",
+      "C": "25 drops/min corresponds to a 12 gtt/mL set running the same volume over 8 hours.",
+      "D": "18 drops/min would deliver barely half the ordered volume within the time allowed."
     },
     "subject": "Fundamentals",
     "topic": "Drip rate / Drug calc",
     "day": 2,
     "difficulty": "Medium",
-    "source": "NORCET 9 Mains",
+    "source": "NORCET 9 Mains 2025 — memory-based recall",
     "year": 2025,
     "qtype": "calc",
     "section": "foundations",
     "tags": [],
-    "_sourceFile": "norcet-9-mains-2025.json"
+    "_sourceFile": "norcet-9-mains-2025.json",
+    "citation": "Potter & Perry Fundamentals of Nursing 9e — fluid and electrolyte balance, IV flow rate calculation",
+    "recall": true,
+    "verified": {
+      "method": "rewrite+cross-check",
+      "at": "2026-08-01"
+    }
   },
   {
     "id": 371,
@@ -394,7 +416,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "rrb-sn-recalls.json"
+    "_sourceFile": "rrb-sn-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 377,
@@ -425,7 +448,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 378,
@@ -456,7 +480,8 @@
     "tags": [
       "recall-unverified"
     ],
-    "_sourceFile": "youtube-memory-recalls.json"
+    "_sourceFile": "youtube-memory-recalls.json",
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing"
   },
   {
     "id": 1488,
@@ -481,7 +506,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 2023 (memory-based)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1507,
@@ -506,7 +532,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1517,
@@ -531,7 +558,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1527,
@@ -556,7 +584,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 1537,
@@ -581,7 +610,8 @@
     "difficulty": "Medium",
     "source": "AIIMS NO legacy",
     "year": "NORCET 6 Mains (2024)",
-    "qtype": "factual"
+    "qtype": "factual",
+    "citation": "Standard Indian nursing texts (Brunner & Suddarth 14e; Park 26e)"
   },
   {
     "id": 909,
@@ -613,7 +643,8 @@
       "scenario",
       "highyield",
       "should"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 910,
@@ -645,7 +676,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 911,
@@ -677,7 +709,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "Brunner & Suddarth 14e — Management of Patients with Respiratory Disorders"
   },
   {
     "id": 912,
@@ -709,7 +742,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 913,
@@ -741,7 +775,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
   },
   {
     "id": 914,
@@ -773,7 +808,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "WHO Guidelines on Hand Hygiene and Infection Prevention; CDC Isolation Precautions"
   },
   {
     "id": 915,
@@ -805,7 +841,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 916,
@@ -837,7 +874,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 917,
@@ -869,7 +907,8 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   },
   {
     "id": 918,
@@ -901,6 +940,7 @@
       "scenario",
       "highyield",
       "must"
-    ]
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e"
   }
 ]

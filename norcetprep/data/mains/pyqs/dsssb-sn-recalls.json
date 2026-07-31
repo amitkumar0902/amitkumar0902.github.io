@@ -2,7 +2,12 @@
   {
     "id": "DSSSB-1",
     "question": "Father of modern nursing is:",
-    "options": ["Florence Nightingale", "Virginia Henderson", "Dorothea Orem", "Hildegard Peplau"],
+    "options": [
+      "Florence Nightingale",
+      "Virginia Henderson",
+      "Dorothea Orem",
+      "Hildegard Peplau"
+    ],
     "correct": 0,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -18,12 +23,21 @@
       "C": "Orem — Self-care deficit theorist.",
       "D": "Peplau — Interpersonal relations theorist (psychiatric nursing)."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e",
+    "explanation": "Florence Nightingale (1820–1910) is universally recognized as the founder of modern nursing; established the Nightingale Training School (1860) and Environmental Theory."
   },
   {
     "id": "DSSSB-2",
     "question": "Normal fetal heart rate range is:",
-    "options": ["100–140 bpm", "110–160 bpm", "160–200 bpm", "80–120 bpm"],
+    "options": [
+      "100–140 bpm",
+      "110–160 bpm",
+      "160–200 bpm",
+      "80–120 bpm"
+    ],
     "correct": 1,
     "section": "midwifery",
     "subject": "OBG",
@@ -39,12 +53,21 @@
       "C": "Sustained tachycardia — abnormal.",
       "D": "Bradycardic range — concerning for hypoxia."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Normal baseline FHR is 110–160 bpm (NICHD/ACOG); <110 = bradycardia, >160 = tachycardia."
   },
   {
     "id": "DSSSB-3",
     "question": "BCG vaccine is given by which route?",
-    "options": ["Intramuscular", "Subcutaneous", "Intradermal", "Oral"],
+    "options": [
+      "Intramuscular",
+      "Subcutaneous",
+      "Intradermal",
+      "Oral"
+    ],
     "correct": 2,
     "section": "community-health",
     "subject": "Community Health",
@@ -60,12 +83,21 @@
       "C": "BCG is given intradermally (0.05 ml in newborn / 0.1 ml >1 mo) over the left deltoid to produce a wheal.",
       "D": "Oral route is for OPV and Rotavirus."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "MoHFW Universal Immunisation Programme — National Immunisation Schedule",
+    "explanation": "BCG is given intradermally (0.05 ml in newborn / 0.1 ml >1 mo) over the left deltoid to produce a wheal."
   },
   {
     "id": "DSSSB-4",
     "question": "The largest organ in the human body is:",
-    "options": ["Liver", "Skin", "Lung", "Brain"],
+    "options": [
+      "Liver",
+      "Skin",
+      "Lung",
+      "Brain"
+    ],
     "correct": 1,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -81,12 +113,21 @@
       "C": "Lungs are paired and lighter than skin.",
       "D": "Brain weighs ~1.4 kg — much smaller than skin."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e",
+    "explanation": "Skin is the largest organ of the body by surface area (~1.5–2 m²) and weight (~16% body weight)."
   },
   {
     "id": "DSSSB-5",
     "question": "ORS (Oral Rehydration Solution) was developed and recommended by:",
-    "options": ["UNICEF", "WHO", "Both A and B", "CDC"],
+    "options": [
+      "UNICEF",
+      "WHO",
+      "Both WHO and UNICEF",
+      "CDC"
+    ],
     "correct": 2,
     "section": "community-health",
     "subject": "Community Health",
@@ -99,15 +140,24 @@
     "explanations": {
       "A": "UNICEF co-promotes but did not solely develop.",
       "B": "WHO co-developed but jointly with UNICEF.",
-      "C": "WHO and UNICEF jointly developed and promote low-osmolarity ORS as cornerstone of diarrhea management.",
+      "C": "ORS was developed and promoted jointly by WHO and UNICEF, which is why both organisations appear on the standard formulation guidance.",
       "D": "CDC is US-focused and not the originator."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e",
+    "explanation": "ORS was developed and promoted jointly by WHO and UNICEF, which is why both organisations appear on the standard formulation guidance."
   },
   {
     "id": "DSSSB-6",
     "question": "Which vitamin deficiency causes night blindness?",
-    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
     "correct": 0,
     "section": "nutrition",
     "subject": "Nutrition",
@@ -123,12 +173,21 @@
       "C": "Vitamin C deficiency causes scurvy.",
       "D": "Vitamin D deficiency causes rickets/osteomalacia."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "ICMR-NIN Nutrient Requirements for Indians; Srilakshmi Dietetics 8e",
+    "explanation": "Vitamin A (retinol) deficiency impairs rhodopsin synthesis in rods → night blindness (nyctalopia), Bitot's spots, xerophthalmia."
   },
   {
     "id": "DSSSB-7",
     "question": "Which of the following is NOT a cardinal sign of inflammation?",
-    "options": ["Rubor", "Calor", "Dolor", "Pallor"],
+    "options": [
+      "Rubor",
+      "Calor",
+      "Dolor",
+      "Pallor"
+    ],
     "correct": 3,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -144,12 +203,21 @@
       "C": "Dolor (pain) is a classic cardinal sign.",
       "D": "The 4 cardinal signs are rubor, calor, dolor, tumor (swelling) — plus functio laesa (loss of function). Pallor is not on the list."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "The 4 cardinal signs are rubor, calor, dolor, tumor (swelling) — plus functio laesa (loss of function). Pallor is not on the list."
   },
   {
     "id": "DSSSB-8",
     "question": "The most common type of breech presentation is:",
-    "options": ["Frank breech", "Complete breech", "Footling breech", "Kneeling breech"],
+    "options": [
+      "Frank breech",
+      "Complete breech",
+      "Footling breech",
+      "Kneeling breech"
+    ],
     "correct": 0,
     "section": "midwifery",
     "subject": "OBG",
@@ -165,12 +233,21 @@
       "C": "Footling (one or both feet presenting) is less common.",
       "D": "Kneeling breech is rare."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management",
+    "explanation": "Frank breech (hips flexed, knees extended, feet near head) accounts for ~50–70% of breech presentations."
   },
   {
     "id": "DSSSB-9",
     "question": "Insulin should be stored at:",
-    "options": ["Room temperature 25–30°C", "2–8°C in refrigerator", "Below 0°C (frozen)", "Above 40°C"],
+    "options": [
+      "Room temperature 25–30°C",
+      "2–8°C in refrigerator",
+      "Below 0°C (frozen)",
+      "Above 40°C"
+    ],
     "correct": 1,
     "section": "pharmacology",
     "subject": "Pharmacology",
@@ -186,12 +263,21 @@
       "C": "Freezing denatures insulin — never freeze.",
       "D": "Heat denatures the protein."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "Unopened insulin is stored at 2–8°C (refrigerator, not freezer). In-use pen/vial can be kept at room temperature (<25–30°C) for ~28 days."
   },
   {
     "id": "DSSSB-10",
     "question": "Which is the smallest bone in the human body?",
-    "options": ["Stapes", "Malleus", "Incus", "Lacrimal bone"],
+    "options": [
+      "Stapes",
+      "Malleus",
+      "Incus",
+      "Lacrimal bone"
+    ],
     "correct": 0,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -207,12 +293,21 @@
       "C": "Incus is the middle ear ossicle between malleus and stapes.",
       "D": "Lacrimal bone is small but larger than the stapes."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall Textbook of Medical Physiology 14e",
+    "explanation": "The stapes (stirrup) of the middle ear is the smallest bone in the human body (~3 mm)."
   },
   {
     "id": "DSSSB-11",
     "question": "The first vital sign to change with increasing intracranial pressure is:",
-    "options": ["Blood pressure", "Pulse", "Respirations", "Level of consciousness"],
+    "options": [
+      "Blood pressure",
+      "Pulse",
+      "Respirations",
+      "Level of consciousness"
+    ],
     "correct": 3,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -228,12 +323,21 @@
       "C": "Irregular respirations (Cheyne-Stokes) are late.",
       "D": "A change in level of consciousness (LOC) is the EARLIEST and most sensitive sign of increased ICP — must be detected before Cushing's triad appears."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e; Kozier & Erb Fundamentals of Nursing 11e",
+    "explanation": "A change in level of consciousness (LOC) is the EARLIEST and most sensitive sign of increased ICP — must be detected before Cushing's triad appears."
   },
   {
     "id": "DSSSB-12",
     "question": "Which of the following is a positive symptom of schizophrenia?",
-    "options": ["Hallucinations", "Flat affect", "Avolition", "Anhedonia"],
+    "options": [
+      "Hallucinations",
+      "Flat affect",
+      "Avolition",
+      "Anhedonia"
+    ],
     "correct": 0,
     "section": "psychiatric",
     "subject": "Psychiatric",
@@ -249,12 +353,21 @@
       "C": "Avolition (lack of motivation) is a negative symptom.",
       "D": "Anhedonia (inability to experience pleasure) is a negative symptom."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ahuja's A Short Textbook of Psychiatry 8e",
+    "explanation": "Hallucinations (along with delusions, disorganized speech/behavior) are positive symptoms (added behaviors)."
   },
   {
     "id": "DSSSB-13",
     "question": "Pulse oximeter measures:",
-    "options": ["PaO2", "Oxygen saturation of hemoglobin (SpO2)", "PaCO2", "Hemoglobin level"],
+    "options": [
+      "PaO2",
+      "Oxygen saturation of hemoglobin (SpO2)",
+      "PaCO2",
+      "Hemoglobin level"
+    ],
     "correct": 1,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -270,12 +383,21 @@
       "C": "PaCO2 requires ABG or capnography.",
       "D": "Hemoglobin concentration requires lab CBC."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "Pulse oximetry uses two wavelengths of light (660 nm red, 940 nm IR) to estimate the percentage of hemoglobin saturated with oxygen (SpO2)."
   },
   {
     "id": "DSSSB-14",
     "question": "Janani Suraksha Yojana (JSY) is a scheme for:",
-    "options": ["Child immunization", "Promoting institutional delivery among poor pregnant women", "Adolescent health", "Geriatric care"],
+    "options": [
+      "Child immunization",
+      "Promoting institutional delivery among poor pregnant women",
+      "Adolescent health",
+      "Geriatric care"
+    ],
     "correct": 1,
     "section": "community-health",
     "subject": "Community Health",
@@ -291,12 +413,21 @@
       "C": "Adolescent health falls under RKSK.",
       "D": "Geriatric care falls under NPHCE."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Park's Textbook of Preventive and Social Medicine 26e — Health Programmes in India",
+    "explanation": "JSY (launched 2005 under NRHM) is a safe motherhood intervention promoting institutional delivery via cash assistance to poor pregnant women."
   },
   {
     "id": "DSSSB-15",
     "question": "Tracheostomy tube is changed first time after:",
-    "options": ["24 hours", "48 hours", "72 hours / 7 days", "30 days"],
+    "options": [
+      "24 hours",
+      "48 hours",
+      "72 hours / 7 days",
+      "30 days"
+    ],
     "correct": 2,
     "section": "medical-surgical",
     "subject": "Medical-Surgical",
@@ -312,12 +443,21 @@
       "C": "The first tracheostomy tube change is typically performed after 7 days (some references cite ≥72 h with surgical), allowing the tract to mature and reduce risk of accidental decannulation.",
       "D": "Too long — risk of biofilm and obstruction."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Brunner & Suddarth 14e — Textbook of Medical-Surgical Nursing",
+    "explanation": "The first tracheostomy tube change is typically performed after 7 days (some references cite ≥72 h with surgical), allowing the tract to mature and reduce risk of accidental decannulation."
   },
   {
     "id": "DSSSB-16",
     "question": "The most common site of ectopic pregnancy is:",
-    "options": ["Ovary", "Cervix", "Fallopian tube (ampulla)", "Abdomen"],
+    "options": [
+      "Ovary",
+      "Cervix",
+      "Fallopian tube (ampulla)",
+      "Abdomen"
+    ],
     "correct": 2,
     "section": "midwifery",
     "subject": "OBG",
@@ -333,12 +473,21 @@
       "C": "~95–97% of ectopic pregnancies occur in the fallopian tube; the ampulla is the single most common site (~70%).",
       "D": "Abdominal ectopic is rare (~1%)."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e",
+    "explanation": "~95–97% of ectopic pregnancies occur in the fallopian tube; the ampulla is the single most common site (~70%)."
   },
   {
     "id": "DSSSB-17",
     "question": "Which of the following is the antidote for heparin?",
-    "options": ["Vitamin K", "Protamine sulfate", "Naloxone", "Flumazenil"],
+    "options": [
+      "Vitamin K",
+      "Protamine sulfate",
+      "Naloxone",
+      "Flumazenil"
+    ],
     "correct": 1,
     "section": "pharmacology",
     "subject": "Pharmacology",
@@ -354,12 +503,21 @@
       "C": "Naloxone reverses opioid overdose.",
       "D": "Flumazenil reverses benzodiazepine overdose."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "KDT Essentials of Medical Pharmacology 8e",
+    "explanation": "Protamine sulfate neutralizes heparin (1 mg per 100 units of heparin given in last hour)."
   },
   {
     "id": "DSSSB-18",
     "question": "Which type of immunity is provided by breast milk to a newborn?",
-    "options": ["Active natural", "Active artificial", "Passive natural", "Passive artificial"],
+    "options": [
+      "Active natural",
+      "Active artificial",
+      "Passive natural",
+      "Passive artificial"
+    ],
     "correct": 2,
     "section": "microbiology",
     "subject": "Microbiology",
@@ -375,12 +533,21 @@
       "C": "Maternal IgA in breast milk and IgG transferred transplacentally provide passive natural immunity to the newborn.",
       "D": "Passive artificial is via immunoglobulin injections (e.g., Anti-D, Hep B Ig)."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Ghai Essential Pediatrics 9e — Growth, Development and Neonatology",
+    "explanation": "Maternal IgA in breast milk and IgG transferred transplacentally provide passive natural immunity to the newborn."
   },
   {
     "id": "DSSSB-19",
     "question": "Calculate the IV drip rate: 1000 ml of normal saline to be infused over 8 hours using a set with 15 drops/ml.",
-    "options": ["21 drops/min", "31 drops/min", "42 drops/min", "60 drops/min"],
+    "options": [
+      "21 drops/min",
+      "31 drops/min",
+      "42 drops/min",
+      "60 drops/min"
+    ],
     "correct": 1,
     "section": "foundations",
     "subject": "Fundamentals",
@@ -396,12 +563,21 @@
       "C": "Would correspond to a 20 drops/ml microdrip set, not 15.",
       "D": "Far too high — would empty bag in ~4 hours."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Potter & Perry Fundamentals of Nursing 10e",
+    "explanation": "(1000 ml × 15 gtts/ml) ÷ (8 h × 60 min) = 15000 ÷ 480 = 31.25 ≈ 31 drops/min."
   },
   {
     "id": "DSSSB-20",
     "question": "The functional unit of the kidney is:",
-    "options": ["Nephron", "Glomerulus", "Tubule", "Calyx"],
+    "options": [
+      "Nephron",
+      "Glomerulus",
+      "Tubule",
+      "Calyx"
+    ],
     "correct": 0,
     "section": "anatomy",
     "subject": "Anatomy",
@@ -417,6 +593,10 @@
       "C": "Tubule is only part of the nephron.",
       "D": "Calyx is part of the collecting system, not the functional unit."
     },
-    "tags": ["recall-unverified"]
+    "tags": [
+      "recall-unverified"
+    ],
+    "citation": "Gray’s Anatomy for Students 4e; Guyton & Hall 14e",
+    "explanation": "The nephron (~1 million per kidney) is the structural and functional unit of the kidney; comprises glomerulus + renal tubule."
   }
 ]

@@ -9,7 +9,12 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "scenario",
-    "tags": ["scenario", "highyield", "pph", "must"],
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph",
+      "must"
+    ],
     "question": "A G3P3 woman 15 minutes after vaginal delivery has soaked two pads. The fundus is boggy at the umbilicus, BP 90/60, HR 118. Which nursing action is the FIRST priority?",
     "options": [
       "Start a second IV line with 18G cannula and draw blood for cross-match",
@@ -24,7 +29,8 @@
       "C": "Positioning is supportive; it does not stop haemorrhage. Trendelenburg is no longer recommended — it worsens venous return.",
       "D": "Escalation follows ongoing atony despite uterotonics + mechanical measures; it is not the first action."
     },
-    "explanation": "WHO LCG 2020 + FIGO 2022: active management — oxytocin + massage FIRST, then escalate through the uterotonic ladder (carboprost / misoprostol / tranexamic acid)."
+    "explanation": "WHO LCG 2020 + FIGO 2022: active management — oxytocin + massage FIRST, then escalate through the uterotonic ladder (carboprost / misoprostol / tranexamic acid).",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
   },
   {
     "syllabusId": "midwifery-pph",
@@ -36,7 +42,12 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "scenario",
-    "tags": ["scenario", "highyield", "pph", "must"],
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph",
+      "must"
+    ],
     "question": "Atonic PPH persists despite oxytocin. The obstetrician orders carboprost 250 mcg IM. Which comorbidity would make the nurse hold the drug and verify the order?",
     "options": [
       "Gestational diabetes well-controlled on diet",
@@ -51,7 +62,8 @@
       "C": "Anaemia is a reason to give blood, not withhold uterotonics.",
       "D": "Prior uterine surgery is not a carboprost contraindication per se."
     },
-    "explanation": "Carboprost bronchospasm risk is classic — asthma is the only absolute contraindication the nurse must catch at bedside."
+    "explanation": "Carboprost bronchospasm risk is classic — asthma is the only absolute contraindication the nurse must catch at bedside.",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
   },
   {
     "syllabusId": "midwifery-pph",
@@ -63,7 +75,11 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "calculation",
-    "tags": ["calc", "highyield", "pph"],
+    "tags": [
+      "calc",
+      "highyield",
+      "pph"
+    ],
     "question": "The obstetrician orders an oxytocin infusion: 40 IU in 500 mL NS at 125 mL/hr. How many IU of oxytocin does the patient receive per minute?",
     "options": [
       "0.17 IU/min",
@@ -78,7 +94,8 @@
       "C": "Four times the correct — arithmetic slip.",
       "D": "Far above therapeutic — would cause tetanic contraction."
     },
-    "explanation": "Oxytocin post-placental infusion typically targets 0.1–0.2 IU/min. Nurses must be able to derive this at bedside."
+    "explanation": "Oxytocin post-placental infusion typically targets 0.1–0.2 IU/min. Nurses must be able to derive this at bedside.",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
   },
   {
     "syllabusId": "midwifery-lochia",
@@ -90,7 +107,12 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "scenario",
-    "tags": ["scenario", "highyield", "lochia", "must"],
+    "tags": [
+      "scenario",
+      "highyield",
+      "lochia",
+      "must"
+    ],
     "question": "A postpartum woman on Day 10 reports lochia that is bright red and heavier than yesterday, passing a small clot. Her fundus is 2 fingerbreadths above the symphysis. The nurse's MOST appropriate action is:",
     "options": [
       "Reassure her that bright-red lochia until day 14 is normal",
@@ -105,7 +127,8 @@
       "C": "Delay risks ongoing blood loss; not appropriate.",
       "D": "Ambulation is generally advised but does NOT address the underlying pathology."
     },
-    "explanation": "Lochia timeline: rubra 1–3 d → serosa 4–10 d → alba 10 d–6 wk. Reversion or persistent rubra warrants escalation."
+    "explanation": "Lochia timeline: rubra 1–3 d → serosa 4–10 d → alba 10 d–6 wk. Reversion or persistent rubra warrants escalation.",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
   },
   {
     "syllabusId": "midwifery-lochia",
@@ -117,7 +140,11 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "factual",
-    "tags": ["highyield", "lochia", "must"],
+    "tags": [
+      "highyield",
+      "lochia",
+      "must"
+    ],
     "question": "Lochia alba is characterised by:",
     "options": [
       "Bright-red vaginal discharge with clots, days 1–3",
@@ -132,7 +159,8 @@
       "C": "Lochia alba — day 10 onwards, composed of leucocytes, mucus, and epithelial cells.",
       "D": "Offensive / purulent discharge suggests endometritis — pathological, not a physiological lochia phase."
     },
-    "explanation": "The three-stage classification (rubra / serosa / alba) is NORCET-level high-yield."
+    "explanation": "The three-stage classification (rubra / serosa / alba) is NORCET-level high-yield.",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
   },
   {
     "syllabusId": "midwifery-lochia",
@@ -144,7 +172,11 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "scenario",
-    "tags": ["scenario", "highyield", "lochia"],
+    "tags": [
+      "scenario",
+      "highyield",
+      "lochia"
+    ],
     "question": "On postpartum Day 2 a mother reports offensive, greenish lochia with low-grade fever (38.1 °C) and uterine tenderness. The nurse suspects:",
     "options": [
       "Normal lochia rubra — reassure and document",
@@ -159,7 +191,8 @@
       "C": "UTI would typically have dysuria/frequency and clearer lochia.",
       "D": "Engorgement causes breast pain, not uterine tenderness / offensive lochia."
     },
-    "explanation": "Infection is the other major PP red flag — offensive lochia + fever = endometritis until proven otherwise."
+    "explanation": "Infection is the other major PP red flag — offensive lochia + fever = endometritis until proven otherwise.",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e / Gynecology 8e"
   },
   {
     "syllabusId": "midwifery-pph",
@@ -171,7 +204,12 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "scenario",
-    "tags": ["scenario", "highyield", "pph", "must"],
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph",
+      "must"
+    ],
     "question": "A shock index of 1.2 is calculated in a woman with ongoing PPH. The nurse recognises this as:",
     "options": [
       "Normal — no additional intervention required",
@@ -186,7 +224,8 @@
       "C": "Shock Index ≥ 1.0 (HR/SBP) in obstetric haemorrhage activates massive transfusion (RCOG 2016). SI ≥ 1.2 is specifically associated with transfusion need.",
       "D": "Vasovagal causes bradycardia, not tachycardia/hypotension."
     },
-    "explanation": "Shock index is the NORCET Mains go-to bedside metric for haemorrhagic shock triage."
+    "explanation": "Shock index is the NORCET Mains go-to bedside metric for haemorrhagic shock triage.",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
   },
   {
     "syllabusId": "midwifery-pph",
@@ -198,7 +237,11 @@
     "source": "NORCET High-Yield · Lochia+PPH pack",
     "year": 2025,
     "qtype": "scenario",
-    "tags": ["scenario", "highyield", "pph"],
+    "tags": [
+      "scenario",
+      "highyield",
+      "pph"
+    ],
     "question": "Despite oxytocin + carboprost the uterus remains atonic 30 minutes postpartum. The surgical escalation ladder the nurse anticipates is:",
     "options": [
       "Hysterectomy first, then bilateral uterine artery ligation",
@@ -213,6 +256,7 @@
       "C": "Bypasses uterus-conserving measures; reserved for failed escalation or life-threatening bleeding.",
       "D": "Cerclage is for incompetent cervix in pregnancy, not for PPH."
     },
-    "explanation": "NORCET loves this ladder — memorise the stepwise escalation before hysterectomy."
+    "explanation": "NORCET loves this ladder — memorise the stepwise escalation before hysterectomy.",
+    "citation": "DC Dutta's Textbook of Obstetrics 9e — Obstetric Management"
   }
 ]
