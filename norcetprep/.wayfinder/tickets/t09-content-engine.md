@@ -23,5 +23,10 @@ a subscription to be worth paying for — and keep paying for? Decide:
 - Clinical-accuracy safeguards without a domain expert: cross-model
   verification, confidence-flagged review queues, the user error-report loop
   (`report.js`) as a first-class quality input.
-- What to do about the verbatim NORCET-9 PYQ paper before charging for it
-  (pending [Legal & compliance baseline](t05-legal-compliance.md)).
+- What to do about the verbatim NORCET-9 PYQ paper before charging for it —
+  [Legal & compliance baseline](t05-legal-compliance.md) resolved the verdict:
+  all 121 items must be rewritten into reworded recall style before the
+  paywall; this ticket decides how that rewrite fits the pipeline.
+- Language strategy: [Competitor & pricing landscape](t01-competitor-landscape.md)
+  found an English-first option is an exploitable gap in a Hindi-led market —
+  decide English-first vs bilingual for banks, notes, and explanations.
