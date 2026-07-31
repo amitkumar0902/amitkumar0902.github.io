@@ -64,6 +64,13 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Pricing & packaging](tickets/t06-pricing-packaging.md) — free = topic MCQs
+  + daily quiz + current public mocks + Mains samples; paid = full mock
+  library + complete Mains toolkit + analytics; SKUs **₹299/3-mo · ₹599/6-mo ·
+  ₹999/12-mo** one-time validity (all-inclusive, no auto-renew); launch price
+  ₹249/₹449/₹699 ending for real 11 Sep 2026; 7-day no-questions refund (one
+  per account); existing allowlisted user grandfathered 12 months; public
+  promise = exam-season weekly mock + growing bank.
 - [Platform & entitlement architecture](tickets/t07-platform-architecture.md) —
   **Firebase all-in on nursedrill.com**: Auth (Google + email/password),
   Firestore, one webhook Cloud Function, Hosting deployed by GitHub Action;
@@ -88,11 +95,8 @@ beyond this map.
 
 ## Not yet specified
 
-- **Launch sequencing & migration** — cutover from the allowlist to real
-  accounts, grandfathering the existing user, announcement plan; sharpens once
-  pricing lands (architecture is decided).
-- **Support & ops** — error-report triage, refund handling, doubt channels;
-  sharpens once pricing lands.
+*(empty — everything visible is ticketed; new fog gets written here as it
+appears)*
 
 ## Out of scope
 
