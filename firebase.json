@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": "norcetprep",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "imp/**",
+      "scripts/**",
+      "**/*.pdf"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(svg|png|jpg|jpeg|webp)",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+      },
+      {
+        "source": "**/*.json",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+      }
+    ]
+  }
+}
