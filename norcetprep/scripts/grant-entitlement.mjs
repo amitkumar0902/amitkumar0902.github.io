@@ -20,9 +20,13 @@ const months = parseInt(arg('months', ''), 10);
 const product = arg('product', 'norcet');
 const source = arg('source', 'grant');
 const orderId = arg('order', 'manual-' + new Date().toISOString().slice(0, 10));
+const markRefunded = process.argv.includes('--mark-refunded');
+const revoke = months === 0;
 
-if (!email || !months || months < 1) {
+if (!email || (!markRefunded && (!Number.isInteger(months) || months < 0))) {
   console.error('Usage: node grant-entitlement.mjs --email <email> --months <n> [--product norcet] [--source grant] [--order <id>]');
+  console.error('       --months 0        revoke access now (webhook does this automatically on a gateway refund)');
+  console.error('       --mark-refunded   set the one-refund-per-account marker (refund runbook, step 5)');
   process.exit(1);
 }
 
@@ -33,6 +37,30 @@ const user = await admin.auth().getUserByEmail(email).catch((e) => {
   console.error(`No auth user for ${email}: ${e.message}`);
   process.exit(1);
 });
+
+// The one-per-account refund marker. Set after a refund is processed so the
+// account page stops offering another one (T06: one refund per account).
+if (markRefunded) {
+  await db.collection('users').doc(user.uid).set({
+    refund: { used: true, at: admin.firestore.FieldValue.serverTimestamp(), orderId }
+  }, { merge: true });
+  console.log(`Marked ${email} as having used their one refund [${orderId}]`);
+  if (!Number.isInteger(months)) process.exit(0);
+}
+
+if (revoke) {
+  await db.collection('users').doc(user.uid).set({
+    entitlements: {
+      [product]: {
+        paid_until: admin.firestore.Timestamp.fromDate(new Date()),
+        revokedAt: admin.firestore.FieldValue.serverTimestamp(),
+        revokedBy: 'manual:' + orderId
+      }
+    }
+  }, { merge: true });
+  console.log(`Revoked ${product} for ${email} (${user.uid}) [${orderId}]`);
+  process.exit(0);
+}
 
 const ref = db.collection('users').doc(user.uid);
 const snap = await ref.get();

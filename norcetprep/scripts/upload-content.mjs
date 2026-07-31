@@ -42,6 +42,7 @@ const PREMIUM_PREFIXES = [
 ];
 const FREE_EXCEPTIONS = new Set([
   'data/mains/mocks/index.json',
+  'data/mains/mocks/mock-1.json',   // the designated free sample mock
   'data/mains/notes/foundation.json'
 ]);
 

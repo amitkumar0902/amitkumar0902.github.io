@@ -57,9 +57,12 @@
           const links = isLocked
             ? (appMode ? '🔒' : '🔒 <a class="nd-buy-only" href="../../pricing.html">Unlock</a>')
             : '<a href="mock.html?id='+m.id+'">'+(r?'Retake':'Start')+'</a>'+(r?' <a href="mock.html?id='+m.id+'#review">Review</a>':'');
+          // The designated sample is labelled wherever it appears — a free
+          // sample nobody can identify is not a sample.
+          const sampleTag = m.sample ? ' <span class="badge">sample · free</span>' : '';
           return '<li>' +
             '<span class="num">'+numLabel+'</span>' +
-            '<span class="title">'+m.title+resumable+'<div class="small muted">'+m.count+' Q · '+m.minutes+' min · '+top+'</div>'+prog+'</span>' +
+            '<span class="title">'+m.title+sampleTag+resumable+'<div class="small muted">'+m.count+' Q · '+m.minutes+' min · '+top+'</div>'+prog+'</span>' +
             '<span class="links">'+links+'</span>' +
             status +
           '</li>';
@@ -75,6 +78,10 @@
   <a class="back" href="../index.html">← Back to Plan</a>
   <h1>Full Mock Tests</h1>
   <p class="muted">Three families of NORCET Mains mocks: ten 160-Q balanced simulations (180 min each, +1 correct / −1/3 wrong) drawn from the full PYQ + high-yield bank; a <strong>PYQ-only mock</strong> of verified NORCET recalls; and per-paper <strong>recall sets</strong> — one mock per NORCET 1–9 Mains paper, plus sister staff-nurse exams (AIIMS pre-NORCET, JIPMER, RRB, ESIC, DSSSB). Every recall set is memory-based and written in our own words; none reproduces an official paper. Each holds only that year's questions — no blending. Results save locally with subject-wise analysis.</p>
+
+  <p class="muted"><strong>Full Mock Test 1 is free, for everyone, always</strong> — a complete
+  160-question / 180-minute simulation with the full score report. Take it before you pay for
+  anything; the rest of the library is the same product at the same standard.</p>
 
   <h2>All mocks</h2>
   <ul class="lecture-list" id="mocks-list"><li>Loading...</li></ul>

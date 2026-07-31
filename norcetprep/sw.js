@@ -39,6 +39,7 @@ const PRECACHE = [
   './data/mains/syllabus.json',
   './data/mains/videos.json',
   './data/mains/mocks/index.json',
+  './data/mains/mocks/mock-1.json',
   './data/mains/notes/foundation.json',
   './data/fix-log.json',
   // Free page shells (render their own locked states offline).
@@ -68,7 +69,7 @@ self.addEventListener('activate', (e) => {
 
 // Premium data never enters SW caches — Firestore persistence is its offline
 // story. Everything under data/mains/ except the explicit free files.
-const FREE_DATA = /\/data\/mains\/(stats|syllabus|videos)\.json$|\/data\/mains\/mocks\/index\.json$|\/data\/mains\/notes\/foundation\.json$/;
+const FREE_DATA = /\/data\/mains\/(stats|syllabus|videos)\.json$|\/data\/mains\/mocks\/(index|mock-1)\.json$|\/data\/mains\/notes\/foundation\.json$/;
 function isPremiumData(url) {
   return url.pathname.includes('/data/mains/') && !FREE_DATA.test(url.pathname);
 }

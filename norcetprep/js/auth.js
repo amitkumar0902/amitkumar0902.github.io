@@ -107,6 +107,77 @@
              ' <span class="muted small">' + seen + '</span></li>';
     });
     $('acct-devices').innerHTML = list.join('') || '<li class="muted">Just this one, so far.</li>';
+    renderRefund(ent, live);
+  }
+
+  // ---- Self-serve refund request (T14 / PRD user story 13) ----
+  // 7 days, no questions, one per account. The user files the request here; the
+  // owner refunds in the gateway dashboard and the webhook revokes access. A
+  // client can never mark its own refund approved — rules forbid the update.
+  var REFUND_DAYS = 7;
+
+  function grantedAt(ent) {
+    var t = ent && (ent.grantedAt || ent.paid_until);
+    try { return t && t.toDate ? t.toDate() : null; } catch (e) { return null; }
+  }
+
+  function renderRefund(ent, live) {
+    var row = $('refund-row');
+    if (!row) return;
+    if (!live) { row.style.display = 'none'; return; }
+    row.style.display = '';
+
+    var already = state.doc && state.doc.refund && state.doc.refund.used;
+    var since = grantedAt(ent);
+    var daysIn = since ? Math.floor((Date.now() - since.getTime()) / 86400000) : null;
+    var inWindow = daysIn !== null && daysIn <= REFUND_DAYS;
+
+    if (already) {
+      $('refund-window').textContent = 'The one refund this account is entitled to has been used.';
+      $('btn-refund').style.display = 'none';
+      return;
+    }
+    if (!inWindow) {
+      $('refund-window').textContent = 'The 7-day refund window for this purchase has passed. ' +
+        'If something is wrong with your access, write to support@nursedrill.com — access problems are fixed the same day.';
+      $('btn-refund').style.display = 'none';
+      return;
+    }
+    var left = REFUND_DAYS - daysIn;
+    $('refund-window').textContent = left + ' day' + (left === 1 ? '' : 's') +
+      ' left in your 7-day no-questions refund window. One refund per account.';
+  }
+
+  function openRefund() {
+    $('refund-form').style.display = '';
+    $('btn-refund').style.display = 'none';
+  }
+
+  function sendRefund() {
+    var status = $('refund-status');
+    var orderRef = ($('refund-order').value || '').trim();
+    if (!orderRef) { status.textContent = 'Add the order or payment reference from your receipt so we can find the payment.'; return; }
+    var ent = state.doc && state.doc.entitlements && state.doc.entitlements.norcet;
+    $('btn-refund-send').disabled = true;
+    status.textContent = 'Filing your request…';
+
+    window.firebase.firestore().collection('refundRequests').add({
+      uid: state.user.uid,
+      email: state.user.email || '',
+      orderRef: orderRef.slice(0, 120),
+      reason: (($('refund-reason').value || '').trim()).slice(0, 500),
+      status: 'requested',
+      paidUntil: (ent && ent.paid_until) || null,
+      createdAt: window.firebase.firestore.FieldValue.serverTimestamp()
+    }).then(function () {
+      $('refund-form').style.display = 'none';
+      status.textContent = 'Request filed. We process refunds within 48 hours; your bank shows the money ' +
+        'in 5–7 business days. Access stays on until the refund goes through.';
+    }).catch(function (e) {
+      $('btn-refund-send').disabled = false;
+      status.textContent = 'Could not file that. Email support@nursedrill.com with your order reference — ' +
+        'payment issues are handled the same day. (' + human(e) + ')';
+    });
   }
 
   // ---- Auth actions ----
@@ -223,6 +294,8 @@
       syncAccount().then(function () { err('Progress synced.'); })
         .catch(function (e) { err(human(e)); });
     };
+    if ($('btn-refund')) $('btn-refund').onclick = openRefund;
+    if ($('btn-refund-send')) $('btn-refund-send').onclick = sendRefund;
   }
 
   if (document.readyState === 'loading') {

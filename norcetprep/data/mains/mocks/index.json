@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Full Mock Test 1",
+    "title": "Full Mock Test 1 — free sample",
     "count": 160,
     "minutes": 180,
     "subjects": {
@@ -16,7 +16,9 @@
       "Admin": 1,
       "Pharmacology": 9,
       "Nutrition": 1
-    }
+    },
+    "free": true,
+    "sample": true
   },
   {
     "id": 2,

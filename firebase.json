@@ -9,20 +9,41 @@
     "public": "norcetprep",
     "ignore": [
       "firebase.json",
-      "**/.*",
       "**/node_modules/**",
       "imp/**",
       "scripts/**",
-      "**/*.pdf"
+      "**/*.pdf",
+      "**/.git*",
+      "**/.DS_Store",
+      "**/.firebase/**"
     ],
     "headers": [
       {
+        "source": "/.well-known/**",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      },
+      {
         "source": "**/*.@(svg|png|jpg|jpeg|webp)",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=604800"
+          }
+        ]
       },
       {
         "source": "**/*.json",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=3600"
+          }
+        ]
       }
     ]
   }

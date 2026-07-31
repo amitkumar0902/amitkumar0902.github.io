@@ -89,6 +89,19 @@ on every device.</p>
         <button class="ce-btn ce-btn--quiet" id="btn-resync" style="margin-top:2px">Sync progress now</button>
       </div>
     </div>
+    <div class="setting" id="refund-row" style="display:none">
+      <div class="ico">₹</div>
+      <div style="flex:1"><b>Refund</b>
+        <span class="ce-small ce-muted" id="refund-window"></span>
+        <div id="refund-form" style="display:none;margin-top:6px">
+          <input class="ce-input" id="refund-order" placeholder="Order or payment reference (from your receipt)" autocomplete="off">
+          <input class="ce-input" id="refund-reason" placeholder="Reason (optional)" autocomplete="off" style="margin-top:6px">
+          <button class="ce-btn ce-btn--quiet" id="btn-refund-send" style="margin-top:6px">Request my refund</button>
+        </div>
+        <button class="ce-btn ce-btn--quiet" id="btn-refund" style="margin-top:2px">Request a refund</button>
+        <div id="refund-status" class="ce-small" role="status" aria-live="polite" style="margin-top:6px"></div>
+      </div>
+    </div>
     <div class="setting">
       <div class="ico">→</div>
       <div style="flex:1">
@@ -110,6 +123,7 @@ on every device.</p>
   Not affiliated with or endorsed by AIIMS.
 </footer>
 
+<script src="js/origin-stub.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>

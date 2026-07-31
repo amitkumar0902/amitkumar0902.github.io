@@ -67,13 +67,14 @@ test('premium paths route to the gated store, free paths never do', () => {
   const isPremium = s.ND.content.isPremium;
 
   assert.equal(isPremium('../../data/mains/question-bank.json'), true);
-  assert.equal(isPremium('../../data/mains/mocks/mock-1.json'), true);
+  assert.equal(isPremium('../../data/mains/mocks/mock-2.json'), true);
   assert.equal(isPremium('../../data/mains/notes/medicine.json'), true);
   assert.equal(isPremium('../../data/mains/pyqs/norcet-9-mains-2025.json'), true);
 
   // Merchandising metadata and the designated samples stay free, or the
   // library renders a blank page to signed-out visitors.
   assert.equal(isPremium('../../data/mains/mocks/index.json'), false);
+  assert.equal(isPremium('../../data/mains/mocks/mock-1.json'), false, 'the designated free sample');
   assert.equal(isPremium('../../data/mains/notes/foundation.json'), false);
   assert.equal(isPremium('../../data/mains/stats.json'), false);
   assert.equal(isPremium('data/questions/pharmacology.json'), false);

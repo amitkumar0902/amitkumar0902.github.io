@@ -31,6 +31,7 @@
   // open quality sample (T06: "open samples of Mains notes").
   var FREE_EXCEPTIONS = {
     'data/mains/mocks/index.json': 1,
+    'data/mains/mocks/mock-1.json': 1,   // the designated free sample mock
     'data/mains/notes/foundation.json': 1
   };
 

@@ -117,9 +117,8 @@ const adminStub = {
   })
 };
 
-let registeredHandler = null;
 const httpsStub = {
-  onRequest(_opts, handler) { registeredHandler = handler; return handler; }
+  onRequest(_opts, handler) { return handler; }
 };
 const paramsStub = {
   defineSecret: (name) => ({ name, value: () => SECRET })
@@ -128,7 +127,11 @@ const paramsStub = {
 const STUBS = {
   'firebase-admin': adminStub,
   'firebase-functions/v2/https': httpsStub,
-  'firebase-functions/params': paramsStub
+  'firebase-functions/params': paramsStub,
+  // index.js also re-exports the Telegram feeder, so its imports need stubbing
+  // even though nothing here exercises them.
+  'firebase-functions/v2/scheduler': { onSchedule: (_opts, handler) => handler },
+  'firebase-functions': { logger: { info() {}, warn() {}, error() {} } }
 };
 
 const realLoad = Module._load;
@@ -137,8 +140,10 @@ Module._load = function (request, parent, isMain) {
   return realLoad.call(this, request, parent, isMain);
 };
 
+// By name, not by registration order: index.js exports more than one HTTPS
+// function (the webhook and the Telegram announce endpoint).
 const fn = require(path.join(__dirname, '..', 'index.js'));
-const handler = registeredHandler || fn.razorpayWebhook;
+const handler = fn.razorpayWebhook;
 
 // ---- Request / response doubles --------------------------------------------
 

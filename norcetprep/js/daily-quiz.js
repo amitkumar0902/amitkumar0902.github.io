@@ -46,9 +46,10 @@
   // A question is quiz-eligible when it has been through the pipeline: an
   // explanation, a citation, and four options. Anything unverified stays out.
   function eligible(q) {
-    return q && typeof q.question === 'string' && Array.isArray(q.options) && q.options.length === 4 &&
+    return !!(q && typeof q.question === 'string' && Array.isArray(q.options) && q.options.length === 4 &&
+    q.options.every(function (o) { return typeof o === 'string' && o.trim(); }) &&
       typeof q.correct === 'number' && q.explanation && String(q.explanation).trim() &&
-      q.citation && String(q.citation).trim();
+      q.citation && String(q.citation).trim());
   }
 
   function pick(pool, seed, n) {

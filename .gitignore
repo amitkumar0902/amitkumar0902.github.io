@@ -10,3 +10,10 @@ serviceAccount*.json
 
 # Copyrighted source material — never served, never committed (legal gate, T05)
 norcetprep/imp/
+
+# Android signing material — never commit
+android/*.keystore
+android/*.jks
+android/build/
+android/.gradle/
+android/app-release-*.a?b

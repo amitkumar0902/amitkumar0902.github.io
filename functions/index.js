@@ -154,3 +154,7 @@ exports.razorpayWebhook = onRequest(
     }
   }
 );
+
+// The Telegram feeder lives in its own module; re-exported so a single
+// `firebase deploy --only functions` ships both.
+Object.assign(exports, require('./daily-post'));
