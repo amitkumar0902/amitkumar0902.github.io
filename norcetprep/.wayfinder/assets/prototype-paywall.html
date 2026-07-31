@@ -1,0 +1,563 @@
+<style>
+  :root{
+    --paper:#F5F8F7; --surface:#FFFFFF; --ink:#182830; --ink-2:#4E6570;
+    --line:#D9E4E1; --teal:#0E7C7B; --teal-deep:#0A5B5A; --teal-wash:#E3F0EE;
+    --amber:#B97417; --amber-wash:#F7EDDC; --good:#2E7D4F; --bad:#B3402E;
+    --rig:#EDF2F1; --rig-ink:#5A7078; --focus:#0E7C7B;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper:#0F191C; --surface:#16242A; --ink:#E4EEEB; --ink-2:#93A9A6;
+      --line:#24363C; --teal:#3BAAA4; --teal-deep:#5CC4BD; --teal-wash:#123434;
+      --amber:#D79A3D; --amber-wash:#33291A; --good:#5CB98A; --bad:#D97862;
+      --rig:#131F23; --rig-ink:#7F969A;
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#F5F8F7; --surface:#FFFFFF; --ink:#182830; --ink-2:#4E6570;
+    --line:#D9E4E1; --teal:#0E7C7B; --teal-deep:#0A5B5A; --teal-wash:#E3F0EE;
+    --amber:#B97417; --amber-wash:#F7EDDC; --good:#2E7D4F; --bad:#B3402E;
+    --rig:#EDF2F1; --rig-ink:#5A7078;
+  }
+  :root[data-theme="dark"]{
+    --paper:#0F191C; --surface:#16242A; --ink:#E4EEEB; --ink-2:#93A9A6;
+    --line:#24363C; --teal:#3BAAA4; --teal-deep:#5CC4BD; --teal-wash:#123434;
+    --amber:#D79A3D; --amber-wash:#33291A; --good:#5CB98A; --bad:#D97862;
+    --rig:#131F23; --rig-ink:#7F969A;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--paper); color:var(--ink);
+    font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-variant-numeric:tabular-nums}
+  button{font:inherit; cursor:pointer}
+  button:focus-visible,a:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+  a{color:var(--teal-deep)}
+
+  /* ---------- prototype rig (not product UI) ---------- */
+  .rig{max-width:960px; margin:0 auto; padding:14px 16px 6px}
+  .rig h1{font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--rig-ink); margin:0 0 8px; font-weight:600}
+  .rig-row{display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+  .rig-group{display:flex; gap:4px; background:var(--rig); border:1px solid var(--line);
+    border-radius:8px; padding:3px}
+  .rig-chip{border:0; background:transparent; color:var(--rig-ink);
+    border-radius:6px; padding:4px 10px; font-size:13px}
+  .rig-chip[aria-pressed="true"]{background:var(--surface); color:var(--ink);
+    box-shadow:0 1px 2px rgba(0,0,0,.12); font-weight:600}
+  .rig-note{font-size:12.5px; color:var(--rig-ink); margin:8px 0 0}
+
+  /* ---------- phone frame ---------- */
+  .frame{max-width:430px; margin:12px auto 48px; background:var(--surface);
+    border:1px solid var(--line); border-radius:22px; overflow:hidden;
+    box-shadow:0 12px 40px rgba(10,40,45,.10); display:flex; flex-direction:column;
+    min-height:760px}
+  @media (max-width:470px){ .frame{border-radius:0; border-left:0; border-right:0; margin:8px 0 0} }
+
+  /* top bar */
+  .topbar{display:flex; align-items:center; justify-content:space-between;
+    padding:14px 16px; border-bottom:1px solid var(--line)}
+  .brand{font-weight:800; font-size:19px; letter-spacing:-.02em}
+  .brand b{color:var(--teal); font-weight:800}
+  .brand .tick{color:var(--teal)}
+  .top-actions{display:flex; gap:8px; align-items:center}
+  .pill{font-size:12px; padding:3px 9px; border-radius:99px; border:1px solid var(--line);
+    color:var(--ink-2); background:var(--surface)}
+  .pill.premium{border-color:var(--amber); color:var(--amber); font-weight:600}
+
+  .view{flex:1; overflow-y:auto; padding:16px; display:none}
+  .view.active{display:block}
+
+  /* tab bar */
+  .tabs{display:flex; border-top:1px solid var(--line); background:var(--surface)}
+  .tab{flex:1; border:0; background:none; padding:10px 4px 12px; font-size:12px;
+    color:var(--ink-2); display:flex; flex-direction:column; gap:2px; align-items:center}
+  .tab .ic{font-size:17px; line-height:1}
+  .tab[aria-current="true"]{color:var(--teal); font-weight:700}
+
+  /* shared bits */
+  .eyebrow{font-size:11.5px; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--ink-2); font-weight:700; margin:22px 0 8px}
+  .view > .eyebrow:first-child{margin-top:2px}
+  .card{border:1px solid var(--line); border-radius:12px; padding:14px; background:var(--surface)}
+  .stack{display:flex; flex-direction:column; gap:10px}
+  .row{display:flex; gap:10px; align-items:center}
+  .grow{flex:1}
+  .btn{display:block; width:100%; text-align:center; border:0; border-radius:10px;
+    padding:12px 16px; font-weight:700; font-size:15.5px}
+  .btn-primary{background:var(--teal); color:#fff}
+  .btn-primary:hover{background:var(--teal-deep)}
+  :root[data-theme="dark"] .btn-primary:hover, .btn-primary:hover{filter:brightness(1.05)}
+  .btn-ghost{background:none; border:1.5px solid var(--line); color:var(--ink)}
+  .btn-quiet{background:none; border:0; color:var(--teal-deep); font-weight:600; padding:8px}
+  .small{font-size:13px; color:var(--ink-2)}
+  .tiny{font-size:12px; color:var(--ink-2)}
+  .lock{color:var(--amber); font-weight:700}
+  .divider{border-top:1px solid var(--line); margin:18px 0}
+
+  /* exam strip */
+  .exam-strip{display:flex; justify-content:space-between; align-items:baseline;
+    background:var(--teal-wash); border-radius:10px; padding:10px 12px; margin-bottom:14px}
+  .exam-strip .when{font-weight:700}
+
+  /* subject grid */
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+  .subject{border:1px solid var(--line); border-radius:10px; padding:10px 12px; background:var(--surface)}
+  .subject .n{font-weight:700}
+  .subject .c{font-size:12.5px; color:var(--ink-2)}
+
+  /* locked tiles */
+  .tile{border:1px solid var(--line); border-radius:12px; padding:12px 14px;
+    display:flex; align-items:center; gap:12px; background:var(--surface)}
+  .tile.locked{background:var(--amber-wash); border-color:var(--amber)}
+  body.premium .tile.locked{background:var(--surface); border-color:var(--line)}
+  .tile .t-name{font-weight:650}
+  .tile .t-sub{font-size:12.5px; color:var(--ink-2)}
+
+  /* pricing */
+  .sku{border:1.5px solid var(--line); border-radius:14px; padding:16px; background:var(--surface)}
+  .sku.hero{border-color:var(--teal); background:var(--teal-wash)}
+  .sku .dur{font-weight:800; font-size:15px}
+  .price-line{display:flex; align-items:baseline; gap:8px; margin:4px 0 2px}
+  .price-now{font-size:28px; font-weight:800; letter-spacing:-.02em}
+  .price-was{color:var(--ink-2); text-decoration:line-through; font-size:15px}
+  .per{font-size:12.5px; color:var(--ink-2)}
+  .honesty{border-left:3px solid var(--teal); padding:8px 12px; background:var(--teal-wash);
+    border-radius:0 8px 8px 0; font-size:13.5px; margin:14px 0}
+
+  /* quiz */
+  .opt{display:block; width:100%; text-align:left; margin-top:8px; padding:11px 12px;
+    border:1.5px solid var(--line); border-radius:10px; background:var(--surface); color:var(--ink)}
+  .opt.correct{border-color:var(--good); background:color-mix(in srgb, var(--good) 12%, var(--surface))}
+  .opt.wrong{border-color:var(--bad); background:color-mix(in srgb, var(--bad) 10%, var(--surface))}
+  .explain{border:1px solid var(--line); border-left:3px solid var(--good);
+    border-radius:0 10px 10px 0; padding:12px; margin-top:12px; font-size:14.5px; display:none}
+  .explain.open{display:block}
+  .source{font-size:12.5px; color:var(--ink-2); margin-top:8px}
+
+  /* forms */
+  .field{display:block; width:100%; border:1.5px solid var(--line); border-radius:10px;
+    padding:11px 12px; font:inherit; background:var(--surface); color:var(--ink); margin-top:8px}
+
+  /* fixlog */
+  .fix{border-bottom:1px solid var(--line); padding:10px 0; font-size:14px}
+  .fix .d{color:var(--ink-2); font-size:12.5px}
+
+  /* device list */
+  .dev{display:flex; justify-content:space-between; padding:9px 0; border-bottom:1px solid var(--line); font-size:14px}
+
+  /* footer */
+  .foot{padding:18px 4px 6px; font-size:12px; color:var(--ink-2); line-height:1.6}
+
+  /* annotations */
+  .anno{display:none; border:1.5px dashed var(--amber); background:var(--amber-wash);
+    color:var(--ink); border-radius:10px; padding:9px 12px; font-size:13px; margin:10px 0}
+  body.annotations .anno{display:block}
+  .anno b{color:var(--amber)}
+
+  /* app-mode (TWA) visibility rules */
+  body.twa .browser-only{display:none !important}
+  body.twa .tile.locked .unlock-cta{display:none}
+  .twa-only{display:none}
+  body.twa .twa-only{display:block}
+  body:not(.premium) .premium-only{display:none}
+  body.premium .free-only{display:none}
+  body.premium .lockmark{display:none}
+
+  @media (prefers-reduced-motion: no-preference){
+    .view.active{animation:in .18s ease}
+    @keyframes in{from{opacity:.4; transform:translateY(4px)} to{opacity:1; transform:none}}
+  }
+</style>
+
+<div class="rig">
+  <h1>NurseDrill · paywall prototype rig — simulator controls, not product UI</h1>
+  <div class="rig-row">
+    <div class="rig-group" role="group" aria-label="Surface">
+      <button class="rig-chip" id="rig-browser" aria-pressed="true">Browser</button>
+      <button class="rig-chip" id="rig-twa" aria-pressed="false">Android app (TWA)</button>
+    </div>
+    <div class="rig-group" role="group" aria-label="Account state">
+      <button class="rig-chip" id="rig-out" aria-pressed="true">Signed out</button>
+      <button class="rig-chip" id="rig-free" aria-pressed="false">Free account</button>
+      <button class="rig-chip" id="rig-prem" aria-pressed="false">Premium</button>
+    </div>
+    <div class="rig-group">
+      <button class="rig-chip" id="rig-anno" aria-pressed="false">Annotations</button>
+    </div>
+  </div>
+  <p class="rig-note">Walk the real funnel (Home → locked tile → Plans → sign in → pay → unlocked) or jump states here. Annotations explain which map decision each element implements.</p>
+</div>
+
+<div class="frame">
+  <div class="topbar">
+    <div class="brand">Nurse<b>Drill</b><span class="tick"> ▚</span></div>
+    <div class="top-actions">
+      <span class="pill twa-only">App</span>
+      <span class="pill free-only" id="pill-state">Signed out</span>
+      <span class="pill premium premium-only">Premium</span>
+    </div>
+  </div>
+
+  <!-- ================= HOME ================= -->
+  <section class="view active" id="v-home">
+    <div class="exam-strip">
+      <span>NORCET 11 · Prelims</span>
+      <span class="when mono" id="exam-days">12 Sep 2026</span>
+    </div>
+
+    <div class="anno"><b>T02</b> Exam-anchored, honest urgency: real exam dates, never offer countdowns.</div>
+
+    <div class="card">
+      <div class="row">
+        <div class="grow">
+          <div style="font-weight:750">Daily free quiz</div>
+          <div class="small">10 questions · streak <span class="mono">6 🔥</span> · free forever</div>
+        </div>
+        <button class="btn-quiet" data-go="v-question">Start →</button>
+      </div>
+    </div>
+    <div class="anno"><b>T12</b> The free funnel lives on-product (not Telegram): daily quiz + streaks convert where the paywall is.</div>
+
+    <p class="eyebrow">Free question banks · 547 MCQs</p>
+    <div class="grid2">
+      <div class="subject"><div class="n">Pharmacology</div><div class="c mono">148 Qs</div></div>
+      <div class="subject"><div class="n">Medical-Surgical</div><div class="c mono">120 Qs</div></div>
+      <div class="subject"><div class="n">OBG</div><div class="c mono">96 Qs</div></div>
+      <div class="subject"><div class="n">Pediatric</div><div class="c mono">84 Qs</div></div>
+    </div>
+    <button class="btn-quiet" data-go="v-question">Try a sample question →</button>
+
+    <p class="eyebrow">Premium · Mains toolkit</p>
+    <div class="stack">
+      <div class="tile locked">
+        <span class="lockmark lock">🔒</span>
+        <div class="grow">
+          <div class="t-name">Full mock library</div>
+          <div class="t-sub">10 NORCET-mix mocks · 8 PYQ paper-mocks (NORCET 1–8, recall-based) · bonus staff-nurse set</div>
+        </div>
+        <button class="btn-quiet unlock-cta browser-only free-only" data-go="v-plans">Unlock</button>
+        <button class="btn-quiet premium-only" data-go="v-mocks">Open →</button>
+      </div>
+      <div class="tile locked">
+        <span class="lockmark lock">🔒</span>
+        <div class="grow">
+          <div class="t-name">Notes · flashcards · labelled diagrams · drills</div>
+          <div class="t-sub">13 sections · scenario-first · toppers frequency analysis</div>
+        </div>
+        <button class="btn-quiet unlock-cta browser-only free-only" data-go="v-plans">Unlock</button>
+        <button class="btn-quiet premium-only" data-go="v-mocks">Open →</button>
+      </div>
+      <div class="card twa-only free-only">
+        <div class="small">🔒 This content is locked. Already purchased? <a href="#" data-go="v-auth">Sign in</a>.</div>
+      </div>
+    </div>
+    <div class="anno"><b>T04/T07</b> App-mode blackout: in the Android app there is <b>no</b> price, no “Unlock”, no link to checkout — only neutral locked copy + sign-in. Toggle “Android app (TWA)” above to verify.</div>
+
+    <div class="card premium-only" style="margin-top:12px">
+      <div style="font-weight:750">This week's mock is live</div>
+      <div class="small">New full mock every week till 12 Sep — reviewed before release, or it ships late.</div>
+      <button class="btn-quiet" data-go="v-mocks">Go to mocks →</button>
+    </div>
+
+    <div class="divider"></div>
+    <div class="row browser-only free-only">
+      <button class="btn btn-primary grow" data-go="v-plans">See plans — from ₹249</button>
+    </div>
+    <div class="foot">
+      Built openly by an engineer · <a href="#" data-go="v-method">How our questions are checked</a> ·
+      <a href="#" data-go="v-fixlog">Public fix-log</a><br>
+      NurseDrill is not affiliated with or endorsed by AIIMS. “NORCET” is used descriptively.
+    </div>
+    <div class="anno"><b>T08</b> Trust strip: transparent solo builder, methodology, public fix-log, AIIMS disclaimer — on every screen’s footer.</div>
+  </section>
+
+  <!-- ================= SAMPLE QUESTION ================= -->
+  <section class="view" id="v-question">
+    <button class="btn-quiet" data-go="v-home">← Back</button>
+    <p class="eyebrow">Daily free quiz · Q4/10 · Pharmacology</p>
+    <div class="card">
+      <div style="font-weight:650">A patient on IV heparin develops a platelet count of 40,000/mm³ on day 5. The nurse should anticipate which immediate order?</div>
+      <button class="opt" data-opt="w">A. Reduce heparin to half the current dose</button>
+      <button class="opt" data-opt="c">B. Stop heparin and start a non-heparin anticoagulant</button>
+      <button class="opt" data-opt="w">C. Transfuse platelets and continue heparin</button>
+      <button class="opt" data-opt="w">D. Switch to low-molecular-weight heparin</button>
+      <div class="explain" id="explain">
+        <b>Why B:</b> A ≥50% platelet fall around day 4–10 of heparin suggests heparin-induced
+        thrombocytopenia (HIT), a prothrombotic emergency — all heparin (including LMWH) is stopped
+        and a direct thrombin inhibitor (e.g., argatroban) started. Platelet transfusion is avoided;
+        dose reduction does not stop immune platelet activation.
+        <div class="source">Source: Brunner &amp; Suddarth 15e, Ch. 33 · cross-checked, human-reviewed</div>
+        <button class="btn-quiet" data-go="v-fixlog">Something wrong? Report it → public fix-log</button>
+      </div>
+    </div>
+    <div class="anno"><b>T09</b> Explanation-first is the product: rationale + source citation + visible error loop on every question.</div>
+  </section>
+
+  <!-- ================= PLANS ================= -->
+  <section class="view" id="v-plans">
+    <button class="btn-quiet" data-go="v-home">← Back</button>
+    <p class="eyebrow">Plans — one payment, no auto-renewal</p>
+
+    <div class="stack">
+      <div class="sku">
+        <div class="row"><span class="dur grow">3 months</span><span class="tiny">till your next attempt</span></div>
+        <div class="price-line"><span class="price-now mono">₹249</span><span class="price-was mono">₹299</span></div>
+        <div class="per">≈ ₹83/month</div>
+        <button class="btn btn-primary" style="margin-top:10px" data-buy="3-month · ₹249">Get 3 months</button>
+      </div>
+      <div class="sku hero">
+        <div class="row"><span class="dur grow">12 months</span><span class="tiny">covers NORCET 11 + 12</span></div>
+        <div class="price-line"><span class="price-now mono">₹699</span><span class="price-was mono">₹999</span></div>
+        <div class="per">≈ ₹58/month · less than a quarter of the ₹3,000 application fee</div>
+        <button class="btn btn-primary" style="margin-top:10px" data-buy="12-month · ₹699">Get 12 months</button>
+      </div>
+      <div class="sku">
+        <div class="row"><span class="dur grow">6 months</span><span class="tiny">one full cycle + revision</span></div>
+        <div class="price-line"><span class="price-now mono">₹449</span><span class="price-was mono">₹599</span></div>
+        <div class="per">≈ ₹75/month</div>
+        <button class="btn btn-primary" style="margin-top:10px" data-buy="6-month · ₹449">Get 6 months</button>
+      </div>
+    </div>
+
+    <div class="honesty">
+      <b>Launch price ends 11 Sep 2026</b> — the night before Prelims. That's the real date;
+      there is no countdown widget and the price won't “come back by popular demand.”
+    </div>
+
+    <div class="card">
+      <div class="small" style="line-height:1.7">
+        ✔ Price is final — nothing added at checkout<br>
+        ✔ One payment. No auto-renewal, ever. We remind you before expiry; renewing is your choice<br>
+        ✔ 7-day no-questions refund (one per account)<br>
+        ✔ Use on all your devices — we don't limit them
+      </div>
+    </div>
+    <div class="anno"><b>T06/T03</b> Validity plans, all-inclusive display, honest time-boxed launch price, refund promise. <b>T07</b>: “Get …” hands off to a Razorpay hosted page with your account id in the notes.</div>
+
+    <p class="eyebrow">What premium includes</p>
+    <div class="small" style="line-height:1.8">
+      • Full mock library — 10 NORCET-mix mocks + 8 PYQ paper-mocks (recall-based, NORCET 1–8)<br>
+      • New full mock <b>every week</b> during exam season (slower off-season — we say so upfront)<br>
+      • Complete Mains toolkit: notes, flashcards, labelled diagrams, drug-calc drills<br>
+      • Toppers frequency analysis + cutoff-anchored score reports<br>
+      • Bonus: RRB / ESIC / DSSSB / JIPMER staff-nurse mocks
+    </div>
+    <div class="foot">Questions are cross-checked and human-reviewed, with sources —
+      <a href="#" data-go="v-method">read how</a>. Errors are fixed in the open —
+      <a href="#" data-go="v-fixlog">fix-log</a>.</div>
+  </section>
+
+  <!-- ================= AUTH ================= -->
+  <section class="view" id="v-auth">
+    <button class="btn-quiet" data-go="v-home">← Back</button>
+    <p class="eyebrow">Create your account</p>
+    <div class="card stack">
+      <button class="btn btn-ghost" id="btn-google">Continue with Google</button>
+      <div class="tiny" style="text-align:center">or with email</div>
+      <input class="field" type="email" placeholder="you@example.com" aria-label="Email">
+      <input class="field" type="password" placeholder="Password" aria-label="Password">
+      <button class="btn btn-primary" id="btn-email">Continue</button>
+      <div class="tiny">Your practice progress on this device moves into your account automatically.</div>
+    </div>
+    <div class="anno"><b>T07</b> Google + email/password only (no OTP costs). First sign-in merges local progress via the existing sync merge engine. The public allowlist gate is gone.</div>
+  </section>
+
+  <!-- ================= CHECKOUT ================= -->
+  <section class="view" id="v-checkout">
+    <p class="eyebrow">Checkout</p>
+    <div class="card">
+      <div style="font-weight:750" id="co-plan">12-month · ₹699</div>
+      <div class="small" style="margin:8px 0 14px">You'll finish payment on Razorpay's secure page —
+        UPI, cards, netbanking. Access unlocks within seconds of payment.</div>
+      <button class="btn btn-primary" id="btn-pay">Continue to Razorpay →</button>
+      <button class="btn btn-quiet" data-go="v-plans" style="width:100%">Change plan</button>
+      <div class="tiny" style="margin-top:10px">7-day no-questions refund · support@nursedrill.com</div>
+    </div>
+    <div class="anno"><b>T07</b> Hosted payment page (no card data ever touches our site) → webhook →
+      <span class="mono">paid_until</span> written to your account. This screen never renders in app-mode.</div>
+  </section>
+
+  <!-- ================= SUCCESS ================= -->
+  <section class="view" id="v-success">
+    <div class="card" style="text-align:center; margin-top:24px">
+      <div style="font-size:40px">✅</div>
+      <div style="font-weight:800; font-size:20px; margin:6px 0">You're in.</div>
+      <div class="small">Premium active until <b class="mono">31 Aug 2027</b>.<br>Receipt sent to your email.</div>
+      <button class="btn btn-primary" style="margin-top:14px" data-go="v-mocks">Start a mock →</button>
+    </div>
+    <div class="anno"><b>T07</b> The webhook unlock story: seconds, 24/7, no manual step.</div>
+  </section>
+
+  <!-- ================= MOCKS ================= -->
+  <section class="view" id="v-mocks">
+    <p class="eyebrow">Mock library</p>
+    <div class="free-only card" style="margin-bottom:10px">
+      <div class="small">You're on the free tier — 2 sample mocks are open.
+        <span class="browser-only"><a href="#" data-go="v-plans">See plans</a> for the full library.</span></div>
+    </div>
+    <div class="stack">
+      <div class="tile"><div class="grow"><div class="t-name">Sample mock A · Stage I pattern</div><div class="t-sub mono">100 Qs · 90 min · free</div></div><button class="btn-quiet">Start</button></div>
+      <div class="tile"><div class="grow"><div class="t-name">This week's mock — Mains #11</div><div class="t-sub mono">160 Qs · 180 min · added Fri</div></div><span class="lockmark lock free-only">🔒</span><button class="btn-quiet premium-only">Start</button></div>
+      <div class="tile"><div class="grow"><div class="t-name">NORCET 9 Mains — recall paper</div><div class="t-sub mono">121 Qs · memory-based recall</div></div><span class="lockmark lock free-only">🔒</span><button class="btn-quiet premium-only">Start</button></div>
+      <div class="tile"><div class="grow"><div class="t-name">Mocks 1–10 · NORCET mix</div><div class="t-sub">Blueprint-balanced, cutoff-anchored reports</div></div><span class="lockmark lock free-only">🔒</span><button class="btn-quiet premium-only">Open</button></div>
+    </div>
+    <div class="anno"><b>T09/T05</b> NORCET-9 appears only as a reworded recall paper — no “verbatim/official PDF” claims anywhere.</div>
+    <div class="card premium-only" style="margin-top:12px">
+      <div style="font-weight:700">Last mock · your report</div>
+      <div class="small mono" style="margin-top:6px">Score 118/160 · est. cutoff band 104–112 · you're above it ✅</div>
+      <div class="tiny">Weak topics: fluid-electrolyte (4/9) · psych meds (3/7)</div>
+    </div>
+  </section>
+
+  <!-- ================= ACCOUNT ================= -->
+  <section class="view" id="v-account">
+    <p class="eyebrow">Account</p>
+    <div class="card stack">
+      <div class="free-only"><div class="small">Signed in as <b>aspirant@example.com</b> · Free tier</div></div>
+      <div class="premium-only">
+        <div class="small">Signed in as <b>aspirant@example.com</b></div>
+        <div style="font-weight:750">Premium until <span class="mono">31 Aug 2027</span></div>
+        <div class="tiny">We'll email you before expiry. Renewing is manual — your choice.</div>
+      </div>
+      <div class="divider" style="margin:6px 0"></div>
+      <div>
+        <div style="font-weight:700; font-size:14px">Devices</div>
+        <div class="dev"><span>Redmi Note 12 · this device</span><span class="tiny mono">today</span></div>
+        <div class="dev"><span>Chrome · Windows</span><span class="tiny mono">2 d ago</span></div>
+        <div class="tiny" style="margin-top:6px">No device limits — study where you like.</div>
+      </div>
+      <div class="divider" style="margin:6px 0"></div>
+      <button class="btn-quiet" style="text-align:left; padding-left:0" data-go="v-fixlog">Request a refund (7-day window)</button>
+      <button class="btn-quiet" style="text-align:left; padding-left:0">Sign out</button>
+      <button class="btn-quiet" style="text-align:left; padding-left:0; color:var(--bad)">Delete my account &amp; data</button>
+    </div>
+    <div class="anno"><b>T07/T04</b> Device telemetry without limits; account deletion is a Play Store requirement — it purges auth + data.</div>
+  </section>
+
+  <!-- ================= METHODOLOGY ================= -->
+  <section class="view" id="v-method">
+    <button class="btn-quiet" data-go="v-home">← Back</button>
+    <p class="eyebrow">How our questions are checked</p>
+    <div class="small" style="line-height:1.75">
+      NurseDrill is built openly by an engineer — here's exactly what stands behind every question:<br><br>
+      <b>1 · Consistency checks.</b> Every item passes automated validation — schema, options,
+      answer keys, duplicates — on every change.<br>
+      <b>2 · Independent cross-verification.</b> Each question and its explanation is challenged by a
+      separate verification pass; anything it can't confirm is flagged.<br>
+      <b>3 · Human review.</b> All flagged items and a random sample of everything else are reviewed
+      by hand before release.<br>
+      <b>4 · Sources.</b> Every question cites a standard nursing reference.<br>
+      <b>5 · Public fixes.</b> Every reported error and its fix is published, dated, in the
+      <a href="#" data-go="v-fixlog">fix-log</a>.<br><br>
+      A weekly mock that hasn't finished review ships late — never unreviewed.
+    </div>
+    <div class="anno"><b>T08/T09</b> Claims discipline: truthful process description, no “expert-verified” claims, tooling not foregrounded.</div>
+  </section>
+
+  <!-- ================= FIX-LOG ================= -->
+  <section class="view" id="v-fixlog">
+    <button class="btn-quiet" data-go="v-home">← Back</button>
+    <p class="eyebrow">Public fix-log</p>
+    <div class="fix"><div>Q-PHARM-0142 — corrected antidote pairing (pralidoxime, not atropine alone) after user report.</div><div class="d mono">28 Jul 2026 · reported 27 Jul</div></div>
+    <div class="fix"><div>MOCK-7 Q88 — explanation expanded: rationale for prone positioning in ARDS.</div><div class="d mono">21 Jul 2026</div></div>
+    <div class="fix"><div>Q-OBG-0067 — option D reworded (ambiguous with C); answer unchanged.</div><div class="d mono">14 Jul 2026 · reported 13 Jul</div></div>
+    <div class="small" style="margin-top:12px">Found something wrong? Every question has a report link.
+      Fixes usually land within a week and are listed here, dated.</div>
+    <div class="anno"><b>T08</b> The fix-log is the trust engine: errors are inevitable; hiding them is the brand-killer.</div>
+  </section>
+
+  <!-- tab bar -->
+  <nav class="tabs">
+    <button class="tab" data-go="v-home" aria-current="true"><span class="ic">⌂</span>Home</button>
+    <button class="tab" data-go="v-question"><span class="ic">✎</span>Practice</button>
+    <button class="tab" data-go="v-mocks"><span class="ic">▤</span>Mocks</button>
+    <button class="tab browser-only" data-go="v-plans"><span class="ic">₹</span>Plans</button>
+    <button class="tab" data-go="v-account"><span class="ic">◔</span>Account</button>
+  </nav>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  const body = document.body;
+  const state = { mode:'browser', auth:'out' };
+
+  function setPressed(id, on){ document.getElementById(id).setAttribute('aria-pressed', on?'true':'false'); }
+
+  function render(){
+    body.classList.toggle('twa', state.mode==='twa');
+    body.classList.toggle('premium', state.auth==='prem');
+    setPressed('rig-browser', state.mode==='browser');
+    setPressed('rig-twa', state.mode==='twa');
+    setPressed('rig-out', state.auth==='out');
+    setPressed('rig-free', state.auth==='free');
+    setPressed('rig-prem', state.auth==='prem');
+    const pill = document.getElementById('pill-state');
+    pill.textContent = state.auth==='out' ? 'Signed out' : 'Free account';
+  }
+
+  function show(id){
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    const el = document.getElementById(id);
+    (el||document.getElementById('v-home')).classList.add('active');
+    document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-current', t.dataset.go===id ? 'true':'false'));
+    document.querySelector('.frame .view.active').scrollTop = 0;
+  }
+
+  // rig controls
+  document.getElementById('rig-browser').onclick=()=>{state.mode='browser';render();};
+  document.getElementById('rig-twa').onclick=()=>{state.mode='twa';render();
+    if(document.getElementById('v-plans').classList.contains('active')||document.getElementById('v-checkout').classList.contains('active')) show('v-home');};
+  document.getElementById('rig-out').onclick=()=>{state.auth='out';render();};
+  document.getElementById('rig-free').onclick=()=>{state.auth='free';render();};
+  document.getElementById('rig-prem').onclick=()=>{state.auth='prem';render();};
+  document.getElementById('rig-anno').onclick=function(){
+    body.classList.toggle('annotations');
+    this.setAttribute('aria-pressed', body.classList.contains('annotations')?'true':'false');
+  };
+
+  // navigation
+  let pendingPlan = null;
+  document.addEventListener('click', function(e){
+    const nav = e.target.closest('[data-go]');
+    if(nav){ e.preventDefault(); show(nav.dataset.go); return; }
+    const buy = e.target.closest('[data-buy]');
+    if(buy){
+      pendingPlan = buy.dataset.buy;
+      document.getElementById('co-plan').textContent = pendingPlan;
+      show(state.auth==='out' ? 'v-auth' : 'v-checkout');
+      return;
+    }
+    const opt = e.target.closest('.opt');
+    if(opt){
+      document.querySelectorAll('.opt').forEach(o=>{
+        if(o.dataset.opt==='c') o.classList.add('correct');
+      });
+      if(opt.dataset.opt!=='c') opt.classList.add('wrong');
+      document.getElementById('explain').classList.add('open');
+    }
+  });
+
+  // auth continues the funnel
+  function signedIn(){
+    state.auth = state.auth==='prem' ? 'prem' : 'free'; render();
+    show(pendingPlan ? 'v-checkout' : 'v-home');
+  }
+  document.getElementById('btn-google').onclick=signedIn;
+  document.getElementById('btn-email').onclick=signedIn;
+
+  // payment succeeds
+  document.getElementById('btn-pay').onclick=function(){
+    state.auth='prem'; render(); show('v-success'); pendingPlan=null;
+  };
+
+  // exam countdown (honest: exam date, not an offer timer)
+  const days = Math.max(0, Math.ceil((new Date('2026-09-12') - new Date())/86400000));
+  document.getElementById('exam-days').textContent = '12 Sep · in '+days+' days';
+
+  render(); show('v-home');
+})();
+</script>

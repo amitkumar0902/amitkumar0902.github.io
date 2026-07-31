@@ -64,6 +64,12 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Paywall & subscription UX prototype](tickets/t11-paywall-ux-prototype.md) —
+  **signed off with no changes — the product spec is locked**: clickable
+  prototype of the full money path (free funnel → plans → auth → Razorpay
+  hand-off → instant unlock → premium library → account) including the TWA
+  app-mode blackout; copy register locked to confident honesty; the prototype
+  ([asset](assets/prototype-paywall.html)) is the UX reference for the build.
 - [Content engine & quality bar](tickets/t09-content-engine.md) — launch bar =
   **harden what exists, no volume push**: NORCET-9 rewritten to recall style
   (+ the official PDF unpublished), layered gates (validators → cross-model
