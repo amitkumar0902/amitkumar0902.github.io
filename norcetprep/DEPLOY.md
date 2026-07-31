@@ -65,3 +65,45 @@ working — no stubs needed until later.)
 When these are done, report the facts back (registrar, project id, activation
 outcomes, live URLs) — that closes **Business & payment prerequisites** and
 completes the map.
+
+---
+
+# Phase 2 — accounts (console side)
+
+Repo side is built: `account.html` (sign-in/up, progress merge, devices,
+account deletion — this page is also the Play data-safety "deletion URL"),
+`js/auth.js`, evolved `firebase/firestore.rules`, and the owner grant script.
+The legacy allowlist login stays working in parallel (grace overlap); on the
+product domain the legacy gate disarms by design and real gating arrives in
+Phase 3. Console steps:
+
+1. **Fill the Firebase config** — Firebase console → Project settings → Your
+   apps → Add web app → copy the config object into
+   `norcetprep/js/firebase-config.js` (replace the `YOUR_…` placeholders).
+   Commit + push. Until this is done, account.html shows "accounts aren't
+   switched on yet" and everything else still works.
+2. **Enable sign-in providers** — Authentication → Sign-in method → enable
+   **Google** and **Email/Password** (keep **Anonymous** enabled too — the
+   legacy sync-codes use it).
+3. **Authorized domains** — Authentication → Settings → add
+   `nursedrill.com` and `amitkumar0902.github.io`.
+4. **Create Firestore** — region **asia-south1 (Mumbai)** (the privacy policy
+   promises it), production mode, then deploy the rules:
+   ```bash
+   npx firebase-tools deploy --only firestore:rules
+   ```
+5. **Verify end-to-end** — open `/account.html` on the live site → create an
+   account → confirm your local practice progress appears in
+   Firestore under `users/{uid}.progress` → sign in on a second device and
+   see it merge.
+6. **Grandfather the allowlisted user** (decided in Pricing & packaging):
+   after they create their account (do it together — grace overlap),
+   ```bash
+   npm install firebase-admin        # one-off; gitignored
+   GOOGLE_APPLICATION_CREDENTIALS=/path/to/serviceAccount.json \
+     node norcetprep/scripts/grant-entitlement.mjs --email <their-email> --months 12
+   ```
+   account.html should then show "Premium until …".
+7. **Parallel content track** (not console work): the NORCET-9 rewrite batch
+   and the bank verification pipeline run alongside Phase 2 — see
+   `.wayfinder/tickets/t09-content-engine.md`.

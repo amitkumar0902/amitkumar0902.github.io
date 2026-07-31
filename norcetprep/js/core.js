@@ -3,13 +3,18 @@
 (function () {
   'use strict';
 
-  // ==== Auth gate (static client-side; obfuscation only, not real security) ====
+  // ==== Legacy auth gate (static client-side; obfuscation only, not real security) ====
   // Redirects to /norcetprep/login.html unless sessionStorage has nm.auth set.
+  // Deliberately keyed to the '/norcetprep/' path marker: on the product domain
+  // (nursedrill.com serves this directory at the origin root) the marker is absent,
+  // so this legacy gate disarms there — Phase 2 runs the new origin open while
+  // real entitlement gating arrives in Phase 3. The old origin keeps the gate
+  // during the migration grace period.
   var _p = location.pathname;
   var _idx = _p.lastIndexOf('/norcetprep/');
   if (_idx !== -1) {
     var _rest = _p.slice(_idx + '/norcetprep/'.length);
-    var _onAuthPage = /(^|\/)(login|signup)\.html$/.test(_rest);
+    var _onAuthPage = /(^|\/)(login|signup|account)\.html$/.test(_rest);
     var _authed = false;
     try { _authed = !!sessionStorage.getItem('nm.auth'); } catch (e) { _authed = true; }
     if (!_onAuthPage && !_authed) {
@@ -32,10 +37,11 @@
   // ==== Paths ====
   // All pages call NM.rootPath() to resolve relative path to norcetprep/.
   NM.rootPath = function () {
+    // Site root is the '/norcetprep/' marker on GitHub Pages, or the origin
+    // root on the product domain (nursedrill.com) — depth works either way.
     var p = location.pathname;
     var idx = p.lastIndexOf('/norcetprep/');
-    if (idx === -1) return './';
-    var rest = p.slice(idx + '/norcetprep/'.length);
+    var rest = idx !== -1 ? p.slice(idx + '/norcetprep/'.length) : p.replace(/^\//, '');
     var slashes = (rest.match(/\//g) || []).length;
     return slashes === 0 ? './' : new Array(slashes + 1).join('../');
   };

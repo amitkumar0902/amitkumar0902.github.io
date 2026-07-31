@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Account — NurseDrill</title>
+<meta name="robots" content="noindex">
+<style>
+  body{max-width:520px;margin:0 auto;padding:24px 20px 64px;color:#182830;
+    font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  h1{font-size:24px;letter-spacing:-.01em}
+  .muted{color:#4E6570}.small{font-size:13px}
+  .card{border:1px solid #D9E4E1;border-radius:14px;padding:18px;margin:16px 0;background:#fff}
+  .btn{display:block;width:100%;border:0;border-radius:10px;padding:12px 16px;
+    font:inherit;font-weight:700;cursor:pointer;margin-top:10px}
+  .btn-primary{background:#0E7C7B;color:#fff}
+  .btn-ghost{background:none;border:1.5px solid #D9E4E1;color:#182830}
+  .btn-quiet{background:none;border:0;color:#0A5B5A;font-weight:600;padding:8px 0;
+    cursor:pointer;font:inherit;text-align:left}
+  .btn-danger{background:none;border:0;color:#B3402E;font-weight:600;padding:8px 0;
+    cursor:pointer;font:inherit;text-align:left}
+  input{display:block;width:100%;box-sizing:border-box;border:1.5px solid #D9E4E1;
+    border-radius:10px;padding:11px 12px;font:inherit;margin-top:8px}
+  #auth-err,#auth-err-in{color:#B3402E;font-size:14px;min-height:1.3em;margin-top:10px}
+  .plan{font-weight:750}
+  .plan.premium{color:#B97417}
+  ul{padding-left:18px}
+  footer{margin-top:36px;padding-top:14px;border-top:1px solid #D9E4E1;font-size:13px;color:#4E6570;line-height:1.7}
+  a{color:#0A5B5A}
+  hr{border:0;border-top:1px solid #D9E4E1;margin:16px 0}
+</style>
+</head>
+<body>
+<h1>Your account</h1>
+<p class="muted small">One free account — your practice progress, streaks, and mock results on
+every device.</p>
+
+<div id="auth-loading" class="card"><span class="muted">Loading…</span></div>
+
+<div id="auth-disabled" class="card" style="display:none">
+  <strong>Accounts aren't switched on for this deployment yet.</strong>
+  <p class="small muted">The Firebase configuration is pending (owner: see DEPLOY.md, Phase 2).
+  Your practice still works — progress is saved in this browser.</p>
+</div>
+
+<div id="auth-out" style="display:none">
+  <div class="card">
+    <button class="btn btn-ghost" id="btn-google">Continue with Google</button>
+    <p class="small muted" style="text-align:center;margin:10px 0 0">or with email</p>
+    <input type="email" id="f-email" placeholder="you@example.com" autocomplete="email" aria-label="Email">
+    <input type="password" id="f-pw" placeholder="Password (6+ characters)" autocomplete="current-password" aria-label="Password">
+    <button class="btn btn-primary" id="btn-signin">Sign in</button>
+    <button class="btn btn-ghost" id="btn-create">Create account</button>
+    <button class="btn-quiet" id="btn-reset">Forgot password? Send reset email</button>
+    <div id="auth-err" role="alert" aria-live="polite"></div>
+    <p class="small muted">Signing in merges the practice progress already on this device into
+    your account — nothing is lost.</p>
+  </div>
+</div>
+
+<div id="auth-in" style="display:none">
+  <div class="card">
+    <div class="small muted">Signed in as</div>
+    <div id="acct-email" style="font-weight:700">…</div>
+    <hr>
+    <div class="small muted">Plan</div>
+    <div id="acct-plan" class="plan">…</div>
+    <hr>
+    <div class="small muted">Devices seen on this account <span class="small">(we don't limit them)</span></div>
+    <ul id="acct-devices" class="small"></ul>
+    <hr>
+    <button class="btn-quiet" id="btn-resync">Sync progress now</button>
+    <button class="btn-quiet" id="btn-signout">Sign out</button>
+    <button class="btn-danger" id="btn-delete">Delete my account &amp; data</button>
+    <div id="auth-err-in" role="alert" aria-live="polite"></div>
+  </div>
+  <p class="small muted">Deleting your account permanently removes your sign-in, synced progress,
+  and device records. Payment audit records are kept only as accounting law requires.</p>
+</div>
+
+<footer>
+  <a href="index.html">Home</a> · <a href="pricing.html">Pricing</a> ·
+  <a href="legal/privacy.html">Privacy</a> · <a href="legal/contact.html">Contact</a><br>
+  Not affiliated with or endorsed by AIIMS.
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/core.js"></script>
+<script src="js/sync.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>

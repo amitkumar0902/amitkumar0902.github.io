@@ -2,17 +2,34 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    match /users/{uid} {
-      allow read: if request.auth != null && request.auth.uid == uid;
-      allow create: if request.auth != null && request.auth.uid == uid;
-      allow update: if request.auth != null && request.auth.uid == uid
-        && !request.resource.data.diff(resource.data).affectedKeys()
-            .hasAny(['isPaid', 'paidAt', 'razorpayPaymentId']);
+    function userDoc() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
     }
 
-    match /questions/{topicSlug} {
+    // ---- Accounts (Phase 2) ----
+    // Clients manage their own doc but can NEVER write `entitlements` —
+    // that field is written only by the payment webhook and the owner's
+    // grant script (Admin SDK bypasses rules).
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create: if request.auth != null && request.auth.uid == uid
+        && !('entitlements' in request.resource.data);
+      allow update: if request.auth != null && request.auth.uid == uid
+        && !request.resource.data.diff(resource.data).affectedKeys()
+            .hasAny(['entitlements']);
+      // Account deletion (Play requirement): user removes their own doc.
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // ---- Premium content (Phase 3) ----
+    // content/{exam}/{collection}/{doc} is readable only with a live
+    // validity timestamp for that exam's product: entitlements.<exam>.paid_until.
+    match /content/{exam}/{col}/{doc} {
       allow read: if request.auth != null
-        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isPaid == true;
+        && 'entitlements' in userDoc()
+        && exam in userDoc().entitlements
+        && userDoc().entitlements[exam].paid_until > request.time;
+      allow write: if false;
     }
 
     match /leaderboard/{docId} {
@@ -20,11 +37,13 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // Payment audit records — server-only (webhook / Admin SDK).
     match /payments/{orderId} {
       allow read, write: if false;
     }
 
-    // NORCET Mains — cross-device sync codes (self-expire after 15 min)
+    // NORCET Mains — cross-device sync codes (self-expire after 15 min).
+    // Legacy path for anonymous users; signed-in users sync via users/{uid}.
     match /syncCodes/{code} {
       allow create: if request.auth != null
         && request.resource.data.keys().hasOnly(['payload', 'createdAt', 'consumed'])
@@ -39,7 +58,8 @@ service cloud.firestore {
         && resource.data.createdAt > request.time - duration.value(15, 'm');
     }
 
-    // NORCET Mains — user-submitted question reports (write-only from client)
+    // User-submitted question reports (write-only from client) — feeds the
+    // weekly triage and the public fix-log.
     match /reports/{id} {
       allow create: if request.auth != null
         && request.resource.data.keys().hasOnly(['qid','subject','topic','question','issue','note','ua','ts','createdAt']);
