@@ -32,6 +32,8 @@ jobs:
         run: node norcetprep/scripts/check-links.mjs
       - name: Content consistency gate on the golden set
         run: node norcetprep/scripts/verify-questions.mjs --golden --static-only
+      - name: Served-site smoke test
+        run: node norcetprep/test/smoke.mjs
       - name: Front-end behaviour tests (paywall, content routing, daily quiz)
         run: node --test norcetprep/test/frontend.test.js
       - name: Payment webhook behaviour tests
