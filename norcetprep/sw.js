@@ -12,6 +12,7 @@ const PRECACHE = [
   './pricing.html',
   './norcet-free-mock-test.html',
   './css/mains-theme.css',
+  './css/clinical.css',
   './css/hella.css',
   './js/core.js',
   './js/allowlist.js',

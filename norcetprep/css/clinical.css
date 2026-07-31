@@ -1,0 +1,177 @@
+/* NurseDrill "Clinical Excellence" design system — product/money-path pages.
+   Source of truth: stitch_nursedrill_exam_prep_interface/clinical_excellence/DESIGN.md
+   (visual language only; copy follows the locked map decisions).
+   Used by: pricing.html, checkout.html, checkout-success.html, account.html. */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --ce-bg: #f9f9f9;             /* studio white */
+  --ce-card: rgba(255, 255, 255, 0.8);
+  --ce-ink: #1a1c1c;
+  --ce-ink-2: #414848;
+  --ce-mute: #717978;
+  --ce-line: #e2e8f0;
+  --ce-slate: #042f2e;          /* deep slate teal — primary surfaces/buttons */
+  --ce-slate-deep: #001918;
+  --ce-teal: #006b5f;           /* links, micro-labels, icons */
+  --ce-mint: #62fae3;           /* electric mint — accents only */
+  --ce-mint-dim: #3cddc7;
+  --ce-mint-wash: #d9fbf4;
+  --ce-err: #ba1a1a;
+  --ce-err-wash: #ffdad6;
+  --ce-shadow: 0 40px 80px -15px rgba(4, 47, 46, 0.08);
+  --ce-font: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0 auto;
+  padding: 28px 16px 64px;
+  max-width: 560px;
+  background: var(--ce-bg);
+  color: var(--ce-ink);
+  font: 500 16px/1.6 var(--ce-font);
+  -webkit-font-smoothing: antialiased;
+}
+
+.ce-h1 {
+  font-size: clamp(28px, 6vw, 36px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 8px 0 6px;
+}
+.ce-sub { color: var(--ce-ink-2); margin: 0 0 20px; }
+.ce-micro {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ce-teal);
+  margin-bottom: 6px;
+}
+.ce-muted { color: var(--ce-mute); }
+.ce-small { font-size: 13px; }
+a { color: var(--ce-teal); }
+
+.ce-brand {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 19px; font-weight: 800; letter-spacing: -0.01em;
+  margin-bottom: 22px; color: var(--ce-ink); text-decoration: none;
+}
+.ce-brand .tick { color: var(--ce-mint-dim); }
+
+.ce-card {
+  background: var(--ce-card);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--ce-line);
+  border-radius: 1rem;
+  box-shadow: var(--ce-shadow);
+  padding: 22px 20px;
+  margin: 14px 0;
+}
+.ce-card--dark {
+  background: var(--ce-slate-deep);
+  border-color: var(--ce-slate);
+  color: #f0f1f1;
+}
+.ce-card--dark .ce-micro { color: var(--ce-mint-dim); }
+.ce-card--dark .ce-muted { color: #a9c0be; }
+.ce-card--dark a { color: var(--ce-mint-dim); }
+
+.ce-btn {
+  display: block; width: 100%;
+  padding: 14px 18px;
+  border: 0; border-radius: 0.5rem;
+  background: var(--ce-slate);
+  color: #fff;
+  font: 700 13px/1 var(--ce-font);
+  letter-spacing: 0.08em; text-transform: uppercase;
+  text-align: center; text-decoration: none;
+  cursor: pointer; margin-top: 12px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -2px 0 var(--ce-mint-dim);
+}
+.ce-btn:hover { background: var(--ce-slate-deep); }
+.ce-btn--ghost {
+  background: transparent; color: var(--ce-ink);
+  border: 1px solid var(--ce-line); box-shadow: none;
+}
+.ce-btn--ghost:hover { background: #fff; }
+.ce-btn--mint {
+  background: var(--ce-mint); color: var(--ce-slate-deep);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.ce-btn--mint:hover { background: var(--ce-mint-dim); }
+.ce-btn--danger { background: none; border: 0; box-shadow: none; color: var(--ce-err); text-align: left; padding-left: 0; }
+.ce-btn--quiet { background: none; border: 0; box-shadow: none; color: var(--ce-teal); text-align: left; padding-left: 0; }
+.ce-btn[hidden] { display: none; }
+
+.ce-chip {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  background: var(--ce-mint-wash);
+  color: var(--ce-teal);
+  font-size: 12px; font-weight: 700; letter-spacing: 0.04em;
+}
+.ce-chip--dark { background: var(--ce-slate-deep); color: var(--ce-mint-dim); }
+.ce-chip--err { background: var(--ce-err-wash); color: var(--ce-err); }
+
+.ce-price { font-size: 34px; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.ce-price .unit { font-size: 13px; font-weight: 600; color: var(--ce-mute); letter-spacing: 0; }
+.ce-was { color: var(--ce-mute); text-decoration: line-through; font-size: 15px; font-weight: 500; margin-left: 8px; }
+.ce-card--dark .ce-price .unit, .ce-card--dark .ce-was { color: #a9c0be; }
+
+.ce-checks { list-style: none; padding: 0; margin: 12px 0 0; }
+.ce-checks li { padding: 5px 0 5px 28px; position: relative; font-size: 14.5px; }
+.ce-checks li::before {
+  content: ''; position: absolute; left: 0; top: 9px;
+  width: 16px; height: 16px; border-radius: 50%;
+  background: var(--ce-mint-wash);
+}
+.ce-checks li::after {
+  content: ''; position: absolute; left: 4px; top: 13px;
+  width: 8px; height: 5px;
+  border-left: 2px solid var(--ce-teal); border-bottom: 2px solid var(--ce-teal);
+  transform: rotate(-45deg); border-radius: 1px;
+}
+.ce-card--dark .ce-checks li::before { background: rgba(98, 250, 227, 0.15); }
+.ce-card--dark .ce-checks li::after { border-color: var(--ce-mint-dim); }
+
+.ce-promise { display: flex; gap: 14px; align-items: flex-start; padding: 12px 0; }
+.ce-promise + .ce-promise { border-top: 1px solid var(--ce-line); }
+.ce-promise .ico {
+  flex: 0 0 38px; height: 38px; border-radius: 50%;
+  background: var(--ce-mint-wash); color: var(--ce-teal);
+  display: flex; align-items: center; justify-content: center; font-size: 17px;
+}
+.ce-promise b { display: block; font-weight: 700; font-size: 15px; }
+.ce-promise .ce-small { color: var(--ce-mute); }
+
+.ce-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.ce-hr { border: 0; border-top: 1px solid var(--ce-line); margin: 14px 0; }
+
+.ce-input {
+  display: block; width: 100%;
+  border: 1px solid var(--ce-line); border-radius: 0.5rem;
+  padding: 12px 14px; margin-top: 10px;
+  font: 500 16px/1.4 var(--ce-font);
+  background: #fff; color: var(--ce-ink);
+}
+.ce-input:focus { outline: none; border-color: var(--ce-mint-dim); box-shadow: 0 0 0 3px rgba(60, 221, 199, 0.25); }
+
+.ce-err-text { color: var(--ce-err); font-size: 14px; min-height: 1.3em; margin-top: 10px; }
+
+.ce-footer {
+  margin-top: 44px; padding-top: 20px;
+  border-top: 1px solid var(--ce-line);
+  text-align: center; font-size: 12.5px; color: var(--ce-mute); line-height: 2;
+}
+.ce-footer .brandline {
+  font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase;
+  font-size: 12px; color: var(--ce-ink);
+}
+.ce-footer a { color: var(--ce-teal); text-decoration: none; margin: 0 6px; }

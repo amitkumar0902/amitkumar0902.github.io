@@ -1,28 +1,32 @@
 /* ==========================================================================
-   NORCET Mains 2026 — pjreddie-inspired minimal academic theme
-   Light + dark themes via CSS variables. No gradients, no glitter.
+   NurseDrill — "Clinical Excellence" theme (Stitch design system applied to
+   the original variable structure). Studio-white surfaces, deep slate teal
+   ink, electric mint accents, Manrope throughout. Light + dark via CSS vars.
+   Reference: stitch_nursedrill_exam_prep_interface/clinical_excellence/DESIGN.md
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #ffffff;
-  --bg-alt: #fafafa;
-  --ink: #1a1a1a;
-  --ink-soft: #4a4a4a;
-  --ink-mute: #6a6a6a;
-  --rule: #d0d0d0;
-  --rule-soft: #e6e6e6;
-  --accent: #a83232;
-  --accent-soft: #f3dede;
-  --ok: #1d7a3c;
-  --ok-soft: #e1f4e7;
+  --bg: #f9f9f9;
+  --bg-alt: #ffffff;
+  --ink: #1a1c1c;
+  --ink-soft: #414848;
+  --ink-mute: #717978;
+  --rule: #c0c8c7;
+  --rule-soft: #e2e8f0;
+  --accent: #006b5f;
+  --accent-soft: #d9fbf4;
+  --ok: #007165;
+  --ok-soft: #d9fbf4;
   --warn: #b57d00;
   --warn-soft: #fbefcf;
-  --err: #a83232;
-  --err-soft: #f3dede;
-  --code-bg: #f4f4f4;
-  --serif: Georgia, "Times New Roman", "Noto Serif", serif;
-  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --err: #ba1a1a;
+  --err-soft: #ffdad6;
+  --code-bg: #eeeeee;
+  --serif: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --mono: "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --on-accent: #ffffff;
   --read-width: 1100px;
   --fz-xs: 13px;
   --fz-sm: 15px;
@@ -33,22 +37,23 @@
 }
 
 [data-theme="dark"] {
-  --bg: #121212;
-  --bg-alt: #1a1a1a;
-  --ink: #e8e8e8;
-  --ink-soft: #c0c0c0;
-  --ink-mute: #909090;
-  --rule: #333;
-  --rule-soft: #242424;
-  --accent: #e07474;
-  --accent-soft: #3a1f1f;
-  --ok: #5bd481;
-  --ok-soft: #1f3527;
+  --bg: #0c1514;
+  --bg-alt: #132020;
+  --ink: #f0f1f1;
+  --ink-soft: #c0c8c7;
+  --ink-mute: #8fa5a3;
+  --rule: #274d4c;
+  --rule-soft: #1c2e2d;
+  --accent: #4fdbc8;
+  --accent-soft: #00302a;
+  --ok: #3cddc7;
+  --ok-soft: #00302a;
   --warn: #e0b050;
   --warn-soft: #3a2f1a;
-  --err: #e07474;
-  --err-soft: #3a1f1f;
-  --code-bg: #1f1f1f;
+  --err: #ffb4ab;
+  --err-soft: #5c1a15;
+  --code-bg: #1c2e2d;
+  --on-accent: #00201c;
 }
 
 html[data-fs="sm"] { --fz: 16px; --fz-lg: 20px; --fz-xl: 24px; --fz-xxl: 30px; }
@@ -80,7 +85,8 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-
 
 h1, h2, h3, h4 {
   font-family: var(--serif);
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: -0.01em;
   color: var(--ink);
   line-height: 1.25;
   margin: 1.8em 0 0.6em;
@@ -203,7 +209,7 @@ th { background: var(--bg-alt); font-weight: 700; }
   text-decoration: none; cursor: pointer;
 }
 .btn:hover { background: transparent; color: var(--ink); }
-.btn--accent { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn--accent { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .btn--accent:hover { background: transparent; color: var(--accent); }
 .btn--ghost { background: transparent; color: var(--ink); }
 .btn--ghost:hover { background: var(--ink); color: var(--bg); }
@@ -325,11 +331,11 @@ th { background: var(--bg-alt); font-weight: 700; }
   flex-shrink: 0;
 }
 .option.selected { background: var(--accent-soft); border-color: var(--accent); }
-.option.selected .letter { background: var(--accent); color: #fff; border-color: var(--accent); }
+.option.selected .letter { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
 .option.correct { background: var(--ok-soft); border-color: var(--ok); }
-.option.correct .letter { background: var(--ok); color: #fff; border-color: var(--ok); }
+.option.correct .letter { background: var(--ok); color: var(--on-accent); border-color: var(--ok); }
 .option.wrong { background: var(--err-soft); border-color: var(--err); }
-.option.wrong .letter { background: var(--err); color: #fff; border-color: var(--err); }
+.option.wrong .letter { background: var(--err); color: var(--on-accent); border-color: var(--err); }
 .option .text { flex: 1; }
 
 .explanations {
@@ -549,7 +555,7 @@ th { background: var(--bg-alt); font-weight: 700; }
   border: 1px solid var(--accent); background: var(--accent-soft);
   color: var(--accent) !important; text-decoration: none; font-weight: 700;
 }
-.practice-cta:hover { background: var(--accent); color: #fff !important; }
+.practice-cta:hover { background: var(--accent); color: var(--on-accent) !important; }
 
 /* Old dog-motivation / emoji-rich blocks cleaned up */
 .motivation-quote, .dog-motivation, .motivation-dog, .dog-caption { display: none; }
@@ -586,7 +592,7 @@ th { background: var(--bg-alt); font-weight: 700; }
   cursor: pointer; border-radius: 2px;
 }
 .nm-report-modal .issue-choices input { display: none; }
-.nm-report-modal .issue-choices input:checked + span { background: var(--accent); color: #fff; padding: 3px 9px; border-radius: 2px; }
+.nm-report-modal .issue-choices input:checked + span { background: var(--accent); color: var(--on-accent); padding: 3px 9px; border-radius: 2px; }
 
 /* Flashcard image */
 .fc-image {
@@ -694,3 +700,50 @@ body.focus-mode { padding-top: 0; }
 }
 .sitemap-group li a { font-weight: 500; }
 .sitemap-group li strong { color: var(--ink); }
+
+/* ===== Mock report — "Performance Analytics" (Clinical Excellence) ===== */
+
+.report-hero {
+  display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
+  border: 1px solid var(--rule-soft); border-radius: 16px;
+  background: var(--bg-alt); padding: 24px;
+  box-shadow: 0 40px 80px -15px rgba(4, 47, 46, 0.08);
+  margin: 18px 0;
+}
+.report-donut {
+  --pct: 0; flex: 0 0 132px; width: 132px; height: 132px; border-radius: 50%;
+  background: conic-gradient(var(--accent) calc(var(--pct) * 1%), var(--rule-soft) 0);
+  display: flex; align-items: center; justify-content: center;
+}
+.report-donut > div {
+  width: 104px; height: 104px; border-radius: 50%; background: var(--bg-alt);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.report-donut .score { font-weight: 800; font-size: 30px; line-height: 1; letter-spacing: -0.01em; }
+.report-donut .of { font-size: 11px; color: var(--ink-mute); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 3px; }
+.report-hero .verdict { flex: 1; min-width: 200px; }
+.micro-label {
+  display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 4px;
+}
+.report-stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px; margin: 16px 0;
+}
+.stat-mod {
+  border: 1px solid var(--rule-soft); border-radius: 12px;
+  background: var(--bg-alt); padding: 14px 16px;
+}
+.stat-mod .val { font-weight: 800; font-size: 26px; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
+.stat-mod .sub { font-size: var(--fz-xs); color: var(--ink-mute); }
+
+.subj-bars { margin: 10px 0 6px; }
+.subj-bars .row { margin: 12px 0; }
+.subj-bars .row .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: var(--fz-sm); }
+.subj-bars .row .top .n { font-weight: 700; }
+.subj-bars .row .top .acc { font-weight: 800; font-variant-numeric: tabular-nums; color: var(--accent); }
+.subj-bars .row .top .acc.crit { color: var(--err); }
+.subj-bars .bar { height: 8px; border-radius: 9999px; background: var(--rule-soft); overflow: hidden; margin-top: 5px; }
+.subj-bars .bar > span { display: block; height: 100%; border-radius: 9999px; background: var(--accent); }
+.subj-bars .bar > span.crit { background: var(--err); }
+.subj-bars .row .meta { font-size: var(--fz-xs); color: var(--ink-mute); margin-top: 3px; }

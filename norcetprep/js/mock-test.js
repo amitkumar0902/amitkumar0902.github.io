@@ -360,23 +360,40 @@
                    r.pct >= 70 ? '<span class="badge badge--ok">Selection-level</span>' :
                    r.pct >= 55 ? '<span class="badge badge--warn">Needs push</span>' :
                    '<span class="badge badge--warn">Fundamentals gap</span>';
-    const subjectRows = Object.entries(r.bySubj).sort((a,b)=>b[1].t-a[1].t).map(([s,v]) =>
-      '<tr><td>'+NM.escape(s)+'</td><td>'+v.t+'</td><td>'+v.r+'</td><td>'+v.w+'</td><td>'+v.s+'</td><td>'+((v.r/v.t)*100).toFixed(0)+'%</td></tr>'
-    ).join('');
+    const subjBars = Object.entries(r.bySubj).sort((a,b)=>b[1].t-a[1].t).map(([s,v]) => {
+      const acc = (v.r / v.t) * 100;
+      const crit = acc < 50 ? ' crit' : '';
+      return '<div class="row">' +
+        '<div class="top"><span class="n">' + NM.escape(s) + '</span>' +
+        '<span class="acc' + crit + '">' + acc.toFixed(0) + '%' + (crit ? ' · focus' : '') + '</span></div>' +
+        '<div class="bar"><span class="' + (crit ? 'crit' : '') + '" style="width:' + Math.max(2, acc).toFixed(0) + '%"></span></div>' +
+        '<div class="meta">' + v.t + ' Qs · ' + v.r + ' right · ' + v.w + ' wrong · ' + v.s + ' skipped</div>' +
+        '</div>';
+    }).join('');
     root.innerHTML =
       '<a class="back" href="index.html">← Back to Mocks</a>' +
-      '<h1>Results — ' + NM.escape(state.title) + '</h1>' +
+      '<span class="micro-label">Performance report</span>' +
+      '<h1 style="margin-top:0">' + NM.escape(state.title) + '</h1>' +
       (r.autoTime ? '<p class="muted">Auto-submitted at time 0:00.</p>' : '') +
-      '<p>' + badges + '</p>' +
-      '<table><tbody>' +
-        '<tr><th>Score (post-negative)</th><td><strong>' + r.finalScore.toFixed(2) + ' / ' + r.total + '</strong> (' + r.pct.toFixed(1) + '%)</td></tr>' +
-        '<tr><th>Correct</th><td>' + r.right + '</td></tr>' +
-        '<tr><th>Wrong</th><td>' + r.wrong + ' (−' + (r.wrong/3).toFixed(2) + ')</td></tr>' +
-        '<tr><th>Skipped</th><td>' + r.skipped + '</td></tr>' +
-        '<tr><th>Avg time / Q attempted</th><td>' + r.avgTime.toFixed(1) + 's (target ≤67.5s)</td></tr>' +
-      '</tbody></table>' +
-      '<h2>Subject-wise accuracy</h2>' +
-      '<table><thead><tr><th>Subject</th><th>Total</th><th>Right</th><th>Wrong</th><th>Skipped</th><th>Accuracy</th></tr></thead><tbody>' + subjectRows + '</tbody></table>' +
+      '<div class="report-hero">' +
+        '<div class="report-donut" style="--pct:' + r.pct.toFixed(1) + '">' +
+          '<div><span class="score">' + r.finalScore.toFixed(1) + '</span>' +
+          '<span class="of">of ' + r.total + '</span></div>' +
+        '</div>' +
+        '<div class="verdict">' +
+          '<span class="micro-label">Post-negative score</span>' +
+          '<div style="font-weight:800;font-size:26px;letter-spacing:-.01em">' + r.pct.toFixed(1) + '%</div>' +
+          '<p style="margin:8px 0 0">' + badges + '</p>' +
+        '</div>' +
+      '</div>' +
+      '<div class="report-stats">' +
+        '<div class="stat-mod"><span class="micro-label">Correct</span><div class="val">' + r.right + '</div></div>' +
+        '<div class="stat-mod"><span class="micro-label">Wrong</span><div class="val">' + r.wrong + '</div><div class="sub">−' + (r.wrong/3).toFixed(2) + ' negative</div></div>' +
+        '<div class="stat-mod"><span class="micro-label">Skipped</span><div class="val">' + r.skipped + '</div></div>' +
+        '<div class="stat-mod"><span class="micro-label">Avg time / Q</span><div class="val">' + r.avgTime.toFixed(1) + 's</div><div class="sub">target ≤67.5s</div></div>' +
+      '</div>' +
+      '<h2>Subject-wise mastery</h2>' +
+      '<div class="subj-bars">' + subjBars + '</div>' +
       '<h2>Review wrong answers (' + r.wrongIds.length + ')</h2>' +
       '<div id="review-wrong"></div>' +
       '<h2>Review flagged (' + r.flaggedIds.length + ')</h2>' +
@@ -388,7 +405,10 @@
       '</div>';
     renderReviewList('#review-wrong', r.wrongIds);
     renderReviewList('#review-flag', r.flaggedIds);
-    $('#share-score').addEventListener('click', () => shareScoreCard(r));
+    $('#share-score').addEventListener('click', () => {
+      if (window.NDTrack) NDTrack('share_report', { mock: String(MOCK_ID), pct: r.pct });
+      shareScoreCard(r);
+    });
   }
 
   function renderReviewList(sel, ids) {
@@ -430,37 +450,67 @@
   }
 
   function shareScoreCard(r) {
+    // NurseDrill "Clinical Excellence" share card (T12: cutoff-anchored,
+    // brand-marked, flex-worthy). Manrope falls back to sans if not loaded.
     const W = 1080, H = 1350;
+    const SLATE = '#042f2e', DEEP = '#001918', MINT = '#3cddc7', INK = '#1a1c1c', MUTE = '#717978';
+    const F = (px, w) => (w || 500) + ' ' + px + 'px Manrope, -apple-system, Helvetica, sans-serif';
     const c = document.createElement('canvas'); c.width = W; c.height = H;
     const ctx = c.getContext('2d');
-    ctx.fillStyle = '#ffffff'; ctx.fillRect(0,0,W,H);
-    ctx.fillStyle = '#a83232'; ctx.fillRect(0,0,W,6);
-    ctx.fillStyle = '#1a1a1a';
-    ctx.font = 'bold 42px Georgia';
-    ctx.fillText('NORCET Mains 2026', 60, 100);
-    ctx.font = '28px Georgia';
-    ctx.fillText(state.title, 60, 150);
-    ctx.font = 'bold 180px Georgia';
-    ctx.fillStyle = r.pct >= 70 ? '#1d7a3c' : '#a83232';
-    ctx.fillText(r.pct.toFixed(1) + '%', 60, 360);
-    ctx.fillStyle = '#1a1a1a';
-    ctx.font = '32px Georgia';
-    ctx.fillText('Score: ' + r.finalScore.toFixed(2) + ' / ' + r.total, 60, 420);
-    ctx.font = '22px -apple-system, Helvetica';
-    ctx.fillText('✓ ' + r.right + '   ✕ ' + r.wrong + '   ○ ' + r.skipped, 60, 470);
-    ctx.fillText('Avg time: ' + r.avgTime.toFixed(1) + 's / Q', 60, 505);
-    ctx.font = 'bold 28px Georgia'; ctx.fillText('Subject-wise accuracy', 60, 580);
-    ctx.font = '22px -apple-system, Helvetica';
-    const subs = Object.entries(r.bySubj).sort((a,b)=>b[1].t-a[1].t).slice(0,8);
+    ctx.fillStyle = '#f9f9f9'; ctx.fillRect(0, 0, W, H);
+    // header band
+    ctx.fillStyle = DEEP; ctx.fillRect(0, 0, W, 150);
+    ctx.fillStyle = MINT; ctx.fillRect(0, 150, W, 6);
+    ctx.fillStyle = '#ffffff'; ctx.font = F(52, 800);
+    ctx.fillText('NurseDrill', 60, 95);
+    ctx.fillStyle = MINT; ctx.font = F(24, 700);
+    ctx.fillText(state.title.toUpperCase(), 60, 132);
+    // score ring
+    const cx = 250, cy = 420, R = 150;
+    ctx.lineWidth = 26; ctx.lineCap = 'round';
+    ctx.strokeStyle = '#e2e8f0';
+    ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2); ctx.stroke();
+    ctx.strokeStyle = r.pct >= 50 ? MINT : '#ba1a1a';
+    ctx.beginPath(); ctx.arc(cx, cy, R, -Math.PI / 2, -Math.PI / 2 + (Math.min(100, r.pct) / 100) * Math.PI * 2); ctx.stroke();
+    ctx.fillStyle = INK; ctx.textAlign = 'center';
+    ctx.font = F(88, 800); ctx.fillText(r.pct.toFixed(1) + '%', cx, cy + 12);
+    ctx.font = F(24, 600); ctx.fillStyle = MUTE;
+    ctx.fillText('POST-NEGATIVE', cx, cy + 58);
+    ctx.textAlign = 'left';
+    // score + stats to the right of the ring
+    ctx.fillStyle = MUTE; ctx.font = F(22, 700);
+    ctx.fillText('SCORE', 470, 330);
+    ctx.fillStyle = INK; ctx.font = F(64, 800);
+    ctx.fillText(r.finalScore.toFixed(1) + ' / ' + r.total, 470, 392);
+    ctx.fillStyle = MUTE; ctx.font = F(24);
+    ctx.fillText('✓ ' + r.right + '   ✕ ' + r.wrong + ' (−' + (r.wrong / 3).toFixed(1) + ')   ○ ' + r.skipped, 470, 450);
+    ctx.fillText('Avg ' + r.avgTime.toFixed(1) + 's per question', 470, 490);
+    // subject bars
+    ctx.fillStyle = INK; ctx.font = F(30, 800);
+    ctx.fillText('Subject-wise mastery', 60, 660);
+    const subs = Object.entries(r.bySubj).sort((a, b) => b[1].t - a[1].t).slice(0, 7);
     subs.forEach(([s, v], i) => {
-      const acc = ((v.r/v.t)*100).toFixed(0) + '%';
-      ctx.fillText(s.padEnd(20) + '  ' + acc + '  (' + v.r + '/' + v.t + ')', 60, 630 + i * 36);
+      const y = 710 + i * 76;
+      const acc = (v.r / v.t) * 100;
+      ctx.fillStyle = INK; ctx.font = F(24, 700);
+      ctx.fillText(s, 60, y);
+      ctx.fillStyle = acc < 50 ? '#ba1a1a' : SLATE; ctx.font = F(24, 800);
+      ctx.textAlign = 'right'; ctx.fillText(acc.toFixed(0) + '%', W - 60, y); ctx.textAlign = 'left';
+      ctx.fillStyle = '#e2e8f0'; ctx.fillRect(60, y + 14, W - 120, 12);
+      ctx.fillStyle = acc < 50 ? '#ba1a1a' : MINT;
+      ctx.fillRect(60, y + 14, Math.max(8, (W - 120) * acc / 100), 12);
     });
-    ctx.font = '18px -apple-system'; ctx.fillStyle = '#6a6a6a';
-    ctx.fillText(new Date().toLocaleDateString('en-IN', { day:'2-digit', month:'short', year:'numeric' }), 60, H - 80);
-    ctx.fillText('NORCET Mains Intensive · Day ' + NM.todayDay() + ' of 13', 60, H - 50);
+    // footer
+    ctx.fillStyle = DEEP; ctx.fillRect(0, H - 110, W, 110);
+    ctx.fillStyle = '#ffffff'; ctx.font = F(24, 800);
+    ctx.fillText('NURSEDRILL', 60, H - 62);
+    ctx.fillStyle = '#a9c0be'; ctx.font = F(19);
+    ctx.fillText('NORCET prep · not affiliated with AIIMS', 60, H - 30);
+    ctx.textAlign = 'right';
+    ctx.fillText(new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' }), W - 60, H - 30);
+    ctx.textAlign = 'left';
     const link = document.createElement('a');
-    link.download = 'norcet-mains-mock-' + MOCK_ID + '.png';
+    link.download = 'nursedrill-mock-' + MOCK_ID + '.png';
     link.href = c.toDataURL('image/png');
     link.click();
   }

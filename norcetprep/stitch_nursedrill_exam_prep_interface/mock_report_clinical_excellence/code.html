@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NurseDrill | Clinical Performance Report</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Manrope -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#001916",
+                    "surface-container-low": "#f3f3f3",
+                    "surface-container": "#eeeeee",
+                    "on-secondary-fixed": "#00201c",
+                    "on-background": "#1a1c1c",
+                    "tertiary-container": "#00302a",
+                    "error-container": "#ffdad6",
+                    "inverse-on-surface": "#f0f1f1",
+                    "secondary-fixed": "#62fae3",
+                    "tertiary-fixed": "#71f8e4",
+                    "on-tertiary-container": "#00a392",
+                    "on-error": "#ffffff",
+                    "secondary-fixed-dim": "#3cddc7",
+                    "outline-variant": "#c0c8c7",
+                    "on-surface-variant": "#414848",
+                    "on-primary": "#ffffff",
+                    "on-secondary-container": "#007165",
+                    "surface-variant": "#e2e2e2",
+                    "tertiary-fixed-dim": "#4fdbc8",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-primary": "#a7cecc",
+                    "primary-fixed": "#c2eae8",
+                    "on-primary-fixed": "#00201f",
+                    "secondary-container": "#62fae3",
+                    "primary-container": "#042f2e",
+                    "on-primary-fixed-variant": "#274d4c",
+                    "secondary": "#006b5f",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed-dim": "#a7cecc",
+                    "surface-bright": "#f9f9f9",
+                    "on-secondary": "#ffffff",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-secondary-fixed-variant": "#005047",
+                    "error": "#ba1a1a",
+                    "on-tertiary-fixed": "#00201c",
+                    "on-surface": "#1a1c1c",
+                    "background": "#f9f9f9",
+                    "on-error-container": "#93000a",
+                    "outline": "#717978",
+                    "surface": "#f9f9f9",
+                    "inverse-surface": "#2f3131",
+                    "on-primary-container": "#719896",
+                    "surface-dim": "#dadada",
+                    "primary": "#001918",
+                    "surface-tint": "#406563",
+                    "surface-container-high": "#e8e8e8",
+                    "on-tertiary-fixed-variant": "#005048"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "unit": "4px",
+                    "gutter": "24px",
+                    "margin-desktop": "48px",
+                    "container-max": "1280px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Manrope"],
+                    "body-md": ["Manrope"],
+                    "display-lg": ["Manrope"],
+                    "body-lg": ["Manrope"],
+                    "headline-lg-mobile": ["Manrope"],
+                    "caption": ["Manrope"],
+                    "headline-md": ["Manrope"],
+                    "label-md": ["Manrope"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "800"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "500"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "800"}],
+                    "caption": ["12px", {"lineHeight": "1.4", "fontWeight": "500"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 40px 80px -15px rgba(4, 47, 46, 0.06);
+        }
+        .gauge-ring {
+            transition: stroke-dashoffset 1s ease-out;
+        }
+        .inner-glow-btn {
+            box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+        }
+        .micro-label {
+            font-size: 10px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- TopAppBar -->
+<header class="bg-surface/80 dark:bg-tertiary/80 backdrop-blur-xl border-b border-outline-variant/30 fixed top-0 w-full z-50 shadow-[0_40px_80px_-15px_rgba(4,47,46,0.08)] flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 w-full">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a female nurse practitioner wearing a stethoscope and navy blue scrubs, set against a sterile, high-end medical laboratory background with soft teal accents. The lighting is bright and technical, reflecting clinical excellence and authoritative medical expertise in a modern corporate light-mode UI." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTZ-LNFhOcEa4xYfMzRCABufkTb1KaIffgnSChv5Uv0PfuTywUklcy8e_lgxXVcB1LyCTs2-d9NWmXDgpFJEnCsr3x1bE5SGOpFs5Uwleawcu_RoZSjgM5Juq4nHp5hWtVQx7mALSL27it6uXsp1vKlCCNyWw607PRgemxy7xJvWiwvvEN4pcVW2x00t_lXsSu85ddv0xeOti0TQSSLHQZt6tm5fpP8U64aQNNhzOYjpEpRR_64h7r"/>
+</div>
+<span class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg tracking-tighter font-extrabold text-primary">NurseDrill</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden md:flex gap-6 items-center">
+<a class="font-label-md text-label-md text-secondary transition-opacity hover:opacity-80" href="#">Study</a>
+<a class="font-label-md text-label-md text-on-surface-variant transition-opacity hover:opacity-80" href="#">Tests</a>
+<a class="font-label-md text-label-md text-on-surface-variant transition-opacity hover:opacity-80" href="#">Rank</a>
+</div>
+<button class="active:scale-95 duration-200">
+<span class="material-symbols-outlined text-primary" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<main class="pt-24 pb-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<!-- Header Section -->
+<section class="mb-12">
+<h1 class="font-display-lg text-display-lg text-primary mb-2">Performance Analytics</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Validated report for academic cycle Q4-2024</p>
+</section>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Performance Index circular gauge -->
+<div class="md:col-span-4 glass-card p-8 rounded-xl flex flex-col items-center justify-center">
+<div class="micro-label text-on-primary-container mb-6">Clinical Performance Index</div>
+<div class="relative w-48 h-48">
+<svg class="w-full h-full transform -rotate-90">
+<circle class="text-surface-container" cx="96" cy="96" fill="transparent" r="88" stroke="currentColor" stroke-width="12"></circle>
+<circle class="text-secondary-fixed-dim gauge-ring" cx="96" cy="96" fill="transparent" r="88" stroke="currentColor" stroke-dasharray="552.92" stroke-dashoffset="138.23" stroke-width="12" style="stroke: #3cddc7;"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<span class="font-display-lg text-display-lg text-primary leading-none">144</span>
+<span class="micro-label text-outline mt-1">Score</span>
+</div>
+</div>
+<div class="mt-8 flex justify-between w-full pt-6 border-t border-outline-variant/20">
+<div class="text-center">
+<div class="micro-label text-outline">Cutoff</div>
+<div class="font-headline-md text-headline-md text-primary">138</div>
+</div>
+<div class="text-center">
+<div class="micro-label text-outline">Status</div>
+<div class="font-headline-md text-headline-md text-secondary">PASS</div>
+</div>
+</div>
+</div>
+<!-- Stats Grid -->
+<div class="md:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-gutter">
+<!-- Accuracy Card -->
+<div class="glass-card p-8 rounded-xl flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div class="micro-label text-on-surface-variant">High-Contrast Accuracy</div>
+<span class="material-symbols-outlined text-secondary" data-icon="insights">insights</span>
+</div>
+<div class="font-display-lg text-display-lg text-primary">92.4<span class="text-headline-lg-mobile">%</span></div>
+</div>
+<div class="mt-4 text-secondary flex items-center gap-1 font-label-md">
+<span class="material-symbols-outlined text-[16px]" data-icon="trending_up">trending_up</span>
+                        +2.1% from last month
+                    </div>
+</div>
+<!-- Rank Card -->
+<div class="glass-card p-8 rounded-xl flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-4">
+<div class="micro-label text-on-surface-variant">Global Peer Rank</div>
+<span class="material-symbols-outlined text-secondary" data-icon="leaderboard">leaderboard</span>
+</div>
+<div class="font-display-lg text-display-lg text-primary">#412</div>
+</div>
+<div class="mt-4 text-on-surface-variant font-label-md">Top 1.5% of elite candidates</div>
+</div>
+<!-- Next Goal Card -->
+<div class="glass-card p-8 rounded-xl col-span-full flex flex-col md:flex-row items-center gap-8 border-l-4 border-secondary-fixed">
+<div class="bg-secondary-container/20 p-4 rounded-full">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="target" style="font-variation-settings: 'FILL' 1;">target</span>
+</div>
+<div class="flex-1">
+<div class="micro-label text-on-surface-variant mb-1">Targeting AIIMS NORCET-7</div>
+<div class="font-headline-md text-headline-md text-primary">Reach Rank #100 by December</div>
+<div class="w-full bg-surface-container-high h-2 rounded-full mt-4 overflow-hidden">
+<div class="bg-secondary h-full rounded-full w-2/3"></div>
+</div>
+</div>
+<button class="bg-primary text-on-primary px-6 py-3 rounded-lg font-label-md inner-glow-btn hover:opacity-90 active:scale-95 transition-all">
+                        Resume Drill
+                    </button>
+</div>
+</div>
+<!-- Mastery Map -->
+<div class="md:col-span-7 glass-card p-8 rounded-xl">
+<div class="flex justify-between items-center mb-8">
+<h3 class="font-headline-md text-headline-md text-primary">Subject-wise Mastery</h3>
+<span class="material-symbols-outlined text-outline" data-icon="map">map</span>
+</div>
+<div class="space-y-6">
+<!-- Item 1 -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<span class="font-label-md text-label-md text-primary">Medical-Surgical Nursing</span>
+<span class="font-caption text-caption text-secondary">98% Mastery</span>
+</div>
+<div class="h-3 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 98%;"></div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<span class="font-label-md text-label-md text-primary">Pharmacology &amp; Toxicity</span>
+<span class="font-caption text-caption text-secondary">84% Mastery</span>
+</div>
+<div class="h-3 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 84%;"></div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<span class="font-label-md text-label-md text-primary">Obstetrics &amp; Gynecology</span>
+<span class="font-caption text-caption text-secondary">72% Mastery</span>
+</div>
+<div class="h-3 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 72%;"></div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<span class="font-label-md text-label-md text-primary">Pediatric Emergency Care</span>
+<span class="font-caption text-caption text-error">Critical Focus (45%)</span>
+</div>
+<div class="h-3 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Achievement Section -->
+<div class="md:col-span-5 bg-primary-container p-8 rounded-xl relative overflow-hidden shadow-2xl flex flex-col justify-between">
+<!-- Background Decoration -->
+<div class="absolute -top-12 -right-12 w-64 h-64 bg-secondary-fixed/10 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 right-0 p-4 opacity-10">
+<span class="material-symbols-outlined text-[160px]" data-icon="verified">verified</span>
+</div>
+<div class="relative z-10">
+<div class="flex items-center gap-3 mb-6">
+<div class="glass-card !bg-white/10 !border-white/20 px-3 py-1 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]" data-icon="verified_user" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="text-white font-label-md text-[12px] tracking-widest uppercase">PRO Certified</span>
+</div>
+</div>
+<h3 class="font-headline-lg text-white mb-4">Official Certification</h3>
+<p class="text-white/70 font-body-md mb-8">This document confirms academic proficiency in Clinical Excellence Standards for 2024. Validated by NurseDrill Board of Faculty.</p>
+</div>
+<div class="relative z-10 flex flex-col gap-3">
+<button class="w-full bg-secondary-fixed text-primary font-bold py-4 rounded-xl inner-glow-btn flex items-center justify-center gap-2 hover:brightness-110 transition-all">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+                        Share Achievement
+                    </button>
+<button class="w-full bg-white/5 border border-white/10 text-white font-bold py-4 rounded-xl hover:bg-white/10 transition-all">
+                        Download PDF
+                    </button>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/20 relative w-full py-12 mt-12">
+<div class="flex flex-col md:flex-row justify-between items-center gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col items-center md:items-start gap-4">
+<div class="font-label-md text-label-md font-bold uppercase tracking-widest text-primary">NURSEDRILL</div>
+<p class="font-caption text-caption text-on-surface-variant text-center md:text-left max-w-md">
+                    © 2024 NurseDrill Clinical Excellence. AIIMS NORCET Specialists. Empowering the next generation of healthcare leaders through precision data.
+                </p>
+</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-caption text-caption text-on-surface-variant hover:text-secondary transition-colors" href="#">Academic Integrity</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-secondary transition-colors" href="#">Privacy Protocol</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-secondary transition-colors" href="#">Support Center</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-secondary transition-colors" href="#">Faculty Login</a>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile only) -->
+<nav class="md:hidden bg-surface/80 backdrop-blur-xl border-t border-outline-variant/30 fixed bottom-0 w-full z-50 rounded-t-xl shadow-[0_-20px_60px_-10px_rgba(4,47,46,0.1)] flex justify-around items-center h-20 pb-safe w-full">
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1" href="#">
+<span class="material-symbols-outlined" data-icon="auto_stories">auto_stories</span>
+<span class="font-label-md text-[10px]">Study</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1" href="#">
+<span class="material-symbols-outlined" data-icon="assignment_turned_in">assignment_turned_in</span>
+<span class="font-label-md text-[10px]">Tests</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container/50 text-on-secondary-container rounded-full px-4 py-1 border-t border-white/20 shadow-inner" href="#">
+<span class="material-symbols-outlined" data-icon="leaderboard" style="font-variation-settings: 'FILL' 1;">leaderboard</span>
+<span class="font-label-md text-[10px]">Rank</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-[10px]">Profile</span>
+</a>
+</nav>
+<script>
+        // Simple entry animation for bars
+        document.addEventListener('DOMContentLoaded', () => {
+            const rings = document.querySelectorAll('.gauge-ring');
+            rings.forEach(ring => {
+                // Trigger transition
+                ring.style.strokeDashoffset = '138.23'; // Matches score percentage roughly
+            });
+        });
+    </script>
+</body></html>

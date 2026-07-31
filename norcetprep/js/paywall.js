@@ -57,20 +57,25 @@
     if (document.getElementById('nd-paywall-css')) return;
     var s = document.createElement('style');
     s.id = 'nd-paywall-css';
+    // "Clinical Excellence" system (css/clinical.css tokens, inlined so the
+    // wall styles itself on every page).
     s.textContent =
       'html[data-appmode="1"] .nd-buy-only{display:none !important}' +
-      '.nd-wall{position:fixed;inset:0;z-index:9999;background:var(--bg,#f6f9f8);color:var(--text,#182830);' +
+      '.nd-wall{position:fixed;inset:0;z-index:9999;background:var(--bg,#f9f9f9);color:var(--ink,#1a1c1c);' +
         'display:flex;align-items:center;justify-content:center;padding:20px;overflow:auto}' +
-      '.nd-wall__card{max-width:420px;width:100%;background:var(--surface,#fff);border:1.5px solid var(--line,#d9e4e1);' +
-        'border-radius:16px;padding:28px 24px;text-align:center;font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}' +
+      '.nd-wall__card{max-width:420px;width:100%;background:rgba(255,255,255,.85);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);' +
+        'border:1px solid var(--rule-soft,#e2e8f0);box-shadow:0 40px 80px -15px rgba(4,47,46,.12);' +
+        'border-radius:16px;padding:30px 24px;text-align:center;color:#1a1c1c;' +
+        'font:500 16px/1.6 Manrope,-apple-system,"Segoe UI",Roboto,sans-serif}' +
       '.nd-wall__lock{font-size:34px}' +
-      '.nd-wall__title{font-weight:800;font-size:20px;margin:8px 0 6px}' +
-      '.nd-wall__sub{font-size:14.5px;color:var(--muted,#4e6570);margin:0 0 16px}' +
-      '.nd-wall__btn{display:block;width:100%;box-sizing:border-box;padding:12px 16px;border-radius:12px;margin:8px 0 0;' +
-        'font-weight:700;text-decoration:none;border:1.5px solid transparent;cursor:pointer;font-size:15.5px}' +
-      '.nd-wall__btn--primary{background:#0E7C7B;color:#fff}' +
-      '.nd-wall__btn--quiet{background:transparent;color:inherit;border-color:var(--line,#d9e4e1)}' +
-      '.nd-wall__foot{font-size:12.5px;color:var(--muted,#4e6570);margin-top:14px}';
+      '.nd-wall__title{font-weight:800;font-size:21px;letter-spacing:-.01em;margin:8px 0 6px}' +
+      '.nd-wall__sub{font-size:14.5px;color:#717978;margin:0 0 16px}' +
+      '.nd-wall__btn{display:block;width:100%;box-sizing:border-box;padding:14px 16px;border-radius:8px;margin:10px 0 0;' +
+        'font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;' +
+        'text-decoration:none;border:1px solid transparent;cursor:pointer}' +
+      '.nd-wall__btn--primary{background:#042f2e;color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.2),inset 0 -2px 0 #3cddc7}' +
+      '.nd-wall__btn--quiet{background:transparent;color:#1a1c1c;border-color:#e2e8f0}' +
+      '.nd-wall__foot{font-size:12.5px;color:#717978;margin-top:14px}';
     (document.head || document.documentElement).appendChild(s);
   }
 

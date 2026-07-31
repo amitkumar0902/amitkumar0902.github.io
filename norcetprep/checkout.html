@@ -5,59 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Checkout — NurseDrill</title>
 <meta name="robots" content="noindex">
-<style>
-  body{max-width:520px;margin:0 auto;padding:24px 20px 64px;color:#182830;
-    font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-  h1{font-size:24px;letter-spacing:-.01em}
-  .muted{color:#4E6570}.small{font-size:13px}
-  .card{border:1px solid #D9E4E1;border-radius:14px;padding:18px;margin:16px 0;background:#fff}
-  .btn{display:block;width:100%;box-sizing:border-box;border:0;border-radius:10px;padding:13px 16px;
-    font:inherit;font-weight:700;cursor:pointer;margin-top:10px;text-align:center;text-decoration:none;color:inherit}
-  .btn-primary{background:#0E7C7B;color:#fff}
-  .btn-ghost{background:none;border:1.5px solid #D9E4E1}
-  .plan-name{font-weight:800;font-size:19px}
-  .price{font-size:30px;font-weight:800;font-variant-numeric:tabular-nums}
-  .was{color:#4E6570;text-decoration:line-through;font-size:15px;margin-left:6px;font-weight:400}
-  footer{margin-top:36px;padding-top:14px;border-top:1px solid #D9E4E1;font-size:13px;color:#4E6570;line-height:1.7}
-  a{color:#0A5B5A}
-</style>
+<link rel="stylesheet" href="css/clinical.css">
 </head>
 <body>
-<h1>Checkout</h1>
+<a class="ce-brand" href="index.html">Nurse<b>Drill</b><span class="tick">▚</span></a>
 
-<div id="co-loading" class="card"><span class="muted">Loading…</span></div>
+<span class="ce-micro">Checkout</span>
+<h1 class="ce-h1">Almost there</h1>
 
-<div id="co-disabled" class="card" style="display:none">
+<div id="co-loading" class="ce-card"><span class="ce-muted">Loading…</span></div>
+
+<div id="co-disabled" class="ce-card" style="display:none">
   <strong>Paid plans aren't open yet.</strong>
-  <p class="small muted">Premium launches in September 2026 — until then everything currently on
-  the site stays free. See <a href="pricing.html">pricing</a> for what's coming.</p>
+  <p class="ce-small ce-muted">Premium launches in September 2026 — until then everything
+  currently on the site stays free. See <a href="pricing.html">pricing</a> for what's coming.</p>
 </div>
 
 <div id="co-signin" style="display:none">
-  <div class="card">
+  <div class="ce-card">
     <strong>Sign in first</strong>
-    <p class="small muted">Your purchase attaches to your account, so access works on every
+    <p class="ce-small ce-muted">Your purchase attaches to your account, so access works on every
     device. Takes under a minute — and your practice progress on this device comes along.</p>
-    <a class="btn btn-primary" id="co-signin-link" href="account.html">Sign in / create account</a>
+    <a class="ce-btn" id="co-signin-link" href="account.html">Sign in / create account</a>
   </div>
 </div>
 
 <div id="co-pay" style="display:none">
-  <div class="card">
-    <div class="plan-name" id="co-plan-name">…</div>
-    <div class="price" id="co-price">…</div>
-    <p class="small muted" style="margin:10px 0 0">You'll finish payment on Razorpay's secure page —
-    UPI, cards, netbanking. Card details never touch our site. Access unlocks within seconds
-    of payment, on this account: <strong id="co-email">…</strong></p>
-    <a class="btn btn-primary" id="co-continue" href="#">Continue to Razorpay →</a>
-    <a class="btn btn-ghost" href="pricing.html">Change plan</a>
-    <p class="small muted" style="margin-top:12px">One payment — no auto-renewal, ever ·
+  <div class="ce-card">
+    <span class="ce-micro">Your plan</span>
+    <div id="co-plan-name" style="font-weight:800;font-size:20px">…</div>
+    <div class="ce-price" id="co-price">…</div>
+    <p class="ce-small ce-muted" style="margin:12px 0 0">You'll finish payment on Razorpay's
+    secure page — UPI, cards, netbanking. Card details never touch our site. Access unlocks
+    within seconds of payment, on this account: <strong id="co-email"
+    style="color:var(--ce-ink)">…</strong></p>
+    <a class="ce-btn" id="co-continue" href="#">Continue to Razorpay →</a>
+    <a class="ce-btn ce-btn--ghost" href="pricing.html">Change plan</a>
+    <p class="ce-small ce-muted" style="margin-top:14px">One payment — no auto-renewal, ever ·
     <a href="legal/refund.html">7-day no-questions refund</a> (one per account) ·
     support@nursedrill.com</p>
   </div>
 </div>
 
-<footer>
+<footer class="ce-footer">
+  <div class="brandline">NurseDrill</div>
   <a href="index.html">Home</a> · <a href="pricing.html">Pricing</a> ·
   <a href="legal/terms.html">Terms</a> · <a href="legal/refund.html">Refunds</a><br>
   Not affiliated with or endorsed by AIIMS.
@@ -102,7 +93,7 @@
     }
     var p = window.ND_PAYMENTS.plans[plan];
     $('co-plan-name').textContent = p.label + ' · full premium access';
-    $('co-price').innerHTML = '₹' + p.price + (p.list > p.price ? '<span class="was">₹' + p.list + '</span>' : '');
+    $('co-price').innerHTML = '₹' + p.price + (p.list > p.price ? '<span class="ce-was">₹' + p.list + '</span>' : '');
     $('co-email').textContent = user.email || '';
     var base = window.ND_PAYMENTS.pages[plan];
     var sep = base.indexOf('?') === -1 ? '?' : '&';

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NurseDrill - Clinical Excellence Pricing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config Verbatim -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#001916",
+                    "surface-container-low": "#f3f3f3",
+                    "surface-container": "#eeeeee",
+                    "on-secondary-fixed": "#00201c",
+                    "on-background": "#1a1c1c",
+                    "tertiary-container": "#00302a",
+                    "error-container": "#ffdad6",
+                    "inverse-on-surface": "#f0f1f1",
+                    "secondary-fixed": "#62fae3",
+                    "tertiary-fixed": "#71f8e4",
+                    "on-tertiary-container": "#00a392",
+                    "on-error": "#ffffff",
+                    "secondary-fixed-dim": "#3cddc7",
+                    "outline-variant": "#c0c8c7",
+                    "on-surface-variant": "#414848",
+                    "on-primary": "#ffffff",
+                    "on-secondary-container": "#007165",
+                    "surface-variant": "#e2e2e2",
+                    "tertiary-fixed-dim": "#4fdbc8",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-primary": "#a7cecc",
+                    "primary-fixed": "#c2eae8",
+                    "on-primary-fixed": "#00201f",
+                    "secondary-container": "#62fae3",
+                    "primary-container": "#042f2e",
+                    "on-primary-fixed-variant": "#274d4c",
+                    "secondary": "#006b5f",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed-dim": "#a7cecc",
+                    "surface-bright": "#f9f9f9",
+                    "on-secondary": "#ffffff",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-secondary-fixed-variant": "#005047",
+                    "error": "#ba1a1a",
+                    "on-tertiary-fixed": "#00201c",
+                    "on-surface": "#1a1c1c",
+                    "background": "#f9f9f9",
+                    "on-error-container": "#93000a",
+                    "outline": "#717978",
+                    "surface": "#f9f9f9",
+                    "inverse-surface": "#2f3131",
+                    "on-primary-container": "#719896",
+                    "surface-dim": "#dadada",
+                    "primary": "#001918",
+                    "surface-tint": "#406563",
+                    "surface-container-high": "#e8e8e8",
+                    "on-tertiary-fixed-variant": "#005048"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "unit": "4px",
+                    "gutter": "24px",
+                    "margin-desktop": "48px",
+                    "container-max": "1280px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Manrope"],
+                    "body-md": ["Manrope"],
+                    "display-lg": ["Manrope"],
+                    "body-lg": ["Manrope"],
+                    "headline-lg-mobile": ["Manrope"],
+                    "caption": ["Manrope"],
+                    "headline-md": ["Manrope"],
+                    "label-md": ["Manrope"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "800"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "500"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "800"}],
+                    "caption": ["12px", {"lineHeight": "1.4", "fontWeight": "500"}],
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid #E2E8F0;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .inner-glow-button {
+            box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+        }
+        .ambient-shadow {
+            box-shadow: 0 40px 80px -15px rgba(4, 47, 46, 0.08);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- TopAppBar Shell -->
+<header class="bg-surface/80 dark:bg-tertiary/80 backdrop-blur-xl border-b border-outline-variant/30 shadow-[0_40px_80px_-15px_rgba(4,47,46,0.08)] fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 w-full">
+<div class="flex items-center gap-4">
+<span class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg tracking-tighter font-extrabold text-primary dark:text-secondary-fixed">NurseDrill</span>
+</div>
+<nav class="hidden md:flex gap-8">
+<a class="text-on-surface-variant font-label-md text-label-md hover:opacity-80 transition-opacity" href="#">Programs</a>
+<a class="text-secondary font-label-md text-label-md hover:opacity-80 transition-opacity" href="#">Pricing</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:opacity-80 transition-opacity" href="#">Faculty</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-2xl cursor-pointer active:scale-95 duration-200">notifications</span>
+<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-[10px] text-on-primary-container font-bold">NP</div>
+</div>
+</header>
+<main class="pt-24 pb-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<!-- Header Section -->
+<section class="text-center mb-16">
+<h1 class="font-display-lg text-display-lg md:text-display-lg text-primary mb-4 tracking-tighter">Choose your preparation window</h1>
+<p class="text-on-surface-variant font-body-lg text-body-lg max-w-2xl mx-auto">Elite clinical training for AIIMS NORCET and medical specialists. Select a plan tailored to your exam timeline.</p>
+</section>
+<!-- Pricing Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter items-center">
+<!-- 3 Months Plan -->
+<div class="glass-card ambient-shadow rounded-xl p-8 flex flex-col h-full hover:scale-[1.02] transition-transform duration-300">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest mb-2">Short Term</span>
+<h3 class="font-headline-md text-headline-md mb-4">3 Months</h3>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-headline-lg font-bold">₹249</span>
+<span class="text-on-surface-variant text-caption font-caption">/total</span>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                        Full Access to Question Bank
+                    </li>
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                        Daily Subject Drills
+                    </li>
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                        Performance Analytics
+                    </li>
+</ul>
+<button class="w-full py-4 rounded-lg border border-secondary text-secondary font-bold hover:bg-secondary/5 transition-colors active:scale-95 duration-150">Enroll Now</button>
+</div>
+<!-- 12 Months Plan (Featured) -->
+<div class="relative rounded-xl overflow-hidden ambient-shadow h-full flex flex-col scale-105 z-10 border-2 border-primary-container">
+<div class="bg-primary-container text-secondary-fixed py-3 text-center font-bold text-label-md tracking-widest uppercase">
+                    Best Value
+                </div>
+<div class="glass-card flex-grow p-8 flex flex-col">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest mb-2">Comprehensive</span>
+<h3 class="font-headline-md text-headline-md mb-4">12 Months</h3>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-display-lg font-extrabold text-primary">₹699</span>
+<span class="text-on-surface-variant text-caption font-caption">/total</span>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-on-primary-fixed-variant font-semibold text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+                            Elite Rank Predictor
+                        </li>
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            Clinical Case Scenarios
+                        </li>
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            Personalized Mentor Support
+                        </li>
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            Customizable Mock Tests
+                        </li>
+</ul>
+<button class="w-full py-4 rounded-lg bg-primary-container text-on-primary font-bold inner-glow-button hover:opacity-90 active:scale-95 duration-150">Claim 12-Month Access</button>
+</div>
+</div>
+<!-- 6 Months Plan -->
+<div class="glass-card ambient-shadow rounded-xl p-8 flex flex-col h-full hover:scale-[1.02] transition-transform duration-300">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest mb-2">Recommended</span>
+<h3 class="font-headline-md text-headline-md mb-4">6 Months</h3>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-headline-lg font-bold">₹449</span>
+<span class="text-on-surface-variant text-caption font-caption">/total</span>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                        Full Access to Question Bank
+                    </li>
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                        AI-Powered Rank Analytics
+                    </li>
+<li class="flex items-center gap-3 text-on-surface-variant text-body-md">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                        PDF Summary Sheets
+                    </li>
+</ul>
+<button class="w-full py-4 rounded-lg border border-secondary text-secondary font-bold hover:bg-secondary/5 transition-colors active:scale-95 duration-150">Enroll Now</button>
+</div>
+</div>
+<!-- Transparency Section -->
+<section class="mt-32 pt-20 border-t border-outline-variant/30">
+<div class="text-center mb-12">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-2">Transparent &amp; Honest Pricing</h2>
+<p class="text-on-surface-variant">Clinical excellence built on professional ethics and absolute trust.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="flex flex-col items-center text-center p-6 rounded-xl hover:bg-surface-container transition-colors duration-200">
+<div class="w-12 h-12 rounded-full bg-secondary-container/30 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-secondary" data-icon="update_disabled">update_disabled</span>
+</div>
+<h4 class="font-bold text-on-surface mb-2">No Auto-renewal</h4>
+<p class="text-caption text-on-surface-variant">We never charge your card without explicit consent for the next term.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 rounded-xl hover:bg-surface-container transition-colors duration-200">
+<div class="w-12 h-12 rounded-full bg-secondary-container/30 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-secondary" data-icon="currency_exchange">currency_exchange</span>
+</div>
+<h4 class="font-bold text-on-surface mb-2">7-day refund</h4>
+<p class="text-caption text-on-surface-variant">Not satisfied? Get a full refund within 7 days, no tedious questions asked.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 rounded-xl hover:bg-surface-container transition-colors duration-200">
+<div class="w-12 h-12 rounded-full bg-secondary-container/30 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-secondary" data-icon="security">security</span>
+</div>
+<h4 class="font-bold text-on-surface mb-2">Secure Payments</h4>
+<p class="text-caption text-on-surface-variant">256-bit SSL encrypted transactions through world-class payment gateways.</p>
+</div>
+<div class="flex flex-col items-center text-center p-6 rounded-xl hover:bg-surface-container transition-colors duration-200">
+<div class="w-12 h-12 rounded-full bg-secondary-container/30 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-secondary" data-icon="support_agent">support_agent</span>
+</div>
+<h4 class="font-bold text-on-surface mb-2">24/7 Support</h4>
+<p class="text-caption text-on-surface-variant">Our dedicated faculty support team is always ready to assist your journey.</p>
+</div>
+</div>
+</section>
+<!-- Trust Strip -->
+<section class="mt-20 py-8 bg-surface-container-lowest rounded-2xl flex flex-wrap justify-center items-center gap-12 px-8 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+<span class="font-bold tracking-widest text-on-surface-variant uppercase text-label-md">AIIMS TRUSTED</span>
+<span class="font-bold tracking-widest text-on-surface-variant uppercase text-label-md">JIPMER ALUMNI</span>
+<span class="font-bold tracking-widest text-on-surface-variant uppercase text-label-md">NORCET SPECIALISTS</span>
+<span class="font-bold tracking-widest text-on-surface-variant uppercase text-label-md">PGI CHANDIGARH</span>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-tertiary border-t border-outline-variant/20 relative w-full py-12 px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-center gap-gutter max-w-container-max mx-auto">
+<div class="flex flex-col gap-2 text-center md:text-left">
+<span class="font-label-md text-label-md font-bold uppercase tracking-widest text-primary">NurseDrill</span>
+<p class="font-caption text-caption text-on-surface-variant max-w-sm">© 2024 NurseDrill Clinical Excellence. AIIMS NORCET Specialists. Empowering the next generation of nursing elites.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-on-surface-variant dark:text-outline-variant font-caption text-caption hover:text-secondary transition-colors" href="#">Academic Integrity</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-caption text-caption hover:text-secondary transition-colors" href="#">Privacy Protocol</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-caption text-caption hover:text-secondary transition-colors" href="#">Support Center</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-caption text-caption hover:text-secondary transition-colors" href="#">Faculty Login</a>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden bg-surface/80 dark:bg-tertiary/80 backdrop-blur-xl border-t border-outline-variant/30 shadow-[0_-20px_60px_-10px_rgba(4,47,46,0.1)] fixed bottom-0 w-full z-50 rounded-t-xl flex justify-around items-center h-20 pb-safe">
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1">
+<span class="material-symbols-outlined" data-icon="auto_stories">auto_stories</span>
+<span class="font-label-md text-label-md">Study</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-secondary-container/50 text-on-secondary-container rounded-full px-4 py-1 border-t border-white/20 shadow-inner">
+<span class="material-symbols-outlined" data-icon="assignment_turned_in">assignment_turned_in</span>
+<span class="font-label-md text-label-md">Tests</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1">
+<span class="material-symbols-outlined" data-icon="leaderboard">leaderboard</span>
+<span class="font-label-md text-label-md">Rank</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</div>
+</nav>
+<script>
+        // Micro-interactions for pricing cards
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.borderColor = 'var(--secondary)';
+            });
+            card.addEventListener('mouseleave', () => {
+                if (!card.parentElement.classList.contains('border-primary-container')) {
+                    card.style.borderColor = '#E2E8F0';
+                }
+            });
+        });
+
+        // Subtle parallax effect for background
+        window.addEventListener('mousemove', (e) => {
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            document.body.style.backgroundPosition = `${x * 20}px ${y * 20}px`;
+        });
+    </script>
+</body></html>

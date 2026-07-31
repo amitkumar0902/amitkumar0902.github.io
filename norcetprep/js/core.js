@@ -205,7 +205,7 @@
     var dueCount = NM.srsDueCount();
     var dueBadge = dueCount > 0 ? ' <span class="badge badge--warn" title="Review due">' + dueCount + ' due</span>' : '';
     nav.innerHTML =
-      '<a class="topnav__brand" href="' + root + 'index.html">NORCET Mains 2026</a>' +
+      '<a class="topnav__brand" href="' + root + 'index.html">NurseDrill</a>' +
       '<div class="topnav__links">' + linksHtml + dueBadge + '</div>' +
       '<div class="topnav__tools">' +
         '<button class="iconbtn" id="nm-cmd-open" title="Search (Ctrl/Cmd+K)">⌘K</button>' +
