@@ -1,4 +1,9 @@
-# PRD — NurseDrill, end to end
+# NurseDrill E2E — requirement register
+
+> Compact companion to the canonical
+> [formal PRD](../../../docs/prds/2026-08-01/nursedrill-e2e.md) (user stories,
+> acceptance criteria, implementation/testing decisions). This register is the
+> status-tagged view — the fastest read of what's BUILT vs what remains.
 
 | | |
 |---|---|

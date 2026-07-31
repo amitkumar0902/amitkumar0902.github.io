@@ -19,7 +19,17 @@ it synthesizes; where a fact is still owner-pending it says so and points at
 
 ## Resolution
 
-Written 2026-08-01: **[PRD — NurseDrill, end to end](../assets/prd-nursedrill-e2e.md)**.
+Written 2026-08-01, in two complementary forms:
+
+1. **[Formal PRD (write-prd format)](../../../docs/prds/2026-08-01/nursedrill-e2e.md)**
+   — problem/solution narrative, 31 user stories with acceptance criteria
+   across six actors (anonymous aspirant, account holder, buyer, premium
+   subscriber, app user, owner-operator), implementation decisions,
+   testing decisions (flags the webhook function as the highest-value
+   untested module), out-of-scope, notes. The canonical PRD.
+2. **[Requirement register](../assets/prd-nursedrill-e2e.md)** — the compact
+   companion: same decisions as a status-tagged id register
+   (BUILT/CONSOLE/TODO/FEB-WAVE/RED-PATH), the quickest view of the E2E gap.
 
 Eleven sections: product & wedge, users/market, business model, brand/trust,
 design (Clinical Excellence + locked prototype), the full requirement register

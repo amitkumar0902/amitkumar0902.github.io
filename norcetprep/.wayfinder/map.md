@@ -148,11 +148,13 @@ beyond this map.
   as easy as signing up; DPDP duties start 13 May 2027; prominent "not
   affiliated with AIIMS" everywhere.
 - [PRD: NurseDrill end-to-end product spec](tickets/t15-e2e-prd.md) — the
-  destination materialized: one consolidated
-  [PRD](assets/prd-nursedrill-e2e.md) synthesizing all thirteen decisions +
-  build state into a requirement register (ids tagged BUILT/CONSOLE/TODO/
-  FEB-WAVE) with launch calendar, Definition of E2E-complete, and risks —
-  zero new decisions; sized for `plan-from-prd`/`issues-from-prd`.
+  destination materialized, twice over: the canonical
+  [formal PRD](../../docs/prds/2026-08-01/nursedrill-e2e.md) (31 user
+  stories w/ acceptance criteria, implementation + testing decisions) and
+  its compact companion, the
+  [status-tagged requirement register](assets/prd-nursedrill-e2e.md)
+  (BUILT/CONSOLE/TODO/FEB-WAVE = the E2E gap list) — zero new decisions;
+  sized for `plan-from-prd`/`issues-from-prd`.
 
 ## Not yet specified
 
