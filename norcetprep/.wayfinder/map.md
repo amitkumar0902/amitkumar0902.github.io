@@ -147,6 +147,12 @@ beyond this map.
   AIIMS asserts it), publish T&C/Privacy/Refund/Contact pages, make cancelling
   as easy as signing up; DPDP duties start 13 May 2027; prominent "not
   affiliated with AIIMS" everywhere.
+- [PRD: NurseDrill end-to-end product spec](tickets/t15-e2e-prd.md) — the
+  destination materialized: one consolidated
+  [PRD](assets/prd-nursedrill-e2e.md) synthesizing all thirteen decisions +
+  build state into a requirement register (ids tagged BUILT/CONSOLE/TODO/
+  FEB-WAVE) with launch calendar, Definition of E2E-complete, and risks —
+  zero new decisions; sized for `plan-from-prd`/`issues-from-prd`.
 
 ## Not yet specified
 
