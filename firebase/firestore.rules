@@ -37,6 +37,28 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // ---- Site config (Phase 4 ops) ----
+    // config/site carries the incident banner flag. Signed-out visitors must be
+    // able to read it — an incident notice nobody can see is not a notice.
+    // Written only from the console / Admin SDK.
+    match /config/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // ---- Refund requests (Phase 4 ops) ----
+    // Self-serve intake for the 7-day no-questions refund. The user files and
+    // reads their own request; only the owner (Admin SDK) resolves it, so a
+    // client can never mark its own refund approved.
+    match /refundRequests/{id} {
+      allow create: if request.auth != null
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.status == 'requested'
+        && request.resource.data.keys().hasOnly(['uid','email','orderRef','reason','status','createdAt','paidUntil']);
+      allow read: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow update, delete: if false;
+    }
+
     // Payment audit records — server-only (webhook / Admin SDK).
     match /payments/{orderId} {
       allow read, write: if false;

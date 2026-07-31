@@ -31,6 +31,10 @@
           }).join('') +
         '</div>' +
         '<textarea id="nm-rep-note" placeholder="Optional: what\'s wrong?"></textarea>' +
+        '<p class="small muted" style="margin:8px 0 0">Reports are triaged weekly. Fixes ship with ' +
+        'the weekly publish and are listed, dated, in the ' +
+        '<a href="' + NM.rootPath() + 'fix-log.html">public fix-log</a>. ' +
+        'This isn\'t a doubt-solving channel — it\'s for errors in the question itself.</p>' +
         '<div class="btn-row" style="justify-content:flex-end;margin-top:12px">' +
           '<button class="btn btn--ghost" id="nm-rep-cancel">Cancel</button>' +
           '<button class="btn btn--accent" id="nm-rep-send">Send</button>' +
