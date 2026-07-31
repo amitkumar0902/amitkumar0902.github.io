@@ -44,6 +44,17 @@ beyond this map.
   demand wave ~Feb–Apr 2027. A web-first paid launch can catch NORCET 11; the
   Play app (~4–6 weeks incl. its 14-day tester soak) realistically lands for
   the 2027 wave.
+- **Build note (2026-08-01, issues 01–13):** the whole PRD issue list is
+  implemented repo-side. The legal gate is cleared (NORCET-9 rewritten to
+  recall, official PDF out of the repo); citations are on all 5,742 questions
+  and validator-enforced; 134 duplicate free questions were replaced and 292
+  unverifiable year labels removed (both published in the fix-log). New:
+  methodology + fix-log pages, daily quiz + streaks + restructured home,
+  Telegram feeder, incident banner + self-serve refund + runbooks, Full Mock
+  Test 1 as the free sample, origin stubs, TWA scaffold, and `go-live.mjs` —
+  the flip as one command that refuses to run on a red gate. 46 tests and five
+  gates run in CI. What remains is owner console work; `go-live.mjs --check`
+  lists it.
 - **Build note (2026-07-31, Phase 3):** paywall machinery built inert behind
   one flag (`js/paywall.js` `PAYWALL_ENABLED`) — entitlement gate + app-mode
   blackout, Firestore content routing + upload script, checkout pages +

@@ -150,12 +150,30 @@ checkpoint):
    GOOGLE_APPLICATION_CREDENTIALS=/path/to/serviceAccount.json \
      node norcetprep/scripts/upload-content.mjs --write
    ```
-6. **GA4**: Firebase console → Project settings → Integrations → enable
+6. **Telegram feeder** (T12) — create the channel and the bot, then:
+   ```bash
+   npx firebase-tools functions:secrets:set TELEGRAM_BOT_TOKEN   # from @BotFather
+   npx firebase-tools functions:secrets:set TELEGRAM_CHAT_ID     # e.g. @nursedrill or -100…
+   npx firebase-tools functions:secrets:set ANNOUNCE_KEY         # any long random string
+   npx firebase-tools deploy --only functions
+   ```
+   Add the bot to the channel as an administrator (it cannot post otherwise).
+   Channel description carries the brand, the site link and the AIIMS
+   non-affiliation line; DMs auto-reply with the support email. The daily post
+   fires at 07:30 IST; manual announcements go through the `announce` endpoint
+   (see RUNBOOKS.md §5).
+
+7. **Alarms** — the three lightweight monitors, all console-side, are written
+   out step by step in [RUNBOOKS.md](RUNBOOKS.md) §6: a log-based alert on
+   function errors, a billing budget, and an uptime check on the domain and on
+   `/pricing.html`.
+
+8. **GA4**: Firebase console → Project settings → Integrations → enable
    Google Analytics → copy the `measurementId` (G-…) into
    `norcetprep/js/firebase-config.js`. Funnel events then flow: signup ·
    paywall_view · checkout_click · purchase (quiz and share events wire up
    when the daily quiz / report cards ship — T12 growth plumbing).
-7. **End-to-end test** (= checkpoint gate 3, with pages still in test mode):
+9. **End-to-end test** (= checkpoint gate 3, with pages still in test mode):
    sign in → `/checkout.html?plan=3m` → pay with a test method → success page
    flips to "You're in" within seconds → `account.html` shows "Premium
    until …" → a premium mock loads → issue a refund from the dashboard →
@@ -165,57 +183,66 @@ checkpoint):
 
 ## Go-live flip (green checkpoint → ~5 Sep; hard gate 18 Sep)
 
-Prereqs: gateway activated (live mode), NORCET-9 rewrite shipped + official
-PDF unpublished (legal gate), E2E test green, the grandfathered user's
-account verified working. Then ONE commit:
+Prereqs: gateway activated (live mode), NORCET-9 rewrite shipped + official PDF
+unpublished (done — the paper left the repo), E2E test green, the grandfathered
+user's account verified working.
 
-1. `js/paywall.js` → `PAYWALL_ENABLED = true`.
-2. `js/payments-config.js` → swap test-mode page URLs for **live-mode** URLs.
-3. `pricing.html` → rewrite the status block: paid is live; print the launch
-   offer end date (**today + 30 days — printed once, never moved**, per T13).
-4. `firebase.json` → add the premium statics to `hosting.ignore` so the
-   product domain stops serving them (they're in Firestore now):
-   ```json
-   "norcetprep/data/mains/question-bank.json",
-   "norcetprep/data/mains/mock-blueprint.json",
-   "norcetprep/data/mains/frequency-analysis.json",
-   "norcetprep/data/mains/drill-drug-calc.json",
-   "norcetprep/data/mains/mocks/mock-*.json",
-   "norcetprep/data/mains/pyqs/**",
-   "norcetprep/data/mains/day-slices/**",
-   "norcetprep/data/mains/topics/**",
-   "norcetprep/data/mains/flashcards/**",
-   "norcetprep/data/mains/_audit/**",
-   "norcetprep/data/mains/notes/anatomy.json",
-   "norcetprep/data/mains/notes/biochem.json",
-   "norcetprep/data/mains/notes/child.json",
-   "norcetprep/data/mains/notes/chn.json",
-   "norcetprep/data/mains/notes/ent.json",
-   "norcetprep/data/mains/notes/gyn.json",
-   "norcetprep/data/mains/notes/medicine.json",
-   "norcetprep/data/mains/notes/mental.json",
-   "norcetprep/data/mains/notes/micro.json",
-   "norcetprep/data/mains/notes/midwifery.json",
-   "norcetprep/data/mains/notes/pharma.json",
-   "norcetprep/data/mains/notes/surgery.json"
-   ```
-   (`notes/foundation.json` stays served — it's the open sample. `mocks/index.json`,
-   `stats/syllabus/videos.json` stay too.)
-5. `sw.js` → bump the `CACHE` name (e.g. `…-v16-paid`) so grace-period caches
-   holding premium JSON are purged on activate.
-6. **Retire the allowlist** (T13: at paid go-live, never before the
-   grandfathered account is verified): delete `js/allowlist.js`, remove the
-   legacy gate block at the top of `js/core.js`, point `login.html` /
-   `signup.html` at `account.html` (or replace them with redirect stubs).
-7. Commit, push (deploys via the Action). Announce per T13 — pricing page
-   carries the honesty block; end date appears exactly once, there.
+The flip is a script, not a checklist you follow by hand:
 
-**Sample designation (owner content call, any time):** mark specific library
-mocks free by adding `"free": true` to their entry in
-`data/mains/mocks/index.json` — the mock library shows them unlocked; the
-Foundation notes section is already the open notes sample. If you free a
-mock, also remove it from the go-live ignore list above and from
-`PREMIUM`/`FREE_EXCEPTIONS` in `js/content.js` + `scripts/upload-content.mjs`.
+```bash
+node norcetprep/scripts/go-live.mjs --check    # which gates are green
+node norcetprep/scripts/go-live.mjs            # dry run — every edit it would make
+node norcetprep/scripts/go-live.mjs --write    # do it
+```
+
+It refuses to flip while any gate is red, and it makes exactly these edits:
+
+1. `js/paywall.js` → `PAYWALL_ENABLED = true`
+2. `pricing.html` → status block rewritten with the launch-offer end date
+   (today + 30 days, printed once, never moved)
+3. `firebase.json` → premium statics excluded from hosting, **listing the free
+   sample's files as exceptions** (hosting ignore patterns have no negation)
+4. `sw.js` → cache name bumped so grace-period caches holding premium JSON drop
+5. `js/origin-stub.js` → legacy-origin redirect armed
+6. `login.html` / `signup.html` → redirect stubs to `account.html`; the legacy
+   gate is removed from `js/core.js` and `js/allowlist.js` is deleted
+
+**What it deliberately does not do:** paste the live Razorpay page URLs. Do that
+by hand in `js/payments-config.js` — it is the one step where a copy-paste error
+charges the wrong amount. `--check` verifies they are set and are not test-mode
+URLs before it will flip.
+
+Then: one commit, push, and the hosting Action deploys.
+
+```bash
+git add -A && git commit -m "norcetprep: paid go-live"
+git push
+```
+
+`--write --rollback` reverses every edit if the flip has to come back off.
+
+### Post-flip smoke (on the live domain, in this order)
+
+- [ ] Signed out: a premium mock walls correctly; the interstitial shows plans.
+- [ ] Signed out: **Full Mock Test 1 still starts, runs and reports** — that is
+      the sample, and it must survive the hosting exclusions.
+- [ ] `pricing.html` shows the printed end date exactly once, no countdown.
+- [ ] Buy a plan in live mode with a real method: the success page flips to
+      "You're in" within seconds, `account.html` shows "Premium until …".
+- [ ] A premium mock opens for that account.
+- [ ] Refund it from the dashboard: access is revoked, the account reads Free.
+- [ ] GA4 realtime shows `paywall_view`, `checkout_click`, `purchase`,
+      `quiz_start`, `quiz_complete`.
+- [ ] The old github.io URL for a top topic page lands on nursedrill.com.
+- [ ] Announce: Telegram post, and the pricing honesty block is live. No
+      countdown anywhere.
+
+**Sample designation (done):** **Full Mock Test 1** is the free sample —
+`"free": true, "sample": true` in `data/mains/mocks/index.json`, exempted in
+`js/content.js` and `scripts/upload-content.mjs`, precached by `sw.js`, and
+kept out of the go-live hosting exclusions by `scripts/go-live.mjs`. The
+Foundation notes section is the open notes sample. To designate another mock,
+change all five places together — the go-live script lists them.
 
 **Known accepted gaps (v1):**
 - Day-page notes (`mains-plan/day-*.html`) and cheatsheets are **inline

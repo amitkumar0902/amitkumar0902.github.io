@@ -10,7 +10,7 @@
 | Status | **Locked** — synthesizes the 13 closed map decisions; adds none |
 | Owner | Amit (solo builder) |
 | Written | 2026-08-01, from [Map: Monetize NORCET Prep](../map.md) via [PRD ticket](../tickets/t15-e2e-prd.md) |
-| Build state | Phases 1–3 repo-side **built** (`ff3c998`, `9b72783`, `5e2053f`, design `fc8bfcc`); nothing pushed or deployed |
+| Build state | Phases 1–4 repo-side **built** — all 13 tracer-bullet issues implemented (2026-08-01); nothing pushed or deployed |
 | Sources | Every requirement cites its ticket. Owner-pending facts live in [Business & payment prerequisites](../tickets/t10-business-prereqs.md) |
 
 Requirement status legend: **[BUILT]** in repo, ships on push · **[CONSOLE]** owner
@@ -97,8 +97,9 @@ the least defensible asset (most pirated); a living QBank is the most — so no 
 - **FREE-2 [BUILT]** Free mock page (self-contained), labelled sample mocks
   mechanism (`free: true` in `mocks/index.json` — owner designates), Foundation
   notes section open as the quality sample.
-- **FREE-3 [TODO]** Daily free quiz — 10 questions from the verified bank + streaks,
-  on-product (§8, [Growth engine](../tickets/t12-growth-engine.md)).
+- **FREE-3 [BUILT]** Daily free quiz — 10 questions chosen deterministically by IST date
+  from citation-carrying questions, + streaks, PYQ-of-the-day, on the product home
+  (`js/daily-quiz.js`, `js/home.js`); behaviour-tested.
 - **FREE-4 [BUILT]** Hub + merchandising: locked premium tiles with honest unlock
   CTAs; mock library browsable by everyone.
 
@@ -158,44 +159,43 @@ the least defensible asset (most pirated); a living QBank is the most — so no 
 
 ### 6.5 Content engine & quality bar ([Content engine](../tickets/t09-content-engine.md), [Legal baseline](../tickets/t05-legal-compliance.md))
 
-- **QUAL-1 [TODO — LEGAL GATE]** Rewrite the verbatim NORCET-9 Mains replay
-  (121 Qs) into memory-recall style; unpublish the official PDF (`imp/` already
-  excluded from hosting; the JSON + page copy still need the rewrite). **Blocks any
-  paywall.** Also scrub "verbatim from the official PDF" copy on mocks/pyqs pages.
-- **QUAL-2 [TODO]** `verify-questions.mjs` — cross-model refutation gate; layered
-  pipeline (validators → refutation → human review of flagged + 20% sample →
-  mandatory source citation) run over the full **1,569-Q bank and every paid mock**;
-  fill `needs_explanations.json` holes.
+- **QUAL-1 [BUILT — LEGAL GATE CLEARED]** All 121 NORCET-9 items rewritten to
+  memory-recall style with original explanations and citations, applied across the PYQ
+  set, bank, replay mock, ten full mocks, day slices and topic banks; the official PDF
+  deleted from the repo and gitignored; every "verbatim"/"official paper" claim scrubbed.
+- **QUAL-2 [BUILT]** `verify-questions.mjs` ships (independent-family refutation gate,
+  resumable, golden-set acceptance test, consistency gate needing no API key). Citations
+  are on all **5,742** questions and validator-enforced; 283 explanation holes filled; 134
+  duplicate free questions replaced and 292 unverifiable year labels removed; 3 confirmed
+  key errors fixed. Model-gate pass over the bank needs an API key — owner runs it.
 - **QUAL-3 [TODO]** Season cadence: **new full mock weekly during exam season**
   (Jul–Sep, Feb–Apr; explicitly slower off-season) — the public promise pricing
   makes; pipeline must sustain it at ~1.5–3 h/week human review.
 - **QUAL-4** Launch bar is **harden what exists — no volume push**. Sister-exam
   mocks (RRB/ESIC/DSSSB/JIPMER/AIIMS) ship as unadvertised bonus.
-- **QUAL-5 [BUILT]** Error loop: in-product question reports → weekly fix-batch →
-  public dated fix-log (reports plumbing built; fix-log page part of T14 ops).
+- **QUAL-5 [BUILT]** Error loop complete: in-product reports → weekly triage (RUNBOOKS §4)
+  → public dated fix-log (`fix-log.html` + `data/fix-log.json`, seeded with 9 real entries)
+  → methodology page describing the pipeline honestly.
 
 ### 6.6 Growth engine ([Growth & distribution](../tickets/t12-growth-engine.md)) — ~5 h/week ceiling
 
-- **GROW-1 [TODO]** Daily quiz (10 Qs from verified bank) + streaks on the hub;
-  PYQ-of-the-day surfaced on-site. Conversion happens where the paywall is.
-  Includes the Stitch home-layout restructure (§5).
-- **GROW-2 [TODO]** Telegram backbone: NurseDrill channel + bot auto-posting daily
-  MCQ + PYQ-of-the-day from the verified bank, each linking into the on-site quiz;
-  announcement line for weekly mocks/launch. Seed during Phase 2 (August). Fits the
-  Firebase stack as a small scheduled function.
+- **GROW-1 [BUILT]** Daily quiz + streaks + PYQ-of-the-day on the restructured product
+  home (Clinical Excellence layout, light and dark, app-mode safe).
+- **GROW-2 [BUILT/CONSOLE]** `functions/daily-post.js` — scheduled 07:30 IST post of the
+  day's MCQ + PYQ, selected by the same rule as the site (contract test), plus a keyed
+  `announce` endpoint. Console: create channel/bot, set the three secrets.
 - **GROW-3 [BUILT]** Referral v1: shareable cutoff-anchored report card (branded
   PNG, share CTA after every mock). No monetary referrals at v1.
 - **GROW-4 [TODO]** Instagram 1–2 diagram-carousel posts/week — explicitly the first
   thing dropped in a busy week. YouTube ruled out as an engine.
-- **GROW-5 [TODO]** SEO orchestrator loop retargeted to nursedrill.com after the
-  canonical flip; outreach templates rebranded with AIIMS disclaimer.
+- **GROW-5 [BUILT]** Orchestrator focus URLs and outreach templates retargeted to
+  nursedrill.com, rebranded, with the non-affiliation line and explicit no-dark-pattern rules.
 
 ### 6.7 Analytics ([Growth engine](../tickets/t12-growth-engine.md))
 
-- **ANLY-1 [BUILT]** GA4 via Firebase SDK, minimal six-event funnel: `signup` ·
-  `paywall_view` · `checkout_click` · `purchase` · `quiz_start`/`quiz_complete`
-  (fire when GROW-1 ships) · `share_report`. Wired: 5 of 6 event types; quiz events
-  reserved. Dashboards: GA4 standard — no custom dashboards until a question
+- **ANLY-1 [BUILT]** GA4 via Firebase SDK, minimal six-event funnel, all six now wired:
+  `signup` · `paywall_view` · `checkout_click` · `purchase` · `quiz_start`/`quiz_complete`
+  · `share_report`. Dashboards: GA4 standard — no custom dashboards until a question
   demands one.
 - **ANLY-2 [CONSOLE]** Enable Analytics on the Firebase project; paste
   `measurementId`. Plain disclosure already in the privacy policy.
@@ -218,8 +218,9 @@ the least defensible asset (most pirated); a living QBank is the most — so no 
   only; **no doubt-solving** (stated plainly).
 - **OPS-2 [CONSOLE]** support@nursedrill.com forwarding; refund + payment-
   reconciliation runbooks (owner-run script against gateway dashboard).
-- **OPS-3 [TODO]** Lightweight alarms: uptime ping, Firebase budget alert,
-  webhook-failure alert; site-banner incident flag.
+- **OPS-3 [BUILT/CONSOLE]** Incident banner via `config/site` + `scripts/incident.mjs`,
+  rendered by `js/site-chrome.js` on every page family; failure alerting in the functions;
+  the three console monitors are stepped out in [RUNBOOKS.md](../../RUNBOOKS.md) §6.
 - **OPS-4** **Deploy freeze 48h before every exam date** (first: 10–12 Sep 2026).
 
 ### 6.10 Android app ([Play Store path](../tickets/t04-play-store-path.md)) — Feb-2027 wave

@@ -28,6 +28,8 @@ jobs:
         run: node norcetprep/scripts/validate-questions.mjs
       - name: Hub card counts vs JSON
         run: node norcetprep/scripts/check-index-counts.mjs
+      - name: Local links and assets resolve
+        run: node norcetprep/scripts/check-links.mjs
       - name: Content consistency gate on the golden set
         run: node norcetprep/scripts/verify-questions.mjs --golden --static-only
       - name: Front-end behaviour tests (paywall, content routing, daily quiz)
