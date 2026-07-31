@@ -64,6 +64,14 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Platform & entitlement architecture](tickets/t07-platform-architecture.md) —
+  **Firebase all-in on nursedrill.com**: Auth (Google + email/password),
+  Firestore, one webhook Cloud Function, Hosting deployed by GitHub Action;
+  entitlements = per-product `paid_until` timestamps on `users/{uid}`
+  (dual-source-ready, rrb-extensible); premium content moves from the public
+  repo into rules-gated Firestore; hosted Payment Pages → instant webhook
+  unlock; app-mode shows zero purchase paths; sw precache trims to free
+  content; account-deletion flow added; no device limits, telemetry only.
 - [Brand, domain & trust](tickets/t08-brand-domain-trust.md) — brand =
   **NurseDrill**: nursedrill.com primary + .in parked, **buy urgently**
   ("norcetprep" .com/.in was sniped by one actor on 28 May 2026); product
@@ -80,16 +88,11 @@ beyond this map.
 
 ## Not yet specified
 
-- **Analytics & funnel instrumentation** — which product/revenue analytics and
-  where they run; sharpens after
-  [Platform & entitlement architecture](tickets/t07-platform-architecture.md).
 - **Launch sequencing & migration** — cutover from the allowlist to real
-  accounts, grandfathering the existing user, announcement plan; sharpens after
-  pricing + architecture land.
+  accounts, grandfathering the existing user, announcement plan; sharpens once
+  pricing lands (architecture is decided).
 - **Support & ops** — error-report triage, refund handling, doubt channels;
-  sharpens after pricing + legal land.
-- **rrbprep under the same roof** — how the extend-later architecture eventually
-  absorbs the sibling site; sharpens after brand + architecture.
+  sharpens once pricing lands.
 
 ## Out of scope
 

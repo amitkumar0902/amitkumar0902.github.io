@@ -25,3 +25,8 @@ won't do:
   Jul–Sep buying season, and launch-offer mechanics that don't violate the
   no-dark-patterns trust posture.
 - Referral / word-of-mouth mechanics worth building in v1 vs later.
+- Instrumentation (graduated from map fog once
+  [Platform & entitlement architecture](t07-platform-architecture.md) fixed the
+  stack as Firebase): which funnel analytics — GA4 vs a privacy-light
+  alternative — which conversion events (signup, sample→paywall hit, checkout
+  out-click, webhook-confirmed purchase), and where dashboards live.
