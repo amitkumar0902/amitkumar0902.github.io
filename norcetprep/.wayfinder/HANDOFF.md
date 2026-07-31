@@ -99,6 +99,11 @@ tracker in a **public repo**. The owner knows; confirm before pushing anyway.
 
 ## Next work, in rough order
 
+The remaining build is sliced into 13 tracer-bullet issues at
+`docs/issues/2026-08-01/` (from the formal PRD at
+`docs/prds/2026-08-01/nursedrill-e2e.md`) — grab unblocked ones from there;
+the list below is the same work in prose.
+
 1. **Close T10** when the owner reports facts (domains, project id, gateway
    outcomes, Play verification, live policy URLs). Map complete.
 2. **Content track — now the critical path** (per
