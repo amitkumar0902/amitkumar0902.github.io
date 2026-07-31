@@ -34,8 +34,7 @@
   }
 
   function init() {
-    fetch(ROOT + 'data/mains/mocks/mock-' + MOCK_ID + '.json')
-      .then(r => { if (!r.ok) throw new Error('Mock ' + MOCK_ID + ' not found'); return r.json(); })
+    NM.data(ROOT + 'data/mains/mocks/mock-' + MOCK_ID + '.json')
       .then(d => {
         state.questions = d.questions;
         state.answers = new Array(d.questions.length).fill(null);
@@ -51,6 +50,10 @@
         }
       })
       .catch(e => {
+        // mock.html is exempt from the path auto-guard so free sample mocks
+        // (`free: true` in mocks/index.json) can run — premium mocks gate
+        // here instead, when Firestore refuses the read.
+        if (e && e.code === 'locked' && window.ND && ND.paywall) { ND.paywall.guard(); return; }
         document.body.innerHTML = '<main class="page"><h1>Couldn\'t load mock</h1><p>' + NM.escape(e.message) + '</p></main>';
       });
   }

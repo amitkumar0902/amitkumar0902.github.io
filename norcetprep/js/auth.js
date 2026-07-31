@@ -64,7 +64,13 @@
         progressSyncedAt: serverTs(),
         devices: {}
       };
-      if (!snap.exists) patch.createdAt = serverTs();
+      if (!snap.exists) {
+        patch.createdAt = serverTs();
+        if (window.NDTrack) {
+          var prov = (state.user.providerData && state.user.providerData[0]) || {};
+          NDTrack('signup', { method: prov.providerId || 'password' });
+        }
+      }
       patch.devices[deviceId()] = {
         ua: (navigator.userAgent || '').slice(0, 120),
         lastSeen: serverTs()
@@ -181,12 +187,26 @@
       setTimeout(wait, 100);
     })();
   }
+  // ?next= support (checkout/paywall funnels): after sign-in + sync, bounce
+  // to the requested page. Same-site relative paths only.
+  function nextTarget() {
+    var m = location.search.match(/[?&]next=([^&]+)/);
+    if (!m) return null;
+    var n = decodeURIComponent(m[1]);
+    if (/^[a-zA-Z0-9]/.test(n) && n.indexOf('//') === -1 && n.indexOf(':') === -1 && n.indexOf('..') === -1) return n;
+    return null;
+  }
+  var redirected = false;
+
   function ready() {
     window.firebase.auth().onAuthStateChanged(function (u) {
       if (u && !u.isAnonymous) {
         state.user = u;
         show('auth-in');
-        syncAccount().catch(function (e) { err(human(e)); });
+        syncAccount().then(function () {
+          var next = nextTarget();
+          if (next && !redirected) { redirected = true; location.replace(next); }
+        }).catch(function (e) { err(human(e)); });
       } else {
         state.user = null; state.doc = null;
         show('auth-out');

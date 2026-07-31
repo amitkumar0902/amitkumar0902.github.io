@@ -89,9 +89,9 @@
   <script defer>
     document.addEventListener('DOMContentLoaded', async () => {
       NM.boot('toppers');
-      const freq = await fetch('../data/mains/frequency-analysis.json').then(r => r.json());
+      const freq = await NM.data('../data/mains/frequency-analysis.json');
       const syllabus = await fetch('../data/mains/syllabus.json').then(r => r.json()).catch(() => []);
-      const coverage = await fetch('../data/mains/_audit/frequency-coverage.json').then(r => r.json()).catch(() => ({ perRowMatchCounts: {} }));
+      const coverage = await NM.data('../data/mains/_audit/frequency-coverage.json').catch(() => ({ perRowMatchCounts: {} }));
 
       const criticalThreshold = freq._meta?.criticalThreshold || 8;
       const syllabusById = {};

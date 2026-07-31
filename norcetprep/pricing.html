@@ -20,6 +20,9 @@
   .price{font-size:30px;font-weight:800;font-variant-numeric:tabular-nums;margin:4px 0 0}
   .was{color:#4E6570;text-decoration:line-through;font-size:15px;margin-left:6px;font-weight:400}
   .per{font-size:13px;color:#4E6570}
+  .buy{display:block;box-sizing:border-box;width:100%;margin-top:12px;padding:11px 14px;border-radius:10px;
+    background:#0E7C7B;color:#fff;font-weight:700;text-align:center;text-decoration:none}
+  .buy[hidden]{display:none}
   ul{padding-left:20px}
   .promises{border:1px solid #D9E4E1;border-radius:12px;padding:14px 18px;margin:20px 0;line-height:1.9}
   h2{font-size:19px;margin-top:30px}
@@ -41,16 +44,19 @@ here on launch day, and it won't move.</div>
     <div class="dur">3 months</div>
     <div class="price">₹249<span class="was">₹299</span></div>
     <div class="per">launch price · ≈ ₹83/month</div>
+    <a class="buy nd-buy-only" href="checkout.html?plan=3m" hidden>Get 3 months</a>
   </div>
   <div class="sku hero">
     <div class="dur">12 months</div>
     <div class="price">₹699<span class="was">₹999</span></div>
     <div class="per">launch price · ≈ ₹58/month · covers two exam cycles</div>
+    <a class="buy nd-buy-only" href="checkout.html?plan=12m" hidden>Get 12 months</a>
   </div>
   <div class="sku">
     <div class="dur">6 months</div>
     <div class="price">₹449<span class="was">₹599</span></div>
     <div class="per">launch price · ≈ ₹75/month</div>
+    <a class="buy nd-buy-only" href="checkout.html?plan=6m" hidden>Get 6 months</a>
   </div>
 </div>
 
@@ -88,5 +94,14 @@ here on launch day, and it won't move.</div>
   NurseDrill is not affiliated with or endorsed by AIIMS. Exam names are used descriptively.
   No promise of selection or rank — outcomes depend on you.
 </footer>
+<script src="js/paywall.js"></script>
+<script>
+  // Buy buttons appear only once the paywall goes live (go-live commit flips
+  // the flag in js/paywall.js). In app-mode paywall.js blacks this page out
+  // entirely — no prices, no purchase path (Play billing policy).
+  if (window.ND && ND.paywall.enabled() && !ND.paywall.appMode()) {
+    document.querySelectorAll('.buy').forEach(function (a) { a.hidden = false; });
+  }
+</script>
 </body>
 </html>

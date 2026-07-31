@@ -25,7 +25,7 @@
   };
 
   function load() {
-    fetch(state.dataUrl).then(r => r.json()).then(d => {
+    NM.data(state.dataUrl).then(d => {
       state.questions = Array.isArray(d) ? d : (d.questions || []);
       state.answers = new Array(state.questions.length).fill(null);
       state.submitted = new Array(state.questions.length).fill(false);

@@ -1,14 +1,26 @@
-// NORCET Mains service worker — network-first for HTML, stale-while-revalidate for JSON/CSS/JS
-const CACHE = 'norcet-mains-v14-allowlist';
+// NurseDrill service worker — network-first for HTML, stale-while-revalidate for JSON/CSS/JS.
+// Phase 3: the precache holds ONLY the app shell + free content. Premium data
+// lives in Firestore behind entitlement rules and rides Firestore's own
+// offline persistence (see js/content.js) — it must never be precached here.
+const CACHE = 'nursedrill-v15-free-shell';
 const PRECACHE = [
   './',
   './index.html',
   './login.html',
   './signup.html',
+  './account.html',
+  './pricing.html',
+  './norcet-free-mock-test.html',
   './css/mains-theme.css',
   './css/hella.css',
   './js/core.js',
   './js/allowlist.js',
+  './js/paywall.js',
+  './js/content.js',
+  './js/analytics.js',
+  './js/auth.js',
+  './js/sync.js',
+  './js/report.js',
   './js/mock-test.js',
   './js/practice.js',
   './js/bank.js',
@@ -18,45 +30,19 @@ const PRECACHE = [
   './img/hella-correct.svg',
   './img/hella-wrong.svg',
   './manifest.webmanifest',
-  './data/mains/question-bank.json',
+  // Free data only — the acquisition funnel and merchandising metadata.
+  './data/mains/stats.json',
   './data/mains/syllabus.json',
   './data/mains/videos.json',
-  './data/mains/drill-drug-calc.json',
-  './data/mains/stats.json',
-  './data/mains/frequency-analysis.json',
   './data/mains/mocks/index.json',
-  './data/mains/mocks/mock-pyq.json',
-  './data/mains/mocks/mock-norcet9-mains.json',
-  './data/mains/pyqs/norcet-9-mains-2025.json',
-  './data/mains/pyqs/norcet-6-7-8-recalls.json',
-  './data/mains/mock-blueprint.json',
-  './data/mains/flashcards/hy-lochia.json',
-  './data/mains/flashcards/hy-pph.json',
-  './data/mains/images/lochia-types.svg',
-  './data/mains/images/pph-4ts.svg',
-  './data/mains/notes/midwifery.json',
-  './data/mains/notes/gyn.json',
-  './data/mains/notes/surgery.json',
   './data/mains/notes/foundation.json',
-  './data/mains/notes/chn.json',
-  './data/mains/notes/medicine.json',
-  './data/mains/notes/ent.json',
-  './data/mains/notes/child.json',
-  './data/mains/notes/pharma.json',
-  './data/mains/notes/mental.json',
-  './data/mains/notes/micro.json',
-  './data/mains/notes/biochem.json',
-  './data/mains/notes/anatomy.json',
+  // Free page shells (render their own locked states offline).
   './mains-plan/index.html',
-  './mains-plan/bank.html',
-  './mains-plan/dashboard.html',
-  './mains-plan/review.html',
-  './mains-plan/settings.html',
-  './mains-plan/pyqs.html',
+  './mains-plan/mocks/index.html',
+  './mains-plan/notes/index.html',
   './mains-plan/syllabus.html',
-  './mains-plan/toppers.html',
   './mains-plan/watch.html',
-  './mains-plan/notes/index.html'
+  './mains-plan/settings.html'
 ];
 
 self.addEventListener('install', (e) => {
@@ -75,10 +61,19 @@ self.addEventListener('activate', (e) => {
   })());
 });
 
+// Premium data never enters SW caches — Firestore persistence is its offline
+// story. Everything under data/mains/ except the explicit free files.
+const FREE_DATA = /\/data\/mains\/(stats|syllabus|videos)\.json$|\/data\/mains\/mocks\/index\.json$|\/data\/mains\/notes\/foundation\.json$/;
+function isPremiumData(url) {
+  return url.pathname.includes('/data/mains/') && !FREE_DATA.test(url.pathname);
+}
+
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET') return;
   if (url.origin !== self.location.origin) return;
+
+  if (isPremiumData(url)) return; // straight to network, never cached
 
   const accept = e.request.headers.get('accept') || '';
   if (accept.includes('text/html')) {

@@ -18,9 +18,24 @@
       try {
         const res = await fetch('../../data/mains/mocks/index.json');
         const mocks = await res.json();
+        // Locked tiles (Phase 3): the library stays browsable by everyone —
+        // it IS the merchandising. `free: true` on an index.json entry marks
+        // a sample mock that stays open.
+        const pw = await NM.paywallState();
+        const locked = (pw.status === 'anon' || pw.status === 'free');
+        const appMode = window.ND && ND.paywall.appMode();
         const results = NM.get('mockResults', []);
         const latest = {};
         results.forEach(r => { latest[r.id] = r; });
+        if (locked && !document.getElementById('mocks-tier-note')) {
+          const note = document.createElement('p');
+          note.id = 'mocks-tier-note';
+          note.className = 'muted';
+          note.innerHTML = appMode
+            ? '🔒 Locked mocks unlock when you sign in with a premium account — <a href="../../account.html">sign in</a>.'
+            : '🔒 You\'re on the free tier. <a class="nd-buy-only" href="../../pricing.html">See plans — from ₹249</a> for the full library, or <a href="../../account.html">sign in</a> if you\'ve purchased.';
+          host.parentNode.insertBefore(note, host);
+        }
         host.innerHTML = mocks.map(m => {
           const r = latest[m.id];
           const top = Object.entries(m.subjects).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([s,n])=>s+' '+n).join(' · ');
@@ -38,10 +53,14 @@
           else if (/-sn$/.test(idStr)) numLabel = idStr.replace(/-sn$/, '').toUpperCase();
           else if (idStr === 'yt-recalls') numLabel = 'YT';
           else numLabel = '★';
+          const isLocked = locked && !m.free;
+          const links = isLocked
+            ? (appMode ? '🔒' : '🔒 <a class="nd-buy-only" href="../../pricing.html">Unlock</a>')
+            : '<a href="mock.html?id='+m.id+'">'+(r?'Retake':'Start')+'</a>'+(r?' <a href="mock.html?id='+m.id+'#review">Review</a>':'');
           return '<li>' +
             '<span class="num">'+numLabel+'</span>' +
             '<span class="title">'+m.title+resumable+'<div class="small muted">'+m.count+' Q · '+m.minutes+' min · '+top+'</div>'+prog+'</span>' +
-            '<span class="links"><a href="mock.html?id='+m.id+'">'+(r?'Retake':'Start')+'</a>'+(r?' <a href="mock.html?id='+m.id+'#review">Review</a>':'')+'</span>' +
+            '<span class="links">'+links+'</span>' +
             status +
           '</li>';
         }).join('');

@@ -21,7 +21,8 @@
     projectId: "YOUR_PROJECT_ID",
     storageBucket: "YOUR_PROJECT.appspot.com",
     messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"   // G-… — enables the GA4 funnel (js/analytics.js)
   };
 
   window.NM_FIREBASE_CONFIG = FIREBASE_CONFIG;
@@ -48,6 +49,10 @@
       if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
       const auth = firebase.auth();
       const db = firebase.firestore();
+      // Offline persistence: entitled users keep cached premium banks/mocks
+      // readable offline (Phase 3, airplane-mode mock-taking). Multi-tab
+      // conflicts are non-fatal — persistence just stays off in extra tabs.
+      try { db.enablePersistence({ synchronizeTabs: true }).catch(function () {}); } catch (e) {}
       window.NM_AUTH = auth;
       window.NM_DB = db;
       auth.onAuthStateChanged(function (user) {

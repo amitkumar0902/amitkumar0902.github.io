@@ -107,3 +107,123 @@ Phase 3. Console steps:
 7. **Parallel content track** (not console work): the NORCET-9 rewrite batch
    and the bank verification pipeline run alongside Phase 2 — see
    `.wayfinder/tickets/t09-content-engine.md`.
+
+---
+
+# Phase 3 — paywall machinery (console side)
+
+Repo side is built: premium content stays gated behind a **single flag**
+(`PAYWALL_ENABLED` in `norcetprep/js/paywall.js`, currently `false`) so all of
+this deploys inert. Built: `js/paywall.js` (entitlement gate + TWA app-mode
+blackout), `js/content.js` (premium JSON via Firestore
+`content/norcet/**`), `scripts/upload-content.mjs`, `checkout.html` +
+`checkout-success.html` + `js/payments-config.js`, `functions/` (the one
+Razorpay webhook), GA4 funnel events (`js/analytics.js`), and the service
+worker now precaches free content only.
+
+Console steps, in order (target: built + E2E-tested by **31 Aug** — the
+checkpoint):
+
+1. **Deploy the webhook function**
+   ```bash
+   cd functions && npm install && cd ..
+   npx firebase-tools functions:secrets:set RAZORPAY_WEBHOOK_SECRET   # paste a long random string; keep it
+   npx firebase-tools deploy --only functions
+   ```
+   Note the printed `razorpayWebhook` URL (asia-south1). The GitHub Action
+   only deploys hosting — functions deploy from your machine.
+2. **Razorpay Payment Pages** (dashboard → Payment Pages, test mode first):
+   create **three pages** — 3-month ₹249 / 6-month ₹449 / 12-month ₹699
+   (launch amounts; the page is the charging truth). On each:
+   - add two custom text fields named exactly **`uid`** and **`plan`**
+     (checkout.html prefills them via URL; they arrive in `payment.notes`,
+     which the webhook reads — without `uid` a payment lands "unmatched");
+   - set the success redirect to `https://nursedrill.com/checkout-success.html`.
+3. **Razorpay webhook** (dashboard → Settings → Webhooks): URL = the function
+   URL from step 1, secret = the same `RAZORPAY_WEBHOOK_SECRET`, events:
+   **payment.captured** and **refund.processed**.
+4. **Paste the three page URLs** into `norcetprep/js/payments-config.js`
+   (replace the `YOUR_…` placeholders), commit, push.
+5. **Upload premium content to Firestore** (repeat whenever content changes):
+   ```bash
+   node norcetprep/scripts/upload-content.mjs            # dry-run list
+   GOOGLE_APPLICATION_CREDENTIALS=/path/to/serviceAccount.json \
+     node norcetprep/scripts/upload-content.mjs --write
+   ```
+6. **GA4**: Firebase console → Project settings → Integrations → enable
+   Google Analytics → copy the `measurementId` (G-…) into
+   `norcetprep/js/firebase-config.js`. Funnel events then flow: signup ·
+   paywall_view · checkout_click · purchase (quiz and share events wire up
+   when the daily quiz / report cards ship — T12 growth plumbing).
+7. **End-to-end test** (= checkpoint gate 3, with pages still in test mode):
+   sign in → `/checkout.html?plan=3m` → pay with a test method → success page
+   flips to "You're in" within seconds → `account.html` shows "Premium
+   until …" → a premium mock loads → issue a refund from the dashboard →
+   entitlement revoked (account shows Free tier). checkout.html is reachable
+   before go-live **by design** (it needs the pasted URLs, not the paywall
+   flag) — nothing on the site links to it until the flag flips.
+
+## Go-live flip (green checkpoint → ~5 Sep; hard gate 18 Sep)
+
+Prereqs: gateway activated (live mode), NORCET-9 rewrite shipped + official
+PDF unpublished (legal gate), E2E test green, the grandfathered user's
+account verified working. Then ONE commit:
+
+1. `js/paywall.js` → `PAYWALL_ENABLED = true`.
+2. `js/payments-config.js` → swap test-mode page URLs for **live-mode** URLs.
+3. `pricing.html` → rewrite the status block: paid is live; print the launch
+   offer end date (**today + 30 days — printed once, never moved**, per T13).
+4. `firebase.json` → add the premium statics to `hosting.ignore` so the
+   product domain stops serving them (they're in Firestore now):
+   ```json
+   "norcetprep/data/mains/question-bank.json",
+   "norcetprep/data/mains/mock-blueprint.json",
+   "norcetprep/data/mains/frequency-analysis.json",
+   "norcetprep/data/mains/drill-drug-calc.json",
+   "norcetprep/data/mains/mocks/mock-*.json",
+   "norcetprep/data/mains/pyqs/**",
+   "norcetprep/data/mains/day-slices/**",
+   "norcetprep/data/mains/topics/**",
+   "norcetprep/data/mains/flashcards/**",
+   "norcetprep/data/mains/_audit/**",
+   "norcetprep/data/mains/notes/anatomy.json",
+   "norcetprep/data/mains/notes/biochem.json",
+   "norcetprep/data/mains/notes/child.json",
+   "norcetprep/data/mains/notes/chn.json",
+   "norcetprep/data/mains/notes/ent.json",
+   "norcetprep/data/mains/notes/gyn.json",
+   "norcetprep/data/mains/notes/medicine.json",
+   "norcetprep/data/mains/notes/mental.json",
+   "norcetprep/data/mains/notes/micro.json",
+   "norcetprep/data/mains/notes/midwifery.json",
+   "norcetprep/data/mains/notes/pharma.json",
+   "norcetprep/data/mains/notes/surgery.json"
+   ```
+   (`notes/foundation.json` stays served — it's the open sample. `mocks/index.json`,
+   `stats/syllabus/videos.json` stay too.)
+5. `sw.js` → bump the `CACHE` name (e.g. `…-v16-paid`) so grace-period caches
+   holding premium JSON are purged on activate.
+6. **Retire the allowlist** (T13: at paid go-live, never before the
+   grandfathered account is verified): delete `js/allowlist.js`, remove the
+   legacy gate block at the top of `js/core.js`, point `login.html` /
+   `signup.html` at `account.html` (or replace them with redirect stubs).
+7. Commit, push (deploys via the Action). Announce per T13 — pricing page
+   carries the honesty block; end date appears exactly once, there.
+
+**Sample designation (owner content call, any time):** mark specific library
+mocks free by adding `"free": true` to their entry in
+`data/mains/mocks/index.json` — the mock library shows them unlocked; the
+Foundation notes section is already the open notes sample. If you free a
+mock, also remove it from the go-live ignore list above and from
+`PREMIUM`/`FREE_EXCEPTIONS` in `js/content.js` + `scripts/upload-content.mjs`.
+
+**Known accepted gaps (v1):**
+- Day-page notes (`mains-plan/day-*.html`) and cheatsheets are **inline
+  HTML** — the paywall interstitial guards them, but the underlying HTML
+  remains fetchable by a determined user. The real fix (extract into
+  Firestore like the JSON content) is content-track work, post-launch.
+- The old github.io origin serves everything from the public repo until its
+  pages become canonical stubs (T08 migration step, after go-live). The repo
+  is public anyway — piracy exposure is unchanged from today.
+- Labelled diagram SVGs stay static (T07 moved banks/mocks/notes JSON only);
+  the pages presenting them are gated.

@@ -2,6 +2,9 @@
   "firestore": {
     "rules": "firebase/firestore.rules"
   },
+  "functions": {
+    "source": "functions"
+  },
   "hosting": {
     "public": "norcetprep",
     "ignore": [

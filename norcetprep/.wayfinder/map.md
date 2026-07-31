@@ -44,6 +44,17 @@ beyond this map.
   demand wave ~Feb–Apr 2027. A web-first paid launch can catch NORCET 11; the
   Play app (~4–6 weeks incl. its 14-day tester soak) realistically lands for
   the 2027 wave.
+- **Build note (2026-07-31, Phase 3):** paywall machinery built inert behind
+  one flag (`js/paywall.js` `PAYWALL_ENABLED`) — entitlement gate + app-mode
+  blackout, Firestore content routing + upload script, checkout pages +
+  webhook function, GA4 funnel, free-only sw precache. In-build calls, all
+  flagged in DEPLOY.md: app-mode persists per-session (TWA shares the
+  browser's localStorage — a permanent flag would poison normal Chrome);
+  Foundation notes = the open sample, no library mock marked free yet (owner
+  call via `free: true` in mocks/index.json); day-page/cheatsheet inline HTML
+  stays static and is guard-only at v1; diagram SVGs stay static per T07.
+  Go-live = one documented commit (flag, live URLs, printed end date, hosting
+  ignores, sw bump, allowlist retirement).
 
 ## Decisions so far
 

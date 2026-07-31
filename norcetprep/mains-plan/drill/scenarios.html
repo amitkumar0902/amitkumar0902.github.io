@@ -11,7 +11,7 @@
   <script defer>
     document.addEventListener('DOMContentLoaded', async () => {
       NM.boot('today');
-      const bank = await fetch('../../data/mains/question-bank.json').then(r=>r.json());
+      const bank = await NM.data('../../data/mains/question-bank.json');
       const scen = bank.filter(q => q.qtype === 'scenario');
       const url = URL.createObjectURL(new Blob([JSON.stringify(scen.slice(0, 40))], { type: 'application/json' }));
       NMPractice.start({

@@ -5,7 +5,7 @@
 
   window.NMFlash = {
     start(deck) {
-      fetch(ROOT + 'data/mains/flashcards/' + deck + '.json').then(r => r.json()).then(cards => run(deck, cards));
+      NM.data(ROOT + 'data/mains/flashcards/' + deck + '.json').then(cards => run(deck, cards));
     },
     statusFor(deck) {
       const s = NM.get('fc.' + deck) || {};

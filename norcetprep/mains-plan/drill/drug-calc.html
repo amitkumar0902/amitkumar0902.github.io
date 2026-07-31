@@ -10,7 +10,7 @@
   <script defer>
     document.addEventListener('DOMContentLoaded', () => {
       NM.boot('today');
-      fetch('../../data/mains/drill-drug-calc.json').then(r => r.json()).then(start);
+      NM.data('../../data/mains/drill-drug-calc.json').then(start);
     });
 
     function start(qs) {

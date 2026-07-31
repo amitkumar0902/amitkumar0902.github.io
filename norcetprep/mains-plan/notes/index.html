@@ -115,24 +115,47 @@
 
     document.addEventListener('DOMContentLoaded', async () => {
       NM.boot('notes');
-      const section = new URLSearchParams(location.search).get('section') || 'midwifery';
+      let section = new URLSearchParams(location.search).get('section') || 'midwifery';
       const videos = await fetch('../../data/mains/videos.json').then(r => r.json()).catch(() => ({ episodes: [] }));
       const videoByTopic = {};
       for (const ep of (videos.episodes || [])) {
         for (const t of (ep.topics || [])) (videoByTopic[t] = videoByTopic[t] || []).push(ep);
       }
 
-      // Build section tabs
+      // Build section tabs. Foundation is the open sample (T06: judge the
+      // quality before paying) — every other section is premium.
+      const pw = await NM.paywallState();
+      const tierLocked = pw.status === 'anon' || pw.status === 'free';
+      // Locked visitors land on the open sample, not on a wall.
+      if (tierLocked && !new URLSearchParams(location.search).get('section')) section = 'foundation';
       const nav = document.getElementById('section-nav');
       for (const s of SECTIONS) {
         const a = document.createElement('a');
         a.href = '?section=' + s.id;
-        a.textContent = s.label;
+        a.textContent = (tierLocked && s.id !== 'foundation' ? '🔒 ' : '') + s.label;
         if (s.id === section) a.classList.add('active');
         nav.appendChild(a);
       }
 
-      const notes = await fetch('../../data/mains/notes/' + section + '.json').then(r => r.json());
+      let notes;
+      try {
+        notes = await NM.data('../../data/mains/notes/' + section + '.json');
+      } catch (e) {
+        const title0 = SECTIONS.find(s => s.id === section)?.label || section;
+        document.getElementById('section-title').textContent = title0 + ' · Notes';
+        const appMode = window.ND && ND.paywall.appMode();
+        document.getElementById('notes-list').innerHTML =
+          '<div class="card" style="padding:20px;text-align:center">' +
+          '<div style="font-size:28px">🔒</div>' +
+          '<p><strong>' + title0 + ' notes are premium.</strong></p>' +
+          '<p class="muted small">The <a href="?section=foundation">Foundation section</a> is open — judge the quality first.</p>' +
+          (appMode
+            ? '<p class="muted small">Already purchased? <a href="../../account.html">Sign in</a>.</p>'
+            : '<p class="small nd-buy-only"><a class="btn btn--accent" href="../../pricing.html">See plans — from ₹249</a></p>' +
+              '<p class="muted small"><a href="../../account.html">Already purchased? Sign in</a></p>') +
+          '</div>';
+        return;
+      }
       // Manifest of labelled diagrams keyed by note.id (graceful if absent).
       const diagrams = await fetch('../../data/mains/diagrams/manifest.json').then(r => r.json()).catch(() => ({}));
       // Merge in frequency + promoted priority from the enriched syllabus.

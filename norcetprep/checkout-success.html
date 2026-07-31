@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Payment received — NurseDrill</title>
+<meta name="robots" content="noindex">
+<style>
+  body{max-width:520px;margin:0 auto;padding:24px 20px 64px;color:#182830;
+    font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .card{border:1px solid #D9E4E1;border-radius:14px;padding:26px 20px;margin:16px 0;background:#fff;text-align:center}
+  .big{font-size:40px}
+  .title{font-weight:800;font-size:21px;margin:6px 0}
+  .muted{color:#4E6570}.small{font-size:13px}
+  .btn{display:block;width:100%;box-sizing:border-box;border:0;border-radius:10px;padding:13px 16px;
+    font:inherit;font-weight:700;cursor:pointer;margin-top:12px;text-align:center;text-decoration:none;color:inherit}
+  .btn-primary{background:#0E7C7B;color:#fff}
+  .btn-ghost{background:none;border:1.5px solid #D9E4E1}
+  footer{margin-top:36px;padding-top:14px;border-top:1px solid #D9E4E1;font-size:13px;color:#4E6570;line-height:1.7;text-align:center}
+  a{color:#0A5B5A}
+</style>
+</head>
+<body>
+
+<div id="s-waiting" class="card">
+  <div class="big">⏳</div>
+  <div class="title">Confirming your payment…</div>
+  <p class="small muted">This usually takes a few seconds — your access unlocks the moment
+  Razorpay confirms the payment to us. Leave this page open.</p>
+</div>
+
+<div id="s-done" class="card" style="display:none">
+  <div class="big">✅</div>
+  <div class="title">You're in.</div>
+  <p class="small">Premium active until <strong id="s-until">…</strong>.<br>
+  Receipt sent to your email by Razorpay.</p>
+  <a class="btn btn-primary" href="mains-plan/mocks/">Start a mock →</a>
+  <a class="btn btn-ghost" href="account.html">Your account</a>
+</div>
+
+<div id="s-slow" class="card" style="display:none">
+  <div class="big">🕐</div>
+  <div class="title">Taking longer than usual</div>
+  <p class="small muted">Your payment is safe. Confirmation sometimes lags a few minutes —
+  check <a href="account.html">your account</a> shortly; access appears there the moment it
+  lands. If it hasn't after 15 minutes, email
+  <a href="legal/contact.html">support@nursedrill.com</a> with the payment email — same-day
+  fix, promised.</p>
+  <a class="btn btn-ghost" href="account.html">Check my account</a>
+</div>
+
+<div id="s-signin" class="card" style="display:none">
+  <div class="big">🔑</div>
+  <div class="title">Sign in to see your access</div>
+  <p class="small muted">You seem to be signed out on this device. Sign in with the account
+  you paid on and premium unlocks immediately.</p>
+  <a class="btn btn-primary" href="account.html">Sign in</a>
+</div>
+
+<footer>
+  <a href="index.html">Home</a> · <a href="legal/refund.html">7-day refund policy</a><br>
+  Not affiliated with or endorsed by AIIMS.
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/payments-config.js"></script>
+<script src="js/paywall.js"></script>
+<script src="js/analytics.js"></script>
+<script>
+(function () {
+  'use strict';
+  if (window.ND && ND.paywall.appMode()) return; // blacked out by paywall.js
+
+  var $ = function (id) { return document.getElementById(id); };
+  function show(id) {
+    ['s-waiting', 's-done', 's-slow', 's-signin'].forEach(function (v) {
+      $(v).style.display = v === id ? '' : 'none';
+    });
+  }
+  function fmt(d) {
+    return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
+  if (!window.NM_FIREBASE_CONFIGURED) { show('s-slow'); return; }
+
+  var off = firebase.auth().onAuthStateChanged(function (user) {
+    off();
+    if (!user || user.isAnonymous) { show('s-signin'); return; }
+    var tries = 0;
+    (function poll() {
+      firebase.firestore().collection('users').doc(user.uid).get()
+        .then(function (snap) {
+          var ent = snap.exists && snap.data().entitlements && snap.data().entitlements.norcet;
+          var until = ent && ent.paid_until && ent.paid_until.toDate ? ent.paid_until.toDate() : null;
+          if (until && until > new Date()) {
+            $('s-until').textContent = fmt(until);
+            show('s-done');
+            try { sessionStorage.removeItem('nd.ent.' + user.uid); } catch (e) {}
+            // purchase fires once per order (webhook remains the truth).
+            var orderKey = 'nd.purchase.' + (ent.orderId || String(until.getTime()));
+            var logged = null;
+            try { logged = localStorage.getItem(orderKey); } catch (e) {}
+            if (!logged && window.NDTrack) {
+              var p = (window.ND_PAYMENTS.plans || {})[ent.plan] || {};
+              NDTrack('purchase', { plan: ent.plan || '', value: p.price || 0, currency: 'INR' });
+              try { localStorage.setItem(orderKey, '1'); } catch (e) {}
+            }
+            return;
+          }
+          if (++tries < 24) setTimeout(poll, 2500);
+          else show('s-slow');
+        })
+        .catch(function () {
+          if (++tries < 24) setTimeout(poll, 2500);
+          else show('s-slow');
+        });
+    })();
+  });
+})();
+</script>
+</body>
+</html>

@@ -27,8 +27,8 @@
     if (qs.get('syllabusId')) state.filters._syllabusId = qs.get('syllabusId');
     if (qs.get('tag')) state.filters._tag = qs.get('tag');
     Promise.all([
-      fetch(ROOT + 'data/mains/question-bank.json').then(r => r.json()),
-      fetch(ROOT + 'data/mains/syllabus.json').then(r => r.json()).catch(() => [])
+      NM.data(ROOT + 'data/mains/question-bank.json'),
+      NM.data(ROOT + 'data/mains/syllabus.json').catch(() => [])
     ])
       .then(([bank, syllabus]) => {
         state.all = bank;

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout — NurseDrill</title>
+<meta name="robots" content="noindex">
+<style>
+  body{max-width:520px;margin:0 auto;padding:24px 20px 64px;color:#182830;
+    font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  h1{font-size:24px;letter-spacing:-.01em}
+  .muted{color:#4E6570}.small{font-size:13px}
+  .card{border:1px solid #D9E4E1;border-radius:14px;padding:18px;margin:16px 0;background:#fff}
+  .btn{display:block;width:100%;box-sizing:border-box;border:0;border-radius:10px;padding:13px 16px;
+    font:inherit;font-weight:700;cursor:pointer;margin-top:10px;text-align:center;text-decoration:none;color:inherit}
+  .btn-primary{background:#0E7C7B;color:#fff}
+  .btn-ghost{background:none;border:1.5px solid #D9E4E1}
+  .plan-name{font-weight:800;font-size:19px}
+  .price{font-size:30px;font-weight:800;font-variant-numeric:tabular-nums}
+  .was{color:#4E6570;text-decoration:line-through;font-size:15px;margin-left:6px;font-weight:400}
+  footer{margin-top:36px;padding-top:14px;border-top:1px solid #D9E4E1;font-size:13px;color:#4E6570;line-height:1.7}
+  a{color:#0A5B5A}
+</style>
+</head>
+<body>
+<h1>Checkout</h1>
+
+<div id="co-loading" class="card"><span class="muted">Loading…</span></div>
+
+<div id="co-disabled" class="card" style="display:none">
+  <strong>Paid plans aren't open yet.</strong>
+  <p class="small muted">Premium launches in September 2026 — until then everything currently on
+  the site stays free. See <a href="pricing.html">pricing</a> for what's coming.</p>
+</div>
+
+<div id="co-signin" style="display:none">
+  <div class="card">
+    <strong>Sign in first</strong>
+    <p class="small muted">Your purchase attaches to your account, so access works on every
+    device. Takes under a minute — and your practice progress on this device comes along.</p>
+    <a class="btn btn-primary" id="co-signin-link" href="account.html">Sign in / create account</a>
+  </div>
+</div>
+
+<div id="co-pay" style="display:none">
+  <div class="card">
+    <div class="plan-name" id="co-plan-name">…</div>
+    <div class="price" id="co-price">…</div>
+    <p class="small muted" style="margin:10px 0 0">You'll finish payment on Razorpay's secure page —
+    UPI, cards, netbanking. Card details never touch our site. Access unlocks within seconds
+    of payment, on this account: <strong id="co-email">…</strong></p>
+    <a class="btn btn-primary" id="co-continue" href="#">Continue to Razorpay →</a>
+    <a class="btn btn-ghost" href="pricing.html">Change plan</a>
+    <p class="small muted" style="margin-top:12px">One payment — no auto-renewal, ever ·
+    <a href="legal/refund.html">7-day no-questions refund</a> (one per account) ·
+    support@nursedrill.com</p>
+  </div>
+</div>
+
+<footer>
+  <a href="index.html">Home</a> · <a href="pricing.html">Pricing</a> ·
+  <a href="legal/terms.html">Terms</a> · <a href="legal/refund.html">Refunds</a><br>
+  Not affiliated with or endorsed by AIIMS.
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/payments-config.js"></script>
+<script src="js/paywall.js"></script>
+<script src="js/analytics.js"></script>
+<script>
+(function () {
+  'use strict';
+  // In app-mode paywall.js has already blacked this page out (Play policy).
+  if (window.ND && ND.paywall.appMode()) return;
+
+  var $ = function (id) { return document.getElementById(id); };
+  function show(id) {
+    ['co-loading', 'co-disabled', 'co-signin', 'co-pay'].forEach(function (v) {
+      $(v).style.display = v === id ? '' : 'none';
+    });
+  }
+
+  var q = new URLSearchParams(location.search);
+  var plan = ({ '3m': 1, '6m': 1, '12m': 1 })[q.get('plan')] ? q.get('plan') : '12m';
+
+  // Checkout is live once the owner pastes the Razorpay page URLs and the
+  // Firebase config — deliberately independent of the content-paywall flag so
+  // the entitlement flow can be end-to-end tested (test-mode URLs) before
+  // go-live. Until then, honest "not open yet".
+  if (!window.NM_FIREBASE_CONFIGURED || !window.ND_PAYMENTS.ready) { show('co-disabled'); return; }
+
+  var off = firebase.auth().onAuthStateChanged(function (user) {
+    off();
+    if (!user || user.isAnonymous) {
+      $('co-signin-link').href = 'account.html?next=' + encodeURIComponent('checkout.html?plan=' + plan);
+      show('co-signin');
+      return;
+    }
+    var p = window.ND_PAYMENTS.plans[plan];
+    $('co-plan-name').textContent = p.label + ' · full premium access';
+    $('co-price').innerHTML = '₹' + p.price + (p.list > p.price ? '<span class="was">₹' + p.list + '</span>' : '');
+    $('co-email').textContent = user.email || '';
+    var base = window.ND_PAYMENTS.pages[plan];
+    var sep = base.indexOf('?') === -1 ? '?' : '&';
+    // Both prefill forms: named custom fields (uid/plan) land in payment
+    // notes on hosted Payment Pages; unknown params are ignored.
+    var url = base + sep +
+      'uid=' + encodeURIComponent(user.uid) +
+      '&plan=' + encodeURIComponent(plan) +
+      '&notes[uid]=' + encodeURIComponent(user.uid) +
+      '&notes[plan]=' + encodeURIComponent(plan) +
+      (user.email ? '&email=' + encodeURIComponent(user.email) : '');
+    $('co-continue').href = url;
+    $('co-continue').addEventListener('click', function () {
+      if (window.NDTrack) NDTrack('checkout_click', { plan: plan, value: p.price, currency: 'INR' });
+    });
+    show('co-pay');
+  });
+})();
+</script>
+</body>
+</html>

@@ -504,9 +504,15 @@
       }).then(function () {
         return loadScript('https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js');
       }).then(function () {
+        return loadScript('https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics-compat.js');
+      }).then(function () {
         loadScript(root + 'js/firebase-config.js');
       });
     }
+    // Paywall + content routing + funnel events (Phase 3).
+    if (!window.ND || !window.ND.paywall) loadScript(root + 'js/paywall.js');
+    if (!window.ND || !window.ND.content) loadScript(root + 'js/content.js');
+    if (!window.NDTrack) loadScript(root + 'js/analytics.js');
     if (!window.NMReport) loadScript(root + 'js/report.js');
     if (!NM.sync) loadScript(root + 'js/sync.js');
     // Hella (cute puppy coach mascot). Gated by the per-user setting; hella.js handles disabled state itself.
@@ -519,6 +525,42 @@
     }
     if (!window.NM.Hella) loadScript(root + 'js/hella.js?v=11');
   }
+
+  // ==== Data loader (Phase 3) ====
+  // Drop-in for fetch(url).then(r => r.json()). Waits briefly for js/content.js
+  // (injected by loadAddOns) so premium files route through Firestore once the
+  // paywall is live; free files always come from static hosting.
+  NM.data = function (url) {
+    return new Promise(function (resolve) {
+      var tries = 0;
+      (function wait() {
+        if (window.ND && window.ND.content) return resolve(window.ND.content.json(url));
+        if (++tries > 100) {
+          return resolve(fetch(url).then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          }));
+        }
+        setTimeout(wait, 50);
+      })();
+    });
+  };
+
+  // Entitlement state for merchandising pages (mock library, notes index)
+  // that render their own locked tiles. Resolves {status:'open'|'anon'|'free'|'premium'}
+  // — 'open' when the paywall is off or paywall.js never arrives.
+  NM.paywallState = function () {
+    return new Promise(function (resolve) {
+      var tries = 0;
+      (function wait() {
+        if (window.ND && window.ND.paywall) {
+          return resolve(window.ND.paywall.enabled() ? window.ND.paywall.check() : { status: 'open', until: null });
+        }
+        if (++tries > 100) return resolve({ status: 'open', until: null });
+        setTimeout(wait, 50);
+      })();
+    });
+  };
 
   // Simple shuffle helper (seeded deterministic ok for UI, Math.random for mocks)
   NM.shuffle = function (arr, seed) {

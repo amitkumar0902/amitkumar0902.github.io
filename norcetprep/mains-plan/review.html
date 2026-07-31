@@ -12,7 +12,7 @@
     document.addEventListener('DOMContentLoaded', async () => {
       NM.boot('today');
       const dueIds = new Set(NM.srsDueIds().map(String));
-      const bank = await fetch('../data/mains/question-bank.json').then(r => r.json());
+      const bank = await NM.data('../data/mains/question-bank.json');
       const dueQs = bank.filter(q => dueIds.has(String(q.id)));
       const host = document.getElementById('review-root');
       if (dueQs.length === 0) {
