@@ -33,6 +33,12 @@ beyond this map.
   research tickets exempt.
 - This repo is **public** — the map and tickets are world-readable. Keep
   credentials, keys, and personal data out.
+- **Build note (2026-07-31, Phase 1):** the free topic site — 20 topic pages,
+  5 SEO pillar pages, the pages behind all 547 free MCQs — had been deleted by
+  the earlier Mains-overhaul commit while the sitemap, docs, and CI still
+  referenced it. Discovered during the Phase 1 build and restored wholesale
+  from git history (commit 8275c45); validators restored and green. The free
+  funnel every decision assumed now actually exists.
 - **Hard timing** (research, 2026-07-31): NORCET 11 — registration closes
   13 Aug, Prelims 12 Sep, Mains 30 Sep 2026; biannual cadence puts the next
   demand wave ~Feb–Apr 2027. A web-first paid launch can catch NORCET 11; the
