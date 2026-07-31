@@ -4,13 +4,17 @@ name: NORCET question banks
 on:
   pull_request:
     paths:
-      - 'norcetprep/data/questions/**'
+      - 'norcetprep/data/**'
       - 'norcetprep/index.html'
+      - 'norcetprep/scripts/**'
+      - 'functions/**'
   push:
     branches: [main, master]
     paths:
-      - 'norcetprep/data/questions/**'
+      - 'norcetprep/data/**'
       - 'norcetprep/index.html'
+      - 'norcetprep/scripts/**'
+      - 'functions/**'
 
 jobs:
   validate:
@@ -24,3 +28,8 @@ jobs:
         run: node norcetprep/scripts/validate-questions.mjs
       - name: Hub card counts vs JSON
         run: node norcetprep/scripts/check-index-counts.mjs
+      - name: Content consistency gate on the golden set
+        run: node norcetprep/scripts/verify-questions.mjs --golden --static-only
+      - name: Payment webhook behaviour tests
+        working-directory: functions
+        run: npm test
