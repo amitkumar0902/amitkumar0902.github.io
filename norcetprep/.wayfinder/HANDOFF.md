@@ -29,17 +29,24 @@ form answers are on the ticket. When the owner reports the facts, record a
 `## Resolution`, close it, add the map index line — **the map is then
 complete**.
 
-**Build: Phase 1 and Phase 2 repo sides are DONE** (commits `ff3c998`,
-`9b72783`; free-site restore `8275c45`). Owner console steps for both are
-pending (see DEPLOY.md). Built so far: Firebase Hosting config serving
+**Build: Phases 1, 2 AND 3 repo sides are DONE** (commits `ff3c998`,
+`9b72783`, `5e2053f`; free-site restore `8275c45`). Owner console steps for
+all three are pending (see DEPLOY.md — Phase 3 has its own runbook + the
+one-commit go-live flip). Built: Firebase Hosting config serving
 `norcetprep/` as the nursedrill.com root, deploy Action (inert until
 `FIREBASE_DEPLOY_ENABLED` var + service-account secret exist), four policy
-pages (`legal/` — owner TODOs still unfilled), `pricing.html`,
-`account.html` + `js/auth.js` (Google/email auth, progress merge, devices,
-deletion flow), evolved `firebase/firestore.rules` (entitlements
-client-unwritable; `content/{exam}` gated by `paid_until`),
-`scripts/grant-entitlement.mjs`, `scripts/flip-canonicals.mjs` (run with
-`--write` only when the domain is live).
+pages (`legal/` — owner TODOs still unfilled), `pricing.html` (buy buttons
+hidden until go-live), `account.html` + `js/auth.js` (auth, progress merge,
+devices, deletion, `?next=` redirects), `firebase/firestore.rules`,
+`scripts/grant-entitlement.mjs`, `scripts/flip-canonicals.mjs` — and the
+whole Phase 3 paywall layer, inert behind `PAYWALL_ENABLED=false` in
+`js/paywall.js`: entitlement gate + TWA app-mode blackout, Firestore
+content routing (`js/content.js` + `scripts/upload-content.mjs`),
+`checkout.html`/`checkout-success.html` + `js/payments-config.js`
+(placeholder Razorpay page URLs), `functions/` webhook (grant + refund
+revoke, idempotent, audits to `payments/`), GA4 funnel (`js/analytics.js`),
+free-only sw precache, locked-tile merchandising (mock library + notes
+index; Foundation notes = open sample).
 
 **NOTHING HAS BEEN PUSHED.** ~15 local commits sit on `main`. Pushing:
 (a) updates the live github.io site immediately (intended Phase 1 behavior —
@@ -94,26 +101,24 @@ tracker in a **public repo**. The owner knows; confirm before pushing anyway.
 
 1. **Close T10** when the owner reports facts (domains, project id, gateway
    outcomes, Play verification, live policy URLs). Map complete.
-2. **Phase 3 build** (per
-   [Platform & entitlement architecture](tickets/t07-platform-architecture.md)
-   and [Pricing & packaging](tickets/t06-pricing-packaging.md)):
-   premium content → Firestore `content/norcet/**` chunks + upload script;
-   checkout pages (3 Razorpay hosted-page links, uid in notes) + ONE webhook
-   Cloud Function (verify signature → write `entitlements.norcet`); client
-   entitlement gating on mains/mock pages; sw precache trimmed to free
-   content; app-mode blackout (`?src=twa` + referrer → zero purchase UI);
-   GA4 events (six-event funnel per
-   [Growth & distribution engine](tickets/t12-growth-engine.md)).
-3. **Content track, parallel** (per
+2. **Content track — now the critical path** (per
    [Content engine & quality bar](tickets/t09-content-engine.md)):
-   NORCET-9 rewrite batch (100% owner-reviewed, one-time); build
-   `verify-questions.mjs` (cross-model refutation gate); run the layered
-   pipeline over the full 1,569-Q bank + all mocks; fill
+   NORCET-9 rewrite batch (100% owner-reviewed, one-time — this is the LEGAL
+   GATE for the checkpoint; also scrub the "verbatim from the official PDF"
+   copy on `mains-plan/mocks/index.html` + `pyqs.html` when rewriting);
+   build `verify-questions.mjs` (cross-model refutation gate); run the
+   layered pipeline over the full 1,569-Q bank + all mocks; fill
    `needs_explanations.json` holes; source citations enforced.
-4. **Growth plumbing** (T12): daily-quiz + streaks on the hub, Telegram
-   bot auto-posting from the verified bank, shareable report cards.
+3. **Phase 3 console + E2E** (owner, DEPLOY.md Phase 3): functions deploy,
+   Razorpay pages/webhook, content upload, GA4 id, test-mode E2E — then the
+   go-live flip commit (~5 Sep if green).
+4. **Growth plumbing** (T12): daily-quiz + streaks on the hub (wire the
+   reserved `quiz_start`/`quiz_complete` GA4 events), Telegram bot
+   auto-posting from the verified bank, shareable report cards (wire
+   `share_report`).
 5. **App track** (Feb-wave): Bubblewrap TWA once the domain is stable —
    constraints in [Play Store path & billing policy](tickets/t04-play-store-path.md).
+   The app-mode blackout is already live client-side (`?src=twa`).
 
 ## Working conventions
 
