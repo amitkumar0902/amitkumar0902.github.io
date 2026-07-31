@@ -64,6 +64,12 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Support & ops](tickets/t14-support-ops.md) — printed SLAs: **48h replies,
+  same-day payment/access issues, weekly fix-batch** into the public fix-log;
+  email + in-product reports only, no doubt-solving (stated plainly); refund
+  and payment-reconciliation runbooks; lightweight alarms (uptime ping,
+  budget alert, webhook-failure alert) with a site-banner incident flag;
+  deploy freeze 48h before exam dates.
 - [Growth & distribution engine](tickets/t12-growth-engine.md) — **~5 h/week
   ceiling**; conversion lives on-product (daily quiz + streaks); feeders =
   automated Telegram daily-MCQ bot (backbone) + light Instagram diagram
