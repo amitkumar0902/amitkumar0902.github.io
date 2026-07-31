@@ -64,6 +64,14 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Content engine & quality bar](tickets/t09-content-engine.md) — launch bar =
+  **harden what exists, no volume push**: NORCET-9 rewritten to recall style
+  (+ the official PDF unpublished), layered gates (validators → cross-model
+  refutation → human review of flagged + 20% sample → mandatory source
+  citation) run over the full 1,569-question bank and every paid mock;
+  sister-exam mocks ship as unadvertised bonus; season promise met by the same
+  pipeline at ~1.5–3 h/week human review; English-first with a translations
+  slot reserved in the schema.
 - [Pricing & packaging](tickets/t06-pricing-packaging.md) — free = topic MCQs
   + daily quiz + current public mocks + Mains samples; paid = full mock
   library + complete Mains toolkit + analytics; SKUs **₹299/3-mo · ₹599/6-mo ·
