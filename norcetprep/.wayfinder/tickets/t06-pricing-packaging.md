@@ -68,3 +68,9 @@ entitlement (`source: 'grant'`), applied at cutover
 explicitly slower off-season. This is the bar
 [Content engine & quality bar](t09-content-engine.md) must design the
 pipeline to sustain — pricing promises nothing beyond it.
+
+**Addendum (2026-07-31, from
+[Launch sequencing & migration](t13-launch-sequencing.md)):** the launch-offer
+window is now **30 days from actual paid go-live** — the true end date is
+printed at launch and never moves. This supersedes the fixed "ends 11 Sep
+2026" line, which held only in the launched-before-prelims scenario.

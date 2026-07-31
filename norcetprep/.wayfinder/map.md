@@ -64,6 +64,15 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Launch sequencing & migration](tickets/t13-launch-sequencing.md) —
+  **two-gate season plan**, incremental KYC-first cutover: Phase 1 by 7 Aug
+  (domain + current site on Firebase Hosting + policy pages → apply to both
+  gateways, create Play account), Phase 2 by 21 Aug (free accounts +
+  grace-overlap migration of the allowlisted user), Phase 3 by 31 Aug
+  (paywall machinery) = the checkpoint; green → paid live ~5 Sep, hard gate
+  18 Sep (Mains window), red → founding waitlist + paid Jan 2027; launch
+  offer amended to 30-days-from-go-live; allowlist retired only at paid
+  go-live.
 - [Paywall & subscription UX prototype](tickets/t11-paywall-ux-prototype.md) —
   **signed off with no changes — the product spec is locked**: clickable
   prototype of the full money path (free funnel → plans → auth → Razorpay
@@ -82,7 +91,8 @@ beyond this map.
   + daily quiz + current public mocks + Mains samples; paid = full mock
   library + complete Mains toolkit + analytics; SKUs **₹299/3-mo · ₹599/6-mo ·
   ₹999/12-mo** one-time validity (all-inclusive, no auto-renew); launch price
-  ₹249/₹449/₹699 ending for real 11 Sep 2026; 7-day no-questions refund (one
+  ₹249/₹449/₹699 for the first 30 days from go-live (T13 addendum — end date
+  printed at launch, never moved); 7-day no-questions refund (one
   per account); existing allowlisted user grandfathered 12 months; public
   promise = exam-season weekly mock + growing bank.
 - [Platform & entitlement architecture](tickets/t07-platform-architecture.md) —
