@@ -64,6 +64,13 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Brand, domain & trust](tickets/t08-brand-domain-trust.md) — brand =
+  **NurseDrill**: nursedrill.com primary + .in parked, **buy urgently**
+  ("norcetprep" .com/.in was sniped by one actor on 28 May 2026); product
+  lines keep "NORCET" in titles; trust = transparent solo builder +
+  methodology page + public fix-log, quiet on tooling, no dark patterns,
+  AIIMS disclaimers; old URLs migrate via canonical stubs + GSC
+  change-of-address.
 - [Legal & compliance baseline](tickets/t05-legal-compliance.md) — lawful to
   charge with **no GST under ₹20L** turnover; before the paywall: rewrite the
   verbatim NORCET-9 replay into reworded recalls (exam papers are copyrighted;
@@ -73,10 +80,6 @@ beyond this map.
 
 ## Not yet specified
 
-- **Growth & distribution engine** beyond the current SEO loop (Telegram /
-  YouTube / influencer / referral motions) — sharpens after
-  [Competitor & pricing landscape](tickets/t01-competitor-landscape.md) and
-  [Brand, domain & trust](tickets/t08-brand-domain-trust.md).
 - **Analytics & funnel instrumentation** — which product/revenue analytics and
   where they run; sharpens after
   [Platform & entitlement architecture](tickets/t07-platform-architecture.md).
