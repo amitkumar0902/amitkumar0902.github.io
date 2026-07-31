@@ -30,6 +30,8 @@ jobs:
         run: node norcetprep/scripts/check-index-counts.mjs
       - name: Content consistency gate on the golden set
         run: node norcetprep/scripts/verify-questions.mjs --golden --static-only
+      - name: Front-end behaviour tests (paywall, content routing, daily quiz)
+        run: node --test norcetprep/test/frontend.test.js
       - name: Payment webhook behaviour tests
         working-directory: functions
         run: npm test
