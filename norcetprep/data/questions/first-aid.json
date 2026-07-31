@@ -181,181 +181,181 @@
   },
   {
     "id": 10,
-    "question": "Clinical pathology Q10: Platelet count very low increases risk of:",
+    "question": "A 6-month-old infant suddenly stops feeding, cannot cry or cough and is turning blue. What is the correct first-aid sequence?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Five abdominal thrusts, as given to an adult",
+      "B. A blind finger sweep of the mouth to hook out the object",
+      "C. Five back blows followed by five chest thrusts, repeated until the object is expelled",
+      "D. Hold the infant upside down by the ankles and shake"
     ],
-    "correct": 1,
-    "explanation": "• Spontaneous bleeding risk climbs steeply once the platelet count falls below about 20,000/mm3, and counts under 10,000/mm3 carry a real risk of intracranial and gastrointestinal haemorrhage.\n• Because too few platelets means clots cannot form normally, thrombosis is not the expected consequence.\n• Hypernatraemia is a water and sodium imbalance and metabolic alkalosis an acid-base disturbance; neither results from thrombocytopenia.",
-    "topic": "Labs",
+    "correct": 2,
+    "explanation": "For a choking infant with complete obstruction, five back blows delivered with the infant prone and head-down, alternating with five chest thrusts using two fingers over the lower sternum, generate enough pressure to expel the object without injuring the abdominal organs. Abdominal thrusts are the tempting answer because they are correct for adults and for children over one year, but an infant's liver is relatively large and poorly protected by the rib cage and can be lacerated. A blind finger sweep may push the object further down and is never performed.",
+    "topic": "Choking - Foreign Body Airway Obstruction in Infants",
     "year": "",
     "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "citation": "AHA Guidelines 2020 for CPR and ECC - Pediatric Basic Life Support",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 11,
-    "question": "Clinical pathology Q11: Platelet count very low increases risk of:",
+    "question": "A man has a deep forearm laceration from broken glass and is bleeding briskly. What is the first action of the first-aider?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Apply firm direct pressure over the wound with a clean pad and raise the limb",
+      "B. Apply a tourniquet above the elbow straight away",
+      "C. Apply ice packs over the wound to constrict the vessels",
+      "D. Wash the wound under running water and wait for the bleeding to settle"
     ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia (count below 150,000/mm3) prolongs bleeding time and produces mucocutaneous bleeding such as petechiae, ecchymoses, epistaxis and menorrhagia.\n• Nursing management therefore centres on bleeding precautions: soft toothbrush, no intramuscular injections or rectal temperatures, and avoidance of aspirin and NSAIDs.\n• The remaining options describe excess clotting and electrolyte or acid-base disorders, none of which follow from a low platelet count.",
-    "topic": "Labs",
+    "correct": 0,
+    "explanation": "Firm, sustained direct pressure over the bleeding point with a clean pad, with the limb elevated, controls the great majority of external bleeding and is the first step in every bleeding-control protocol. A tourniquet is the tempting answer, but it is reserved for life-threatening limb bleeding that direct pressure and a pressure dressing have failed to control, because it renders the whole limb ischaemic. Ice does not stop arterial or venous bleeding, and washing the wound only flushes away the clot that is forming.",
+    "topic": "Bleeding Control",
     "year": "",
-    "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "difficulty": "Easy",
+    "citation": "AHA and American Red Cross Guidelines for First Aid 2020 - Control of Bleeding",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 12,
-    "question": "Clinical pathology Q12: Platelet count very low increases risk of:",
+    "question": "A woman spills boiling tea over her forearm. What is the correct immediate first aid for the scald?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Apply ice cubes directly to the burnt skin",
+      "B. Cool the area under cool running tap water for about 20 minutes",
+      "C. Apply toothpaste or ghee to soothe the skin",
+      "D. Deroof the blisters and paint the area with antiseptic"
     ],
     "correct": 1,
-    "explanation": "• A very low platelet count means the primary haemostatic plug cannot form, so the patient bleeds rather than clots.\n• Frequent causes in Indian practice include dengue, immune thrombocytopenic purpura, aplastic anaemia, hypersplenism and chemotherapy-induced marrow suppression.\n• Hypernatraemia reflects water and sodium balance and metabolic alkalosis reflects acid-base regulation; neither is produced by thrombocytopenia, and thrombosis is the opposite abnormality.",
-    "topic": "Labs",
+    "explanation": "Cool running tap water for about 20 minutes, begun as soon as possible after the injury, limits the depth of the burn, relieves pain and reduces the need for grafting, while the rest of the body is kept covered to prevent hypothermia. Ice is the tempting choice because it feels more effective, but direct ice causes intense vasoconstriction and a cold injury that deepens the burn. Toothpaste, ghee and similar household applications trap heat, introduce infection and have to be scrubbed off later, and intact blisters should be left undisturbed.",
+    "topic": "Burns - Immediate First Aid",
     "year": "",
-    "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "difficulty": "Easy",
+    "citation": "MoHFW National Programme for Prevention and Management of Burn Injuries - First Aid in Burns",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 13,
-    "question": "Clinical pathology Q13: Platelet count very low increases risk of:",
+    "question": "A farmer is bitten on the calf by a snake while working in his field. Which first-aid measure should be taken before he reaches hospital?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Apply a tight arterial tourniquet above the bite",
+      "B. Incise the bite and suck out the venom",
+      "C. Rub the site with a chemical or apply a heated object",
+      "D. Reassure him, immobilise the bitten limb with a splint in a neutral position and transport him urgently"
     ],
-    "correct": 1,
-    "explanation": "• Bleeding is the hallmark of severe thrombocytopenia, because platelets are needed for adhesion, aggregation and the initial plug that seals small vessel breaks.\n• The earliest visible signs are usually petechiae and purpura over dependent areas, followed by mucosal bleeding from gums, nose or urinary tract.\n• Thrombosis, hypernatraemia and metabolic alkalosis arise from entirely different mechanisms and are not consequences of a falling platelet count.",
-    "topic": "Labs",
+    "correct": 3,
+    "explanation": "The national protocol is summarised as 'Do it R.I.G.H.T.': Reassure the victim, Immobilise the limb as though for a fracture and without any compression, Get to hospital, and Tell the doctor of any developing symptoms, because splinting slows the movement of venom into the systemic circulation while antivenom is arranged. A tourniquet is the tempting traditional answer, but arterial tourniquets cause limb ischaemia and gangrene and can deliver a sudden bolus of venom when released. Incision and suction remove almost no venom while adding bleeding and infection, which is particularly dangerous after a viper bite.",
+    "topic": "Snake Bite - First Aid",
     "year": "",
     "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "citation": "WHO/MoHFW National Snakebite Management Protocol",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 14,
-    "question": "Clinical pathology Q14: Platelet count very low increases risk of:",
+    "question": "An adult is pulled unresponsive and not breathing from a village pond. How does resuscitation differ from standard adult basic life support?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Give five initial rescue breaths before starting chest compressions",
+      "B. Begin with 30 chest compressions exactly as for a collapse of cardiac origin",
+      "C. Give abdominal thrusts first to expel water from the lungs",
+      "D. Hold the victim head-down to drain the water before starting anything"
     ],
-    "correct": 1,
-    "explanation": "• Platelet transfusion is generally considered prophylactically below 10,000/mm3, and below 50,000/mm3 before invasive procedures, precisely because bleeding risk rises as the count falls.\n• A deficiency of platelets cannot promote clot formation, so thrombosis is incorrect.\n• Sodium concentration and acid-base status are governed by renal and respiratory mechanisms and are unaffected by platelet numbers.",
-    "topic": "Labs",
+    "correct": 0,
+    "explanation": "Drowning causes cardiac arrest through hypoxia, so ventilation takes priority and five initial rescue breaths are given before the first cycle of chest compressions. Starting with compressions is the tempting answer because that is correct for the far commoner arrest of cardiac origin, where the blood is still oxygenated at the moment of collapse; in drowning the blood is already desaturated and compressions alone simply circulate hypoxic blood. Attempts to drain water by abdominal thrusts or head-down positioning waste time and provoke regurgitation and aspiration.",
+    "topic": "Drowning - Resuscitation",
     "year": "",
     "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "citation": "European Resuscitation Council Guidelines - Cardiac Arrest in Special Circumstances (Drowning)",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 15,
-    "question": "Clinical pathology Q15: Platelet count very low increases risk of:",
+    "question": "A construction worker collapses on a hot afternoon with a core temperature of 41 degrees Celsius, confusion and hot dry skin. What is the priority first-aid measure?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Give oral paracetamol and let him rest in the shade",
+      "B. Move him into the shade, remove excess clothing and begin rapid external cooling while arranging urgent transfer",
+      "C. Cover him with a blanket to prevent shivering",
+      "D. Make him drink a litre of ORS immediately"
     ],
     "correct": 1,
-    "explanation": "• Very low platelets are a quantitative defect of primary haemostasis, presenting as prolonged oozing from venepuncture sites, bleeding gums, epistaxis and heavy menstrual loss.\n• Clotting factor disorders such as haemophilia instead cause deep muscle and joint bleeds, but both categories present with bleeding rather than clotting.\n• Hypernatraemia and metabolic alkalosis are unrelated metabolic disturbances, and thrombosis would suggest platelet excess or hypercoagulability.",
-    "topic": "Labs",
+    "explanation": "Heat stroke is an emergency in which outcome depends on how fast the core temperature falls, so the priority is shade, removal of clothing, cold water or ice packs to the neck, axillae and groin, and fanning, all while urgent transfer is organised. Paracetamol is the tempting answer because the patient is hot, but antipyretics act on a hypothalamic set point that is not raised in heat stroke; the hyperthermia results from failed heat loss, so they do not work and may add liver injury. Oral fluids are unsafe in a confused patient because of the risk of aspiration.",
+    "topic": "Heat Stroke",
     "year": "",
     "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "citation": "MoHFW National Action Plan for Heat Related Illnesses",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 16,
-    "question": "Clinical pathology Q16: Platelet count very low increases risk of:",
+    "question": "An adult is found unresponsive but breathing normally, with no suspicion of spinal injury. In which position should the first-aider place him?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Supine with a pillow under the head",
+      "B. Head-down (Trendelenburg) position",
+      "C. Lateral recovery position",
+      "D. Prone with the face turned to one side"
     ],
-    "correct": 1,
-    "explanation": "• A severely reduced platelet count leaves small capillary breaches unsealed, so even minor trauma produces disproportionate bruising and prolonged bleeding.\n• This is why nurses avoid intramuscular injections, rectal temperatures, razors and hard toothbrushes in thrombocytopenic patients and apply prolonged pressure after any needle stick.\n• Thrombosis follows platelet excess or activation, while hypernatraemia and metabolic alkalosis are unrelated electrolyte and acid-base problems.",
-    "topic": "Labs",
+    "correct": 2,
+    "explanation": "The lateral recovery position keeps the airway open and allows saliva, blood or vomit to drain out of the mouth, which is the main threat to an unresponsive person who is still breathing. Supine with a pillow is tempting because it looks comfortable and is how a patient is nursed in bed, but the tongue falls back against the pharynx and any vomit is aspirated. A head-down position adds nothing here and impairs breathing, and the prone position makes it hard to watch the airway or to turn the victim quickly if CPR becomes necessary.",
+    "topic": "Unconsciousness - Recovery Position",
     "year": "",
-    "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "difficulty": "Easy",
+    "citation": "Indian Red Cross Society First Aid Manual - Unconsciousness",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 17,
-    "question": "Clinical pathology Q17: Platelet count very low increases risk of:",
+    "question": "A man has a generalised tonic-clonic seizure at a bus stop. What should the bystander do?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Force a cloth-wrapped spoon between the teeth to stop him biting his tongue",
+      "B. Hold the arms and legs firmly to stop the jerking",
+      "C. Splash cold water on the face to bring him round",
+      "D. Clear the surroundings, cushion the head, note the time and turn him on his side once the jerking stops"
     ],
-    "correct": 1,
-    "explanation": "• Bleeding is correct because platelets are the cells that plug endothelial gaps; without enough of them, petechiae, purpura and mucosal or intracranial haemorrhage can occur.\n• Dengue is a common cause of a rapidly falling count in India and demands close monitoring of both platelet trend and bleeding manifestations.\n• Neither hypernatraemia nor metabolic alkalosis is produced by thrombocytopenia, and thrombosis is the opposite haematological abnormality.",
-    "topic": "Labs",
+    "correct": 3,
+    "explanation": "Seizure first aid is protective rather than interventional: move hard objects away, put something soft under the head, loosen tight clothing, time the seizure and place the person in the lateral position once the convulsion ends so that secretions drain freely. Putting an object in the mouth is the classic tempting mistake, but the tongue cannot be swallowed and forcing anything between clenched teeth breaks teeth, injures the mouth and endangers the rescuer's fingers. Restraining the limbs causes fractures and dislocations and does not shorten the seizure.",
+    "topic": "Seizure First Aid",
     "year": "",
-    "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "difficulty": "Easy",
+    "citation": "WHO mhGAP Intervention Guide - Epilepsy",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 18,
-    "question": "Clinical pathology Q18: Platelet count very low increases risk of:",
+    "question": "A workman is found lying motionless while still gripping a live electrical cable. What must the rescuer do first?",
     "options": [
-      "A. Thrombosis",
-      "B. Bleeding",
-      "C. Hypernatremia",
-      "D. Metabolic alkalosis"
+      "A. Switch off the mains supply, or push the victim clear with a dry non-conducting object, before touching him",
+      "B. Pull the victim away by the hand at once to shorten the contact time",
+      "C. Pour water over the cable to cool it and break the current",
+      "D. Start chest compressions where he lies, while he is still in contact with the cable"
     ],
-    "correct": 1,
-    "explanation": "• Thrombocytopenia impairs primary haemostasis and therefore increases bleeding risk, with spontaneous haemorrhage becoming likely below roughly 20,000/mm3.\n• Assessment should cover petechiae, bruising, bleeding gums, haematuria, melaena and any fall in level of consciousness that could signal intracranial bleeding.\n• Thrombosis, hypernatraemia and metabolic alkalosis have no causal relationship with a low platelet count and are distractors here.",
-    "topic": "Labs",
+    "correct": 0,
+    "explanation": "The current is still flowing, so the supply must be isolated at the mains, or the casualty separated using a dry wooden or plastic non-conductor, before any contact is made; otherwise the rescuer becomes a second casualty. Pulling him clear by hand is the instinctive and therefore tempting response, but the human body conducts electricity and the rescuer is electrocuted through the same circuit. Water conducts current and spreads the hazard, and CPR is begun only after the scene has been made safe, thereafter following the standard cardiac arrest sequence.",
+    "topic": "Electrical Injury",
     "year": "",
-    "difficulty": "Medium",
-    "citation": "Brunner & Suddarth's Textbook of Medical-Surgical Nursing, 14th ed. (2018)",
+    "difficulty": "Easy",
+    "citation": "Indian Red Cross Society First Aid Manual - Electrical Injuries",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   }

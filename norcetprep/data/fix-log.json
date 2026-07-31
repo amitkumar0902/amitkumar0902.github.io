@@ -3,6 +3,20 @@
   "entries": [
     {
       "date": "2026-08-01",
+      "where": "Free topic banks (134 questions)",
+      "wrong": "134 of the 547 free questions were duplicates — the same question repeated up to 22 times in one bank, padded out to make the counts look bigger. Worse, the copies carried year labels ('2019', '2021') implying they came from real past papers.",
+      "fixed": "All 134 replaced with genuinely distinct questions across the real syllabus, each with an explanation and a source. The counts are unchanged because the replacements are real questions, not because we quietly shrank the number.",
+      "found_by": "internal verification sweep"
+    },
+    {
+      "date": "2026-08-01",
+      "where": "Free topic banks (292 questions)",
+      "wrong": "292 further questions carried a year label we cannot trace to any paper. Once the duplicates showed those labels were stamped on rather than earned, none of them could be trusted.",
+      "fixed": "Year labels removed from the free banks entirely. These are practice questions and are now presented as exactly that. Where provenance is real — the NORCET and staff-nurse recall sets — it is still named.",
+      "found_by": "internal verification sweep"
+    },
+    {
+      "date": "2026-08-01",
       "where": "Foundations · free topic bank (Q57)",
       "wrong": "The answer key said an underwater-seal chest drainage unit is kept at the level of the patient's chest, and the explanation repeated the error by citing the phlebostatic axis.",
       "fixed": "Key corrected to below chest level, with an explanation of why gravity drainage and siphon risk decide this. The phlebostatic axis governs haemodynamic transducers, not chest drains.",

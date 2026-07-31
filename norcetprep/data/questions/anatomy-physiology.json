@@ -411,7 +411,7 @@
     "correct": 1,
     "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
     "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "year": "",
     "difficulty": "Medium",
     "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
     "verified": {
@@ -421,421 +421,421 @@
   },
   {
     "id": 22,
-    "question": "Anatomy & Physiology Q22: The thymus is primarily important for:",
+    "question": "A staff nurse records a blood pressure of 150/90 mmHg in an adult. The mean arterial pressure (MAP) is approximately:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. 100 mmHg",
+      "B. 110 mmHg",
+      "C. 120 mmHg",
+      "D. 130 mmHg"
     ],
     "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "explanation": "MAP is estimated as diastolic pressure plus one-third of the pulse pressure, because at normal heart rates diastole occupies about two-thirds of the cardiac cycle: 90 + (60/3) = 110 mmHg. The tempting answer is 120 mmHg, which is the plain average of systolic and diastolic pressure; that overestimates MAP because it wrongly assumes the heart spends equal time in systole and diastole.",
+    "topic": "Cardiovascular physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Arterial Pressure Regulation",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 23,
-    "question": "Anatomy & Physiology Q23: The thymus is primarily important for:",
+    "question": "A patient in sustained supraventricular tachycardia at 190 beats/min develops chest pain. The main reason myocardial perfusion falls at very high heart rates is that:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Diastole shortens far more than systole, and the left ventricle is perfused mainly during diastole",
+      "B. The coronary arteries constrict in response to tachycardia",
+      "C. Systole shortens, so less blood enters the coronary ostia",
+      "D. Myocardial oxygen extraction falls as the heart rate rises"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 0,
+    "explanation": "Left ventricular subendocardial vessels are compressed during systole, so coronary flow occurs almost entirely in diastole; as rate rises, diastole is the phase that is sacrificed, cutting supply exactly when demand is highest. Option B is wrong because increased cardiac work releases adenosine and other metabolites that cause coronary vasodilatation, not constriction.",
+    "topic": "Cardiovascular physiology",
+    "year": "",
+    "difficulty": "High",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Coronary Circulation",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 24,
-    "question": "Anatomy & Physiology Q24: The thymus is primarily important for:",
+    "question": "According to the Frank-Starling law of the heart, an increase in venous return raises stroke volume because:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. It directly increases the heart rate through stretch receptors in the sinoatrial node",
+      "B. It lowers systemic vascular resistance",
+      "C. It raises the calcium concentration of blood entering the coronary arteries",
+      "D. Greater end-diastolic stretch of the myocardial fibres increases their force of contraction"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "correct": 3,
+    "explanation": "Stretching cardiac muscle to a more favourable actin-myosin overlap and increasing troponin C calcium sensitivity makes the next contraction more forceful, so the heart pumps out whatever venous return delivers. Option A describes the Bainbridge reflex, which does raise heart rate on atrial stretch, but it changes rate rather than the force of each beat and so does not explain the rise in stroke volume.",
+    "topic": "Cardiovascular physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Heart Muscle: The Heart as a Pump",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 25,
-    "question": "Anatomy & Physiology Q25: The thymus is primarily important for:",
+    "question": "In arterial blood, oxygen is transported mainly:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Dissolved in the plasma",
+      "B. As bicarbonate ions",
+      "C. Bound to haemoglobin as oxyhaemoglobin",
+      "D. Bound to plasma albumin"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 2,
+    "explanation": "About 98% of oxygen is carried chemically bound to haemoglobin, each gram of which carries roughly 1.34 mL of oxygen when fully saturated. Only about 1.5% travels dissolved in plasma, and although that tiny fraction is what the PaO2 measures, it cannot meet tissue demand, which is why a severely anaemic patient can be tissue-hypoxic despite a normal PaO2. Bicarbonate is a mode of carbon dioxide transport, not oxygen.",
+    "topic": "Respiratory physiology",
+    "year": "",
+    "difficulty": "Easy",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Transport of Oxygen and Carbon Dioxide in Blood",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 26,
-    "question": "Anatomy & Physiology Q26: The thymus is primarily important for:",
+    "question": "The peripheral chemoreceptors in the carotid and aortic bodies increase ventilation mainly in response to:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. A fall in arterial PO2 below about 60 mmHg",
+      "B. A rise in arterial PO2 above 100 mmHg",
+      "C. A fall in arterial PCO2",
+      "D. A rise in plasma bicarbonate"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "correct": 0,
+    "explanation": "The carotid and aortic bodies are the body's oxygen sensors, but the ventilatory response is flat until arterial PO2 drops to roughly 60 mmHg, after which it rises steeply. Option C is wrong in direction: a falling PCO2 removes respiratory drive rather than adding to it, and in any case moment-to-moment carbon dioxide sensing is done by the central chemoreceptors in the medulla, which respond to hydrogen ions generated in CSF.",
+    "topic": "Respiratory physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Regulation of Respiration",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 27,
-    "question": "Anatomy & Physiology Q27: The thymus is primarily important for:",
+    "question": "Antidiuretic hormone (vasopressin) conserves body water mainly by inserting aquaporin water channels into the:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Glomerular capillary endothelium",
+      "B. Proximal convoluted tubule",
+      "C. Thin descending limb of the loop of Henle",
+      "D. Collecting duct"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "correct": 3,
+    "explanation": "ADH acts on V2 receptors of collecting duct principal cells, moving aquaporin-2 channels into the luminal membrane so water is drawn out into the hypertonic medullary interstitium. The proximal tubule is the tempting choice because it reabsorbs about two-thirds of the filtrate, but that reabsorption is obligatory and isosmotic and is not under ADH control, so it cannot be adjusted to concentrate urine.",
+    "topic": "Renal physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Urine Concentration and Dilution",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 28,
-    "question": "Anatomy & Physiology Q28: The thymus is primarily important for:",
+    "question": "In a healthy adult, the glomerular filtration rate is approximately:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. 25 mL/min",
+      "B. 60 mL/min",
+      "C. 125 mL/min",
+      "D. 500 mL/min"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 2,
+    "explanation": "GFR averages about 125 mL/min, which works out to roughly 180 litres of filtrate a day, of which more than 99% is reabsorbed. The 500 mL/min option is close to renal plasma flow (about 600-650 mL/min), and confusing filtration rate with plasma flow is the usual error; only about one-fifth of the plasma reaching the glomerulus is actually filtered.",
+    "topic": "Renal physiology",
+    "year": "",
+    "difficulty": "Easy",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Glomerular Filtration and Renal Blood Flow",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 29,
-    "question": "Anatomy & Physiology Q29: The thymus is primarily important for:",
+    "question": "A patient recovering from a left middle cerebral artery stroke follows every instruction correctly but speaks only in short, effortful, telegraphic phrases. The lesion most likely involves:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Wernicke's area in the superior temporal gyrus",
+      "B. The vermis of the cerebellum",
+      "C. The occipital cortex",
+      "D. Broca's area in the inferior frontal gyrus"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "correct": 3,
+    "explanation": "Broca's area governs motor production of speech, so its damage gives a non-fluent expressive aphasia in which comprehension is preserved and the patient is typically frustrated by his own speech. A Wernicke's lesion is the tempting alternative but produces the opposite picture: speech flows freely yet is meaningless, and comprehension is lost, which does not fit a patient who obeys commands.",
+    "topic": "Neuroanatomy",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Snell's Clinical Neuroanatomy 8e - The Cerebral Cortex",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 30,
-    "question": "Anatomy & Physiology Q30: The thymus is primarily important for:",
+    "question": "Which set of findings best suggests a cerebellar lesion?",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Resting tremor, rigidity and bradykinesia",
+      "B. Intention tremor, past-pointing and a broad-based ataxic gait",
+      "C. Spastic weakness with an extensor plantar response",
+      "D. Loss of pain and temperature sensation on the opposite side of the body"
     ],
     "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "explanation": "The cerebellum coordinates the range, direction and timing of movement, so its damage produces tremor that worsens as the target is approached, dysmetria on finger-nose testing and an unsteady wide-based gait with ipsilateral signs. Option A is the classic trap because it also contains a tremor, but resting tremor with rigidity is extrapyramidal (basal ganglia) disease, and that tremor disappears on voluntary movement.",
+    "topic": "Neuroanatomy",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Snell's Clinical Neuroanatomy 8e - The Cerebellum and Its Connections",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 31,
-    "question": "Anatomy & Physiology Q31: The thymus is primarily important for:",
+    "question": "Mass sympathetic discharge during acute stress produces:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Bronchodilatation with dilated pupils",
+      "B. Constriction of the pupils",
+      "C. Increased peristalsis and gastric secretion",
+      "D. Slowing of the heart rate"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 0,
+    "explanation": "Sympathetic activation prepares the body for exertion: beta-2 receptors relax bronchial smooth muscle and alpha-1 receptors contract the radial muscle of the iris to dilate the pupil, while heart rate and contractility rise. Increased peristalsis and gastric secretion is the tempting distractor, but digestion is a parasympathetic (vagal) function that is actively suppressed during sympathetic discharge as blood is diverted to muscle.",
+    "topic": "Autonomic nervous system",
+    "year": "",
+    "difficulty": "Easy",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - The Autonomic Nervous System and the Adrenal Medulla",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 32,
-    "question": "Anatomy & Physiology Q32: The thymus is primarily important for:",
+    "question": "A patient who has taken oral prednisolone daily for six months stops it abruptly and collapses with hypotension and vomiting. This occurs because prolonged glucocorticoid therapy:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Destroys the adrenal medulla",
+      "B. Suppresses ACTH secretion, causing atrophy of the adrenal cortex",
+      "C. Permanently damages the posterior pituitary",
+      "D. Increases renal excretion of aldosterone precursors"
     ],
     "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "explanation": "Exogenous steroid exerts negative feedback on hypothalamic CRH and pituitary ACTH, and the unstimulated zona fasciculata atrophies, so when the drug is stopped the patient cannot produce cortisol and develops acute adrenal insufficiency; this is why steroids are always tapered. Option A is wrong because the adrenal medulla secretes catecholamines under sympathetic nerve control, not ACTH control, and is unaffected by steroid therapy.",
+    "topic": "Endocrine physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Adrenocortical Hormones",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 33,
-    "question": "Anatomy & Physiology Q33: The thymus is primarily important for:",
+    "question": "Twenty-four hours after a total thyroidectomy, a patient reports tingling around the mouth and develops carpopedal spasm when the blood pressure cuff is inflated. The most likely cause is:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Thyroid storm",
+      "B. Injury to or inadvertent removal of the parathyroid glands",
+      "C. Recurrent laryngeal nerve palsy",
+      "D. Hypokalaemia from intraoperative fluid loss"
     ],
     "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "explanation": "The parathyroids lie on the posterior surface of the thyroid and are easily bruised or excised, and the resulting fall in parathyroid hormone lowers ionised calcium, producing perioral paraesthesia and the Trousseau sign described here. Thyroid storm is the tempting postoperative complication to name, but it presents with high fever, marked tachycardia, agitation and delirium rather than neuromuscular tetany.",
+    "topic": "Endocrine physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Parathyroid Hormone, Calcitonin and Calcium Metabolism",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 34,
-    "question": "Anatomy & Physiology Q34: The thymus is primarily important for:",
+    "question": "A patient with a mid-shaft fracture of the humerus is unable to extend the wrist and fingers. The nerve most likely injured is the:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Median nerve",
+      "B. Ulnar nerve",
+      "C. Musculocutaneous nerve",
+      "D. Radial nerve"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 3,
+    "explanation": "The radial nerve winds around the spiral (radial) groove on the back of the humeral shaft, so a mid-shaft fracture typically produces wrist drop with loss of extension at the wrist, fingers and thumb. Ulnar nerve injury is the common alternative answer, but the ulnar nerve is vulnerable at the medial epicondyle and behind the elbow, and its injury causes clawing and loss of finger abduction rather than wrist drop.",
+    "topic": "Upper limb anatomy",
+    "year": "",
+    "difficulty": "Easy",
+    "citation": "BD Chaurasia's Human Anatomy 8e - Upper Limb",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 35,
-    "question": "Anatomy & Physiology Q35: The thymus is primarily important for:",
+    "question": "A six-week-old infant is due for the pentavalent vaccine. The correct site for this intramuscular injection is the:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Dorsogluteal region",
+      "B. Deltoid muscle",
+      "C. Anterolateral aspect of the mid-thigh (vastus lateralis)",
+      "D. Triceps muscle of the upper arm"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 2,
+    "explanation": "The vastus lateralis in the anterolateral mid-thigh is the recommended intramuscular site in infants because it is the largest muscle mass at this age and has no major nerve or vessel lying over it. The dorsogluteal site is the classic wrong answer: the gluteal muscles remain poorly developed until a child has been walking for some time, and injection there risks sciatic nerve injury and deposition into fat, which reduces vaccine immunogenicity.",
+    "topic": "Applied musculoskeletal anatomy",
+    "year": "",
+    "difficulty": "Easy",
+    "citation": "MoHFW Universal Immunization Programme - Immunization Handbook for Health Workers",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 36,
-    "question": "Anatomy & Physiology Q36: The thymus is primarily important for:",
+    "question": "Protein digestion begins in the stomach through the action of:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Trypsin",
+      "B. Salivary amylase",
+      "C. Enterokinase",
+      "D. Pepsin"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 3,
+    "explanation": "Chief cells release inactive pepsinogen, which gastric hydrochloric acid converts to pepsin; pepsin works optimally at pH 1.5 to 3.5 and splits proteins into peptides. Trypsin is the tempting choice as a protein-splitting enzyme, but it is pancreatic, is secreted as trypsinogen and is activated by enterokinase only after reaching the duodenum, so it plays no part in gastric digestion.",
+    "topic": "Gastrointestinal physiology",
+    "year": "",
+    "difficulty": "Easy",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Digestion and Absorption in the Gastrointestinal Tract",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 37,
-    "question": "Anatomy & Physiology Q37: The thymus is primarily important for:",
+    "question": "A patient with a stone obstructing the common bile duct passes clay-coloured stools and dark urine. The pale stool is explained by:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Failure of the liver to conjugate bilirubin",
+      "B. Bile being unable to reach the intestine, so stercobilin is not formed",
+      "C. Increased breakdown of red blood cells",
+      "D. Absence of pancreatic lipase in the duodenum"
     ],
     "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "explanation": "Stool colour comes from stercobilin, formed when gut bacteria act on conjugated bilirubin delivered in bile; when the duct is blocked no bile reaches the intestine, so the stool is pale while the dammed-back conjugated bilirubin is water-soluble and spills into urine, darkening it. Failure of conjugation is the tempting answer, but unconjugated bilirubin is not water-soluble and would give pale urine with normally coloured stool.",
+    "topic": "Gastrointestinal physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Formation and Excretion of Bile",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 38,
-    "question": "Anatomy & Physiology Q38: The thymus is primarily important for:",
+    "question": "A patient with nephrotic syndrome develops generalised oedema. The plasma protein whose loss most directly explains this is:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Fibrinogen",
+      "B. Albumin",
+      "C. Gamma globulin",
+      "D. Haptoglobin"
     ],
     "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "explanation": "Albumin is the smallest and most abundant plasma protein and generates roughly three-quarters of the plasma colloid osmotic pressure of about 25 mmHg that holds fluid inside capillaries; losing it in urine allows filtrate to accumulate in the interstitium. Gamma globulin is also lost in nephrotic syndrome and is the tempting choice, but its deficiency causes susceptibility to infection, and its molecules are too few to contribute meaningfully to oncotic pressure.",
+    "topic": "Blood and body fluids",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Capillary Fluid Exchange and Interstitial Fluid",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 39,
-    "question": "Anatomy & Physiology Q39: The thymus is primarily important for:",
+    "question": "An Rh-negative mother delivers an Rh-positive baby. Anti-D immunoglobulin is given to the mother within 72 hours of delivery in order to:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Clear fetal Rh-positive cells from her circulation before she forms her own anti-D antibodies",
+      "B. Treat anaemia in the newborn",
+      "C. Convert the mother's blood group to Rh positive",
+      "D. Give her lifelong active immunity against the D antigen"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "correct": 0,
+    "explanation": "Fetal red cells that leak into the mother at delivery would otherwise sensitise her, and the resulting maternal IgG anti-D would cross the placenta in a later pregnancy and cause haemolytic disease of the newborn; ready-made anti-D removes those cells before her own immune response starts. Option D is wrong because this is passive immunisation with donated antibody, which is protective for only a few weeks and creates no memory, so the dose must be repeated with every at-risk pregnancy.",
+    "topic": "Blood and body fluids",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Blood Types, Transfusion and Tissue Transplantation",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 40,
-    "question": "Anatomy & Physiology Q40: The thymus is primarily important for:",
+    "question": "In myopia, parallel rays of light entering the relaxed eye are brought to a focus:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Behind the retina, and the defect is corrected with a convex lens",
+      "B. On the retina, and the defect is corrected with a cylindrical lens",
+      "C. In front of the retina, and the defect is corrected with a concave lens",
+      "D. In front of the retina, and the defect is corrected with a convex lens"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
-    "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "correct": 2,
+    "explanation": "In myopia the eyeball is too long or the refractive power too strong, so rays converge before reaching the retina and distant objects blur; a concave (minus) lens diverges the incoming rays so that the focal point falls back onto the retina. Option D is the trap: it identifies the focal point correctly but prescribes a convex lens, which converges rays further and worsens the error, since convex lenses correct hypermetropia.",
+    "topic": "Special senses",
+    "year": "",
+    "difficulty": "Easy",
+    "citation": "AK Khurana's Comprehensive Ophthalmology 7e - Errors of Refraction",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 41,
-    "question": "Anatomy & Physiology Q41: The thymus is primarily important for:",
+    "question": "The sodium-potassium pump of the cell membrane transports:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. Two sodium ions out for every three potassium ions in",
+      "B. Sodium and potassium in the same direction",
+      "C. Three sodium ions out for every two potassium ions in, using ATP",
+      "D. Potassium out and calcium in"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "correct": 2,
+    "explanation": "The Na-K ATPase pumps three sodium ions out for every two potassium ions in with each molecule of ATP, keeping sodium low and potassium high inside the cell and, because more positive charge leaves than enters, contributing directly to the negative resting membrane potential. Option A simply reverses the stoichiometry, which would carry net positive charge inward and make the cell interior less negative rather than more.",
+    "topic": "Cell physiology",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Transport of Substances Through Cell Membranes",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   },
   {
     "id": 42,
-    "question": "Anatomy & Physiology Q42: The thymus is primarily important for:",
+    "question": "A patient with pneumonia shivers and complains of feeling intensely cold while the recorded temperature is climbing to 39.5 degrees Celsius. The best explanation is that:",
     "options": [
-      "A. B cell maturation",
-      "B. T cell maturation",
-      "C. Red blood cell production",
-      "D. Insulin secretion"
+      "A. The hypothalamic set point has been raised, so the body generates heat until it reaches the new level",
+      "B. The sweat glands have stopped functioning",
+      "C. The heat-loss centre has been permanently destroyed by the infection",
+      "D. Body temperature has already risen above the set point"
     ],
-    "correct": 1,
-    "explanation": "• T lymphocytes mature in the thymus.\n• B cells mature in bone marrow.",
-    "topic": "Immunity",
-    "year": "NORCET PYQ theme",
+    "correct": 0,
+    "explanation": "Pyrogens such as interleukin-1 act through prostaglandin E2 to reset the hypothalamic thermostat upward; until the body reaches that higher set point it behaves as though cold, with cutaneous vasoconstriction and shivering, which is why the patient feels chilled even as the thermometer rises. Option D describes the opposite phase, the crisis or defervescence, when the set point falls and the patient flushes and sweats profusely.",
+    "topic": "Temperature regulation",
+    "year": "",
     "difficulty": "Medium",
-    "citation": "Ananthanarayan & Paniker's Textbook of Microbiology 11e — Immunology: Cells and Organs of the Immune System",
+    "citation": "Guyton & Hall Textbook of Medical Physiology 14e - Body Temperature Regulation and Fever",
     "verified": {
-      "method": "sweep+review",
+      "method": "replacement+review",
       "at": "2026-08-01"
     }
   }
