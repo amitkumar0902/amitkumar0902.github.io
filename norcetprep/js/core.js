@@ -513,6 +513,8 @@
     if (!window.ND || !window.ND.paywall) loadScript(root + 'js/paywall.js');
     if (!window.ND || !window.ND.content) loadScript(root + 'js/content.js');
     if (!window.NDTrack) loadScript(root + 'js/analytics.js');
+    // Trust footer + incident banner on every page the app renders.
+    if (!window.ND || !window.ND.chrome) loadScript(root + 'js/site-chrome.js');
     if (!window.NMReport) loadScript(root + 'js/report.js');
     if (!NM.sync) loadScript(root + 'js/sync.js');
     // Hella (cute puppy coach mascot). Gated by the per-user setting; hella.js handles disabled state itself.

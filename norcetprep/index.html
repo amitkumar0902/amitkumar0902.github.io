@@ -3,233 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NORCET Mains 2026 — Top 1–10 Rank Intensive</title>
-  <meta name="description" content="A 13-day intensive preparation hub for the AIIMS NORCET Mains 2026 exam. Notes, daily practice, ten full-length mocks, PYQs, flashcards, and cheatsheets.">
-  <meta name="theme-color" content="#a83232">
-  <link rel="stylesheet" href="css/mains-theme.css">
+  <title>NurseDrill — AIIMS NORCET practice, daily quiz and free MCQ banks</title>
+  <meta name="description" content="Free AIIMS NORCET practice: a daily 10-question quiz, 547 topic-wise MCQs with explanations and source citations, memory-based previous-year recall sets, and a full Mains toolkit. Built openly by an engineer.">
+  <meta name="theme-color" content="#042f2e">
+  <link rel="stylesheet" href="css/home.css">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="canonical" href="https://amitkumar0902.github.io/norcetprep/">
-  <script src="js/core.js" defer></script>
-  <script defer>
-    document.addEventListener('DOMContentLoaded', () => {
-      NM.boot('home');
-      const d = NM.todayDay();
-      document.getElementById('today-day').textContent = d;
-      document.getElementById('today-date').textContent = new Date().toLocaleDateString('en-IN', { weekday:'long', day:'2-digit', month:'short' });
-      document.getElementById('continue-btn').href = 'mains-plan/day-' + d + '.html';
-      document.getElementById('practice-btn').href = 'mains-plan/practice/day-' + d + '.html';
-
-      // countdown
-      function tickDown() {
-        const el = document.getElementById('countdown');
-        if (el) el.textContent = NM.countdownText();
-      }
-      tickDown(); setInterval(tickDown, 30000);
-
-      // streak
-      const s = NM.get('streak', { current: 0, longest: 0 });
-      document.getElementById('streak').textContent = 'Current streak: ' + s.current + ' day' + (s.current===1?'':'s') + ' · Longest: ' + s.longest;
-
-      // due cards
-      const due = NM.srsDueCount();
-      const dueBox = document.getElementById('due-cards');
-      if (due > 0) {
-        dueBox.innerHTML = '<a class="btn btn--accent" href="mains-plan/review.html">Review ' + due + ' missed card' + (due===1?'':'s') + '</a>';
-      }
-
-      // today checklist
-      const notesDone = !!(NM.get('notesDone', {})[d]);
-      const practiceDone = !!(NM.get('practiceDone', {})[d]);
-      const srsReviewed = (NM.get('srsReviewedDate', '')) === new Date().toISOString().slice(0,10);
-      const checklist = [
-        ['Read Day ' + d + ' notes', notesDone, 'mains-plan/day-' + d + '.html'],
-        ['Finish Day ' + d + ' practice', practiceDone, 'mains-plan/practice/day-' + d + '.html'],
-        ['Review due cards (' + due + ')', srsReviewed || due === 0, 'mains-plan/review.html']
-      ];
-      document.getElementById('checklist').innerHTML = checklist.map(([t, done, href]) =>
-        '<li class="' + (done?'done':'') + '"><span class="box'+(done?' done':'')+'">'+(done?'✓':'')+'</span> <a href="'+href+'" style="color:inherit;text-decoration:none">'+t+'</a></li>'
-      ).join('');
-
-      // Mock in progress
-      for (let m = 1; m <= 10; m++) {
-        const st = NM.get('mock.' + m);
-        if (st && !st.submitted && st.answers) {
-          const resume = document.getElementById('resume-mock');
-          resume.innerHTML = '<a class="btn btn--accent" href="mains-plan/mocks/mock.html?id='+m+'">Resume Mock '+m+' (in progress)</a>';
-          break;
-        }
-      }
-
-      // Heatmap (last 30 days)
-      const act = NM.get('activity', {});
-      const hm = document.getElementById('heatmap');
-      const days30 = [];
-      for (let i = 29; i >= 0; i--) {
-        const dt = new Date(); dt.setDate(dt.getDate() - i);
-        const key = dt.toISOString().slice(0,10);
-        const mins = (act[key] && act[key].min) || 0;
-        const lvl = mins === 0 ? '' : mins < 15 ? 'l1' : mins < 45 ? 'l2' : mins < 90 ? 'l3' : 'l4';
-        days30.push('<span class="heatmap-cell '+lvl+'" title="'+key+': '+mins+' min"></span>');
-      }
-      hm.innerHTML = days30.join('');
-
-      // Stats
-      fetch('data/mains/stats.json').then(r => r.json()).then(stats => {
-        document.getElementById('stats').innerHTML =
-          '<li><strong>' + stats.totalQs + '</strong> questions in bank</li>' +
-          '<li><strong>' + stats.pyqCount + '</strong> NORCET 6–9 Mains recall</li>' +
-          '<li><strong>' + stats.legacyCount + '</strong> AIIMS NO legacy (2009–2019)</li>' +
-          '<li><strong>' + stats.practiceCount + '</strong> pattern-aligned practice</li>';
-      }).catch(() => {});
-    });
-  </script>
 </head>
 <body>
-<main class="page" id="main">
 
-  <header class="hero">
-    <div class="hero__kicker">AIIMS NORCET Mains 2026 · April 30</div>
-    <h1>NORCET Mains 2026 <br><span style="color:var(--accent)">Top 1–10 Rank Intensive</span></h1>
-    <p>A disciplined 13-day preparation hub: study notes, daily practice, ten full-length mocks, PYQs, flashcards and cheatsheets — all wired to a unified Mains question bank.</p>
-    <p class="hero__countdown" id="countdown">NORCET Mains countdown loading…</p>
-  </header>
+<header class="hd">
+  <a class="hd__brand" href="index.html">Nurse<b>Drill</b></a>
+  <nav class="hd__nav" aria-label="Primary">
+    <a href="mains-plan/index.html">Study</a>
+    <a href="mains-plan/mocks/">Mocks</a>
+    <a href="mains-plan/dashboard.html">Progress</a>
+    <a href="methodology.html">How it's made</a>
+    <a class="nd-buy-only" href="pricing.html">Pricing</a>
+    <a href="account.html">Account</a>
+    <button class="hd__theme" id="theme-toggle" title="Switch light / dark" aria-label="Switch light or dark theme">◐</button>
+  </nav>
+</header>
 
-  <section class="today-card">
-    <h2>Today — Day <span id="today-day">1</span> · <span id="today-date"></span></h2>
-    <ul class="today-checklist" id="checklist"></ul>
-    <div class="btn-row">
-      <a class="btn btn--accent btn--big" id="continue-btn" href="#">Continue today's notes</a>
-      <a class="btn btn--ghost" id="practice-btn" href="#">Start today's practice</a>
+<main class="wrap" id="main">
+
+  <div class="strip" id="exam-strip" role="status">
+    <span class="strip__label">AIIMS NORCET 11</span>
+    <span class="strip__item">Loading exam dates…</span>
+  </div>
+
+  <span class="micro">Free, no account</span>
+  <h1 class="h1">NORCET practice that shows its working</h1>
+  <p class="sub">Every question carries an explanation and the reference behind it. Every
+  correction we make is published, dated, in the open. Start with today's ten.</p>
+
+  <section class="card card--hero" aria-labelledby="quiz-h">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>
+        <span class="micro">Daily quiz</span>
+        <h2 id="quiz-h" style="margin:0;font-size:22px;font-weight:800;letter-spacing:-.01em">Today's ten questions</h2>
+      </div>
+      <div id="streak"></div>
     </div>
-    <div class="streak-line" id="streak"></div>
-    <div id="due-cards"></div>
-    <div id="resume-mock" style="margin-top:8px"></div>
-    <div class="heatmap" id="heatmap" aria-label="Last 30 days of practice activity" style="margin-top:16px"></div>
-    <p class="small muted">Activity — last 30 days. Darker = more minutes.</p>
+    <div id="quiz-host">
+      <p class="sub" style="margin:14px 0 0">Loading today's quiz…</p>
+    </div>
   </section>
 
-  <h2>Study Plan · 13 Days</h2>
-  <p class="muted">Each day has one notes page and one practice page. PYQs appear first; explanations cover all four options.</p>
+  <section class="card" aria-labelledby="pyq-h">
+    <span class="micro">Previous-year question of the day</span>
+    <h2 id="pyq-h" style="margin:0 0 10px;font-size:18px;font-weight:800">From the memory-based recall sets</h2>
+    <div id="pyq-host"><p class="small mute">Loading…</p></div>
+  </section>
 
-  <h3>Phase 1 · Clinical Core (Days 1–5)</h3>
-  <ul class="lecture-list">
-    <li><span class="num">Day 1</span><span class="title">ABG · ECG · Heart blocks · VT/VF/WPW · Burns (Parkland)</span><span class="links"><a href="mains-plan/day-1.html">Notes</a> <a href="mains-plan/practice/day-1.html">Practice</a></span></li>
-    <li><span class="num">Day 2</span><span class="title">ET tube sizing · Drug calculations · IV fluids (RL/NS/DNS/D5W)</span><span class="links"><a href="mains-plan/day-2.html">Notes</a> <a href="mains-plan/practice/day-2.html">Practice</a></span></li>
-    <li><span class="num">Day 3</span><span class="title">OBG — Labour drugs · Eclampsia/MgSO4 · Placenta previa/abruptio · 3rd-stage new guidelines · Hydatidiform</span><span class="links"><a href="mains-plan/day-3.html">Notes</a> <a href="mains-plan/practice/day-3.html">Practice</a></span></li>
-    <li><span class="num">Day 4</span><span class="title">Pediatrics — Milestones · NRP · APGAR · RDS</span><span class="links"><a href="mains-plan/day-4.html">Notes</a> <a href="mains-plan/practice/day-4.html">Practice</a></span></li>
-    <li><span class="num">Day 5</span><span class="title">TEF · Croup/Epiglottitis · G6PD · Sickle cell · Hemophilia</span><span class="links"><a href="mains-plan/day-5.html">Notes</a> <a href="mains-plan/practice/day-5.html">Practice</a></span></li>
-  </ul>
+  <h2 class="h2">Free subject banks</h2>
+  <p class="small mute" id="banks-total" style="margin:-6px 0 14px">Free questions with
+  explanations and sources — no account, no limit.</p>
+  <div class="grid" id="banks"></div>
 
-  <h3>Phase 2 · Community, Fundamentals, Emergencies (Days 6–9)</h3>
-  <ul class="lecture-list">
-    <li><span class="num">Day 6</span><span class="title">National programmes · Logos · ICDS · Polio · Family planning · HPV · AIDS</span><span class="links"><a href="mains-plan/day-6.html">Notes</a> <a href="mains-plan/practice/day-6.html">Practice</a></span></li>
-    <li><span class="num">Day 7</span><span class="title">Hand hygiene (5 moments) · BMW color coding · Oxygen devices · Venturi colors</span><span class="links"><a href="mains-plan/day-7.html">Notes</a> <a href="mains-plan/practice/day-7.html">Practice</a></span></li>
-    <li><span class="num">Day 8</span><span class="title">CMV · Toxoplasma · Candida · BV · Enema · TPN · Central line care</span><span class="links"><a href="mains-plan/day-8.html">Notes</a> <a href="mains-plan/practice/day-8.html">Practice</a></span></li>
-    <li><span class="num">Day 9</span><span class="title">Priority triage · Advanced drug calc · Cardiac emergencies (BLS/ACLS)</span><span class="links"><a href="mains-plan/day-9.html">Notes</a> <a href="mains-plan/practice/day-9.html">Practice</a></span></li>
-  </ul>
+  <h2 class="h2">The Mains toolkit</h2>
+  <p class="small mute" id="premium-note" style="margin:-6px 0 14px">Stage-II depth: mocks,
+  notes, flashcards, drills and analytics. Sample mocks and the Foundation notes section stay
+  open — judge the quality before paying anything.</p>
+  <div class="grid" id="premium"></div>
 
-  <h3>Phase 3 · Revision, Mocks, Exam Eve (Days 10–13)</h3>
-  <ul class="lecture-list">
-    <li><span class="num">Day 10</span><span class="title">Latest trends 2026 · Weak-area revision</span><span class="links"><a href="mains-plan/day-10.html">Notes</a> <a href="mains-plan/practice/day-10.html">Practice</a></span></li>
-    <li><span class="num">Day 11</span><span class="title">Full mock 1 + post-mortem</span><span class="links"><a href="mains-plan/day-11.html">Notes</a> <a href="mains-plan/mocks/mock.html?id=5">Mock 5</a></span></li>
-    <li><span class="num">Day 12</span><span class="title">Full mock 2 + speed/accuracy drills</span><span class="links"><a href="mains-plan/day-12.html">Notes</a> <a href="mains-plan/mocks/mock.html?id=8">Mock 8</a></span></li>
-    <li><span class="num">Day 13</span><span class="title">Exam eve · cheatsheets only · sleep early</span><span class="links"><a href="mains-plan/day-13.html">Notes</a> <a href="mains-plan/cheatsheets/">Cheatsheets</a></span></li>
-  </ul>
+  <h2 class="h2">Keep studying</h2>
+  <div class="card">
+    <div class="rowlinks">
+      <a href="mains-plan/index.html">13-day Mains plan</a>
+      <a href="mains-plan/bank.html">Question bank</a>
+      <a href="mains-plan/pyqs.html">PYQ vault</a>
+      <a href="mains-plan/notes/index.html">Mains notes</a>
+      <a href="mains-plan/flashcards/">Flashcards</a>
+      <a href="mains-plan/review.html">Review deck</a>
+      <a href="mains-plan/drill/drug-calc.html">Drug-calc drill</a>
+      <a href="mains-plan/drill/scenarios.html">Scenario drill</a>
+      <a href="mains-plan/cheatsheets/">Cheatsheets</a>
+      <a href="mains-plan/syllabus.html">Syllabus tracker</a>
+      <a href="mains-plan/toppers.html">Topic frequency</a>
+      <a href="mains-plan/watch.html">Video playlist</a>
+      <a href="topics/mock-test.html">Stage I/II mock hub</a>
+    </div>
+  </div>
 
-  <h2>Mock Tests · 10 Full-length Simulations</h2>
-  <p class="muted">Each mock is 160 Q in 180 min with +1 correct, −1/3 wrong. Subject mix matches Mains pattern. Resume anytime.</p>
-  <ul class="lecture-list">
-    <li><span class="num">Mock 1</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=1">Start</a></span></li>
-    <li><span class="num">Mock 2</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=2">Start</a></span></li>
-    <li><span class="num">Mock 3</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=3">Start</a></span></li>
-    <li><span class="num">Mock 4</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=4">Start</a></span></li>
-    <li><span class="num">Mock 5</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=5">Start</a></span></li>
-    <li><span class="num">Mock 6</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=6">Start</a></span></li>
-    <li><span class="num">Mock 7</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=7">Start</a></span></li>
-    <li><span class="num">Mock 8</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=8">Start</a></span></li>
-    <li><span class="num">Mock 9</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=9">Start</a></span></li>
-    <li><span class="num">Mock 10</span><span class="title">Full syllabus · 160 Q · 180 min</span><span class="links"><a href="mains-plan/mocks/mock.html?id=10">Start</a></span></li>
-  </ul>
-  <p><a href="mains-plan/mocks/">All mocks · performance dashboard</a></p>
+  <h2 class="h2">Exam guides</h2>
+  <div class="card">
+    <div class="rowlinks">
+      <a href="norcet-syllabus-2026.html">NORCET syllabus 2026</a>
+      <a href="norcet-exam-pattern.html">Exam pattern</a>
+      <a href="norcet-previous-year-questions.html">How to use PYQs</a>
+      <a href="norcet-free-mock-test.html">Free mock guide</a>
+      <a href="norcet-pharmacology-topics.html">Pharmacology topics</a>
+    </div>
+  </div>
 
-  <h2>High-Yield NORCET PDF &amp; Videos</h2>
-  <ul class="lecture-list">
-    <li><span class="num">Syllabus</span><span class="title">Complete checklist of all 610 PDF topics by section · priority-tagged · links to notes + MCQs + video</span><span class="links"><a href="mains-plan/syllabus.html">Open</a></span></li>
-    <li><span class="num">Notes</span><span class="title">Scenario-first high-yield notes for every PDF topic (13 sections)</span><span class="links"><a href="mains-plan/notes/index.html">Open</a></span></li>
-    <li><span class="num">Watch</span><span class="title">Embedded NORCET High-Yield YouTube playlist with per-topic linkage</span><span class="links"><a href="mains-plan/watch.html">Open</a></span></li>
-  </ul>
-
-  <h2>Drills &amp; Flashcards</h2>
-  <ul class="lecture-list">
-    <li><span class="num">Drill</span><span class="title">Drug-calculation drill · 30 s per Q · calculator disabled</span><span class="links"><a href="mains-plan/drill/drug-calc.html">Start</a></span></li>
-    <li><span class="num">Drill</span><span class="title">Clinical-scenario drill · reasoning only</span><span class="links"><a href="mains-plan/drill/scenarios.html">Start</a></span></li>
-    <li><span class="num">Cards</span><span class="title">Flashcards · 7 decks (logos, colors, milestones, drugs…)</span><span class="links"><a href="mains-plan/flashcards/">Open</a></span></li>
-    <li><span class="num">Review</span><span class="title">Missed questions · spaced repetition</span><span class="links"><a href="mains-plan/review.html">Review</a></span></li>
-  </ul>
-
-  <h2>Previous Year Questions</h2>
-  <ul class="lecture-list">
-    <li><span class="num">PYQ</span><span class="title">NORCET 6–9 Mains compilation · 144 NORCET 9 Q recall + key topics 6/7/8</span><span class="links"><a href="mains-plan/pyqs.html">Open</a></span></li>
-    <li><span class="num">PYQ</span><span class="title">Browse by day / subject / source in the bank</span><span class="links"><a href="mains-plan/bank.html">Extra Questions</a></span></li>
-  </ul>
-
-  <h2>Exam-Eve Revision Pack</h2>
-  <ul class="lecture-list">
-    <li><span class="num">Sheet</span><span class="title">ABG (values, ROME, 4-step)</span><span class="links"><a href="mains-plan/cheatsheets/abg.html">Open</a></span></li>
-    <li><span class="num">Sheet</span><span class="title">Formulas (Parkland, 4-2-1, ET, APGAR, CPR)</span><span class="links"><a href="mains-plan/cheatsheets/formulas.html">Open</a></span></li>
-    <li><span class="num">Sheet</span><span class="title">Programme Logos</span><span class="links"><a href="mains-plan/cheatsheets/logos.html">Open</a></span></li>
-    <li><span class="num">Sheet</span><span class="title">BMW Color Coding</span><span class="links"><a href="mains-plan/cheatsheets/bmw.html">Open</a></span></li>
-    <li><span class="num">Sheet</span><span class="title">Vaccines &amp; NIS schedule</span><span class="links"><a href="mains-plan/cheatsheets/vaccines.html">Open</a></span></li>
-    <li><span class="num">Sheet</span><span class="title">Milestones 0–5 y</span><span class="links"><a href="mains-plan/cheatsheets/milestones.html">Open</a></span></li>
-    <li><span class="num">Sheet</span><span class="title">Emergency drugs</span><span class="links"><a href="mains-plan/cheatsheets/drugs.html">Open</a></span></li>
-  </ul>
-
-  <h2>Strategy for Top 1–10 AIR</h2>
-  <ol>
-    <li><strong>PYQ backbone.</strong> Finish every NORCET 6–9 Mains Q. Research every wrong option until you can defend it (1:4 rule).</li>
-    <li><strong>Zero weak zones.</strong> Psych, Micro, and Admin are small but free marks — the dashboard surfaces your weakest topics automatically.</li>
-    <li><strong>Negative-mark discipline.</strong> −1/3 per wrong means guess only when you can eliminate 2 options. Target &lt;10 wrong per mock.</li>
-    <li><strong>Speed ceiling.</strong> 67 s per question average. The drill mode enforces it; build the reflex.</li>
-    <li><strong>Daily spaced review.</strong> Every miss re-appears until answered right twice. Don't skip the "Review due cards" step.</li>
-    <li><strong>Mock post-mortem &gt; mock count.</strong> 10 mocks, 10 hours of analysis each. The mock is the cheap half; the review is where the rank comes from.</li>
-  </ol>
-
-  <h2>Free Topic Question Banks · Stage I</h2>
-  <p class="small">547 MCQs with explanations across 13 banks — free, no login:
-    <a href="topics/pharmacology.html">Pharmacology (70)</a> ·
-    <a href="topics/medical-surgical.html">Medical-Surgical (85)</a> ·
-    <a href="topics/foundations.html">Foundations (59)</a> ·
-    <a href="topics/previous-years.html">Previous Years (55)</a> ·
-    <a href="topics/anatomy-physiology.html">Anatomy &amp; Physiology (42)</a> ·
-    <a href="topics/obstetric-gynecology.html">OBG (41)</a> ·
-    <a href="topics/community-health.html">Community Health (38)</a> ·
-    <a href="topics/pediatric.html">Pediatric (36)</a> ·
-    <a href="topics/psychiatric.html">Psychiatric (29)</a> ·
-    <a href="topics/microbiology.html">Microbiology (28)</a> ·
-    <a href="topics/administration-management.html">Administration (24)</a> ·
-    <a href="topics/nutrition-biochemistry.html">Nutrition &amp; Biochem (22)</a> ·
-    <a href="topics/first-aid.html">First Aid (18)</a></p>
-  <p class="small muted">Guides:
-    <a href="norcet-syllabus-2026.html">NORCET syllabus</a> ·
-    <a href="norcet-exam-pattern.html">exam pattern</a> ·
-    <a href="norcet-previous-year-questions.html">PYQ guide</a> ·
-    <a href="norcet-free-mock-test.html">free mock guide</a> ·
-    <a href="topics/mock-test.html">Stage I/II mock hub</a></p>
-
-  <h2>Content coverage</h2>
-  <ul id="stats"><li>Loading…</li></ul>
-  <p class="small muted">All content is local-first: installable as an app, works offline, stores progress privately in your browser.</p>
-
-  <footer class="small muted" style="margin-top:32px;padding-top:14px;border-top:1px solid rgba(128,128,128,.35)">
-    <a href="account.html">Account</a> ·
-    <a href="pricing.html">Pricing</a> ·
-    <a href="legal/terms.html">Terms</a> ·
-    <a href="legal/privacy.html">Privacy</a> ·
-    <a href="legal/refund.html">Refunds</a> ·
-    <a href="legal/contact.html">Contact</a><br>
-    Not affiliated with or endorsed by AIIMS. Exam names are used descriptively.
-  </footer>
+  <h2 class="h2">Why you can check us</h2>
+  <div class="card">
+    <p class="small" style="margin-top:0">Built openly by one engineer, Amit Kumar — no institute,
+    no invented faculty, no rank promises. Questions pass automated consistency checks and an
+    independent cross-verification pass before human review, and each one names the textbook
+    chapter or national guideline behind it. Previous-year sets are memory-based recall written
+    in our own words, never reproductions of an official paper.</p>
+    <div class="rowlinks">
+      <a href="methodology.html">How questions are made and checked</a>
+      <a href="fix-log.html">Public fix-log</a>
+      <a href="legal/contact.html">Support and SLAs</a>
+    </div>
+  </div>
 
 </main>
+
+<footer class="foot">
+  <div class="foot__brand">NurseDrill</div>
+  <a href="methodology.html">Methodology</a> ·
+  <a href="fix-log.html">Fix-log</a> ·
+  <a class="nd-buy-only" href="pricing.html">Pricing</a> ·
+  <a href="account.html">Account</a> ·
+  <a href="legal/terms.html">Terms</a> ·
+  <a href="legal/privacy.html">Privacy</a> ·
+  <a href="legal/refund.html">Refunds</a> ·
+  <a href="legal/contact.html">Contact</a><br>
+  Not affiliated with or endorsed by AIIMS. Exam names are used descriptively.<br>
+  No promise of selection or rank — outcomes depend on you.
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics-compat.js" defer></script>
+<script src="js/firebase-config.js" defer></script>
+<script src="js/paywall.js"></script>
+<script src="js/analytics.js"></script>
+<script src="js/daily-quiz.js"></script>
+<script src="js/home.js"></script>
+<script src="js/site-chrome.js" defer></script>
+<script>
+  // Free shell and free data stay readable offline; premium data never enters
+  // these caches (sw.js) — Firestore persistence is premium's offline story.
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function () {});
+</script>
 </body>
 </html>

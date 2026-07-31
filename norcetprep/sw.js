@@ -2,7 +2,7 @@
 // Phase 3: the precache holds ONLY the app shell + free content. Premium data
 // lives in Firestore behind entitlement rules and rides Firestore's own
 // offline persistence (see js/content.js) — it must never be precached here.
-const CACHE = 'nursedrill-v15-free-shell';
+const CACHE = 'nursedrill-v16-trust';
 const PRECACHE = [
   './',
   './index.html',
@@ -10,6 +10,8 @@ const PRECACHE = [
   './signup.html',
   './account.html',
   './pricing.html',
+  './methodology.html',
+  './fix-log.html',
   './norcet-free-mock-test.html',
   './css/mains-theme.css',
   './css/clinical.css',
@@ -19,6 +21,7 @@ const PRECACHE = [
   './js/paywall.js',
   './js/content.js',
   './js/analytics.js',
+  './js/site-chrome.js',
   './js/auth.js',
   './js/sync.js',
   './js/report.js',
@@ -37,6 +40,7 @@ const PRECACHE = [
   './data/mains/videos.json',
   './data/mains/mocks/index.json',
   './data/mains/notes/foundation.json',
+  './data/fix-log.json',
   // Free page shells (render their own locked states offline).
   './mains-plan/index.html',
   './mains-plan/mocks/index.html',
