@@ -27,9 +27,9 @@ with no changes** — the map's convergence point is reached and the product
 spec is locked.
 
 **The prototype (the asset)**:
-[prototype-paywall.html](../assets/prototype-paywall.html), also published for
-click-through as a private artifact at
-<https://claude.ai/code/artifact/3fbd8818-856a-49f3-9673-d7c1e45fcf20>.
+[prototype-paywall.html](../assets/prototype-paywall.html) — open locally in
+any browser to click through. (An earlier artifact publication was retired
+per owner preference: deliverables stay local, in the repo.)
 A single-file simulation of the entire money path with a simulator rig
 (browser vs TWA app-mode · signed-out / free / premium · per-decision
 annotations): landing & free funnel (daily quiz, 547-MCQ banks, locked Mains

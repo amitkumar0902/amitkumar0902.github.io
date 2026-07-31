@@ -64,6 +64,14 @@ beyond this map.
   (~2% PSP vs 15% Play); app-mode shows zero purchase UI and zero checkout
   links; needs `.nojekyll` + assetlinks at the origin root, 12 testers ×
   14 days, target API 36, an account-deletion flow; ~4–6 weeks to listed.
+- [Growth & distribution engine](tickets/t12-growth-engine.md) — **~5 h/week
+  ceiling**; conversion lives on-product (daily quiz + streaks); feeders =
+  automated Telegram daily-MCQ bot (backbone) + light Instagram diagram
+  posts (explicitly droppable); v1 referral = shareable cutoff-anchored
+  report cards, no monetary referrals; SEO orchestrator loop retargeted to
+  nursedrill.com; analytics = GA4 via Firebase with a minimal funnel event
+  set. NurseDrill stays a separate nursing-only product — the personal site
+  carries none of it.
 - [Launch sequencing & migration](tickets/t13-launch-sequencing.md) —
   **two-gate season plan**, incremental KYC-first cutover: Phase 1 by 7 Aug
   (domain + current site on Firebase Hosting + policy pages → apply to both
