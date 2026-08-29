@@ -17,3 +17,9 @@ android/*.jks
 android/build/
 android/.gradle/
 android/app-release-*.a?b
+
+# Portfolio agent tooling
+scripts/__pycache__/
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars

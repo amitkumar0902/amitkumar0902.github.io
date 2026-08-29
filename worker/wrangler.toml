@@ -1,0 +1,14 @@
+name = "llm-proxy"
+main = "llm-proxy.js"
+compatibility_date = "2025-06-01"
+
+[vars]
+# Any OpenAI-compatible base URL. OpenRouter is the default (free models available).
+UPSTREAM_BASE = "https://openrouter.ai/api/v1"
+# On OpenRouter, refuse anything that is not a ":free" model so nobody can spend credits via the proxy.
+FREE_ONLY = "true"
+DEFAULT_MODEL = "google/gemma-4-31b-it:free"
+# Optional hard allowlist (comma-separated model ids):
+# ALLOWED_MODELS = "google/gemma-4-31b-it:free,z-ai/glm-5.2:free"
+
+# The API key is a secret, never a var:   npx wrangler secret put LLM_API_KEY

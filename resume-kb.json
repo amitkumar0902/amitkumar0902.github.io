@@ -1,0 +1,132 @@
+[
+ {
+  "id": "resume-header-1",
+  "section": "Résumé (PDF)",
+  "title": "Header",
+  "text": "Amit Kumar Email : ak6.amitkumar@gmail.com\namitkumar0902.github.io Mobile : [phone withheld]\ngithub.com/amitkumar0902 linkedin.com/in/amit-kumar0902\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "header"
+  ]
+ },
+ {
+  "id": "resume-education-1",
+  "section": "Résumé (PDF)",
+  "title": "Education",
+  "text": "Indian Institute of Space Science and Technology Thiruvananthapuram, Kerala\n Master of Technology in Machine Learning and Computing Aug. 2020 – May, 2022\n Department of Mathematics CGPA: 8.29/10\n Jabalpur Engineering College Jabalpur, Madhya Pradesh\n Bachelor of Engineering in Information Technology Aug. 2016 – July, 2020\n CGPA: 7.44/10\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "education"
+  ]
+ },
+ {
+  "id": "resume-experience-1",
+  "section": "Résumé (PDF)",
+  "title": "Experience (part 1/6)",
+  "text": "E42.AI (Light Information Systems) Pune, India · AI Architect (Mar 2026 – Present): Agent Deployment Control Plane: Built a self-serve FastAPI platform that lets teams claim, build and ship LangGraph agents without manual per-agent deployments: organisation-level agent claims, in-cluster image builds, idempotent Kubernetes deploys with auto-restore, agent validation and API-key auth.\nE42.AI (Light Information Systems) Pune, India · AI Architect (Mar 2026 – Present): Extraction CI/CD with Accuracy Gates: Authored the CI/CD pipeline that deploys every merge request into its own namespace and evaluates document extraction on six client datasets behind a ratcheting accuracy gate, with secret and dependency scanning; introduced repo-wide linting and shipped production extraction hotfixes.\nE42.AI (Light Information Systems) Pune, India · AI Architect (Mar 2026 – Present): Enterprise RAG Chatbot: Delivered a customer chatbot that crawls client websites alongside uploaded documents, built on an open-source RAG engine and tuned with custom LLM, embedding and reranker models, protected by guardrails.\nE42.AI (Light Information Systems) Pune, India · Lead AI Engineer (Aug 2024 – Mar 2026): GenAI Team Leadership: Led E42’s 20-person GenAI team, mentoring engineers across the full GenAI stack, and drove agentic development across projects spanning multi-agent assistants, agent deployment infrastructure and document intelligence.\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "experience"
+  ]
+ },
+ {
+  "id": "resume-experience-2",
+  "section": "Résumé (PDF)",
+  "title": "Experience (part 2/6)",
+  "text": "E42.AI (Light Information Systems) Pune, India · Lead AI Engineer (Aug 2024 – Mar 2026): Document Intelligence Platform: Architected and led the production OCR / layout / table / entity-extraction platform processing 10K+ invoices and documents daily across 10 enterprise clients at up to 98% extraction accuracy; sold as a volume-based SaaS generating up to $80K annual revenue per client, automating invoice entry and approval follow-up with an invoice-grounded chatbot.\nE42.AI (Light Information Systems) Pune, India · Lead AI Engineer (Aug 2024 – Mar 2026): Self-Hosted LLM Serving Platform: Led the migration (primary author) to a FastAPI serving platform with OpenAI-compatible APIs over pluggable open-source inference backends with dynamic batching and 4/8-bit quantization, plus SSE streaming, schema-constrained tool calling and managed hosted-provider fallbacks; cut end-to-end OCR+LLM latency ∼2× (45s → ∼22s) by co-locating OCR and LLM on one GPU with a shared KV-cache across two model instances.\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "experience"
+  ]
+ },
+ {
+  "id": "resume-experience-3",
+  "section": "Résumé (PDF)",
+  "title": "Experience (part 3/6)",
+  "text": "E42.AI (Light Information Systems) Pune, India · Lead AI Engineer (Aug 2024 – Mar 2026): AR Collections Automation: Designed an end-to-end accounts-receivable platform with AI-ranked daily collection prioritization, autonomous vendor email follow-up/reply and an analytics chatbot (email-grounded RAG and NLP2SQL with charting), plus a tone-escalating dunning engine with human-in-the-loop approval and an XGBoost ranker trained on user feedback; prototyped a headless browser agent extracting per-vendor data daily with per-invoice human verification.\nE42.AI (Light Information Systems) Pune, India · Lead AI Engineer (Aug 2024 – Mar 2026): LLM Evaluation & Observability: Built the evaluation and observability stack: automated evaluation harnesses across 8 modules (∼2,200 eval cases), LLM tracing and instrumentation with curated datasets, an OCR evaluator (IoU + fuzzy field metrics) and retrieval-quality evals for the NLP2SQL engine.\nE42.AI (Light Information Systems) Pune, India · Lead AI Engineer (Aug 2024 – Mar 2026): LMS AI Platform: Built the AI agents for a learning-management platform: an interactive LangGraph canvas agent, PDF/RAG search and router agents and personalised-learning suggestions, plus a vector-backed memory service carrying each learner’s context across sessions.\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "experience"
+  ]
+ },
+ {
+  "id": "resume-experience-4",
+  "section": "Résumé (PDF)",
+  "title": "Experience (part 4/6)",
+  "text": "E42.AI (Light Information Systems) Pune, India · AI/NLP Engineer (Jul 2023 – Aug 2024): Enterprise Multi-Agent Assistant: Built supervisor / sub-agent architectures (CrewAI + LangGraph) behind an enterprise assistant, routing across chit-chat, NLP2SQL and RAG; classifier, tool and RAG nodes with conversation memory, web-scraping / search / charting tools and a parallel RAG + NLP2SQL path with document grading; fine-tuned open 7B models (LoRA) for tool-calling to 83% accuracy against a GPT-4-labeled benchmark while cutting prompt overhead.\nE42.AI (Light Information Systems) Pune, India · AI/NLP Engineer (Jul 2023 – Aug 2024): Invoice Extraction Pipelines: Built the extraction framework spanning Azure Document Intelligence and open vision-language-model pipelines (top contributor to the OCR service); added VLM-based custom-entity extraction, handwriting detection, dynamic invoice/table schemas, tax-code post-processing and a field-to-bounding-box predictor.\nE42.AI (Light Information Systems) Pune, India · AI/NLP Engineer (Jul 2023 – Aug 2024): RAG Accuracy: Raised retrieval-grounded answer accuracy from 68% by ∼15 pts (semantic-match evaluation) via a reranking layer, knowledge-graph integration and a redesigned extraction + embedding-storage pipeline; largest gains on complex technical PDFs (math / physics).\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "experience"
+  ]
+ },
+ {
+  "id": "resume-experience-5",
+  "section": "Résumé (PDF)",
+  "title": "Experience (part 5/6)",
+  "text": "E42.AI (Light Information Systems) Pune, India · AI/NLP Engineer (Jul 2023 – Aug 2024): Multimodal & Distributed Infra: Shipped real-time streaming speech-to-text / text-to-speech (Whisper) on fault-tolerant Kafka + Kubernetes pipelines spanning OCR, RAG, speech and LLM workloads, served via hosted LLM APIs where permitted and on-prem open models for data-compliance clients, with benchmarking frameworks driving model selection.\nE42.AI (Light Information Systems) Pune, India · AI/NLP Engineer (Jul 2023 – Aug 2024): Natural-Language-to-SQL Engine: Built the NLP2SQL pipeline with a few-shot retrieval layer matching questions to curated example queries, automated schema creation and table categorisation, and chart/table rendering of results. Circlebase (Intelligent Health Outcomes) Bengaluru, Karnataka\nE42.AI (Light Information Systems) Pune, India · NLP Engineer (Nov 2021 – Jul 2023): Clinical NLP Pipelines: Developed NLP models identifying patient-related entities, social determinants of health, drug relations and adverse drug events; shipped via executable builds and integration with Django-based applications.\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "experience"
+  ]
+ },
+ {
+  "id": "resume-experience-6",
+  "section": "Résumé (PDF)",
+  "title": "Experience (part 6/6)",
+  "text": "E42.AI (Light Information Systems) Pune, India · NLP Engineer (Nov 2021 – Jul 2023): Clinical Trial Chatbot: Built NER + relation extraction linking adverse drug events (ADEs) to drugs and matching participants with clinical coordinators by ADE severity; added a Haystack QA system with generated QA pairs, a dashboard, suggestion features and LLM integration, and dockerized it for deployment.\nE42.AI (Light Information Systems) Pune, India · NLP Engineer (Nov 2021 – Jul 2023): Drug Consumption Forecasting: Performed EDA and anomaly detection on hospital data with feature selection and engineering; modeled with ARIMA, Holt-Winters exponential smoothing and XGBoost, achieving MAPE below 20% for multiple drugs. Omdena (Internet & Jurisdiction Policy Network) Remote\nE42.AI (Light Information Systems) Pune, India · Lead ML Engineer (Sept 2021 – Nov 2021): Built a knowledge graph with a triplet extractor algorithm that pulls info from Wikipedia articles.\nE42.AI (Light Information Systems) Pune, India · Lead ML Engineer (Sept 2021 – Nov 2021): Created Datasphere using natural language processing tools like Spacy, Stanfordcore NLP, and NLTK.\nE42.AI (Light Information Systems) Pune, India · Lead ML Engineer (Sept 2021 – Nov 2021): Used Datasphere to analyze and visualize big textual data, helping policymakers understand complex issues.\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "experience"
+  ]
+ },
+ {
+  "id": "resume-technical-skills-1",
+  "section": "Résumé (PDF)",
+  "title": "Technical Skills",
+  "text": " Languages: Python, C++, C, CUDA, SQL\n  ML / AI: PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, vLLM, GGML, DeepSpeed\n  Infrastructure: Docker, Kubernetes, GCP (GKE), Git, CI/CD\n  Data: PostgreSQL, SQLite, Redis, Qdrant, Elasticsearch, Kafka\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "technical skills"
+  ]
+ },
+ {
+  "id": "resume-achievements-1",
+  "section": "Résumé (PDF)",
+  "title": "Achievements",
+  "text": " Qualified for the ACM ICPC 2018 Kolkata-Kanpur site contest held at UIET, CSJM University, Kanpur.\n  Codechef rating 1883 (amit 9); gold medal in chess, Avahan 2018 (intra-college competition).\n  “So you think you can code”: organised a coding competition on Hackerearth.\n(Source: the current résumé PDF on the site.)",
+  "url": "pubs/Amit_kumar.pdf",
+  "tags": [
+   "resume",
+   "cv",
+   "pdf",
+   "achievements"
+  ]
+ }
+]
