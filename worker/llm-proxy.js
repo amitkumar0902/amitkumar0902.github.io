@@ -97,11 +97,25 @@ async function handleChat(req, env, h) {
     }
   }
 
+  // Optional prioritized fallback list (OpenRouter `models`). Every entry must pass
+  // the same guards as `model` so the fallback path can't smuggle a paid model in.
+  let models = Array.isArray(payload.models) ? payload.models.map(String).slice(0, 3) : null;   // OpenRouter max
+  if (models) {
+    if (isOpenRouter && freeOnly && models.some(m => !/:free$/.test(m))) {
+      return jsonError('All entries in models[] must be \':free\' models', 400, h);
+    }
+    if (env.ALLOWED_MODELS) {
+      const allowed = env.ALLOWED_MODELS.split(',').map(s => s.trim()).filter(Boolean);
+      if (allowed.length && models.some(m => !allowed.includes(m))) models = null;
+    }
+  }
+
   const messages = Array.isArray(payload.messages) ? payload.messages.slice(-MAX_MESSAGES) : [];
   if (!messages.length) return jsonError('messages[] is required', 400, h);
 
   const body = {
     model,
+    ...(models ? { models } : {}),
     messages,
     stream: payload.stream !== false,
     temperature: typeof payload.temperature === 'number' ? payload.temperature : 0.5,

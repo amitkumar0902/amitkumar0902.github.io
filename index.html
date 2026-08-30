@@ -2069,6 +2069,11 @@ const MODEL_OPTIONS = [
   { value: 'minimax/minimax-m3:free',                 label: 'MiniMax M3 · 1M ctx' },
 ];
 const labelFor = (v) => (MODEL_OPTIONS.find(o => o.value === v) || {}).label || (v + ' · custom');
+
+// OpenRouter free models share upstream pools and individually hit 429s; sending a
+// prioritized fallback list lets a request silently fall through to the next one.
+// Only appended when the active model is a ':free' id (local servers ignore it anyway).
+const FREE_FALLBACKS = ['minimax/minimax-m3:free', 'nvidia/nemotron-3-super-120b-a12b:free'];
 const endpointHost = () => { try { return new URL(chatUrl()).host; } catch { return CONFIG.endpoint; } };
 
 function refreshModeBadge() {
@@ -2425,7 +2430,13 @@ async function* streamLLM(messages, signal) {
   const resp = await fetch(url, {
     method: 'POST',
     headers,
-    body: JSON.stringify({ model: CONFIG.model, messages, stream: true, temperature: 0.5, max_tokens: 900 }),
+    body: JSON.stringify({
+      model: CONFIG.model, messages, stream: true, temperature: 0.5, max_tokens: 900,
+      // OpenRouter accepts at most 3 entries in models[].
+      ...(CONFIG.model.endsWith(':free')
+        ? { models: [CONFIG.model, ...FREE_FALLBACKS.filter(m => m !== CONFIG.model)].slice(0, 3) }
+        : {}),
+    }),
     signal,
   });
   if (!resp.ok || !resp.body) {
