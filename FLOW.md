@@ -138,7 +138,44 @@ words, so "you" can't trigger "yo"); best score ≥ 3 wins, otherwise `FALLBACK`
 what to ask. Answers are `{text, list, after}` objects typed out with
 punctuation-aware pacing.
 
-## 4 · The backend
+## 4 · Voice — how sound comes with answers
+
+All audio is text-to-speech generated **in the visitor's browser** — no audio files, no server.
+
+```
+answer finishes rendering
+ └─ attachSpeakControl(node, autoplay)
+     ├─ clones the message body, strips sources/previews/caret → only the answer text is spoken
+     ├─ adds the ♪ READ button next to the timestamp
+     └─ if the topbar speaker toggle is ON (TTS.on, persisted as ak.tts) → auto-plays
+
+♪ READ click → TTS.speak(text)
+ ├─ provider 'piper' (default, CONFIG.ttsProvider)
+ │    Piper.load(): dynamic import of @diffusionstudio/vits-web (jsDelivr CDN)
+ │    → first use downloads the ONNX voice (CONFIG.piperVoice = 'en_US-ryan-medium',
+ │      ~25 MB, browser-cached forever; button shows "⌛ LOADING" meanwhile)
+ │    → tts.predict({text, voiceId}) runs the VITS neural net in WASM → WAV Blob
+ │    → new Audio(objectURL).play()
+ └─ any failure (CDN blocked, no WASM, offline)
+      → _speakViaBrowser(): OS speechSynthesis — text split into sentences,
+        best available en-US "natural/neural" voice picked
+```
+
+Details worth knowing:
+
+- **Toggle** — the speaker icon in the topbar flips auto-play for every future answer;
+  clicking a playing ♪ READ button stops it, and starting a new message stops the old one.
+- **Privacy/cost** — Piper runs entirely on the visitor's CPU via WebAssembly; nothing is
+  sent anywhere and it works offline once the voice is cached.
+- **Change the voice** — `CONFIG.piperVoice`, any id from the rhasspy/piper-voices
+  catalogue (e.g. `en_US-amy-medium`, `en_GB-alan-medium`); or set
+  `ttsProvider: 'browser'` to skip Piper entirely.
+- **The mic button is the reverse path** — speech-to-text via the browser's
+  `SpeechRecognition` API filling the input box (hidden where unsupported).
+- The reference site had a third provider (Hugging Face TTS via the Worker); it was
+  dropped in the port — the Worker here only proxies the LLM.
+
+## 5 · The backend
 
 The page speaks plain **OpenAI `/v1/chat/completions`**, so anything compatible works.
 
@@ -161,7 +198,7 @@ with `ngrok http <port>`, then open `index.html?endpoint=https://xxxx.ngrok-free
 `MODEL_OPTIONS` (~2063) lists the OpenRouter `:free` models shown in the picker; free
 models rotate, so refresh this list occasionally from https://openrouter.ai/models?q=free.
 
-## 5 · Local development & testing
+## 6 · Local development & testing
 
 ```
 python3 scripts/mock-llm.py            # fake OpenAI-compatible SSE server on :8765
@@ -173,7 +210,7 @@ The mock echoes how many messages/context chunks it received (proves retrieval +
 streaming path) and `model: "bad-model"` returns an OpenRouter-style 404 (proves the
 error → scripted fallback path).
 
-## 6 · Deploy & repo map
+## 7 · Deploy & repo map
 
 Push to `main` → `.github/workflows/static.yml` publishes the whole repo to GitHub
 Pages. (`norcetprep/` deploys separately to Firebase and is unrelated to the portfolio.)
@@ -188,7 +225,7 @@ scripts/build-kb.py   regenerates those three   ·  scripts/mock-llm.py  fake ba
 worker/               Cloudflare Worker proxy (llm-proxy.js, wrangler.toml, README)
 ```
 
-## 7 · Where to change what
+## 8 · Where to change what
 
 | You want to… | Edit |
 |---|---|
@@ -199,4 +236,5 @@ worker/               Cloudflare Worker proxy (llm-proxy.js, wrangler.toml, READ
 | Add/remove picker models | `MODEL_OPTIONS` |
 | Change the playlist | `NOW_PLAYING_URL` + the two `.np-text` labels |
 | Change the "Now reading" deck | `NOW_READING_URL` + the two row labels |
+| Change the spoken voice | `CONFIG.piperVoice` (or `ttsProvider: 'browser'`) |
 | Worker limits / origins / free-only | constants at the top of `worker/llm-proxy.js` |
