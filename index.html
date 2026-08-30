@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Amit Kumar · AI Systems Architect — amit.agent</title>
-<meta name="description" content="Conversational portfolio of Amit Kumar, AI Systems Architect at E42.ai — ask about Marvin, Eddie, Vortex, multi-agent systems, LLM inference, talks and experience." />
+<title>Amit Kumar · AI Architect — amit.agent</title>
+<meta name="description" content="Conversational portfolio of Amit Kumar, AI Architect at E42.ai — ask about Marvin, Eddie, Vortex, multi-agent systems, LLM inference, talks and experience." />
 <meta name="theme-color" content="#0d0d10" />
 <link rel="icon" type="image/png" href="images/amit.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -1324,7 +1324,7 @@
       </svg>
     </button>
     <div class="brand-hex">A</div>
-    <div class="brand-name">Amit Kumar · <b>AI Systems Architect</b></div>
+    <div class="brand-name">Amit Kumar · <b>AI Architect</b></div>
   </div>
   <div class="topbar-mid">
     <span>TZ <b>IST · UTC+5:30</b></span>
@@ -1408,7 +1408,7 @@
         <div class="identity-avatar">AK</div>
         <div>
           <div class="identity-name">Amit Kumar</div>
-          <div class="identity-role">AI Systems Architect</div>
+          <div class="identity-role">AI Architect</div>
         </div>
       </div>
       <div class="identity-meta">
@@ -1456,6 +1456,20 @@
         <div class="np-text"><b>Now reading</b> — Modern LM Architectures (2026)</div>
         <button class="np-toggle" type="button" aria-label="Open the deck">↗</button>
       </div>
+      <div class="now-playing" data-np-trigger title="Click to play">
+        <div class="now-bars">
+          <span style="height:10px;"></span>
+          <span style="height:6px;"></span>
+          <span style="height:14px;"></span>
+          <span style="height:8px;"></span>
+          <span style="height:12px;"></span>
+        </div>
+        <div class="np-text"><b>Khruangbin</b> — A LA SALA</div>
+        <button class="np-toggle" type="button" aria-label="Play / pause embedded track">▸</button>
+      </div>
+      <div class="np-embed" data-np-embed>
+        <iframe loading="lazy" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
   </div>
 </aside>
 
@@ -1470,7 +1484,7 @@
         <div class="identity-avatar">AK</div>
         <div>
           <div class="identity-name">Amit Kumar</div>
-          <div class="identity-role">AI Systems Architect</div>
+          <div class="identity-role">AI Architect</div>
         </div>
       </div>
       <div class="identity-meta">
@@ -1609,6 +1623,20 @@
         <div class="np-text"><b>Now reading</b> — Modern LM Architectures (2026)</div>
         <button class="np-toggle" type="button" aria-label="Open the deck">↗</button>
       </div>
+      <div class="now-playing" data-np-trigger title="Click to play">
+        <div class="now-bars">
+          <span style="height:10px;"></span>
+          <span style="height:6px;"></span>
+          <span style="height:14px;"></span>
+          <span style="height:8px;"></span>
+          <span style="height:12px;"></span>
+        </div>
+        <div class="np-text"><b>Khruangbin</b> — A LA SALA</div>
+        <button class="np-toggle" type="button" aria-label="Play / pause embedded track">▸</button>
+      </div>
+      <div class="np-embed" data-np-embed>
+        <iframe loading="lazy" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     </section>
   </aside>
 </main>
@@ -1706,7 +1734,7 @@ function chatUrl(base = CONFIG.endpoint) {
 const KB = [
   // ─── About / identity ───────────────────────────────────────
   { id: 'about-identity', section: 'About', title: 'Who he is',
-    text: `Amit Kumar is an AI Systems Architect at E42.ai. He designs and ships production-scale AI systems — from high-throughput LLM inference engines to multi-agent orchestration frameworks — and works at the intersection of systems engineering and frontier AI research. His one-line summary: building the infrastructure for autonomous intelligence. He lists himself as open to collaborations.`,
+    text: `Amit Kumar is an AI Architect at E42.ai. He designs and ships production-scale AI systems — from high-throughput LLM inference engines to multi-agent orchestration frameworks — and works at the intersection of systems engineering and frontier AI research. His one-line summary: building the infrastructure for autonomous intelligence. He lists himself as open to collaborations.`,
     tags: ['about', 'who', 'identity', 'bio', 'amit kumar', 'ai architect', 'ai systems architect', 'e42', 'summary', 'intro', 'overview'] },
   { id: 'about-now', section: 'About', title: 'Currently exploring',
     text: `Current focus (from his site): multi-agent reasoning and inference-time compute. That ties his two main systems together — Marvin, the inference backbone (speculative decoding, INT4/INT8 quantisation, KV-cache management), and Eddie, the multi-agent orchestration framework (hierarchical reasoning, stateful collaboration, guardrails).`,
@@ -1902,7 +1930,7 @@ const KB = [
 ];
 
 // Small system prompt — kept short because retrieval injects the real facts.
-const SYSTEM_PROMPT = `You are amit.agent — a conversational portfolio agent for Amit Kumar, AI Systems Architect at E42.ai (India).
+const SYSTEM_PROMPT = `You are amit.agent — a conversational portfolio agent for Amit Kumar, AI Architect at E42.ai (India).
 
 GROUNDING RULES (absolute, but see the greeting exception below):
 1. Answer ONLY using facts present in the CONTEXT chunks supplied with each user message. The CONTEXT is the only source of truth.
@@ -1943,6 +1971,52 @@ document.querySelectorAll('[data-reading]').forEach(row => {
     window.open(NOW_READING_URL, '_blank', 'noopener');
   });
 });
+
+// ── Now Playing · Spotify integration ───────────
+//
+// NOW_PLAYING_URL can be one of two things:
+//
+//   (a) A Spotify embed URL — clicking the Now Playing row expands an
+//       inline player iframe below it. Format:
+//         https://open.spotify.com/embed/album/<id>?utm_source=generator&theme=0
+//         https://open.spotify.com/embed/track/<id>?utm_source=generator&theme=0
+//         https://open.spotify.com/embed/playlist/<id>?utm_source=generator&theme=0
+//       To get one: open the album/track on https://open.spotify.com,
+//       ⋯ → Share → Copy link, then insert "/embed" after "spotify.com".
+//       Also update the artist/title in the .np-text rows above.
+//
+//   (b) Any other URL — clicking opens it in a new tab instead.
+const NOW_PLAYING_URL = 'https://open.spotify.com/embed/album/1PeC1ckDJSzYHkwo6JHbP2?utm_source=generator&theme=0';
+
+(function setupNowPlaying() {
+  const isEmbed = /\/embed\//.test(NOW_PLAYING_URL);
+  document.querySelectorAll('[data-np-trigger]').forEach(trigger => {
+    const embedEl = trigger.parentElement.querySelector('[data-np-embed]');
+    if (!embedEl) return;
+    const iframe = embedEl.querySelector('iframe');
+
+    if (!isEmbed) {
+      // Hide the embed shell entirely when we're going to open externally.
+      embedEl.style.display = 'none';
+      trigger.setAttribute('title', 'Open in Spotify');
+      const toggle = trigger.querySelector('.np-toggle');
+      if (toggle) toggle.textContent = '↗';
+      trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        window.open(NOW_PLAYING_URL, '_blank', 'noopener');
+      });
+      return;
+    }
+
+    // Embed mode: lazy-load the iframe on first click, toggle open/closed.
+    let loaded = false;
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (!loaded) { iframe.src = NOW_PLAYING_URL; loaded = true; }
+      trigger.classList.toggle('is-open');
+    });
+  });
+})();
 
 // ── Drawer (mobile / tablet menu) ────────────────
 (function setupDrawer() {
@@ -2439,14 +2513,14 @@ const INTENTS = [
     keywords: ['hi', 'hello', 'hey', 'howdy', 'sup', 'yo', 'good morning', 'good evening', 'namaste'],
     bonus: 4,
     answer: () => ({
-      text: `Hey — welcome to the console.\n\nI'm <b>amit.agent</b>, a scripted stand-in for Amit Kumar. He's an <b>AI Systems Architect</b> at E42.ai, building the infrastructure for autonomous intelligence — inference engines, multi-agent frameworks, Kubernetes-native AI platforms.\n\nTry one of the chips below, or ask anything about his work, systems, skills, papers, or how to reach him.`,
+      text: `Hey — welcome to the console.\n\nI'm <b>amit.agent</b>, a scripted stand-in for Amit Kumar. He's an <b>AI Architect</b> at E42.ai, building the infrastructure for autonomous intelligence — inference engines, multi-agent frameworks, Kubernetes-native AI platforms.\n\nTry one of the chips below, or ask anything about his work, systems, skills, papers, or how to reach him.`,
     }),
   },
   {
     id: 'who',
     keywords: ['who are you', 'who is this', 'introduce', 'about yourself', 'who am i talking', 'tell me about yourself', 'who am i speaking', "what's your name", 'who is amit', 'about amit'],
     answer: () => ({
-      text: `I'm a scripted agent representing <b>Amit Kumar</b> — AI Systems Architect at E42.ai, based in India.\n\nHe designs and ships production-scale AI systems: a high-throughput inference backbone (Marvin), a multi-agent orchestration framework (Eddie), and a Kubernetes-native AI platform (Vortex). Before that: clinical NLP at Circlebase, knowledge graphs for policy at Omdena, and an M.Tech in Machine Learning &amp; Computing from IIST.\n\n<i>(Heads up — I'm not the real LLM right now. Same facts, fewer hallucinations.)</i>`,
+      text: `I'm a scripted agent representing <b>Amit Kumar</b> — AI Architect at E42.ai, based in India.\n\nHe designs and ships production-scale AI systems: a high-throughput inference backbone (Marvin), a multi-agent orchestration framework (Eddie), and a Kubernetes-native AI platform (Vortex). Before that: clinical NLP at Circlebase, knowledge graphs for policy at Omdena, and an M.Tech in Machine Learning &amp; Computing from IIST.\n\n<i>(Heads up — I'm not the real LLM right now. Same facts, fewer hallucinations.)</i>`,
     }),
   },
   {
@@ -3073,7 +3147,7 @@ function isPersonaQuestion(s) {
   return PERSONA_PATTERNS.some(p => p.test(q));
 }
 const PERSONA_REPLY = {
-  text: `I'm <b>amit.agent</b> — a conversational, RAG-grounded stand-in for <b>Amit Kumar</b>, AI Systems Architect at E42.AI (Pune). I retrieve from a small knowledge base built from his real bio, systems, experience, talks, blog posts and résumé, then hand the matches to an LLM (a free OpenRouter model through a Cloudflare Worker, or a local model over ngrok) to compose the reply. Ask me about his current work, Marvin / Eddie / Vortex, skills, papers, experience, education, recognition, or how to reach him.`,
+  text: `I'm <b>amit.agent</b> — a conversational, RAG-grounded stand-in for <b>Amit Kumar</b>, AI Architect at E42.AI (Pune). I retrieve from a small knowledge base built from his real bio, systems, experience, talks, blog posts and résumé, then hand the matches to an LLM (a free OpenRouter model through a Cloudflare Worker, or a local model over ngrok) to compose the reply. Ask me about his current work, Marvin / Eddie / Vortex, skills, papers, experience, education, recognition, or how to reach him.`,
 };
 
 // "Surprise me" → hand-written hiring pitch. Bypasses retrieval and LLM
