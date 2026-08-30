@@ -23,6 +23,8 @@ PHONE_RE = re.compile(r'(?:\+?\d[\d\s\-]{8,}\d)')
 
 def clean(text):
     text = PHONE_RE.sub('[phone withheld]', text)
+    # The résumé PDF prints an outdated LinkedIn handle; the real one has no hyphen.
+    text = text.replace('amit-kumar0902', 'amitkumar0902')
     text = text.replace(' ', ' ')
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n\s*\n+', '\n', text)
