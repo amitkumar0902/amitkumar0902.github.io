@@ -2,16 +2,19 @@
 
 `index.html` is **amit.agent**: a single-file, chat-first portfolio. No framework, no
 build step for the page itself — one HTML file containing all CSS, HTML and JS
-(~3,500 lines). This document walks every block: what it is, what it does, where it
-lives. Line numbers are approximate (drift as the file is edited); function names are
-the stable anchors.
+(~3,500 lines). LLM mode is **live by default**: `CONFIG.endpoint` points at the
+deployed Cloudflare Worker `https://llm-proxy.amitkumar0902.workers.dev`, which
+proxies OpenRouter's free models with the API key held server-side as a secret.
+This document walks every block: what it is, what it does, where it lives. Line
+numbers are approximate (drift as the file is edited); function names are the
+stable anchors.
 
 ---
 
 ## 0 · Bird's-eye view
 
 ```
- BUILD TIME (laptop)                      RUNTIME (visitor's browser)                    BACKEND (optional)
+ BUILD TIME (laptop)                      RUNTIME (visitor's browser)                    BACKEND (live)
  ───────────────────                      ───────────────────────────                    ──────────────────
  blog-*.html ─┐                           index.html loads
  pubs/*.pdf  ─┼─ scripts/build-kb.py ─▶    ├─ KB[] hand-written chunks
@@ -24,14 +27,16 @@ the stable anchors.
                               retrieve(q) — BM25 over all chunks → top-10 "sources"
                                             │
                          ┌──────────────────┴───────────────────┐
-                  endpoint configured?                   no endpoint / call failed
+                  endpoint configured                    endpoint cleared / call failed
+                  (default: the Worker)                                  │
                          │                                       │
                   buildMessages():                        classify(q) → INTENTS
                   system prompt + history                 → hand-written HTML answer,
                   + CONTEXT chunks + question             typed out with fake streaming
                          │
-                  streamLLM() ── POST /v1/chat/completions ──▶ Cloudflare Worker ──▶ OpenRouter :free model
-                         ◀────────── SSE token stream ────────  (or your ngrok'd llama.cpp / vLLM / Ollama)
+                  streamLLM() ── POST /v1/chat/completions ──▶ llm-proxy.amitkumar0902.workers.dev
+                         ◀────────── SSE token stream ────────  ──▶ OpenRouter :free model
+                                     (or point ?endpoint= at an ngrok'd llama.cpp / vLLM / Ollama)
                          │
                   renderInline() while streaming → attachSources() chips → ♪ READ (TTS)
 ```
@@ -159,7 +164,7 @@ above if it would overflow, closes on outside-click/Escape/scroll/resize).
 
 | # | Block | Anchor | What happens |
 |---|---|---|---|
-| 1 | `CONFIG` | ~1660 | endpoint, model, apiKey, ttsProvider `'piper'`, piperVoice, `topK: 10`, `maxTurns: 12` |
+| 1 | `CONFIG` | ~1660 | `endpoint: 'https://llm-proxy.amitkumar0902.workers.dev'` (LLM on by default), model, apiKey, ttsProvider `'piper'`, piperVoice, `topK: 10`, `maxTurns: 12` |
 | 2 | `LS` | ~1688 | the localStorage keys: `ak.endpoint / ak.model / ak.apiKey / ak.theme / ak.tts` |
 | 3 | `applyOverrides()` | ~1692 | `?endpoint=…&model=…` → saved to localStorage → **scrubbed from the URL** (`window.history.replaceState` — `window.` because the chat transcript variable is also named `history`); then localStorage overrides `CONFIG` |
 | 4 | `chatUrl()` | ~1712 | normalises any paste into a full URL: adds scheme (`http://` for local hosts, `https://` otherwise), appends `/v1/chat/completions` unless already there |
@@ -306,8 +311,11 @@ text tokens, typed out with punctuation-aware pauses (140 ms after `.!?`, 60 ms 
 
 The page speaks plain OpenAI `/v1/chat/completions`, so three setups work:
 
-**A · Cloudflare Worker → OpenRouter** (`worker/llm-proxy.js`) — for the live site;
-the API key stays server-side. Request pipeline in `fetch()`:
+**A · Cloudflare Worker → OpenRouter** (`worker/llm-proxy.js`) — **DEPLOYED and the
+default**: `https://llm-proxy.amitkumar0902.workers.dev` on the account subdomain
+`amitkumar0902.workers.dev`, with the OpenRouter key stored as the `LLM_API_KEY`
+secret (a local copy sits in gitignored `worker/.dev.vars` for `wrangler dev`).
+Request pipeline in `fetch()`:
 
 ```
 OPTIONS → CORS preflight reply
@@ -323,16 +331,18 @@ handleChat():
   upstream error → relay its body + status with CORS headers so the page can read error.message
 ```
 
-Deploy: `cd worker && npx wrangler deploy && npx wrangler secret put LLM_API_KEY`,
-then put the printed URL in `CONFIG.endpoint` or the ⚙ panel. Any OpenAI-compatible
-upstream works by changing `UPSTREAM_BASE` in `wrangler.toml`.
+Redeploy after editing the Worker: `cd worker && npx wrangler deploy`. Rotate the
+key: new key at openrouter.ai/keys → `npx wrangler secret put LLM_API_KEY` (and
+update `.dev.vars`). Any OpenAI-compatible upstream works by changing
+`UPSTREAM_BASE` in `wrangler.toml`. Free-tier reality: ~50 requests/day on a $0
+OpenRouter account, 20/min — beyond that the page degrades to scripted answers.
 
 **B · Local model over ngrok** — llama.cpp / vLLM / Ollama / LM Studio +
 `ngrok http <port>`, then `index.html?endpoint=https://xxxx.ngrok-free.app`. The page
 adds the ngrok skip-warning header; your server must answer CORS preflights
 (llama.cpp: default ok; Ollama: `OLLAMA_ORIGINS`; vLLM: `--allowed-origins`).
 
-**C · None** — scripted mode; the page always answers.
+**C · Cleared** — empty the endpoint (⚙ Reset or `?endpoint=`) → scripted mode; the page always answers.
 
 **The ⚙ panel** (`setupBackendPanel()`, ~2179) — a fixed overlay opened from either
 column or the drawer. Fields: Endpoint, Model (blank = use the picker), API key
@@ -383,7 +393,8 @@ hidden on unsupported browsers.
 | Google Fonts | load | Space Grotesk + JetBrains Mono |
 | `*-kb.json` (same origin) | load | the generated KB chunks |
 | GitHub API (2 calls) | load | last push + repo count (unauth, fails silent) |
-| `CONFIG.endpoint` | per question (LLM mode only) | the chat completion |
+| OpenRouter `/api/v1/models` | load | live `:free` catalogue for the picker (public, no key) |
+| `CONFIG.endpoint` (the Worker → OpenRouter) | per question | the chat completion |
 | jsDelivr + HuggingFace | first ♪ READ only | Piper WASM + voice model |
 | Spotify iframe | first click on Now playing | the embedded player |
 
@@ -409,7 +420,7 @@ scripted fallback). `git push` to `main` deploys via GitHub Pages.
 | Fix/add a fact the agent knows | `KB` array in `index.html` (or the source post/PDF, then re-run `scripts/build-kb.py`) |
 | Change offline answers | `INTENTS` / `FALLBACK` / `SURPRISE_REPLY` / `GREETING_REPLY` / `PERSONA_REPLY` |
 | Change the agent's behaviour/tone | `SYSTEM_PROMPT` |
-| Point at a backend permanently | `CONFIG.endpoint` |
+| Change the default backend | `CONFIG.endpoint` (currently the deployed Worker) |
 | Add/remove picker models | `MODEL_OPTIONS` |
 | Change chips / topic shortcuts | the `#chips` buttons / `data-q` list items (HTML) |
 | Change the playlist | `NOW_PLAYING_URL` + the two `.np-text` labels |
