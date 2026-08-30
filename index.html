@@ -1276,6 +1276,9 @@
   .cfg-note.ok { color: var(--green); }
   .cfg-note.err { color: var(--red); }
   @media (max-width: 640px) { .cfg-panel { right: 8px; left: 8px; bottom: 8px; width: auto; } }
+
+  /* The model popover holds the full live catalogue — let it scroll. */
+  .model-popover { max-height: min(340px, 62vh); overflow-y: auto; }
 </style>
 </head>
 <body>
@@ -2057,9 +2060,10 @@ const modelActiveMobile = document.getElementById('modelActiveMobile');
 const modelMeta = document.getElementById('modelMeta');
 const modeBadge = document.getElementById('modeBadge');
 
-// Live OpenRouter ':free' catalogue — https://openrouter.ai/models?q=free
-// Free models rotate; when one is retired the Worker relays the 404 and the
-// page suggests picking another. Edit this list to track the catalogue.
+// Curated starter list of OpenRouter ':free' models (verified working). At load
+// time loadFreeCatalogue() below replaces/extends this with the LIVE catalogue
+// from the public /api/v1/models endpoint, so the picker always shows what
+// actually exists; this hard-coded list is only the offline/API-down fallback.
 const MODEL_OPTIONS = [
   { value: 'google/gemma-4-31b-it:free',              label: 'Gemma 4 · 31B · balanced' },
   { value: 'google/gemma-4-26b-a4b-it:free',          label: 'Gemma 4 · 26B-A4B · fastest' },
@@ -2117,13 +2121,18 @@ function applyModelChange(value) {
 }
 
 // ── Custom dropdown (fixed-positioned popover) ──────────
+let popoverRebuild = null;   // set by setupModelDropdown, called by loadFreeCatalogue
 (function setupModelDropdown() {
   const popover = document.getElementById('modelPopover');
   if (!popover) return;
 
-  popover.innerHTML = MODEL_OPTIONS.map(o =>
-    `<button type="button" role="option" data-value="${o.value}">${o.label}</button>`
-  ).join('');
+  const build = () => {
+    popover.innerHTML = MODEL_OPTIONS.map(o =>
+      `<button type="button" role="option" data-value="${o.value}">${o.label}</button>`
+    ).join('');
+  };
+  build();
+  popoverRebuild = build;
 
   let openTrigger = null;
   const close = () => {
@@ -2178,6 +2187,45 @@ function applyModelChange(value) {
   });
   window.addEventListener('resize', close);
   window.addEventListener('scroll', close, true);
+})();
+
+// ── Live OpenRouter free-model catalogue ────────
+// /api/v1/models is public and CORS-enabled. Filter ':free', newest/biggest-context
+// first, keep the curated (verified) entries pinned on top, drop anything retired.
+// On any failure the curated list simply stays — the picker never goes empty.
+(function loadFreeCatalogue() {
+  fetch('https://openrouter.ai/api/v1/models')
+    .then(r => r.ok ? r.json() : null)
+    .then(d => {
+      const all = d && Array.isArray(d.data) ? d.data : null;
+      if (!all) return;
+      const free = all.filter(m => /:free$/.test(m.id));
+      if (!free.length) return;
+
+      const fmtCtx = (n) => !n ? '' : n >= 1e6 ? ' · ' + Math.round(n / 1e6) + 'M ctx' : ' · ' + Math.round(n / 1024) + 'K ctx';
+      const live = new Set(free.map(m => m.id));
+
+      // Drop curated entries that no longer exist upstream.
+      for (let i = MODEL_OPTIONS.length - 1; i >= 0; i--) {
+        if (!live.has(MODEL_OPTIONS[i].value)) MODEL_OPTIONS.splice(i, 1);
+      }
+      // Append the rest of the live catalogue, biggest context first.
+      const known = new Set(MODEL_OPTIONS.map(o => o.value));
+      free.sort((a, b) => (b.context_length || 0) - (a.context_length || 0));
+      for (const m of free) {
+        if (known.has(m.id)) continue;
+        const name = String(m.name || m.id).replace(/\s*\(free\)\s*$/i, '');
+        MODEL_OPTIONS.push({ value: m.id, label: name + fmtCtx(m.context_length) });
+      }
+      // If the saved/active model was retired upstream, fall back to the top option.
+      if (CONFIG.model.endsWith(':free') && !live.has(CONFIG.model) && MODEL_OPTIONS.length) {
+        CONFIG.model = MODEL_OPTIONS[0].value;
+        localStorage.setItem(LS.model, CONFIG.model);
+      }
+      if (popoverRebuild) popoverRebuild();
+      refreshModeBadge();
+    })
+    .catch(() => { /* offline / API down — curated fallback stands */ });
 })();
 
 // ── Backend panel (Worker URL / ngrok endpoint / model / key) ──

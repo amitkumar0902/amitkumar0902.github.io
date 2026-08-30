@@ -341,10 +341,14 @@ posts a SYSTEM note; **Test** temporarily applies the form values, streams a one
 prompt, reports `OK · NNms · "reply"` or the error, then restores; **Reset** wipes
 `ak.endpoint/ak.apiKey/ak.model` back to scripted mode.
 
-**Model picker** — `MODEL_OPTIONS` (~2063) lists OpenRouter `:free` ids (Gemma 4 31B
-default, Gemma 4 26B-A4B, Nemotron 3 Super/Ultra, GLM 5.2, MiniMax M3). Free models
-rotate; when one is retired the Worker relays the 404 and the SYSTEM note tells the
-visitor to pick another. Refresh the list from https://openrouter.ai/models?q=free.
+**Model picker** — `MODEL_OPTIONS` starts as a curated list of verified `:free` ids
+(Gemma 4 31B default, MiniMax M3, Nemotron 3 …), then `loadFreeCatalogue()` fetches
+OpenRouter's public `/api/v1/models` at page load and replaces it with the **live**
+`:free` catalogue: curated entries stay pinned on top, the rest are appended biggest-
+context-first, retired ids are pruned (a saved-but-retired model auto-falls-back to
+the top option), and the popover scrolls. If the API is unreachable the curated list
+simply stands. Free-model 429s are absorbed by the `models:[…]` fallback list (max 3)
+that rides along on every `:free` request — OpenRouter tries them in order.
 
 ## 9 · Voice — sound in and out
 
