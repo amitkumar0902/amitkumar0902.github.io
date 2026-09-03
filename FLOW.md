@@ -65,7 +65,6 @@ worker/llm-proxy.js        Cloudflare Worker: browser → OpenRouter proxy
 worker/wrangler.toml       Worker config (UPSTREAM_BASE, FREE_ONLY, DEFAULT_MODEL)
 worker/README.md           deploy + verify + ngrok instructions
 .github/workflows/static.yml   pushes to main → GitHub Pages publishes the repo root
-norcetprep/, rrbprep/      separate products; not part of the portfolio or its KB
 FLOW.md                    this file
 ```
 

@@ -13,7 +13,6 @@ Amit Kumar's portfolio, served by GitHub Pages from the repo root.
 - `worker/` — Cloudflare Worker that proxies OpenRouter's free models and keeps the key
   server-side. See `worker/README.md`.
 - `scripts/mock-llm.py` — OpenAI-compatible mock server for local testing.
-- `norcetprep/`, `rrbprep/` — separate products, not part of the portfolio or the agent's knowledge base.
 
 ## Enabling the LLM
 
